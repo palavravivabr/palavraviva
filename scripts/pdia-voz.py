@@ -1,0 +1,21 @@
+#!/usr/bin/env python3
+"""Sintetiza com o Piper (voz Faber) os áudios da Palavra do Dia e grava MP3 mono leve.
+uso: pdia-voz.py MODELO.onnx textos.json pasta-saida [amostra|tudo]"""
+import json, os, subprocess, sys, tempfile
+modelo, textos, saida = sys.argv[1], sys.argv[2], sys.argv[3]
+modo = sys.argv[4] if len(sys.argv) > 4 else 'amostra'
+piper = os.environ.get('PIPER_BIN', 'piper')
+lista = json.load(open(textos, encoding='utf-8'))
+if modo != 'tudo':
+    lista = lista[:3]
+os.makedirs(saida, exist_ok=True)
+for it in lista:
+    wav = os.path.join(tempfile.gettempdir(), it['id'] + '.wav')
+    # length_scale um pouco acima de 1 deixa a leitura mais calma
+    subprocess.run([piper, '--model', modelo, '--length_scale', '1.12', '--sentence_silence', '0.45', '--output_file', wav],
+                   input=it['texto'].encode('utf-8'), check=True)
+    mp3 = os.path.join(saida, it['id'] + '.mp3')
+    subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', wav, '-ac', '1', '-ar', '22050', '-b:a', '40k', mp3], check=True)
+    os.remove(wav)
+    print('ok', it['id'], it['ref'], os.path.getsize(mp3), 'bytes')
+print(len(lista), 'áudios gerados em', saida)
