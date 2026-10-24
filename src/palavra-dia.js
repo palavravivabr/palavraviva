@@ -102,7 +102,7 @@
     texto: 'E não vos conformeis com a presente era; mas transformai-vos pela renovação da vossa mentalidade, para que experimenteis qual seja a boa, agradável, e perfeita vontade de Deus.',
     reflexao: 'A transformação começa pela mente. Em vez de seguir o molde do mundo, somos chamados a ser renovados, e é nessa renovação que aprendemos a reconhecer a boa, agradável e perfeita vontade de Deus.',
     oracao: 'Pai, renova a minha mente pela Tua Palavra. Que eu não me conforme com o que passa, mas aprenda a conhecer a Tua vontade.' },
-  { b: '47', c: 12, v: 9, ate: 9, ref: '2 Corínthos 12:9',
+  { b: '47', c: 12, v: 9, ate: 9, ref: '2 Coríntios 12:9',
     texto: 'Mas ele me disse: “Minha graça te basta, porque meu poder se aperfeiçoa na fraqueza”. Por isso, com muito prazer, eu me orgulharei nas minhas fraquezas, para que o poder de Cristo habite em mim.',
     reflexao: 'Paulo ouviu de Deus que a graça basta, e que o poder dele se aperfeiçoa na fraqueza. Isso muda o modo de ver as nossas limitações: elas podem se tornar o lugar onde a graça de Deus aparece com mais clareza.',
     oracao: 'Senhor, a Tua graça me basta. Nas minhas fraquezas, mostra o Teu poder e ensina-me a descansar em Ti.' },

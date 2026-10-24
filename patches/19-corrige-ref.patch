@@ -1,9 +1,0 @@
-diff --git a/src/palavra-dia.js b/src/palavra-dia.js
-index 6a4d84c..6b98276 100644
---- a/src/palavra-dia.js
-+++ b/src/palavra-dia.js
-@@ -104,3 +104,3 @@
-     oracao: 'Pai, renova a minha mente pela Tua Palavra. Que eu não me conforme com o que passa, mas aprenda a conhecer a Tua vontade.' },
--  { b: '47', c: 12, v: 9, ate: 9, ref: '2 Corínthos 12:9',
-+  { b: '47', c: 12, v: 9, ate: 9, ref: '2 Coríntios 12:9',
-     texto: 'Mas ele me disse: “Minha graça te basta, porque meu poder se aperfeiçoa na fraqueza”. Por isso, com muito prazer, eu me orgulharei nas minhas fraquezas, para que o poder de Cristo habite em mim.',
