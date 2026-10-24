@@ -1320,7 +1320,9 @@
   },
   "42-18-12-22": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:viver:41-10-32-42",
+   "estado": "pronto",
+   "titulo": "A pergunta que parou o jovem rico"
   },
   "42-18-23-32": {
    "execucoes": 0,
@@ -1349,28 +1351,32 @@
   "42-20-1-12": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-20-13-24": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 455,
-   "entrada": 1127515,
-   "saida": 406426
+   "chamadas": 462,
+   "entrada": 1146302,
+   "saida": 412274
   },
   "groq-qwen": {
-   "chamadas": 453,
-   "entrada": 1072513,
-   "saida": 365457
+   "chamadas": 460,
+   "entrada": 1090958,
+   "saida": 371145
   },
   "gemini": {
-   "chamadas": 376,
-   "entrada": 1218389,
-   "saida": 481784
+   "chamadas": 381,
+   "entrada": 1234201,
+   "saida": 492279
   },
   "cloudflare": {
-   "chamadas": 229,
-   "entrada": 797723,
-   "saida": 84959
+   "chamadas": 230,
+   "entrada": 801117,
+   "saida": 85330
   },
   "mistral": {
    "chamadas": 0,

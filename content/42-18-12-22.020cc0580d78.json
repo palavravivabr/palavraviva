@@ -1,0 +1,140 @@
+{
+ "id": "42-18-12-22",
+ "ref": "Lucas 18:12-22",
+ "book": "42",
+ "chapter": 18,
+ "verses": [
+  {
+   "n": 12,
+   "t": "Jejuo duas vezes por semana, e dou dízimo de tudo quanto possuo."
+  },
+  {
+   "n": 13,
+   "t": "E o publicano, estando em pé de longe, nem mesmo queria levantar os olhos ao céu, mas batia em seu peito, dizendo: Ó Deus, tem misericórdia de mim, que sou pecador."
+  },
+  {
+   "n": 14,
+   "t": "Digo-vos que este desceu mais justificado à sua casa do que aquele outro; porque qualquer que a si mesmo se exalta, será humilhado; e qualquer que a si mesmo se humilha, será exaltado."
+  },
+  {
+   "n": 15,
+   "t": "E traziam-lhe também crianças pequenas, para que as tocasse; e os discípulos, vendo, os repreendiam."
+  },
+  {
+   "n": 16,
+   "t": "Mas Jesus, chamando-lhes para si, disse: Deixai as crianças virem a mim, e não as impeçais; porque das tais é o Reino de Deus."
+  },
+  {
+   "n": 17,
+   "t": "Em verdade vos digo, que qualquer que não receber o Reino de Deus como criança, não entrará nele."
+  },
+  {
+   "n": 18,
+   "t": "E um certo líder lhe perguntou, dizendo: Bom mestre, o que tenho que fazer para herdar a vida eterna?"
+  },
+  {
+   "n": 19,
+   "t": "E Jesus lhe disse: Por que me chamas de bom? Ninguém é bom, a não ser um: Deus."
+  },
+  {
+   "n": 20,
+   "t": "Tu sabes os mandamentos: não adulterarás, não matarás, não furtarás, não darás falso testemunho, honra a teu pai e a tua mãe."
+  },
+  {
+   "n": 21,
+   "t": "E ele disse: Todas estas coisas tenho guardado desde minha juventude."
+  },
+  {
+   "n": 22,
+   "t": "Porém Jesus, ouvindo isto, disse-lhe: Ainda uma coisa te falta: vende tudo quanto tens, e reparte-o entre os pobres, e terás um tesouro no céu; e vem, segue-me."
+  }
+ ],
+ "titulo": "A pergunta que parou o jovem rico",
+ "temas": [
+  "humildade",
+  "riqueza",
+  "seguidor"
+ ],
+ "pergunta": "O que impede uma pessoa educada e religiosa de seguir Jesus até o fim?",
+ "entender": "O texto começa com a conclusão da parábola do fariseu e do publicano. Jesus ensina que quem se humilha será exaltado, pois o publicano, ao se reconhecer pecador, voltou para casa justificado. Em seguida, Jesus recebe crianças e é abordado por um líder que pergunta o que fazer para herdar a vida eterna.\n\nO homem afirma ter guardado os mandamentos desde a juventude. Jesus, porém, vê o que está no fundo do coração: a dependência do dinheiro. Ele pede ao líder que venda tudo, reparta com os pobres e o siga. A cena mostra que a religião externa não substitui a entrega total a Cristo.",
+ "ligar": {
+  "texto": "Jesus identifica a barreira real: a confiança nas próprias obras e posses. Ao pedir que o jovem vendesse tudo, Ele apontava que a vida eterna não é um prêmio por mérito, mas um relacionamento de dependência. O evangelho nos liberta para confiar em Deus, não em nós mesmos, através da fé em Jesus.",
+  "selo": true
+ },
+ "viver": "O jovem rico ficou triste ao ouvir o pedido de Jesus. Isso mostra que, muitas vezes, nossa maior dificuldade não é a falta de conhecimento, mas a relutância em abrir mão do controle. Identifique uma área da sua vida onde você tenta ser o 'dono' (seu tempo, seu dinheiro ou sua imagem). Que pequeno passo prático você pode dar hoje para entregar essa área a Deus, confiando que Ele cuidará de você?",
+ "guarde": "Quem se humilha diante de Deus será exaltado, pois a graça alcança quem reconhece sua necessidade.",
+ "ore": "Líder que se achava justo, ensina-me a ver minha verdadeira condição. Ajuda-me a não confiar em minhas obras, mas na graça de Jesus, para que eu possa segui-Lo com liberdade e coração aberto.",
+ "quiz": {
+  "pergunta": "Qual foi a reação do jovem rico quando Jesus lhe pediu que vendesse tudo e o seguisse?",
+  "opcoes": [
+   "Ele vendeu tudo imediatamente.",
+   "Ele se recusou a ouvir Jesus.",
+   "Ele ficou muito triste."
+  ],
+  "certa": 2,
+  "explicacao": "O versículo 23 (contexto após o alvo) diz que ele ficou muito triste porque era muito rico, mostrando que suas posses eram maiores que seu desejo de seguir Jesus."
+ },
+ "refs": [
+  "Mateus 19:16-22",
+  "Marcos 10:17-22",
+  "Filipenses 3:8"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-24T18:45:51.916Z",
+  "rounds": 2
+ }
+}
