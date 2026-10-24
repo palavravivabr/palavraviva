@@ -1,0 +1,134 @@
+{
+ "id": "42-17-20-28",
+ "ref": "Lucas 17:20-28",
+ "book": "42",
+ "chapter": 17,
+ "verses": [
+  {
+   "n": 20,
+   "t": "E perguntado pelos fariseus sobre quando o Reino de Deus viria, respondeu-lhes, e disse: O Reino de Deus não vem com aparência visível."
+  },
+  {
+   "n": 21,
+   "t": "Nem dirão: Eis aqui, ou Eis ali, porque eis que o Reino de Deus está entre vós."
+  },
+  {
+   "n": 22,
+   "t": "E disse aos discípulos: Dias virão, quando desejareis ver um dos dias do Filho do homem, e não o vereis."
+  },
+  {
+   "n": 23,
+   "t": "E vos dirão: Eis que ele está aqui, ou Eis que ele está ali, não vades, nem sigais."
+  },
+  {
+   "n": 24,
+   "t": "Porque como o relâmpago, que relampeja desde o começo do céu, e brilha até ao fim do céu, assim será também o Filho do homem em seu dia."
+  },
+  {
+   "n": 25,
+   "t": "Mas é necessário primeiro sofrer muito, e ser rejeitado por esta geração."
+  },
+  {
+   "n": 26,
+   "t": "E como aconteceu nos dias de Noé, assim será também nos dias do Filho do homem."
+  },
+  {
+   "n": 27,
+   "t": "Comiam, bebiam, se casavam, e se davam em casamento, até o dia em que Noé entrou na arca; e veio o dilúvio, e destruiu a todos."
+  },
+  {
+   "n": 28,
+   "t": "Como também da mesma maneira aconteceu nos dias de Ló, comiam, bebiam, compravam, vendiam, plantavam, e construíam."
+  }
+ ],
+ "titulo": "O Reino que não faz barulho",
+ "temas": [
+  "reino de deus",
+  "vigilância",
+  "julgamento",
+  "presente",
+  "futuro"
+ ],
+ "pergunta": "Se o Reino de Deus não chega com um espetáculo, como podemos reconhecê-lo no dia a dia?",
+ "entender": "Os fariseus perguntaram a Jesus quando o Reino de Deus viria, esperando talvez um evento político ou militar visível. A resposta de Jesus foi surpreendente: \"O Reino de Deus não vem com aparência visível\". Ele explicou que não haverá sinais externos gritantes para que as pessoas digam \"está aqui\" ou \"está ali\", porque a realidade do Reino já está \"entre vós\". Não se trata de um território geográfico, mas da autoridade de Deus presente em Cristo e em sua obra.\n\nEm seguida, Jesus muda o foco para o futuro. Ele avisa os discípulos que virão dias em que eles desejarão ver o Filho do Homem, mas não o verão. Ele compara sua volta ao relâmpago que ilumina todo o céu de repente e de forma inconfundível. Não será um evento oculto, mas sim algo tão claro e universal que ninguém ficará surpreso com a origem da luz. A comparacao com o dilúvio nos dias de Noé e com a destruição de Sodoma nos dias de Ló serve para ilustrar a normalidade da vida humana diante do julgamento divino. As pessoas continuavam comendo, bebendo, casando-se e trabalhando, totalmente absortas em suas rotinas, até que o juízo veio de forma súbita e irreversível.\n\nO texto nos convida a equilibrar duas verdades: o Reino já está presente em Cristo, mas sua consumação futura é certa e súbita. A ausência de sinais visíveis não significa ausência de realidade, e a normalidade do cotidiano não deve nos fazer perder a consciência do eterno.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para a pessoa de Jesus como o centro da história da salvação. Ele é o \"Filho do Homem\" cujo dia virá com a clareza do relâmpago. A presença do Reino \"entre vós\" refere-se a Jesus e ao seu ministério que traz a autoridade de Deus. O evangelho é a preparação para esse dia: enquanto vivemos sob o Reino presente, somos chamados a viver com a consciência de que o juízo final é real e que a graça de Cristo nos oferece um caminho de segurança, assim como a arca salvou Noé. A mensagem é de esperança e urgência: Jesus veio, está presente, e voltará.",
+  "selo": true
+ },
+ "viver": "A rotina pode ser um anestésico espiritual. Assim como as pessoas nos dias de Noé não percebiam a gravidade da situação porque estavam focadas no imediato, corremos o risco de tratar a vida como se não tivesse um sentido eterno. Aplicar este texto significa revisar nossas prioridades: estamos vivendo apenas para o \"hoje\" ou estamos alinhados com o Reino de Deus? Não se trata de viver com medo paralisante, mas com atenção desperta. Pergunte-se: se Jesus voltasse amanhã, como minha vida estaria? Use o tempo presente para investir em relacionamentos, fé e serviço, sabendo que o tempo é curto e que a presença de Deus está no meio de nós agora.",
+ "guarde": "O Reino de Deus já está entre nós, mas sua vinda final será súbita como o relâmpago; vivamos atentos.",
+ "ore": "Senhor, assim como os dias de Noé mostraram a cegueira da rotina, ajuda-me a não me deixar levar apenas pelas preocupações do momento. Que eu reconheça o Reino de Deus presente em minha vida através de Cristo e viva com a consciência de que Tu voltarás. Dá-me sabedoria para equilibrar a paz do presente com a vigilância para o futuro, confiando em Tua graça.",
+ "quiz": {
+  "pergunta": "O que Jesus disse sobre a forma como o Reino de Deus virá?",
+  "opcoes": [
+   "Vem apenas no fim dos tempos",
+   "Vem com sinais gritantes no céu",
+   "Não vem com aparência visível"
+  ],
+  "certa": 2,
+  "explicacao": "Jesus afirmou explicitamente que o Reino não vem com aparência visível, contrariando a expectativa dos fariseus de um evento externo e espetacular."
+ },
+ "refs": [
+  "Mateus 24:27-29",
+  "Atos 1:11",
+  "2 Pedro 3:10"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-24T15:45:50.319Z",
+  "rounds": 1
+ }
+}

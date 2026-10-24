@@ -1,0 +1,138 @@
+{
+ "id": "42-17-10-19",
+ "ref": "Lucas 17:10-19",
+ "book": "42",
+ "chapter": 17,
+ "verses": [
+  {
+   "n": 10,
+   "t": "Assim também vós, quando fizerdes tudo o que vos for mandado, dizei: Somos servos inúteis, porque fizemos somente o que devíamos fazer."
+  },
+  {
+   "n": 11,
+   "t": "E aconteceu que, indo ele para Jerusalém, passou por meio da Samaria e da Galileia."
+  },
+  {
+   "n": 12,
+   "t": "E entrando em uma certa aldeia, saíram-lhe ao encontro dez homens leprosos, os quais pararam de longe."
+  },
+  {
+   "n": 13,
+   "t": "E levantaram a voz, dizendo: Jesus, Mestre, tem misericórdia de nós!"
+  },
+  {
+   "n": 14,
+   "t": "E ele, vendo-os, disse-lhes: Ide, e mostrai-vos aos sacerdotes.E aconteceu que, enquanto eles iam, ficaram limpos."
+  },
+  {
+   "n": 15,
+   "t": "E vendo um deles que estava são, voltou, glorificando a Deus a alta voz."
+  },
+  {
+   "n": 16,
+   "t": "E caiu com o rosto a seus pés, agradecendo-lhe; e este era samaritano."
+  },
+  {
+   "n": 17,
+   "t": "E respondendo Jesus, disse: Não foram os dez limpos? E onde estão os nove?"
+  },
+  {
+   "n": 18,
+   "t": "Não houve quem voltasse para dar glória a Deus, a não ser este estrangeiro?"
+  },
+  {
+   "n": 19,
+   "t": "E disse-lhe: Levanta-te, e vai; tua fé te salvou."
+  }
+ ],
+ "titulo": "A gratidão que revela a fé",
+ "temas": [
+  "gratidão",
+  "fé",
+  "inclusão",
+  "serviço",
+  "cura"
+ ],
+ "pergunta": "O que separa a gratidão de quem foi curado da indiferença de quem apenas recebeu?",
+ "entender": "Jesus passava por Samaria e Galileia quando dez leprosos o encontraram. Eles pediram misericórdia e Jesus mandou que fossem mostrar-se aos sacerdotes. No caminho, ficaram limpos. Mas apenas um, um samaritano, voltou para glorificar a Deus e agradecer a Jesus. Jesus perguntou onde estavam os outros nove.\n\nEste homem era estrangeiro, pois samaritanos e judeus não se davam bem. Ao voltar, ele caiu aos pés de Jesus e deu graças. Jesus respondeu que a fé dele o salvou. O texto mostra que a cura física aconteceu para todos, mas a resposta de gratidão e reconhecimento foi única no samaritano, revelando uma fé que o levou de volta a Jesus.\n\nA lição anterior sobre ser \"servo inútil\" contrasta com a atitude deste homem. Ele não apenas cumpriu a ordem, mas retornou para expressar amor e gratidão. Isso demonstra que a salvação envolve não apenas o milagre, mas a transformação do coração que reconhece o Doador.",
+ "ligar": {
+  "texto": "Aqui, Jesus é o Salvador que cura e aceita a todos, até o excluído socialmente. A frase \"tua fé te salvou\" aponta para a salvação eterna, não apenas física. O evangelho é oferecido a todos, independentemente da origem, e a fé que salva é aquela que se volta para Cristo com gratidão e confiança, reconhecendo que a vida e a cura vêm dEle.",
+  "selo": true
+ },
+ "viver": "Imagine a cena: nove homens seguem seu caminho, absortos na novidade da saúde, enquanto um para tudo para retornar. A aplicação prática é simples: pare de tratar as bênçãos de Deus como automaticamente suas. Quando receber ajuda, cura ou provisão, detenha-se intencionalmente. Não apenas use o benefício, mas volte para a fonte. Agradeça a Jesus nominalmente, reconhecendo que foi Ele quem agiu. Essa pausa de gratidão alinha seu coração com a realidade da graça e fortalece sua fé.",
+ "guarde": "A verdadeira fé se revela quando paramos para agradecer a Deus, reconhecendo que toda cura e vida vêm dEle.",
+ "ore": "No caminho de Jerusalém, Tu passaste por mim. Assim como o samaritano que voltou para Te agradecer, eu quero parar agora. Perdoa minha indiferença diante das Tuas bênçãos. Ensina-me a reconhecer Teu amor em cada detalhe, confiando na Tua salvação e na transformação que Tu operas em mim.",
+ "quiz": {
+  "pergunta": "Quem era o homem que voltou para agradecer a Jesus?",
+  "opcoes": [
+   "Um fariseu",
+   "Um samaritano",
+   "Um dos doze discípulos"
+  ],
+  "certa": 1,
+  "explicacao": "O texto identifica explicitamente o homem que voltou como samaritano, destacando seu status de estrangeiro em relação aos judeus presentes."
+ },
+ "refs": [
+  "Lucas 19:1-10",
+  "João 9:34-38",
+  "Atos 10:34-35"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-24T15:44:22.281Z",
+  "rounds": 3
+ }
+}

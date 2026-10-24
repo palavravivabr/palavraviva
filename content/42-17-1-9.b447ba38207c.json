@@ -1,0 +1,133 @@
+{
+ "id": "42-17-1-9",
+ "ref": "Lucas 17:1-9",
+ "book": "42",
+ "chapter": 17,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E disse aos discípulos: É impossível que não venham tentações para o pecado, mas ai daquele por quem essas tentações vierem!"
+  },
+  {
+   "n": 2,
+   "t": "Melhor lhe seria que lhe atasse ao pescoço uma grande pedra de moinho, e fosse lançado no mar, do que conduzir ao pecado um destes pequenos."
+  },
+  {
+   "n": 3,
+   "t": "Olhai por vós. E se teu irmão pecar contra ti, repreende-o; e se ele se arrepender, perdoa-lhe."
+  },
+  {
+   "n": 4,
+   "t": "E se pecar contra ti sete vezes ao dia, e se sete vezes ao dia voltar a ti, dizendo: Estou arrependido. Perdoa-lhe."
+  },
+  {
+   "n": 5,
+   "t": "E os apóstolos disseram ao Senhor: Acrescenta-nos fé."
+  },
+  {
+   "n": 6,
+   "t": "E o Senhor disse: Se tivésseis fé como um grão de mostarda, diríeis a esta árvore de amoras: Arranca-te daqui pelas tuas raízes, e planta-te no mar, ela vos obedeceria."
+  },
+  {
+   "n": 7,
+   "t": "E qual de vós terá um servo, lavrando ou apascentando gado que, voltando do campo, logo lhe diga: Chega, e senta à mesa ."
+  },
+  {
+   "n": 8,
+   "t": "E não lhe diga antes: Prepara-me o jantar, e apronta-te, e serve-me, até que eu tenha comido e bebido; e depois, que tu comas e bebas."
+  },
+  {
+   "n": 9,
+   "t": "Por acaso o senhor agradece a tal servo, porque fez o que lhe foi mandado? Acho que não."
+  }
+ ],
+ "titulo": "O peso de uma pedra e o grão de fé",
+ "temas": [
+  "perdão",
+  "serviço",
+  "tentação",
+  "humildade"
+ ],
+ "pergunta": "O que você faria se fosse obrigado a perdoar a mesma pessoa sete vezes em um único dia?",
+ "entender": "Jesus abre o discurso alertando que as tentações para pecar são inevitáveis. Ele usa uma imagem chocante: seria melhor ter uma pedra de moinho atada ao pescoço e ser lançado no mar do que fazer com que um destes pequenos tropece. Isso mostra a seriedade com que Deus trata a nossa influência sobre os outros.\n\nEm seguida, o foco muda para o perdão. Se um irmão pecar contra você e se arrepender, perdoe. E se isso acontecer sete vezes no mesmo dia? A ordem continua sendo a mesma: perdoe. Os apóstolos, impressionados com a exigência, pedem a Jesus: Acrescenta-nos fé. Jesus responde que até uma fé pequena, como um grão de mostarda, tem poder para mover obstáculos impossíveis.\n\nPara fechar, Jesus conta a parábola do servo. Um trabalhador que volta do campo não é agradecido pelo patrão por fazer seu dever; ele é esperado para servir à mesa. A lição é que fazer o que é certo é obrigação, não motivo para exigir reconhecimento ou gratidão especial.",
+ "ligar": {
+  "texto": "Este texto nos conduz a Jesus, que é a fonte da fé que nos permite perdoar além da nossa capacidade humana. A demanda por um perdão radical (sete vezes ao dia) é impossível pela força própria, mas torna-se viável quando confiamos na graça que recebemos de Cristo. Jesus é o Servo perfeito que fez a vontade do Pai sem buscar recompensa, ensinando-nos a servir com humildade e a depender inteiramente Dele para vencer as tentações e amar os outros.",
+  "selo": true
+ },
+ "viver": "A parábola do servo nos lembra que servir não é um favor que fazemos aos outros, mas a nossa posição natural diante de Deus. Em vez de esperar reconhecimento ou ficar ofendido quando não somos valorizados, podemos ver o serviço como uma expressão de gratidão. Na prática, isso significa tratar as obrigações diárias — no trabalho, em casa ou na igreja — como atos de adoração, sem a expectativa de aplausos, confiando que o olhar de Jesus é o único que importa.",
+ "guarde": "Fazer o que é certo é dever, não moeda de troca; nossa fé pequena basta quando está em Cristo.",
+ "ore": "Pai, diante da exigência de perdoar sete vezes, minha força acaba rápido. Mas confio no Teu grão de fé. Ensina-me a servir como servo inútil, sem buscar aplausos, mas apenas a Tua aprovação. Dá-me a graça de não ser pedra de tropeço para os pequenos, mas ponte de reconciliação.",
+ "quiz": {
+  "pergunta": "Segundo Lucas 17, qual era a atitude esperada do servo ao voltar do campo?",
+  "opcoes": [
+   "Sentar-se imediatamente à mesa para descansar",
+   "Preparar o jantar e servir o patrão",
+   "Pedir um aumento por ter trabalhado duro"
+  ],
+  "certa": 1,
+  "explicacao": "O texto contrasta a expectativa do servo de ser servido com a realidade de que ele deve servir, mostrando que fazer o que se espera não gera direito a recompensa."
+ },
+ "refs": [
+  "Mateus 18:21-22",
+  "Marcos 4:30-32",
+  "Colossenses 3:13"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-24T15:43:52.239Z",
+  "rounds": 2
+ }
+}

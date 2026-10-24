@@ -1288,19 +1288,27 @@
   },
   "42-16-22-31": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: PRAYER_FIDELITY: A oração é dirigida ao patriarca Abraão em vez de ser dirigida a Deus, contrariando o ensino bíblico sobre a oração.",
+   "estado": "pronto",
+   "titulo": "O abismo que separa as escolhas eternas"
   },
   "42-17-1-9": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:viver:43-19-22-32",
+   "estado": "pronto",
+   "titulo": "O peso de uma pedra e o grão de fé"
   },
   "42-17-10-19": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: PRAYER_FIDELITY: A oração afirma 'confiando que Tua fé me salva' dirigindo-se a Jesus, confundindo a declaração de Jesus ao leproso ('a tua fé te salvou') com a fé de Deus/Jesus.",
+   "estado": "pronto",
+   "titulo": "A gratidão que revela a fé"
   },
   "42-17-20-28": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "O Reino que não faz barulho"
   },
   "42-17-29-37": {
    "execucoes": 0,
@@ -1345,24 +1353,24 @@
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 448,
-   "entrada": 1108244,
-   "saida": 400407
+   "chamadas": 455,
+   "entrada": 1127515,
+   "saida": 406426
   },
   "groq-qwen": {
-   "chamadas": 445,
-   "entrada": 1050842,
-   "saida": 358768
+   "chamadas": 453,
+   "entrada": 1072513,
+   "saida": 365457
   },
   "gemini": {
-   "chamadas": 369,
-   "entrada": 1195720,
-   "saida": 469508
+   "chamadas": 376,
+   "entrada": 1218389,
+   "saida": 481784
   },
   "cloudflare": {
-   "chamadas": 225,
-   "entrada": 783632,
-   "saida": 83475
+   "chamadas": 229,
+   "entrada": 797723,
+   "saida": 84959
   },
   "mistral": {
    "chamadas": 0,

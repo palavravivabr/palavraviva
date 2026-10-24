@@ -1,0 +1,137 @@
+{
+ "id": "42-16-22-31",
+ "ref": "Lucas 16:22-31",
+ "book": "42",
+ "chapter": 16,
+ "verses": [
+  {
+   "n": 22,
+   "t": "E aconteceu que o mendigo morreu, e foi levado pelos anjos para o colo de Abraão. E o rico também morreu, e foi sepultado."
+  },
+  {
+   "n": 23,
+   "t": "E estando no Xeol em tormentos, ele levantou seus olhos, e viu a Abraão de longe, e a Lázaro junto dele."
+  },
+  {
+   "n": 24,
+   "t": "E ele, chamando, disse: Pai Abraão, tem misericórdia de mim, e manda a Lázaro que molhe a ponta de seu dedo na água, e refresque a minha língua; porque estou sofrendo neste fogo."
+  },
+  {
+   "n": 25,
+   "t": "Porém Abraão disse: Filho, lembra-te que em tua vida recebeste teus bens, e Lázaro do mesmo jeito recebeu males. E agora este é consolado, e tu és atormentado."
+  },
+  {
+   "n": 26,
+   "t": "E, além de tudo isto, um grande abismo está posto entre nós e vós, para os que quisessem passar daqui para vós não possam; nem também os daí passarem para cá."
+  },
+  {
+   "n": 27,
+   "t": "E disse ele: Rogo-te, pois, ó pai, que o mandes à casa de meu pai."
+  },
+  {
+   "n": 28,
+   "t": "Porque tenho cinco irmãos, para que lhes dê testemunho; para que também não venham para este lugar de tormento."
+  },
+  {
+   "n": 29,
+   "t": "Disse-lhe Abraão: Eles têm a Moisés e aos profetas, ouçam-lhes."
+  },
+  {
+   "n": 30,
+   "t": "E ele disse: Não, pai Abraão; mas se alguém dos mortos fosse até eles, eles se arrependeriam."
+  },
+  {
+   "n": 31,
+   "t": "Porém Abraão lhe disse: Se não ouvem a Moisés e aos profetas, também não se deixariam convencer, ainda que alguém ressuscite dos mortos."
+  }
+ ],
+ "titulo": "O abismo que separa as escolhas eternas",
+ "temas": [
+  "justiça",
+  "arrependimento",
+  "palavra",
+  "morte"
+ ],
+ "pergunta": "Se a Bíblia já está disponível, por que ainda precisamos de sinais extraordinários para nos arrependermos?",
+ "entender": "A cena é chocante: o rico, que viveu no luxo, está em tormento, enquanto Lázaro, o mendigo ferido, descansa no colo de Abraão. O rico pede apenas uma gota de água para aliviar a língua ardente, mas Abraão explica que as esferas estão separadas por um \"grande abismo\" intransponível. Não é uma punição arbitrária, mas a consequência direta das escolhas feitas na vida terrena: o rico teve bens e ignorou o sofrimento alheio; Lázaro teve males e agora é consolado.\n\nO rico, mesmo no sofrimento, ainda tenta negociar. Ele pede que Lázaro seja enviado aos seus cinco irmãos para alertá-los. Abraão responde que eles já têm \"Moisés e aos profetas\", ou seja, a Palavra de Deus é suficiente para levar ao arrependimento. O rico argumenta que um morto ressuscitado teria mais impacto, mas Abraão revela a dureza do coração humano: quem rejeita a voz de Deus na vida não será convencido nem por um milagre.",
+ "ligar": {
+  "texto": "Esta parábola nos confronta com a urgência da resposta à Palavra de Deus. Jesus usa essa história para mostrar que a salvação não depende de sinais sobrenaturais, mas da obediência à revelação que já temos. O evangelho é a voz de Deus que chama ao arrependimento hoje. Se ignoramos o convite de Cristo enquanto estamos vivos, corremos o risco de chegar a um ponto sem retorno, onde nenhum apelo será suficiente para mudar nosso destino.",
+  "selo": false
+ },
+ "viver": "Muitas vezes, esperamos um sinal claro, uma experiência emocional intensa ou uma prova divina para decidir sobre nossa fé. Mas o texto mostra que a verdadeira decisão vem de ouvir e obedecer à Palavra que já está em nossas mãos. Não adie a resposta a Deus. Se você sente a voz de Jesus chamando, não espere por mais evidências. A graça é oferecida agora, enquanto há tempo para arrepender-se e aceitar a reconciliação com Deus.",
+ "guarde": "Quem rejeita a voz de Deus na vida não será convencido por milagres.",
+ "ore": "Pai, Tu que falas através da Tua Palavra, ensina-me a não endurecer o coração. Dá-me sensibilidade para ouvir a Tua voz hoje, sem esperar sinais extraordinários. Que minha vida reflita a obediência à Tua vontade, antes que seja tarde.",
+ "quiz": {
+  "pergunta": "Por que Abraão recusou o pedido do rico de enviar Lázaro aos irmãos?",
+  "opcoes": [
+   "Porque os irmãos já estavam no paraíso.",
+   "Porque eles já tinham Moisés e os profetas.",
+   "Porque Lázaro estava ocupado demais."
+  ],
+  "certa": 1,
+  "explicacao": "Abraão argumenta que a Palavra de Deus (Moisés e os profetas) é suficiente para levar ao arrependimento, e que a rejeição dela torna qualquer outro sinal inútil."
+ },
+ "refs": [
+  "Mateus 22:29",
+  "Hebreus 4:12",
+  "2 Coríntios 6:2"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-24T15:44:49.405Z",
+  "rounds": 2
+ }
+}
