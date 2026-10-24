@@ -61,7 +61,71 @@
   { b: '48', c: 6, v: 9, ate: 9, ref: 'Gálatas 6:9',
     texto: 'Porém não cansemos de fazer o bem, pois no tempo devido colheremos, se não desistirmos.',
     reflexao: 'Fazer o bem cansa quando o resultado demora. A Palavra não promete que será fácil, mas que haverá colheita no tempo certo, se não desanimarmos.',
-    oracao: 'Senhor, dá-me perseverança para fazer o bem sem desanimar. Que eu confie na Tua colheita no tempo certo.' }
+    oracao: 'Senhor, dá-me perseverança para fazer o bem sem desanimar. Que eu confie na Tua colheita no tempo certo.' },
+  { b: '19', c: 27, v: 1, ate: 1, ref: 'Salmos 27:1',
+    texto: 'O SENHOR é minha luz e minha salvação; a quem temerei? O SENHOR é a força da minha vida; de quem terei medo?',
+    reflexao: 'A luz afasta a escuridão, e o medo costuma morar no escuro. O salmista não diz que não há perigos, mas que o Senhor é a luz, a salvação e a fortaleza da sua vida. Quando o medo chegar hoje, pergunte a quem ele pertence e a quem você pertence.',
+    oracao: 'Senhor, Tu és a minha luz e a minha salvação. Quando o medo tentar falar mais alto, lembra-me de que Tu és a fortaleza da minha vida.' },
+  { b: '19', c: 37, v: 5, ate: 6, ref: 'Salmos 37:5-6',
+    texto: 'Entrega o teu caminho ao SENHOR; confia nele, e ele agirá, e manifestará a tua justiça como a luz, e o teu direito como o sol do meio-dia.',
+    reflexao: 'Entregar o caminho ao Senhor é tirar o peso dos nossos ombros e colocá-lo nas mãos de quem pode carregá-lo. Confiar não é ficar parado, é caminhar sabendo em quem se apoia, e deixar que Ele aja.',
+    oracao: 'Pai, entrego a Ti o meu caminho de hoje. Confio em Ti e peço que faças o que eu não consigo fazer.' },
+  { b: '19', c: 91, v: 1, ate: 2, ref: 'Salmos 91:1-2',
+    texto: 'Aquele que mora no esconderijo do Altíssimo, à sombra do Todo-Poderoso habitará. Direi ao SENHOR: Tu és meu refúgio e minha fortaleza; Deus meu, em quem confio.',
+    reflexao: 'Habitar no esconderijo do Altíssimo é fazer de Deus a nossa morada, e não apenas uma visita nos dias difíceis. Quem mora ali pode dizer, com calma, que Ele é refúgio, fortaleza e o Deus em quem confia.',
+    oracao: 'Senhor, quero morar no Teu abrigo. Sê o meu refúgio e a minha fortaleza, e que eu confie em Ti em todos os momentos.' },
+  { b: '19', c: 34, v: 8, ate: 8, ref: 'Salmos 34:8',
+    texto: 'Experimentai, e vede que o SENHOR é bom; bem-aventurado é o homem que confia nele.',
+    reflexao: 'Conhecer a bondade de Deus não é só ouvir falar dela, é experimentar. O salmista convida a provar e ver, e lembra que feliz é quem confia Nele, não por ausência de problemas, mas por ter onde se apoiar.',
+    oracao: 'Senhor, ajuda-me a experimentar a Tua bondade hoje. Que eu confie em Ti e encontre alegria na Tua presença.' },
+  { b: '23', c: 40, v: 31, ate: 31, ref: 'Isaías 40:31',
+    texto: 'Mas os que confiam no SENHOR renovarão as forças, subirão com asas como águias; correrão, e não se cansarão; caminharão, e não se fatigarão.',
+    reflexao: 'Esperar no Senhor não é desistir, é renovar a força no lugar certo. A promessa é de asas, de corrida sem cansaço e de caminhada sem fraquejar, para quem põe a sua esperança Nele.',
+    oracao: 'Pai, renova as minhas forças. Quando eu me cansar, ensina-me a esperar em Ti e a voltar a caminhar.' },
+  { b: '24', c: 29, v: 11, ate: 11, ref: 'Jeremias 29:11',
+    texto: 'Porque eu sei os pensamentos que penso quanto a vós, diz o SENHOR, pensamentos de paz, e não de mal, para vos dar um futuro com esperança.',
+    reflexao: 'Essas palavras foram dirigidas a um povo exilado, longe de casa. Mesmo ali, Deus tinha pensamentos de paz e um futuro de esperança para eles. A promessa nos lembra de que o cuidado de Deus alcança também os dias difíceis.',
+    oracao: 'Senhor, confio nos Teus pensamentos de paz a meu respeito. Dá-me esperança para o futuro e paciência para o hoje.' },
+  { b: '40', c: 7, v: 7, ate: 8, ref: 'Mateus 7:7-8',
+    texto: 'Pedi, e vos será dado; buscai, e achareis; batei, e vos será aberto; Pois qualquer um que pede recebe; e quem busca acha; e ao que bate lhe é aberto.',
+    reflexao: 'Jesus convida a pedir, buscar e bater, três formas de insistir com um Pai que ouve. A oração não é um monólogo, é uma porta aberta: quem pede recebe, quem busca encontra e a quem bate se abre.',
+    oracao: 'Pai, venho pedir, buscar e bater à Tua porta. Ensina-me a orar com perseverança e a confiar na Tua resposta.' },
+  { b: '43', c: 3, v: 16, ate: 16, ref: 'João 3:16',
+    texto: 'Porque Deus amou ao mundo de tal maneira, que deu o seu Filho unigênito; para que todo aquele que nele crê não pereça, mas tenha a vida eterna.',
+    reflexao: 'Neste único versículo cabe o coração do evangelho: Deus amou, deu o seu Filho, e quem crê nele recebe a vida eterna. O amor de Deus não ficou na palavra, tornou-se um presente real.',
+    oracao: 'Senhor, obrigado por amares o mundo a ponto de dar o Teu Filho. Fortalece a minha fé em Jesus e a minha gratidão por esse dom.' },
+  { b: '43', c: 15, v: 5, ate: 5, ref: 'João 15:5',
+    texto: 'Eu sou a videira, vós sois os ramos; quem está em mim, e eu nele, esse dá muito fruto; porque sem mim nada podeis fazer.',
+    reflexao: 'O ramo não produz fruto por esforço, mas por estar ligado à videira. Permanecer em Cristo é a fonte da vida cristã, e sem Ele, diz Jesus, nada podemos fazer.',
+    oracao: 'Senhor Jesus, quero permanecer em Ti. Faze de mim um ramo que dá fruto, não pela minha força, mas pela Tua vida em mim.' },
+  { b: '45', c: 12, v: 2, ate: 2, ref: 'Romanos 12:2',
+    texto: 'E não vos conformeis com a presente era; mas transformai-vos pela renovação da vossa mentalidade, para que experimenteis qual seja a boa, agradável, e perfeita vontade de Deus.',
+    reflexao: 'A transformação começa pela mente. Em vez de seguir o molde do mundo, somos chamados a ser renovados, e é nessa renovação que aprendemos a reconhecer a boa, agradável e perfeita vontade de Deus.',
+    oracao: 'Pai, renova a minha mente pela Tua Palavra. Que eu não me conforme com o que passa, mas aprenda a conhecer a Tua vontade.' },
+  { b: '47', c: 12, v: 9, ate: 9, ref: '2 Coríntíos 12:9',
+    texto: 'Mas ele me disse: “Minha graça te basta, porque meu poder se aperfeiçoa na fraqueza”. Por isso, com muito prazer, eu me orgulharei nas minhas fraquezas, para que o poder de Cristo habite em mim.',
+    reflexao: 'Paulo ouviu de Deus que a graça basta, e que o poder dele se aperfeiçoa na fraqueza. Isso muda o modo de ver as nossas limitações: elas podem se tornar o lugar onde a graça de Deus aparece com mais clareza.',
+    oracao: 'Senhor, a Tua graça me basta. Nas minhas fraquezas, mostra o Teu poder e ensina-me a descansar em Ti.' },
+  { b: '49', c: 2, v: 8, ate: 9, ref: 'Efésios 2:8-9',
+    texto: 'Porque pela graça sois salvos, por meio da fé; e isto não vem de vós; é dom de Deus; não por obras, para que ninguém tenha orgulho de si mesmo.',
+    reflexao: 'A salvação é um presente, e não um prêmio. Somos salvos pela graça, mediante a fé, e nem isso vem de nós. Por isso não há lugar para a vaidade, apenas para a gratidão.',
+    oracao: 'Pai, obrigado pela salvação que recebi como dádiva. Livra-me do orgulho e enche o meu coração de gratidão.' },
+  { b: '50', c: 4, v: 13, ate: 13, ref: 'Filipenses 4:13',
+    texto: 'Posso todas as coisas em Cristo que me fortalece.',
+    reflexao: 'Paulo escreveu essas palavras da prisão, depois de aprender a viver com fartura e com escassez. A força de que fala não é para vencer qualquer desafio que desejamos, mas para suportar e cumprir o que Deus coloca diante de nós, em Cristo.',
+    oracao: 'Senhor, em Cristo posso enfrentar este dia. Dá-me a força de que preciso para fazer o que Tu me chamas a fazer.' },
+  { b: '51', c: 3, v: 23, ate: 23, ref: 'Colossenses 3:23',
+    texto: 'E tudo quanto fizerdes, fazei de coração, como para o Senhor, e não para as pessoas.',
+    reflexao: 'Trabalhar de coração, como para o Senhor, muda o valor de uma tarefa comum. O serviço mais simples ganha sentido quando é feito diante de Deus e não apenas diante das pessoas.',
+    oracao: 'Pai, que eu faça o meu trabalho de hoje de todo o coração, como para Ti, e que isso Te honre.' },
+  { b: '58', c: 11, v: 1, ate: 1, ref: 'Hebreus 11:1',
+    texto: 'Ora, a fé é a certeza das coisas que se esperam, e a prova das coisas que não se veem.',
+    reflexao: 'A fé não é um sentimento vago, é a firme certeza de algo que ainda não vemos. Ela se apoia no caráter de Deus, que cumpre o que promete, e nos permite caminhar mesmo quando o caminho ainda não está claro.',
+    oracao: 'Senhor, aumenta a minha fé. Ajuda-me a confiar em Ti também naquilo que ainda não vejo.' },
+  { b: '59', c: 1, v: 5, ate: 5, ref: 'Tiago 1:5',
+    texto: 'Se algum de vós tem falta de sabedoria, peça a Deus, que concede generosamente a todos sem repreender, e lhe será dada.',
+    reflexao: 'Quem precisa de sabedoria é convidado a pedir, e a promessa é de que Deus dá a todos generosamente, sem repreender. Reconhecer que falta sabedoria é o primeiro passo para recebê-la.',
+    oracao: 'Pai, preciso de sabedoria hoje. Dá-me, generosamente, o discernimento para decidir e agir como Te agrada.' }
   ];
   var CREDITO = 'Texto bíblico: Bíblia Livre (BLIVRE), CC BY 4.0. Reflexão e oração escritas com apoio de inteligência artificial; não substituem a Bíblia.';
 
@@ -94,7 +158,15 @@
     return '“' + e.texto + '”' + N + e.ref + ' (Bíblia Livre, BLIVRE)' + NN + 'Reflexão: ' + e.reflexao + NN + 'Oração: ' + e.oracao + NN + 'Palavra Viva – Aprendendo as Escrituras' + (link ? N + link : '');
   }
 
-  var falando = false;
+  var falando = false, audioEl = null;
+  /* voz gravada (Piper, voz Faber): só entra depois da aprovação das amostras; sem o arquivo, usa a voz do aparelho */
+  var VOZ_FARBER = false;
+  function arquivoVoz(e) { return 'assets/voz/' + e.b + '-' + e.c + '-' + e.v + '.mp3'; }
+  async function urlVoz(e) {
+    var src = arquivoVoz(e), c = await caches.open('pv4-media'), r = await c.match(src);
+    if (!r) { r = await fetch(src); if (!r.ok) throw new Error('sem arquivo'); await c.put(src, r.clone()); }
+    return URL.createObjectURL(await r.blob());
+  }
   function vozPt() {
     var vs = speechSynthesis.getVoices().filter(function (v) { return /^pt/i.test(v.lang); });
     var salva = ''; try { salva = localStorage.getItem('pv_voz') || ''; } catch (x) { /* ok */ }
@@ -102,9 +174,12 @@
     for (i = 0; i < vs.length; i++) if (/pt[-_]?br/i.test(vs[i].lang)) return vs[i];
     return vs[0] || null;
   }
-  function parar(btn) { try { speechSynthesis.cancel(); } catch (x) { /* ok */ } falando = false; if (btn) btn.textContent = 'Ouvir'; }
-  function ouvir(e, btn) {
-    if (falando) return parar(btn);
+  function parar(btn) {
+    try { speechSynthesis.cancel(); } catch (x) { /* ok */ }
+    if (audioEl) { try { audioEl.pause(); } catch (x) { /* ok */ } audioEl = null; }
+    falando = false; if (btn) btn.textContent = 'Ouvir';
+  }
+  function falarAparelho(e, btn) {
     try {
       speechSynthesis.cancel();
       var u = new SpeechSynthesisUtterance(roteiro(e)), v = vozPt();
@@ -112,6 +187,17 @@
       u.onend = u.onerror = function () { falando = false; btn.textContent = 'Ouvir'; };
       falando = true; btn.textContent = 'Parar'; speechSynthesis.speak(u);
     } catch (x) { parar(btn); }
+  }
+  function ouvir(e, btn) {
+    if (falando) return parar(btn);
+    if (!VOZ_FARBER || typeof Audio === 'undefined' || typeof caches === 'undefined') return falarAparelho(e, btn);
+    falando = true; btn.textContent = 'Parar';
+    urlVoz(e).then(function (u) {
+      if (!falando) return;
+      var au = new Audio(u); audioEl = au;
+      au.onended = au.onerror = function () { if (audioEl === au) { audioEl = null; falando = false; btn.textContent = 'Ouvir'; } };
+      return au.play();
+    }).catch(function () { if (falando && !audioEl) { falando = false; falarAparelho(e, btn); } });
   }
 
   function el(tag, cls, txt) { var n = document.createElement(tag); if (cls) n.className = cls; if (txt != null) n.textContent = txt; return n; }
