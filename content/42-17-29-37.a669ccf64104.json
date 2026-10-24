@@ -1,0 +1,132 @@
+{
+ "id": "42-17-29-37",
+ "ref": "Lucas 17:29-37",
+ "book": "42",
+ "chapter": 17,
+ "verses": [
+  {
+   "n": 29,
+   "t": "Mas o dia em que Ló saiu de Sodoma, choveu fogo e enxofre do céu, e destruiu a todos."
+  },
+  {
+   "n": 30,
+   "t": "Assim será também no dia em que o Filho do homem se manifestar."
+  },
+  {
+   "n": 31,
+   "t": "Naquele dia, o que estiver no telhado, e suas ferramentas em casa, não desça para pegá-las; e o que estiver no campo, não volte para trás."
+  },
+  {
+   "n": 32,
+   "t": "Lembrai-vos da mulher de Ló."
+  },
+  {
+   "n": 33,
+   "t": "Qualquer que procurar salvar sua vida a perderá; e qualquer que a perder, irá salvá-la."
+  },
+  {
+   "n": 34,
+   "t": "Digo-vos que naquela noite, dois estarão em uma cama; um será tomado, e o outro será deixado."
+  },
+  {
+   "n": 35,
+   "t": "Duas estarão juntas moendo; uma será tomada, e a outra será deixada."
+  },
+  {
+   "n": 36,
+   "t": "Dois estarão no campo; um será tomado, e o outro será deixado."
+  },
+  {
+   "n": 37,
+   "t": "E respondendo, disseram-lhe: Onde, Senhor?E ele lhes disse: Onde estiver o corpo, ali os abutres se juntarão."
+  }
+ ],
+ "titulo": "A pressa que separa os destinos",
+ "temas": [
+  "juízo",
+  "preparação",
+  "espera"
+ ],
+ "pergunta": "E se a separação entre os salvos e os perdidos acontecer no meio de uma rotina comum?",
+ "entender": "Jesus compara o dia da vinda do Filho do Homem com a destruição de Sodoma. Naquela cidade, as pessoas viviam normalmente: comiam, bebiam e trabalhavam, até que o juízo veio de repente. Jesus diz que será assim também no dia da sua manifestação. A ideia não é de terror, mas de urgência: o tempo da graça tem um fim.\n\nEle dá instruções práticas para aquele momento: quem estiver no telhado, não desça para pegar suas coisas; quem estiver no campo, não volte para trás. A menção à mulher de Ló serve como alerta: olhar para trás, ou seja, apegar-se ao passado e às coisas que Deus já deixou para trás, leva à destruição. A vida que se tenta salvar com esforço próprio acaba se perdendo; mas quem aceita perder a vida em Cristo, encontra a vida eterna.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para Jesus como o 'Filho do Homem' que se manifestará. A separação que Jesus descreve ('um será tomado, e o outro será deixado') não é um acaso, mas o resultado da resposta dada a Ele. O evangelho é a única âncora segura para não ser 'deixado' para trás no juízo. A cruz de Cristo é o lugar onde a vida é 'perdida' para ser salva, rompendo o ciclo de Sodoma e oferecendo uma nova esperança.",
+  "selo": true
+ },
+ "viver": "A lição mais forte aqui é a de não voltar para trás. Assim como a mulher de Ló olhou para a cidade destruída e foi transformada em coluna de sal, nós corremos o risco de nos apegar a seguranças passadas, relacionamentos pecaminosos ou hábitos que Deus nos chama a abandonar. Não deixe que o medo do futuro ou o conforto do passado impeçam você de seguir Jesus agora. A rotina pode ser interrompida a qualquer momento; a pergunta é: você está pronto para ser encontrado por Ele?\n\nPratique o desapego espiritual hoje. Identifique algo que você está segurando com força e que impede seu avanço no Reino. Entregue isso a Deus, confiando que Ele tem um plano melhor do que qualquer coisa que você possa guardar no 'telhado' da sua vida.",
+ "guarde": "Quem tenta salvar a própria vida com esforço humano acaba perdendo a eternidade; quem se entrega a Cristo, encontra a vida verdadeira.",
+ "ore": "Senhor Jesus, Filho do Homem, eu confesso que muitas vezes olho para trás, apegado às minhas forças e ao passado. Ensina-me a viver com a urgência do céu, soltando tudo o que não te agrada. Que eu não seja como a mulher de Ló, mas que minha vida esteja alinhada com a tua vontade, pronta para o teu retorno.",
+ "quiz": {
+  "pergunta": "O que Jesus instrui a pessoa que estiver no telhado a fazer quando o dia chegar?",
+  "opcoes": [
+   "Pegar apenas o essencial e descer rapidamente.",
+   "Esperar a ajuda de outra pessoa.",
+   "Não descer para pegar suas ferramentas."
+  ],
+  "certa": 2,
+  "explicacao": "O texto é claro: 'o que estiver no telhado... não desça para pegá-las'. A instrução é de imobilidade e confiança, não de ação rápida para salvar bens."
+ },
+ "refs": [
+  "Gênesis 19:26",
+  "Mateus 24:37-39",
+  "Lucas 12:32-34"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-24T21:43:07.843Z",
+  "rounds": 2
+ }
+}

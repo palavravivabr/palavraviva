@@ -1,0 +1,141 @@
+{
+ "id": "42-18-33-43",
+ "ref": "Lucas 18:33-43",
+ "book": "42",
+ "chapter": 18,
+ "verses": [
+  {
+   "n": 33,
+   "t": "E depois de açoitá-lo, o matarão; e ao terceiro dia ressuscitará."
+  },
+  {
+   "n": 34,
+   "t": "E eles nada entendiam destas coisas; e esta palavra lhes era oculta; e não entendiam o que estava sendo lhes dito."
+  },
+  {
+   "n": 35,
+   "t": "E aconteceu que ele, chegando perto de Jericó, estava um cego sentado junto ao caminho, mendigando."
+  },
+  {
+   "n": 36,
+   "t": "E este, ouvindo a multidão passar, perguntou: O que era aquilo?"
+  },
+  {
+   "n": 37,
+   "t": "E disseram-lhe que Jesus Nazareno estava passando."
+  },
+  {
+   "n": 38,
+   "t": "Então clamou, dizendo: Jesus, Filho de Davi, tem misericórdia de mim!"
+  },
+  {
+   "n": 39,
+   "t": "E os que estavam mais a frente o repreendiam, para que calasse; porém ele clamava ainda mais: Filho de Davi, tem misericórdia de mim!"
+  },
+  {
+   "n": 40,
+   "t": "Então Jesus, parando, mandou que o trouxessem para si; e chegando ele, perguntou-lhe,"
+  },
+  {
+   "n": 41,
+   "t": "Dizendo: Que queres que eu te faça?E ele disse: Senhor, que eu veja."
+  },
+  {
+   "n": 42,
+   "t": "E Jesus lhe disse: Vê, tua fé te salvou."
+  },
+  {
+   "n": 43,
+   "t": "E logo ele viu, e o seguia, glorificando a Deus. E o todo o povo, vendo isto , dava louvores a Deus."
+  }
+ ],
+ "titulo": "O grito que parou Jesus no caminho",
+ "temas": [
+  "fé",
+  "misericórdia",
+  "curação",
+  "identidade"
+ ],
+ "pergunta": "O que te impede de clamar por ajuda diante das multidões da vida?",
+ "entender": "Jesus está no caminho para Jerusalém, onde sabia que seria rejeitado e morto. Os discípulos, porém, não entendiam essas profecias; a mensagem lhes parecia oculta. É nesse cenário de tensão e ignorância que o texto apresenta um homem cego sentado à beira do caminho, perto de Jericó. Ele ouve a multidão e pergunta o que acontece. Ao saber que é Jesus de Nazaré, ele não pede discretamente. Ele clama: \"Jesus, Filho de Davi, tem misericórdia de mim!\".\n\nEnquanto alguns tentam calá-lo, o cego grita com mais força. Jesus para e manda trazê-lo. A pergunta de Jesus é direta: \"Que queres que eu te faça?\". A resposta do homem é simples e honesta: \"Senhor, que eu veja\". Jesus responde: \"Vê, tua fé te salvou\". Imediatamente, o homem recupera a visão e passa a seguir Jesus, glorificando a Deus. A multidão, ao ver o milagre, também dá louvor a Deus. O contraste é claro: os discípulos, que estavam perto, não entendiam; o cego, que estava longe, viu a verdade e foi salvo pela fé.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para Jesus como o Messias prometido. O cego O chama de \"Filho de Davi\", reconhecendo Sua autoridade real e divina. A cura dos olhos físicos é um sinal da salvação espiritual: assim como o homem passou da escuridão para a luz, a fé em Cristo nos tira da cegueira do pecado. Jesus para Sua jornada para atender a um indivíduo, mostrando que a misericórdia d'Ele é pessoal e acessível a quem crê.",
+  "selo": true
+ },
+ "viver": "Talvez você sinta que a \"multidão\" da vida — as críticas, a pressa, o medo do julgamento — está tentando te calar. O cego de Jericó não parou de clamar por causa da oposição; pela contrário, clamou mais. Hoje, identifique o que está te impedindo de buscar a Jesus com clareza. Não espere que as circunstâncias melhorem para pedir ajuda. Grite a sua necessidade a Ele, reconhecendo que só Ele pode abrir seus olhos para a realidade da graça. A fé não é uma ideia abstrata; é a confiança ativa de que Ele quer e pode te salvar.",
+ "guarde": "A fé que salva não é silenciosa; ela clama por misericórdia e segue a Jesus.",
+ "ore": "Jesus, Filho de Davi, eu ouço a Tua voz acima do barulho do mundo. Como o cego de Jericó, eu clamo: tem misericórdia de mim. Abre os meus olhos para ver a Tua verdade e me dá a coragem de seguir Teus passos, glorificando o Teu nome.",
+ "quiz": {
+  "pergunta": "O que o cego de Jericó respondeu quando Jesus perguntou o que queria que Ele fizesse?",
+  "opcoes": [
+   "Senhor, que eu veja.",
+   "Senhor, cura meus olhos.",
+   "Senhor, liberta-me da multidão."
+  ],
+  "certa": 0,
+  "explicacao": "O texto relata que, ao ser perguntado por Jesus, o homem respondeu diretamente: \"Senhor, que eu veja\" (Lucas 18:41)."
+ },
+ "refs": [
+  "Marcos 10:46-52",
+  "João 9:1-7",
+  "Hebreus 11:1"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-24T21:43:55.762Z",
+  "rounds": 1
+ }
+}

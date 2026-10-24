@@ -1312,7 +1312,9 @@
   },
   "42-17-29-37": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: NARRATIVE_EVENT_CONSISTENCY: O ensino afirma erroneamente que Ló olhou para trás e foi transformado em coluna de sal, quando o relato bíblico registra que isso aconteceu com a mulher de Ló. | PERSON_ENTITY_CONSISTENCY: Confunde a pessoa de Ló com a sua mulher ao atribuir a ele o olhar para trás e a ",
+   "estado": "pronto",
+   "titulo": "A pressa que separa os destinos"
   },
   "42-18-1-11": {
    "execucoes": 0,
@@ -1326,11 +1328,15 @@
   },
   "42-18-23-32": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: LANGUAGE_CLARITY: Há um erro crasso de digitação e gramática no terceiro parágrafo da seção Entender com a expressão 'quem abrimão mão de coisas'.",
+   "estado": "pronto",
+   "titulo": "O peso invisível que impede a fé"
   },
   "42-18-33-43": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "O grito que parou Jesus no caminho"
   },
   "42-19-1-12": {
    "execucoes": 0,
@@ -1355,28 +1361,40 @@
   "42-20-13-24": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-20-25-35": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-20-36-47": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-21-1-10": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 462,
-   "entrada": 1146302,
-   "saida": 412274
+   "chamadas": 469,
+   "entrada": 1165318,
+   "saida": 418525
   },
   "groq-qwen": {
-   "chamadas": 460,
-   "entrada": 1090958,
-   "saida": 371145
+   "chamadas": 467,
+   "entrada": 1109326,
+   "saida": 377096
   },
   "gemini": {
-   "chamadas": 381,
-   "entrada": 1234201,
-   "saida": 492279
+   "chamadas": 386,
+   "entrada": 1250251,
+   "saida": 500117
   },
   "cloudflare": {
-   "chamadas": 230,
-   "entrada": 801117,
-   "saida": 85330
+   "chamadas": 233,
+   "entrada": 811488,
+   "saida": 86443
   },
   "mistral": {
    "chamadas": 0,

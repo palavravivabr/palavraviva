@@ -1,0 +1,138 @@
+{
+ "id": "42-18-23-32",
+ "ref": "Lucas 18:23-32",
+ "book": "42",
+ "chapter": 18,
+ "verses": [
+  {
+   "n": 23,
+   "t": "Mas ele, ouvindo isto, ficou muito triste, porque era muito rico."
+  },
+  {
+   "n": 24,
+   "t": "E vendo Jesus que ele tinha ficado muito triste, disse: Como é difícil os que têm muitos bens entrarem no Reino de Deus!"
+  },
+  {
+   "n": 25,
+   "t": "Porque é mais fácil um camelo entrar pelo olho de uma agulha do que um rico entrar no Reino de Deus."
+  },
+  {
+   "n": 26,
+   "t": "E os que ouviram isto ,disseram: Quem então pode se salvar?"
+  },
+  {
+   "n": 27,
+   "t": "E ele disse: As coisas que são impossíveis para os seres humanos são possíveis para Deus."
+  },
+  {
+   "n": 28,
+   "t": "E Pedro disse: Eis que deixamos tudo, e temos te seguido."
+  },
+  {
+   "n": 29,
+   "t": "E ele lhes disse: Em verdade vos digo, que há ninguém que, tenha deixado casa, ou pais, ou irmãos, ou mulher, ou filhos,"
+  },
+  {
+   "n": 30,
+   "t": "Que não venha a receber de volta muito mais nestes tempos, e nos tempos vindouros receba a vida eterna."
+  },
+  {
+   "n": 31,
+   "t": "E tomando consigo aos doze, disse-lhes: Eis que estamos subindo a Jerusalém, e se cumprirá no Filho do homem tudo o que está escrito pelos profetas."
+  },
+  {
+   "n": 32,
+   "t": "Porque ele será entregue aos gentios, e escarnecido, injuriado e cuspido."
+  }
+ ],
+ "titulo": "O peso invisível que impede a fé",
+ "temas": [
+  "riqueza",
+  "confiança",
+  "impossível",
+  "reino"
+ ],
+ "pergunta": "Por que seguir Jesus pode exigir que você solte algo que parece seguro demais para largar?",
+ "entender": "Jesus havia acabado de pedir ao jovem rico que vendesse tudo e o seguisse. A reação imediata foi a tristeza, pois sua riqueza era muito grande. Jesus então usa uma imagem chocante: é mais fácil um camelo passar pelo buraco de uma agulha do que um rico entrar no Reino de Deus. A dificuldade não é a posse em si, mas o apego que torna o coração duro e incapaz de confiar em Deus.\n\nOs ouvintes ficam perturbados e perguntam quem pode se salvar. A resposta de Jesus muda o foco: o que é impossível para os seres humanos é possível para Deus. A salvação não depende da nossa capacidade de nos livrar de tudo, mas da obra de Deus que nos liberta do orgulho e do apego.\n\nEm seguida, Pedro afirma que deixaram tudo para seguir Jesus. Jesus confirma que quem abriu mão de coisas por causa dele receberá muito mais, tanto agora quanto na vida eterna. Isso prepara o grupo para a próxima etapa: a subida a Jerusalém, onde Jesus enfrentará a dor e a morte.",
+ "ligar": {
+  "texto": "Este trecho revela a natureza do Reino de Deus: ele exige a rendição total. Jesus aponta que a riqueza pode ser um ídolo que compete com o trono de Deus. Ao dizer que o impossível é possível para Deus, Jesus se apresenta como o único capaz de salvar, pois Ele mesmo é o caminho. A menção final à entrega aos gentios e à morte aponta diretamente para a cruz, onde Jesus, sendo o Filho do Homem, vence o poder da morte e abre o Reino para todos, ricos e pobres, através da graça.",
+  "selo": true
+ },
+ "viver": "Identifique hoje o seu \"camelo\": aquilo que você segura com tanta força que impede sua comunhão com Deus. Pode ser um dinheiro, um relacionamento, uma reputação ou um medo. A tristeza do jovem rico mostra que a resistência é dolorosa. Pergunte-se: o que me custaria para confiar em Deus hoje? A vida eterna não é para quem tem tudo resolvido, mas para quem deixa Deus resolver o que é impossível para nós. Solte o controle e receba a liberdade de ser amado, não de ser dono.",
+ "guarde": "O que é impossível para nós é possível para Deus, pois Ele quebra o poder do que nos prende.",
+ "ore": "Jovem rico, que tristeza! Mas eu não quero ser como ele. Pai, mostra-me o que estou segurando com força demais. Ensina-me a vender o que me impede de Te seguir, confiando que o impossível é possível para Ti. Liberta meu coração do apego e da ansiedade, para que eu viva no Reino de Deus.",
+ "quiz": {
+  "pergunta": "O que Jesus disse ser mais fácil do que um rico entrar no Reino de Deus?",
+  "opcoes": [
+   "Um camelo entrar pelo olho de uma agulha",
+   "Um camelo atravessar o mar",
+   "Um pobre entrar no Reino de Deus"
+  ],
+  "certa": 0,
+  "explicacao": "No versículo 25, Jesus usa essa metáfora para ilustrar a dificuldade extrema para quem está apegado à riqueza entrar no Reino, destacando a necessidade da graça divina."
+ },
+ "refs": [
+  "Mateus 19:24",
+  "Marcos 10:25",
+  "Hebreus 11:13",
+  "1 Timóteo 6:10"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-24T21:41:07.241Z",
+  "rounds": 2
+ }
+}
