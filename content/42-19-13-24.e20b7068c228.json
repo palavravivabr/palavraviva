@@ -1,0 +1,146 @@
+{
+ "id": "42-19-13-24",
+ "ref": "Lucas 19:13-24",
+ "book": "42",
+ "chapter": 19,
+ "verses": [
+  {
+   "n": 13,
+   "t": "E chamando dez servos seus, deu-lhes dez minas, e disse-lhes: Investi até que eu venha;"
+  },
+  {
+   "n": 14,
+   "t": "E seus cidadãos o odiavam; e mandaram representantes depois dele, dizendo: Não queremos que este reine sobre nós."
+  },
+  {
+   "n": 15,
+   "t": "E aconteceu que, quando ele voltou, tendo tomado o reino, disse que lhe chamassem a aqueles servos, a quem tinha dado o dinheiro, para saber o que cada um tinha ganho fazendo investimentos."
+  },
+  {
+   "n": 16,
+   "t": "E veio o primeiro, dizendo: Senhor, tua mina rendeu outras dez minas."
+  },
+  {
+   "n": 17,
+   "t": "E ele lhe disse: Ótimo, bom servo! Por teres sido fiel no pouco, terás autoridade sobre dez cidades."
+  },
+  {
+   "n": 18,
+   "t": "E veio o segundo, dizendo: Senhor, tua mina rendeu cinco minas."
+  },
+  {
+   "n": 19,
+   "t": "E disse também a este: E tu governarás cinco cidades."
+  },
+  {
+   "n": 20,
+   "t": "E veio outro, dizendo: Eis aqui tua mina, que guardei em um lenço."
+  },
+  {
+   "n": 21,
+   "t": "Porque tive medo de ti, que és um homem rigoroso, que tomas o que não puseste, e colhes o que não semeaste."
+  },
+  {
+   "n": 22,
+   "t": "Porém ele lhe disse: Servo mau, por tua boca eu te julgarei; tu sabias que eu era um homem rigoroso, que tomo o que não pus, e que colho o que não semeei;"
+  },
+  {
+   "n": 23,
+   "t": "Por que, então, não puseste meu dinheiro no banco; e quando eu viesse, o receberia de volta com juros?"
+  },
+  {
+   "n": 24,
+   "t": "E disse aos que estavam com ele: Tirai-lhe a mina, e dai-a ao que tem as dez minas."
+  }
+ ],
+ "titulo": "O medo que paralisou a sua mina",
+ "temas": [
+  "responsabilidade",
+  "medo",
+  "investimento",
+  "serviço",
+  "reino"
+ ],
+ "pergunta": "Você tem guardado seus talentos por medo de errar ou de decepcionar?",
+ "entender": "Jesus contou essa parábola porque os ouvintes esperavam que o Reino de Deus aparecesse imediatamente. Ele comparou o seu retorno a um homem nobre que saiu para receber um reino e voltou depois. Antes de partir, ele deu dez minas a dez servos, com uma ordem clara: \"Investi até que eu venha\". A ideia não era apenas guardar o dinheiro, mas usá-lo de forma produtiva e responsável enquanto o dono estava ausente.\n\nDois servos renderam dez e cinco minas, respectivamente, e foram elogiados pela fidelidade. O terceiro, porém, guardou a sua mina embrulhada num lenço. Ele explica que agiu assim por medo, descrevendo o dono como um homem rigoroso que toma o que não plantou. A resposta do dono é dura: ele não aceita o medo como desculpa para a inércia, apontando que até o banco teria rendido juros. A mina é então tirada dele e dada ao servo que investiu bem.",
+ "ligar": {
+  "texto": "Esta parábola aponta para Jesus, o \"homem nobre\", que deixou a terra para ir ao Pai e voltará para estabelecer seu Reino. As minas representam os dons e recursos que Deus nos confiou. O evangelho nos chama para uma resposta ativa de fé: usar o que temos para servir a Cristo, não para acúmulo pessoal, mas com a expectativa de seu retorno. A repreensão ao servo preguiçoso nos lembra que a omissão diante do chamado de Deus também é uma escolha que terá consequências no dia da prestação de contas.",
+  "selo": true
+ },
+ "viver": "Pense em uma habilidade, tempo ou recurso que você tem evitado usar por medo de falhar ou de julgamento. O texto mostra que a paralisia por medo é pior do que o risco de errar. Identifique esse \"lenço\" que está guardando seu potencial. Esta semana, dê um pequeno passo concreto para usar esse dom em benefício de alguém ou para a causa de Deus, lembrando que a fidelidade no pouco é o que importa para o Senhor.",
+ "guarde": "A fidelidade no pouco é a medida da confiança que Deus nos dá para o muito.",
+ "ore": "Senhor Jesus, que és o homem nobre da parábola, perdoa-me pelos talentos que guardei por medo. Ensina-me a investir minha vida em te servir, com coragem e obediência, esperando o teu retorno glorioso.",
+ "quiz": {
+  "pergunta": "Por que o terceiro servo guardou a mina no lenço?",
+  "opcoes": [
+   "Porque o dinheiro era muito pesado",
+   "Porque não sabia o que fazer",
+   "Porque tinha medo do dono rigoroso"
+  ],
+  "certa": 2,
+  "explicacao": "O texto diz explicitamente que ele teve medo, descrevendo o dono como alguém que toma o que não plantou, o que o levou a esconder o dinheiro."
+ },
+ "refs": [
+  "Mateus 25:14-30",
+  "1 Coríntios 4:2",
+  "Tiago 4:17"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.7-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-25T03:44:25.415Z",
+  "rounds": 1
+ }
+}

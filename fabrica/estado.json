@@ -1342,15 +1342,19 @@
   },
   "42-19-1-12": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:menos_de_2_paragrafos, entender:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "O homem baixo que subiu para ver Jesus"
   },
   "42-19-13-24": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "O medo que paralisou a sua mina"
   },
   "42-19-25-36": {
-   "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "execucoes": 1,
+   "ultimo": "automático: viver:citacao_fora_do_texto"
   },
   "42-19-37-48": {
    "execucoes": 0,
@@ -1379,28 +1383,40 @@
   "42-21-11-19": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-21-20-29": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-21-30-38": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-22-1-12": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 477,
-   "entrada": 1187600,
-   "saida": 425700
+   "chamadas": 484,
+   "entrada": 1207022,
+   "saida": 432044
   },
   "groq-qwen": {
-   "chamadas": 474,
-   "entrada": 1129149,
-   "saida": 383291
+   "chamadas": 481,
+   "entrada": 1148335,
+   "saida": 389516
   },
   "gemini": {
-   "chamadas": 392,
-   "entrada": 1270018,
-   "saida": 512467
+   "chamadas": 394,
+   "entrada": 1276464,
+   "saida": 514146
   },
   "cloudflare": {
-   "chamadas": 234,
-   "entrada": 815078,
-   "saida": 86814
+   "chamadas": 236,
+   "entrada": 822029,
+   "saida": 87556
   },
   "mistral": {
    "chamadas": 0,

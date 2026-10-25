@@ -1,0 +1,145 @@
+{
+ "id": "42-19-1-12",
+ "ref": "Lucas 19:1-12",
+ "book": "42",
+ "chapter": 19,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E Jesus entrou e foi passando por Jericó."
+  },
+  {
+   "n": 2,
+   "t": "E eis que havia ali um homem, chamado pelo nome de Zaqueu, e este era chefe dos publicanos, e era rico."
+  },
+  {
+   "n": 3,
+   "t": "E procurava ver quem era Jesus, e não podia, por causa da multidão, pois era pequeno de altura."
+  },
+  {
+   "n": 4,
+   "t": "E correndo com antecedência, subiu em uma árvore de frutos que parecem figos, para o ver; porque ele passaria por ali."
+  },
+  {
+   "n": 5,
+   "t": "E quando Jesus chegou a aquele lugar, olhando para cima, o viu, e disse-lhe: Zaqueu, apressa-te, e desce; porque hoje é necessário que eu fique em tua casa."
+  },
+  {
+   "n": 6,
+   "t": "E apressando-se, desceu, e o recebeu com alegria."
+  },
+  {
+   "n": 7,
+   "t": "E todos, vendo isto , murmuravam, dizendo: Ele entrou para se hospedar com um homem pecador."
+  },
+  {
+   "n": 8,
+   "t": "E Zaqueu, levantando-se, disse ao Senhor: Senhor, eis que dou a metade de meus bens aos pobres; e se eu consegui algo enganando a alguém, eu o devolvo quatro vezes mais."
+  },
+  {
+   "n": 9,
+   "t": "E Jesus lhe disse: Hoje houve salvação nesta casa, porque ele também é filho de Abraão."
+  },
+  {
+   "n": 10,
+   "t": "Porque o Filho do homem veio para buscar, e para salvar o que tinha se perdido."
+  },
+  {
+   "n": 11,
+   "t": "E ouvindo eles estas coisas, Jesus prosseguiu, e disse uma parábola, porque estava perto de Jerusalém, e pensavam que logo o Reino seria manifesto."
+  },
+  {
+   "n": 12,
+   "t": "Disse, pois: Um certo homem nobre partiu para uma terra distante."
+  }
+ ],
+ "titulo": "O homem baixo que subiu para ver Jesus",
+ "temas": [
+  "humildade",
+  "salvação",
+  "grace",
+  "transformação"
+ ],
+ "pergunta": "O que impede você de se aproximar de Jesus quando a multidão te afasta?",
+ "entender": "Em Jericó, Jesus encontra Zaqueu, um chefe dos cobradores de impostos e homem rico. A sociedade o via como pecador, mas Zaqueu tinha uma sede inconfessada: queria ver quem era Jesus. Como era baixo e a multidão era grande, ele tomou uma atitude ousada e corajosa: correu à frente e subiu numa árvore. \n\nAo passar por ali, Jesus olhou para cima, viu Zaqueu e o chamou pelo nome. A ordem foi direta: desça, pois Jesus precisava ficar na casa dele. A reação da multidão foi de incredulidade e murmuração, pois não entendiam a motivação de Jesus em associar-se a um homem tão criticado. \n\nZaqueu, tocado pela atenção de Cristo, fez uma promessa radical: devolveria o que tinha roubado e daria metade dos seus bens aos pobres. Jesus declarou que a salvação havia chegado àquela casa, pois o Filho do Homem veio buscar e salvar o que estava perdido.",
+ "ligar": {
+  "texto": "Este texto é um retrato vivo do evangelho. Jesus não veio para os que se acham justos, mas para os pecadores (Lucas 5:32). A iniciativa foi de Jesus: Ele viu Zaqueu antes que Zaqueu se tornasse digno de ser visto. A salvação não depende da altura moral ou social, mas da graça que desce para buscar quem está perdido, oferecendo uma nova identidade e um coração transformado.",
+  "selo": true
+ },
+ "viver": "Zaqueu subiu numa árvore porque não podia ver Jesus da multidão. Às vezes, a rotina e a pressão social nos mantêm distantes da presença de Deus. Identifique o que está te impedindo de se aproximar de Jesus hoje. Talvez seja o medo do julgamento ou a comodidade do pecado. Corra à frente: busque um momento de silêncio e honestidade com Deus. A transformação não começa com obras perfeitas, mas com a disposição de descer da árvore e receber a Cristo em sua vida, deixando que Ele reordene suas prioridades e finanças.",
+ "guarde": "Jesus não olha para a sua altura social, mas para a sua necessidade de salvação.",
+ "ore": "Zaqueu, Tu que subiste na árvore para me ver, ajuda-me a buscar Teu rosto acima das opiniões dos homens. Que eu tenha a coragem de descer e receber Teu convite, permitindo que Teu amor transforme meu coração e minhas ações hoje.",
+ "quiz": {
+  "pergunta": "Por que a multidão murmurou quando Jesus disse que ficaria na casa de Zaqueu?",
+  "opcoes": [
+   "Porque Jesus não tinha fome.",
+   "Porque Zaqueu era pobre.",
+   "Porque Zaqueu era considerado um pecador."
+  ],
+  "certa": 2,
+  "explicacao": "O texto diz que Zaqueu era chefe dos publicanos (cobradores de impostos) e a multidão o via como pecador, o que gerou a murmuração."
+ },
+ "refs": [
+  "Lucas 5:31-32",
+  "Lucas 15:4-7",
+  "Marcos 2:15-17"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-25T03:45:31.639Z",
+  "rounds": 1
+ }
+}
