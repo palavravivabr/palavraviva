@@ -150,6 +150,7 @@
 
   var IMGS = ['assets/hero-dawn.jpg', 'assets/hero-reading.jpg', 'assets/hero-bible.jpg'];
   var CHAVE = 'pv_pdia_salvas';
+  IMGS.push('assets/abencoe.jpg'); var POS = ['80% 50%', '72% 50%', '55% 50%', '70% 50%'];
   function imagemDoDia(data) { return IMGS[indiceDoDia(data, DADOS.length) % IMGS.length]; }
   function hoje() { var d = new Date(); return d.getFullYear() + '-' + ('0' + (d.getMonth() + 1)).slice(-2) + '-' + ('0' + d.getDate()).slice(-2); }
   function lerSalvas() { try { var a = JSON.parse(localStorage.getItem(CHAVE) || '[]'); return Array.isArray(a) ? a : []; } catch (x) { return []; } }
@@ -166,6 +167,48 @@
   }
 
   var falando = false, audioEl = null;
+  var ui = null, rafId = 0, TEMPOS = null;
+  /* legenda sincronizada: tempos de cada frase medidos no áudio (assets/voz/tempos.json); sem eles, divide pelo tamanho do texto */
+  function carregarTempos() {
+    if (TEMPOS) return Promise.resolve(TEMPOS);
+    return fetch('assets/voz/tempos.json').then(function (r) { return r.ok ? r.json() : {}; }).catch(function () { return {}; }).then(function (j) { TEMPOS = j || {}; return TEMPOS; });
+  }
+  function montarLegenda(e, dur, T) {
+    var fr = roteiro(e).match(/[^.!?:]+[.!?:]+/g) || [], t = T && T[e.b + '-' + e.c + '-' + e.v], total = 0, acc = 0, sec = 0, out = [];
+    if (!(t && t.length === fr.length)) t = null;
+    fr.forEach(function (s) { total += s.trim().length; });
+    fr.forEach(function (s, i) {
+      s = s.trim();
+      var t0 = t ? t[i][0] : dur * acc / total; acc += s.length; var t1 = t ? t[i][1] : dur * acc / total;
+      if (s === 'Reflexão.') sec = 1; if (s === 'Oração.') sec = 2;
+      var ws = s.slice(0, -1).split(' '), tot = 0, x = t0; ws.forEach(function (w) { tot += w.length + 2; });
+      out.push({ sec: sec, skip: i < 2 || s === 'Reflexão.' || s === 'Oração.', t0: t0, w: ws.map(function (w) { var d = (t1 - t0) * (w.length + 2) / tot, r = { x: w, a: x }; x += d; return r; }) });
+    });
+    return out;
+  }
+  function pintar(L, t) {
+    var cur = null, i;
+    for (i = 0; i < L.length; i++) if (t >= L[i].t0 - 0.15) cur = L[i];
+    if (!cur || !ui) return;
+    ui.lab.textContent = ['Palavra do Dia', 'Reflexão', 'Oração'][cur.sec];
+    if (cur.skip) { if (ui.chave !== 'ref') { ui.chave = 'ref'; ui.cap.textContent = ''; } return; }
+    var idx = 0; cur.w.forEach(function (w, k) { if (t >= w.a) idx = k; });
+    var ci = Math.floor(idx / 8), chave = L.indexOf(cur) + ':' + ci;
+    if (ui.chave !== chave) {
+      ui.chave = chave; ui.cap.textContent = '';
+      cur.w.slice(ci * 8, ci * 8 + 8).forEach(function (w) { var sp = document.createElement('span'); sp.textContent = w.x + ' '; sp._a = w.a; ui.cap.appendChild(sp); });
+    }
+    Array.prototype.forEach.call(ui.cap.children, function (sp) { sp.className = t >= sp._a ? 'on' : ''; });
+  }
+  function seguir(e, au, T) {
+    var L = null;
+    (function passo() {
+      if (audioEl !== au || !ui) return;
+      if (!L && au.duration) L = montarLegenda(e, au.duration, T);
+      if (L) pintar(L, au.currentTime);
+      rafId = requestAnimationFrame(passo);
+    })();
+  }
   /* voz gravada (Piper, voz Faber): só entra depois da aprovação das amostras; sem o arquivo, usa a voz do aparelho */
   var VOZ_FARBER = true;
   function arquivoVoz(e) { return 'assets/voz/j-' + e.b + '-' + e.c + '-' + e.v + '.mp3'; }
@@ -184,6 +227,7 @@
   function parar(btn) {
     try { speechSynthesis.cancel(); } catch (x) { /* ok */ }
     if (audioEl) { try { audioEl.pause(); } catch (x) { /* ok */ } audioEl = null; }
+    if (rafId) { cancelAnimationFrame(rafId); rafId = 0; } if (ui) ui.repouso();
     falando = false; if (btn) btn.textContent = 'Ouvir';
   }
   function falarAparelho(e, btn) {
@@ -202,14 +246,22 @@
     urlVoz(e).then(function (u) {
       if (!falando) return;
       var au = new Audio(u); audioEl = au;
-      au.onended = au.onerror = function () { if (audioEl === au) { audioEl = null; falando = false; btn.textContent = 'Ouvir'; } };
-      return au.play();
+      au.onended = au.onerror = function () { if (audioEl === au) { audioEl = null; falando = false; btn.textContent = 'Ouvir'; if (ui) ui.repouso(); } };
+      return au.play().then(function () { return carregarTempos(); }).then(function (T) { seguir(e, au, T); });
     }).catch(function () { if (falando && !audioEl) { falando = false; falarAparelho(e, btn); } });
   }
 
   function el(tag, cls, txt) { var n = document.createElement(tag); if (cls) n.className = cls; if (txt != null) n.textContent = txt; return n; }
   function botao(txt, fn, cls) { var b = el('button', cls || 'pdbt', txt); b.type = 'button'; b.addEventListener('click', fn); return b; }
-  var CSS = '.pdimg{height:170px;border-radius:16px;background:#1f4d43 center/cover no-repeat;margin:0 0 14px}' +
+  var CSS = '.pdhero{position:relative;width:100%;aspect-ratio:9/16;max-height:78vh;border-radius:18px;overflow:hidden;background:#0d1a17;margin:0 0 14px}' +
+    '.pdbg{position:absolute;inset:0;background-size:cover;background-repeat:no-repeat;transform-origin:60% 55%;animation:pdzoom 28s ease-in-out infinite alternate}' +
+    '@keyframes pdzoom{from{transform:scale(1)}to{transform:scale(1.22)}}@media (prefers-reduced-motion:reduce){.pdbg{animation:none}}' +
+    '.pdsh{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.5),rgba(0,0,0,.05) 30%,rgba(0,0,0,.25) 55%,rgba(0,0,0,.8))}' +
+    '.pdtop{position:absolute;top:16px;left:0;right:0;text-align:center;color:#f3d98b}.pdtop b{display:block;font:600 12px/1 sans-serif;letter-spacing:.14em;text-transform:uppercase}' +
+    '.pdtop span{display:block;margin-top:8px;color:#fff;font:700 18px Georgia,serif}' +
+    '.pdcap{position:absolute;left:14px;right:14px;bottom:26px;text-align:center;color:rgba(255,250,240,.9);font:600 20px/1.45 Georgia,serif;text-shadow:0 2px 10px #000}' +
+    '.pdw .pdplay{position:absolute;top:84px;left:50%;transform:translateX(-50%);background:rgba(0,0,0,.45);border:1px solid rgba(243,217,139,.7);color:#f6d98a;padding:9px 26px;border-radius:999px}' +
+    '.pdcap.fx{font-weight:400;font-style:italic;font-size:18px}.pdcap .on{color:#f6d98a}' +
     '.pdw h2{margin:0 0 8px;font-size:21px}.pdw blockquote{margin:0 0 6px;padding:0 0 0 12px;border-left:3px solid var(--accent,#2f5d50);font-size:17px;line-height:1.55}' +
     '.pdw .tr{margin:0 0 10px;font-size:12px;color:var(--soft,#6b6b5f)}.pdw h3{margin:12px 0 4px;font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:var(--soft,#6b6b5f)}' +
     '.pdw p{margin:0;line-height:1.55}.pdw .row{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}' +
@@ -220,15 +272,17 @@
     var A = window.PVApp; if (!A) return;
     e = e || doDia();
     var w = el('div', 'pdw'), idx = DADOS.indexOf(e);
-    var img = el('div', 'pdimg'); img.style.backgroundImage = 'url(' + IMGS[(idx < 0 ? 0 : idx) % IMGS.length] + ')'; img.setAttribute('role', 'img'); img.setAttribute('aria-label', 'Imagem de paz e esperança');
-    w.appendChild(img);
-    w.appendChild(el('h2', null, e.ref));
+    var im = (idx < 0 ? 0 : idx) % IMGS.length, hero = el('div', 'pdhero'), bg = el('div', 'pdbg'), top = el('div', 'pdtop'), lab = el('b', null, 'Palavra do Dia'), cap = el('div', 'pdcap fx', e.texto);
+    bg.style.backgroundImage = 'url(' + IMGS[im] + ')'; bg.style.backgroundPosition = POS[im]; hero.setAttribute('role', 'img'); hero.setAttribute('aria-label', 'Imagem de paz e esperança');
+    top.appendChild(lab); top.appendChild(el('span', null, e.ref));
+    hero.appendChild(bg); hero.appendChild(el('div', 'pdsh')); hero.appendChild(top); hero.appendChild(cap); w.appendChild(hero);
+    ui = { cap: cap, lab: lab, chave: '', repouso: function () { cap.className = 'pdcap fx'; cap.textContent = e.texto; lab.textContent = 'Palavra do Dia'; ui.chave = ''; } };
     w.appendChild(el('blockquote', null, e.texto));
     w.appendChild(el('p', 'tr', 'Tradução: Bíblia Livre (BLIVRE), CC BY 4.0'));
     w.appendChild(el('h3', null, 'Reflexão')); w.appendChild(el('p', null, e.reflexao));
     w.appendChild(el('h3', null, 'Oração')); w.appendChild(el('p', null, e.oracao));
     var row = el('div', 'row');
-    if (typeof speechSynthesis !== 'undefined' && 'SpeechSynthesisUtterance' in window) { var ob = botao('Ouvir', function () { ouvir(e, ob); }); ob.setAttribute('aria-label', 'Ouvir a Palavra do Dia com a voz do aparelho'); row.appendChild(ob); }
+    if ((typeof speechSynthesis !== 'undefined' && 'SpeechSynthesisUtterance' in window) || VOZ_FARBER) { var ob = botao('Ouvir', function () { cap.className = 'pdcap'; ouvir(e, ob); }); ob.setAttribute('aria-label', 'Ouvir a Palavra do Dia'); ob.className = 'pdbt pdplay'; hero.appendChild(ob); }
     var sb = botao(estaSalva(e.ref) ? 'Salva ✓' : 'Salvar', function () {
       if (!alternarSalva(e.ref)) A.toast('Não foi possível salvar neste aparelho.'); else A.toast(estaSalva(e.ref) ? 'Mensagem salva' : 'Removida das salvas');
       sb.textContent = estaSalva(e.ref) ? 'Salva ✓' : 'Salvar'; listar();
