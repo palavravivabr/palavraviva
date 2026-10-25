@@ -54,6 +54,27 @@
 
   /* ---------- aparência ---------- */
   var splashOn = true, appReady = function () { /* definido em bindStatic */ };
+  /* cor de destaque discreta (independe do claro/escuro): só troca as variáveis de destaque, os fundos seguem neutros */
+  var CORES = ['#8876A8', '#7893B0', '#819989', '#B58F98', '#B09B70', '#777777'];
+  function mixCor(hex, alvo, p) {
+    var o = '#'; for (var i = 1; i < 7; i += 2) { var a = parseInt(hex.substr(i, 2), 16), b = parseInt(alvo.substr(i, 2), 16), v = Math.round(a + (b - a) * p).toString(16); o += (v.length < 2 ? '0' : '') + v; }
+    return o;
+  }
+  function lumCor(hex) {
+    var l = 0; [0.2126, 0.7152, 0.0722].forEach(function (k, i) { var c = parseInt(hex.substr(1 + 2 * i, 2), 16) / 255; l += k * (c <= 0.03928 ? c / 12.92 : Math.pow((c + 0.055) / 1.055, 2.4)); });
+    return l;
+  }
+  function aplicarCor(dark) {
+    var c = lsGet('pv4-cor', ''), st = document.documentElement.style;
+    if (CORES.indexOf(c) < 0) c = '';
+    ['--gold', '--gold-ink', '--accent', '--tagink', '--sup'].forEach(function (k) { st.removeProperty(k); });
+    if (c) {
+      var tx = dark ? mixCor(c, '#ffffff', 0.18) : mixCor(c, '#000000', 0.32), l = lumCor(c);
+      st.setProperty('--gold', c); st.setProperty('--gold-ink', (l + 0.05) / 0.066 >= 1.05 / (l + 0.05) ? '#1b1b1b' : '#ffffff');
+      st.setProperty('--accent', tx); st.setProperty('--tagink', tx); st.setProperty('--sup', tx);
+    }
+    $$('#palPop button').forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.c === c)); });
+  }
   function applyAppearance() {
     var s = parseFloat(lsGet('pv4-fs', '1.125')); if (!(s >= 1 && s <= 1.5)) s = 1.125;
     document.documentElement.style.setProperty('--fs', s + 'rem');
@@ -62,6 +83,8 @@
     if (m === 'light' || m === 'dark') document.documentElement.setAttribute('data-theme', m); else { m = 'auto'; document.documentElement.removeAttribute('data-theme'); }
     $$('#thm button').forEach(function (b) { b.setAttribute('aria-pressed', String(b.dataset.m === m)); });
     var dark = m === 'dark' || (m === 'auto' && matchMedia('(prefers-color-scheme: dark)').matches);
+    ['#fsRange', '#fsRead'].forEach(function (q) { var r = $(q); if (r && parseFloat(r.value) !== s) r.value = s; });
+    aplicarCor(dark);
     var meta = $('meta[name="theme-color"]'); if (meta) meta.setAttribute('content', splashOn ? '#06201a' : (dark ? '#12191A' : '#1F4D43'));
   }
 
@@ -987,6 +1010,13 @@
     $('#goSearch').addEventListener('click', function () { go({ v: 'search' }); });
     var qt = null; $('#q').addEventListener('input', function (e) { clearTimeout(qt); var v = e.target.value; qt = setTimeout(function () { runSearch(v); }, 250); });
     $('#fsz').addEventListener('click', function (e) { var s = e.target.closest('button'); if (!s) return; lsSet('pv4-fs', s.dataset.s); applyAppearance(); });
+    function tamLetra(e) { var v = parseFloat(e.target.value); if (!(v >= 1 && v <= 1.5)) return; lsSet('pv4-fs', String(v)); applyAppearance(); }
+    $('#fsRead').addEventListener('input', tamLetra); $('#fsRange').addEventListener('input', tamLetra);
+    var pal = $('#palPop'), palBtn = $('#palTop');
+    function palFechar() { pal.hidden = true; palBtn.setAttribute('aria-expanded', 'false'); }
+    palBtn.addEventListener('click', function () { pal.hidden = !pal.hidden; palBtn.setAttribute('aria-expanded', String(!pal.hidden)); });
+    pal.addEventListener('click', function (e) { var b = e.target.closest('button'); if (!b) return; lsSet('pv4-cor', b.dataset.c); applyAppearance(); palFechar(); });
+    document.addEventListener('click', function (e) { if (!pal.hidden && !pal.contains(e.target) && !palBtn.contains(e.target)) palFechar(); });
     $('#thm').addEventListener('click', function (e) { var s = e.target.closest('button'); if (!s) return; lsSet('pv4-theme', s.dataset.m); applyAppearance(); });
     matchMedia('(prefers-color-scheme: dark)').addEventListener('change', applyAppearance);
     $('#inst').addEventListener('click', install); $('#shr').addEventListener('click', share);

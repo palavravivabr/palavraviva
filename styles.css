@@ -263,3 +263,10 @@ a.srow{color:inherit;text-decoration:none}
 .vsearch{width:100%;box-sizing:border-box;padding:12px 14px;border-radius:14px;border:1px solid var(--line,#ccc);background:var(--card);color:var(--text);font-size:16px;margin:0 0 12px}
 .vgrp{font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:var(--soft);margin:14px 2px 8px}
 .ptitulo{font-style:italic;color:var(--soft);margin:0 0 12px;line-height:1.5}
+.menubtn.r3{left:auto;right:120px}
+#palPop{position:absolute;z-index:4;top:68px;right:16px;max-width:calc(100% - 32px);display:flex;flex-wrap:wrap;justify-content:center;gap:10px;padding:10px 12px;border-radius:16px;background:var(--card);border:1px solid var(--line);box-shadow:0 8px 24px rgba(0,0,0,.28)}
+#palPop[hidden]{display:none}
+#palPop button{width:34px;height:34px;border-radius:50%;border:2px solid transparent;box-shadow:inset 0 0 0 1px rgba(128,128,128,.4)}
+#palPop button.def{background:linear-gradient(135deg,#1F4D43 50%,#E3B96F 50%)}
+#palPop button[aria-pressed="true"]{border-color:var(--text);outline:2px solid var(--card);outline-offset:-4px}
+.fsread{margin:2px 0 10px}.fsread input{flex:1;accent-color:var(--gold)}
