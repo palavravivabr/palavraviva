@@ -23,3 +23,28 @@ print(len(lista), 'áudios gerados em', saida)
 if not os.path.exists(os.path.join(saida, 'trilha-alvorada.mp3')):
     subprocess.run([sys.executable, '-m', 'pip', 'install', '-q', 'numpy', 'scipy'], check=True)
     subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'gerar-trilhas.py'), saida], check=True)
+# amostras de outras vozes masculinas para escolha (só para ouvir; falhas não param o fluxo)
+teste = os.path.join(saida, 'teste')
+if not os.path.exists(teste):
+    os.makedirs(teste)
+    frase = 'Palavra do dia. ' + lista[0]['texto'][16:420]
+    base = 'https://huggingface.co/rhasspy/piper-voices/resolve/main/pt/pt_BR/'
+    for nome, qual in (('cadu', 'medium'), ('jeff', 'medium'), ('edresson', 'low')):
+        try:
+            m = os.path.join(tempfile.gettempdir(), nome + '.onnx')
+            for suf in ('', '.json'):
+                subprocess.run(['curl', '-fsSL', '-o', m + suf, base + nome + '/' + qual + '/pt_BR-' + nome + '-' + qual + '.onnx' + suf], check=True)
+            wav = os.path.join(tempfile.gettempdir(), nome + '.wav')
+            subprocess.run([piper, '--model', m, '--length_scale', '1.12', '--sentence_silence', '0.45', '--output_file', wav], input=frase.encode('utf-8'), check=True)
+            subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', wav, '-ac', '1', '-ar', '22050', '-b:a', '40k', os.path.join(teste, nome + '.mp3')], check=True)
+            print('amostra ok', nome)
+        except Exception as e:
+            print('amostra falhou', nome, e)
+    try:
+        wav = os.path.join(tempfile.gettempdir(), 'faber.wav')
+        subprocess.run([piper, '--model', modelo, '--length_scale', '1.12', '--sentence_silence', '0.45', '--output_file', wav], input=frase.encode('utf-8'), check=True)
+        for nome, f in (('faber-grave-1', 0.93), ('faber-grave-2', 0.86)):
+            subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', wav, '-af', 'asetrate=%d,aresample=22050,atempo=%.4f' % (int(22050 * f), 1 / f), '-ac', '1', '-b:a', '40k', os.path.join(teste, nome + '.mp3')], check=True)
+        print('amostras graves da faber ok')
+    except Exception as e:
+        print('amostra faber grave falhou', e)
