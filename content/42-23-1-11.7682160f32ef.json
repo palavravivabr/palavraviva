@@ -1,0 +1,140 @@
+{
+ "id": "42-23-1-11",
+ "ref": "Lucas 23:1-11",
+ "book": "42",
+ "chapter": 23,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E levantando-se toda a multidão deles, o levaram a Pilatos."
+  },
+  {
+   "n": 2,
+   "t": "E começaram a acusá-lo, dizendo: Encontramos este homem ,que perverte a nação, e proíbe dar tributo a César, dizendo que ele mesmo é Cristo, o Rei."
+  },
+  {
+   "n": 3,
+   "t": "E Pilatos lhe perguntou, dizendo: Tu és o Rei dos judeus?E respondendo, ele lhe disse: Tu o dizes."
+  },
+  {
+   "n": 4,
+   "t": "E Pilatos disse aos chefes dos sacerdotes, e às multidões: Não acho culpa nenhuma neste homem."
+  },
+  {
+   "n": 5,
+   "t": "Mas eles insistiam, dizendo: Ele incita ao povo, ensinando por toda a Judeia, começando desde a Galileia até aqui."
+  },
+  {
+   "n": 6,
+   "t": "Então Pilatos, ouvindo falar da Galileia, perguntou se aquele homem era galileu."
+  },
+  {
+   "n": 7,
+   "t": "E quando soube que era da jurisdição de Herodes, ele o entregou a Herodes, que naqueles dias também estava em Jerusalém."
+  },
+  {
+   "n": 8,
+   "t": "E Herodes, ao ver Jesus, alegrou-se muito, porque havia muito tempo que desejava o ver, pois ouvia muitas coisas sobre ele; e esperava ver algum sinal feito por ele."
+  },
+  {
+   "n": 9,
+   "t": "E perguntava-lhe com muitas palavras, mas ele nada lhe respondia;"
+  },
+  {
+   "n": 10,
+   "t": "E estavam lá os chefes dos sacerdotes, e os escribas, acusando-o com veemência."
+  },
+  {
+   "n": 11,
+   "t": "E Herodes, com seus soldados, desprezando-o, e escarnecendo dele, o vestiu com uma roupa luxuosa, e o enviou de volta a Pilatos."
+  }
+ ],
+ "titulo": "Por que Pilatos passou a culpa para Herodes?",
+ "temas": [
+  "autoridade",
+  "culpa",
+  "responsabilidade"
+ ],
+ "pergunta": "Você já percebeu como a fuga de responsabilidade pode mudar o rumo de uma situação?",
+ "entender": "Neste trecho, a multidão leva Jesus a Pilatos, acusando‑o de ser \"Cristo, o Rei\" (v.2). Pilatos pergunta se Ele é o rei dos judeus e recebe a resposta \"Tu o dizes\" (v.3). Ele declara que não acha culpa alguma (v.4), mas os chefes religiosos insistem, dizendo que Jesus incita o povo (v.5). Ao saber que Jesus era da Galileia, Pilatos procura Herodes, que estava em Jerusalém, e o entrega a ele (v.7). Herodes, curioso, se alegra ao ver Jesus, mas, depois de interrogá‑Lo sem resposta, o ridiculariza, veste‑o de forma luxuosa e o devolve a Pilatos (v.11). O texto mostra duas autoridades tentando se esquivar da decisão, transferindo a responsabilidade uma para a outra.\n\nA situação revela um padrão humano: quando a decisão é arriscada ou impopular, preferimos delegar a culpa a outrem. Pilatos tenta se isentar, entregando Jesus a Herodes; Herodes, por sua vez, trata‑o como objeto de curiosidade e devolve‑o, sem assumir juízo. Essa troca de culpabilidade evidencia a fraqueza das autoridades que não buscam a verdade, mas apenas evitam as consequências de um julgamento difícil.",
+ "ligar": {
+  "texto": "Embora o texto não descreva a missão de Jesus, ele registra que o povo o chama de \"Cristo, o Rei\" (v.2). Essa proclamação aponta para a identidade real de Jesus como o Rei prometido, embora os governantes rejeitem essa verdade. O Evangelho revela que, apesar da indecisão humana, Jesus cumpriu o papel de Rei ao morrer pelos pecados e ressuscitar, oferecendo salvação a todos que crêem. Assim, a tentativa de Pilatos e Herodes de fugir da responsabilidade demonstra a rejeição humana ao Reino de Deus, que se revela plenamente na cruz.",
+  "selo": false
+ },
+ "viver": "Ao observar Pilatos e Herodes, percebemos como é fácil transferir decisões difíceis para outra pessoa. Na vida cotidiana, podemos enfrentar situações em que a verdade nos confronta e a pressão para ceder é grande. Quando isso acontecer, lembre‑se de que assumir a responsabilidade, mesmo que impopular, é um ato de integridade que reflete o caráter de Cristo. Escolha ser quem assume a decisão correta, em vez de buscar quem possa carregar a culpa por você.",
+ "guarde": "Não fuja da decisão que Deus te chama a tomar; a verdade exige coragem.",
+ "ore": "Pilatos hesitou, Senhor, dá-me coragem para não fugir das decisões difíceis e para defender a verdade, mesmo quando a maioria se opõe.",
+ "quiz": {
+  "pergunta": "Por que Pilatos entregou Jesus a Herodes?",
+  "opcoes": [
+   "Porque Jesus era da jurisdição de Herodes",
+   "Porque o povo pediu que Herodes julgasse",
+   "Porque Herodes era amigo de Pilatos"
+  ],
+  "certa": 0,
+  "explicacao": "Pilatos soube que Jesus era galileu, que estava sob a autoridade de Herodes, e então o entregou a ele (v.7)."
+ },
+ "refs": [
+  "Mateus 27:11-26",
+  "João 18:28-40",
+  "Atos 12:1-5"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-25T18:39:09.172Z",
+  "rounds": 2
+ }
+}

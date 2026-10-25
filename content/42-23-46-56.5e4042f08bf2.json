@@ -1,0 +1,141 @@
+{
+ "id": "42-23-46-56",
+ "ref": "Lucas 23:46-56",
+ "book": "42",
+ "chapter": 23,
+ "verses": [
+  {
+   "n": 46,
+   "t": "E Jesus, clamando em alta voz, disse: Pai, em tuas mãos eu entrego meu espírito.E tendo dito isto, parou de respirar."
+  },
+  {
+   "n": 47,
+   "t": "E o centurião, vendo o o que tinha acontecido, deu glória a Deus, dizendo: Verdadeiramente este homem era justo."
+  },
+  {
+   "n": 48,
+   "t": "E todas as multidões que se juntavam para observar, vendo o que tinha acontecido, voltaram, batendo nos peitos."
+  },
+  {
+   "n": 49,
+   "t": "E todos os seus conhecidos, e as mulheres que acompanhando -o desde a Galileia, tinham o seguido, estavam longe, vendo estas coisas."
+  },
+  {
+   "n": 50,
+   "t": "E eis que um homem, de nome José, membro do conselho de justiça ,sendo homem bom e justo."
+  },
+  {
+   "n": 51,
+   "t": "(Que não tinha concordado, nem com o conselho, nem em atos que fizeram), da cidade de Arimateia, da terra dos judeus, e que também esperava pelo Reino de Deus."
+  },
+  {
+   "n": 52,
+   "t": "Este, chegando a Pilatos, pediu o corpo de Jesus."
+  },
+  {
+   "n": 53,
+   "t": "E tendo o tirado, o envolveu em um tecido de linho, e o pôs em um sepulcro, escavado em uma rocha, onde nunca ainda tinha sido posto."
+  },
+  {
+   "n": 54,
+   "t": "E era o dia da preparação, e o sábado estava começando."
+  },
+  {
+   "n": 55,
+   "t": "E as mulheres que vieram com ele da Galileia também o seguiram, e viram o sepulcro, e como seu corpo foi posto."
+  },
+  {
+   "n": 56,
+   "t": "E elas, ao voltarem, prepararam materiais aromáticos e óleos perfumados. E descansaram o sábado, conforme o mandamento."
+  }
+ ],
+ "titulo": "O silêncio do túmulo e a confiança final",
+ "temas": [
+  "entrega",
+  "justiça",
+  "espera",
+  "sábado"
+ ],
+ "pergunta": "O que significa realmente entregar a nossa vida nas mãos de Deus quando tudo parece perdido?",
+ "entender": "Nas últimas palavras registradas por Lucas, Jesus não grita de revolta, mas fala com intimidade: \"Pai, em tuas mãos eu entrego meu espírito\". É a última ação de sua vida na terra, mostrando que, mesmo na morte, ele confia totalmente no Pai. A cena é solene: o centurião romano, um homem de guerra e autoridade, reconhece a justiça de Jesus. As multidões voltam batendo nos peitos, em sinal de arrependimento ou choque.\n\nLogo após, surge José de Arimateia, um membro do conselho que não concordou com a condenação. Ele age com coragem, pedindo o corpo a Pilatos. O corpo de Jesus é envolto em linho e colocado num sepulcro novo, escavado na rocha. As mulheres que o acompanhavam testemunham tudo e preparam aromáticos, descansando no sábado conforme o mandamento. Há uma pausa, uma espera silenciosa antes do que Deus ainda fará.",
+ "ligar": {
+  "texto": "Este trecho aponta para o coração do evangelho: Jesus, o Justo, entregou sua vida voluntariamente. A morte não foi um fim, mas a entrega confiada ao Pai. O reconhecimento do centurião e a ação de José mostram que a verdade de Cristo atravessa barreiras. A espera no sepulcro novo prepara o cenário para a ressurreição, provando que a morte não tem a última palavra sobre quem pertence a Deus.",
+  "selo": true
+ },
+ "viver": "A confiança de Jesus no momento da morte nos convida a repensar nossa própria ansiedade. Muitas vezes, tentamos controlar o futuro com medo. Aqui, vemos que a verdadeira paz nasce da entrega. Na sua semana, identifique uma situação onde você está segurando tudo com força. Tente, como Jesus, soltar e confiar que Deus cuida do resultado, mesmo no silêncio e na espera.",
+ "guarde": "A verdadeira coragem é entregar o que mais temos nas mãos de quem é fiel.",
+ "ore": "José de Arimateia, que esperava pelo Reino, ensina-me a agir com fé mesmo em meio ao conselho hostil. Pai, ajuda-me a entregar meu medo nas tuas mãos, confiando que tu cuidas de mim, assim como Jesus confiou em ti na cruz.",
+ "quiz": {
+  "pergunta": "Quem pediu o corpo de Jesus a Pilatos?",
+  "opcoes": [
+   "José de Arimateia",
+   "O centurião romano",
+   "As mulheres da Galileia"
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz que José, membro do conselho, foi a Pilatos e pediu o corpo, enquanto as mulheres apenas viram o sepulcro."
+ },
+ "refs": [
+  "Mateus 27:57-60",
+  "Marcos 15:43-46",
+  "João 19:38-42"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-25T18:47:55.895Z",
+  "rounds": 1
+ }
+}

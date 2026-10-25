@@ -1,0 +1,146 @@
+{
+ "id": "42-23-23-34",
+ "ref": "Lucas 23:23-34",
+ "book": "42",
+ "chapter": 23,
+ "verses": [
+  {
+   "n": 23,
+   "t": "Mas eles continuavam, com grandes gritos, pedindo que fosse crucificado. E seus gritos, e os dos chefes dos sacerdotes, prevaleceram."
+  },
+  {
+   "n": 24,
+   "t": "Então Pilatos julgou que se fizesse o que pediam."
+  },
+  {
+   "n": 25,
+   "t": "E soltou-lhes ao que fora lançado na prisão por uma rebelião e uma morte, que era o que pediam; porém a Jesus lhes entregou à sua vontade."
+  },
+  {
+   "n": 26,
+   "t": "E enquanto o levavam, tomaram a um Simão Cireneu, que vinha do campo, e puseram-lhe a cruz às costas, para que a levasse atrás de Jesus."
+  },
+  {
+   "n": 27,
+   "t": "E seguia-o uma grande multidão do povo, e de mulheres, as quais também ficavam desconsoladas, e lamentavam por ele."
+  },
+  {
+   "n": 28,
+   "t": "E Jesus, virando-se para elas, disse: Filhas de Jerusalém, não choreis por mim, mas chorai por vós mesmas, e por vossos filhos."
+  },
+  {
+   "n": 29,
+   "t": "Porque eis que vêm dias em que dirão: Bem-aventuradas as estéreis, e os ventres que não deram a luz, e os peitos que não amamentaram."
+  },
+  {
+   "n": 30,
+   "t": "Então começarão a dizer aos montes: Cai sobre nós; E aos morros: Cobri-nos!"
+  },
+  {
+   "n": 31,
+   "t": "Porque, se fazem isto à árvore verde, o que se fará com a árvore seca?"
+  },
+  {
+   "n": 32,
+   "t": "E também levaram outros dois, que eram malfeitores, para matar com ele."
+  },
+  {
+   "n": 33,
+   "t": "E quando chegaram ao lugar, chamado a Caveira, o crucificaram ali, e aos malfeitores, um à direita, e outro à esquerda."
+  },
+  {
+   "n": 34,
+   "t": "E Jesus dizia: Pai, perdoa-lhes, porque não sabem o que fazem. E, repartindo suas roupas, lançaram sortes."
+  }
+ ],
+ "titulo": "Perdão no meio da dor",
+ "temas": [
+  "perdão",
+  "sofrimento",
+  "cruz",
+  "misericórdia",
+  "ignorância"
+ ],
+ "pergunta": "Por que Jesus pediu perdão para quem o estava matando?",
+ "entender": "Lucas 23 nos leva ao momento mais sombrio da história: a crucificação. A multidão e os líderes religiosos pressionaram Pilatos, que, cediendo à pressão, entregou Jesus à sua vontade. No caminho, Jesus se voltou para as mulheres que choravam e as alertou sobre dias difíceis que viriam para Jerusalém, usando a imagem de uma árvore verde sendo tratada com violência.\n\nNo local chamado Caveira, Jesus foi pregado na cruz entre dois malfeitores. Enquanto os soldados dividiam suas roupas, Jesus fez algo que contradizia toda a lógica humana de vingança. Ele não amaldiçoou seus algozes, mas orou ao Pai. A cena mostra o contraste entre a crueldade dos homens e a compaixão do Filho de Deus.",
+ "ligar": {
+  "texto": "Este trecho é o coração do evangelho. Jesus é o inocente que padece pelo lugar dos culpados. Sua oração de perdão revela que a cruz não é apenas um ato de justiça, mas de amor. Ele cumpre a profecia do Servo Sofredor, levando sobre si a ira que nós merecíamos, mas respondendo ao ódio com graça. É aqui que vemos claramente que a salvação vem pela graça, pois Jesus perdoa aqueles que não merecem e não sabem o que fazem.",
+  "selo": true
+ },
+ "viver": "Às vezes, as pessoas ao nosso redor nos ferem com palavras ou ações, e nossa primeira reação é revidar ou guardar rancor. Este texto nos convida a olhar além da dor imediata. Assim como Jesus viu a ignorância por trás das ações dos soldados, podemos tentar enxergar a fraqueza e a cegueira espiritual dos que nos ofendem. Isso não significa aceitar abusos, mas soltar o peso da vingança e confiar a justiça a Deus, pedindo-lhe força para amar onde nosso coração quer punir.",
+ "guarde": "O amor de Deus é tão grande que perdoa até os que não sabem o que fazem contra Ele.",
+ "ore": "Jesus, na Caveira, Tu perdoaste quem Te crucificou. Ajuda-me a largar o rancor que carrego contra aqueles que me ferem. Que eu veja a ignorância e a dor por trás dos seus ataques, e não apenas o mal. Enche meu coração com a mesma compaixão que Tu tiveste na cruz, para que eu possa amar mesmo quando me é difícil.",
+ "quiz": {
+  "pergunta": "O que Jesus disse aos que o crucificavam?",
+  "opcoes": [
+   "Pai, castiga-os, pois eles são culpados.",
+   "Pai, perdoa-lhes, porque não sabem o que fazem.",
+   "Silenciem, pois a hora da minha glória chegou."
+  ],
+  "certa": 1,
+  "explicacao": "O texto de Lucas 23:34 registra explicitamente que Jesus orou pedindo perdão para seus algozes, citando a ignorância deles como motivo, demonstrando sua natureza misericordiosa."
+ },
+ "refs": [
+  "Mateus 27:33-34",
+  "Marcos 15:21-24",
+  "Romanos 5:8"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-25T18:41:18.118Z",
+  "rounds": 1
+ }
+}
