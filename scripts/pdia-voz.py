@@ -48,3 +48,7 @@ if not os.path.exists(teste):
         print('amostras graves da faber ok')
     except Exception as e:
         print('amostra faber grave falhou', e)
+# etapas extras opcionais (arquivo scripts/voz-extra.py, se existir)
+_extra = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'voz-extra.py')
+if os.path.exists(_extra):
+    exec(compile(open(_extra, encoding='utf-8').read(), _extra, 'exec'))
