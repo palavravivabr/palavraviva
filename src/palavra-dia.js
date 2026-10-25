@@ -160,7 +160,7 @@
 
   var falando = false, audioEl = null;
   /* voz gravada (Piper, voz Faber): só entra depois da aprovação das amostras; sem o arquivo, usa a voz do aparelho */
-  var VOZ_FARBER = false;
+  var VOZ_FARBER = true;
   function arquivoVoz(e) { return 'assets/voz/' + e.b + '-' + e.c + '-' + e.v + '.mp3'; }
   async function urlVoz(e) {
     var src = arquivoVoz(e), c = await caches.open('pv4-media'), r = await c.match(src);
