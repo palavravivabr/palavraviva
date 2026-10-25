@@ -1,0 +1,138 @@
+{
+ "id": "42-24-33-42",
+ "ref": "Lucas 24:33-42",
+ "book": "42",
+ "chapter": 24,
+ "verses": [
+  {
+   "n": 33,
+   "t": "E levantando-se na mesma hora, voltaram para Jerusalém, e acharam reunidos aos onze, e aos que estavam com eles,"
+  },
+  {
+   "n": 34,
+   "t": "Que diziam: Verdadeiramente o Senhor ressuscitou, e já apareceu a Simão."
+  },
+  {
+   "n": 35,
+   "t": "E eles contaram as coisas que lhes aconteceram no caminho; e como foi reconhecido por eles quando partiu o pão."
+  },
+  {
+   "n": 36,
+   "t": "E enquanto eles falavam disto, o próprio Jesus se pôs no meio deles, e lhes disse: Paz seja convosco."
+  },
+  {
+   "n": 37,
+   "t": "E eles, espantados, e muito atemorizados, pensavam que viam algum espírito."
+  },
+  {
+   "n": 38,
+   "t": "E ele lhes disse: Por que estais perturbados, e por que sobem dúvidas em vossos corações?"
+  },
+  {
+   "n": 39,
+   "t": "Vede minhas mãos, e os meus pés, que sou em mesmo. Tocai-me, e vede, porque um espírito não tem carne nem ossos, como vós vedes que eu tenho."
+  },
+  {
+   "n": 40,
+   "t": "E dizendo isto, lhes mostrou as mãos e os pés."
+  },
+  {
+   "n": 41,
+   "t": "E eles, não crendo ainda, por causa da alegria, e maravilhados, Jesus disse-lhes: Tendes aqui alguma coisa para comer?"
+  },
+  {
+   "n": 42,
+   "t": "Então eles lhe apresentaram parte de um peixe assado e de um favo de mel."
+  }
+ ],
+ "titulo": "Por que eles acharam que viam um espírito?",
+ "temas": [
+  "ressurreição",
+  "dúvida",
+  "prova física",
+  "paz",
+  "corpo"
+ ],
+ "pergunta": "Se alguém que você amava voltasse da morte, você acreditaria à primeira vista?",
+ "entender": "Os dois discípulos de Emaús voltaram correndos para Jerusalém. Ao chegar, acharam os onze apóstolos reunidos. Eles não acreditavam no que ouviam, mas disseram: \"Verdadeiramente o Senhor ressuscitou, e já apareceu a Simão\". Enquanto conversavam sobre o encontro no caminho e no partimento do pão, Jesus apareceu no meio deles.\n\nOs discípulos ficaram espantados e atemorizados, pensando que viam um espírito. Jesus perguntou por que estavam perturbados e por que havia dúvidas em seus corações. Ele então convidou: \"Vede minhas mãos, e os meus pés, que sou em mesmo\". Mostrou que tinha carne e ossos, algo que um espírito não possui. Para provar que era real, pediu comida e comeu peixe assado e mel diante deles.\n\nEsse momento é crucial porque tira a dúvida sobre a natureza da ressurreição. Não foi apenas uma visão espiritual ou um fantasma. Jesus tinha um corpo físico, real e tangível. Isso confirma que a morte foi vencida de forma concreta, preparando o caminho para a missão que Ele lhes daria em seguida.",
+ "ligar": {
+  "texto": "Este trecho é o coração do evangelho: Jesus não ficou morto. A ressurreição física de Cristo é a base de toda a fé cristã. Se Ele não tivesse voltado com um corpo real, nossa esperança seria vã. Jesus vence o medo da morte e nos oferece paz. Ele não é uma ideia abstrata, mas uma Pessoa viva que quer estar conosco, mesmo quando a dúvida tenta nos paralisar.",
+  "selo": true
+ },
+ "viver": "Às vezes, a alegria da fé pode nos deixar desorientados, misturando esperança com medo ou dúvida. Isso é humano. A lição aqui é que a fé não exige a ausência total de perguntas, mas a disposição de olhar para as provas concretas da vida de Cristo. Quando a dúvida bater, lembre-se de que Jesus está vivo e real. Ele não se esconde do nosso questionamento; Ele se revela na Sua palavra e na comunidade dos crentes. Busque momentos de comunhão onde a presença dEle seja confirmada, como os discípulos fizeram ao partilhar o pão e a história.",
+ "guarde": "O corpo de Jesus prova que a vida venceu a morte de forma real e tangível.",
+ "ore": "Senhor Jesus, que apareceu no meio dos discípulos com paz, eu também tenho dúvidas e medos. Mostra-me as Tuas mãos e os Teus pés na minha vida. Ajuda-me a acreditar que és real e vivo, e que Tuas promessas têm substância. Dá-me a coragem de tocar a Tua presença no meu dia a dia, mesmo quando o medo tenta me dominar.",
+ "quiz": {
+  "pergunta": "O que Jesus fez para provar que não era um espírito?",
+  "opcoes": [
+   "Fechou os olhos e orou longamente",
+   "Escreveu o nome deles no chão",
+   "Mostrou as mãos e os pés e comeu comida"
+  ],
+  "certa": 2,
+  "explicacao": "Jesus demonstrou ter carne e ossos, características de um corpo físico, ao mostrar as marcas das chagas e ao comer peixe assado e mel."
+ },
+ "refs": [
+  "João 20:24-29",
+  "1 Coríntios 15:3-8",
+  "Marcos 16:12-13"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-25T21:43:40.953Z",
+  "rounds": 1
+ }
+}

@@ -1438,7 +1438,9 @@
   },
   "42-22-48-59": {
    "execucoes": 0,
-   "ultimo": "erro: gemini: 503 { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\", \"status\": \"UNAVAILABLE\" } } "
+   "ultimo": "gemini: QUOTATION_BOUNDARY: O ensino afirma que Jesus disse que eles agem como ladrões, mas o versículo 52 mostra Jesus perguntando se Ele mesmo era ladrão para saírem contra Ele armados.",
+   "estado": "pronto",
+   "titulo": "Quando a violência encontra a cura de Jesus"
   },
   "42-22-60-71": {
    "execucoes": 0,
@@ -1466,7 +1468,9 @@
   },
   "42-23-35-45": {
    "execucoes": 0,
-   "ultimo": "erro: gemini: 503 { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\", \"status\": \"UNAVAILABLE\" } } "
+   "ultimo": "automático: ligar:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "A promessa ao ladrão na cruz"
   },
   "42-23-46-56": {
    "execucoes": 0,
@@ -1476,19 +1480,27 @@
   },
   "42-24-1-11": {
    "execucoes": 0,
-   "ultimo": "erro: gemini: 503 { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\", \"status\": \"UNAVAILABLE\" } } "
+   "ultimo": "automático: abertura_repetida:entender:43-20-1-10",
+   "estado": "pronto",
+   "titulo": "O mistério do túmulo vazio de Jesus"
   },
   "42-24-12-21": {
    "execucoes": 0,
-   "ultimo": "erro: gemini: 503 { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\", \"status\": \"UNAVAILABLE\" } } "
+   "ultimo": "automático: viver:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "Tristeza no caminho para Emaús"
   },
   "42-24-22-32": {
    "execucoes": 0,
-   "ultimo": "erro: gemini: 503 { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\", \"status\": \"UNAVAILABLE\" } } "
+   "ultimo": "automático: viver:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "O coração que arde ao ouvir as Escrituras"
   },
   "42-24-33-42": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "Por que eles acharam que viam um espírito?"
   },
   "42-24-43-53": {
    "execucoes": 0,
@@ -1509,28 +1521,48 @@
   "40-2-1-12": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-2-13-23": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-3-1-9": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-3-10-17": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-4-1-9": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-4-10-17": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 521,
-   "entrada": 1306938,
-   "saida": 463215
+   "chamadas": 528,
+   "entrada": 1326540,
+   "saida": 469325
   },
   "groq-qwen": {
-   "chamadas": 517,
-   "entrada": 1242175,
-   "saida": 419426
+   "chamadas": 524,
+   "entrada": 1260845,
+   "saida": 425042
   },
   "gemini": {
-   "chamadas": 431,
-   "entrada": 1396780,
-   "saida": 574748
+   "chamadas": 438,
+   "entrada": 1419528,
+   "saida": 580277
   },
   "cloudflare": {
-   "chamadas": 255,
-   "entrada": 887810,
-   "saida": 94605
+   "chamadas": 261,
+   "entrada": 908754,
+   "saida": 96831
   },
   "mistral": {
    "chamadas": 0,

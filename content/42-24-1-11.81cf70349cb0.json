@@ -1,0 +1,142 @@
+{
+ "id": "42-24-1-11",
+ "ref": "Lucas 24:1-11",
+ "book": "42",
+ "chapter": 24,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E no primeiro dia da semana, de madrugada bem cedo, foram ao sepulcro, levando consigo os materiais aromáticos que tinham preparado; e algumas outras junto delas."
+  },
+  {
+   "n": 2,
+   "t": "E acharam a pedra já revolvida do sepulcro."
+  },
+  {
+   "n": 3,
+   "t": "E entrando, não acharam o corpo do Senhor Jesus."
+  },
+  {
+   "n": 4,
+   "t": "E aconteceu, que estando elas perplexas, eis que dois homens apareceram junto a elas, com roupas luminosas."
+  },
+  {
+   "n": 5,
+   "t": "E estando elas com muito medo, e abaixando o rosto para o chão, eles lhes disseram: Por que buscam entre os mortos aquele que vive?"
+  },
+  {
+   "n": 6,
+   "t": "Ele não está aqui, mas já ressuscitou. Lembrai-vos de como ele vos falou, quando ainda estava na Galileia,"
+  },
+  {
+   "n": 7,
+   "t": "Dizendo: É necessário que o Filho do homem seja entregue nas mãos de homens pecadores, e que seja crucificado, e ressuscite ao terceiro dia."
+  },
+  {
+   "n": 8,
+   "t": "E se lembraram das palavras dele."
+  },
+  {
+   "n": 9,
+   "t": "E, voltando do sepulcro, anunciaram todas estas coisas aos onze, e a todos os outros."
+  },
+  {
+   "n": 10,
+   "t": "E eram Maria Madalena, e Joana, e Maria mãe de Tiago, e as outras que estavam com elas, que diziam estas coisas aos apóstolos."
+  },
+  {
+   "n": 11,
+   "t": "E para eles, as palavras delas pareciam não ter sentido; e não creram nelas."
+  }
+ ],
+ "titulo": "O mistério do túmulo vazio de Jesus",
+ "temas": [
+  "ressurreição",
+  "esperança",
+  "memória",
+  "testemunho"
+ ],
+ "pergunta": "O que faria você acreditar que algo impossível aconteceu diante dos seus olhos?",
+ "entender": "Na madrugada do primeiro dia da semana, um grupo de mulheres, incluindo Maria Madalena, foi ao sepulcro de Jesus com aromáticos para preparar o corpo. Elas encontraram a pedra já rolada e o lugar vazio. Estavam perplexas e com medo quando dois homens com roupas luminosas apareceram e perguntaram: \"Por que buscam entre os mortos aquele que vive?\".\n\nOs homens lembraram as mulheres das promessas de Jesus na Galileia sobre sua entrega, crucificação e ressurreição ao terceiro dia. Ao voltarem, elas contaram tudo aos apóstolos, mas os homens não creram, achando as palavras delas sem sentido. O texto mostra o choque inicial diante do evento e a importância de lembrar o que Cristo ensinou antes da cruz.",
+ "ligar": {
+  "texto": "Este relato confirma o centro do evangelho: Jesus venceu a morte. A ressurreição valida o sacrifício de Cristo e garante a vida eterna aos que creem. A dúvida dos apóstolos mostra que a fé muitas vezes começa no questionamento, mas se fundamenta na palavra de Deus. Jesus está vivo, e essa realidade transforma a história humana, tirando o medo da morte.",
+  "selo": true
+ },
+ "viver": "Talvez você esteja preso em uma situação que parece um fim, como uma perda ou fracasso. Assim como as mulheres foram ao túmulo esperando o fim e encontraram a vida, leve suas dores a Deus. Confie na memória das promessas de Jesus, mesmo quando a lógica humana diz que não há saída. A ressurreição é a garantia de que a última palavra não é a dor, mas a vida nova em Cristo.",
+ "guarde": "Aquele que você procura entre os mortos está vivo e pode mudar seu hoje.",
+ "ore": "Jesus, que ressuscitou no terceiro dia, obrigado por estar vivo. Ajuda-me a lembrar das Tuas promessas quando a perplexidade e o medo tomarem conta do meu coração, assim como as mulheres se lembraram das Tuas palavras na Galileia.",
+ "quiz": {
+  "pergunta": "O que os dois homens disseram às mulheres no sepulcro?",
+  "opcoes": [
+   "Por que buscam entre os mortos aquele que vive?",
+   "Vão para a Galileia e esperem por mim.",
+   "O corpo foi levado por discípulos."
+  ],
+  "certa": 0,
+  "explicacao": "O texto (Lucas 24:5) registra explicitamente a pergunta: \"Por que buscam entre os mortos aquele que vive?\". As outras opções não constam neste diálogo específico."
+ },
+ "refs": [
+  "Mateus 28:1-8",
+  "Marcos 16:1-8",
+  "João 20:1-10",
+  "1 Coríntios 15:3-4"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-25T21:41:45.928Z",
+  "rounds": 2
+ }
+}

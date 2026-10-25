@@ -1,0 +1,141 @@
+{
+ "id": "42-24-22-32",
+ "ref": "Lucas 24:22-32",
+ "book": "42",
+ "chapter": 24,
+ "verses": [
+  {
+   "n": 22,
+   "t": "Ainda que também algumas mulheres dentre nós nos deixaram surpresos, as quais de madrugada foram ao sepulcro;"
+  },
+  {
+   "n": 23,
+   "t": "E não achando seu corpo, vieram, dizendo que também tinham visto uma aparição de anjos, que disseram que ele vive."
+  },
+  {
+   "n": 24,
+   "t": "E alguns do que estão conosco foram ao sepulcro, e o acharam assim como as mulheres tinham dito; porém não o viram."
+  },
+  {
+   "n": 25,
+   "t": "E ele lhes disse: Ó tolos, e que demoram no coração para crerem em tudo o que os profetas falaram!"
+  },
+  {
+   "n": 26,
+   "t": "Por acaso não era necessário que o Cristo sofresse estas coisas, e então entrar em sua glória?"
+  },
+  {
+   "n": 27,
+   "t": "E começando de Moisés, e por todos os profetas, lhes declarava em todas as Escrituras o que estava escrito sobre ele."
+  },
+  {
+   "n": 28,
+   "t": "E chegaram à aldeia para onde estavam indo; e ele agiu como se fosse para um lugar mais distante."
+  },
+  {
+   "n": 29,
+   "t": "E eles lhe rogaram, dizendo: Fica conosco, porque já é tarde, e o dia está entardecendo;E ele entrou para ficar com eles."
+  },
+  {
+   "n": 30,
+   "t": "E aconteceu que, estando sentado com eles à mesa ,tomou o pão, o benzeu, o partiu, e o deu a eles."
+  },
+  {
+   "n": 31,
+   "t": "E os olhos deles se abriram, e o reconheceram, e ele lhes desapareceu."
+  },
+  {
+   "n": 32,
+   "t": "E diziam um ao outro: Por acaso não estava nosso coração ardendo em nós, quando ele falava conosco pelo caminho, e quando nos desvendava as Escrituras?"
+  }
+ ],
+ "titulo": "O coração que arde ao ouvir as Escrituras",
+ "temas": [
+  "ressurreição",
+  "escrituras",
+  "reconhecimento",
+  "fé"
+ ],
+ "pergunta": "Por que os discípulos não reconheciam Jesus até que ele partiu o pão?",
+ "entender": "Dois discípulos caminhavam tristes para Emaús, três dias após a crucificação. Seus corações estavam confusos porque esperavam um Messias político que libertaria Israel, mas viram Jesus ser executado. Ao encontrarem um homem que lhes explicava as Escrituras, seus olhos não o reconheciam imediatamente. Jesus perguntou, com amor: \"Ó tolos, e que demoram no coração para crerem em tudo o que os profetas falaram!\" Ele mostrou que a dor e a morte eram parte do plano divino para a glória de Cristo.\n\nQuando chegaram à aldeia, os discípulos pediram que ele ficasse. À mesa, Jesus tomou o pão, o abençoou e o partiu. Nesse gesto simples, os olhos deles se abriram e o reconheceram. A compreensão intelectual das profecias se uniu ao reconhecimento pessoal de quem estava ali. Eles perceberam que seu coração havia \"ardido\" enquanto Jesus falava, indicando uma transformação interna profunda antes mesmo do reconhecimento visual.",
+ "ligar": {
+  "texto": "Este texto é central para o evangelho porque mostra como a ressurreição é a chave para entender a Bíblia. Jesus não apenas apareceu, mas usou as Escrituras para revelar quem Ele era. O evangelho não é apenas uma história passada, mas a explicação de toda a história. Quando lemos a Bíblia à luz da ressurreição, as profecias ganham vida e nossa fé se firma não em sentimentos, mas na pessoa de Cristo vivo.",
+  "selo": true
+ },
+ "viver": "Os discípulos estavam tristes e confusos, mas Jesus não os repreendeu com raiva; Ele caminhou com eles e explicou as Escrituras (Lucas 24:25-27). Na sua vida, pode haver momentos em que a tristeza ou a dúvida fazem você não reconhecer a presença de Jesus. Em vez de se isolar, convide alguém para caminhar com você e abrir a Bíblia juntos. Peça a Deus para que, assim como aqueles dois, seu coração arda ao ouvir a Palavra, permitindo que a verdade de Cristo dissolva sua confusão e traga esperança concreta.",
+ "guarde": "Nossa fé acende quando a Palavra de Deus encontra o coração aberto à presença de Cristo.",
+ "ore": "Discípulos de Emaús, vosso coração ardia quando Jesus explicava as Escrituras. Abri meus olhos espirituais para reconhecê-lo nas Sagradas Escrituras e em minha vida diária, hoje.",
+ "quiz": {
+  "pergunta": "O que fez os discípulos reconhecerem Jesus em Emaús?",
+  "opcoes": [
+   "O gesto de partir o pão",
+   "A explicação detalhada das profecias",
+   "A chegada ao fim do dia"
+  ],
+  "certa": 0,
+  "explicacao": "Embora a explicação das Escrituras preparasse o terreno, o texto diz explicitamente que os olhos se abriram quando ele tomou o pão e o partiu (v. 30-31)."
+ },
+ "refs": [
+  "Lucas 22:19-20",
+  "João 2:22",
+  "Atos 1:8"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-25T21:43:13.233Z",
+  "rounds": 2
+ }
+}

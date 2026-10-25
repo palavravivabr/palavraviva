@@ -1,0 +1,138 @@
+{
+ "id": "42-24-12-21",
+ "ref": "Lucas 24:12-21",
+ "book": "42",
+ "chapter": 24,
+ "verses": [
+  {
+   "n": 12,
+   "t": "Porém Pedro, levantando-se, correu ao sepulcro; e abaixando-se, viu os tecidos postos separadamente; e saiu maravilhado com o que tinha acontecido."
+  },
+  {
+   "n": 13,
+   "t": "E eis que dois deles iam naquele mesmo dia a uma aldeia, cujo nome era Emaús, que estava a sessenta estádios de distância de Jerusalém."
+  },
+  {
+   "n": 14,
+   "t": "E iam falando entre si de todas aquelas coisas que tinham acontecido."
+  },
+  {
+   "n": 15,
+   "t": "E aconteceu que, enquanto eles estavam conversando entre si, e perguntando um ao outro, Jesus se aproximou, e foi junto deles."
+  },
+  {
+   "n": 16,
+   "t": "Mas seus olhos foram retidos, para que não o reconhecessem."
+  },
+  {
+   "n": 17,
+   "t": "E disse-lhes: Que conversas são essas, que vós discutis enquanto andam, e ficais tristes?"
+  },
+  {
+   "n": 18,
+   "t": "E um deles ,cujo nome era Cleofas, respondendo-o, disse-lhe: És tu o único viajante em Jerusalém que não sabe as coisas que nela tem acontecido nestes dias?"
+  },
+  {
+   "n": 19,
+   "t": "E ele lhes disse: Quais?E eles lhe disseram: As sobre Jesus de Nazaré, a qual foi um homem profeta, poderoso em obras e em palavras, diante de Deus, e de todo o povo."
+  },
+  {
+   "n": 20,
+   "t": "E como os chefes dos sacerdotes, e nossos líderes o entregaram à condenação de morte, e o crucificaram."
+  },
+  {
+   "n": 21,
+   "t": "E nós esperávamos que ele fosse aquele que libertar a Israel; porém além de tudo isto, hoje é o terceiro dia desde que estas coisas aconteceram."
+  }
+ ],
+ "titulo": "Tristeza no caminho para Emaús",
+ "temas": [
+  "esperança",
+  "desencanto",
+  "identidade",
+  "caminho",
+  "fé"
+ ],
+ "pergunta": "Já sentiu que suas maiores esperanças foram esmagadas por uma realidade dolorosa?",
+ "entender": "Dois discípulos, um deles chamado Cleofas, caminham de Jerusalém para Emaús, a cerca de onze quilômetros de distância. Eles estão tristes e confusos, discutindo os eventos recentes. Pedro correu ao sepulcro e viu os tecidos separados, mas a ressurreição ainda não havia sido plenamente compreendida por todos.\n\nEnquanto conversam, Jesus se aproxima e caminha com eles, mas seus olhos foram retidos para não o reconhecerem. Ele pergunta: \"Que conversas são essas, que vós discutis enquanto andam, e ficais tristes?\" Eles respondem que esperavam que Jesus fosse \"aquele que libertar a Israel\", mas ele foi morto. O texto mostra a distância entre a expectativa política de libertação e o plano de salvação espiritual de Deus.",
+ "ligar": {
+  "texto": "Este trecho é central para o evangelho porque mostra Jesus revelando-se aos discípulos que o haviam rejeitado. Ele não apenas caminha com eles na tristeza, mas prepara o terreno para explicar as Escrituras (nos versículos seguintes), mostrando que sua morte e ressurreição cumpriam as profecias. A \"libertação\" prometida não era apenas política, mas a vitória sobre o pecado e a morte, oferecida a todos.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, nossa dor vem de expectativas mal direcionadas. Assim como Cleofas esperava um libertador político, podemos esperar que Deus resolva nossas vidas de uma forma que não é a dele. O convite aqui é abrir espaço para que Jesus caminhe conosco na confusão. Em vez de insistir em nossa versão dos fatos, podemos perguntar a Ele o que a Palavra diz sobre essa situação. A tristeza pode se transformar em clareza quando deixamos que Ele nos ensine, em vez de tentarmos entender tudo sozinhos.",
+ "guarde": "A tristeza pode ser o ponto de partida para um encontro novo com Cristo.",
+ "ore": "Jesus, que caminhou com Cleofas em Emaús, eu Te peço que abra meus olhos retidos. Não permitas que eu caminhe triste sem Te reconhecer. Ensina-me a esperar a Tua libertação, que é eterna, e não apenas as circunstâncias. Que a Tua presença me sustente no caminho.",
+ "quiz": {
+  "pergunta": "Qual era a expectativa principal de Cleofas e seus companheiros sobre Jesus, segundo Lucas 24:21?",
+  "opcoes": [
+   "Que ele ensinasse novas leis morais.",
+   "Que ele fosse um médico poderoso.",
+   "Que ele fosse aquele que libertar a Israel."
+  ],
+  "certa": 2,
+  "explicacao": "O texto diz explicitamente: \"nós esperávamos que ele fosse aquele que libertar a Israel\". Isso revela uma expectativa de libertação nacional, comum na época, que contrasta com a salvação espiritual que Jesus veio trazer."
+ },
+ "refs": [
+  "Marcos 16:12",
+  "João 21:4",
+  "Isaías 53:5"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-25T21:40:35.922Z",
+  "rounds": 2
+ }
+}

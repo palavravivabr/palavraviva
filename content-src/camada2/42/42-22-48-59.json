@@ -1,0 +1,145 @@
+{
+ "id": "42-22-48-59",
+ "ref": "Lucas 22:48-59",
+ "book": "42",
+ "chapter": 22,
+ "verses": [
+  {
+   "n": 48,
+   "t": "E Jesus lhe disse: Judas, com um beijo trais ao Filho do homem?"
+  },
+  {
+   "n": 49,
+   "t": "E os que estavam com ele, vendo o que iria acontecer, disseram-lhe: Senhor, feriremos com a espada?"
+  },
+  {
+   "n": 50,
+   "t": "E um deles feriu a um servo do chefe dos sacerdotes, e cortou-lhe a orelha direita."
+  },
+  {
+   "n": 51,
+   "t": "E respondendo Jesus, disse: Para com isto! E tocando-lhe a orelha, o curou."
+  },
+  {
+   "n": 52,
+   "t": "E disse Jesus aos chefes dos sacerdotes, e aos oficiais do Templo, e aos anciãos, que tinham vindo contra ele: Como se eu fosse ladrão, saístes com espadas e bastões?"
+  },
+  {
+   "n": 53,
+   "t": "Estando eu convosco todo dia no Templo, contra mim não me prendestes; mas esta é a vossa hora, e sob a autoridade das trevas."
+  },
+  {
+   "n": 54,
+   "t": "E prendendo-o, o trouxeram e o puseram na casa do sumo sacerdote. E Pedro o seguia de longe."
+  },
+  {
+   "n": 55,
+   "t": "E acenderam fogo no meio do pátio, e sentaram-se juntos, e Pedro se sentou entre eles."
+  },
+  {
+   "n": 56,
+   "t": "E uma serva, vendo-o sentado junto ao fogo, fixando o olhos nele, disse: Este também estava com ele."
+  },
+  {
+   "n": 57,
+   "t": "Porém ele o negou, dizendo: Mulher, eu não o conheço."
+  },
+  {
+   "n": 58,
+   "t": "E pouco depois, outro o viu, e disse: Também tu és um deles."
+  },
+  {
+   "n": 59,
+   "t": "E quando já tinha passado quase uma hora, outro afirmava, dizendo: Verdadeiramente também este estava com ele, porque também é galileu."
+  }
+ ],
+ "titulo": "Quando a violência encontra a cura de Jesus",
+ "temas": [
+  "violência",
+  "cura",
+  "paz",
+  "fé"
+ ],
+ "pergunta": "Como a reação de Jesus à orelha cortada nos desafia a responder ao medo?",
+ "entender": "Neste trecho, Judas entrega Jesus com um beijo e os discípulos, assustados, perguntam: \"Senhor, feriremos com a espada?\" (Lucas 22.49). Um deles corta a orelha direita do servo do sumo sacerdote (v.50). Jesus responde: \"Para com isto!\" e, tocando a orelha, a cura (v.51). Em seguida, Ele dirige‑se aos que vieram armados: \"Como se eu fosse ladrão, saístes com espadas e bastões?\" (v.52). O episódio ocorre na noite da prisão, quando o medo domina os seguidores, mas a autoridade de Cristo permanece firme, mostrando que Ele não aceita a violência como meio de cumprir a vontade de Deus.\n\nA cena contrasta duas respostas: a humana, que recorre à força, e a divina, que interrompe a agressão e restaura. Jesus não só repreende a violência, mas demonstra poder de cura, indicando que o Reino de Deus se manifesta em paz e restauração, não em luta.",
+ "ligar": {
+  "texto": "Ao curar a orelha ferida, Jesus revela o poder que a cruz exercerá: restaurar o que o pecado rompeu. Sua recusa à violência aponta ao evangelho, onde o Salvador vence o inimigo não pela espada, mas pelo sacrifício que traz perdão e vida nova. Assim, a cura aqui antecipa a cura completa que Ele oferece a todos que crêem.",
+  "selo": true
+ },
+ "viver": "A reação impulsiva de cortar a orelha mostra como, em momentos de medo, podemos agir sem pensar. Jesus nos convida a parar, dizer \"Para com isto!\" e buscar a cura ao invés da retaliação. Hoje, quando enfrentamos conflitos no trabalho ou em casa, podemos escolher palavras que acalmem e atos que restauram, confiando que Deus pode transformar até a mais dolorosa ferida em sinal de graça.",
+ "guarde": "A verdadeira força de Cristo se revela ao curar a dor em vez de retaliar.",
+ "ore": "Jesus, ao curar a orelha do servo, ensina-me a responder ao medo com compaixão, para que eu possa ser agente de cura onde houver violência.",
+ "quiz": {
+  "pergunta": "O que Jesus fez depois que a orelha do servo foi cortada?",
+  "opcoes": [
+   "Ele a curou",
+   "Ele a ignorou",
+   "Ele repreendeu o agressor e deixou a orelha ferida"
+  ],
+  "certa": 0,
+  "explicacao": "Jesus tocou a orelha e a curou (Lucas 22.51), mostrando que Ele rejeita a violência e oferece restauração."
+ },
+ "refs": [
+  "Mateus 26:52",
+  "João 18:10-11",
+  "Isaías 53:4-5"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-25T21:37:00.115Z",
+  "rounds": 3
+ }
+}

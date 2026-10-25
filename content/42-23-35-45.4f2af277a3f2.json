@@ -1,0 +1,141 @@
+{
+ "id": "42-23-35-45",
+ "ref": "Lucas 23:35-45",
+ "book": "42",
+ "chapter": 23,
+ "verses": [
+  {
+   "n": 35,
+   "t": "E o povo estava olhando; e os líderes também zombavam com eles, dizendo: Salvou a outros, salve agora a si mesmo, se é o Cristo, o escolhido de Deus."
+  },
+  {
+   "n": 36,
+   "t": "E os soldados também escarneciam dele, aproximando-se dele, e mostrando-lhe vinagre;"
+  },
+  {
+   "n": 37,
+   "t": "E dizendo: Se tu és o Rei dos judeus, salva a ti mesmo."
+  },
+  {
+   "n": 38,
+   "t": "E também estava acima dele um título escrito com letras gregas, romanas e hebraicas: ESTE É O REI DOS JUDEUS."
+  },
+  {
+   "n": 39,
+   "t": "E um dos malfeitores que estavam pendurados o insultava, dizendo: Se tu és o Cristo, salva a ti mesmo, e a nós."
+  },
+  {
+   "n": 40,
+   "t": "Porém o outro, respondendo, repreendia-o, dizendo: Tu ainda não temes a Deus, mesmo estando na mesma condenação?"
+  },
+  {
+   "n": 41,
+   "t": "E nós realmente estamos sendo punidos justamente, porque estamos recebendo de volta merecidamente por aquilo que praticamos; mas este nada fez de errado."
+  },
+  {
+   "n": 42,
+   "t": "E disse a Jesus: Senhor, lembra-te de mim, quando chegares em teu Reino."
+  },
+  {
+   "n": 43,
+   "t": "E Jesus lhe disse: Em verdade te digo, hoje estarás comigo no paraíso."
+  },
+  {
+   "n": 44,
+   "t": "E era já quase a hora sexta, e houve trevas em toda a terra, até a hora nona."
+  },
+  {
+   "n": 45,
+   "t": "E o sol se escureceu, e o véu do templo se rasgou ao meio."
+  }
+ ],
+ "titulo": "A promessa ao ladrão na cruz",
+ "temas": [
+  "salvação",
+  "fé",
+  "perdão"
+ ],
+ "pergunta": "Você já acreditou que ainda há esperança, mesmo quando tudo parece perdido?",
+ "entender": "Nos versículos de Lucas 23:35‑45 vemos a crucificação de Jesus. O povo e os líderes zombam, dizendo: \"Salvou a outros, salve agora a si mesmo, se é o Cristo\" (v.35). Os soldados também o escarnecem, oferecendo‑lhe vinagre (v.36‑37) e erguendo a placa: \"ESTE É O REI DOS JUDEUS\" (v.38). Dois criminosos são pendurados ao seu lado. Um deles continua a insultá‑Lo, mas o outro reconhece quem Ele é, pedindo: \"Senhor, lembra‑te de mim, quando chegares em teu Reino\" (v.42). Jesus lhe responde: \"Em verdade te digo, hoje estarás comigo no paraíso\" (v.43). Em seguida, há trevas de hora sexta a hora nona e o véu do templo se rasga (v.44‑45), sinais que marcam a morte de Cristo e a abertura do caminho para a salvação.\n\nEsse momento encerra o ministério terreno de Jesus. Ele perdoa até quem o crucifica (v.34) e, ao responder ao ladrão, demonstra que a salvação não depende de obras, mas da fé confessada no último instante. O véu rasgado simboliza o fim da separação entre Deus e a humanidade, preparando o caminho para o evangelho que se cumprirá na ressurreição.",
+ "ligar": {
+  "texto": "O pedido do ladrão mostra que a salvação está ao alcance de quem crê, mesmo na hora final. A resposta de Jesus, \"hoje estarás comigo no paraíso\", aponta para a vida eterna que Ele oferece a todos que reconhecem Sua realeza e pedem perdão. O rasgar do véu do templo indica que o sacrifício de Cristo removeu a barreira entre Deus e o homem, permitindo acesso direto ao Pai, cumprindo a promessa do evangelho de reconciliação.",
+  "selo": true
+ },
+ "viver": "A atitude do ladrão nos ensina que, mesmo nos momentos mais sombrios, podemos voltar o rosto para Jesus e reconhecer Sua autoridade. Quando reconhecemos que Ele é o Rei e pedimos que Ele se lembre de nós, recebemos a certeza de que a graça de Deus pode transformar nosso futuro, trazendo paz e esperança que vão além das circunstâncias presentes.",
+ "guarde": "Mesmo na cruz, a fé sincera abre a porta do paraíso.",
+ "ore": "Jesus na cruz, ao ouvir o pedido do ladrão, concedeu-lhe a promessa do paraíso. Senhor, ajuda-me a reconhecer que, mesmo nos meus momentos mais sombrios, posso clamar a Ti com fé e receber a tua graça que salva.",
+ "quiz": {
+  "pergunta": "Qual foi a resposta de Jesus ao ladrão que pediu lembrança?",
+  "opcoes": [
+   "Vai para o céu quando eu voltar",
+   "Perdoa-me, pois não sei o que fiz",
+   "Hoje estarás comigo no paraíso"
+  ],
+  "certa": 2,
+  "explicacao": "Jesus respondeu: \"Em verdade te digo, hoje estarás comigo no paraíso\" (Lucas 23:43), confirmando a promessa de vida eterna ao crente arrependido."
+ },
+ "refs": [
+  "Mateus 27:46-54",
+  "João 19:30-37",
+  "Hebreus 10:19-22",
+  "1 Pedro 3:18"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-25T21:35:10.437Z",
+  "rounds": 2
+ }
+}
