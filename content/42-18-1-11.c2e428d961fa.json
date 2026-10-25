@@ -1,0 +1,142 @@
+{
+ "id": "42-18-1-11",
+ "ref": "Lucas 18:1-11",
+ "book": "42",
+ "chapter": 18,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E Jesus lhes disse também uma parábola sobre o dever de sempre orar, e nunca se cansar."
+  },
+  {
+   "n": 2,
+   "t": "Dizendo: Havia um certo juiz em uma cidade, que não temia a Deus, nem respeitava pessoa alguma."
+  },
+  {
+   "n": 3,
+   "t": "Havia também naquela mesma cidade uma certa viúva, e vinha até ele, dizendo: Faze-me justiça com meu adversário."
+  },
+  {
+   "n": 4,
+   "t": "E por um certo tempo ele não quis; mas depois disto, disse para si: Ainda que eu não tema a Deus, nem respeite pessoa alguma,"
+  },
+  {
+   "n": 5,
+   "t": "Porém, porque esta viúva me incomoda, eu lhe farei justiça, para que ela pare de vir me chatear."
+  },
+  {
+   "n": 6,
+   "t": "E disse o Senhor: Ouvi o que diz o juiz injusto."
+  },
+  {
+   "n": 7,
+   "t": "E Deus não fará justiça para seus escolhidos, que clamam a ele de dia e de noite? Demorará com eles?"
+  },
+  {
+   "n": 8,
+   "t": "Digo-vos que depressa lhes fará justiça. Porém, quando o Filho do homem vier, por acaso ele achará fé na terra?"
+  },
+  {
+   "n": 9,
+   "t": "E disse também a uns, que tinham confiança de si mesmos que eram justos, e desprezavam aos outros, esta parábola:"
+  },
+  {
+   "n": 10,
+   "t": "Dois homens subiram ao Templo para orar, um fariseu, e o outro publicano."
+  },
+  {
+   "n": 11,
+   "t": "O fariseu, estando de pé, orava consigo desta maneira: Ó Deus, eu te agradeço, porque não sou como os outros homens, ladrões, injustos e adúlteros; nem sou como este publicano."
+  }
+ ],
+ "titulo": "A insistência da viúva e o coração humilde",
+ "temas": [
+  "oração",
+  "perseverança",
+  "humildade",
+  "justiça"
+ ],
+ "pergunta": "O que nos impede de continuar orando quando a resposta parece demorar?",
+ "entender": "Jesus conta duas parábolas para ensinar sobre a atitude correta na oração. A primeira envolve uma viúva que insistia com um juiz injusto, que não temia a Deus. Ela repetia seu pedido até ele ceder, não por bondade, mas para se livrar do incômodo. Jesus usa essa história para mostrar que Deus, que é justo, certamente atenderá seus filhos que clamam a ele de dia e de noite.\n\nA segunda parábola começa com dois homens subindo ao Templo para orar: um fariseu e um publicano. O texto foca aqui na atitude do fariseu, que, estando de pé, orava consigo mesmo agradecendo a Deus porque não era como os outros homens, ladrões e injustos. Ele se exaltava por suas práticas religiosas e desprezava o outro. Jesus usa esse contraste para mostrar que a verdadeira oração não é uma lista de conquistas, mas um coração que se reconhece dependente da graça, evitando a autoconfiança que leva ao desprezo do próximo.",
+ "ligar": {
+  "texto": "Estas parábolas apontam para a pessoa de Jesus e a natureza de Deus. O juiz injusto serve de contraste para revelar que Deus não é indiferente, mas ouve os clamores dos seus. A pergunta de Jesus sobre se Ele achará fé na terra nos convida a examinar se nossa fé é ativa. A atitude do fariseu ilustra o erro de buscar justificação por obras, enquanto o evangelho ensina que somos justificados pela graça, mediante a fé em Cristo, que se humilhou por nós. Jesus é o mediador que atende o clamor humilde, oferecendo a justiça que nós não podemos gerar por esforço próprio.",
+  "selo": true
+ },
+ "viver": "A viúva da parábola não parou de bater à porta do juiz, mesmo quando ele parecia surdo ao seu pedido. Da mesma forma, quando a resposta de Deus parece demorar, a tentação é desistir ou sentir que Ele se esqueceu de nós. A insistência dela mostra que a perseverança tem valor. Experimente voltar à oração com essa mesma simplicidade: apresente sua necessidade novamente, sem exigir respostas imediatas, confiando que o tempo de Deus é diferente do nosso. A fé não é a ausência de dúvidas, mas a decisão de continuar clamando, mesmo quando o silêncio parece durar muito, evitando a arrogância de achar que nossa justiça própria garante a bênção.",
+ "guarde": "Deus não é um juiz indiferente; Ele ouve o clamor persistente dos seus filhos.",
+ "ore": "Pai, como a viúva que insistiu com o juiz injusto, eu não desisto de bater à Tua porta. Ajuda-me a perseverar na oração, mesmo quando o silêncio parece durar. Ensina-me a humildade, para que eu não me exalte como o fariseu que se julgava justo, mas reconheça minha total dependência da Tua graça e misericórdia.",
+ "quiz": {
+  "pergunta": "Qual era a principal característica do juiz da parábola da viúva?",
+  "opcoes": [
+   "Ele não temia a Deus nem respeitava pessoa alguma.",
+   "Ele era um homem muito piedoso e justo.",
+   "Ele atendeu a viúva imediatamente por bondade."
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz explicitamente que o juiz \"não temia a Deus, nem respeitava pessoa alguma\" (v. 2). Ele só atendeu a viúva para se livrar do incômodo (v. 5), não por justiça ou piedade."
+ },
+ "refs": [
+  "Lucas 11:5-10",
+  "Romanos 10:13",
+  "Tiago 5:16",
+  "1 Reis 18:26-29"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-25T00:55:31.906Z",
+  "rounds": 3
+ }
+}

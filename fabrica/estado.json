@@ -1318,7 +1318,9 @@
   },
   "42-18-1-11": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: REFERENCE_BOUNDARY: O ensino detalha a oração e o ato do publicano de bater no peito, que estão nos versículos 13 e 14, sem avisar que estão fora do trecho-alvo (v. 1-11). | PRAYER_FIDELITY: A oração inicia-se invocando a viúva da parábola ('Viúva que não desistiu, ensina-me...'), em vez de ser diri",
+   "estado": "pronto",
+   "titulo": "A insistência da viúva e o coração humilde"
   },
   "42-18-12-22": {
    "execucoes": 0,
@@ -1373,28 +1375,32 @@
   "42-21-1-10": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-21-11-19": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 469,
-   "entrada": 1165318,
-   "saida": 418525
+   "chamadas": 477,
+   "entrada": 1187600,
+   "saida": 425700
   },
   "groq-qwen": {
-   "chamadas": 467,
-   "entrada": 1109326,
-   "saida": 377096
+   "chamadas": 474,
+   "entrada": 1129149,
+   "saida": 383291
   },
   "gemini": {
-   "chamadas": 386,
-   "entrada": 1250251,
-   "saida": 500117
+   "chamadas": 392,
+   "entrada": 1270018,
+   "saida": 512467
   },
   "cloudflare": {
-   "chamadas": 233,
-   "entrada": 811488,
-   "saida": 86443
+   "chamadas": 234,
+   "entrada": 815078,
+   "saida": 86814
   },
   "mistral": {
    "chamadas": 0,
