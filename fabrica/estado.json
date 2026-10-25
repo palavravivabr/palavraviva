@@ -1452,7 +1452,9 @@
   },
   "42-23-12-22": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: NARRATIVE_EVENT_CONSISTENCY: O teste afirma incorretamente que Pilatos ofereceu soltar Barrabás em vez de Jesus, contrariando o texto bíblico em que Pilatos queria soltar Jesus e a multidão exigiu Barrabás. | PRAYER_FIDELITY: A oração é dirigida a Pilatos ('Pilatos, [...] ensina-me'), o que é incomp",
+   "estado": "pronto",
+   "titulo": "O silêncio que cala a multidão"
   },
   "42-23-23-34": {
    "execucoes": 0,
@@ -1477,28 +1479,36 @@
   "42-24-22-32": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-24-33-42": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-24-43-53": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 507,
-   "entrada": 1268884,
-   "saida": 451478
+   "chamadas": 514,
+   "entrada": 1288265,
+   "saida": 457215
   },
   "groq-qwen": {
-   "chamadas": 503,
-   "entrada": 1205592,
-   "saida": 407918
+   "chamadas": 509,
+   "entrada": 1222335,
+   "saida": 412979
   },
   "gemini": {
-   "chamadas": 417,
-   "entrada": 1351501,
-   "saida": 545224
+   "chamadas": 423,
+   "entrada": 1370566,
+   "saida": 559082
   },
   "cloudflare": {
-   "chamadas": 251,
-   "entrada": 874095,
-   "saida": 93121
+   "chamadas": 252,
+   "entrada": 877462,
+   "saida": 93492
   },
   "mistral": {
    "chamadas": 0,

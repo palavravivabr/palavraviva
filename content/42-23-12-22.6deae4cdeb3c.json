@@ -1,0 +1,141 @@
+{
+ "id": "42-23-12-22",
+ "ref": "Lucas 23:12-22",
+ "book": "42",
+ "chapter": 23,
+ "verses": [
+  {
+   "n": 12,
+   "t": "E no mesmo dia Pilatos e Herodes se fizeram amigos; porque antes tinham inimizade um contra o outro."
+  },
+  {
+   "n": 13,
+   "t": "E Pilatos, convocando aos chefes dos sacerdotes, aos líderes, e ao povo, disse-lhes:"
+  },
+  {
+   "n": 14,
+   "t": "Vós me trouxestes a este homem, como que perverte o povo; e eis que eu, examinando-o em vossa presença, nenhuma culpa eu acho neste homem, das de que o acusais."
+  },
+  {
+   "n": 15,
+   "t": "E nem também Herodes; porque a ele eu vos remeti; e eis que ele nada fez para que seja digno de morte."
+  },
+  {
+   "n": 16,
+   "t": "Então eu o castigarei, e depois o soltarei."
+  },
+  {
+   "n": 17,
+   "t": "E ele tinha de soltar-lhes alguém durante a festa."
+  },
+  {
+   "n": 18,
+   "t": "Porém todos clamavam juntos, dizendo: Tirai-o daqui! E soltai Barrabás para nós!"
+  },
+  {
+   "n": 19,
+   "t": "(O qual por uma rebelião feita na cidade, e por uma morte, tinha sido lançado na prisão)."
+  },
+  {
+   "n": 20,
+   "t": "Pilatos falou-lhes então outra vez, querendo soltar Jesus."
+  },
+  {
+   "n": 21,
+   "t": "Mas eles clamavam, dizendo: Crucifica -o ! crucifica-o!"
+  },
+  {
+   "n": 22,
+   "t": "E ele lhes disse a terceira vez: Pois que mal este fez? Nenhuma culpa de morte nele eu achei. Então eu o castigarei, e depois o soltarei."
+  }
+ ],
+ "titulo": "O silêncio que cala a multidão",
+ "temas": [
+  "justiça",
+  "silêncio",
+  "decisão",
+  "população"
+ ],
+ "pergunta": "O que acontece quando a verdade é ignorada em favor da opinião da maioria?",
+ "entender": "Neste momento tenso, Pilatos e Herodes, que antes eram inimigos, se aproximam por interesse político. Pilatos, diante dos líderes e do povo, declara que não encontrou culpa em Jesus, nem Herodes. Ele oferece uma alternativa: castigar Jesus e depois soltá-lo, cumprindo a tradição de soltar um prisioneiro na festa.\n\nA multidão, porém, já tinha decidido. Clamava por Barrabás, um rebelde preso por homicídio, e exigia a crucificação de Jesus. Pilatos, tentando satisfazer o povo, pergunta pela terceira vez o que de mal Jesus fez, mas os gritos prevalecem. A cena mostra o conflito entre a justiça individual e a pressão coletiva.",
+ "ligar": {
+  "texto": "Aqui, vemos o contraste entre a inocência de Jesus e a culpa de Barrabás. Jesus é entregue não por seus próprios atos, mas pela decisão de outros. Isso aponta para o coração do evangelho: Jesus, o justo, aceita o lugar do injusto. Sua morte na cruz não foi por ter cometido um crime, mas para carregar o peso de nossas falhas. A recusa da multidão em aceitar a verdade de Pilatos lembra que a salvação é oferecida, mas exige uma resposta pessoal de fé.",
+  "selo": true
+ },
+ "viver": "Às vezes, a pressão do grupo pode nos levar a concordar com o que é errado para não sermos vistos como estranhos. Pense em uma situação onde você sentiu medo de discordar da maioria, mesmo sabendo que estava errado. Assim como Pilatos cedeu aos gritos, nós também podemos ceder ao medo da rejeição. Lembre-se de que a coragem de dizer a verdade, mesmo quando é impopular, é parte da vida em Cristo. Não deixe que o barulho exterior determine sua consciência.",
+ "guarde": "A verdade não muda porque a maioria grita contra ela.",
+ "ore": "Senhor, ao lembrar de Pilatos e da multidão, ensina-me a não ceder ao medo do que os outros pensam. Dá-me coragem para defender o que é justo, mesmo quando for impopular, e para confiar em Ti, que és a verdade eterna.",
+ "quiz": {
+  "pergunta": "Quem clamava para que Barrabás fosse solto?",
+  "opcoes": [
+   "A multidão e os líderes.",
+   "Pilatos, para agradar Herodes.",
+   "Herodes, para evitar conflitos."
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz que 'todos clamavam juntos' pedindo a soltura de Barrabás (v.18), enquanto Pilatos queria soltar Jesus."
+ },
+ "refs": [
+  "Mateus 27:15-26",
+  "Marcos 15:6-15",
+  "João 18:38-40"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-25T15:42:27.249Z",
+  "rounds": 2
+ }
+}
