@@ -1,0 +1,73 @@
+diff --git a/app.js b/app.js
+index 618a844..a1863a6 100644
+--- a/app.js
++++ b/app.js
+@@ -46,3 +46,3 @@
+   /* ---------- configuração (dono, contato, Pix, áudio): arquivo config.json ---------- */
+-  var cfg = { ownerName: '', year: '', contactEmail: 'contato.palavravivabr@gmail.com', pixKey: '', siteUrl: '', audio: [] };
++  var cfg = { ownerName: '', year: '', contactEmail: 'contato.palavravivabr@gmail.com', pixKey: '', siteUrl: '', audio: [], audioNomes: [] };
+   async function loadConfig() {
+@@ -899,6 +899,7 @@
+   async function startAudio() {
+-    var src = cfg.audio && cfg.audio[0];
+-    if (src) {
++    var lista = cfg.audio || [], i = parseInt(lsGet('pv4-trilha', '0'), 10) || 0;
++    var tent = [lista[i], lista[0]].filter(function (x, k, a) { return x && a.indexOf(x) === k; });
++    for (var k = 0; k < tent.length; k++) {
+       try {
+-        var blob = await (await mediaResponse(src)).blob();
++        var blob = await (await mediaResponse(tent[k])).blob();
+         aud.url = URL.createObjectURL(blob); aud.el = new Audio(aud.url); aud.el.loop = true; aud.el.volume = volume();
+@@ -918,3 +919,15 @@
+   }
++  function fillTrilhas() {
++    var s = $('#trilha'), l = cfg.audio || [], n = cfg.audioNomes || []; if (!s) return;
++    if (l.length < 2) { s.parentNode.style.display = 'none'; return; }
++    s.textContent = '';
++    l.forEach(function (src, i) { var o = document.createElement('option'); o.value = String(i); o.textContent = n[i] || ('Trilha ' + (i + 1)); s.appendChild(o); });
++    var cur = parseInt(lsGet('pv4-trilha', '0'), 10); s.value = String(cur >= 0 && cur < l.length ? cur : 0);
++    s.parentNode.style.display = 'flex';
++  }
+   function bindAudio() {
++    $('#trilha').addEventListener('change', async function () {
++      lsSet('pv4-trilha', $('#trilha').value);
++      if (aud.on) { stopAudio(); if (!(await startAudio())) toast('Este aparelho não tocou o áudio.'); }
++    });
+     $('#sw').addEventListener('click', async function () {
+@@ -1038,3 +1051,3 @@
+     try { var cc = await caches.open(CONTENT), sm = await cc.match('content-manifest.json'); if (sm) stored = await sm.json(); } catch (e) { stored = null; }
+-    var cfgDone = loadConfig().then(function () { fillRights(); $('#blessItem').hidden = !cfg.pixKey; });
++    var cfgDone = loadConfig().then(function () { fillRights(); fillTrilhas(); $('#blessItem').hidden = !cfg.pixKey; });
+     function showFirst() {
+diff --git a/assets/creditos.html b/assets/creditos.html
+index 18c59ee..a2f1a72 100644
+--- a/assets/creditos.html
++++ b/assets/creditos.html
+@@ -120,2 +120,3 @@ h2{font-size:15px;color:var(--accent);margin:0 0 6px}
+   <p><b>Voz da Palavra do Dia</b>: narração gerada com o sintetizador de voz Piper (Open Home Foundation / OHF-Voice, licença MIT) e a voz pt_BR-faber-medium, do projeto Piper Voices, treinada com o conjunto de dados Faber (domínio público, CC0). Os áudios são sintéticos, gerados por computador, e não são a gravação de uma pessoa real.</p>
++  <p><b>Fundos musicais</b>: as trilhas “Alvorada” e “Quietude” foram sintetizadas por computador para este projeto, sem uso de gravações ou composições de terceiros. A trilha instrumental ambiente padrão está descrita no registro de créditos do projeto.</p>
+   <p>Os créditos detalhados dos materiais e as condições de uso constam nos <a href="termos.html">Termos de Uso e Privacidade</a> e no registro de créditos do projeto.</p>
+diff --git a/config.json b/config.json
+index 9b242d3..ed524c4 100644
+--- a/config.json
++++ b/config.json
+@@ -7,3 +7,10 @@
+   "audio": [
+-    "assets/ambiente-leitura.mp3"
++    "assets/ambiente-leitura.mp3",
++    "assets/voz/trilha-alvorada.mp3",
++    "assets/voz/trilha-quietude.mp3"
++  ],
++  "audioNomes": [
++    "Instrumental ambiente (padrão)",
++    "Alvorada",
++    "Quietude"
+   ]
+diff --git a/index.html b/index.html
+index 7091c9d..ac3f480 100644
+--- a/index.html
++++ b/index.html
+@@ -157,2 +157,3 @@
+       <div class="vol"><label for="vol">Volume</label><input type="range" id="vol" min="0" max="100" value="40"></div>
++      <div class="vol" style="display:none"><label for="trilha">Fundo musical</label><select id="trilha" style="flex:1;min-width:0;min-height:42px;border-radius:12px;border:1px solid var(--line);background:var(--paper);font:inherit;color:var(--text);padding:0 10px"></select></div>
+       <p id="audState" style="font-size:12px;color:var(--soft);margin-top:6px">Desligada</p></div>

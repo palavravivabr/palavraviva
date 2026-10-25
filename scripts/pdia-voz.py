@@ -19,3 +19,7 @@ for it in lista:
     os.remove(wav)
     print('ok', it['id'], it['ref'], os.path.getsize(mp3), 'bytes')
 print(len(lista), 'áudios gerados em', saida)
+# trilhas de fundo do app (síntese própria, sem direitos de terceiros); só gera se ainda não existirem
+if not os.path.exists(os.path.join(saida, 'trilha-alvorada.mp3')):
+    subprocess.run([sys.executable, '-m', 'pip', 'install', '-q', 'numpy', 'scipy'], check=True)
+    subprocess.run([sys.executable, os.path.join(os.path.dirname(os.path.abspath(__file__)), 'gerar-trilhas.py'), saida], check=True)
