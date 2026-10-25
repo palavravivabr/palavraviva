@@ -1,0 +1,145 @@
+{
+ "id": "42-19-37-48",
+ "ref": "Lucas 19:37-48",
+ "book": "42",
+ "chapter": 19,
+ "verses": [
+  {
+   "n": 37,
+   "t": "E quando já chegava perto da descida do monte das Oliveiras, toda a multidão de discípulos, com alegria começou a louvar a Deus em alta voz, por todas as maravilhas que tinham visto,"
+  },
+  {
+   "n": 38,
+   "t": "Dizendo: Bendito o Rei que vem em nome do Senhor; paz no céu, e glória nas alturas."
+  },
+  {
+   "n": 39,
+   "t": "E alguns dos fariseus da multidão lhe disseram: Mestre, repreende a teus discípulos."
+  },
+  {
+   "n": 40,
+   "t": "E respondendo ele, disse-lhes: Digo-vos, que se estes se calarem, as pedras clamariam."
+  },
+  {
+   "n": 41,
+   "t": "E quando já estava chegando, viu a cidade, e chorou por causa dela,"
+  },
+  {
+   "n": 42,
+   "t": "Dizendo: Ah, se tu também conhecesses, pelo menos neste teu dia, aquilo que lhe traria paz! Mas agora isto está escondido de teus olhos."
+  },
+  {
+   "n": 43,
+   "t": "Porque dias virão sobre ti, em que teus inimigos lhe cercarão com barricadas, e ao redor te sitiarão, e lhe pressionarão por todos os lados."
+  },
+  {
+   "n": 44,
+   "t": "E derrubarão a ti, e a teus filhos; e não deixarão em ti pedra sobre pedra, porque não conheceste o tempo em que foste visitada."
+  },
+  {
+   "n": 45,
+   "t": "E entrando no Templo, começou a expulsar a todos os que vendiam e compravam ali,"
+  },
+  {
+   "n": 46,
+   "t": "Dizendo-lhes: Está escrito: Minha casa é casa de oração; Mas vós a tendes feito um esconderijo de ladrões."
+  },
+  {
+   "n": 47,
+   "t": "E ensinava diariamente no Templo; e os chefes dos sacerdotes, e os escribas, e os chefes do povo, procuravam matá-lo."
+  },
+  {
+   "n": 48,
+   "t": "E não achavam como fazer, porque todo o povo o ouvia com muita atenção."
+  }
+ ],
+ "titulo": "Por que Jesus chorou vendo Jerusalém?",
+ "temas": [
+  "arrependimento",
+  "paz",
+  "tempo de visitação",
+  "luto"
+ ],
+ "pergunta": "O que significa perder a chance de encontrar paz com Deus?",
+ "entender": "Ao chegar perto de Jerusalém, Jesus viu a cidade e chorou. Não era apenas um gesto de tristeza pessoal, mas de profunda compaixão. Ele sabia que aquele era o momento decisivo para o povo, mas sentia que a maioria não reconhecia o que traria paz. A multidão o aclamava como Rei, mas muitos líderes religiosos e pessoas comuns estavam cegados pela tradição e pelo orgulho.\n\nJesus alertou que dias difíceis viriam, com cerco e destruição, porque a cidade não reconheceu o tempo em que foi visitada por Deus. O choro de Jesus revela o custo da rejeição: quando recusamos a oferta de Deus, perdemos a proteção e a paz que Ele oferece. No Templo, Ele expôs a hipocrisia de transformarem a casa de oração em lugar de comércio, mostrando que a adoração verdadeira exige coração sincero, não apenas rituais externos.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para Jesus como o Mediador da paz. Ele é o Rei que vem em nome do Senhor, oferecendo reconciliação. O choro dele mostra o coração de Deus: Ele não quer condenar, mas salvar. A salvação é pela graça, mediante a fé em Cristo. Quem não reconhece Jesus no tempo da visitação fica fora da paz que Ele oferece. A cruz e a ressurreição são a resposta final ao lamento de Jesus, pois Ele pagou o preço para que a paz fosse possível para todos que creem.",
+  "selo": true
+ },
+ "viver": "Pense em uma decisão que você adiou por orgulho ou medo. Jesus chorou porque viu pessoas perdendo a paz por não se arrependerem a tempo. Hoje, não espere um sinal dramático para se aproximar de Deus. A paz não é ausência de problemas, mas a presença de Cristo no coração. Se você tem hesitado em entregar sua vida a Ele, este é o momento de visitar a casa de oração com sinceridade, sem máscaras.",
+ "guarde": "A paz de Deus chega quando reconhecemos nosso tempo de visitação e abrimos o coração para Jesus.",
+ "ore": "Jesus, ao chorar por Jerusalém, Tu mostraste Tua compaixão. Ajuda-me a não endurecer o coração diante do Teu amor. Que eu reconheça o tempo da Tua visita e receba a paz que só Tu podes dar. Amém.",
+ "quiz": {
+  "pergunta": "Por que Jesus chorou ao ver Jerusalém?",
+  "opcoes": [
+   "Porque estava cansado da viagem.",
+   "Porque sabia que a cidade não reconheceria o tempo de sua visitação e perderia a paz.",
+   "Porque o Templo estava sujo."
+  ],
+  "certa": 1,
+  "explicacao": "O texto diz que Jesus chorou porque os olhos da cidade estavam escondidos daquilo que traria paz, e ela não conheceu o tempo em que foi visitada."
+ },
+ "refs": [
+  "Mateus 21:12-13",
+  "João 14:27",
+  "Hebreus 9:26"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-25T06:49:29.473Z",
+  "rounds": 1
+ }
+}

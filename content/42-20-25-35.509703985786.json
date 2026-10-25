@@ -1,0 +1,141 @@
+{
+ "id": "42-20-25-35",
+ "ref": "Lucas 20:25-35",
+ "book": "42",
+ "chapter": 20,
+ "verses": [
+  {
+   "n": 25,
+   "t": "Então lhes disse: Dai pois a César o que é de César, e a Deus o que é de Deus."
+  },
+  {
+   "n": 26,
+   "t": "E não puderam lhe pegar em algo que ele tenha dito diante do povo; e maravilhados de sua resposta, calaram-se."
+  },
+  {
+   "n": 27,
+   "t": "E chegando-se alguns dos saduceus, que negam haver a ressurreição, perguntaram-lhe,"
+  },
+  {
+   "n": 28,
+   "t": "Dizendo: Mestre, Moisés nos escreveu, que se o irmão de alguém morrer, tendo mulher, e morrer sem filhos, o irmão deve tomar a mulher, e gerar descendência a seu irmão."
+  },
+  {
+   "n": 29,
+   "t": "Houve, pois, sete irmãos, e o primeiro tomou mulher, e morreu sem filhos."
+  },
+  {
+   "n": 30,
+   "t": "E o segundo a tomou; e também este morreu sem filhos."
+  },
+  {
+   "n": 31,
+   "t": "E o terceiro a tomou, e assim também os sete, e não deixaram filhos, e morreram."
+  },
+  {
+   "n": 32,
+   "t": "E por fim, depois de todos, morreu também a mulher."
+  },
+  {
+   "n": 33,
+   "t": "Na ressurreição, pois, ela será mulher de qual deles? Pois os sete a tiveram por mulher."
+  },
+  {
+   "n": 34,
+   "t": "E respondendo Jesus, disse-lhes: Os filhos destes tempos se casam, e se dão em casamento."
+  },
+  {
+   "n": 35,
+   "t": "Mas os que forem considerados dignos de alcançarem aqueles tempos futuros, e da ressurreição dos mortos, nem se casarão, nem se darão em casamento."
+  }
+ ],
+ "titulo": "A moeda, a lei e o novo mundo",
+ "temas": [
+  "soberania",
+  "ressurreição",
+  "vida eterna",
+  "identidade"
+ ],
+ "pergunta": "Como a vida após a morte é diferente da nossa rotina atual?",
+ "entender": "Em Lucas 20:25-35, Jesus responde a duas armadilhas dos líderes religiosos. Primeiro, sobre o tributo a César, Ele pede uma moeda e responde: \"Dai pois a César o que é de César\". Essa frase desarma os críticos e mostra que a lealdade final ao mundo não pode substituir a devoção a Deus.\n\nEm seguida, os saduceus, que negam a ressurreição, tentam encurralar Jesus com uma pergunta sobre um casamento hipotético no céu. Jesus corrige a premissa deles: \"Os filhos destes tempos se casam\". Ele explica que a vida futura é radicalmente nova; os ressuscitados \"nem se casarão, nem se darão em casamento\". Isso indica que a vida eterna não é apenas uma extensão da vida terrena, mas uma transformação completa da existência.",
+ "ligar": {
+  "texto": "Jesus demonstra autoridade sobre a vida e a morte ao afirmar a realidade da ressurreição. Ao descrever os que são \"dignos de alcançarem aqueles tempos futuros\", Ele aponta para Si mesmo, o primeiro a ressuscitar. O evangelho nos garante que, em Cristo, a morte perde seu poder e nossa identidade é restaurada em plenitude.",
+  "selo": true
+ },
+ "viver": "A pergunta dos saduceus revela uma visão limitada do céu, tratando-o como uma extensão do casamento terreno. Hoje, podemos cair no erro de projetar nossas ansiedades atuais na eternidade. Pergunte-se: estou vivendo preocupado com o que não tenho controle, ou confiante na nova vida que Cristo promete? Entregue a Deus o medo do futuro, reconhecendo que Ele é o Deus dos vivos, não dos mortos.",
+ "guarde": "A vida eterna não é uma repetição do presente, mas uma nova criação onde Deus reina plenamente.",
+ "ore": "Moeda de César, símbolo desta era, eu a devolvo ao mundo. Em Ti, Senhor, busco a vida verdadeira. Ensina-me a viver como filho da ressurreição, livre do medo da morte e das limitações deste tempo.",
+ "quiz": {
+  "pergunta": "O que Jesus disse sobre o casamento na ressurreição?",
+  "opcoes": [
+   "Nem se casarão, nem se darão em casamento.",
+   "Os casamentos terrenos serão restaurados.",
+   "Haverá novos casamentos entre os justos."
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma claramente que os que forem considerados dignos da ressurreição não se casarão, pois são iguais aos anjos."
+ },
+ "refs": [
+  "Mateus 22:21",
+  "Marcos 12:17",
+  "1 Coríntios 15:52"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-25T06:53:27.063Z",
+  "rounds": 3
+ }
+}

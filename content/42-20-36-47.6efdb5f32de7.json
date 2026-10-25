@@ -1,0 +1,145 @@
+{
+ "id": "42-20-36-47",
+ "ref": "Lucas 20:36-47",
+ "book": "42",
+ "chapter": 20,
+ "verses": [
+  {
+   "n": 36,
+   "t": "Porque já não podem mais morrer; pois são iguais aos anjos; e são filhos de Deus, pois são filhos da ressurreição."
+  },
+  {
+   "n": 37,
+   "t": "E até Moisés mostrou, junto à sarça, que os mortos ressuscitam, quando ele chama ao Senhor de Deus de Abraão, e Deus de Isaque, e Deus de Jacó."
+  },
+  {
+   "n": 38,
+   "t": "Ora, ele não é Deus de mortos, mas de vivos; pois todos vivem por causa dele."
+  },
+  {
+   "n": 39,
+   "t": "E alguns dos escribas, respondendo, disseram: Mestre, bem disseste."
+  },
+  {
+   "n": 40,
+   "t": "E não ousavam lhe perguntar mais nada."
+  },
+  {
+   "n": 41,
+   "t": "E ele lhes disse: Como dizem que o Cristo é filho de Davi?"
+  },
+  {
+   "n": 42,
+   "t": "Pois o próprio Davi diz no livro dos Salmos: Disse o Senhor a meu Senhor: Senta-te à minha direita,"
+  },
+  {
+   "n": 43,
+   "t": "Até que eu ponha teus inimigos por escabelo de teus pés."
+  },
+  {
+   "n": 44,
+   "t": "Se Davi o chama de Senhor, como, então, é seu filho?"
+  },
+  {
+   "n": 45,
+   "t": "Enquanto todo o povo estava ouvindo, ele disse a seus discípulos:"
+  },
+  {
+   "n": 46,
+   "t": "Tomai cuidado com os escribas, que querem andar roupas compridas, e amam as saudações nas praças, e as primeiras cadeiras nas sinagogas, e os primeiros assentos nos jantares."
+  },
+  {
+   "n": 47,
+   "t": "Que devoram as casas das viúvas, e fingem fazer longas orações. Estes receberão mais grave condenação."
+  }
+ ],
+ "titulo": "O mistério do Senhor que Davi chamou de Senhor",
+ "temas": [
+  "cristo",
+  "ressurreição",
+  "autoridade",
+  "hipocrisia"
+ ],
+ "pergunta": "Por que Jesus usou a própria escritura dos líderes para prová-los sobre a identidade do Messias?",
+ "entender": "Jesus responde a uma armadilha sobre o casamento na ressurreição mostrando que os que ressuscitam são \"iguais aos anjos\" e \"filhos da ressurreição\". Ele cita Moisés, que chamou Deus de \"Deus de Abraão\", provando que os mortos vivem para Deus. Em seguida, Jesus pergunta como os escribas dizem que o Cristo é filho de Davi, citando o Salmo onde Davi chama o Messias de \"Senhor\". Essa pergunta deixa os escribas sem resposta, pois revela que o Messias é superior a Davi.\n\nAo final, Jesus adverte os discípulos sobre os escribas que amam títulos e honras, mas exploram os vulneráveis. O contraste é claro: a verdadeira autoridade de Cristo vem de Deus, enquanto a dos escribas é externa e vazia de compaixão.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para a divindade e autoridade de Jesus. Ao citar o Salmo 110, Jesus mostra que Ele não é apenas um descendente humano de Davi, mas o Senhor a quem Davi se submete. A ressurreição mencionada é a garantia da vitória de Cristo sobre a morte. Jesus se apresenta como o verdadeiro Messias, cuja autoridade é eterna e divina, diferente dos líderes religiosos que buscam glória própria.",
+  "selo": true
+ },
+ "viver": "Pense em como você reage quando alguém tenta tirar proveito da sua boa vontade ou da sua fé. Jesus alerta contra a hipocrisia religiosa que usa a aparência de piedade para manipular. Na prática, isso significa ser transparente em suas orações e ações. Não busque aplausos ou títulos; busque servir com humildade. Verifique se suas atitudes refletem o caráter de Cristo, que serviu até a morte, e não a busca por reconhecimento humano.",
+ "guarde": "A verdadeira autoridade não vem de títulos, mas da obediência a Deus e do amor genuíno aos outros.",
+ "ore": "Jesus, Tu que És o Senhor dos senhores, ensina-me a servir sem buscar glória. Ajuda-me a reconhecer Tua autoridade sobre mim e a evitar a hipocrisia dos escribas, vivendo com integridade e amor pelos vulneráveis, conforme o Teu exemplo.",
+ "quiz": {
+  "pergunta": "Qual argumento Jesus usou para mostrar que o Messias é superior a Davi?",
+  "opcoes": [
+   "Mostrou que Davi morreu antes do Messias.",
+   "Disse que Davi era seu avô direto.",
+   "Citou o Salmo onde Davi chama o Messias de Senhor."
+  ],
+  "certa": 2,
+  "explicacao": "Jesus cita o Salmo 110, onde Davi se refere ao Messias como 'Senhor', o que implica uma autoridade maior do que a de um simples filho ou descendente."
+ },
+ "refs": [
+  "Mateus 22:41-46",
+  "Marcos 12:35-37",
+  "Atos 2:34-36"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-25T06:51:23.907Z",
+  "rounds": 1
+ }
+}

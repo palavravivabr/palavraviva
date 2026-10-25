@@ -1,0 +1,137 @@
+{
+ "id": "42-21-1-10",
+ "ref": "Lucas 21:1-10",
+ "book": "42",
+ "chapter": 21,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E ele, olhando, viu os ricos lançarem suas ofertas na arca do tesouro do templo ."
+  },
+  {
+   "n": 2,
+   "t": "E viu também uma pobre viúva lançar ali duas pequenas moedas."
+  },
+  {
+   "n": 3,
+   "t": "E disse: Em verdade vos digo que esta pobre viúva lançou mais do que todos,"
+  },
+  {
+   "n": 4,
+   "t": "Porque todos aqueles lançaram para as ofertas de Deus daquilo que lhes sobrava; mas esta viúva , de sua pobreza, lançou todo o sustento que tinha."
+  },
+  {
+   "n": 5,
+   "t": "E alguns estavam falando do templo, que era adornado com formosas pedras e ofertas. Então Jesus disse:"
+  },
+  {
+   "n": 6,
+   "t": "Destas coisas que vedes, dias virão, em que não se deixará pedra sobre pedra, que não seja derrubada."
+  },
+  {
+   "n": 7,
+   "t": "E perguntaram-lhe, dizendo: Mestre, quando, pois, serão essas coisas? E que sinal haverá, quando essas coisas vierem a acontecer?"
+  },
+  {
+   "n": 8,
+   "t": "Então ele disse: Olhai para que não vos enganem, porque muitos virão em meu nome, dizendo: Eu sou o Cristo . E o tempo já está perto; portanto não os sigais."
+  },
+  {
+   "n": 9,
+   "t": "E quando ouvirdes de guerras, e de rebeliões, não vos espanteis. Porque é necessário que estas coisas aconteçam primeiro; mas ainda não é o fim."
+  },
+  {
+   "n": 10,
+   "t": "Então lhe disse: Então se levantará nação contra nação, e reino contra reino."
+  }
+ ],
+ "titulo": "A oferta que esvaziou a pobreza",
+ "temas": [
+  "generosidade",
+  "confiança",
+  "aviso",
+  "tempos difíceis"
+ ],
+ "pergunta": "O que faz uma doação pequena valer mais que as grandes?",
+ "entender": "Jesus observa o movimento da multidão no templo. Ele vê os ricos depositando grandes somas, mas sua atenção se volta para uma viúva pobre. Ela lança duas moedas de pouco valor, mas Jesus declara que ela deu mais do que todos. A lógica humana mede pelo valor absoluto da oferta, mas Jesus mede pelo sacrifício relativo: os ricos deram do que lhes sobrava, mas a viúva deu \"todo o sustento que tinha\". Isso revela que Deus avalia o coração e a confiança no provedor, não apenas o montante financeiro.\n\nEm seguida, Jesus muda o foco para o próprio templo magnífico. Ele profetiza que \"não se deixará pedra sobre pedra\". Quando os discípulos perguntam quando isso acontecerá, Jesus não dá uma data, mas um aviso: não se deixem enganar por falsos messias. Ele alerta que guerras e rebeliões acontecerão, mas isso não é o fim. O objetivo é preparar o coração dos seguidores para tempos de instabilidade, ensinando a discernir a verdade e a manter a fé firme diante do caos.",
+ "ligar": {
+  "texto": "Este trecho mostra Jesus exercendo autoridade profética sobre a história e o templo, confirmando sua identidade messiânica. A viúva é um exemplo concreto de fé: ela confiou que Deus cuidaria dela mesmo depois de doar tudo. Isso aponta para o evangelho, onde Cristo, sendo rico, se fez pobre por nós para que, pela sua pobreza, fôssemos enriquecidos (2 Coríntios 8.9). Assim como a viúva confiou em Deus no sustento, o crente confia em Cristo para a salvação e para o dia a dia, mesmo em tempos de incerteza e perseguição.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, sentimos que nossa contribuição ou nosso exemplo são insignificantes diante das grandes realizações dos outros. A lição da viúva nos ensina a parar de comparar nossos \"dois centavos\" com os \"milhões\" dos ricos. O valor espiritual não está no tamanho, mas na entrega. Hoje, identifique uma área onde você pode oferecer algo que, para você, exige sacrifício ou tempo, mesmo que pareça pequeno aos olhos do mundo. Faça-o com a certeza de que Deus vê a motivação e a entrega total, não apenas o resultado externo. Confie no provedor, mesmo quando a conta parece grande.",
+ "guarde": "Deus não mede pelo valor que sobra, mas pelo amor que se entrega.",
+ "ore": "Viúva do templo, tu que lançaste tudo o que tinhas, ensina minha fé. Como tu confias no sustento de Deus mesmo na escassez, ajuda-me a não viver ansioso pelo amanhã. Que eu não seja enganado pelas notícias de guerras e pelos falsos sinais dos tempos, mas mantenha meus olhos firmes em Ti, Jesus, que és a pedra angular e a minha paz.",
+ "quiz": {
+  "pergunta": "Por que Jesus disse que a viúva deu mais do que todos os ricos?",
+  "opcoes": [
+   "Porque as moedas dela valiam mais em dinheiro real.",
+   "Porque ela deu tudo o que tinha para viver, enquanto os ricos deram do que lhes sobrava.",
+   "Porque ela era a única pessoa presente no templo naquele momento."
+  ],
+  "certa": 1,
+  "explicacao": "O texto explica explicitamente que a diferença está na proporcionalidade do sacrifício: os ricos deram do excedente, a viúva deu seu sustento total."
+ },
+ "refs": [
+  "2 Coríntios 8:9",
+  "Marcos 12:41-44",
+  "Mateus 24:4-8"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-25T06:52:25.524Z",
+  "rounds": 1
+ }
+}

@@ -1,0 +1,145 @@
+{
+ "id": "42-20-1-12",
+ "ref": "Lucas 20:1-12",
+ "book": "42",
+ "chapter": 20,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E aconteceu, num daqueles dias que, enquanto ele estava ensinando ao povo no Templo, e anunciando o Evangelho, vieram até ele os chefes dos sacerdotes, e os escribas com os anciãos."
+  },
+  {
+   "n": 2,
+   "t": "E falaram-lhe, dizendo: Dize-nos, com que autoridade fazes estas coisas? Ou quem é o que te deu esta autoridade?"
+  },
+  {
+   "n": 3,
+   "t": "E respondendo ele, disse-lhes: Também eu vos perguntarei algo, e dizei-me:"
+  },
+  {
+   "n": 4,
+   "t": "O batismo de João era do céu, ou dos homens?"
+  },
+  {
+   "n": 5,
+   "t": "E eles discutiam entre si, dizendo: Se dissermos: Do céu, ele nos dirá: Por que, então, vós não o crestes?"
+  },
+  {
+   "n": 6,
+   "t": "E se dissermos: Dos homens, todo o povo nos apedrejará; pois estão convencidos de que João era profeta."
+  },
+  {
+   "n": 7,
+   "t": "E responderam que não sabiam de onde era ."
+  },
+  {
+   "n": 8,
+   "t": "E Jesus lhes disse: Nem eu vos direi com que autoridade eu faço estas coisas."
+  },
+  {
+   "n": 9,
+   "t": "E começou a dizer ao povo esta parábola: Um certo homem plantou uma vinha, e a arrendou a uns lavradores, e viajou para outro país por muito tempo."
+  },
+  {
+   "n": 10,
+   "t": "E certo tempo depois mandou um servo aos lavradores, para que lhe dessem do fruto da vinha; mas os lavradores, espancando-o, mandaram -no sem coisa alguma."
+  },
+  {
+   "n": 11,
+   "t": "E voltou a mandar outro servo; mas eles, espancando e humilhando também a ele ,o mandaram sem nada."
+  },
+  {
+   "n": 12,
+   "t": "E voltou a mandar ao terceiro; mas eles, ferindo também a este, o expulsaram."
+  }
+ ],
+ "titulo": "A pergunta que expõe a verdadeira autoridade",
+ "temas": [
+  "autoridade",
+  "parábola",
+  "rejeição"
+ ],
+ "pergunta": "Qual é a fonte da autoridade que Jesus exerce no templo?",
+ "entender": "Jesus ensinava no Templo quando os chefes dos sacerdotes, os escribas e os anciãos o confrontaram, perguntando: \"Dize‑nos, com que autoridade fazes estas coisas?\" (Lucas 20.2). Ele respondeu com outra pergunta: \"O batismo de João era do céu ou dos homens?\" (v.4). Incapazes de escolher, eles disseram que não sabiam (v.7) e Jesus não lhes revelou a sua própria autoridade (v.8). Em seguida, contou a parábola da vinha: um dono enviou servos para colher os frutos, mas os lavradores os espancaram e os mandaram embora vazios (v.9‑12).\n\nA situação mostra a tensão entre Jesus e a liderança religiosa que temia perder o controle sobre o povo. Ao usar a parábola, Jesus expôs a atitude dos que rejeitam os mensageiros de Deus, preparando o caminho para a revelação posterior sobre o filho que será enviado.",
+ "ligar": {
+  "texto": "A parábola aponta para o dono da vinha que enviará seu filho amado (versículo 13). Quando os lavradores matam o filho, vemos a rejeição final ao Messias que virá para salvar o povo. Assim, o texto revela que a autoridade de Jesus vem do Pai, que o enviou como mensageiro, e que a rejeição dos líderes prenuncia a crucificação do Filho. Essa conexão mostra que a salvação depende da aceitação daquele que tem autoridade do céu.",
+  "selo": false
+ },
+ "viver": "Os líderes escolheram a segurança da opinião popular ao invés da verdade, temendo a ira da multidão. Da mesma forma, podemos ser tentados a silenciar o que Deus nos chama a dizer para evitar conflitos. Quando alguém nos confronta sobre nossa fé, devemos lembrar que nossa autoridade vem de Deus, não da aprovação humana. Assim, podemos falar com firmeza, confiando que Cristo nos sustenta mesmo quando somos incompreendidos.",
+ "guarde": "A verdadeira autoridade vem do céu, não da opinião dos homens.",
+ "ore": "No templo, Jesus mostrou‑me que minha autoridade vem de Ti; ajuda‑me a declarar a verdade com coragem, mesmo quando os outros discordarem.",
+ "quiz": {
+  "pergunta": "O que os chefes dos sacerdotes responderam quando Jesus lhes perguntou sobre o batismo de João?",
+  "opcoes": [
+   "Eles disseram que não sabiam de onde era",
+   "Disseram que era do céu",
+   "Disseram que era dos homens"
+  ],
+  "certa": 0,
+  "explicacao": "Incapazes de escolher entre as duas opções, os líderes evitaram responder e afirmaram que não sabiam de onde era o batismo de João (Lucas 20.7)."
+ },
+ "refs": [
+  "Mateus 21:45-46",
+  "Marcos 12:1-12",
+  "João 5:30",
+  "1 Pedro 2:21"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-25T06:45:26.876Z",
+  "rounds": 2
+ }
+}

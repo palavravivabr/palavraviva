@@ -1,0 +1,145 @@
+{
+ "id": "42-19-25-36",
+ "ref": "Lucas 19:25-36",
+ "book": "42",
+ "chapter": 19,
+ "verses": [
+  {
+   "n": 25,
+   "t": "E eles lhe disseram: Senhor, ele já tem dez minas."
+  },
+  {
+   "n": 26,
+   "t": "O senhor respondeu: Porque eu vos digo, que todo aquele que tiver, lhe será dado; mas ao que não tiver, até o que tem, lhe será tirado."
+  },
+  {
+   "n": 27,
+   "t": "Porém a aqueles meus inimigos, que não quiseram que eu reinasse sobre eles, trazei - os aqui, e matai -os diante de mim."
+  },
+  {
+   "n": 28,
+   "t": "E dito isto, ele foi caminhando adiante, subindo para Jerusalém."
+  },
+  {
+   "n": 29,
+   "t": "E aconteceu que, chegando perto de Betfagé, e de Betânia, ao monte chamado das Oliveiras, mandou a dois de seus discípulos,"
+  },
+  {
+   "n": 30,
+   "t": "Dizendo: Ide à aldeia que está em frente; onde, ao entrardes, achareis um potro atado, em que ninguém jamais se sentou; soltai-o, e trazei -o ."
+  },
+  {
+   "n": 31,
+   "t": "E se alguém vos perguntar: Por que o soltais? Direis assim a ele: Porque o Senhor precisa dele."
+  },
+  {
+   "n": 32,
+   "t": "E indo os que tinham sido mandados, acharam como lhes disse:"
+  },
+  {
+   "n": 33,
+   "t": "E soltando o potro, seus donos lhe disseram: Por que soltais o potro?"
+  },
+  {
+   "n": 34,
+   "t": "E eles disseram: O Senhor precisa dele."
+  },
+  {
+   "n": 35,
+   "t": "E o trouxeram a Jesus; e lançando suas roupas sobre o potro, puseram Jesus montado nele."
+  },
+  {
+   "n": 36,
+   "t": "E indo ele andando, estendiam suas roupas pelo caminho."
+  }
+ ],
+ "titulo": "O que revela o potro que nunca foi montado?",
+ "temas": [
+  "reino",
+  "obediência",
+  "serviço"
+ ],
+ "pergunta": "Por que Jesus pediu que trouxessem um potro que ninguém jamais havia usado?",
+ "entender": "Neste trecho de Lucas 19:25‑36, depois da parábola das minas, Jesus se aproxima de Betfagé e Betânia. Ele envia dois discípulos à aldeia vizinha para buscar um potro que estava atado e que ninguém jamais havia montado, explicando que o Senhor precisa dele. Os discípulos obedecem, libertam o animal, trazem‑no a Jesus e, ao chegarem, colocam suas roupas sobre o potro, colocando‑o a cavalo. O contexto imediato mostra a avaliação dos servos que receberam minas e a oposição dos inimigos que não quiseram que Jesus reinasse. A cena do potro prepara a entrada triunfal de Jesus em Jerusalém, mostrando que Ele aceita o que está disponível para cumprir sua missão, mesmo que seja algo simples e pouco valorizado.\n\nA escolha do potro que nunca foi usado destaca a humildade do Rei que vem. Não há necessidade de um cavalo de guerra; o que importa é que o animal esteja pronto para servir ao propósito de Deus. A atitude dos discípulos, obedecer sem questionar, demonstra confiança na direção de Jesus e disposição para oferecer o que têm, mesmo que pareça insignificante.",
+ "ligar": {
+  "texto": "Ao montar o potro, Jesus cumpre a profecia do Rei que vem em humildade (Zacarias 9:9). Esse ato aponta para o Messias que chega em paz, não como conquistador, mas como Salvador que aceita o que está ao seu alcance para avançar. A parábola das minas, que antecede o episódio, ensina que quem tem será confiado com mais, e quem não usa o que tem perde até o que possui. Assim, a obediência dos discípulos ao trazer o potro demonstra que o Reino de Deus cresce quando usamos mesmo os recursos modestos que Deus nos dá, preparando o caminho para a obra redentora de Cristo.",
+  "selo": true
+ },
+ "viver": "Ao perceber que o potro nunca havia sido usado, vemos que há oportunidades em nossa vida que ainda não foram aproveitadas. Quando alguém precisa de ajuda, de um talento ou de um recurso que está guardado, podemos seguir o exemplo dos discípulos: oferecer o que temos, por menor que seja, e colocar nosso esforço ao serviço de Deus. Essa atitude transforma situações ordinárias em atos de adoração e avança o Reino aqui na terra.",
+ "guarde": "Mesmo o recurso mais simples pode ser o que Deus precisa para avançar.",
+ "ore": "Betfagé, onde Jesus enviou os discípulos, ajuda-me a confiar que o que tenho, por pequeno que pareça, pode ser útil ao teu plano.",
+ "quiz": {
+  "pergunta": "Qual foi a instrução de Jesus aos discípulos sobre o potro?",
+  "opcoes": [
+   "Vendê‑lo no mercado",
+   "Deixá‑lo na aldeia",
+   "Encontrar, soltar e trazer o potro a Ele"
+  ],
+  "certa": 2,
+  "explicacao": "Jesus mandou que fossem à aldeia, encontrassem o potro atado, o soltassem e o trouxessem a Ele, mostrando que o objetivo era usar o animal para a sua entrada triunfal."
+ },
+ "refs": [
+  "Zacarias 9:9",
+  "Mateus 21:5",
+  "Mateus 25:14-30",
+  "1 Coríntios 4:2"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-25T06:44:27.980Z",
+  "rounds": 3
+ }
+}

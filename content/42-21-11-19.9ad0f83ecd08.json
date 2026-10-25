@@ -1,0 +1,134 @@
+{
+ "id": "42-21-11-19",
+ "ref": "Lucas 21:11-19",
+ "book": "42",
+ "chapter": 21,
+ "verses": [
+  {
+   "n": 11,
+   "t": "E haverá em vários lugares grandes terremotos e fomes, e pragas; haverá também coisas espantosas, e grandes sinais do céu."
+  },
+  {
+   "n": 12,
+   "t": "Mas antes de tudo isto, eles vos impedirão e vos perseguirão, vos entregando em sinagogas e prisões, e vos trazendo diante de reis, e governadores, por causa do meu nome."
+  },
+  {
+   "n": 13,
+   "t": "E isto vos acontecerá para haver testemunho."
+  },
+  {
+   "n": 14,
+   "t": "Portanto, que vós decidais nos vossos corações não planejar como direis em vossa defesa,"
+  },
+  {
+   "n": 15,
+   "t": "porque eu vos darei boca e sabedoria, para que todos os que forem contra vós não posam vos contradizer ou resistir."
+  },
+  {
+   "n": 16,
+   "t": "E vós sereis entregues até pelos pais, e irmãos, e parentes, e amigos; e alguns de vós serão mortos."
+  },
+  {
+   "n": 17,
+   "t": "E vós sereis odiados por todos por causa do meu nome."
+  },
+  {
+   "n": 18,
+   "t": "Mas nem um cabelo de vossa cabeça parecerá."
+  },
+  {
+   "n": 19,
+   "t": "Por vossa paciência ganhareis vossas almas."
+  }
+ ],
+ "titulo": "O preço do testemunho e a promessa de Deus",
+ "temas": [
+  "perseguição",
+  "testemunho",
+  "segurança",
+  "fé",
+  "cristo"
+ ],
+ "pergunta": "O que você faria se precisasse falar de Jesus diante de um tribunal e não soubesse o que dizer?",
+ "entender": "Jesus está preparando seus seguidores para um tempo difícil. Ele avisa que haverá terremotos, fomes e sinais espantosos, mas o principal desafio virá das pessoas: perseguição, prisões e até a rejeição da própria família (Lucas 21.11-16). Não é um acidente; é parte do caminho de quem segue a Cristo.\n\nMesmo diante desse cenário assustador, Jesus promete uma ajuda sobrenatural. Ele diz que dará \"boca e sabedoria\" para que os discípulos não precisem se preocupar em planejar a defesa, pois Deus cuidará da palavra certa na hora certa (Lucas 21.14-15). A segurança não vem da nossa eloquência, mas da presença do Senhor.\n\nO objetivo final não é a vitória humana, mas a manutenção da vida espiritual. Jesus afirma que \"por vossa paciência ganhareis vossas almas\" (Lucas 21.19). Isso significa que, ao permanecerem firmes e fiéis mesmo sofrendo, eles preservarão sua relação com Deus, que é o mais importante de tudo.",
+ "ligar": {
+  "texto": "Este texto revela o caráter de Jesus como o Defensor e Protetor dos seus. Ele não ignora a realidade do sofrimento, mas promete estar presente nele. O evangelho aqui é a confiança de que, mesmo quando o mundo nos odeia por causa do nome de Cristo, Deus nos sustenta. A salvação não é apenas um evento passado, mas uma segurança contínua que nos permite perseverar até o fim, garantindo que nossa alma esteja em paz com o Pai.",
+  "selo": true
+ },
+ "viver": "Talvez você não enfrente prisões, mas certamente enfrenta situações onde precisa falar da fé ou ser fiel a Deus no trabalho, na escola ou na família. A tentação é tentar preparar discursos perfeitos ou ter medo do julgamento alheio. Aplique a promessa de Jesus: entregue a preocupação com as palavras a Deus. Hoje, identifique uma situação onde você tem medo de se posicionar por causa de Cristo. Ore pedindo a \"boca e sabedoria\" que Jesus prometeu, confiando que Ele falará através de você no tempo certo, mantendo sua paz interior.",
+ "guarde": "A paciência em meio à oposição é o caminho que preserva a vida da alma.",
+ "ore": "Jesus, Tu que prometeste dar sabedoria para a defesa do Teu nome, eu confio em Ti quando o ambiente ao meu redor é hostil. Não me deixes planejar com medo, mas fala através de mim com clareza e coragem. Ajuda-me a permanecer firme na paciência, sabendo que Tu cuidas de cada detalhe da minha vida e da minha salvação.",
+ "quiz": {
+  "pergunta": "Segundo Lucas 21.19, o que os discípulos ganharão por sua paciência?",
+  "opcoes": [
+   "Suas almas",
+   "Riquezas materiais",
+   "Poder político"
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma explicitamente que \"por vossa paciência ganhareis vossas almas\", referindo-se à preservação da vida espiritual e da salvação, não a bens terrenos."
+ },
+ "refs": [
+  "Mateus 10:19",
+  "Atos 4:13",
+  "Colossenses 1:11"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-25T06:54:23.728Z",
+  "rounds": 1
+ }
+}
