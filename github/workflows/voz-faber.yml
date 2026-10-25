@@ -1,0 +1,69 @@
+{
+"name": "voz-faber",
+"on": {
+"workflow_dispatch": {
+"inputs": {
+"modo": {
+"description": "amostra (3 audios) ou tudo (30 audios)",
+"default": "amostra",
+"type": "choice",
+"options": [
+"amostra",
+"tudo"
+]
+}
+}
+}
+},
+"permissions": {
+"contents": "write",
+"actions": "write"
+},
+"concurrency": {
+"group": "voz-faber",
+"cancel-in-progress": false
+},
+"jobs": {
+"gerar": {
+"runs-on": "ubuntu-latest",
+"timeout-minutes": 40,
+"steps": [
+{
+"uses": "actions/checkout@v4"
+},
+{
+"uses": "actions/setup-python@v5",
+"with": {
+"python-version": "3.11"
+}
+},
+{
+"uses": "actions/setup-node@v4",
+"with": {
+"node-version": "22"
+}
+},
+{
+"name": "Instalar Piper",
+"run": "pip install piper-tts==1.2.0\nsudo apt-get update -y && sudo apt-get install -y ffmpeg"
+},
+{
+"name": "Baixar voz Faber",
+"run": "mkdir -p /tmp/voz\ncd /tmp/voz\ncurl -fsSL -o faber.onnx https://huggingface.co/rhasspy/piper-voices/resolve/main/pt/pt_BR/faber/medium/pt_BR-faber-medium.onnx\ncurl -fsSL -o faber.onnx.json https://huggingface.co/rhasspy/piper-voices/resolve/main/pt/pt_BR/faber/medium/pt_BR-faber-medium.onnx.json\ncurl -fsSL -o MODEL_CARD https://huggingface.co/rhasspy/piper-voices/resolve/main/pt/pt_BR/faber/medium/MODEL_CARD\ngrep -qi cc0 MODEL_CARD"
+},
+{
+"name": "Textos",
+"run": "node scripts/pdia-textos.mjs /tmp/textos.json"
+},
+{
+"name": "Gerar audios",
+"run": "python3 scripts/pdia-voz.py /tmp/voz/faber.onnx /tmp/textos.json assets/voz ${{ inputs.modo }}"
+},
+{
+"name": "Salvar no repositorio",
+"run": "git config user.name voz-faber\ngit config user.email voz-faber@users.noreply.github.com\ngit add assets/voz\ngit commit -m 'voz Faber da Palavra do Dia' || exit 0\ngit pull --rebase origin main\ngit push origin HEAD:main"
+}
+]
+}
+}
+}
