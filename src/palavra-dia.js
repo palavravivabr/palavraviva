@@ -161,7 +161,7 @@
   var falando = false, audioEl = null;
   /* voz gravada (Piper, voz Faber): só entra depois da aprovação das amostras; sem o arquivo, usa a voz do aparelho */
   var VOZ_FARBER = true;
-  function arquivoVoz(e) { return 'assets/voz/' + e.b + '-' + e.c + '-' + e.v + '.mp3'; }
+  function arquivoVoz(e) { return 'assets/voz/j-' + e.b + '-' + e.c + '-' + e.v + '.mp3'; }
   async function urlVoz(e) {
     var src = arquivoVoz(e), c = await caches.open('pv4-media'), r = await c.match(src);
     if (!r) { r = await fetch(src); if (!r.ok) throw new Error('sem arquivo'); await c.put(src, r.clone()); }
