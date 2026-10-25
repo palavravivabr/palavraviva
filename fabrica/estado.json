@@ -1408,7 +1408,9 @@
   },
   "42-21-30-38": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:entender:43-15-1-9",
+   "estado": "pronto",
+   "titulo": "Sinais das folhas e o coração alerta"
   },
   "42-22-1-12": {
    "execucoes": 0,
@@ -1418,15 +1420,21 @@
   },
   "42-22-13-24": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "O que a última ceia revela sobre o Reino"
   },
   "42-22-25-36": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "Servir antes de ser servido: o que Jesus nos desafia"
   },
   "42-22-37-47": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:menos_de_2_paragrafos, entender:citacao_longa",
+   "estado": "pronto",
+   "titulo": "O suor de sangue e a entrega total"
   },
   "42-22-48-59": {
    "execucoes": 0,
@@ -1434,7 +1442,9 @@
   },
   "42-22-60-71": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: NARRATIVE_EVENT_CONSISTENCY: O ensino confunde a resposta de Jesus à pergunta sobre ser o Cristo com a resposta dada à pergunta posterior sobre ser o Filho de Deus. | CROSS_SECTION_CONSISTENCY: O teste pergunta o que Jesus disse quando questionado se era o Cristo, mas dá como certa a resposta dada à",
+   "estado": "pronto",
+   "titulo": "O silêncio de Jesus diante da acusação"
   },
   "42-23-1-11": {
    "execucoes": 0,
@@ -1451,28 +1461,44 @@
   "42-23-35-45": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-23-46-56": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-24-1-11": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-24-12-21": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-24-22-32": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 499,
-   "entrada": 1248317,
-   "saida": 444784
+   "chamadas": 507,
+   "entrada": 1268884,
+   "saida": 451478
   },
   "groq-qwen": {
-   "chamadas": 495,
-   "entrada": 1184463,
-   "saida": 401185
+   "chamadas": 503,
+   "entrada": 1205592,
+   "saida": 407918
   },
   "gemini": {
-   "chamadas": 408,
-   "entrada": 1322033,
-   "saida": 529933
+   "chamadas": 417,
+   "entrada": 1351501,
+   "saida": 545224
   },
   "cloudflare": {
-   "chamadas": 246,
-   "entrada": 856686,
-   "saida": 91266
+   "chamadas": 251,
+   "entrada": 874095,
+   "saida": 93121
   },
   "mistral": {
    "chamadas": 0,

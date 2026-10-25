@@ -1,0 +1,143 @@
+{
+ "id": "42-22-37-47",
+ "ref": "Lucas 22:37-47",
+ "book": "42",
+ "chapter": 22,
+ "verses": [
+  {
+   "n": 37,
+   "t": "Porque eu vos digo, que ainda é necessário que se cumpra em mim aquilo que está escrito: E ele foi contado com os malfeitores. Porque aquilo que é sobre mim tem que se cumprir."
+  },
+  {
+   "n": 38,
+   "t": "E eles disseram: Senhor, eis aqui duas espadas.E ele lhes disse: É o suficiente."
+  },
+  {
+   "n": 39,
+   "t": "E saindo, foi, como de costume, para o monte das Oliveiras; e os seus discípulos também o seguiram."
+  },
+  {
+   "n": 40,
+   "t": "E quando chegou a aquele lugar, disse-lhes: Orai para que não entreis em tentação."
+  },
+  {
+   "n": 41,
+   "t": "E se afastou deles, à distância de um tiro de pedra. E pondo-se de joelhos, orava,"
+  },
+  {
+   "n": 42,
+   "t": "Dizendo: Pai, se tu quiseres, passa este copo de mim; porém não se faça minha vontade, mas a tua."
+  },
+  {
+   "n": 43,
+   "t": "E apareceu-lhe um anjo do céu, que o fortalecia."
+  },
+  {
+   "n": 44,
+   "t": "E estando em angústia, orava mais intensamente. E seu suor se fez como gotas de sangue, que desciam até o chão."
+  },
+  {
+   "n": 45,
+   "t": "E ele, levantando-se da oração, veio a seus discípulos, e os achou dormindo por causa da tristeza."
+  },
+  {
+   "n": 46,
+   "t": "E disse-lhes: Por que estais dormindo? Levantai-vos, e orai, para que não entreis em tentação."
+  },
+  {
+   "n": 47,
+   "t": "E enquanto ele ainda estava falando, eis que uma multidão chegou ; e um dos doze, o que se chamava Judas, ia adiante deles, e se aproximou de Jesus, para o beijar."
+  }
+ ],
+ "titulo": "O suor de sangue e a entrega total",
+ "temas": [
+  "oração",
+  "sofrimento",
+  "vontade de deus",
+  "tentação",
+  "obediência"
+ ],
+ "pergunta": "O que fazemos quando a vontade de Deus parece ser mais dolorosa que a nossa?",
+ "entender": "No Getsêmani, Jesus se afasta dos discípulos para orar. Ele pede ao Pai que, se possível, afaste dEle aquele momento de sofrimento, mas imediatamente submete sua vontade à de Deus. O texto descreve uma angústia profunda, onde seu suor se tornou como gotas de sangue. \n\nEnquanto Jesus lutava em oração, seus discípulos dormiam por causa da tristeza. Jesus os repreende com amor, pedindo que se levantem e orem para não entrarem em tentação. A cena termina com a chegada de Judas, que trai Jesus com um beijo, mostrando o contraste entre a entrega total de Cristo e a fraqueza humana.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para o coração do evangelho: Jesus não veio para ser servido, mas para dar sua vida em resgate. Sua oração revela que Ele é verdadeiramente homem, sentindo o peso do pecado, mas também plenamente Deus, pois vence a tentação pela obediência. Foi nesse momento de submissão que a cruz se tornou possível, provando que a salvação vem da graça de um Salvador que escolheu o sofrimento para nos livrar dele.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, diante de decisões difíceis ou sofrimentos, tentamos controlar tudo ou fugir da dor. Jesus nos ensina que a resposta não é a fuga, mas a oração honesta. Ele não escondeu seu medo, mas entregou o resultado ao Pai. Hoje, em vez de tentar resolver tudo com suas forças, pare e ore. Diga a Deus o que você sente, mas termine dizendo: 'não se faça a minha vontade, mas a tua'. Isso fortalece a fé e evita que a tristeza nos faça adormecer espiritualmente.",
+ "guarde": "A verdadeira força não é não sentir medo, mas orar e entregar a vontade a Deus.",
+ "ore": "Pai, aqui no monte das Oliveiras, Tu ouviste a angústia do Teu Filho. Ensina-me a não dormir na tentação. Quando a dor parecer insuportável, ajuda-me a clamar a Ti e a submeter meus planos à Tua vontade, confiando que Tu agis para o bem.",
+ "quiz": {
+  "pergunta": "O que Jesus pediu ao Pai antes de se submeter à vontade de Deus?",
+  "opcoes": [
+   "Que os discípulos o acompanhassem na prisão",
+   "Que passasse dEle o copo de sofrimento",
+   "Que Judas fosse perdoado imediatamente"
+  ],
+  "certa": 1,
+  "explicacao": "O texto diz que Jesus orou: 'Pai, se tu quiseres, passa este copo de mim', mostrando que Ele desejava evitar a dor, mas aceitou a vontade do Pai."
+ },
+ "refs": [
+  "Mateus 26:36-46",
+  "Marcos 14:32-42",
+  "Hebreus 5:7-8",
+  "Romanos 5:8"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-25T12:47:47.975Z",
+  "rounds": 1
+ }
+}

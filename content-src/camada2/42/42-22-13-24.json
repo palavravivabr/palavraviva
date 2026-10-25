@@ -1,0 +1,145 @@
+{
+ "id": "42-22-13-24",
+ "ref": "Lucas 22:13-24",
+ "book": "42",
+ "chapter": 22,
+ "verses": [
+  {
+   "n": 13,
+   "t": "E indo eles, acharam como lhes tinha dito; e prepararam a páscoa."
+  },
+  {
+   "n": 14,
+   "t": "E vinda a hora, sentou-se à mesa ,e com ele os doze apóstolos."
+  },
+  {
+   "n": 15,
+   "t": "E disse-lhes: Muito desejei comer convosco esta páscoa, antes que eu sofra."
+  },
+  {
+   "n": 16,
+   "t": "Porque eu vos digo, que dela não mais comerei, até que isto se cumpra no Reino de Deus."
+  },
+  {
+   "n": 17,
+   "t": "E tomando o copo, e tendo agradecido a Deus ,disse: Tomai-o, e reparti -o entre vós."
+  },
+  {
+   "n": 18,
+   "t": "Porque vos digo, que do fruto da videira eu não beberei, até que o Reino de Deus venha."
+  },
+  {
+   "n": 19,
+   "t": "E tomando o pão, e tendo agradecido a Deus ,partiu-o, e o deu a eles, dizendo: Isto é o meu corpo, que é dado por vós; fazei isto em memória de mim."
+  },
+  {
+   "n": 20,
+   "t": "De modo semelhante também com o copo, depois da ceia, disse: Este copo é o Novo Testamento em meu sangue, que é derramado por vós."
+  },
+  {
+   "n": 21,
+   "t": "Porém eis que a mão do que me trai está comigo à mesa."
+  },
+  {
+   "n": 22,
+   "t": "E realmente o Filho do homem vai conforme o que está determinado; mas ai daquele homem por quem é traído!"
+  },
+  {
+   "n": 23,
+   "t": "E começaram a perguntar entre si, qual deles seria o que faria isto."
+  },
+  {
+   "n": 24,
+   "t": "E houve também uma briga entre eles, sobre qual deles era considerado o maior."
+  }
+ ],
+ "titulo": "O que a última ceia revela sobre o Reino",
+ "temas": [
+  "páscoa",
+  "serviço",
+  "reino"
+ ],
+ "pergunta": "Por que Jesus insiste em comer a Páscoa antes de sofrer?",
+ "entender": "Jesus e os doze apóstolos se reuniram para celebrar a Páscoa, como havia sido preparado conforme as instruções anteriores. Ele expressou o desejo de “comer convosco esta páscoa, antes que eu sofra” (Lc 22.15) e anunciou que não comerá novamente desse alimento até que se cumpra no Reino de Deus (Lc 22.16). Em seguida, instituiu o que hoje chamamos de Ceia do Senhor: ao tomar o pão, agradeceu a Deus, partiu‑o e disse: “Isto é o meu corpo, que é dado por vós; fazei isto em memória de mim” (Lc 22.19). Depois, com o cálice, declarou que o seu sangue seria derramado por nós (Lc 22.20). O relato também mostra a tensão entre os discípulos, que começaram a discutir quem seria o maior (Lc 22.24).\n\nO contexto imediato inclui instruções de Jesus para encontrar um homem que os conduziria ao local da ceia (Lc 22.10‑12). Logo depois, Ele ensina sobre humildade e serviço (Lc 22.25‑27), reforçando que o verdadeiro “maior” é aquele que serve, como Ele mesmo fez ao lavar os pés dos discípulos.",
+ "ligar": {
+  "texto": "A ceia que Jesus institui aponta diretamente para o seu sacrifício futuro: o pão representa seu corpo entregue na cruz, e o cálice seu sangue derramado para a remissão dos pecados. Quando Ele diz que não comerá da Páscoa até que se cumpra no Reino de Deus, está antecipando a consumação da salvação que Ele traz. Essa celebração, portanto, não é apenas um ritual judaico, mas a inauguração do Novo Testamento, como Ele mesmo afirma, “Este copo é o Novo Testamento em meu sangue” (Lc 22.20). Assim, a memória da ceia nos leva ao evangelho da cruz, da ressurreição e da esperança de vida eterna no Reino que Ele prometeu.",
+  "selo": true
+ },
+ "viver": "Ao observar que Jesus serviu o pão e o vinho como símbolos de sua vida, somos convidados a viver com gratidão e serviço. Cada vez que participamos da Ceia, lembramos que somos chamados a oferecer nosso corpo – nossos talentos, tempo e recursos – como oferta viva a Deus. Isso nos desafia a abandonar a busca por posição ou reconhecimento (como a discussão sobre quem era o maior) e a praticar a humildade, servindo ao próximo como Cristo serviu.",
+ "guarde": "A verdadeira grandeza está em servir, não em ser servido.",
+ "ore": "Na ceia, Jesus, ao repartir o pão, me ajuda a reconhecer que meu corpo é templo do seu amor e me ensina a servir com humildade.",
+ "quiz": {
+  "pergunta": "O que Jesus disse que o pão representava?",
+  "opcoes": [
+   "A lei de Moisés",
+   "Seu corpo entregue por nós",
+   "A aliança com Abraão"
+  ],
+  "certa": 1,
+  "explicacao": "Jesus explicou que o pão era “isto é o meu corpo, que é dado por vós” (Lc 22.19), indicando seu sacrifício na cruz."
+ },
+ "refs": [
+  "1 Coríntios 11:23-26",
+  "João 6:53-56",
+  "Hebreus 9:15",
+  "Mateus 26:26-28"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-25T12:42:15.369Z",
+  "rounds": 1
+ }
+}

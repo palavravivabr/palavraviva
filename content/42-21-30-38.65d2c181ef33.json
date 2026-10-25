@@ -1,0 +1,134 @@
+{
+ "id": "42-21-30-38",
+ "ref": "Lucas 21:30-38",
+ "book": "42",
+ "chapter": 21,
+ "verses": [
+  {
+   "n": 30,
+   "t": "Quando vós vedes elas já brotando, sabeis por vós mesmos que o verão já está perto."
+  },
+  {
+   "n": 31,
+   "t": "Assim também vós, quando virdes acontecer estas coisas, sabei que o Reino de Deus já está perto."
+  },
+  {
+   "n": 32,
+   "t": "Em verdade vos digo, que esta geração não passará, até que tudo aconteça."
+  },
+  {
+   "n": 33,
+   "t": "O céu e a terra passarão, mas minhas palavras de maneira nenhuma passarão."
+  },
+  {
+   "n": 34,
+   "t": "E olhai por vós, para que vossos corações não venham a se encher de ressaca e embriaguez, e das preocupações d esta vida; e vos venha aquele dia de surpresa."
+  },
+  {
+   "n": 35,
+   "t": "Porque virá como uma armadilha sobre todos os que habitam sobre a face de toda a terra."
+  },
+  {
+   "n": 36,
+   "t": "Então vigiai sempre, orando para que sejais considerados dignos de escaparem de todas as coisas que irão acontecer, e de ficarem de pé diante do Filho do homem."
+  },
+  {
+   "n": 37,
+   "t": "E ensinava durante os dias no Templo, porém, às noites saía e as passava no monte, chamado as Oliveiras."
+  },
+  {
+   "n": 38,
+   "t": "E todo o povo vinha até ele de manhã cedo ao templo, para o ouvir."
+  }
+ ],
+ "titulo": "Sinais das folhas e o coração alerta",
+ "temas": [
+  "vigilância",
+  "esperança",
+  "oração",
+  "tempo",
+  "cristo"
+ ],
+ "pergunta": "O que a brotação de uma árvore nos ensina sobre a proximidade do Reino de Deus?",
+ "entender": "Jesus compara a chegada do Reino de Deus ao verão que se anuncia pelas folhas da figueira. Quando vemos as folhas brotarem, entendemos intuitivamente que o calor está próximo. Da mesma forma, Ele ensina que certos acontecimentos na história são sinais de que o Reino se aproxima. Não é adivinhação, mas uma leitura atenta da realidade à luz da Palavra.\n\nHá um alerta forte contra a distração. Jesus avisa para que nossos corações não se encham de excesso e das preocupações desta vida, para que o dia não venha como uma armadilha. Ele garante que, enquanto o céu e a terra passarão, as palavras dEle permanecerão para sempre.\n\nO cenário é o Templo e o Monte das Oliveiras. Jesus ensinava de dia e passava as noites no monte. O povo vinha cedo para ouvi-lo. Essa rotina mostra a urgência da mensagem e a centralidade de Cristo naquele momento histórico.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para Jesus, o Filho do Homem, diante de quem devemos permanecer de pé. A segurança não está em calcular datas, mas em confiar na palavra dEle, que é eterna. O evangelho aqui é a certeza de que, apesar da instabilidade do mundo, a promessa de Cristo é firme. A vigilância é um ato de fé: orar para ser digno de escapar das tribulações e encontrar Jesus no fim.",
+  "selo": true
+ },
+ "viver": "Assim como Jesus passava as noites no Monte das Oliveiras, talvez precisemos criar um 'monte' de silêncio em nossa rotina diária. Antes que o dia comece com pressa e ansiedade, reserve alguns minutos para orar e ler a Bíblia. Essa prática ajuda a limpar a mente da 'ressaca' das notícias e das preocupações, mantendo o coração focado em Cristo. Não se trata de perfeição, mas de constância: vigiar para que a vida não nos surpreenda despreparados.",
+ "guarde": "Mantenha seu coração livre das distrações para ouvir a voz de Jesus, que permanece para sempre.",
+ "ore": "No Monte das Oliveiras, Jesus orava e ensinava. Senhor, ajuda-me a criar espaços de silêncio em meu dia. Limpa meu coração das preocupações excessivas e das distrações que me afastam de Ti. Ensina-me a vigiar e orar, para que eu esteja pronto para te encontrar.",
+ "quiz": {
+  "pergunta": "O que Jesus diz que permanecerá, mesmo que o céu e a terra passem?",
+  "opcoes": [
+   "As estruturas do Templo.",
+   "As promessas dos líderes.",
+   "Suas palavras."
+  ],
+  "certa": 2,
+  "explicacao": "Em Lucas 21:33, Jesus afirma explicitamente que o céu e a terra passarão, mas as palavras dEle de maneira nenhuma passarão."
+ },
+ "refs": [
+  "Mateus 24:32-33",
+  "Marcos 13:33-37",
+  "Atos 1:11"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-25T12:50:05.053Z",
+  "rounds": 2
+ }
+}

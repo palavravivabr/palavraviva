@@ -1,0 +1,146 @@
+{
+ "id": "42-22-25-36",
+ "ref": "Lucas 22:25-36",
+ "book": "42",
+ "chapter": 22,
+ "verses": [
+  {
+   "n": 25,
+   "t": "E Jesus lhes disse: Os reis dos gentios os dominam, e os que exercem autoridade sobre eles são chamados de benfeitores;"
+  },
+  {
+   "n": 26,
+   "t": "Mas não seja assim entre vós; antes o maior de vós seja como o menor; e o que lidera, como o que serve."
+  },
+  {
+   "n": 27,
+   "t": "Porque qual é maior? O que se senta à mesa ,ou o que serve? Por acaso não é o que se senta à mesa ? Porém eu estou entre vós como aquele que serve."
+  },
+  {
+   "n": 28,
+   "t": "E vós sois os que tendes permanecido comigo em minhas tentações."
+  },
+  {
+   "n": 29,
+   "t": "E eu vos determino um Reino, assim como meu pai o determinou a mim."
+  },
+  {
+   "n": 30,
+   "t": "Para que em meu Reino, comais e bebais à minha mesa; e vos senteis sobre tronos, julgando as doze tribos de Israel."
+  },
+  {
+   "n": 31,
+   "t": "Disse também o Senhor: Simão, Simão; eis que Satanás vos pediu, para vos peneirar como trigo;"
+  },
+  {
+   "n": 32,
+   "t": "Mas eu roguei por ti, que tua fé não se acabe; e quando tu te converteres, fortaleça teus irmãos."
+  },
+  {
+   "n": 33,
+   "t": "E ele lhe disse: Senhor, estou preparado para ir contigo até à prisão, e à morte."
+  },
+  {
+   "n": 34,
+   "t": "Mas ele disse: Pedro, eu te digo que hoje o galo não cantará, antes que me negues três vezes que me conheces."
+  },
+  {
+   "n": 35,
+   "t": "E disse a eles: Quando vos mandei sem bolsa, e sem sacola, e sem sandálias, por acaso algo vos faltou?E disseram: Nada."
+  },
+  {
+   "n": 36,
+   "t": "Então, ele lhes disse: Mas agora, quem tem bolsa, tome-a, como também a sacola; e o que não tem espada, venda sua roupa, e compre uma."
+  }
+ ],
+ "titulo": "Servir antes de ser servido: o que Jesus nos desafia",
+ "temas": [
+  "serviço",
+  "liderança",
+  "humildade",
+  "fé"
+ ],
+ "pergunta": "Você já pensou que o maior pode ser o que serve?",
+ "entender": "Jesus reúne os discípulos e confronta a ideia de poder que eles conhecem. Ele diz que \"os reis dos gentios os dominam\" (v.25) e, ao contrário, o maior deve ser como o menor, como quem serve (v.26‑27). O mestre usa o exemplo de quem se senta à mesa versus quem serve a refeição para mostrar que o verdadeiro valor no Reino de Deus não está em status, mas em servir. O discurso ocorre logo após a discussão sobre quem seria o maior entre eles (Lc 22:24) e antes da prisão de Jesus, revelando que a liderança no seu Reino exige entrega total, até ao ponto de vender a roupa para comprar uma espada (v.36). O texto também menciona a promessa de um Reino onde eles comerão e beberão à mesa do Senhor (v.30‑31), apontando para a esperança futura que sustenta essa atitude de serviço.\n\nNo contexto imediato, os discípulos ainda não compreendem plenamente o custo da missão. Jesus os prepara para enfrentar tentações, perseguições e até a negação de Pedro (v.34‑35). A instrução de levar bolsa, sacola e espada indica que, embora o Reino seja espiritual, eles ainda precisarão de recursos práticos para sobreviver ao tempo de conflito que se aproxima.",
+ "ligar": {
+  "texto": "Jesus, ao dizer \"eu estou entre vós como aquele que serve\", revela seu próprio exemplo de serviço sacrificial, que culmina na cruz. O convite ao serviço humilde aponta para o evangelho: quem crê em Cristo recebe vida nova e é chamado a seguir seu exemplo de amor que se dá sem esperar reconhecimento (cf. Marcos 10:45). A promessa de um Reino onde eles se sentarão em tronos (v.30) aponta para a herança futura que Jesus assegura a todos os que o seguem, confirmando que a verdadeira grandeza vem da entrega ao próximo, como demonstrado por Cristo que morreu por nós.",
+  "selo": true
+ },
+ "viver": "Ao observar que o maior deve ser como o menor, percebemos que a liderança cristã começa em atos simples de serviço: ajudar um vizinho, ouvir quem está triste, colocar as necessidades dos outros à frente das próprias. Essa atitude transforma ambientes de trabalho, família e comunidade, criando um reflexo do Reino de Deus aqui na terra. Quando você se dispõe a servir sem esperar recompensa, demonstra que entende o chamado de Jesus e vive a esperança de um dia compartilhar a mesa do Rei.\n\nAlém disso, a instrução de estar preparado – levando bolsa, sacola e até comprando uma espada – nos lembra que servir pode exigir sacrifícios e coragem. Não se trata de violência, mas de estar pronto para enfrentar desafios com fé, confiando que Deus proverá o necessário para cumprir sua missão.",
+ "guarde": "A verdadeira grandeza está em servir, não em ser servido.",
+ "ore": "Jesus, ao nos chamar a ser servos, ajuda-me a abandonar o orgulho e a buscar oportunidades de servir ao próximo hoje.",
+ "quiz": {
+  "pergunta": "O que Jesus disse que deveria ser a atitude do maior entre os discípulos?",
+  "opcoes": [
+   "Dominar como os reis dos gentios",
+   "Esperar recompensas materiais",
+   "Ser como o menor e servir"
+  ],
+  "certa": 2,
+  "explicacao": "Jesus contrastou a dominação dos reis com o serviço humilde, afirmando que o maior deve ser como o menor e servir (Lc 22:26‑27)."
+ },
+ "refs": [
+  "Marcos 10:42-45",
+  "Filipenses 2:5-8",
+  "Mateus 20:26-28",
+  "1 Pedro 5:2-3"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-25T12:40:22.189Z",
+  "rounds": 1
+ }
+}

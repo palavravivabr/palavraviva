@@ -1,0 +1,145 @@
+{
+ "id": "42-22-60-71",
+ "ref": "Lucas 22:60-71",
+ "book": "42",
+ "chapter": 22,
+ "verses": [
+  {
+   "n": 60,
+   "t": "E Pedro disse: Homem, não sei o que dizes.E logo, estando ele ainda falando, cantou o galo."
+  },
+  {
+   "n": 61,
+   "t": "E o Senhor, virando-se, olhou para Pedro; e Pedro se lembrou da palavra do Senhor, como lhe tinha dito: Antes que o galo cante, tu me negarás três vezes."
+  },
+  {
+   "n": 62,
+   "t": "E Pedro, saindo, chorou amargamente."
+  },
+  {
+   "n": 63,
+   "t": "E os homens que tinham prendido a Jesus zombavam dele, ferindo-o;"
+  },
+  {
+   "n": 64,
+   "t": "E cobrindo-o, feriam-no no rosto; e perguntavam-lhe, dizendo: Profetiza, quem é o que te feriu?"
+  },
+  {
+   "n": 65,
+   "t": "E diziam muitas outras coisas contra ele, insultando-o."
+  },
+  {
+   "n": 66,
+   "t": "E quando já era de dia, juntaram-se os anciãos do povo, e os chefes dos sacerdotes, e os escribas, e o trouxeram ao supremo conselho,"
+  },
+  {
+   "n": 67,
+   "t": "dizendo, Tu és o Cristo? Dize-nos. E ele lhes disse: Se eu vos disser, não o crereis."
+  },
+  {
+   "n": 68,
+   "t": "E também se eu perguntar, não me respondereis, nem me soltareis."
+  },
+  {
+   "n": 69,
+   "t": "A partir de agora o Filho do homem se sentará à direita do poder de Deus."
+  },
+  {
+   "n": 70,
+   "t": "E todos disseram: Então tu és o Filho de Deus?E ele lhes disse: Vós dizeis que eu sou."
+  },
+  {
+   "n": 71,
+   "t": "E eles disseram: Para que precisamos de mais testemunho? Pois nós mesmos o ouvimos de sua boca."
+  }
+ ],
+ "titulo": "O silêncio de Jesus diante da acusação",
+ "temas": [
+  "identidade",
+  "sofrimento",
+  "perdão",
+  "fiel"
+ ],
+ "pergunta": "O que acontece quando a verdade é usada como arma contra quem a vive?",
+ "entender": "A cena começa com a queda de Pedro. Depois de negar Jesus três vezes, ele ouve o galo e lembra da promessa do Mestre. O texto diz que Pedro saiu e chorou amargamente. Enquanto isso, Jesus é alvo de violência: cobrem seu rosto, o batem e zombam dele, perguntando quem o feria. Ele permanece em silêncio diante da humilhação.\n\nDe manhã, o tribunal pergunta: \"Tu és o Cristo?\" Jesus responde com sabedoria: se Ele afirmasse, eles não creriam; se perguntasse, não responderiam. Ele declara que o Filho do Homem se sentará à direita do poder de Deus. Diante disso, eles perguntam: \"Então tu és o Filho de Deus?\" E Ele diz: \"Vós dizeis que eu sou.\" Eles concluem que não precisam de mais testemunho, pois ouviram de sua boca.",
+ "ligar": {
+  "texto": "Este trecho revela o coração do evangelho. Jesus não se defende com violência, mas com a verdade de sua identidade divina, mesmo sob tortura. A negação de Pedro mostra nossa fragilidade, mas o olhar de Jesus (v. 61) mostra que o amor de Cristo nos alcança mesmo em nosso fracasso. Jesus é o Cristo e o Filho de Deus que sofreu por nós, garantindo nossa salvação pela graça, não por nossa lealdade imperfeita.",
+  "selo": true
+ },
+ "viver": "Pedro falhou, mas não foi descartado. O olhar de Jesus o restaurou. Talvez você sinta que falhou em ser fiel ou que sua vergonha o separa de Deus. A lição aqui é que a graça de Cristo cobre nossos erros. Hoje, não se esconda do seu fracasso. Permita que o olhar de Jesus o encontre com compaixão. Identifique uma área onde você está se escondendo e abra-se para a restauração, confiando que Ele o ama mesmo quando você falha.",
+ "guarde": "O olhar de Jesus transforma a vergonha da queda em lágrimas de arrependimento e caminho para a restauração.",
+ "ore": "Jesus, diante do tribunal, Tu confessaste quem és. Eu confesso minhas negações e medos. Obrigado por me olhar com amor quando falho. Ajuda-me a não me esconder de Ti, mas a aceitar Tua graça que me restaura, para viver com coragem e fidelidade.",
+ "quiz": {
+  "pergunta": "Como Jesus respondeu quando o conselho perguntou: 'Então tu és o Filho de Deus?'",
+  "opcoes": [
+   "Não, eu sou apenas um homem.",
+   "Sim, eu sou o Cristo.",
+   "Vós dizeis que eu sou."
+  ],
+  "certa": 2,
+  "explicacao": "Jesus respondeu de forma indireta, confirmando a afirmação deles. O texto diz que eles perguntaram se Ele era o Filho de Deus e Ele respondeu: 'Vós dizeis que eu sou'."
+ },
+ "refs": [
+  "Mateus 26:63-68",
+  "Marcos 14:61-64",
+  "João 18:33-37"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-25T12:56:06.512Z",
+  "rounds": 2
+ }
+}
