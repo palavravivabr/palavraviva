@@ -44,7 +44,7 @@
   function relPath(url) { var base = new URL('./', location.href).pathname; var p = new URL(url).pathname; return p.indexOf(base) === 0 ? p.slice(base.length) : p.replace(/^\//, ''); }
 
   /* ---------- configuração (dono, contato, Pix, áudio): arquivo config.json ---------- */
-  var cfg = { ownerName: '', year: '', contactEmail: 'contato.palavravivabr@gmail.com', pixKey: '', siteUrl: '', audio: [] };
+  var cfg = { ownerName: '', year: '', contactEmail: 'contato.palavravivabr@gmail.com', pixKey: '', siteUrl: '', audio: [], audioNomes: [] };
   async function loadConfig() {
     try {
       var r = await fetch('config.json');
@@ -897,10 +897,11 @@
     return true;
   }
   async function startAudio() {
-    var src = cfg.audio && cfg.audio[0];
-    if (src) {
+    var lista = cfg.audio || [], i = parseInt(lsGet('pv4-trilha', '0'), 10) || 0;
+    var tent = [lista[i], lista[0]].filter(function (x, k, a) { return x && a.indexOf(x) === k; });
+    for (var k = 0; k < tent.length; k++) {
       try {
-        var blob = await (await mediaResponse(src)).blob();
+        var blob = await (await mediaResponse(tent[k])).blob();
         aud.url = URL.createObjectURL(blob); aud.el = new Audio(aud.url); aud.el.loop = true; aud.el.volume = volume();
         await aud.el.play(); return true;
       } catch (e) { if (aud.el) { aud.el.pause(); aud.el = null; } if (aud.url) { URL.revokeObjectURL(aud.url); aud.url = null; } }
@@ -916,7 +917,19 @@
       setTimeout(function () { o.forEach(function (x) { try { x.stop(); } catch (e) { /* já parou */ } }); try { m.disconnect(); } catch (e) { /* ok */ } }, 1200);
     }
   }
+  function fillTrilhas() {
+    var s = $('#trilha'), l = cfg.audio || [], n = cfg.audioNomes || []; if (!s) return;
+    if (l.length < 2) { s.parentNode.style.display = 'none'; return; }
+    s.textContent = '';
+    l.forEach(function (src, i) { var o = document.createElement('option'); o.value = String(i); o.textContent = n[i] || ('Trilha ' + (i + 1)); s.appendChild(o); });
+    var cur = parseInt(lsGet('pv4-trilha', '0'), 10); s.value = String(cur >= 0 && cur < l.length ? cur : 0);
+    s.parentNode.style.display = 'flex';
+  }
   function bindAudio() {
+    $('#trilha').addEventListener('change', async function () {
+      lsSet('pv4-trilha', $('#trilha').value);
+      if (aud.on) { stopAudio(); if (!(await startAudio())) toast('Este aparelho não tocou o áudio.'); }
+    });
     $('#sw').addEventListener('click', async function () {
       var s = $('#sw'), want = s.getAttribute('aria-checked') !== 'true';
       if (want) { s.disabled = true; var ok = await startAudio(); s.disabled = false; if (!ok) { toast('Este aparelho não tocou o áudio.'); return; } } else stopAudio();
@@ -1036,7 +1049,7 @@
     /* abre na hora com o que já está guardado no aparelho; a internet só atualiza por trás */
     var stored = null;
     try { var cc = await caches.open(CONTENT), sm = await cc.match('content-manifest.json'); if (sm) stored = await sm.json(); } catch (e) { stored = null; }
-    var cfgDone = loadConfig().then(function () { fillRights(); $('#blessItem').hidden = !cfg.pixKey; });
+    var cfgDone = loadConfig().then(function () { fillRights(); fillTrilhas(); $('#blessItem').hidden = !cfg.pixKey; });
     function showFirst() {
       indexManifest();
       var s = history.state;

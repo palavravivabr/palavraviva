@@ -5,6 +5,13 @@
   "pixKey": "4d26bd31-2e0e-4f8c-ad90-43b5346efdea",
   "siteUrl": "https://palavravivabr.github.io/palavraviva/",
   "audio": [
-    "assets/ambiente-leitura.mp3"
+    "assets/ambiente-leitura.mp3",
+    "assets/voz/trilha-alvorada.mp3",
+    "assets/voz/trilha-quietude.mp3"
+  ],
+  "audioNomes": [
+    "Instrumental ambiente (padrão)",
+    "Alvorada",
+    "Quietude"
   ]
 }
