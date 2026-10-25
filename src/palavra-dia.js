@@ -137,8 +137,15 @@
   }
   function doDia(data) { return DADOS[indiceDoDia(data, DADOS.length)]; }
   /* roteiro de narração: o que a voz lê, na ordem em que aparece na tela */
+  /* como a referência é dita em voz alta: "Salmos 23, versículos 1 ao 3" / "Mateus capítulo 6, versículo 6" */
+  function refFalada(e) {
+    var liv = String(e.ref).replace(/\s+\d+:.*$/, ''), m = /^([123])\s+(.+)$/.exec(liv);
+    if (m) liv = (/^(Samuel|Reis|Crônicas)$/.test(m[2]) ? ['', 'Primeiro', 'Segundo'] : ['', 'Primeira', 'Segunda', 'Terceira'])[+m[1]] + ' ' + m[2];
+    var cap = (liv === 'Salmos' ? '' : ' capítulo') + ' ' + e.c;
+    return liv + cap + ', ' + (e.ate > e.v ? 'versículos ' + e.v + ' ao ' + e.ate : 'versículo ' + e.v);
+  }
   function roteiro(e) {
-    return ['Palavra do dia.', e.ref + '.', e.texto, 'Reflexão.', e.reflexao, 'Oração.', e.oracao, 'Amém.'].join(' ');
+    return ['Palavra do dia.', refFalada(e) + '.', e.texto, 'Reflexão.', e.reflexao, 'Oração.', e.oracao, 'Amém.'].join(' ');
   }
 
   var IMGS = ['assets/hero-dawn.jpg', 'assets/hero-reading.jpg', 'assets/hero-bible.jpg'];

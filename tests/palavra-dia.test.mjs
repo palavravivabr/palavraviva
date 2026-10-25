@@ -25,7 +25,8 @@ test('a escolha do dia é estável no dia, muda no dia seguinte e cobre todos os
 });
 test('o roteiro de narração segue a ordem da tela e termina em Amém', () => {
   const e = PD.dados[0], r = PD.roteiro(e);
-  assert.ok(r.startsWith('Palavra do dia. ' + e.ref));
+  assert.ok(r.startsWith('Palavra do dia. Salmos 23, versículos 1 ao 3. '));
+  assert.ok(PD.roteiro({ ref: '1 Tessalonicenses 2:3', c: 2, v: 3, ate: 3, texto: 't', reflexao: 'r', oracao: 'o' }).includes('Primeira Tessalonicenses capítulo 2, versículo 3.'));
   assert.ok(r.indexOf(e.texto) < r.indexOf(e.reflexao) && r.indexOf(e.reflexao) < r.indexOf(e.oracao));
   assert.ok(r.endsWith('Amém.'));
 });
