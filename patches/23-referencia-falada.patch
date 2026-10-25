@@ -15,3 +15,13 @@ index a008ee2..8f6defc 100644
 -    return ['Palavra do dia.', e.ref + '.', e.texto, 'Reflexão.', e.reflexao, 'Oração.', e.oracao, 'Amém.'].join(' ');
 +    return ['Palavra do dia.', refFalada(e) + '.', e.texto, 'Reflexão.', e.reflexao, 'Oração.', e.oracao, 'Amém.'].join(' ');
    }
+diff --git a/tests/palavra-dia.test.mjs b/tests/palavra-dia.test.mjs
+index 741c0c5..1bdceab 100644
+--- a/tests/palavra-dia.test.mjs
++++ b/tests/palavra-dia.test.mjs
+@@ -27,3 +27,4 @@ test('o roteiro de narração segue a ordem da tela e termina em Amém', () => {
+   const e = PD.dados[0], r = PD.roteiro(e);
+-  assert.ok(r.startsWith('Palavra do dia. ' + e.ref));
++  assert.ok(r.startsWith('Palavra do dia. Salmos 23, versículos 1 ao 3. '));
++  assert.ok(PD.roteiro({ ref: '1 Tessalonicenses 2:3', c: 2, v: 3, ate: 3, texto: 't', reflexao: 'r', oracao: 'o' }).includes('Primeira Tessalonicenses capítulo 2, versículo 3.'));
+   assert.ok(r.indexOf(e.texto) < r.indexOf(e.reflexao) && r.indexOf(e.reflexao) < r.indexOf(e.oracao));
