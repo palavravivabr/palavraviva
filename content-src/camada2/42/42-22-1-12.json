@@ -1,0 +1,145 @@
+{
+ "id": "42-22-1-12",
+ "ref": "Lucas 22:1-12",
+ "book": "42",
+ "chapter": 22,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Estava perto a festa dos pães sem fermento, chamada de páscoa."
+  },
+  {
+   "n": 2,
+   "t": "E os chefes dos sacerdotes, e os escribas procuravam um meio de o matar, pois eles temiam ao povo."
+  },
+  {
+   "n": 3,
+   "t": "E Satanás entrou no Judas que era chamado Iscariotes, que era um dos doze."
+  },
+  {
+   "n": 4,
+   "t": "E foi, e falou com os chefes dos sacerdotes e os oficiais, sobre como o entregaria para eles."
+  },
+  {
+   "n": 5,
+   "t": "E estes se alegraram, e concordaram em lhe dar dinheiro."
+  },
+  {
+   "n": 6,
+   "t": "E lhes prometeu, e buscava oportunidade para o entregar quando não houvesse uma multidão."
+  },
+  {
+   "n": 7,
+   "t": "E veio o dia dos pães sem fermento, em que se devia fazer o sacrifício da páscoa."
+  },
+  {
+   "n": 8,
+   "t": "E Jesus mandou a Pedro, e a João, dizendo: Ide, preparai-nos a páscoa, para que a comamos."
+  },
+  {
+   "n": 9,
+   "t": "E eles lhe disseram: Onde queres que a preparemos?"
+  },
+  {
+   "n": 10,
+   "t": "E ele lhes disse: Eis que, quando entrardes na cidade, um homem com um vaso de água vos encontrará; segui-o até a casa onde ele entrar."
+  },
+  {
+   "n": 11,
+   "t": "E direis ao dono da casa: O Mestre te diz: Onde está o salão onde comerei a páscoa com meus discípulos?"
+  },
+  {
+   "n": 12,
+   "t": "Então ele vos mostrará um grande salão já arrumado; preparai-a ali."
+  }
+ ],
+ "titulo": "Quem preparou a Páscoa para o Mestre?",
+ "temas": [
+  "páscoa",
+  "obediência",
+  "confiança"
+ ],
+ "pergunta": "Você já seguiu instruções que pareciam simples, mas tinham um grande propósito?",
+ "entender": "Jesus sabia que a sua morte se aproximava e precisava celebrar a Páscoa com os discípulos. Ele enviou Pedro e João com uma missão específica: \"Ide, preparai‑nos a páscoa, para que a comamos\" (Lc 22.8). O detalhe era que, ao chegar à cidade, eles encontrariam um homem com um vaso de água que os levaria ao local preparado. O texto mostra a preparação cuidadosa, mesmo enquanto os chefes dos sacerdotes conspiravam contra Jesus (Lc 22.2‑5). Essa combinação de conspiração e preparação destaca a tensão entre o plano divino e a oposição humana.\n\nA instrução de Jesus não era apenas logística; era um ato de confiança nos discípulos. Ele lhes deu um sinal concreto – o homem com o vaso de água – para que não se perdessem. Assim, o relato nos coloca no cenário da última ceia, onde a celebração da libertação do Egito se transforma na libertação que Jesus iria oferecer na cruz.",
+ "ligar": {
+  "texto": "Ao preparar a Páscoa, Jesus estava cumprindo a profecia do Cordeiro que tira o pecado (Êxodo 12) e, ao mesmo tempo, anunciando que Ele seria o verdadeiro Cordeiro (João 1.29). A ceia que ele instituiu ali seria lembrada como o memorial da sua entrega sacrificial. Mesmo enquanto os líderes religiosos planejavam sua morte, Jesus avançava no plano de redenção, mostrando que a vontade de Deus prevalece sobre a conspiração humana. Essa preparação aponta para o Evangelho: a salvação vem do sacrifício obediente de Cristo, que se entrega por amor.",
+  "selo": true
+ },
+ "viver": "Assim como Pedro e João obedeceram ao detalhe do vaso de água, somos convidados a prestar atenção aos pequenos sinais que Deus coloca em nosso caminho. Quando Ele nos dá instruções – seja para ajudar alguém, participar de um projeto ou simplesmente ouvir um amigo – não subestime a importância da obediência prática. Cada ato fiel pode abrir portas para que outros experimentem a graça que recebemos.\n\nHoje, procure um “vaso de água” na sua vida: um convite inesperado, uma oportunidade de servir ou uma palavra que lhe traga direção. Responda com prontidão, confiando que Deus está preparando algo maior.",
+ "guarde": "Obedeça aos pequenos sinais; eles revelam o grande plano de Deus.",
+ "ore": "Jesus enviou Pedro e João; Senhor, ajuda-me a reconhecer e seguir os sinais que colocas em meu caminho, confiando que são parte do teu propósito.",
+ "quiz": {
+  "pergunta": "O que Jesus disse que os discípulos encontrariam ao entrar na cidade?",
+  "opcoes": [
+   "Um ancião da sinagoga",
+   "Um homem com um vaso de água",
+   "Um soldado romano"
+  ],
+  "certa": 1,
+  "explicacao": "Jesus explicou que ao entrar na cidade eles encontrariam \"um homem com um vaso de água\" (Lc 22.10), que os guiaria ao local preparado para a Páscoa."
+ },
+ "refs": [
+  "Êxodo 12:5-7",
+  "João 1:29",
+  "Mateus 26:17-19",
+  "1 Coríntios 11:23-26"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-25T09:40:22.109Z",
+  "rounds": 1
+ }
+}

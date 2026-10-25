@@ -1372,7 +1372,9 @@
   },
   "42-20-13-24": {
    "execucoes": 0,
-   "ultimo": "erro: groq-qwen: 429 {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on output tokens per minute (OTPM): Limit 1"
+   "ultimo": "automático: entender:citacao_longa",
+   "estado": "pronto",
+   "titulo": "A pedra rejeitada e a armadilha de César"
   },
   "42-20-25-35": {
    "execucoes": 0,
@@ -1410,7 +1412,9 @@
   },
   "42-22-1-12": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "Quem preparou a Páscoa para o Mestre?"
   },
   "42-22-13-24": {
    "execucoes": 0,
@@ -1443,28 +1447,32 @@
   "42-23-23-34": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "42-23-35-45": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 492,
-   "entrada": 1229334,
-   "saida": 438904
+   "chamadas": 499,
+   "entrada": 1248317,
+   "saida": 444784
   },
   "groq-qwen": {
-   "chamadas": 489,
-   "entrada": 1168146,
-   "saida": 395984
+   "chamadas": 495,
+   "entrada": 1184463,
+   "saida": 401185
   },
   "gemini": {
-   "chamadas": 404,
-   "entrada": 1308827,
-   "saida": 522149
+   "chamadas": 408,
+   "entrada": 1322033,
+   "saida": 529933
   },
   "cloudflare": {
-   "chamadas": 244,
-   "entrada": 849712,
-   "saida": 90524
+   "chamadas": 246,
+   "entrada": 856686,
+   "saida": 91266
   },
   "mistral": {
    "chamadas": 0,

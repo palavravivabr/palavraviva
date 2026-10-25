@@ -1,0 +1,144 @@
+{
+ "id": "42-20-13-24",
+ "ref": "Lucas 20:13-24",
+ "book": "42",
+ "chapter": 20,
+ "verses": [
+  {
+   "n": 13,
+   "t": "E o senhor da vinha disse: Que farei? Mandarei a meu filho amado; talvez quando o verem, o respeitarão."
+  },
+  {
+   "n": 14,
+   "t": "Mas os lavradores, vendo-o, discutiram entre si, dizendo: Este é o herdeiro; vamos matá-lo, para que a herança venha a ser nossa."
+  },
+  {
+   "n": 15,
+   "t": "E expulsando-o da vinha, o mataram. O que, então, lhes fará o senhor da vinha?"
+  },
+  {
+   "n": 16,
+   "t": "Virá, e destruirá a estes lavradores, e dará a vinha a outros.E eles, ouvindo isto, disseram: Que isto nunca aconteça!"
+  },
+  {
+   "n": 17,
+   "t": "Mas Jesus ,olhando para eles, disse: Por que, então, isto está escrito: A pedra que os construtores rejeitaram, essa foi posta como a principal da esquina?"
+  },
+  {
+   "n": 18,
+   "t": "Todo aquele que cair sobre aquela pedra, se quebrará em pedaços; e aquele sobre quem ela cair, se fará pó."
+  },
+  {
+   "n": 19,
+   "t": "E os chefes dos sacerdotes e os escribas queriam detê-lo naquela mesma hora, mas temiam ao povo; porque entenderam que foi contra eles que ele tinha dito a parábola."
+  },
+  {
+   "n": 20,
+   "t": "E, observando-o, mandaram espiões, que fingissem ser justos, para o pegarem por meio de algo que ele dissesse, e o entregarem ao poder e autoridade do governador."
+  },
+  {
+   "n": 21,
+   "t": "E perguntaram-lhe, dizendo: Mestre, nós sabemos que falas e ensinas corretamente, e que não te importas com as aparências, mas na verdade tu ensinas o caminho de Deus."
+  },
+  {
+   "n": 22,
+   "t": "É lícito para nós dar tributo a César, ou não?"
+  },
+  {
+   "n": 23,
+   "t": "E ele, entendendo a astúcia deles, disse-lhes: Por que me tentais?"
+  },
+  {
+   "n": 24,
+   "t": "Mostrai-me uma moeda; ela tem a imagem e a inscrição de quem?E eles, respondendo, disseram: De César."
+  }
+ ],
+ "titulo": "A pedra rejeitada e a armadilha de César",
+ "temas": [
+  "reino",
+  "autoridade",
+  "juízo",
+  "fé"
+ ],
+ "pergunta": "Como responder a uma pergunta que parece colocar Deus e o governo em conflito?",
+ "entender": "Jesus conta a parábola da vinha: o dono manda seu filho amado, mas os lavradores o matam (Lucas 20.15). Em seguida, cita: \"A pedra que os construtores rejeitaram\" (Lucas 20.17), indicando que o que foi desprezado será a base da nova construção. Os chefes dos sacerdotes, percebendo que a parábola os condenava, tentam pegá‑lo com a pergunta sobre tributo a César (Lucas 20.22‑24). Eles esperavam uma resposta que os colocasse em apuros, mas Jesus, ao mostrar a moeda, revela quem realmente tem autoridade sobre ela.\n\nO contexto anterior mostra a crescente violência contra os servos enviados à vinha, preparando o cenário de injustiça que culmina na morte do filho. Depois da resposta, Jesus completa o ensino ao dizer que se dá a César o que é de César e a Deus o que é de Deus (v.25‑26). Assim, a passagem revela tanto a rejeição do Messias quanto a necessidade de distinguir as obrigações civis das espirituais.",
+ "ligar": {
+  "texto": "A parábola aponta para Jesus como o Filho amado que os líderes rejeitam, cumprindo a profecia da pedra rejeitada que se tornará a pedra angular (cf. Salmo 118:22). Ao responder à armadilha sobre o tributo, Ele mostra que a verdadeira lealdade pertence a Deus, que é o dono da vinha, revelando o evangelho da soberania de Cristo sobre toda autoridade humana.",
+  "selo": false
+ },
+ "viver": "Quando alguém tenta dividir nossa lealdade entre o Estado e a fé, lembre‑se de que a moeda mostrada por Jesus tem a imagem de César, mas a responsabilidade última pertence a Deus. Na prática, cumpra suas obrigações civis sem que elas comprometam sua fidelidade ao Reino. Assim, ao pagar impostos ou obedecer leis, faça‑o com a consciência de que seu coração pertence ao Senhor, que é o verdadeiro dono de tudo.",
+ "guarde": "A pedra rejeitada será a base da nova aliança; Deus tem a palavra final.",
+ "ore": "Filho amado, ajuda‑me a reconhecer quando uma pergunta quer me prender e a responder com a verdade que honra a Deus acima de qualquer poder humano.",
+ "quiz": {
+  "pergunta": "O que os lavradores fizeram ao filho enviado pelo dono da vinha?",
+  "opcoes": [
+   "Matá‑lo",
+   "Deixaram‑no ir embora",
+   "O aceitaram como herdeiro"
+  ],
+  "certa": 0,
+  "explicacao": "O texto relata que, ao ver o filho, os lavradores \"expulsando‑o da vinha, o mataram\" (Lucas 20.15)."
+ },
+ "refs": [
+  "Mateus 21:42",
+  "Marcos 12:10-12"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-25T09:40:51.128Z",
+  "rounds": 3
+ }
+}
