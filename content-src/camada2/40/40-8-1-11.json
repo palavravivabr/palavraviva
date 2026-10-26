@@ -1,0 +1,142 @@
+{
+ "id": "40-8-1-11",
+ "ref": "Mateus 8:1-11",
+ "book": "40",
+ "chapter": 8,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Quando ele desceu do monte, muitas multidões o seguiram."
+  },
+  {
+   "n": 2,
+   "t": "E eis que um leproso veio e prostrou-se diante dele, dizendo: Senhor, se quiseres, podes me limpar."
+  },
+  {
+   "n": 3,
+   "t": "Jesus estendeu a mão e o tocou, dizendo: Quero, sê limpo. E logo ele ficou limpo de sua lepra."
+  },
+  {
+   "n": 4,
+   "t": "Então Jesus lhe disse: Tem o cuidado de dizeres a ninguém; mas vai mostrar-te ao sacerdote, e oferece a oferta que Moisés ordenou, para que lhes haja testemunho."
+  },
+  {
+   "n": 5,
+   "t": "Quando Jesus entrou em Cafarnaum, veio a ele um centurião, rogando-lhe,"
+  },
+  {
+   "n": 6,
+   "t": "E dizendo: Senhor, o meu servo jaz em casa, paralítico, e gravemente atormentado."
+  },
+  {
+   "n": 7,
+   "t": "E Jesus lhe disse: Eu irei, e o curarei."
+  },
+  {
+   "n": 8,
+   "t": "E o centurião respondeu: Senhor, não sou digno de que entres sob meu telhado; mas dize somente uma palavra, e o meu servo sarará."
+  },
+  {
+   "n": 9,
+   "t": "Pois eu também sou homem debaixo de autoridade, e tenho debaixo de meu comando soldados; e digo a este: “Vai”, e ele vai; e ao outro: “Vem”, e vem; e a meu servo: “Faze isto”, e ele faz."
+  },
+  {
+   "n": 10,
+   "t": "Quando Jesus ouviu isto , maravilhou-se, e disse aos que o seguiam: Em verdade vos digo que nem mesmo em Israel encontrei tanta fé."
+  },
+  {
+   "n": 11,
+   "t": "Mas eu vos digo que muitos virão do oriente e do ocidente, e se sentarão à mesa com Abraão, Isaque, e Jacó, no Reino dos céus."
+  }
+ ],
+ "titulo": "A mão que toca o intocável e a palavra que cura",
+ "temas": [
+  "fé",
+  "cura",
+  "humildade",
+  "autoridade",
+  "inclusão"
+ ],
+ "pergunta": "O que te impede de chegar até Jesus com a sua necessidade mais profunda?",
+ "entender": "Depois de descer do monte, Jesus é cercado por multidões. Um homem com lepra, figura de exclusão social e religiosa, se aproxima. Ele não exige milagres, mas reconhece a autoridade de Cristo: \"Senhor, se quiseres, podes me limpar\". Jesus responde tocando-o, um gesto que quebrava as barreiras da pureza cerimonial, e declara: \"Quero, sê limpo\". A cura é imediata.\n\nEm seguida, em Cafarnaum, um centurião romano pede ajuda para seu servo doente. Diferente do leproso, ele não precisa estar presente fisicamente. Ele demonstra uma compreensão profunda da autoridade de Jesus, comparando-a ao seu próprio comando sobre os soldados. Jesus se maravilha com essa fé, dizendo que não encontrou tanta em Israel, e promete que muitos estrangeiros serão aceitos no Reino dos céus.",
+ "ligar": {
+  "texto": "Estas duas curas revelam a natureza de Jesus. Ao tocar o leproso, Ele mostra que Sua graça supera as barreiras humanas e purifica o pecador. Ao ouvir o centurião, Ele confirma que Sua palavra tem poder absoluto sobre a doença e a morte. O evangelho é apresentado como uma oferta aberta: não depende de status social ou origem étnica, mas da fé que reconhece Jesus como Senhor capaz de salvar e curar.",
+  "selo": true
+ },
+ "viver": "O leproso aceitou sua condição de excluído, mas confiou na vontade de Jesus. Pense em uma área da sua vida onde você se sente \"intocável\" ou digno demais para pedir ajuda, ou, ao contrário, indigno demais para se aproximar. A fé bíblica não é um sentimento de merecimento, mas a confiança de que Jesus \"quer\" nos limpar. Hoje, traga a Ele a sua vergonha ou o seu problema mais grave, com a mesma simplicidade do leproso e a confiança do centurião na Sua palavra.",
+ "guarde": "A fé não mede a distância, mas reconhece que a palavra de Jesus tem poder para curar e transformar.",
+ "ore": "Jesus, Tu tocaste o leproso e curaste o servo do centurião. Eu me aproximo de Ti agora, reconhecendo minha impureza e minha necessidade. Como eles, eu creio que a Tua palavra é suficiente para restaurar minha vida. Limpa-me e fortalece minha fé para confiar no Teu poder, não na minha força.",
+ "quiz": {
+  "pergunta": "Por que Jesus se maravilhou com a resposta do centurião?",
+  "opcoes": [
+   "Porque o centurião era um homem muito rico.",
+   "Porque ele reconheceu a autoridade de Jesus sobre a doença.",
+   "Porque ele ofereceu um presente valioso a Jesus."
+  ],
+  "certa": 1,
+  "explicacao": "O texto destaca que a fé do centurião residia em sua compreensão de que Jesus tinha autoridade para curar apenas falando, comparando isso ao poder que ele mesmo tinha sobre seus soldados."
+ },
+ "refs": [
+  "Marcos 1:40-45",
+  "Lucas 7:1-10",
+  "Hebreus 11:20"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-26T16:14:10.520Z",
+  "rounds": 1
+ }
+}

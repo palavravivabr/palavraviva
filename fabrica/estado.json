@@ -1629,7 +1629,9 @@
   },
   "40-8-1-11": {
    "execucoes": 2,
-   "ultimo": "automático: entender:citacao_fora_do_texto, abertura_repetida:guarde:41-7-20-28"
+   "ultimo": "automático: entender:menos_de_2_paragrafos, ore:citacao_fora_do_texto, abertura_repetida:guarde:41-7-20-28",
+   "estado": "pronto",
+   "titulo": "A mão que toca o intocável e a palavra que cura"
   },
   "40-8-12-23": {
    "execucoes": 0,
@@ -1657,7 +1659,7 @@
   },
   "40-9-20-29": {
    "execucoes": 1,
-   "ultimo": "gemini: MIRACLE_SCOPE: A frase na seção GUARDE generaliza o milagre do texto ao afirmar que a fé sempre traz cura, transformando o relato bíblico em uma promessa universal sob demanda."
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   },
   "40-9-30-38": {
    "execucoes": 0,
@@ -1732,24 +1734,24 @@
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 570,
-   "entrada": 1441617,
-   "saida": 506013
+   "chamadas": 573,
+   "entrada": 1449259,
+   "saida": 508500
   },
   "groq-qwen": {
-   "chamadas": 564,
-   "entrada": 1366206,
-   "saida": 457502
+   "chamadas": 567,
+   "entrada": 1373180,
+   "saida": 459940
   },
   "gemini": {
-   "chamadas": 477,
-   "entrada": 1545137,
-   "saida": 624522
+   "chamadas": 478,
+   "entrada": 1548334,
+   "saida": 626300
   },
   "cloudflare": {
-   "chamadas": 291,
-   "entrada": 1012771,
-   "saida": 107961
+   "chamadas": 292,
+   "entrada": 1016225,
+   "saida": 108332
   },
   "mistral": {
    "chamadas": 0,
