@@ -1,0 +1,137 @@
+{
+ "id": "40-12-21-30",
+ "ref": "Mateus 12:21-30",
+ "book": "40",
+ "chapter": 12,
+ "verses": [
+  {
+   "n": 21,
+   "t": "E em seu nome as nações terão esperança. Isaías 42:1-4"
+  },
+  {
+   "n": 22,
+   "t": "Então lhe trouxeram um endemoninhado cego e mudo; e ele o curou de tal maneira que o cego e mudo passou a falar e a ver."
+  },
+  {
+   "n": 23,
+   "t": "E todas as multidões se admiravam e diziam: Não é este o Filho de Davi?"
+  },
+  {
+   "n": 24,
+   "t": "Mas quando os fariseus ouviam isso, diziam: Ele não expulsa os demônios, a não ser por Belzebu, o chefe dos demônios."
+  },
+  {
+   "n": 25,
+   "t": "Porém Jesus, entendendo os pensamentos deles, disse-lhes: Todo reino dividido contra si mesmo é destruído; e toda cidade ou casa dividida contra si mesma não permanecerá."
+  },
+  {
+   "n": 26,
+   "t": "Ora, se Satanás expulsa a Satanás, contra si mesmo está dividido; como, pois, permanecerá o seu reino?"
+  },
+  {
+   "n": 27,
+   "t": "E se eu expulso os demônios por Belzebu, então por quem vossos filhos os expulsam? Portanto, eles mesmos serão vossos juízes."
+  },
+  {
+   "n": 28,
+   "t": "Mas se eu pelo Espírito de Deus expulso os demônios, logo o Reino de Deus já chegou sobre vos."
+  },
+  {
+   "n": 29,
+   "t": "Ou como pode alguém entrar na casa do valente, e saquear seus bens, sem primeiro amarrar ao valente? Depois disso saqueará sua casa."
+  },
+  {
+   "n": 30,
+   "t": "Quem não é comigo é contra mim; e quem não ajunta comigo, espalha."
+  }
+ ],
+ "titulo": "A lógica que derruba a acusação contra Jesus",
+ "temas": [
+  "reino",
+  "espírito",
+  "poder",
+  "decisão"
+ ],
+ "pergunta": "Por que a acusação dos fariseus contra Jesus era logicamente impossível?",
+ "entender": "Após curar um homem cego e mudo, Jesus foi confrontado. Os fariseus, invejosos da admiração do povo, afirmaram que Ele expulsava demônios por meio de Belzebu, o chefe dos espíritos malignos. Jesus respondeu com uma lógica simples: um reino dividido contra si mesmo é destruído. Se Satanás expulsasse a si mesmo, seu reino se autodestruiria, o que não faz sentido.\n\nJesus argumentou que, se Ele usasse o poder do inimigo, os discípulos dos fariseus fariam o mesmo, tornando-os seus próprios juízes. A verdade é que Jesus expulsa demônios pelo Espírito de Deus, sinalizando que o Reino de Deus já chegou. Ele usa a ilustração de um valente armado; ninguém pode saquear sua casa sem primeiro amarrá-lo. Jesus venceu o poder do mal e agora oferece liberdade. A conclusão é dura: quem não é com Jesus, é contra Ele.",
+ "ligar": {
+  "texto": "Este texto revela a autoridade de Jesus sobre o mal e a realidade do Reino de Deus. A cura do cego e mudo não é apenas um milagre, mas uma demonstração de que o domínio de Satanás está sendo quebrado. Jesus não age por vaidade, mas como o Servo do Senhor que traz justiça. O evangelho é a notícia de que o 'valente' (o poder do pecado e da morte) foi amarrado na cruz, permitindo que a casa seja saqueada (libertada) para a glória de Deus. A salvação é a transferência de lealdade: sair do reino das trevas para a luz.",
+  "selo": true
+ },
+ "viver": "Jesus nos convida a uma decisão clara e inadiável. Não existe neutralidade espiritual. Assim como a casa do valente só é liberada depois que ele é amarrado, nossa vida só encontra paz quando entregamos o controle a Cristo. Hoje, examine suas lealdades: suas atitudes, palavras e escolhas mostram se você está 'com' Jesus ou 'espalhando' a confusão do mundo? Peça ao Espírito Santo para mostrar onde você ainda tenta se manter independente da autoridade de Cristo.",
+ "guarde": "Sem Jesus, não há paz; com Ele, o poder do mal é amarrado e a liberdade é entregue.",
+ "ore": "Filho de Davi, vi a multidão admirada e a acusação injusta. Ensina-me a reconhecer o Teu poder pelo Espírito, não pelo medo. Amarra o mal em mim e me faça parte do Teu Reino, com lealdade total. Amém.",
+ "quiz": {
+  "pergunta": "Segundo Jesus, o que acontece quando Ele expulsa demônios pelo Espírito de Deus?",
+  "opcoes": [
+   "Os fariseus passam a crer imediatamente.",
+   "O Reino de Deus já chegou sobre nós.",
+   "Satanás perde todo o seu poder na terra."
+  ],
+  "certa": 1,
+  "explicacao": "O texto diz explicitamente que se Jesus expulsa demônios pelo Espírito de Deus, logo o Reino de Deus já chegou sobre nós."
+ },
+ "refs": [
+  "Lucas 11:15-22",
+  "Marcos 3:22-30",
+  "Isaías 42:1-4"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-26T21:46:58.780Z",
+  "rounds": 2
+ }
+}

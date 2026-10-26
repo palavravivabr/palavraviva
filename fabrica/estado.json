@@ -1717,11 +1717,15 @@
   },
   "40-12-11-20": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:menos_de_2_paragrafos",
+   "estado": "pronto",
+   "titulo": "A mão estendida e a cana rachada"
   },
   "40-12-21-30": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:ore:42-18-33-43, abertura_repetida:entender:43-5-13-24",
+   "estado": "pronto",
+   "titulo": "A lógica que derruba a acusação contra Jesus"
   },
   "40-12-31-40": {
    "execucoes": 0,
@@ -1750,28 +1754,36 @@
   "40-13-47-58": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-14-1-12": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-14-13-24": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 579,
-   "entrada": 1465949,
-   "saida": 514620
+   "chamadas": 585,
+   "entrada": 1482532,
+   "saida": 520010
   },
   "groq-qwen": {
-   "chamadas": 574,
-   "entrada": 1391289,
-   "saida": 465737
+   "chamadas": 580,
+   "entrada": 1407191,
+   "saida": 470688
   },
   "gemini": {
-   "chamadas": 485,
-   "entrada": 1571205,
-   "saida": 635931
+   "chamadas": 489,
+   "entrada": 1584680,
+   "saida": 641551
   },
   "cloudflare": {
-   "chamadas": 296,
-   "entrada": 1030193,
-   "saida": 109816
+   "chamadas": 298,
+   "entrada": 1037466,
+   "saida": 110558
   },
   "mistral": {
    "chamadas": 0,

@@ -1,0 +1,137 @@
+{
+ "id": "40-12-11-20",
+ "ref": "Mateus 12:11-20",
+ "book": "40",
+ "chapter": 12,
+ "verses": [
+  {
+   "n": 11,
+   "t": "E ele lhes respondeu: Qual de vós será a pessoa que, caso tenha uma ovelha, e se a tal cair em uma cova no sábado, não usará de sua força para a levantar?"
+  },
+  {
+   "n": 12,
+   "t": "Ora, quanto mais vale um ser humano que uma ovelha! Assim, pois, é lícito fazer o bem nos sábados."
+  },
+  {
+   "n": 13,
+   "t": "Então disse para aquele homem: Estende a tua mão. Ele a estendeu, e foi-lhe restaurada, sã como a outra."
+  },
+  {
+   "n": 14,
+   "t": "Então os fariseus saíram e se reuniram para planejar contra ele, como o matariam."
+  },
+  {
+   "n": 15,
+   "t": "Mas Jesus, sabendo disso, retirou-se dali. Muitas multidões o seguiram, e ele curou a todos."
+  },
+  {
+   "n": 16,
+   "t": "E ele lhes ordenava que não o tornassem conhecido;"
+  },
+  {
+   "n": 17,
+   "t": "Para que se cumprisse o que foi dito pelo profeta Isaías:"
+  },
+  {
+   "n": 18,
+   "t": "Eis aqui meu servo a quem escolhi, meu amado em quem minha alma se agrada; sobre ele porei o meu Espírito, e ele anunciará justiça às nações."
+  },
+  {
+   "n": 19,
+   "t": "Ele não fará brigas, nem gritará; ninguém ouvirá pelas ruas a sua voz."
+  },
+  {
+   "n": 20,
+   "t": "A cana rachada ele não quebrará, o pavio que fumega ele não apagará, até que conduza a justiça à vitória."
+  }
+ ],
+ "titulo": "A mão estendida e a cana rachada",
+ "temas": [
+  "misericórdia",
+  "serviço",
+  "curação",
+  "justiça"
+ ],
+ "pergunta": "O que acontece quando a força humana encontra a doçura de Deus?",
+ "entender": "Em Mateus 12, Jesus responde a uma acusação dos fariseus sobre a cura de um homem com a mão definhada no sábado. Ele usa um exemplo prático: se alguém tivesse uma ovelha caída numa cova, a resgataria mesmo no sábado. Então pergunta: quanto mais vale um ser humano que uma ovelha? A conclusão é clara: é lícito fazer o bem nesses dias. Jesus não apenas debate a lei; Ele age. Ordena ao homem: \"Estende a tua mão\". O homem obedece e a mão é restaurada, sã como a outra.\n\nA reação dos líderes religiosos é de ódio imediato: saem para planejar como matá-lo. Mas Jesus, sabendo disso, se retira, embora muitas multidões o sigam e Ele cure a todos. O texto então conecta essa cena com a profecia de Isaías. Jesus é apresentado como o Servo escolhido, amado e agrado a Deus. Sobre Ele repousa o Espírito, e Ele anunciará justiça às nações. A descrição do Servo é surpreendente: Ele não faz brigas, nem grita, ninguém ouve sua voz nas ruas.\n\nA imagem mais poderosa vem no final: a cana rachada ele não quebrará, o pavio que fumega ele não apagará. Isso mostra um cuidado extremo com os fracos e os que estão quase se apagando. Jesus não busca destruir Seus inimigos com força bruta, nem menospreza os frágeis. Ele conduz a justiça à vitória com uma força que é, ao mesmo tempo, poderosa e gentil.",
+ "ligar": {
+  "texto": "Este texto é central para entender quem Jesus é. Ele não se apresenta como um conquistador militar, mas como o Servo Sofredor e Curador. A profecia de Isaías cumpre-se em Jesus, que traz justiça não pela imposição violenta, mas pela cura e pela presença do Espírito. A \"cana rachada\" e o \"pavio que fumega\" são metáforas de pessoas fracas, feridas ou com pouca fé. Jesus não as despreza; Ele as restaura. Isso aponta para o evangelho: a salvação é uma obra de misericórdia que atinge os mais fracos, oferecendo vida nova não por mérito, mas pela graça de Deus que se inclina sobre nós.",
+  "selo": true
+ },
+ "viver": "Pense em alguém na sua vida que parece uma \"cana rachada\": talvez um familiar afastado, um amigo em depressão ou um colega que perdeu a esperança. A tentação natural é cobrar resultados, usar argumentos fortes ou desistir quando não há resposta imediata. O texto nos ensina que Jesus não quebra a cana rachada. Na prática, isso significa tratar as pessoas frágeis com paciência extra. Em vez de pressionar, ofereça presença. Se você se sente assim, como um pavio que fumega com pouca fé, confie que Deus não apaga essa chama. Ele a protege até que ela conduza a justiça à vitória. Sua fraqueza não é um motivo para Deus te abandonar, mas um convite para receber Sua força suave.",
+ "guarde": "A cana rachada Ele não quebrará, o pavio que fumega Ele não apagará.",
+ "ore": "Jesus, Tu que curaste a mão definhada no sábado, eu me apresento a Ti como uma cana rachada. Não me quebres com a minha fraqueza. Protege a pequena chama da minha fé. Que o Teu Espírito me conduza à vitória, ensinando-me a servir com a mesma doçura e poder que Tu tens. Amém.",
+ "quiz": {
+  "pergunta": "Segundo Mateus 12:20, o que Jesus não fará com a cana rachada?",
+  "opcoes": [
+   "Não a regará",
+   "Não a plantará",
+   "Não a quebrará"
+  ],
+  "certa": 2,
+  "explicacao": "O texto diz explicitamente: \"A cana rachada ele não quebrará\". Isso simboliza o cuidado de Jesus com os fracos e vulneráveis."
+ },
+ "refs": [
+  "Isaías 42:1-4",
+  "Marcos 3:1-5",
+  "Lucas 6:6-11"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-26T21:45:32.191Z",
+  "rounds": 1
+ }
+}
