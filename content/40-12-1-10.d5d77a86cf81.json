@@ -1,0 +1,137 @@
+{
+ "id": "40-12-1-10",
+ "ref": "Mateus 12:1-10",
+ "book": "40",
+ "chapter": 12,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Naquele tempo Jesus estava indo pelas plantações de cereais no sábado. Seus discípulos tinham fome, e começaram a arrancar espigas e a comer."
+  },
+  {
+   "n": 2,
+   "t": "Quando os fariseus viram, disseram-lhe: Eis que os teus discípulos fazem o que não é lícito fazer no sábado."
+  },
+  {
+   "n": 3,
+   "t": "Ele, porém, lhes disse: Não lestes o que Davi fez quando teve fome, ele e os que com ele estavam,"
+  },
+  {
+   "n": 4,
+   "t": "Como ele entrou na casa de Deus, e comeu os pães da proposição, que a ele não era lícito comer, nem também aos que com ele estavam, a não ser somente aos sacerdotes?"
+  },
+  {
+   "n": 5,
+   "t": "Ou não lestes na Lei que, nos sábados, os sacerdotes no Templo profanam o sábado, sem se tornarem culpados?"
+  },
+  {
+   "n": 6,
+   "t": "Eu, porém, vos digo que o maior que o Templo está aqui."
+  },
+  {
+   "n": 7,
+   "t": "Mas se vós soubésseis o que significa: ‘Quero misericórdia, e não sacrifício’, Oseias 6:6 não condenaríeis os inocentes."
+  },
+  {
+   "n": 8,
+   "t": "Porque o Filho do homem é Senhor até do sábado."
+  },
+  {
+   "n": 9,
+   "t": "E partindo dali, Jesus entrou na sinagoga deles."
+  },
+  {
+   "n": 10,
+   "t": "E eis que havia ali um homem que tinha uma mão definhada; e eles, a fim de o acusarem, perguntaram-lhe: É lícito curar nos sábados?"
+  }
+ ],
+ "titulo": "A fome que os fariseus não viram",
+ "temas": [
+  "sábado",
+  "misericórdia",
+  "lei",
+  "fome"
+ ],
+ "pergunta": "Por que Jesus defendeu seus discípulos usando o exemplo de Davi, e não apenas a regra?",
+ "entender": "A cena é simples e cotidiana: Jesus e seus discípulos estão passando por campos de cereais num sábado. Os discípulos, com fome, arrancam espigas para comer. Para os fariseus, isso é uma violação grave da lei do sábado, pois colher e moer grãos eram trabalhos proibidos. Mas Jesus não nega a lei; Ele a interpreta com sabedoria. Ele lembra o que Davi fez quando teve fome: comeu os pães sagrados destinados apenas aos sacerdotes. A lei permitia exceções em situações de necessidade extrema ou para preservar a vida.\n\nJesus argumenta que a misericórdia é mais importante que o ritual. Ele cita Oseias, dizendo que Deus quer compaixão, não apenas culto externo. Ao afirmar que é \"Senhor até do sábado\", Jesus mostra que a lei foi feita para servir o homem, e não o homem para servir a lei de forma mecânica e cruel. O foco se desloca da regra fria para a necessidade real da pessoa.",
+ "ligar": {
+  "texto": "Este texto revela a autoridade de Jesus sobre a Lei. Ele não está quebrando os mandamentos, mas mostrando seu propósito final: a vida e a misericórdia. Jesus se coloca acima das tradições humanas que endurecem o coração. Ele aponta para si mesmo como o centro da fé, aquele que satisfaz a fome mais profunda do ser humano, não apenas a física, mas a espiritual. O evangelho é a liberdade de viver pela graça e pela compaixão, em vez de ser escravizado pelo medo de errar.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, vivemos presos a regras que nos fazem sentir culpados por necessidades básicas ou por atos de bondade simples. Talvez você tenha medo de \"fazer o certo\" porque acha que está quebrando alguma norma religiosa ou social. Este texto nos convida a olhar para a realidade: existe uma fome, existe uma dor, existe uma necessidade. A fé cristã não é sobre contar os minutos de um dia de descanso, mas sobre estender a mão ao próximo com compaixão. Se a sua rotina religiosa está mais preocupada em julgar os outros do que em servir a Deus e ao próximo, é hora de repensar suas prioridades. A misericórdia deve ser a marca da sua semana, de segunda a domingo.",
+ "guarde": "Deus quer mais a sua compaixão pelo próximo do que a sua obediência cega às regras.",
+ "ore": "Jesus, Senhor do sábado, ensina-me a ver a fome e a dor nas pessoas ao meu redor. Livra-me do espírito de crítica e julgo, e enche meu coração de misericórdia, para que eu viva a liberdade do Teu amor.",
+ "quiz": {
+  "pergunta": "O que Jesus disse ser mais importante do que o sacrifício ritual?",
+  "opcoes": [
+   "Misericórdia",
+   "Obediência estrita",
+   "Jejum prolongado"
+  ],
+  "certa": 0,
+  "explicacao": "Jesus cita Oseias 6:6 para afirmar que Deus prioriza a atitude compassiva do coração (misericórdia) em vez de rituais religiosos vazios (sacrifício)."
+ },
+ "refs": [
+  "Marcos 2:23-28",
+  "Lucas 6:1-5",
+  "Oseias 6:6"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-26T18:59:16.305Z",
+  "rounds": 1
+ }
+}

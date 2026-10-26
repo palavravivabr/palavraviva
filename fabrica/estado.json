@@ -1693,19 +1693,27 @@
   },
   "40-11-1-11": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: NARRATIVE_EVENT_CONSISTENCY: A oração atribui a João Batista a atitude de reconhecer a verdadeira grandeza no Reino, quando na narrativa ele enviou discípulos para perguntar se Jesus era o Messias, sendo o ensino sobre a grandeza proferido depois por Jesus às multidões. | OVERINTERPRETATION: A seção",
+   "estado": "pronto",
+   "titulo": "A dúvida de João Batista na prisão"
   },
   "40-11-12-20": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:guarde:42-7-31-40",
+   "estado": "pronto",
+   "titulo": "A geração que não dança nem chora"
   },
   "40-11-21-30": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "O convite para quem está exausto da vida"
   },
   "40-12-1-10": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "A fome que os fariseus não viram"
   },
   "40-12-11-20": {
    "execucoes": 0,
@@ -1730,28 +1738,40 @@
   "40-13-13-23": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-13-24-36": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-13-37-46": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-13-47-58": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 573,
-   "entrada": 1449259,
-   "saida": 508500
+   "chamadas": 579,
+   "entrada": 1465949,
+   "saida": 514620
   },
   "groq-qwen": {
-   "chamadas": 567,
-   "entrada": 1373180,
-   "saida": 459940
+   "chamadas": 574,
+   "entrada": 1391289,
+   "saida": 465737
   },
   "gemini": {
-   "chamadas": 478,
-   "entrada": 1548334,
-   "saida": 626300
+   "chamadas": 485,
+   "entrada": 1571205,
+   "saida": 635931
   },
   "cloudflare": {
-   "chamadas": 292,
-   "entrada": 1016225,
-   "saida": 108332
+   "chamadas": 296,
+   "entrada": 1030193,
+   "saida": 109816
   },
   "mistral": {
    "chamadas": 0,

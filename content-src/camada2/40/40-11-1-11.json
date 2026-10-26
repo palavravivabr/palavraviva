@@ -1,0 +1,141 @@
+{
+ "id": "40-11-1-11",
+ "ref": "Mateus 11:1-11",
+ "book": "40",
+ "chapter": 11,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Quando Jesus acabou de dar as ordens aos seus doze discípulos, partiu dali para ensinar e para pregar em suas cidades."
+  },
+  {
+   "n": 2,
+   "t": "E João, ao ouvir na prisão as obras de Cristo, enviou -lhe dois de seus discípulos,"
+  },
+  {
+   "n": 3,
+   "t": "Perguntando-lhe: És tu aquele que havia de vir, ou esperamos outro?"
+  },
+  {
+   "n": 4,
+   "t": "Jesus lhes respondeu: Ide anunciar a João as coisas que ouvis e vedes:"
+  },
+  {
+   "n": 5,
+   "t": "Os cegos veem, e os mancos andam; os leprosos são limpos, e os surdos ouvem; os mortos são ressuscitados, e aos pobres é anunciado o Evangelho;"
+  },
+  {
+   "n": 6,
+   "t": "E bendito é aquele que não se ofender em mim."
+  },
+  {
+   "n": 7,
+   "t": "Depois que eles se foram, Jesus começou a dizer às multidões acerca de João: Que saístes ao deserto para ver? Uma cana que se move pelo vento?"
+  },
+  {
+   "n": 8,
+   "t": "Mas que saístes para ver? Um homem vestido com roupas delicadas? Eis que os que usam roupas delicadas estão nas casas dos reis."
+  },
+  {
+   "n": 9,
+   "t": "Mas que saístes para ver? Um profeta? Sim, eu vos digo, e muito mais que um profeta;"
+  },
+  {
+   "n": 10,
+   "t": "Porque este é aquele sobre o qual está escrito: ‘Eis que diante de tua face envio o meu mensageiro, que preparará o teu caminho diante de ti.’ Malaquias 3:1"
+  },
+  {
+   "n": 11,
+   "t": "Em verdade vos digo que, dentre os nascidos de mulheres, não se levantou outro maior que João Batista; porém o menor no Reino dos céus é maior que ele."
+  }
+ ],
+ "titulo": "A dúvida de João Batista na prisão",
+ "temas": [
+  "fé",
+  "dúvida",
+  "missão",
+  "cristo"
+ ],
+ "pergunta": "O que faria você duvidar de que Deus está cumprindo o que prometeu?",
+ "entender": "João Batista estava preso quando ouviu falar das obras de Jesus. A situação era desconfortável: o Messias prometido parecia não estar libertando os justos, mas sim sendo o centro de uma movimento que ameaçava as autoridades. Por isso, ele enviou discípulos com uma pergunta direta: \"És tu aquele que havia de vir, ou esperamos outro?\" Não era uma pergunta de teologia abstrata, mas uma crise pessoal de fé.\n\nJesus não respondeu com uma explicação teológica, mas apontou para os fatos: \"Ide anunciar a João as coisas que ouvis e vedes\". Ele listou milagres concretos, como cegos vendo e surdos ouvindo, mostrando que o Reino de Deus estava chegando. Em seguida, Jesus elogiou João diante da multidão, chamando-o de \"muito mais que um profeta\" e o identificando como o mensageiro anunciado por Malaquias. Jesus validou a missão de João, mesmo que ele estivesse preso e confuso.",
+ "ligar": {
+  "texto": "Este trecho mostra que a fé não depende de circunstâncias favoráveis, mas de quem Jesus é. Ele confirmou João através de suas obras, demonstrando que o evangelho é a boa notícia de que o Reino chegou. A resposta de Jesus nos ensina que, mesmo quando a vida parece injusta ou confusa, podemos confiar na fidelidade de Cristo, que cumpre suas promessas no tempo dele.",
+  "selo": true
+ },
+ "viver": "Às vezes, a dúvida não vem de não crer em Deus, mas de não ver os resultados esperados imediatamente. Assim como João, podemos nos sentir presos em situações difíceis e questionar se Deus está agindo. A aplicação concreta é olhar para as evidências da graça ao nosso redor: vidas transformadas, problemas resolvidos e paz interior. Em vez de focar na ausência de milagres grandiosos, devemos reconhecer as pequenas obras de Deus que confirmam sua presença e fidelidade no dia a dia.",
+ "guarde": "A fé se sustenta nas obras de Cristo, não apenas nas circunstâncias que nos rodeiam.",
+ "ore": "João, que duvidaste na prisão, ensina-me a confiar nas obras de Jesus mesmo quando a situação parece injusta. Ajuda-me a ver a presença de Deus nas evidências concretas da sua graça em minha vida e na vida dos outros, fortalecendo minha fé para além das minhas dúvidas.",
+ "quiz": {
+  "pergunta": "Como Jesus respondeu à dúvida de João Batista?",
+  "opcoes": [
+   "Apoiando-se nas obras que os discípulos ouviram e viram.",
+   "Prometendo que João seria libertado em breve.",
+   "Explicando que o sofrimento faz parte do plano divino."
+  ],
+  "certa": 0,
+  "explicacao": "Jesus não deu uma explicação teológica sobre o sofrimento de João, mas apontou para os sinais concretos do Reino, como curas e a pregação do evangelho aos pobres."
+ },
+ "refs": [
+  "Malaquias 3:1",
+  "Lucas 7:18-23",
+  "Isaías 35:5-6"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-26T18:56:45.704Z",
+  "rounds": 1
+ }
+}

@@ -1,0 +1,137 @@
+{
+ "id": "40-11-21-30",
+ "ref": "Mateus 11:21-30",
+ "book": "40",
+ "chapter": 11,
+ "verses": [
+  {
+   "n": 21,
+   "t": "Ai de ti Corazim! Ai de ti Betsaida! Porque se em Tiro e em Sidom tivessem sido feitos os milagres que em vós foram feitos, há muito tempo teriam se arrependido com saco e com cinza!"
+  },
+  {
+   "n": 22,
+   "t": "Porém eu vos digo que mais tolerável será para Tiro e Sidom, no dia do juízo, que para vós."
+  },
+  {
+   "n": 23,
+   "t": "E tu, Cafarnaum, que estás exaltada até o céu, ao Xeol serás derrubada! Pois se em Sodoma tivessem sido feitos os milagres que foram feitos em ti, ela teria permanecido até hoje."
+  },
+  {
+   "n": 24,
+   "t": "Porém eu vos digo que mais tolerável será para os da região de Sodoma, no dia de juízo, que para ti."
+  },
+  {
+   "n": 25,
+   "t": "Naquele tempo Jesus pronunciou: Graças te dou, Pai, Senhor do céu e da terra, porque escondeste estas coisas aos sábios e entendidos, e as revelaste às crianças."
+  },
+  {
+   "n": 26,
+   "t": "Sim, Pai, porque assim foi agradável a ti."
+  },
+  {
+   "n": 27,
+   "t": "Todas as coisas me foram entregues pelo meu Pai; e ninguém conhece o Filho, a não ser o Pai; nem ninguém conhece o Pai, a não ser o Filho, e a quem o Filho o quiser revelar."
+  },
+  {
+   "n": 28,
+   "t": "Vinde a mim todos vós que estais cansados e sobrecarregados, e eu vos farei descansar."
+  },
+  {
+   "n": 29,
+   "t": "Tomai sobre vós o meu jugo e aprendei de mim, porque sou manso e humilde de coração; e encontrareis descanso para as vossas almas."
+  },
+  {
+   "n": 30,
+   "t": "Pois o meu jugo é suave, e minha carga é leve."
+  }
+ ],
+ "titulo": "O convite para quem está exausto da vida",
+ "temas": [
+  "descanso",
+  "humildade",
+  "jugo",
+  "graça"
+ ],
+ "pergunta": "Por que Jesus chama as pessoas cansadas e sobrecarregadas para vir a Ele?",
+ "entender": "Jesus começa repreendendo cidades como Corazim, Betsaida e Cafarnaum. Elas tinham visto muitos milagres, mas não se arrependeram. Jesus compara o futuro julgamento dessas cidades com o de Tiro, Sidom e Sodoma, dizendo que será mais tolerável para aquelas cidades pagãs. A lógica é clara: quem viu a luz e a rejeitou será julgado com mais rigor do que quem nunca a conheceu.\n\nDepois dessa advertência, Jesus muda o tom. Ele agradece ao Pai por revelar as coisas do céu aos 'simples', e não aos 'sábios e entendidos'. Isso mostra que a verdade de Deus não é conquista do intelecto, mas uma revelação graciosa. Em seguida, Jesus faz um convite direto: 'Vinde a mim todos vós que estais cansados e sobrecarregados, e eu vos farei descansar'.\n\nEle convida a tomar sobre nós o seu jugo, aprendendo dEle, pois é 'manso e humilde de coração'. O jugo aqui não é uma carga opressiva, mas um cangalho de arado que dois bois puxam juntos. Jesus oferece um descanso real para a alma, prometendo que a sua carga é leve para quem caminha com Ele.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para a pessoa e a obra de Jesus. Ele se apresenta como o único que pode dar descanso verdadeiro, pois só Ele conhece o Pai e pode revelá-Lo. A oferta de descanso não é apenas psicológica, mas espiritual: Jesus convida a uma relação de intimidade e aprendizado. Ao dizer que sua carga é leve, Ele oferece a graça que levanta o peso da lei e do pecado, mostrando-se como o Messias que liberta e restaura.",
+  "selo": true
+ },
+ "viver": "Muitas vezes carregamos um 'jugo' invisível: a ansiedade de ter que ser perfeito, a pressão social ou a culpa por erros passados. Jesus convida a trocar esse peso sozinho pelo caminhar com Ele. Isso significa parar de tentar se salvar por esforço próprio e começar a depender da graça. Pratique hoje: identifique uma área onde você tenta controlar tudo e entregue-a a Jesus em oração, confiando que a companhia dEle torna a jornada mais leve.",
+ "guarde": "O descanso da alma vem de aprender a caminhar com o manso e humilde Jesus.",
+ "ore": "Jesus, Tu que repreendeste Cafarnaum e então estendeste a mão para mim, eu vinho a Ti cansado. Aceito o Teu jugo suave. Ensina-me a ser humilde como Tu e alivia o peso que carrego sozinho.",
+ "quiz": {
+  "pergunta": "Segundo Mateus 11:28-30, o que Jesus promete a quem vem a Ele cansado e sobrecarregado?",
+  "opcoes": [
+   "Descanso para a alma e uma carga leve",
+   "Riqueza material e sucesso profissional",
+   "Que nunca mais enfrentará provas na vida"
+  ],
+  "certa": 0,
+  "explicacao": "O texto fala explicitamente de fazer descansar a alma e de que o jugo é suave e a carga é leve, referindo-se à vida espiritual e ao caminhar com Cristo."
+ },
+ "refs": [
+  "João 14:6",
+  "2 Coríntios 5:17",
+  "Mateus 12:20"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-26T19:00:53.930Z",
+  "rounds": 1
+ }
+}

@@ -1,0 +1,133 @@
+{
+ "id": "40-11-12-20",
+ "ref": "Mateus 11:12-20",
+ "book": "40",
+ "chapter": 11,
+ "verses": [
+  {
+   "n": 12,
+   "t": "E desde os dias de João Batista até agora, o Reino dos céus está sujeito à violência, e os que usam de violência se apoderam dele."
+  },
+  {
+   "n": 13,
+   "t": "Porque todos os profetas e a Lei profetizaram até João."
+  },
+  {
+   "n": 14,
+   "t": "E se estais dispostos a aceitar, este é o Elias que havia de vir."
+  },
+  {
+   "n": 15,
+   "t": "Quem tem ouvidos para ouvir, ouça."
+  },
+  {
+   "n": 16,
+   "t": "Mas com quem compararei esta geração? Semelhante é às crianças que se sentam nas praças, e chamam aos seus colegas,"
+  },
+  {
+   "n": 17,
+   "t": "E dizem: ‘Tocamos flauta para vós, mas não dançastes; cantamos lamentações para vós, mas não chorastes.’"
+  },
+  {
+   "n": 18,
+   "t": "Porque veio João, sem comer nem beber, e dizem: ‘Ele tem demônio.’"
+  },
+  {
+   "n": 19,
+   "t": "Veio o Filho do homem, que come e bebe, e dizem: ‘Eis aqui um homem comilão e beberrão, amigo de publicanos e pecadores!’ Mas a sabedoria prova-se justa por meio de seus filhos."
+  },
+  {
+   "n": 20,
+   "t": "Então ele começou a repreender as cidades em que a maioria de seus milagres haviam sido feitos, por não terem se arrependido:"
+  }
+ ],
+ "titulo": "A geração que não dança nem chora",
+ "temas": [
+  "rejeição",
+  "sabedoria",
+  "arrependimento",
+  "joão batista"
+ ],
+ "pergunta": "Por que as pessoas rejeitam tanto a austeridade de João quanto a comunhão de Jesus?",
+ "entender": "Depois de confirmar que João Batista é o maior entre os nascidos de mulheres, Jesus muda de assunto para descrever a atitude da multidão. Ele diz que o Reino dos céus sofre violência e que os violentos se apoderam dele, indicando uma urgência e uma resistência ativa por parte de alguns líderes religiosos.\n\nJesus compara aquela geração a crianças nas praças que chamam outras para brincar, dizendo: 'Tocamos flauta para vós, mas não dançastes; cantamos lamentações para vós, mas não chorastes.' Isso ilustra a inconsistência das acusações: quando João viveu com austeridade, no deserto, acusaram-no de ter demônio; quando Jesus veio comendo e bebendo, em comunhão com pecadores, chamaram-no de comilão e beberrão. A sabedoria de Deus, no entanto, é comprovada justa pelos seus filhos, ou seja, pela fidelidade de quem O aceita.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para a pessoa de Jesus. Ele se refere a si mesmo como 'o Filho do homem', mostrando que sua vida em comunhão com os marginalizados não era pecado, mas a expressão do amor do Pai. A rejeição que Jesus e João sofreram culmina na cruz, onde a 'violência' contra o Reino atinge seu ápice, mas a sabedoria de Deus se revela justa na ressurreição, provando que a salvação vem através dEle.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, nossa reação a Deus depende do nosso humor ou da nossa conveniência. Se a mensagem exige sacrifício, chamamos de dura; se exige perdão, chamamos de fraca. Jesus nos convida a parar de julgar a obra de Deus pela nossa preferência. Em vez de buscar uma religião que caiba no nosso ego, devemos olhar para a cruz e para a mesa da comunhão, reconhecendo que a graça de Cristo atende tanto à nossa necessidade de purificação quanto à nossa fome de pertencimento.",
+ "guarde": "Deus é justo, e sua verdade dura para sempre, independentemente do que as pessoas pensam.",
+ "ore": "Jesus, Filho do homem, perdoa-me quando eu rejeito Tua verdade porque ela não se adapta às minhas expectativas. Ensina-me a dançar na alegria da Tua graça e a chorar no arrependimento dos meus pecados, sem me apegar a desculpas. Que eu reconheça a justiça da Tua sabedoria em minha vida hoje.",
+ "quiz": {
+  "pergunta": "Como Jesus comparou a atitude daquela geração em relação a João e a Ele mesmo?",
+  "opcoes": [
+   "A crianças que não dançavam nem choravam, independentemente da música.",
+   "A soldados que atacavam o Reino com armas.",
+   "A crianças que pediam mais brinquedos nas praças."
+  ],
+  "certa": 0,
+  "explicacao": "O texto usa a metáfora das crianças nas praças para mostrar a inconsistência: eles rejeitaram tanto o jejum de João quanto a comunhão de Jesus, provando que o problema era a recusa, não o estilo."
+ },
+ "refs": [
+  "Lucas 7:24-30",
+  "Mateus 21:12-13",
+  "João 1:15-17"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-26T18:58:04.943Z",
+  "rounds": 2
+ }
+}
