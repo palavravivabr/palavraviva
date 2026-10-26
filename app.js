@@ -816,6 +816,28 @@
     if ('serviceWorker' in navigator) navigator.serviceWorker.addEventListener('message', function (e) { if (e.data && e.data.type === 'ABRIR_PDIA' && window.PVPalavraDia) window.PVPalavraDia.abrirIdx(e.data.idx); });
     lemPintar(); lemAgendar();
   }
+  /* ---------- som de abertura: toca uma vez por abertura do app (não volta ao retornar do segundo plano) ---------- */
+  function aberturaLigada() { return lsGet('pv4-abertura', '1') !== '0'; }
+  function aberturaTocar() {
+    if (!aberturaLigada() || ssGet('pv4-abertura-ok')) return;
+    ssSet('pv4-abertura-ok', '1');
+    var s = document.createElement('script'); s.src = 'assets/abertura-som.js';
+    s.onload = function () {
+      if (!window.PV_ABERTURA) return;
+      var a = new Audio(window.PV_ABERTURA), feito = false; a.volume = 0.8;
+      function toca() { if (feito) return; feito = true; var p = a.play(); if (p && p.catch) p.catch(function () { /* sem permissão do sistema: fica em silêncio */ }); }
+      var p0 = a.play();
+      if (p0 && p0.then) p0.then(function () { feito = true; }, function () { /* o navegador pede um toque antes de tocar: aproveita o primeiro toque, só nos primeiros segundos */
+        var f = function () { document.removeEventListener('pointerdown', f, true); toca(); };
+        document.addEventListener('pointerdown', f, true); setTimeout(function () { document.removeEventListener('pointerdown', f, true); }, 12000);
+      });
+    };
+    document.head.appendChild(s);
+  }
+  function aberturaBind() {
+    var sw = $('#abSw'); sw.setAttribute('aria-checked', String(aberturaLigada()));
+    sw.addEventListener('click', function () { var on = !aberturaLigada(); lsSet('pv4-abertura', on ? '1' : '0'); sw.setAttribute('aria-checked', String(on)); toast(on ? 'Som de abertura ligado' : 'Som de abertura desligado'); });
+  }
   var APP_NAME = 'Palavra Viva – Aprendendo as Escrituras';
   function baseUrl() { return cfg.siteUrl || (location.origin + location.pathname); }
   function send(data, okMsg) {
@@ -1133,7 +1155,7 @@
     }, 5000);
   }
   (async function start() {
-    applyAppearance(); bindStatic(); refreshInstall(); lemBind();
+    applyAppearance(); bindStatic(); refreshInstall(); lemBind(); aberturaBind(); aberturaTocar();
     setupSW();
     /* abre na hora com o que já está guardado no aparelho; a internet só atualiza por trás */
     var stored = null;
