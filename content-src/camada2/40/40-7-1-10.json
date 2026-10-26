@@ -1,0 +1,138 @@
+{
+ "id": "40-7-1-10",
+ "ref": "Mateus 7:1-10",
+ "book": "40",
+ "chapter": 7,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Não julgueis, para que não sejais julgados."
+  },
+  {
+   "n": 2,
+   "t": "Porque com o juízo que julgardes sereis julgados; e com a medida que medirdes vos medirão de volta."
+  },
+  {
+   "n": 3,
+   "t": "Ora, por que vês o cisco que está no olho de teu irmão e não enxergas a trave que está em teu próprio olho?"
+  },
+  {
+   "n": 4,
+   "t": "Ou como dirás a teu irmão: “Deixa-me tirar o cisco do teu olho”, se eis que há uma trave em teu próprio olho?"
+  },
+  {
+   "n": 5,
+   "t": "Hipócrita! Tira primeiro a trave do teu olho, e então verás claramente para tirar o cisco do olho de teu irmão."
+  },
+  {
+   "n": 6,
+   "t": "Não deis o que é santo aos cães, nem lanceis vossas pérolas diante dos porcos, para não acontecer de as pisarem com os pés e, virando-se, vos despedacem."
+  },
+  {
+   "n": 7,
+   "t": "Pedi, e vos será dado; buscai, e achareis; batei, e vos será aberto;"
+  },
+  {
+   "n": 8,
+   "t": "Pois qualquer um que pede recebe; e quem busca acha; e ao que bate lhe é aberto."
+  },
+  {
+   "n": 9,
+   "t": "E quem há dentre vós que, se seu filho pedir pão, lhe dará uma pedra?"
+  },
+  {
+   "n": 10,
+   "t": "E se pedir peixe, lhe dará uma serpente?"
+  }
+ ],
+ "titulo": "A trave no olho e a medida do juízo",
+ "temas": [
+  "humildade",
+  "juízo",
+  "oração",
+  "graça",
+  "autoexame"
+ ],
+ "pergunta": "Por que é mais fácil ver o erro alheio do que o nosso próprio?",
+ "entender": "Jesus começa este trecho com um alerta severo: \"Não julgueis, para que não sejais julgados\". Ele explica que a forma como tratamos os outros definirá como seremos tratados. A imagem do cisco no olho do irmão e da trave no nosso próprio é concreta: muitas vezes estamos cegos para a nossa própria gravidade, focados em defeitos pequenos dos outros.\n\nJesus chama essa atitude de hipocrisia. Antes de tentar corrigir alguém, precisamos olhar para nós mesmos. Depois, Ele muda de assunto para a oração: \"Pedi, e vos será dado\". A lógica é clara: se Deus é um Pai que dá pão e não pedra, devemos confiar Nele. O contraste entre a dureza do julgamento humano e a generosidade do Pai celestial é o coração deste ensino.",
+ "ligar": {
+  "texto": "Este texto aponta para Jesus como o único que pode limpar a nossa \"trave\". Nós não temos mérito para julgar ninguém, pois todos somos pecadores. A promessa de que \"quem busca acha\" cumpre-se plenamente em Cristo: ao buscarmos a Deus, encontramos em Jesus o perdão e a transformação que não conseguimos por nós mesmos. Ele nos ensina a orar com a confiança de filhos, sabendo que o Pai nos ama e nos dá o que é bom, refletindo a graça que recebemos na cruz.",
+  "selo": false
+ },
+ "viver": "Imagine a cena de Jesus: alguém vê um cisco minúsculo no olho do vizinho, mas ignora a trave gigante na sua própria visão. Hoje, antes de criticar alguém, pare e identifique qual é a sua trave. Talvez seja a impaciência ao dirigir ou o julgamento rápido sobre as escolhas de um familiar. Reconhecer essa falha não é fraqueza, é o primeiro passo para enxergar com clareza. Ao fazer isso, você deixa de ser um juiz e passa a ser um irmão que ajuda com humildade, abrindo espaço para a graça agir na sua relação com os outros.",
+ "guarde": "Tire primeiro a trave do seu olho, e então verá claramente como ajudar o outro.",
+ "ore": "Jesus, ao refletir sobre o cisco e a trave, confesso minha tendência a julgar. Limpa os meus olhos, Senhor. Ensina-me a pedir com confiança, sabendo que Tu és um Pai que dá o que é bom. Ajuda-me a viver com humildade e a buscar a Tua face.",
+ "quiz": {
+  "pergunta": "Qual imagem Jesus usa para o pecado que está em nós mesmos?",
+  "opcoes": [
+   "A pedra no caminho",
+   "A serpente no peixe",
+   "A trave no olho"
+  ],
+  "certa": 2,
+  "explicacao": "O texto contrasta o cisco no irmão com a trave no nosso próprio olho, indicando que nosso pecado é maior e mais evidente do que percebemos."
+ },
+ "refs": [
+  "Lucas 6:37-38",
+  "Lucas 11:9-13",
+  "Tiago 4:1-2"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-26T06:58:13.847Z",
+  "rounds": 2
+ }
+}

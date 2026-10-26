@@ -1,0 +1,134 @@
+{
+ "id": "40-7-11-19",
+ "ref": "Mateus 7:11-19",
+ "book": "40",
+ "chapter": 7,
+ "verses": [
+  {
+   "n": 11,
+   "t": "Ora, se vós, sendo maus, sabeis dar bons presentes a vossos filhos, quanto mais o vosso Pai, que está nos céus, dará coisas boas aos que lhe pedirem!"
+  },
+  {
+   "n": 12,
+   "t": "Portanto tudo o que quiserdes que os outros vos façam, fazei-lhes vós também assim; porque esta é a Lei e os Profetas."
+  },
+  {
+   "n": 13,
+   "t": "Entrai pela porta estreita; porque larga é a porta, e espaçoso o caminho que leva à perdição; e muitos são os que por ela entram."
+  },
+  {
+   "n": 14,
+   "t": "Porque estreita é a porta, e apertado o caminho que leva à vida; e são poucos os que a acham."
+  },
+  {
+   "n": 15,
+   "t": "Tende cuidado, porém, com os falsos profetas, que vêm a vós com roupa de ovelhas, mas por dentro são lobos vorazes."
+  },
+  {
+   "n": 16,
+   "t": "Vós os conhecereis pelos seus frutos. Por acaso se colhem uvas dos espinheiros, ou figos dos cardos?"
+  },
+  {
+   "n": 17,
+   "t": "Assim toda boa árvore dá bons frutos, mas a arvore má dá frutos maus."
+  },
+  {
+   "n": 18,
+   "t": "A boa árvore não pode dar frutos maus, nem a árvore má dar bons frutos."
+  },
+  {
+   "n": 19,
+   "t": "Toda árvore que não dá bom fruto é cortada e lançada ao fogo."
+  }
+ ],
+ "titulo": "O que realmente revela o seu coração?",
+ "temas": [
+  "discernimento",
+  "caráter",
+  "vida eterna",
+  "frutos",
+  "caminho"
+ ],
+ "pergunta": "Como saber se uma pessoa ou uma escolha realmente leva à vida, se todos usam roupas bonitas?",
+ "entender": "Jesus continua falando sobre a confiança em Deus. Ele argumenta que, se até nós, que somos falhos, sabemos dar bons presentes a nossos filhos, quanto mais o Pai celestial dará o que é bom àqueles que O buscam. Em seguida, ele resume toda a Lei e os Profetas em um princípio simples: faça aos outros o que quer que façam a você.\n\nA parte mais impactante surge quando Jesus compara a vida a uma escolha de caminho. Existe uma porta larga e um caminho espaçoso que leva à perdição, onde muitos entram. Mas há também uma porta estreita e um caminho apertado que leva à vida, e poucos o encontram. Ele alerta para os falsos profetas que se disfarçam de ovelhas, mas são lobos. A única forma de identificá-los não é pela aparência, mas pelos frutos. Assim como espinheiros não produzem uvas, o caráter verdadeiro se revela nas ações e resultados da vida.",
+ "ligar": {
+  "texto": "Jesus é a própria porta estreita. Em João 10, Ele declara ser a porta das ovelhas. O caminho apertado que leva à vida é a seguir a Ele, mesmo quando isso exige renúncia e obediência. Os frutos que Jesus menciona não são méritos para ganhar a salvação, mas a evidência natural de quem está unido a Ele. A graça nos salva, mas a transformação que produz bons frutos confirma que a vida de Cristo está em nós. Sem essa conexão, não há fruto verdadeiro, apenas aparência.",
+  "selo": true
+ },
+ "viver": "Apareência não basta. Jesus nos convida a olhar para os frutos: o que sai da sua boca, como você trata quem está perto de você, o que acontece quando ninguém está olhando? Se você se identifica como cristão, mas suas ações não mostram amor, paciência ou verdade, é hora de examinar sua raiz. Não para se condenar, mas para buscar a Jesus. Ele é a fonte. Se a árvore é boa, os frutos virão. Pare de tentar 'fingir' ser bom e comece a depender do Espírito Santo para que o caráter de Cristo cresça em você, produzindo resultados reais no dia a dia.",
+ "guarde": "Não confie na roupa; confie no fruto que a árvore produz.",
+ "ore": "Jesus, Tu és a porta estreita. Ajuda-me a não escolher o caminho largo só porque é fácil. Examina meu coração e meus frutos. Se houver algo que não vem de Ti, corrige-me. Dá-me a coragem de seguir Teu caminho, mesmo quando ele parece apertado, pois sei que ele leva à vida eterna.",
+ "quiz": {
+  "pergunta": "Segundo Mateus 7:16, qual é o critério para identificar os falsos profetas?",
+  "opcoes": [
+   "Pelo número de milagres que fazem.",
+   "Pela sua roupa de ovelhas.",
+   "Pelos seus frutos."
+  ],
+  "certa": 2,
+  "explicacao": "Jesus diz que eles vêm com aparência de ovelhas, mas seus frutos (ações e resultados) revelam que são lobos vorazes. A aparência externa engana, mas o fruto revela a natureza interna."
+ },
+ "refs": [
+  "João 10:7-9",
+  "Gálatas 5:22-23",
+  "Mateus 7:21-23"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-26T06:59:08.038Z",
+  "rounds": 2
+ }
+}

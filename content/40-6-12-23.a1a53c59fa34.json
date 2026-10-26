@@ -1,0 +1,145 @@
+{
+ "id": "40-6-12-23",
+ "ref": "Mateus 6:12-23",
+ "book": "40",
+ "chapter": 6,
+ "verses": [
+  {
+   "n": 12,
+   "t": "E perdoa-nos nossas dívidas, assim como nós também perdoamos aos nossos devedores."
+  },
+  {
+   "n": 13,
+   "t": "E não nos conduzas à tentação, mas livra-nos do mal; porque teu é o Reino, o poder, e a glória, para sempre, Amém."
+  },
+  {
+   "n": 14,
+   "t": "Porque se perdoardes às pessoas suas ofensas, vosso Pai celestial também vos perdoará;"
+  },
+  {
+   "n": 15,
+   "t": "Mas se não perdoardes às pessoas suas ofensas, também vosso Pai não vos perdoará vossas ofensas."
+  },
+  {
+   "n": 16,
+   "t": "E quando jejuardes, não vos mostreis tristonhos, como os hipócritas; porque eles desfiguram seus rostos, para parecerem aos outros que jejuam. Em verdade vos digo que eles já receberam sua recompensa."
+  },
+  {
+   "n": 17,
+   "t": "Porém tu, quando jejuares, unge a tua cabeça e lava o teu rosto,"
+  },
+  {
+   "n": 18,
+   "t": "Para não pareceres às pessoas que jejuas, mas sim ao teu Pai, que está em segredo; e teu Pai, que vê em segredo, ele te recompensará em público."
+  },
+  {
+   "n": 19,
+   "t": "Não ajunteis para vós tesouros na terra, onde e a traça e a ferrugem gastam, e onde os ladrões invadem e roubam;"
+  },
+  {
+   "n": 20,
+   "t": "Mas ajuntai para vós tesouros no céu, onde nem a traça nem a ferrugem gastam, e onde os ladrões não invadem nem roubam."
+  },
+  {
+   "n": 21,
+   "t": "Porque onde estiver o vosso tesouro, ali estará também o vosso coração."
+  },
+  {
+   "n": 22,
+   "t": "A lâmpada do corpo é o olho; portanto, se o teu olho for puro, todo o teu corpo será cheio de luz."
+  },
+  {
+   "n": 23,
+   "t": "Porém se o teu olho for maligno, todo o teu corpo será cheio de trevas. Assim, se a luz que há em ti são trevas, como são grandes essas trevas!"
+  }
+ ],
+ "titulo": "Tesouros, luz e perdão no coração",
+ "temas": [
+  "perdão",
+  "riqueza",
+  "luz"
+ ],
+ "pergunta": "Onde está o seu tesouro e que isso revela sobre o seu coração?",
+ "entender": "Jesus continua o ensino do Pai Nosso mostrando que o perdão é condição para receber o perdão de Deus: \"Porque se perdoardes às pessoas suas ofensas, vosso Pai celestial também vos perdoará\" (Mateus 6:14). Em seguida, ele alerta contra a hipocrisia no jejum, dizendo que não devemos demonstrar tristeza para ser vistos pelos outros, mas buscar a aprovação de Deus que vê em segredo. O discurso segue para duas parábolas: a dos tesouros na terra e no céu, e a da lâmpada do corpo, que é o olho. Ele explica que onde colocamos nosso tesouro, ali se fixa o nosso coração, e que um olho puro traz luz ao corpo, enquanto um olho maligno traz trevas. Tudo isso faz parte do discurso de Jesus no Sermão da Montanha, onde Ele ensina a viver em verdade diante de Deus, não para impressionar os homens.\n\nO contexto imediato é a continuação da oração do Pai Nosso, mostrando que a prática da oração deve ser acompanhada por atitudes práticas: perdoar, jejuar em segredo, não acumular riquezas terrenas e cultivar um coração puro. Cada ponto aponta para a necessidade de um relacionamento íntimo com o Pai, que transforma a vida interior e reflete na conduta externa.",
+ "ligar": {
+  "texto": "O convite ao perdão revela o coração de Deus que perdoa gratuitamente; ao obedecer, recebemos o mesmo favor. Quando Jesus fala de tesouros no céu, ele aponta para a recompensa eterna que vem por crer nele, pois somente quem aceita o Salvador tem acesso ao verdadeiro tesouro. A metáfora do olho como lâmpada mostra que a fé em Cristo ilumina a vida, afastando as trevas do pecado. Assim, o ensino prepara o caminho para o evangelho: reconhecer que somos perdoados, buscar o Reino acima das riquezas e viver sob a luz de Cristo.",
+  "selo": false
+ },
+ "viver": "Se o seu coração está preso às posses, experimente redirecionar o que você guarda para causas que edificam o Reino, como ajudar quem precisa ou apoiar a obra da igreja. Também examine a motivação ao orar ou jejuar: faça isso em silêncio, buscando a aprovação de Deus, não a admiração dos outros. Por fim, cuide da sua ‘visão espiritual’; alimente seus pensamentos com a Palavra e com a presença de Cristo, para que seus olhos permaneçam puros e sua vida reflita luz ao redor.",
+ "guarde": "Onde está o seu tesouro, ali está também o seu coração.",
+ "ore": "perdoa-nos, Senhor, que eu aprenda a perdoar como Tu perdoas; livra-me do desejo de acumular riquezas terrenas e enche meus olhos da luz que vem de Ti.",
+ "quiz": {
+  "pergunta": "O que Jesus ensina sobre o olho no capítulo 6?",
+  "opcoes": [
+   "Ele diz que o olho é a lâmpada do corpo.",
+   "Ele afirma que o olho controla a fé.",
+   "Ele explica que o olho deve ser fechado em jejum."
+  ],
+  "certa": 0,
+  "explicacao": "Jesus usa a imagem do olho como lâmpada para mostrar que a pureza da visão interior ilumina todo o corpo, enquanto um olho maligno traz trevas."
+ },
+ "refs": [
+  "Lucas 6:45",
+  "Mateus 5:23-24",
+  "2 Coríntios 5:7",
+  "1 Timóteo 6:10"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-26T06:51:45.651Z",
+  "rounds": 1
+ }
+}

@@ -1,0 +1,140 @@
+{
+ "id": "40-6-1-11",
+ "ref": "Mateus 6:1-11",
+ "book": "40",
+ "chapter": 6,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Ficai atentos para que não façais vossa esmola diante das pessoas a fim de que sejais vistos por elas; de outra maneira não tereis recompensa de vosso Pai que está nos céus."
+  },
+  {
+   "n": 2,
+   "t": "Portanto, quando fizeres esmola, não faças tocar trombeta diante de ti, como fazem os hipócritas nas sinagogas e nas ruas, para serem honrados pelas pessoas; em verdade vos digo que já receberam sua recompensa."
+  },
+  {
+   "n": 3,
+   "t": "Mas quando tu fizeres esmola, não saiba tua mão esquerda o que faz a tua direita;"
+  },
+  {
+   "n": 4,
+   "t": "Para que a tua esmola seja em segredo, e teu Pai, que vê em segredo, ele te recompensará em público."
+  },
+  {
+   "n": 5,
+   "t": "E quando orares, não sejas como os hipócritas; porque eles amam orar em pé nas sinagogas e nas esquinas das ruas para serem vistos pelas pessoas. Em verdade vos digo que já receberam sua recompensa."
+  },
+  {
+   "n": 6,
+   "t": "Porém tu, quando orares, entra em teu quarto, fecha tua porta, e ora a teu Pai, que está em segredo; e teu Pai, que vê em segredo, ele te recompensará em público."
+  },
+  {
+   "n": 7,
+   "t": "E quando orardes, não façais repetições inúteis como os gentios, que pensam que por muito falarem serão ouvidos."
+  },
+  {
+   "n": 8,
+   "t": "Não sejais, pois, semelhantes a eles; porque vosso Pai sabe o que necessitais, antes que vós peçais a ele."
+  },
+  {
+   "n": 9,
+   "t": "Vós, portanto, orareis assim: Pai nosso, que estás nos céus, santificado seja o teu nome."
+  },
+  {
+   "n": 10,
+   "t": "Venha o teu Reino. Seja feita a tua vontade, tanto na terra, assim como no céu."
+  },
+  {
+   "n": 11,
+   "t": "O pão nosso de cada dia nos dá hoje."
+  }
+ ],
+ "titulo": "Por que a oração secreta vale mais que a exibicionista?",
+ "temas": [
+  "oração",
+  "humildade",
+  "sinceridade"
+ ],
+ "pergunta": "Você já percebeu que ora mais para ser visto que para ser ouvido?",
+ "entender": "Jesus alerta que a motivação por trás das práticas espirituais é essencial. Ele diz que não devemos fazer \"não façais vossa esmola diante das pessoas\" para ser reconhecido, pois quem busca aplausos já recebeu a sua recompensa (Mateus 6.1‑2). Em vez disso, recomenda que a esmola seja feita em segredo, de modo que \"não saiba tua mão esquerda o que faz a tua direita\" (6.3‑4). \n\nDa mesma forma, ao orar, Jesus condena quem ora em público para ser visto e ensina a entrar \"entra em teu quarto, fecha tua porta\" e falar ao Pai que vê em segredo (6.5‑6). O texto segue apresentando o modelo do Pai Nosso, que inclui reconhecer a santidade de Deus, pedir o Reino, a vontade e o pão diário (6.9‑11). Todo o ensino faz parte do Sermão da Montanha, onde Jesus orienta seus seguidores a viverem de forma autêntica diante de Deus, buscando a aprovação divina e não humana.",
+ "ligar": {
+  "texto": "Embora o trecho não mencione Cristo explicitamente, ele revela o caráter do Pai que ama um coração sincero. Esse mesmo Pai enviou Jesus para nos ensinar a humildade e a confiança total. O modelo de oração que Jesus oferece prepara o coração para receber a graça que só Ele pode dar, mostrando que a verdadeira comunhão começa em um relacionamento íntimo, como o que Ele demonstrou ao orar em segredo antes de iniciar seu ministério.",
+  "selo": false
+ },
+ "viver": "A prática da oração secreta nos convida a criar um espaço íntimo com Deus, longe das distrações e da necessidade de aprovação dos outros. Reserve um momento diário, talvez ao acordar ou antes de dormir, para fechar a porta do seu quarto e conversar com o Pai em silêncio. Essa disciplina fortalece a confiança de que Deus conhece nossas necessidades antes mesmo de pedirmos, como Ele afirma em Mateus 6.8, trazendo paz que não depende da opinião alheia, mas da certeza de que Deus vê e valoriza cada palavra sincera que sai do seu coração.",
+ "guarde": "Deus recompensa a sinceridade que o mundo não vê.",
+ "ore": "Ao fechar a porta do meu quarto, ajuda‑me a orar em segredo, sem buscar aplausos, confiando que o Pai me recompensará em público.",
+ "quiz": {
+  "pergunta": "Qual é a principal razão que Jesus dá para não orar como os hipócritas?",
+  "opcoes": [
+   "Para não buscar a aprovação dos outros",
+   "Para economizar tempo",
+   "Para evitar ser interrompido"
+  ],
+  "certa": 0,
+  "explicacao": "Jesus afirma que os hipócritas oram para serem vistos e já receberam sua recompensa, indicando que a motivação é buscar aprovação humana, não a de Deus."
+ },
+ "refs": [
+  "Lucas 12:3",
+  "1 Pedro 5:6",
+  "Filipenses 2:3"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-26T06:53:14.524Z",
+  "rounds": 3
+ }
+}

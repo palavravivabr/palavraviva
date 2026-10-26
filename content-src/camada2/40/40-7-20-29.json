@@ -1,0 +1,137 @@
+{
+ "id": "40-7-20-29",
+ "ref": "Mateus 7:20-29",
+ "book": "40",
+ "chapter": 7,
+ "verses": [
+  {
+   "n": 20,
+   "t": "Portanto vós os conhecereis pelos seus frutos."
+  },
+  {
+   "n": 21,
+   "t": "Não é qualquer um que me diz: “Senhor, Senhor” que entrará no Reino dos céus; mas sim aquele que faz a vontade do meu Pai que está nos céus."
+  },
+  {
+   "n": 22,
+   "t": "Muitos me dirão naquele dia: “Senhor, Senhor! Não profetizamos em teu nome? E em teu nome não expulsamos os demônios? E em teu nome não fizemos muitas maravilhas?”"
+  },
+  {
+   "n": 23,
+   "t": "Então claramente lhes direi: “Nunca vos conheci. Afastai-vos de mim, transgressores!”"
+  },
+  {
+   "n": 24,
+   "t": "Portanto todo o que ouve estas minhas palavras e as pratica, eu o compararei ao homem prudente, que construiu sua casa sobre a rocha."
+  },
+  {
+   "n": 25,
+   "t": "E a chuva desceu, correntezas vieram, ventos sopraram, e atingiram aquela casa; e ela não caiu, porque estava fundada sobre a rocha."
+  },
+  {
+   "n": 26,
+   "t": "Porém todo o que ouve estas minhas palavras e não as pratica, eu o compararei ao homem tolo, que construiu sua casa sobre a areia."
+  },
+  {
+   "n": 27,
+   "t": "E a chuva desceu, correntezas vieram, ventos sopraram, e atingiram aquela casa; e ela caiu, e sua queda foi grande."
+  },
+  {
+   "n": 28,
+   "t": "E aconteceu que, quando Jesus terminou estas palavras, as multidões estavam admiradas de sua doutrina,"
+  },
+  {
+   "n": 29,
+   "t": "porque ele os ensinava como tendo autoridade, e não como os escribas."
+  }
+ ],
+ "titulo": "A rocha que segura sua vida",
+ "temas": [
+  "obediência",
+  "juízo",
+  "fundamento",
+  "autoridade"
+ ],
+ "pergunta": "Por que muitas pessoas religiosas ouviram a Jesus, mas não foram salvas?",
+ "entender": "Jesus termina seu grande sermão no monte com uma advertência séria. Ele diz que nem todo aquele que chama a Deus de \"Senhor\" entrará no Reino dos céus. O critério não é o barulho da voz ou os milagres realizados, mas a prática da vontade do Pai. Muitos se impressionam com palavras bonitas ou feitos extraordinários, mas Jesus revela que o verdadeiro conhecimento de Deus se vê nos frutos da vida.\n\nEle usa uma imagem poderosa: a construção de uma casa. Ouviu as palavras de Jesus e as praticou é como construir sobre a rocha. Ouviu, mas não obedeceu, é como construir sobre a areia. Quando a tempestade vem — e ela sempre vem —, a diferença entre a rocha e a areia fica clara. A casa sobre a rocha resiste; a sobre a areia desaba. A multidão ficou admirada porque Jesus ensinava com autoridade própria, não apenas repetindo tradições como os escribas.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para a pessoa e a obra de Jesus. Ele é o único que pode falar com tal autoridade, pois é o Filho de Deus. A \"rocha\" sobre a qual devemos construir nossa vida é Cristo e seu evangelho. Salvação não vem de obras religiosas ou milagres feitos em nome de alguém, mas de uma fé que se torna obediência prática. Jesus é o fundamento firme que sustenta o crente nas tempestades da vida, oferecendo segurança eterna àqueles que se entregam a Ele.",
+  "selo": true
+ },
+ "viver": "Pense em uma promessa ou mandamento de Deus que você ouve, mas evita praticar. É talvez a oração diária, o perdão a uma pessoa difícil ou a generosidade financeira. A areia pode parecer confortável agora, pois permite que você viva do seu jeito. Mas a próxima crise — uma doença, uma perda financeira ou um conflito familiar — funcionará como a chuva e o vento. Se sua fé for apenas intelectual, ela não terá raízes profundas para te sustentar. Decida esta semana uma ação concreta de obediência a Jesus. Não espere a tempestade para começar a cavar a fundação. A rocha é acessível a todos que se submetem à vontade do Pai através de Cristo.",
+ "guarde": "Construir sobre a rocha não é sobre ter uma vida sem problemas, mas sobre ter um fundamento que não se move.",
+ "ore": "Jesus, Tu que ensinaste com autoridade sobre a rocha e a areia, abre meus olhos. Mostra-me as áreas onde ouço Tua voz, mas vivo na areia da minha vontade. Dá-me coragem para praticar Tua vontade hoje, fundando minha vida em Ti, para que eu resista às tempestades.",
+ "quiz": {
+  "pergunta": "Qual é o critério principal que Jesus dá para entrar no Reino dos céus?",
+  "opcoes": [
+   "Fazer a vontade do Pai",
+   "Profetizar em Seu nome",
+   "Expulsar demônios"
+  ],
+  "certa": 0,
+  "explicacao": "Jesus afirma claramente que não basta dizer 'Senhor' ou fazer milagres; o essencial é fazer a vontade do Pai (Mt 7:21)."
+ },
+ "refs": [
+  "Tiago 1:22",
+  "Lucas 6:47-49",
+  "1 Pedro 2:8"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-26T07:01:15.933Z",
+  "rounds": 1
+ }
+}
