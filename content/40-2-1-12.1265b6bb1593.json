@@ -1,0 +1,145 @@
+{
+ "id": "40-2-1-12",
+ "ref": "Mateus 2:1-12",
+ "book": "40",
+ "chapter": 2,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E sendo Jesus já nascido em Belém da Judeia, nos dias do rei Herodes, eis que vieram uns magos do oriente a Jerusalém,"
+  },
+  {
+   "n": 2,
+   "t": "Dizendo: Onde está o Rei nascido dos Judeus? Porque vimos sua estrela no oriente, e viemos adorá-lo."
+  },
+  {
+   "n": 3,
+   "t": "E o rei Herodes, ao ouvir isto , ficou perturbado, e com ele toda Jerusalém."
+  },
+  {
+   "n": 4,
+   "t": "E tendo reunido todos os chefes dos sacerdotes e escribas do povo, perguntou-lhes onde o Cristo havia de nascer."
+  },
+  {
+   "n": 5,
+   "t": "E eles lhe disseram: Em Belém da Judeia, porque assim está escrito pelo profeta:"
+  },
+  {
+   "n": 6,
+   "t": "E tu Belém, terra de Judá, de maneira nenhuma és a menor entre as lideranças de Judá, porque de ti sairá o Guia que apascentará meu povo Israel. Miqueias 5:2"
+  },
+  {
+   "n": 7,
+   "t": "Então Herodes, chamando secretamente os magos, perguntou-lhes com precisão sobre o tempo em que a estrela havia aparecido."
+  },
+  {
+   "n": 8,
+   "t": "E enviando-os a Belém, disse: Ide, e investigai cuidadosamente pelo menino; e quando o achardes, avisai-me, para que também eu venha e o adore."
+  },
+  {
+   "n": 9,
+   "t": "Depois de ouvirem o rei, eles foram embora. E eis que a estrela que tinham visto no oriente ia adiante deles, até que ela chegou, e ficou parada sobre onde o menino estava."
+  },
+  {
+   "n": 10,
+   "t": "E eles, vendo a estrela, jubilaram muito com grande alegria."
+  },
+  {
+   "n": 11,
+   "t": "E entrando na casa, acharam o menino com sua mãe Maria, e prostrando-se o adoraram. E abrindo seus tesouros, ofereceram-lhe presentes: ouro, incenso, e mirra."
+  },
+  {
+   "n": 12,
+   "t": "E sendo por divina revelação avisados em sonho que não voltassem a Herodes, partiram para sua terra por outro caminho."
+  }
+ ],
+ "titulo": "A estrela que guiou os magos até Jesus",
+ "temas": [
+  "adoração",
+  "estrela",
+  "magos",
+  "herodes"
+ ],
+ "pergunta": "O que os magos do Oriente buscavam e por que Herodes ficou perturbado?",
+ "entender": "Este texto narra a chegada de magos do Oriente a Jerusalém, perguntando: \"Onde está o Rei nascido dos Judeus?\". Eles haviam visto a estrela e vieram adorá-lo. A notícia perturbou Herodes e toda a cidade, pois ele reunia os líderes religiosos para descobrir onde o Messias nasceria, citando Miqueias 5:2 sobre Belém.\n\nHerodes fingiu interesse, mandando os magos avisarem-no para que fosse adorá-lo, mas seu verdadeiro plano era maligno. A estrela guiou os magos até a casa onde o menino estava com Maria. Ao verem a criança, eles prostraram-se e ofereceram ouro, incenso e mirra. Em sonho, foram avisados a não voltar a Herodes e partiram por outro caminho, protegendo assim o bebê.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para a realeza e divindade de Jesus. Os magos, não sendo judeus, reconhecem Jesus como Rei antes mesmo de conhecerem as Escrituras profundamente, guiados por um sinal de Deus. A adoração e os presentes (ouro, incenso e mirra) simbolizam sua dignidade real, sacerdotal e sua missão de morte e ressurreição. O contraste entre a busca genuína dos magos e a inveja de Herodes destaca a preciosidade de Cristo no plano de salvação.",
+  "selo": true
+ },
+ "viver": "Assim como os magos seguiram a estrela até o fim, não desistindo no meio do caminho, somos convidados a buscar Jesus com persistência. A presença de Herodes nos alerta para os perigos que tentam roubar a alegria da fé. Hoje, identifique o que está te afastando de Jesus e escolha o \"outro caminho\" da obediência, confiando que Deus protege aqueles que O buscam com sinceridade.",
+ "guarde": "A verdadeira adoração a Jesus exige seguir até o fim, mesmo quando o mundo tenta impedir.",
+ "ore": "Magos que seguiram a estrela, ensina-me a buscar Jesus com a mesma dedicação. Que eu não seja distraído por Herodes, mas chegue aos pés do Rei para adorá-lo.",
+ "quiz": {
+  "pergunta": "Quais presentes os magos ofereceram ao menino Jesus?",
+  "opcoes": [
+   "Flores, frutas e dinheiro",
+   "Ouro, incenso e mirra",
+   "Pão, vinho e óleo"
+  ],
+  "certa": 1,
+  "explicacao": "O texto em Mateus 2:11 lista especificamente ouro, incenso e mirra como os tesouros abertos pelos magos para oferecer ao menino."
+ },
+ "refs": [
+  "Miqueias 5:2",
+  "Lucas 2:10-14",
+  "João 1:14"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-26T01:05:06.908Z",
+  "rounds": 1
+ }
+}

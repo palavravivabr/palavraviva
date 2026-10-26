@@ -1,0 +1,132 @@
+{
+ "id": "40-3-1-9",
+ "ref": "Mateus 3:1-9",
+ "book": "40",
+ "chapter": 3,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E naqueles dias veio João Batista, pregando no deserto da Judeia,"
+  },
+  {
+   "n": 2,
+   "t": "E dizendo: Arrependei-vos, porque perto está o Reino dos céus."
+  },
+  {
+   "n": 3,
+   "t": "Porque este é aquele que foi declarado pelo profeta Isaías, que disse: Voz do que clama no deserto: “Preparai o caminho do Senhor; endireitai suas veredas”. Isaías 40:3"
+  },
+  {
+   "n": 4,
+   "t": "Este João tinha sua roupa de pelos de camelo e um cinto de couro ao redor de sua cintura, e seu alimento era gafanhotos e mel silvestre."
+  },
+  {
+   "n": 5,
+   "t": "Então vinham até ele moradores de Jerusalém, de toda a Judeia, e de toda a região próxima do Jordão;"
+  },
+  {
+   "n": 6,
+   "t": "E eram por ele batizados no Jordão, confessando os seus pecados."
+  },
+  {
+   "n": 7,
+   "t": "Mas quando ele viu muitos dos fariseus e dos saduceus que vinham ao seu batismo, disse-lhes: Ninhada de víboras! Quem vos ensinou a fugir da ira futura?"
+  },
+  {
+   "n": 8,
+   "t": "Dai, pois, frutos condizentes com o arrependimento."
+  },
+  {
+   "n": 9,
+   "t": "E não imagineis, dizendo em vós mesmos: “Temos por pai a Abraão”, porque eu vos digo que até destas pedras Deus pode fazer surgir filhos a Abraão."
+  }
+ ],
+ "titulo": "O deserto onde a voz clama",
+ "temas": [
+  "arrependimento",
+  "preparação",
+  "justiça"
+ ],
+ "pergunta": "O que significa 'endireitar as veredas' para quem está cansado de tentar ser perfeito?",
+ "entender": "Em Mateus 3, vemos João Batista no deserto da Judeia. Ele não usava roupas luxuosas, mas vestia pelos de camelo e comia gafanhotos e mel. Sua mensagem era direta: \"Arrependei-vos, porque perto está o Reino dos céus\". João cumpria a profecia de Isaías ao preparar o caminho do Senhor.\n\nMuitas pessoas iam ao Jordão para serem batizadas e confessar seus pecados. Mas quando fariseus e saduceus chegaram, João foi duro: chamou-os de \"ninhada de víboras\". Ele alertou que ter Abraão como pai biológico não garantia salvação. O que Deus exigia era um fruto condizente com o arrependimento, ou seja, uma mudança real de atitude, não apenas palavras ou linhagem.\n\nO contexto mostra a urgência: o Reino estava chegando, e as pessoas precisavam se preparar de verdade. A aparência religiosa não bastava; o coração precisava estar alinhado com a justiça de Deus.",
+ "ligar": {
+  "texto": "João Batista aponta diretamente para Jesus, que é o \"mais poderoso\" que viria depois dele. O batismo de João era com água para arrependimento, preparando o povo para receber o Messias. O evangelho aqui é claro: não há salvação por merecimento ou herança, mas pela graça recebida por meio do arrependimento genuíno e da fé em Cristo, que cumpre a lei e oferece o Reino.",
+  "selo": true
+ },
+ "viver": "João não aceitou desculpas baseadas em família ou tradição. Hoje, muitas vezes tentamos justificar nossos erros dizendo que \"sempre foi assim\" ou que nossa linhagem é boa. Pense em uma área da sua vida onde você está apenas mantendo aparências. Que fruto concreto você pode dar essa semana? Aja de forma que seu arrependimento seja visível em atitudes de amor e verdade, não apenas em sentimentos.",
+ "guarde": "Deus não aceita desculpas de linhagem; Ele exige frutos de arrependimento real.",
+ "ore": "João no deserto, ensina-me a ouvir tua voz com atenção. Ajuda-me a abandonar as máscaras religiosas e a produzir frutos de justiça em minha vida diária, preparando meu coração para o Teu Reino.",
+ "quiz": {
+  "pergunta": "Por que João Batista repreendeu os fariseus e saduceus?",
+  "opcoes": [
+   "Porque não sabiam o que dizer.",
+   "Porque não davam frutos condizentes com o arrependimento.",
+   "Porque não usavam roupas adequadas."
+  ],
+  "certa": 1,
+  "explicacao": "O texto diz que João exigia frutos condizentes com o arrependimento, indicando que a mudança de atitude era mais importante do que a origem ou a aparência."
+ },
+ "refs": [
+  "Isaías 40:3",
+  "Lucas 3:7-9",
+  "Atos 3:19"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-26T01:07:58.404Z",
+  "rounds": 1
+ }
+}

@@ -1,0 +1,133 @@
+{
+ "id": "40-1-9-17",
+ "ref": "Mateus 1:9-17",
+ "book": "40",
+ "chapter": 1,
+ "verses": [
+  {
+   "n": 9,
+   "t": "E Uzias gerou a Jotão; e Jotão gerou a Acaz; e Acaz gerou a Ezequias."
+  },
+  {
+   "n": 10,
+   "t": "E Ezequias gerou a Manassés; e Manassés gerou a Amom; e Amom gerou a Josias."
+  },
+  {
+   "n": 11,
+   "t": "E Josias gerou a Jeconias, e a seus irmãos no tempo do exílio babilônico."
+  },
+  {
+   "n": 12,
+   "t": "E depois do exílio babilônico Jeconias gerou a Salatiel; e Salatiel gerou a Zorobabel."
+  },
+  {
+   "n": 13,
+   "t": "E Zorobabel gerou a Abiúde; e Abiúde gerou a Eliaquim; e Eliaquim gerou a Azor."
+  },
+  {
+   "n": 14,
+   "t": "E Azor gerou a Sadoque; e Sadoque gerou a Aquim; e Aquim gerou a Eliúde."
+  },
+  {
+   "n": 15,
+   "t": "E Eliúde gerou a Eleazar; e Eleazar gerou a Matã; e Matã gerou a Jacó."
+  },
+  {
+   "n": 16,
+   "t": "E Jacó gerou a José, o marido de Maria, da qual nasceu Jesus, chamado o Cristo."
+  },
+  {
+   "n": 17,
+   "t": "De maneira que todas as gerações desde Abraão até Davi são catorze gerações; e desde Davi até o exílio babilônico catorze gerações; e desde o exílio babilônico até Cristo catorze gerações."
+  }
+ ],
+ "titulo": "Quatro gerações que conduzem ao Messias",
+ "temas": [
+  "genealogia",
+  "promessa",
+  "fé",
+  "história"
+ ],
+ "pergunta": "Você já se perguntou por que Mateus conta exatamente catorze gerações em cada período?",
+ "entender": "Mateus 1:9‑17 apresenta a sequência de antepassados que ligam Abraão a Jesus. O evangelista escreve, por exemplo, \"E Uzias gerou a Jotão; e Jotão gerou a Acaz; e Acaz gerou a Ezequias\" (v.9) e segue até \"Jacó gerou a José, o marido de Maria, da qual nasceu Jesus, chamado o Cristo\" (v.16). Ele divide a genealogia em três blocos de catorze gerações: de Abraão a Davi, de Davi ao exílio babilônico e do exílio até Cristo (v.17). Essa estrutura mostra que a história de Israel tem um propósito divino, preservando a linhagem messiânica ao longo dos séculos.\n\nO trecho vem depois da lista dos reis de Judá (v.6‑8) e antes do relato do nascimento virginal (v.18‑20). Ao mencionar nomes conhecidos – como Ezequias, que promoveu reformas religiosas, e Zorobabel, que liderou a reconstrução do templo – Mateus lembra ao leitor que Deus esteve presente mesmo nos momentos de exílio, garantindo que a promessa feita a Abraão fosse cumprida em Jesus.",
+ "ligar": {
+  "texto": "A genealogia culmina com \"Jesus, chamado o Cristo\", revelando que todo o plano de Deus se realiza na pessoa do Messias. Cada geração preservou a promessa feita a Abraão, preparando o caminho para o Salvador que morreu, ressuscitou e voltará, concluindo a redenção iniciada há milênios.",
+  "selo": true
+ },
+ "viver": "Ao observar essa lista de nomes, percebemos que a fé não depende de grandes feitos individuais, mas da confiança de cada geração no Deus que cumpre suas promessas. Assim como os antepassados de Jesus obedeceram ao chamado, mesmo em tempos difíceis, somos convidados a viver como parte da história de Deus, transmitindo a fé às próximas gerações. Quando enfrentamos desafios, lembremos que Deus já guiou gerações antes de nós e nos inclui no Seu grande plano de redenção.",
+ "guarde": "Deus preserva cada geração para cumprir Sua promessa de salvar o mundo em Cristo.",
+ "ore": "José, ao cuidar da família de Maria, eu peço a Deus que me dê a mesma fidelidade e confiança para cumprir o plano que Ele tem para minha vida.",
+ "quiz": {
+  "pergunta": "Quantas gerações Mateus conta entre Davi e o exílio babilônico?",
+  "opcoes": [
+   "dezesseis",
+   "catorze",
+   "doze"
+  ],
+  "certa": 1,
+  "explicacao": "Mateus 1:17 afirma que \"desde Davi até o exílio babilônico catorze gerações\". Essa divisão enfatiza a ordem planejada por Deus."
+ },
+ "refs": [
+  "Lucas 3:23-38",
+  "Hebreus 11:1-40",
+  "Gênesis 12:3"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-26T01:02:08.885Z",
+  "rounds": 3
+ }
+}

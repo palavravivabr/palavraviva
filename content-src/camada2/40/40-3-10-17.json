@@ -1,0 +1,129 @@
+{
+ "id": "40-3-10-17",
+ "ref": "Mateus 3:10-17",
+ "book": "40",
+ "chapter": 3,
+ "verses": [
+  {
+   "n": 10,
+   "t": "E agora mesmoo machado está posto à raiz das árvores; portanto toda árvore que não dá bom fruto é cortada e lançada ao fogo."
+  },
+  {
+   "n": 11,
+   "t": "Realmente eu vos batizo com água para arrependimento, mas aquele que vem após mim é mais poderoso do que eu; suas sandálias não sou digno de levar. Ele vos batizará com o Espírito Santo e com fogo."
+  },
+  {
+   "n": 12,
+   "t": "Ele tem sua pá na mão; limpará sua eira, e recolherá seu trigo no celeiro; mas queimará a palha com fogo que nunca se apaga."
+  },
+  {
+   "n": 13,
+   "t": "Então Jesus veio da Galileia ao Jordão até João para ser por ele batizado."
+  },
+  {
+   "n": 14,
+   "t": "Mas João lhe impedia, dizendo: Eu preciso ser batizado por ti, e tu vens a mim?"
+  },
+  {
+   "n": 15,
+   "t": "Porém Jesus lhe respondeu: Permite por agora, porque assim nos convém cumprir toda a justiça. Então ele o permitiu."
+  },
+  {
+   "n": 16,
+   "t": "E tendo Jesus sido batizado, subiu logo da água. E eis que os céus se lhe abriram, e ele viu o Espírito de Deus descendo como uma pomba, vindo sobre ele."
+  },
+  {
+   "n": 17,
+   "t": "E eis uma voz dos céus, dizendo: Este é o meu Filho amado, em quem me agrado."
+  }
+ ],
+ "titulo": "O céu abre-se sobre o rio Jordão",
+ "temas": [
+  "justiça",
+  "espírito santo",
+  "filho de deus",
+  "humildade"
+ ],
+ "pergunta": "Por que Jesus, que não tinha pecado, precisava ser batizado?",
+ "entender": "João Batista avisa que o tempo de paciência está acabando. Ele usa a imagem de um machado na raiz das árvores: quem não produz fruto bom será cortado. Mas ele aponta para alguém mais poderoso, que batizará com o Espírito Santo e fogo.\n\nDepois, Jesus chega da Galileia. João fica surpreso e tenta impedir, dizendo que ele deveria ser batizado por Jesus. Jesus responde que é necessário cumprir toda a justiça. Ao sair da água, os céus se abrem, o Espírito desce como pomba e uma voz declara: \"Este é o meu Filho amado\". É a primeira vez que a Trindade aparece visivelmente junta: o Pai fala, o Filho é ungido e o Espírito desce.",
+ "ligar": {
+  "texto": "Este é o ponto de partida do ministério público de Jesus. A voz do céu confirma a identidade de Jesus como o Filho amado, aquele em quem Deus se agrada. O batismo não era para limpar pecados de Jesus, mas para identificá-lo com a humanidade e inaugurar sua missão. Ele cumpre a justiça divina ao assumir o lugar do homem, preparando-se para ser o Cordeiro que tira o pecado do mundo. O Espírito Santo desce sobre Ele, capacitando-O para a obra de salvação.",
+  "selo": true
+ },
+ "viver": "A resposta de Jesus, \"nos convém cumprir toda a justiça\", nos ensina sobre obediência voluntária. Às vezes, fazemos perguntas sobre por que Deus exige certas coisas de nós. Jesus nos mostra que a obediência não é apenas sobre regras, mas sobre alinhar nossa vontade à de Deus, mesmo quando não entendemos tudo. Hoje, pergunte-se: onde estou resistindo a fazer o que é certo apenas porque é difícil ou não me traz vantagem? A justiça de Deus é um convite para nos posicionarmos corretamente com Ele, confiando que Seu plano é perfeito.",
+ "guarde": "Cumpri toda a justiça para que eu pudesse ser o caminho, a verdade e a vida.",
+ "ore": "Jordão, onde os céus se abriram, ensina-me a humildade de Jesus. Ajuda-me a obedecer a Tua vontade não por medo, mas por amor. Que o Espírito Santo, que desceu como pomba, desce sobre mim hoje, guiando meus passos e confirmando que sou Teu filho amado.",
+ "quiz": {
+  "pergunta": "O que João Batista disse a Jesus quando tentou impedi-lo de ser batizado?",
+  "opcoes": [
+   "Que precisava ser batizado por Jesus",
+   "Que Jesus deveria esperar mais tempo",
+   "Que o rio estava muito poluído"
+  ],
+  "certa": 0,
+  "explicacao": "No versículo 14, João diz: \"Eu preciso ser batizado por ti, e tu vens a mim?\", reconhecendo a superioridade de Jesus."
+ },
+ "refs": [
+  "João 1:29-34",
+  "Marcos 1:9-11",
+  "Lucas 3:21-22"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-26T01:08:55.252Z",
+  "rounds": 1
+ }
+}

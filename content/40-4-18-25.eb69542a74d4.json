@@ -1,0 +1,129 @@
+{
+ "id": "40-4-18-25",
+ "ref": "Mateus 4:18-25",
+ "book": "40",
+ "chapter": 4,
+ "verses": [
+  {
+   "n": 18,
+   "t": "Enquanto Jesus andava junto ao mar da Galileia, viu dois irmãos: Simão, chamado Pedro, e seu irmão André, lançarem a rede ao mar, porque eram pescadores."
+  },
+  {
+   "n": 19,
+   "t": "E disse-lhes: Vinde após mim, e eu vos farei pescadores de gente."
+  },
+  {
+   "n": 20,
+   "t": "Então eles logo deixaram as redes e o seguiram."
+  },
+  {
+   "n": 21,
+   "t": "E passando dali, viu outros dois irmãos: Tiago, filho de Zebedeu, e seu irmão João, em um barco, com seu pai Zebedeu, que estavam consertando suas redes; e ele os chamou."
+  },
+  {
+   "n": 22,
+   "t": "E eles logo deixaram o barco e seu pai, e o seguiram."
+  },
+  {
+   "n": 23,
+   "t": "E Jesus rodeava toda a Galileia, ensinando em suas sinagogas, pregando o Evangelho do Reino, e curando toda enfermidade e toda doença no povo."
+  },
+  {
+   "n": 24,
+   "t": "Sua fama corria por toda a Síria, e traziam-lhe todos que sofriam de algum mal, tendo diversas enfermidades e tormentos, e os endemoninhados, epiléticos, e paralíticos; e ele os curava."
+  },
+  {
+   "n": 25,
+   "t": "E muitas multidões da Galileia, de Decápolis, de Jerusalém, da Judeia, e dalém do Jordão o seguiam."
+  }
+ ],
+ "titulo": "Deixar a rede para seguir Jesus",
+ "temas": [
+  "chamado",
+  "obediência",
+  "fé",
+  "discipulado"
+ ],
+ "pergunta": "O que você está disposto a deixar para trás quando Jesus te chama?",
+ "entender": "Jesus estava andando à beira do mar da Galileia quando viu Simão Pedro e André lançando redes, pois eram pescadores profissionais. Ele lhes disse: \"Vinde após mim, e eu vos farei pescadores de gente\". A resposta deles foi imediata: deixaram as redes e o seguiram. Pouco depois, Jesus viu Tiago e João consertando redes com seu pai Zebedeu e os chamou. Eles também deixaram o barco e o pai e foram com ele.\n\nNessa mesma região, Jesus ensinava nas sinagogas, pregava o Evangelho do Reino e curava toda sorte de enfermidades e doenças. Sua fama se espalhou pela Síria, e multidões de diversos lugares, como Decápolis e Jerusalém, o seguiam. O texto mostra que o chamado de Jesus exige uma decisão prática: abandonar o que era seguro e conhecido para estar com Ele.",
+ "ligar": {
+  "texto": "Este trecho revela a iniciativa de Jesus em chamar indivíduos comuns para uma missão extraordinária. Ele não apenas ensina, mas convida para uma relação pessoal e transformadora. A promessa de tornar pescadores de gente aponta para a grande comissão cristã: alcançar pessoas para o Reino. A cura dos doentes e a fama que se espalham confirmam a autoridade divina de Jesus e preparam o cenário para a proclamação do Evangelho, mostrando que a vida com Ele traz poder sobre a morte e a doença.",
+  "selo": true
+ },
+ "viver": "Pedro e André não pensaram duas vezes; deixaram as redes na hora. Isso nos convida a examinar nossas próprias \"redes\": hábitos, projetos ou apegos que nos afastam de Jesus. Não se trata de abandonar responsabilidades legítimas, mas de priorizar a presença de Cristo. Pergunte-se: há algo que estou segurando com força demais, impedindo-me de seguir Jesus com liberdade? A obediência imediata libera-nos para o propósito maior que Ele tem para nós.",
+ "guarde": "Deixar tudo para seguir Jesus não é perda, é o começo de uma nova vida.",
+ "ore": "Jesus, que me chamou à beira do mar, ajuda-me a soltar as redes que me prendem. Dá-me coragem para seguir-te com fé, sabendo que Tu me fazes pescador de gente.",
+ "quiz": {
+  "pergunta": "Qual era a profissão de Pedro, André, Tiago e João quando Jesus os chamou?",
+  "opcoes": [
+   "Pescadores",
+   "Construtores",
+   "Agricultores"
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma explicitamente que eles eram pescadores, lançando redes ao mar ou consertando-as, e que Jesus os chamava para serem 'pescadores de gente'."
+ },
+ "refs": [
+  "Marcos 1:16-20",
+  "Lucas 5:1-11",
+  "João 21:1-14"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-26T01:13:15.577Z",
+  "rounds": 1
+ }
+}

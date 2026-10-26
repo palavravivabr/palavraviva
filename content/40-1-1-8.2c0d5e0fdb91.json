@@ -1,0 +1,130 @@
+{
+ "id": "40-1-1-8",
+ "ref": "Mateus 1:1-8",
+ "book": "40",
+ "chapter": 1,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Livro da geração de Jesus Cristo, filho de Davi, filho de Abraão."
+  },
+  {
+   "n": 2,
+   "t": "Abraão gerou a Isaque; e Isaque gerou a Jacó; e Jacó gerou a Judá e a seus irmãos."
+  },
+  {
+   "n": 3,
+   "t": "E Judá gerou de Tamar a Perez e a Zerá; e Perez gerou a Esrom, e Esrom gerou a Arão."
+  },
+  {
+   "n": 4,
+   "t": "E Arão gerou a Aminadabe; e Aminadabe gerou a Naassom; e Naassom gerou a Salmom."
+  },
+  {
+   "n": 5,
+   "t": "E Salmom gerou de Raabe a Boaz; e Boaz gerou de Rute a Obede; e Obede gerou a Jessé."
+  },
+  {
+   "n": 6,
+   "t": "E Jessé gerou ao rei Davi; e o rei Davi gerou Salomão da que fora mulher de Urias."
+  },
+  {
+   "n": 7,
+   "t": "E Salomão gerou a Roboão; e Roboão gerou a Abias; e Abias gerou a Asa."
+  },
+  {
+   "n": 8,
+   "t": "E Asa gerou a Josafá; e Josafá gerou a Jorão; e Jorão gerou a Uzias."
+  }
+ ],
+ "titulo": "O mapa secreto da família de Jesus",
+ "temas": [
+  "genealogia",
+  "promessa",
+  "abraão",
+  "davi"
+ ],
+ "pergunta": "Por que Mateus começa com uma lista de nomes em vez de contar o nascimento de Jesus?",
+ "entender": "Mateus abre seu evangelho com um genealogia, uma lista de gerações que vai de Abraão até Jesus. Para o leitor judaico, isso era uma forma de provar a identidade de Jesus. Ao chamá-lo de \"filho de Davi, filho de Abraão\", Mateus mostra que Jesus cumpre as promessas feitas a esses patriarcas. A lista não é apenas um registro histórico; é uma teologia compacta.\n\nÉ surpreendente notar que Mateus inclui mulheres na linhagem, algo raro na antiguidade. Tamar, Raabe, Rute e a mulher de Urias (Bate-Seba) não eram figuras de destaque na história real, mas aparecem aqui para mostrar a mão de Deus em situações complexas. Isso prepara o terreno para a história de Jesus, que viria de uma família comum, com desafios e falhas, mas com um propósito divino claro.\n\nO texto estabelece que a história da redenção tem um ponto de chegada. Não é uma lista aleatória, mas um caminho que conduz a um único objetivo: a vinda do Messias prometido.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para Jesus como o cumprimento das promessas de Deus. Ao ligar Jesus a Abraão e Davi, Mateus demonstra que a salvação não é um acidente histórico, mas o plano eterno de Deus. Jesus é o filho prometido que trará bênção a todas as nações (como foi dito a Abraão) e que reinará para sempre (como foi prometido a Davi). O evangelho começa aqui, mostrando que Jesus é o centro da história bíblica.",
+  "selo": true
+ },
+ "viver": "Às vezes, nossa vida parece uma sequência de eventos soltos, sem um fio condutor. Mas este texto nos lembra que Deus tem um plano que atravessa gerações e falhas humanas. Assim como a linhagem de Jesus passou por momentos difíceis e personagens imperfeitos, a sua história também faz parte desse grande propósito. Confie em que Deus está trabalhando em você, mesmo nos dias em que a direção não parece clara.",
+ "guarde": "Deus cumpre suas promessas através de pessoas comuns, mesmo quando a história parece confusa.",
+ "ore": "Abraão, que creu na promessa de Deus, ensina-me a confiar que o Senhor está no controle da minha história. Ajuda-me a ver meu lugar no plano eterno de Jesus, mesmo quando os caminhos parecem incertos. Amém.",
+ "quiz": {
+  "pergunta": "Quem são os dois patriarcas mencionados no primeiro versículo como avós de Jesus?",
+  "opcoes": [
+   "Isaque e Jacó",
+   "Moisés e Arão",
+   "Davi e Abraão"
+  ],
+  "certa": 2,
+  "explicacao": "O versículo 1 diz explicitamente que Jesus é filho de Davi e filho de Abraão, estabelecendo sua linhagem real e patriarcal."
+ },
+ "refs": [
+  "Gênesis 12:3",
+  "2 Samuel 7:12-16",
+  "Lucas 3:23-38",
+  "Romanos 4:3"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-26T01:06:13.000Z",
+  "rounds": 1
+ }
+}
