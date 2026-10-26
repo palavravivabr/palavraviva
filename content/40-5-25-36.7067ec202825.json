@@ -1,0 +1,145 @@
+{
+ "id": "40-5-25-36",
+ "ref": "Mateus 5:25-36",
+ "book": "40",
+ "chapter": 5,
+ "verses": [
+  {
+   "n": 25,
+   "t": "Faze acordo depressa com teu adversário, enquanto estás com ele no caminho, para não acontecer que o adversário te entregue ao juiz, e o juiz te entregue ao oficial, e te lancem na prisão."
+  },
+  {
+   "n": 26,
+   "t": "Em verdade te digo que não sairás dali enquanto não pagares a última moeda."
+  },
+  {
+   "n": 27,
+   "t": "Ouvistes o que foi dito aos antigos: “Não adulterarás”. Êxodo 20:14; Deuteronômio 5:18"
+  },
+  {
+   "n": 28,
+   "t": "Porém eu vos digo que qualquer um que olhar para uma mulher para a cobiçar, em seu coração já adulterou com ela."
+  },
+  {
+   "n": 29,
+   "t": "Se o teu olho direito te faz pecar, arranca-o e lança-o de ti; porque é melhor para ti que um dos teus membros se perca do que o teu corpo todo seja lançado no inferno."
+  },
+  {
+   "n": 30,
+   "t": "E se a tua mão direita te faz pecar, corta-a e lança-a de ti; porque é melhor para ti que um dos teus membros se perca do que o teu corpo todo seja lançado no inferno."
+  },
+  {
+   "n": 31,
+   "t": "Também foi dito: “Qualquer um que se divorciar de sua mulher, dê a ela carta de divórcio. Deuteronômio 24:1"
+  },
+  {
+   "n": 32,
+   "t": "Porém eu vos digo que qualquer um que se divorciar de sua mulher, a menos que seja por causa de pecado sexual, faz com que ela adultere; e qualquer um que se casar com a divorciada comete adultério."
+  },
+  {
+   "n": 33,
+   "t": "Também ouvistes que foi dito aos antigos: “Não jurarás falsamente”, “mas cumprirás ao Senhor os teus juramentos”. Levítico 19:12; Números 30:2"
+  },
+  {
+   "n": 34,
+   "t": "Porém eu vos digo que de maneira nenhuma jureis; nem pelo céu, porque é o trono de Deus;"
+  },
+  {
+   "n": 35,
+   "t": "Nem pela terra, porque é o suporte de seus pés; nem por Jerusalém, porque é a cidade do grande Rei."
+  },
+  {
+   "n": 36,
+   "t": "Nem por tua cabeça jurarás, pois nem sequer um cabelo podes tornar branco ou preto."
+  }
+ ],
+ "titulo": "O preço real do atraso e da cobiça",
+ "temas": [
+  "reconciliação",
+  "pecado",
+  "integridade",
+  "coração"
+ ],
+ "pergunta": "Quais 'dívidas' emocionais ou hábitos secretos estão custando mais caro do que você imagina?",
+ "entender": "Neste trecho, Jesus ensina sobre a urgência de resolver conflitos e a gravidade do pecado no coração. Ele começa dizendo: \"Faze acordo depressa com teu adversário\", alertando que adiar a reconciliação pode levar a consequências graves, simbolizadas pela prisão e pela dívida impagável. Não se trata apenas de lei civil, mas de um princípio espiritual: a paz com o próximo é prioridade.\n\nEm seguida, Jesus aprofunda o mandamento contra o adultério, mostrando que a raiz do problema está no olhar cobiçoso e nos pensamentos. Ele usa a imagem forte de arrancar o olho ou cortar a mão para enfatizar que é melhor perder algo precioso do que permitir que o pecado destrua toda a vida. Por fim, ele rejeita os juramentos vazios, ensinando que nossa palavra deve ser simples e confiável, pois tudo pertence a Deus.",
+ "ligar": {
+  "texto": "Jesus, como o Juiz justo e misericordioso, nos chama a uma integridade total. Ele não apenas cumpriu a Lei perfeitamente, mas ofereceu-se como sacrifício para pagar a 'última moeda' da nossa dívida de pecado. Ao olhar para Cristo, entendemos que a graça nos capacita a viver com verdade, sem máscaras, confiando no Deus que conhece nosso coração e nos perdoa quando falhamos.",
+  "selo": false
+ },
+ "viver": "Pense em uma rixa ou mágoa que você está guardando há tempo. Jesus nos convida a agir com urgência, antes que o ressentimento cresça e nos 'prenda'. Além disso, examine seus hábitos de pensamento: o que você consome ou observa está alimentando a cobiça? Seja corajoso em cortar o que te faz pecar, não por medo, mas por amor à vida plena que Deus deseja para você. Sua palavra deve ser tão confiável que um 'sim' ou 'não' seja suficiente.",
+ "guarde": "A paz não se resolve no tribunal, resolve-se no caminho, com coragem e tempo.",
+ "ore": "Jesus, ao ler sobre a urgência de fazer as pazes, peço que me mostres quem precisa do meu perdão hoje. Dá-me a força para cortar o que me leva ao pecado e a sinceridade para que minha palavra seja verdadeira, assim como a Tua.",
+ "quiz": {
+  "pergunta": "Qual é o objetivo principal da instrução de Jesus sobre 'arrancar o olho' ou 'cortar a mão'?",
+  "opcoes": [
+   "Indicar que o olho e a mão são o centro da vontade humana.",
+   "Ensinar que amputação física é um ritual de purificação religiosa.",
+   "Enfatizar a gravidade do pecado e a necessidade de remoção radical dos hábitos pecaminosos."
+  ],
+  "certa": 2,
+  "explicacao": "Jesus usa uma linguagem hiperbólica (exagerada) para destacar a seriedade do pecado que leva à perdição, não para incentivar auto-mutilação física."
+ },
+ "refs": [
+  "Mateus 5:23-24",
+  "1 João 1:9",
+  "Tiago 1:14-15"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-26T03:46:50.316Z",
+  "rounds": 1
+ }
+}

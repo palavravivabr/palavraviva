@@ -1,0 +1,146 @@
+{
+ "id": "40-5-13-24",
+ "ref": "Mateus 5:13-24",
+ "book": "40",
+ "chapter": 5,
+ "verses": [
+  {
+   "n": 13,
+   "t": "Vós sois o sal da terra; mas se o sal perder seu sabor, com que se salgará? Para nada mais presta, a não ser para se lançar fora, e ser pisado pelas pessoas."
+  },
+  {
+   "n": 14,
+   "t": "Vós sois a luz do mundo; não se pode esconder uma cidade fundada sobre o monte;"
+  },
+  {
+   "n": 15,
+   "t": "Nem se acende a lâmpada para se pôr debaixo de um cesto, mas sim na luminária, e ilumina a todos quantos estão na casa."
+  },
+  {
+   "n": 16,
+   "t": "Assim brilhe vossa luz diante das pessoas, para que vejam vossas boas obras, e glorifiquem ao vosso Pai, que está nos céus."
+  },
+  {
+   "n": 17,
+   "t": "Não penseis que vim para revogar a Lei ou os Profetas; não vim para revogar, mas sim para cumprir."
+  },
+  {
+   "n": 18,
+   "t": "Porque em verdade vos digo que, até que o céu e a terra passem, nem um jota nem um til passará da Lei até que tudo se cumpra."
+  },
+  {
+   "n": 19,
+   "t": "Portanto qualquer um que desobedecer a um destes menores mandamentos, e assim ensinar às pessoas, será chamado o menor no Reino dos céus; porém qualquer que os cumprir e ensinar, esse será chamado grande no Reino dos céus."
+  },
+  {
+   "n": 20,
+   "t": "Porque eu vos digo que se a vossa justiça não for maior que a dos escribas e dos fariseus, de maneira nenhuma entrareis no Reino dos céus."
+  },
+  {
+   "n": 21,
+   "t": "Ouvistes o que foi dito aos antigos: “Não cometerás homicídio”; “mas qualquer um que cometer homicídio será réu do julgamento”."
+  },
+  {
+   "n": 22,
+   "t": "Porém eu vos digo que qualquer um que se irar contra seu irmão sem razão será réu do julgamento. E qualquer um que disser a seu irmão: “Idiota!” será réu do tribunal. E qualquer que lhe disser: “Louco!” será réu do fogo do inferno."
+  },
+  {
+   "n": 23,
+   "t": "Portanto, se trouxeres tua oferta ao altar, e ali te lembrares que teu irmão tem algo contra ti,"
+  },
+  {
+   "n": 24,
+   "t": "Deixa ali tua oferta diante do altar e vai primeiro reconciliar-te com teu irmão, e então vem oferecer a tua oferta."
+  }
+ ],
+ "titulo": "Sal, luz e a raiz da ira",
+ "temas": [
+  "sal",
+  "luz",
+  "ira",
+  "reconciliação",
+  "justiça"
+ ],
+ "pergunta": "O que acontece quando o sal perde o sabor e a luz fica escondida?",
+ "entender": "Jesus usa imagens do dia a dia para descrever a vida do discípulo. Ele diz: \"Vós sois o sal da terra\" e \"a luz do mundo\". O sal preserva e dá sabor; a luz revela o que está escondido. Se o sal perde a força ou a luz fica debaixo do cesto, a função acaba. A ideia é que a presença do cristão deve ser visível e transformadora, levando os outros a glorificar a Deus por meio de boas obras.\n\nEm seguida, Jesus fala sobre a Lei. Ele não veio para abolir, mas para cumprir. Isso significa que a moral bíblica continua válida, mas com uma profundidade nova. Ele toma o mandamento \"não matarás\" e leva à raiz do problema: a ira. Para Jesus, xingar alguém como \"idiota\" ou \"louco\" tem consequências graves. O texto mostra que a justiça de Deus não se limita a ações externas, mas toca o coração e as atitudes internas.\n\nO trecho termina com um conselho prático: se você lembrar que seu irmão tem algo contra você, deixe a oferta e vá se reconciliar primeiro. Isso revela que as relações com as pessoas são tão importantes quanto o culto. A verdadeira justiça começa com a paz entre irmãos.",
+ "ligar": {
+  "texto": "Jesus é o centro deste ensino. Ele afirma que veio para cumprir a Lei, mostrando que Ele é o padrão perfeito de justiça. A luz que os discípulos devem ser é reflexo da luz de Cristo. Além disso, a exigência de reconciliação aponta para o trabalho de Jesus na cruz, que remove as barreiras entre as pessoas e Deus. O evangelho nos chama a viver essa nova justiça, não por esforço próprio, mas pela graça que transforma o coração.",
+  "selo": true
+ },
+ "viver": "A ira não resolvida é como uma dívida espiritual que Jesus compara a um julgamento. Antes de focar apenas em orar ou ir à igreja, verifique se há alguém com quem você precisa fazer as pazes. Dê um passo concreto: mande uma mensagem, peça desculpas ou busque o diálogo. A luz brilha melhor quando remove as sombras do ressentimento.",
+ "guarde": "Deixe a oferta e busque a paz com seu irmão antes de se aproximar de Deus.",
+ "ore": "Pai, assim como o sal preserva e a luz revela, que minha vida reflita Teu caráter. Perdoa minha ira e meus julgamentos. Dá-me coragem para buscar a paz com aqueles com quem tenho conflito, para que Tua glória seja vista em minhas boas obras.",
+ "quiz": {
+  "pergunta": "Segundo Jesus, o que Ele veio fazer em relação à Lei?",
+  "opcoes": [
+   "Cumprir",
+   "Revogar",
+   "Simplificar"
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma claramente que Jesus não veio para revogar a Lei, mas para cumpri-la, dando-lhe plenitude e profundidade."
+ },
+ "refs": [
+  "Lucas 14:25-33",
+  "Romanos 12:18",
+  "Efésios 4:26"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-26T03:48:36.327Z",
+  "rounds": 2
+ }
+}

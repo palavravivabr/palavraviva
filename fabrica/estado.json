@@ -1504,7 +1504,9 @@
   },
   "42-24-43-53": {
    "execucoes": 1,
-   "ultimo": "automático: entender:citacao_longa"
+   "ultimo": "automático: entender:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "A missão que começou no céu"
   },
   "40-1-1-8": {
    "execucoes": 0,
@@ -1550,7 +1552,9 @@
   },
   "40-4-1-9": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: ore:curto:76",
+   "estado": "pronto",
+   "titulo": "Três armadilhas para quem tem fome de verdade"
   },
   "40-4-10-17": {
    "execucoes": 0,
@@ -1565,19 +1569,27 @@
   },
   "40-5-1-12": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "Por que os bem-aventurados são diferentes?"
   },
   "40-5-13-24": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:viver:42-11-44-54, abertura_repetida:guarde:43-7-43-53",
+   "estado": "pronto",
+   "titulo": "Sal, luz e a raiz da ira"
   },
   "40-5-25-36": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "O preço real do atraso e da cobiça"
   },
   "40-5-37-48": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "Amor que desarma a vingança"
   },
   "40-6-1-11": {
    "execucoes": 0,
@@ -1602,28 +1614,44 @@
   "40-7-20-29": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-8-1-11": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-8-12-23": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-8-24-34": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-9-1-10": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 536,
-   "entrada": 1348426,
-   "saida": 475892
+   "chamadas": 542,
+   "entrada": 1364392,
+   "saida": 481393
   },
   "groq-qwen": {
-   "chamadas": 533,
-   "entrada": 1281616,
-   "saida": 432191
+   "chamadas": 539,
+   "entrada": 1297008,
+   "saida": 436934
   },
   "gemini": {
-   "chamadas": 449,
-   "entrada": 1454121,
-   "saida": 586339
+   "chamadas": 455,
+   "entrada": 1473435,
+   "saida": 590181
   },
   "cloudflare": {
-   "chamadas": 270,
-   "entrada": 939223,
-   "saida": 100170
+   "chamadas": 276,
+   "entrada": 960070,
+   "saida": 102396
   },
   "mistral": {
    "chamadas": 0,

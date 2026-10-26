@@ -1,0 +1,145 @@
+{
+ "id": "40-5-37-48",
+ "ref": "Mateus 5:37-48",
+ "book": "40",
+ "chapter": 5,
+ "verses": [
+  {
+   "n": 37,
+   "t": "Mas seja vosso falar: “sim”, “sim”, “não”, “não”; porque o que disso passa procede do maligno."
+  },
+  {
+   "n": 38,
+   "t": "Ouvistes o que foi dito: “Olho por olho, e dente por dente”. Êxodo 21:24; Levítico 24:20; Deuteronômio 19:21"
+  },
+  {
+   "n": 39,
+   "t": "Mas eu vos digo que não resistais a quem for mau; em vez disso, a qualquer um que te bater à tua face direita, apresenta-lhe também a outra."
+  },
+  {
+   "n": 40,
+   "t": "E ao que quiser disputar contigo, e te tomar tua túnica, deixa-lhe também a capa."
+  },
+  {
+   "n": 41,
+   "t": "E se qualquer um te obrigar a caminhar uma milha, vai com ele duas."
+  },
+  {
+   "n": 42,
+   "t": "Dá a quem te pedir; e não te desvies de quem quiser de ti tomar emprestado."
+  },
+  {
+   "n": 43,
+   "t": "Ouvistes o que foi dito: “Amarás teu próximo”, e “odiarás teu inimigo”. Levítico 19:18"
+  },
+  {
+   "n": 44,
+   "t": "Porém eu vos digo: amai vossos inimigos, bendizei os que vos maldizem, fazei bem aos que vos odeiam, e orai pelos que vos maltratam e vos perseguem,"
+  },
+  {
+   "n": 45,
+   "t": "Para que sejais filhos de vosso Pai que está nos céus; porque ele faz seu sol sair sobre maus e bons, e chover sobre justos e injustos."
+  },
+  {
+   "n": 46,
+   "t": "Pois se amardes os que vos amam, que recompensa tereis? Não fazem os publicanos também o mesmo?"
+  },
+  {
+   "n": 47,
+   "t": "E se saudardes somente os vossos irmãos, o que fazeis de mais? Não fazem os publicanos também assim?"
+  },
+  {
+   "n": 48,
+   "t": "Portanto, sede vós perfeitos, assim como vosso Pai que está nos céus é perfeito."
+  }
+ ],
+ "titulo": "Amor que desarma a vingança",
+ "temas": [
+  "perdão",
+  "inimigos",
+  "integridade",
+  "gratuidade"
+ ],
+ "pergunta": "Como reagir quando alguém nos agride ou nos tira algo de valor?",
+ "entender": "Jesus desafia a lógica de justiça do 'olho por olho', comum na Lei. Ele propõe uma resposta radical: não resistir ao mal com mais mal. Quando alguém te bate, oferece a outra face; quando querem tua túnica, dês a capa. Isso não é passividade, mas uma escolha ativa de não deixar que o ódio te consuma.\n\nA instrução vai além: amar os inimigos e orar por quem nos persegue. Jesus explica o motivo: para que sejamos filhos do Pai, que faz o sol brilhar e chover sobre todos, sem distinção. Amar apenas quem nos ama é o que qualquer pessoa faz, mas amar quem nos odeia reflete o caráter de Deus.",
+ "ligar": {
+  "texto": "Este trecho revela o coração de Deus através de Jesus. O amor que Ele ensina é o mesmo que demonstrou na cruz, perdoando os que O mataram. Jesus nos chama a viver essa nova identidade de filhos de Deus, onde a graça substitui a vingança. Ao seguir esse caminho, refletimos o evangelho: a paz que só Cristo pode trazer ao coração humano.",
+  "selo": false
+ },
+ "viver": "Pense em alguém que te feriu recentemente. Em vez de guardar rancor ou planejar uma retaliação, tente dar um passo concreto de bondade, como um cumprimento sincero ou uma oração específica por essa pessoa. Isso pode parecer difícil, mas é assim que começamos a viver a liberdade que Jesus oferece, quebrando o ciclo de violência e mágoa.",
+ "guarde": "Amar o inimigo não é fraqueza, é a prova de que pertencemos ao Pai dos céus.",
+ "ore": "Pai, que faz o sol nascer sobre todos, ensina-me a amar quem me odeia. Que eu não busque vingança, mas que minha vida reflita a Tua perfeição e Tua graça infinita.",
+ "quiz": {
+  "pergunta": "Qual é a razão principal que Jesus dá para amarmos os inimigos?",
+  "opcoes": [
+   "Para evitar conflitos físicos",
+   "Para sermos respeitados pela sociedade",
+   "Para sermos filhos do Pai celestial"
+  ],
+  "certa": 2,
+  "explicacao": "O texto afirma claramente: 'Para que sejais filhos de vosso Pai que está nos céus', indicando que essa atitude reflete a natureza de Deus, que cuida de todos igualmente."
+ },
+ "refs": [
+  "Lucas 6:27-36",
+  "Romanos 12:14-21",
+  "1 Pedro 2:23"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-26T03:47:28.663Z",
+  "rounds": 1
+ }
+}

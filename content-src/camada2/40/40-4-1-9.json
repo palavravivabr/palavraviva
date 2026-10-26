@@ -1,0 +1,134 @@
+{
+ "id": "40-4-1-9",
+ "ref": "Mateus 4:1-9",
+ "book": "40",
+ "chapter": 4,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Então Jesus foi levado pelo Espírito ao deserto para ser tentado pelo diabo."
+  },
+  {
+   "n": 2,
+   "t": "E depois de jejuar quarenta dias e quarenta noites, teve fome."
+  },
+  {
+   "n": 3,
+   "t": "E o tentador se aproximou dele, e disse: Se tu és o Filho de Deus, dize que estas pedras se tornem pães."
+  },
+  {
+   "n": 4,
+   "t": "Mas Jesus respondeu: Está escrito: Não só de pão viverá o ser humano, mas de toda palavra que sai da boca de Deus. Deuteronômio 8:3"
+  },
+  {
+   "n": 5,
+   "t": "Então o diabo o levou consigo à santa cidade, e o pôs sobre o ponto mais alto do Templo,"
+  },
+  {
+   "n": 6,
+   "t": "E disse-lhe: Se tu és o Filho de Deus, lança-te abaixo, porque está escrito que: Mandará a seus anjos acerca de ti, e te tomarão pelas mãos, para que nunca com teu pé tropeces em pedra alguma. Salmos 91:11,12"
+  },
+  {
+   "n": 7,
+   "t": "Jesus lhe disse: Também está escrito: Não tentarás o Senhor teu Deus. Deuteronômio 6:16"
+  },
+  {
+   "n": 8,
+   "t": "Outra vez o diabo o levou consigo a um monte muito alto, e lhe mostrou todos os reinos do mundo, e a glória deles,"
+  },
+  {
+   "n": 9,
+   "t": "E disse-lhe: Tudo isto te darei se, prostrado, me adorares."
+  }
+ ],
+ "titulo": "Três armadilhas para quem tem fome de verdade",
+ "temas": [
+  "tentação",
+  "obediência",
+  "identidade",
+  "poder",
+  "descanso"
+ ],
+ "pergunta": "O que você faria se alguém lhe oferecesse o mundo inteiro em troca de uma única joelhada?",
+ "entender": "Logo após o batismo, Jesus foi levado ao deserto e passou quarenta dias sem comer. No fim, com fome, o diabo aparece. Ele não ataca a força de Jesus, mas usa a fraqueza do corpo para questionar a identidade dele: 'Se tu és o Filho de Deus...'. A primeira tentação é usar o poder divino para benefício próprio, transformando milagres em mágica para saciar a necessidade imediata.\n\nA segunda leva Jesus ao topo do Templo. O diabo cita a Bíblia corretamente, mas a distorce para sugerir que Deus deve protegê-lo de qualquer risco. Jesus responde citando outra passagem: não devemos forçar a mão de Deus para provar que Ele nos ama. A terceira tentação é a mais sedutora: o diabo mostra todos os reinos e oferece glória e autoridade, desde que Jesus o adore. Aqui, o problema não é a fome, mas a obediência. Jesus recusa, mostrando que o caminho do Reino não passa pela adoração a ídolos, nem mesmo ao poder político ou material.",
+ "ligar": {
+  "texto": "Este trecho revela o coração de Jesus: Ele é o Filho de Deus que obedece ao Pai mesmo quando isso custa a vida. Ao vencer as tentações, Jesus se qualifica para ser o nosso Salvador. Ele não é um mestre que apenas ensina sobre a tentação, mas Aquele que a enfrentou e venceu. O evangelho é a boa notícia de que, em Cristo, temos um exemplo perfeito e um intercessor que entende nossas lutas. Ele nos ensina que a verdadeira liberdade não vem de dominar o mundo, mas de pertencer a Deus.",
+  "selo": true
+ },
+ "viver": "A tentação mais perigosa raramente vem de uma voz externa gritando para o mal. Muitas vezes, ela sussurra dentro de nós, sugerindo atalhos: 'Faça isso agora, Deus vai entender depois', ou 'Você merece esta recompensa'. Jesus nos ensina a pausar. Antes de agir por impulso, fome ou ambição, pare e pergunte: 'Isso agrada a Deus?'. A obediência à Palavra costuma ser mais lenta que a satisfação imediata, mas é a única que sustenta a alma. Identifique hoje uma situação em que você está querendo forçar a mão de Deus ou buscar satisfação fora dEle, e escolha descansar na Sua palavra.",
+ "guarde": "A verdadeira fome não se sacia com poder, mas com a obediência à Palavra de Deus.",
+ "ore": "No deserto, Jesus jejuou e foi tentado. Senhor, ajuda-me a reconhecer minhas fraquezas e não usar as situações difíceis para negociar contigo. Que minha fome seja por tua Palavra e não por atalhos mundanos. Ensina-me a obedecer mesmo quando o custo parecer alto, pois confio no Teu amor.",
+ "quiz": {
+  "pergunta": "O que o diabo ofereceu a Jesus na terceira tentação?",
+  "opcoes": [
+   "Todos os reinos do mundo e sua glória",
+   "Paz eterna no Templo",
+   "Fome saciada com pães"
+  ],
+  "certa": 0,
+  "explicacao": "No versículo 9, o texto diz explicitamente que o diabo mostrou 'todos os reinos do mundo, e a glória deles' e oferecia dar tudo isso a Jesus."
+ },
+ "refs": [
+  "Deuteronômio 8:3",
+  "Deuteronômio 6:13",
+  "Hebreus 4:15"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.7-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-26T03:44:28.607Z",
+  "rounds": 1
+ }
+}

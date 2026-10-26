@@ -1,0 +1,144 @@
+{
+ "id": "40-5-1-12",
+ "ref": "Mateus 5:1-12",
+ "book": "40",
+ "chapter": 5,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E quando Jesus viu as multidões, subiu a um monte; e sentando-se, achegaram-se a ele os seus discípulos."
+  },
+  {
+   "n": 2,
+   "t": "Então ele abriu sua boca e lhes ensinou, dizendo:"
+  },
+  {
+   "n": 3,
+   "t": "Benditos são os humildes de espírito, porque deles é o Reino dos céus."
+  },
+  {
+   "n": 4,
+   "t": "Benditos são os que choram, porque eles serão consolados."
+  },
+  {
+   "n": 5,
+   "t": "Benditos são os mansos, porque eles herdarão a terra."
+  },
+  {
+   "n": 6,
+   "t": "Benditos são os que têm fome e sede de justiça, porque eles serão saciados."
+  },
+  {
+   "n": 7,
+   "t": "Benditos são os misericordiosos, porque eles alcançarão misericórdia."
+  },
+  {
+   "n": 8,
+   "t": "Benditos são os limpos de coração, porque eles verão a Deus."
+  },
+  {
+   "n": 9,
+   "t": "Benditos são os pacíficos, porque eles serão chamados filhos de Deus."
+  },
+  {
+   "n": 10,
+   "t": "Benditos são os que sofrem perseguição por causa da justiça, porque deles é o Reino dos céus."
+  },
+  {
+   "n": 11,
+   "t": "Benditos sois vós, quando vos insultarem, perseguirem, e mentirem, falando contra vós todo mal por minha causa."
+  },
+  {
+   "n": 12,
+   "t": "Jubilai e alegrai-vos, porque grande é vossa recompensa nos céus; pois assim perseguiram aos profetas que foram antes de vós."
+  }
+ ],
+ "titulo": "Por que os bem-aventurados são diferentes?",
+ "temas": [
+  "humildade",
+  "justiça",
+  "perseguição"
+ ],
+ "pergunta": "O que faz alguém ser verdadeiramente feliz diante das dificuldades?",
+ "entender": "Jesus subiu ao monte e, rodeado pelos discípulos, proclamou as bem‑aventuranças. Ele declara que os \"humildes de espírito\" recebem o Reino dos céus, os que choram serão consolados, os mansos herdarão a terra, e assim por diante (Mateus 5.3‑10). Cada promessa aponta a realidade do Reino de Deus, que se manifesta de forma contrária ao que o mundo espera: a felicidade nasce da dependência de Deus, não do poder ou da riqueza. O contexto mostra que Jesus estava iniciando o Seu ensino sobre o caráter do cidadão do Reino, contrastando com as expectativas humanas de sucesso e segurança.\n\nEssas declarações são um convite ao leitor a reconhecer que o verdadeiro bem‑estar vem de viver segundo os valores de Deus. O versículo 11 amplia a benção ao próprio grupo dos seguidores, dizendo que serão insultados e perseguidos por causa de Cristo, mas ainda assim receberão grande recompensa nos céus. Assim, a mensagem central é que o Reino de Deus oferece consolo, justiça e esperança mesmo nas situações mais difíceis.",
+ "ligar": {
+  "texto": "As bem‑aventuranças apontam para o Evangelho ao revelar que a felicidade plena não está nas circunstâncias externas, mas na relação com Deus. Quem reconhece sua necessidade de justiça, misericórdia e paz encontra em Cristo o cumprimento dessas promessas. Ele é o “Filho de Deus” que traz consolação aos que choram (verso 4) e oferece a recompensa eterna aos que sofrem por causa da justiça (verso 11). Assim, o texto prepara o coração para receber a Boa‑Nova de que Jesus morreu e ressuscitou para nos dar o Reino que já está presente e que se consumará plenamente.",
+  "selo": false
+ },
+ "viver": "Ao perceber que a verdadeira felicidade nasce da humildade e da busca por justiça, podemos escolher viver de forma mais mansa e misericordiosa. Quando alguém ao nosso redor está triste, lembremos que Jesus promete consolação e, portanto, ofereçamos apoio e oração. Se enfrentarmos críticas ou perseguição por viver segundo os princípios do Reino, mantenhamos a esperança na recompensa celestial, confiando que Deus vê e valoriza cada sacrifício.\n\nEssa atitude transforma conflitos cotidianos em oportunidades de testemunho, mostrando que a bem‑aventurança não é teoria, mas prática que muda vidas.",
+ "guarde": "A verdadeira bem‑aventurança nasce da humildade e da busca pela justiça de Deus.",
+ "ore": "Monte: Senhor, ajuda-me a ser humilde de espírito e a buscar justiça, para que eu experimente a tua paz mesmo nas dificuldades.",
+ "quiz": {
+  "pergunta": "Qual bem‑aventurança fala sobre a promessa de consolação?",
+  "opcoes": [
+   "Os mansos",
+   "Os que choram",
+   "Os pacíficos"
+  ],
+  "certa": 1,
+  "explicacao": "Mateus 5:4 declara: \"Benditos são os que choram, porque eles serão consolados\". Essa é a única bem‑aventurança que menciona consolação."
+ },
+ "refs": [
+  "Lucas 6:20-23",
+  "Isaías 61:1-3",
+  "Salmos 34:18"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-26T03:45:17.976Z",
+  "rounds": 1
+ }
+}
