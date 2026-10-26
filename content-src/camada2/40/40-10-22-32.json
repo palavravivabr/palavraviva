@@ -1,0 +1,141 @@
+{
+ "id": "40-10-22-32",
+ "ref": "Mateus 10:22-32",
+ "book": "40",
+ "chapter": 10,
+ "verses": [
+  {
+   "n": 22,
+   "t": "E sereis odiados por todos por causa de meu nome; mas aquele que perseverar até o fim, esse será salvo."
+  },
+  {
+   "n": 23,
+   "t": "Quando, então, vos perseguirem nesta cidade, fugi para outra; porque em verdade vos digo que não acabareis de percorrer as cidades de Israel, até que venha o Filho do homem."
+  },
+  {
+   "n": 24,
+   "t": "O discípulo não é superior ao mestre, nem o servo superior ao seu senhor."
+  },
+  {
+   "n": 25,
+   "t": "Seja suficiente ao discípulo ser como o seu mestre, e ao servo como o seu senhor; se ao chefe da casa chamaram de Belzebu, quanto mais aos membros de sua casa!"
+  },
+  {
+   "n": 26,
+   "t": "Portanto, não os temais; porque nada há encoberto que não se revelará, nada oculto que não se saberá."
+  },
+  {
+   "n": 27,
+   "t": "O que eu vos digo em trevas, dizei na luz; e o que ouvis ao ouvido, proclamai sobre os telhados."
+  },
+  {
+   "n": 28,
+   "t": "E não temais os que matam o corpo, mas não podem matar a alma; temei mais aquele que pode destruir tanto a alma como o corpo no inferno."
+  },
+  {
+   "n": 29,
+   "t": "Não se vendem dois pardais por uma pequena moeda? Mas nem um deles cairá em terra contra a vontade de vosso Pai."
+  },
+  {
+   "n": 30,
+   "t": "E até os cabelos de vossas cabeças estão todos contados."
+  },
+  {
+   "n": 31,
+   "t": "Assim, não tenhais medo; mais valeis vós que muitos pardais."
+  },
+  {
+   "n": 32,
+   "t": "Portanto, todo aquele que me der reconhecimento diante das pessoas, também eu o reconhecerei diante de meu Pai, que está nos céus."
+  }
+ ],
+ "titulo": "O valor de cada fio de cabelo",
+ "temas": [
+  "medo",
+  "valor",
+  "coragem",
+  "deus"
+ ],
+ "pergunta": "Quem pode destruir sua alma e seu corpo, segundo Jesus?",
+ "entender": "Jesus avisa seus discípulos sobre perseguição e ódio, mas oferece uma promessa de salvação para quem perseverar. Ele usa a imagem do pardal para mostrar o cuidado de Deus: nem uma ave cai sem a vontade do Pai. Se Deus conta os fios de cabelo de cada pessoa, o valor do ser humano é inestimável aos olhos divinos.\n\nO texto contrasta o medo dos homens, que podem matar o corpo, com o temor a Deus, que tem autoridade sobre a alma. Jesus ensina que, diante de tal cuidado divino, não há razão para ter medo de rejeição ou perigo físico. A segurança não vem da ausência de problemas, mas da certeza de que estamos sob a guarda de um Pai que nos conhece profundamente.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para Jesus como o Mestre que ensina sobre a soberania de Deus. Ele se identifica como o Filho do Homem que virá, e seu ensino revela a natureza amorosa e poderosa do Pai. O evangelho é claro: somos tão valiosos para Deus que Ele nos conhece em detalhes, e essa segurança em Cristo é a base para viver sem medo diante das adversidades.",
+  "selo": true
+ },
+ "viver": "Quando a ansiedade sobre o futuro ou a opinião alheia apertar o peito, lembre-se do pardal. Deus não desperdiça a vida de uma ave pequena, quanto mais a sua. Em vez de paralisar no medo, confie no cuidado do Pai. A coragem cristã não é a ausência de medo, mas a decisão de agir e falar a verdade porque sabe que seu valor não depende do reconhecimento humano, mas do olhar de Deus.",
+ "guarde": "Seus cabelos estão contados; seu valor é maior que muitos pardais.",
+ "ore": "Pai, que cuida até dos pardais, eu confio em Ti. Quando o medo tentar me dominar, lembra-me de que meus cabelos estão contados por Ti. Dá-me coragem para perseverar e te reconhecer diante dos homens, pois Tu me conheces e me amas.",
+ "quiz": {
+  "pergunta": "Segundo Jesus, o que devemos temer mais?",
+  "opcoes": [
+   "O ódio das pessoas por causa do nome de Jesus",
+   "Os que perseguem os discípulos",
+   "Aquele que pode destruir a alma e o corpo"
+  ],
+  "certa": 2,
+  "explicacao": "Jesus instrui a não temer os que matam o corpo, mas a temer mais aquele que tem poder sobre a alma e o corpo no inferno (Mateus 10:28)."
+ },
+ "refs": [
+  "Lucas 12:7",
+  "Salmos 139:1-4",
+  "Mateus 10:33"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-26T15:05:18.079Z",
+  "rounds": 1
+ }
+}

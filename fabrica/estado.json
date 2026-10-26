@@ -1628,12 +1628,14 @@
    "titulo": "A rocha que segura sua vida"
   },
   "40-8-1-11": {
-   "execucoes": 1,
-   "ultimo": "gemini: PRAYER_FIDELITY: A oração é dirigida à cidade de Cafarnaum ('Cafarnaum, conceda-me...') em vez de ser direcionada a Deus ou ao Senhor Jesus. | LANGUAGE_CLARITY: Contém a forma verbal inexistente 'vindiriam' na seção Entender, em vez de 'viriam'."
+   "execucoes": 2,
+   "ultimo": "automático: entender:citacao_fora_do_texto, abertura_repetida:guarde:41-7-20-28"
   },
   "40-8-12-23": {
    "execucoes": 0,
-   "ultimo": "gemini: PRAYER_FIDELITY: A oração é dirigida a um personagem humano ('Centurião... eu confio em ti. Ensina-me...'), o que é incompatível com o padrão bíblico de oração a Deus."
+   "ultimo": "automático: viver:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "O custo real de seguir Jesus"
   },
   "40-8-24-34": {
    "execucoes": 0,
@@ -1654,28 +1656,38 @@
    "titulo": "O médico que senta à mesa dos doentes"
   },
   "40-9-20-29": {
-   "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "execucoes": 1,
+   "ultimo": "gemini: MIRACLE_SCOPE: A frase na seção GUARDE generaliza o milagre do texto ao afirmar que a fé sempre traz cura, transformando o relato bíblico em uma promessa universal sob demanda."
   },
   "40-9-30-38": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "A colheita abundante e os poucos trabalhadores"
   },
   "40-10-1-11": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "A missão que não pede currículo"
   },
   "40-10-12-21": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: pergunta:vazio",
+   "estado": "pronto",
+   "titulo": "Ovelhas entre lobos: a coragem de ser fiel"
   },
   "40-10-22-32": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "O valor de cada fio de cabelo"
   },
   "40-10-33-42": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:ore:41-7-10-19, abertura_repetida:guarde:41-8-30-38, abertura_repetida:viver:43-4-12-22",
+   "estado": "pronto",
+   "titulo": "A espada que divide a família"
   },
   "40-11-1-11": {
    "execucoes": 0,
@@ -1708,28 +1720,36 @@
   "40-12-41-50": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-13-1-12": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-13-13-23": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 558,
-   "entrada": 1407136,
-   "saida": 494936
+   "chamadas": 570,
+   "entrada": 1441617,
+   "saida": 506013
   },
   "groq-qwen": {
-   "chamadas": 553,
-   "entrada": 1336097,
-   "saida": 448480
+   "chamadas": 564,
+   "entrada": 1366206,
+   "saida": 457502
   },
   "gemini": {
-   "chamadas": 468,
-   "entrada": 1516141,
-   "saida": 608407
+   "chamadas": 477,
+   "entrada": 1545137,
+   "saida": 624522
   },
   "cloudflare": {
-   "chamadas": 285,
-   "entrada": 992069,
-   "saida": 105735
+   "chamadas": 291,
+   "entrada": 1012771,
+   "saida": 107961
   },
   "mistral": {
    "chamadas": 0,

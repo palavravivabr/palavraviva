@@ -1,0 +1,133 @@
+{
+ "id": "40-9-30-38",
+ "ref": "Mateus 9:30-38",
+ "book": "40",
+ "chapter": 9,
+ "verses": [
+  {
+   "n": 30,
+   "t": "E os olhos deles se abriram. Então Jesus os advertiu severamente, dizendo: Tende o cuidado de que ninguém saiba disso."
+  },
+  {
+   "n": 31,
+   "t": "Porém eles saíram e divulgaram a notícia acerca dele por toda aquela terra."
+  },
+  {
+   "n": 32,
+   "t": "Enquanto eles saíam, eis que lhe trouxeram um homem mudo e endemoninhado."
+  },
+  {
+   "n": 33,
+   "t": "Quando o demônio foi expulso, o mudo passou a falar. Então as multidões ficaram maravilhadas, e disseram: Nunca se viu algo assim em Israel!"
+  },
+  {
+   "n": 34,
+   "t": "Mas os fariseus diziam: É pelo chefe dos demônios que ele expulsa os demônios."
+  },
+  {
+   "n": 35,
+   "t": "Jesus percorria todas as cidades e aldeias, ensinando em suas sinagogas, pregando o Evangelho do Reino, e curando toda enfermidade e toda doença entre o povo."
+  },
+  {
+   "n": 36,
+   "t": "Quando ele viu as multidões, teve compaixão delas, porque andavam cansadas e desamparadas, como ovelhas que não têm pastor."
+  },
+  {
+   "n": 37,
+   "t": "Então disse aos seus discípulos: Em verdade a colheita é grande, porém os trabalhadores são poucos."
+  },
+  {
+   "n": 38,
+   "t": "Portanto rogai ao Senhor da colheita que envie trabalhadores à sua colheita."
+  }
+ ],
+ "titulo": "A colheita abundante e os poucos trabalhadores",
+ "temas": [
+  "compaixão",
+  "missão",
+  "oração"
+ ],
+ "pergunta": "Você já percebeu que há muitas necessidades ao seu redor, mas poucos que se dedicam a atendê‑las?",
+ "entender": "Neste trecho, Jesus cura um homem mudo e endemoninhado, e as multidões ficam maravilhadas, enquanto os fariseus o acusam de agir pelo \"chefe dos demônios\" (v.34). Em seguida, Ele percorre cidades e aldeias, ensinando, pregando o Evangelho do Reino e curando doenças (v.35). Ao ver as multidões cansadas e desamparadas, Ele sente compaixão, comparando‑as a ovelhas sem pastor (v.36). Então declara aos discípulos: \"A colheita é grande, porém os trabalhadores são poucos\" (v.37) e os instrui a rogar ao Senhor da colheita por mais trabalhadores (v.38). O contexto mostra Jesus realizando ministério de cura e ensino, despertando admiração e oposição, e culmina na necessidade de mais discípulos para a missão.\n\nA passagem destaca duas ideias centrais: a compaixão de Cristo pelas pessoas cansadas e a urgência de responder ao chamado de servir. O versículo 37 usa a metáfora da colheita para ilustrar que há muitas almas prontas para receber o evangelho, mas poucos que se dedicam a anunciá‑lo. Por fim, o convite à oração (v.38) aponta que o crescimento do Reino depende da ação de Deus ao enviar trabalhadores.",
+ "ligar": {
+  "texto": "Jesus demonstra o coração do Reino ao curar e ensinar, mostrando que o evangelho traz restauração física e espiritual. Sua compaixão pelas \"ovelhas sem pastor\" revela que Ele veio para ser o Pastor que guia e protege. Quando fala da colheita, Ele está falando da obra de alcançar pessoas com a boa nova da salvação, que culmina na fé em Cristo. A instrução para rogar ao Senhor da colheita reforça que o crescimento da igreja depende da graça de Deus enviando mais discípulos, apontando diretamente ao plano redentor de Jesus.",
+  "selo": true
+ },
+ "viver": "Ao observar que há muitas necessidades ao nosso redor – pessoas cansadas, doentes ou sem direção – podemos responder como Jesus: com compaixão prática. Isso pode significar visitar um vizinho solitário, oferecer ajuda a quem está sobrecarregado ou participar de um ministério que leva o evangelho a quem ainda não o conhece. Também somos chamados a orar por mais trabalhadores, pedindo a Deus que desperte em nós e em outros o desejo de servir, e, se possível, nos disponibilizarmos a ser esses trabalhadores na colheita que nos cerca.",
+ "guarde": "A colheita é grande; responda ao chamado de ser um trabalhador para o Reino.",
+ "ore": "Jesus curou o mudo e mostrou compaixão; Senhor, ajuda-me a ver as necessidades ao meu redor e a responder com amor, pedindo que envie mais trabalhadores para a colheita.",
+ "quiz": {
+  "pergunta": "O que Jesus disse sobre a colheita?",
+  "opcoes": [
+   "É grande e há muitos trabalhadores",
+   "É pequena, mas há muitos trabalhadores",
+   "É grande, mas os trabalhadores são poucos"
+  ],
+  "certa": 2,
+  "explicacao": "Jesus declarou que a colheita é grande e que há poucos trabalhadores (Mateus 9:37), enfatizando a necessidade de mais discípulos."
+ },
+ "refs": [
+  "Lucas 10:2",
+  "João 10:11",
+  "Mateus 28:19-20",
+  "2 Coríntios 9:8"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-26T14:59:20.974Z",
+  "rounds": 1
+ }
+}

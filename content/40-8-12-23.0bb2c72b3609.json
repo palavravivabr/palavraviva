@@ -1,0 +1,146 @@
+{
+ "id": "40-8-12-23",
+ "ref": "Mateus 8:12-23",
+ "book": "40",
+ "chapter": 8,
+ "verses": [
+  {
+   "n": 12,
+   "t": "Os filhos do reino, porém, serão lançados nas trevas de fora; ali haverá pranto e ranger de dentes."
+  },
+  {
+   "n": 13,
+   "t": "Então Jesus disse ao centurião: Vai, e assim como creste, a ti seja feito.E naquela mesma hora o servo dele foi sarado."
+  },
+  {
+   "n": 14,
+   "t": "E quando Jesus veio à casa de Pedro, viu a sogra dele, deitada e com febre."
+  },
+  {
+   "n": 15,
+   "t": "Ele tocou a mão dela, e a febre a deixou. Então ela se levantou e começou a servi-los."
+  },
+  {
+   "n": 16,
+   "t": "Quando chegou o anoitecer, trouxeram-lhe muitos endemoninhados. Ele expulsou-lhes os espíritos com a palavra, e curou todos os que estavam doentes,"
+  },
+  {
+   "n": 17,
+   "t": "Para que se cumprisse o que havia sido dito pelo profeta Isaías, que disse: Ele tomou sobre si as nossas enfermidades, e levou as nossas doenças. Isaías 53:4"
+  },
+  {
+   "n": 18,
+   "t": "E Jesus, ao ver muitas multidões ao redor de si, mandou que passassem para a outra margem."
+  },
+  {
+   "n": 19,
+   "t": "Então um escriba se aproximou, e disse-lhe: Mestre, eu te seguirei aonde quer que fores."
+  },
+  {
+   "n": 20,
+   "t": "Jesus lhe respondeu: As raposas têm covis, e as aves do céu ninhos; mas o Filho do homem não tem onde recostar a cabeça."
+  },
+  {
+   "n": 21,
+   "t": "E outro dos seus discípulos lhe disse: Senhor, permite-me ir primeiro enterrar meu pai."
+  },
+  {
+   "n": 22,
+   "t": "Porém Jesus lhe disse: Segue-me, e deixa aos mortos enterrarem seus mortos."
+  },
+  {
+   "n": 23,
+   "t": "Então ele entrou no barco, e seus discípulos o seguiram."
+  }
+ ],
+ "titulo": "O custo real de seguir Jesus",
+ "temas": [
+  "discipulado",
+  "prioridades",
+  "fé",
+  "obediência",
+  "custo"
+ ],
+ "pergunta": "O que você está disposto a deixar para trás para seguir Jesus de verdade?",
+ "entender": "Neste trecho, Jesus responde a dois homens que se propõem a segui-lo. Um escriba diz que o seguirá aonde quer que for, mas Jesus responde com uma imagem marcante: \"o Filho do homem não tem onde recostar a cabeça\" (Mt 8.20). Ele mostra que ser discípulo não é um clube de status, mas uma vida de dependência total de Deus, sem conforto garantido.\n\nOutro pede permissão para enterrar seu pai primeiro. Jesus responde com firmeza: \"Segue-me, e deixa aos mortos enterrarem seus mortos\" (Mt 8.22). Isso não é falta de compaixão, mas uma ênfase na urgência do Reino. A lealdade a Cristo deve vir antes de todas as outras obrigações, mesmo as familiares. Jesus também cura a sogra de Pedro e muitos endemoninhados, confirmando que seu poder está ativo, mas que seguir a ele exige uma decisão radical.",
+ "ligar": {
+  "texto": "Este texto revela o caráter de Jesus como Senhor absoluto. Ele não busca seguidores para si mesmo, mas para o Reino. A cura da sogra de Pedro e dos doentes mostra a misericórdia de Cristo, mas a resposta aos pretendentes a discípulos mostra a exigência do evangelho: a salvação é pela graça, mas a discipulagem exige a entrega da vontade própria. Jesus é o caminho, e seguir a ele significa renunciar ao controle da própria vida.",
+  "selo": true
+ },
+ "viver": "A resposta de Jesus ao escriba mostra que seguir a Ele não garante conforto físico, mas segurança espiritual. Ao ver que Jesus não tem onde recostar a cabeça, percebemos que a prioridade do discípulo não é acumular bens, mas confiar no provedor. Talvez você esteja segurando em planos que impedem sua obediência imediata. A pergunta prática é: o que você precisa soltar agora para que Jesus seja o centro da sua agenda? A resposta pode ser dolorosa, mas é necessária para uma fé autêntica.",
+ "guarde": "Seguir Jesus exige que o primeiro lugar no seu coração seja dEle, acima de qualquer outra prioridade.",
+ "ore": "Jesus, Tu que não tens onde recostar a cabeça, ensina-me a depender de Ti e não de meus próprios recursos. Mostra-me o que preciso soltar para Te seguir de todo o coração. Dá-me coragem para priorizar o Reino acima de tudo.",
+ "quiz": {
+  "pergunta": "O que Jesus respondeu ao escriba que disse que o seguiria aonde quer que fosse?",
+  "opcoes": [
+   "Que ele deveria levar seus bens consigo",
+   "Que ele precisava estudar mais antes de seguir",
+   "Que o Filho do homem não tem onde recostar a cabeça"
+  ],
+  "certa": 2,
+  "explicacao": "Jesus usa a imagem de não ter onde recostar a cabeça para mostrar a vida itinerante e dependente de Deus que seus discípulos teriam, contrastando com a segurança material."
+ },
+ "refs": [
+  "Lucas 9:57-62",
+  "Marcos 10:28-31",
+  "Mateus 10:37-39"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-26T15:08:03.577Z",
+  "rounds": 3
+ }
+}
