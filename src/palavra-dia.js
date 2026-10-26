@@ -144,6 +144,12 @@
     var cap = (liv === 'Salmos' ? '' : ' capítulo') + ' ' + e.c;
     return liv + cap + ', ' + (e.ate > e.v ? 'versículos ' + e.v + ' ao ' + e.ate : 'versículo ' + e.v);
   }
+  /* texto curto da notificação diária: trecho do versículo + referência + convite */
+  function notificacao(e, idx) {
+    var t = String(e.texto), max = 110;
+    if (t.length > max) { var c = t.slice(0, max); var i = c.lastIndexOf(' '); t = c.slice(0, i > 60 ? i : max).replace(/[ ,;:.!?]+$/, '') + '…'; }
+    return { titulo: 'Sua Palavra do Dia chegou!', corpo: '“' + t + '” — ' + e.ref + String.fromCharCode(10) + 'Toque para ler a mensagem completa', url: './?pdia=' + idx };
+  }
   function roteiro(e) {
     return ['Palavra do dia.', refFalada(e) + '.', e.texto, 'Reflexão.', e.reflexao, 'Oração.', e.oracao, 'Amém.'].join(' ');
   }
@@ -295,8 +301,8 @@
   function el(tag, cls, txt) { var n = document.createElement(tag); if (cls) n.className = cls; if (txt != null) n.textContent = txt; return n; }
   function botao(txt, fn, cls) { var b = el('button', cls || 'pdbt', txt); b.type = 'button'; b.addEventListener('click', fn); return b; }
   var CSS = '.pdhero{position:fixed;top:0;bottom:0;left:0;right:0;width:min(100vw,480px);height:100vh;height:100dvh;margin:0 auto;border-radius:0;overflow:hidden;background:#000;z-index:99999}' +
-    '.pdbg{position:absolute;inset:0;background-size:cover;background-repeat:no-repeat;transform-origin:60% 55%;animation:pdzoom 28s ease-in-out infinite alternate}' +
-    '@keyframes pdzoom{from{transform:scale(1)}to{transform:scale(1.22)}}@media (prefers-reduced-motion:reduce){.pdbg{animation:none}}' +
+    '.pdbg{position:absolute;inset:0;background-size:cover;background-repeat:no-repeat;transform-origin:60% 55%;animation:pdzoom 18s ease-in-out infinite alternate;will-change:transform}.pdbg.o{animation-name:pdzoomo}' +
+    '@keyframes pdzoom{from{transform:scale(1)}to{transform:scale(1.3) translate(-2%,-1.5%)}}@keyframes pdzoomo{from{transform:scale(1.3) translate(-2%,-1.5%)}to{transform:scale(1)}}@media (prefers-reduced-motion:reduce){.pdbg{animation-duration:60s}}' +
     '.pdsh{position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,.5),rgba(0,0,0,.05) 30%,rgba(0,0,0,.2) 55%,rgba(0,0,0,.75))}' +
     '.pdtop{position:absolute;top:16px;left:0;right:0;text-align:center;color:#f3d98b}.pdtop b{display:block;font:600 12px/1 sans-serif;letter-spacing:.14em;text-transform:uppercase}' +
     '.pdtop span{display:block;margin-top:8px;color:#fff;font:700 18px Georgia,serif;text-shadow:0 2px 8px rgba(0,0,0,.7)}' +
@@ -333,7 +339,7 @@
     var w = el('div', 'pdw'), idx = DADOS.indexOf(e);
     var im = (idx < 0 ? 0 : idx) % IMGS.length, hero = el('div', 'pdhero'), bg = el('div', 'pdbg'), top = el('div', 'pdtop'), lab = el('b', null, 'Palavra do Dia'), cap = el('div', 'pdcap fx', e.texto);
     var gravada = !!(VOZ_FARBER && typeof Audio !== 'undefined' && typeof caches !== 'undefined');
-    bg.style.backgroundImage = 'url(' + IMGS[im] + ')'; bg.style.backgroundPosition = POS[im]; hero.setAttribute('aria-label', 'Palavra do Dia: imagem de paz e esperança.');
+    if (im % 2) bg.classList.add('o'); bg.style.backgroundImage = 'url(' + IMGS[im] + ')'; bg.style.backgroundPosition = POS[im]; hero.setAttribute('aria-label', 'Palavra do Dia: imagem de paz e esperança.');
     top.appendChild(lab); top.appendChild(el('span', null, e.ref));
     var play = botao('▶', alternar, 'pdbt pdplay'); play.setAttribute('aria-label', 'Ouvir');
     var seek = el('input', 'pdseek'); seek.type = 'range'; seek.min = 0; seek.max = 1000; seek.value = 0; seek.setAttribute('aria-label', 'Progresso do áudio');
@@ -392,6 +398,7 @@
   }
 
   /* o cartão entra no carrossel de estudos que já existe; o conteúdo completo só abre ao tocar */
+  function abrirIdx(i) { abrir(DADOS[i] || undefined); }
   function montar() {
     if (typeof document === 'undefined' || document.getElementById('cardPdia')) return;
     if (!window.PVApp) return; /* sem os ganchos do app, a Home fica exatamente como era */
@@ -404,11 +411,21 @@
     c.appendChild(el('strong', null, 'Uma mensagem para fortalecer sua fé')); c.appendChild(el('small', null, 'Toque para abrir'));
     c.addEventListener('click', function () { abrir(); });
     rail.insertBefore(c, rail.firstChild);
+    /* cada cartão do carrossel recebe uma foto diferente (rodízio diário); com 4 fotos e 4 cartões, nenhuma se repete */
+    var d0 = indiceDoDia(undefined, DADOS.length);
+    [].forEach.call(rail.querySelectorAll('.pcard'), function (n, k) { n.style.setProperty('--img', 'url(' + IMGS[(d0 + k) % IMGS.length] + ')'); });
+    var mq = /[?&]pdia=([0-9]+)/.exec(location.search);
+    if (mq) { /* aberto pelo toque na notificação: espera a abertura do app e mostra o trecho anunciado */
+      var tent = 0, ti = setInterval(function () {
+        var sp = document.getElementById('splash');
+        if ((sp && sp.classList.contains('off')) || ++tent > 30) { clearInterval(ti); try { history.replaceState(history.state, '', location.pathname); } catch (x) { /* ok */ } abrirIdx(+mq[1]); }
+      }, 300);
+    }
     window.addEventListener('popstate', function () { parar(); });
     window.addEventListener('pagehide', function () { parar(); });
   }
   if (typeof document !== 'undefined') {
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', montar); else montar();
   }
-  return { dados: DADOS, indiceDoDia: indiceDoDia, doDia: doDia, roteiro: roteiro, textoParaCompartilhar: textoParaCompartilhar };
+  return { dados: DADOS, indiceDoDia: indiceDoDia, doDia: doDia, roteiro: roteiro, notificacao: notificacao, abrirIdx: abrirIdx, textoParaCompartilhar: textoParaCompartilhar };
 });

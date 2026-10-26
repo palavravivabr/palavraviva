@@ -3,7 +3,7 @@
    - cache antigo só é apagado na ativação do novo, e só chaves com prefixo pv4-;
    - sw.js e content-manifest.json sempre da rede (no-store); cache só como reserva offline;
    - __SHELL_HASH__ é trocado no deploy pelo hash dos arquivos do app: só muda quando o app muda. */
-importScripts('src/core.js');
+importScripts('src/core.js', 'src/palavra-dia.js');
 const VERSION = '__SHELL_HASH__';
 const SHELL = 'pv4-shell-' + VERSION;
 const CONTENT = 'pv4-content';
@@ -51,6 +51,40 @@ self.addEventListener('activate', function (event) {
 
 self.addEventListener('message', function (event) {
   if (event.data && event.data.type === 'SKIP_WAITING') self.skipWaiting();
+  if (event.data && event.data.type === 'LEMBRETE_CHECAR') event.waitUntil(avisarSePreciso());
+});
+
+/* Lembrete diário da Palavra do Dia. Sem servidor: a preferência fica no aparelho (cache "pvlembrete", fora do prefixo pv4-)
+   e o aviso sai quando o Android acorda o app (periodicsync) ou quando o app está aberto na hora marcada. */
+async function lerLembrete() {
+  try { const c = await caches.open('pvlembrete'); const r = await c.match('lembrete'); return r ? await r.json() : null; } catch (e) { return null; }
+}
+async function gravarLembrete(p) {
+  const c = await caches.open('pvlembrete');
+  await c.put('lembrete', new Response(JSON.stringify(p), { headers: { 'content-type': 'application/json' } }));
+}
+async function avisarSePreciso() {
+  const p = await lerLembrete();
+  if (!p || !p.on || typeof Notification === 'undefined' || Notification.permission !== 'granted') return;
+  const agora = new Date(), hm = String(p.hora || '07:00').split(':'), alvo = (+hm[0] || 0) * 60 + (+hm[1] || 0);
+  const hoje = agora.getFullYear() + '-' + (agora.getMonth() + 1) + '-' + agora.getDate();
+  if (agora.getHours() * 60 + agora.getMinutes() < alvo || p.ultimo === hoje) return; /* ainda não é a hora, ou já avisou hoje */
+  p.ultimo = hoje; await gravarLembrete(p); /* grava antes de mostrar: evita aviso duplicado */
+  const D = self.PVPalavraDia, e = D.doDia(agora), n = D.notificacao(e, D.dados.indexOf(e));
+  await self.registration.showNotification(n.titulo, { body: n.corpo, icon: 'icons/icon-192.png', tag: 'pv-palavra-dia', lang: 'pt-BR', data: { url: n.url } });
+}
+self.addEventListener('periodicsync', function (event) {
+  if (event.tag === 'pv-pdia') event.waitUntil(avisarSePreciso());
+});
+self.addEventListener('notificationclick', function (event) {
+  event.notification.close();
+  const url = (event.notification.data && event.notification.data.url) || './';
+  event.waitUntil((async function () {
+    const cs = await self.clients.matchAll({ type: 'window', includeUncontrolled: true });
+    const m = /pdia=([0-9]+)/.exec(url);
+    for (const c of cs) { if (c.url.indexOf(self.registration.scope) === 0 && 'focus' in c) { await c.focus(); if (m) c.postMessage({ type: 'ABRIR_PDIA', idx: +m[1] }); return; } }
+    if (self.clients.openWindow) await self.clients.openWindow(url);
+  })());
 });
 
 async function networkFirst(req, cacheName, key) {

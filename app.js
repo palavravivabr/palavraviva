@@ -745,13 +745,76 @@
   function refreshInstall() { var b = $('#inst'); if (!b) return; b.textContent = isStandalone() ? '✓ Instalado' : 'Instalar app'; $('#instHint').hidden = isStandalone(); }
   window.addEventListener('beforeinstallprompt', function (e) { e.preventDefault(); deferred = e; refreshInstall(); });
   window.addEventListener('appinstalled', function () { deferred = null; toast('App instalado'); refreshInstall(); });
+  function isIOS() { var u = navigator.userAgent || ''; return /iPhone|iPad|iPod/.test(u) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1); }
   function installHelp() {
+    if (isIOS()) { /* o iOS não tem botão de instalar para sites: a instalação é feita pelo menu Compartilhar do Safari */
+      var outro = /CriOS|FxiOS|EdgiOS|OPiOS|GSA.|FBAN|FBAV|Instagram/.test(navigator.userAgent || '');
+      var nodes = [mtag('Instalar', true), h('h2', { text: 'Instalar no iPhone' }),
+        h('p', { text: 'No iPhone, o Palavra Viva é instalado pelo próprio Safari. Siga estes passos:' }),
+        h('ol', { style: 'padding-left:20px;margin:0 0 10px;line-height:1.6' }, [
+          h('li', {}, ['Toque no botão ', h('b', { text: 'Compartilhar' }), ' (o quadrado com uma seta para cima), na barra do Safari.']),
+          h('li', {}, ['Role a lista e toque em ', h('b', { text: 'Adicionar à Tela de Início' }), '. Se não aparecer, toque em ', h('b', { text: 'Ver mais' }), ' ou ', h('b', { text: 'Editar ações' }), '.']),
+          h('li', {}, ['Toque em ', h('b', { text: 'Adicionar' }), ', no canto superior direito.'])]),
+        h('p', { text: 'Pronto: o ícone do Palavra Viva aparece na tela de início e o app abre em tela cheia, funcionando sem internet.' })];
+      if (outro) nodes.push(h('p', { class: 'note', text: 'Você está em outro navegador. Se o botão Compartilhar não oferecer “Adicionar à Tela de Início”, abra este endereço no Safari e repita os passos.' }));
+      modal(nodes);
+      return;
+    }
     modal([mtag('Instalar', true), h('h2', { text: 'Instalar aplicativo' }),
       h('p', {}, ['No Android, abra o menu do Chrome (três pontos) e escolha ', h('b', { text: 'Instalar aplicativo' }), ' ou ', h('b', { text: 'Adicionar à tela inicial' }), '. Depois disso o Palavra Viva abre como um aplicativo e funciona sem internet.'])]);
   }
   function install() {
     if (isStandalone()) { toast('O app já está instalado.'); return; }
     if (deferred) { var d = deferred; deferred = null; d.prompt(); d.userChoice.then(refreshInstall, refreshInstall); } else installHelp();
+  }
+  /* ---------- lembrete diário da Palavra do Dia ---------- */
+  function lemInfo(t) { $('#lemInfo').textContent = t; }
+  function lemEstado() { return { on: lsGet('pv4-lem', '') === '1', hora: lsGet('pv4-lem-hora', '07:00') }; }
+  function lemPush(p) {
+    return navigator.serviceWorker.ready.then(function (reg) {
+      var c = reg.active; if (!c) return;
+      var n = new Date(), hm = p.hora.split(':'), hoje = n.getFullYear() + '-' + (n.getMonth() + 1) + '-' + n.getDate(), passou = n.getHours() * 60 + n.getMinutes() >= (+hm[0] || 0) * 60 + (+hm[1] || 0);
+      return caches.open('pvlembrete').then(function (ch) { return ch.put('lembrete', new Response(JSON.stringify({ on: p.on, hora: p.hora, ultimo: p.on && passou ? hoje : '' }), { headers: { 'content-type': 'application/json' } })); })
+        .then(function () { return reg.periodicSync ? (p.on ? reg.periodicSync.register('pv-pdia', { minInterval: 12 * 3600 * 1000 }) : reg.periodicSync.unregister('pv-pdia')) : null; });
+    });
+  }
+  var lemTimer = 0;
+  function lemAgendar() { /* com o app aberto, avisa na hora marcada */
+    clearTimeout(lemTimer); var p = lemEstado(); if (!p.on || !('Notification' in window) || Notification.permission !== 'granted') return;
+    var hm = p.hora.split(':'), t = new Date(); t.setHours(+hm[0] || 0, +hm[1] || 0, 0, 0); var ms = t - new Date();
+    if (ms > 0 && ms < 2147000000) lemTimer = setTimeout(function () { if (navigator.serviceWorker.controller) navigator.serviceWorker.controller.postMessage({ type: 'LEMBRETE_CHECAR' }); }, ms + 500);
+  }
+  function lemPintar() {
+    var p = lemEstado(), sw = $('#lemSw'), ok = 'serviceWorker' in navigator && 'Notification' in window && !isIOS();
+    sw.setAttribute('aria-checked', String(p.on && ok)); $('#lemHora').value = p.hora;
+    if (isIOS()) { sw.disabled = true; $('#lemHora').disabled = true; lemInfo('No iPhone, a Apple só permite avisos de sites por meio de um servidor de envio, que este app não usa (ele não coleta dados). Por isso o lembrete não está disponível no iPhone. Você pode abrir a Palavra do Dia pelo app a qualquer momento.'); return; }
+    if (!ok) { sw.disabled = true; $('#lemHora').disabled = true; lemInfo('Este navegador não permite lembretes.'); return; }
+    if (Notification.permission === 'denied') { lemInfo('As notificações deste app estão bloqueadas nas configurações do aparelho. Libere-as nas configurações do Android para usar o lembrete.'); return; }
+    lemInfo(p.on ? 'Ativo. O Android decide o instante exato do aviso e pode atrasá-lo; funciona com o app instalado na tela inicial.' : 'Receba um convite diário, com um trecho do versículo, para ler a Palavra do Dia. Sem som próprio e sem coleta de dados.');
+  }
+  function lemLigar() {
+    modal([mtag('Lembrete diário', true), h('h2', { text: 'Receber a Palavra do Dia' }),
+      h('p', { text: 'Para avisar você, o Android precisa da sua permissão para mostrar notificações. Você receberá no máximo uma por dia, com um trecho do versículo e a referência. Pode desligar quando quiser.' }),
+      h('button', { class: 'big', type: 'button', text: 'Permitir lembrete', onclick: function () {
+        Notification.requestPermission().then(function (r) {
+          closeOverlay();
+          if (r !== 'granted') { toast('Sem permissão, o lembrete não pode ser ativado.'); lemPintar(); return; }
+          lsSet('pv4-lem', '1'); var p = lemEstado();
+          lemPush(p).then(function () { toast('Lembrete ativado'); }, function () { toast('Instale o app na tela inicial para receber o lembrete.'); lsSet('pv4-lem', ''); lemPush({ on: false, hora: p.hora }).catch(function () { /* ok */ }); lemPintar(); });
+          lemAgendar(); lemPintar();
+        });
+      } })]);
+  }
+  function lemBind() {
+    $('#lemSw').addEventListener('click', function () {
+      if (lemEstado().on) { lsSet('pv4-lem', ''); lemPush({ on: false, hora: lemEstado().hora }).catch(function () { /* ok */ }); clearTimeout(lemTimer); lemPintar(); toast('Lembrete desligado'); return; }
+      if (Notification.permission === 'granted') { lsSet('pv4-lem', '1'); var p = lemEstado(); lemPush(p).then(function () { toast('Lembrete ativado'); }, function () { toast('Instale o app na tela inicial para receber o lembrete.'); lsSet('pv4-lem', ''); lemPintar(); }); lemAgendar(); lemPintar(); }
+      else if (Notification.permission === 'default') lemLigar();
+      else lemPintar();
+    });
+    $('#lemHora').addEventListener('change', function () { var v = $('#lemHora').value; if (!/^[0-9][0-9]:[0-9][0-9]$/.test(v)) return; lsSet('pv4-lem-hora', v); if (lemEstado().on) { lemPush(lemEstado()).catch(function () { /* ok */ }); lemAgendar(); toast('Horário atualizado'); } });
+    if ('serviceWorker' in navigator) navigator.serviceWorker.addEventListener('message', function (e) { if (e.data && e.data.type === 'ABRIR_PDIA' && window.PVPalavraDia) window.PVPalavraDia.abrirIdx(e.data.idx); });
+    lemPintar(); lemAgendar();
   }
   var APP_NAME = 'Palavra Viva – Aprendendo as Escrituras';
   function baseUrl() { return cfg.siteUrl || (location.origin + location.pathname); }
@@ -1012,11 +1075,7 @@
     $('#fsz').addEventListener('click', function (e) { var s = e.target.closest('button'); if (!s) return; lsSet('pv4-fs', s.dataset.s); applyAppearance(); });
     function tamLetra(e) { var v = parseFloat(e.target.value); if (!(v >= 1 && v <= 1.5)) return; lsSet('pv4-fs', String(v)); applyAppearance(); }
     $('#fsRead').addEventListener('input', tamLetra); $('#fsRange').addEventListener('input', tamLetra);
-    var pal = $('#palPop'), palBtn = $('#palTop');
-    function palFechar() { pal.hidden = true; palBtn.setAttribute('aria-expanded', 'false'); }
-    palBtn.addEventListener('click', function () { pal.hidden = !pal.hidden; palBtn.setAttribute('aria-expanded', String(!pal.hidden)); });
-    pal.addEventListener('click', function (e) { var b = e.target.closest('button'); if (!b) return; lsSet('pv4-cor', b.dataset.c); applyAppearance(); palFechar(); });
-    document.addEventListener('click', function (e) { if (!pal.hidden && !pal.contains(e.target) && !palBtn.contains(e.target)) palFechar(); });
+    $('#palPop').addEventListener('click', function (e) { var b = e.target.closest('button'); if (!b) return; lsSet('pv4-cor', b.dataset.c); applyAppearance(); });
     $('#thm').addEventListener('click', function (e) { var s = e.target.closest('button'); if (!s) return; lsSet('pv4-theme', s.dataset.m); applyAppearance(); });
     matchMedia('(prefers-color-scheme: dark)').addEventListener('change', applyAppearance);
     $('#inst').addEventListener('click', install); $('#shr').addEventListener('click', share);
@@ -1074,7 +1133,7 @@
     }, 5000);
   }
   (async function start() {
-    applyAppearance(); bindStatic(); refreshInstall();
+    applyAppearance(); bindStatic(); refreshInstall(); lemBind();
     setupSW();
     /* abre na hora com o que já está guardado no aparelho; a internet só atualiza por trás */
     var stored = null;
