@@ -1,0 +1,230 @@
+diff --git a/app.js b/app.js
+index 285936f..094e6a7 100644
+--- a/app.js
++++ b/app.js
+@@ -747,3 +747,17 @@
+   window.addEventListener('appinstalled', function () { deferred = null; toast('App instalado'); refreshInstall(); });
++  function isIOS() { var u = navigator.userAgent || ''; return /iPhone|iPad|iPod/.test(u) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1); }
+   function installHelp() {
++    if (isIOS()) { /* o iOS não tem botão de instalar para sites: a instalação é feita pelo menu Compartilhar do Safari */
++      var outro = /CriOS|FxiOS|EdgiOS|OPiOS|GSA.|FBAN|FBAV|Instagram/.test(navigator.userAgent || '');
++      var nodes = [mtag('Instalar', true), h('h2', { text: 'Instalar no iPhone' }),
++        h('p', { text: 'No iPhone, o Palavra Viva é instalado pelo próprio Safari. Siga estes passos:' }),
++        h('ol', { style: 'padding-left:20px;margin:0 0 10px;line-height:1.6' }, [
++          h('li', {}, ['Toque no botão ', h('b', { text: 'Compartilhar' }), ' (o quadrado com uma seta para cima), na barra do Safari.']),
++          h('li', {}, ['Role a lista e toque em ', h('b', { text: 'Adicionar à Tela de Início' }), '. Se não aparecer, toque em ', h('b', { text: 'Ver mais' }), ' ou ', h('b', { text: 'Editar ações' }), '.']),
++          h('li', {}, ['Toque em ', h('b', { text: 'Adicionar' }), ', no canto superior direito.'])]),
++        h('p', { text: 'Pronto: o ícone do Palavra Viva aparece na tela de início e o app abre em tela cheia, funcionando sem internet.' })];
++      if (outro) nodes.push(h('p', { class: 'note', text: 'Você está em outro navegador. Se o botão Compartilhar não oferecer “Adicionar à Tela de Início”, abra este endereço no Safari e repita os passos.' }));
++      modal(nodes);
++      return;
++    }
+     modal([mtag('Instalar', true), h('h2', { text: 'Instalar aplicativo' }),
+@@ -755,2 +769,51 @@
+   }
++  /* ---------- lembrete diário da Palavra do Dia ---------- */
++  function lemInfo(t) { $('#lemInfo').textContent = t; }
++  function lemEstado() { return { on: lsGet('pv4-lem', '') === '1', hora: lsGet('pv4-lem-hora', '07:00') }; }
++  function lemPush(p) {
++    return navigator.serviceWorker.ready.then(function (reg) {
++      var c = reg.active; if (!c) return;
++      var n = new Date(), hm = p.hora.split(':'), hoje = n.getFullYear() + '-' + (n.getMonth() + 1) + '-' + n.getDate(), passou = n.getHours() * 60 + n.getMinutes() >= (+hm[0] || 0) * 60 + (+hm[1] || 0);
++      return caches.open('pvlembrete').then(function (ch) { return ch.put('lembrete', new Response(JSON.stringify({ on: p.on, hora: p.hora, ultimo: p.on && passou ? hoje : '' }), { headers: { 'content-type': 'application/json' } })); })
++        .then(function () { return reg.periodicSync ? (p.on ? reg.periodicSync.register('pv-pdia', { minInterval: 12 * 3600 * 1000 }) : reg.periodicSync.unregister('pv-pdia')) : null; });
++    });
++  }
++  var lemTimer = 0;
++  function lemAgendar() { /* com o app aberto, avisa na hora marcada */
++    clearTimeout(lemTimer); var p = lemEstado(); if (!p.on || !('Notification' in window) || Notification.permission !== 'granted') return;
++    var hm = p.hora.split(':'), t = new Date(); t.setHours(+hm[0] || 0, +hm[1] || 0, 0, 0); var ms = t - new Date();
++    if (ms > 0 && ms < 2147000000) lemTimer = setTimeout(function () { if (navigator.serviceWorker.controller) navigator.serviceWorker.controller.postMessage({ type: 'LEMBRETE_CHECAR' }); }, ms + 500);
++  }
++  function lemPintar() {
++    var p = lemEstado(), sw = $('#lemSw'), ok = 'serviceWorker' in navigator && 'Notification' in window && !isIOS();
++    sw.setAttribute('aria-checked', String(p.on && ok)); $('#lemHora').value = p.hora;
++    if (isIOS()) { sw.disabled = true; $('#lemHora').disabled = true; lemInfo('No iPhone, a Apple só permite avisos de sites por meio de um servidor de envio, que este app não usa (ele não coleta dados). Por isso o lembrete não está disponível no iPhone. Você pode abrir a Palavra do Dia pelo app a qualquer momento.'); return; }
++    if (!ok) { sw.disabled = true; $('#lemHora').disabled = true; lemInfo('Este navegador não permite lembretes.'); return; }
++    if (Notification.permission === 'denied') { lemInfo('As notificações deste app estão bloqueadas nas configurações do aparelho. Libere-as nas configurações do Android para usar o lembrete.'); return; }
++    lemInfo(p.on ? 'Ativo. O Android decide o instante exato do aviso e pode atrasá-lo; funciona com o app instalado na tela inicial.' : 'Receba um convite diário, com um trecho do versículo, para ler a Palavra do Dia. Sem som próprio e sem coleta de dados.');
++  }
++  function lemLigar() {
++    modal([mtag('Lembrete diário', true), h('h2', { text: 'Receber a Palavra do Dia' }),
++      h('p', { text: 'Para avisar você, o Android precisa da sua permissão para mostrar notificações. Você receberá no máximo uma por dia, com um trecho do versículo e a referência. Pode desligar quando quiser.' }),
++      h('button', { class: 'big', type: 'button', text: 'Permitir lembrete', onclick: function () {
++        Notification.requestPermission().then(function (r) {
++          closeOverlay();
++          if (r !== 'granted') { toast('Sem permissão, o lembrete não pode ser ativado.'); lemPintar(); return; }
++          lsSet('pv4-lem', '1'); var p = lemEstado();
++          lemPush(p).then(function () { toast('Lembrete ativado'); }, function () { toast('Instale o app na tela inicial para receber o lembrete.'); lsSet('pv4-lem', ''); lemPush({ on: false, hora: p.hora }).catch(function () { /* ok */ }); lemPintar(); });
++          lemAgendar(); lemPintar();
++        });
++      } })]);
++  }
++  function lemBind() {
++    $('#lemSw').addEventListener('click', function () {
++      if (lemEstado().on) { lsSet('pv4-lem', ''); lemPush({ on: false, hora: lemEstado().hora }).catch(function () { /* ok */ }); clearTimeout(lemTimer); lemPintar(); toast('Lembrete desligado'); return; }
++      if (Notification.permission === 'granted') { lsSet('pv4-lem', '1'); var p = lemEstado(); lemPush(p).then(function () { toast('Lembrete ativado'); }, function () { toast('Instale o app na tela inicial para receber o lembrete.'); lsSet('pv4-lem', ''); lemPintar(); }); lemAgendar(); lemPintar(); }
++      else if (Notification.permission === 'default') lemLigar();
++      else lemPintar();
++    });
++    $('#lemHora').addEventListener('change', function () { var v = $('#lemHora').value; if (!/^[0-9][0-9]:[0-9][0-9]$/.test(v)) return; lsSet('pv4-lem-hora', v); if (lemEstado().on) { lemPush(lemEstado()).catch(function () { /* ok */ }); lemAgendar(); toast('Horário atualizado'); } });
++    if ('serviceWorker' in navigator) navigator.serviceWorker.addEventListener('message', function (e) { if (e.data && e.data.type === 'ABRIR_PDIA' && window.PVPalavraDia) window.PVPalavraDia.abrirIdx(e.data.idx); });
++    lemPintar(); lemAgendar();
++  }
+   var APP_NAME = 'Palavra Viva – Aprendendo as Escrituras';
+@@ -1072,3 +1135,3 @@
+   (async function start() {
+-    applyAppearance(); bindStatic(); refreshInstall();
++    applyAppearance(); bindStatic(); refreshInstall(); lemBind();
+     setupSW();
+diff --git a/index.html b/index.html
+index 8d4d7e6..73d5070 100644
+--- a/index.html
++++ b/index.html
+@@ -22,2 +22,5 @@
+ <link rel="apple-touch-icon" href="icons/icon-192.png">
++<meta name="apple-mobile-web-app-capable" content="yes">
++<meta name="mobile-web-app-capable" content="yes">
++<meta name="apple-mobile-web-app-title" content="Palavra Viva">
+ <link rel="stylesheet" href="styles.css">
+@@ -129,2 +132,4 @@
+       <div class="srow palrow"><span class="pall"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a9 9 0 1 0 0 18c1.1 0 1.8-.9 1.5-1.9-.3-1 .3-2.1 1.4-2.1H17a4 4 0 0 0 4-4c0-5-4-10-9-10Z"/><circle cx="7.5" cy="11" r="1"/><circle cx="10" cy="7" r="1"/><circle cx="15" cy="7.5" r="1"/></svg>Cor do aplicativo</span><span class="pal" id="palPop" role="group" aria-label="Cor do aplicativo"><button type="button" data-c="" aria-pressed="false" aria-label="Padrão" title="Padrão" class="def"></button><button type="button" data-c="#8876A8" aria-pressed="false" aria-label="Lilás suave" title="Lilás suave" style="background:#8876A8"></button><button type="button" data-c="#7893B0" aria-pressed="false" aria-label="Azul acinzentado" title="Azul acinzentado" style="background:#7893B0"></button><button type="button" data-c="#819989" aria-pressed="false" aria-label="Verde sálvia" title="Verde sálvia" style="background:#819989"></button><button type="button" data-c="#B58F98" aria-pressed="false" aria-label="Rosa antigo" title="Rosa antigo" style="background:#B58F98"></button><button type="button" data-c="#B09B70" aria-pressed="false" aria-label="Dourado fosco" title="Dourado fosco" style="background:#B09B70"></button><button type="button" data-c="#777777" aria-pressed="false" aria-label="Grafite" title="Grafite" style="background:#777777"></button></span></div>
++      <div class="srow"><span style="white-space:nowrap">Lembrete diário</span><span style="display:flex;align-items:center;gap:10px"><input type="time" id="lemHora" value="07:00" aria-label="Horário do lembrete" style="min-height:40px;width:112px;border-radius:12px;border:1px solid var(--line);background:var(--paper);color:var(--text);font:inherit;padding:0 6px"><button class="sw" id="lemSw" type="button" role="switch" aria-checked="false" aria-label="Lembrete diário da Palavra do Dia"><i></i></button></span></div>
++      <p class="hint" id="lemInfo"></p>
+       <button class="srow" type="button" id="verbtn"><span>Tradução bíblica</span><small id="verSmall"></small></button>
+diff --git a/src/palavra-dia.js b/src/palavra-dia.js
+index 9af629c..8464052 100644
+--- a/src/palavra-dia.js
++++ b/src/palavra-dia.js
+@@ -146,2 +146,8 @@
+   }
++  /* texto curto da notificação diária: trecho do versículo + referência + convite */
++  function notificacao(e, idx) {
++    var t = String(e.texto), max = 110;
++    if (t.length > max) { var c = t.slice(0, max); var i = c.lastIndexOf(' '); t = c.slice(0, i > 60 ? i : max).replace(/[ ,;:.!?]+$/, '') + '…'; }
++    return { titulo: 'Sua Palavra do Dia chegou!', corpo: '“' + t + '” — ' + e.ref + String.fromCharCode(10) + 'Toque para ler a mensagem completa', url: './?pdia=' + idx };
++  }
+   function roteiro(e) {
+@@ -394,2 +400,3 @@
+   /* o cartão entra no carrossel de estudos que já existe; o conteúdo completo só abre ao tocar */
++  function abrirIdx(i) { abrir(DADOS[i] || undefined); }
+   function montar() {
+@@ -409,2 +416,9 @@
+     [].forEach.call(rail.querySelectorAll('.pcard'), function (n, k) { n.style.setProperty('--img', 'url(' + IMGS[(d0 + k) % IMGS.length] + ')'); });
++    var mq = /[?&]pdia=([0-9]+)/.exec(location.search);
++    if (mq) { /* aberto pelo toque na notificação: espera a abertura do app e mostra o trecho anunciado */
++      var tent = 0, ti = setInterval(function () {
++        var sp = document.getElementById('splash');
++        if ((sp && sp.classList.contains('off')) || ++tent > 30) { clearInterval(ti); try { history.replaceState(history.state, '', location.pathname); } catch (x) { /* ok */ } abrirIdx(+mq[1]); }
++      }, 300);
++    }
+     window.addEventListener('popstate', function () { parar(); });
+@@ -415,3 +429,3 @@
+   }
+-  return { dados: DADOS, indiceDoDia: indiceDoDia, doDia: doDia, roteiro: roteiro, textoParaCompartilhar: textoParaCompartilhar };
++  return { dados: DADOS, indiceDoDia: indiceDoDia, doDia: doDia, roteiro: roteiro, notificacao: notificacao, abrirIdx: abrirIdx, textoParaCompartilhar: textoParaCompartilhar };
+ });
+diff --git a/sw.js b/sw.js
+index a36a152..171b192 100644
+--- a/sw.js
++++ b/sw.js
+@@ -5,3 +5,3 @@
+    - __SHELL_HASH__ é trocado no deploy pelo hash dos arquivos do app: só muda quando o app muda. */
+-importScripts('src/core.js');
++importScripts('src/core.js', 'src/palavra-dia.js');
+ const VERSION = '__SHELL_HASH__';
+@@ -53,2 +53,36 @@ self.addEventListener('message', function (event) {
+   if (event.data && event.data.type === 'SKIP_WAITING') self.skipWaiting();
++  if (event.data && event.data.type === 'LEMBRETE_CHECAR') event.waitUntil(avisarSePreciso());
++});
++
++/* Lembrete diário da Palavra do Dia. Sem servidor: a preferência fica no aparelho (cache "pvlembrete", fora do prefixo pv4-)
++   e o aviso sai quando o Android acorda o app (periodicsync) ou quando o app está aberto na hora marcada. */
++async function lerLembrete() {
++  try { const c = await caches.open('pvlembrete'); const r = await c.match('lembrete'); return r ? await r.json() : null; } catch (e) { return null; }
++}
++async function gravarLembrete(p) {
++  const c = await caches.open('pvlembrete');
++  await c.put('lembrete', new Response(JSON.stringify(p), { headers: { 'content-type': 'application/json' } }));
++}
++async function avisarSePreciso() {
++  const p = await lerLembrete();
++  if (!p || !p.on || typeof Notification === 'undefined' || Notification.permission !== 'granted') return;
++  const agora = new Date(), hm = String(p.hora || '07:00').split(':'), alvo = (+hm[0] || 0) * 60 + (+hm[1] || 0);
++  const hoje = agora.getFullYear() + '-' + (agora.getMonth() + 1) + '-' + agora.getDate();
++  if (agora.getHours() * 60 + agora.getMinutes() < alvo || p.ultimo === hoje) return; /* ainda não é a hora, ou já avisou hoje */
++  p.ultimo = hoje; await gravarLembrete(p); /* grava antes de mostrar: evita aviso duplicado */
++  const D = self.PVPalavraDia, e = D.doDia(agora), n = D.notificacao(e, D.dados.indexOf(e));
++  await self.registration.showNotification(n.titulo, { body: n.corpo, icon: 'icons/icon-192.png', tag: 'pv-palavra-dia', lang: 'pt-BR', data: { url: n.url } });
++}
++self.addEventListener('periodicsync', function (event) {
++  if (event.tag === 'pv-pdia') event.waitUntil(avisarSePreciso());
++});
++self.addEventListener('notificationclick', function (event) {
++  event.notification.close();
++  const url = (event.notification.data && event.notification.data.url) || './';
++  event.waitUntil((async function () {
++    const cs = await self.clients.matchAll({ type: 'window', includeUncontrolled: true });
++    const m = /pdia=([0-9]+)/.exec(url);
++    for (const c of cs) { if (c.url.indexOf(self.registration.scope) === 0 && 'focus' in c) { await c.focus(); if (m) c.postMessage({ type: 'ABRIR_PDIA', idx: +m[1] }); return; } }
++    if (self.clients.openWindow) await self.clients.openWindow(url);
++  })());
+ });
+diff --git a/tests/lembrete.test.mjs b/tests/lembrete.test.mjs
+new file mode 100644
+index 0000000..d1cec39
+--- /dev/null
++++ b/tests/lembrete.test.mjs
+@@ -0,0 +1,52 @@
++import test from 'node:test';
++import assert from 'node:assert/strict';
++import fs from 'node:fs';
++import vm from 'node:vm';
++import { createRequire } from 'node:module';
++const require = createRequire(import.meta.url);
++const PD = require('../src/palavra-dia.js');
++
++test('a notificação traz título, trecho curto, referência e convite', () => {
++  PD.dados.forEach((e, i) => {
++    const n = PD.notificacao(e, i);
++    assert.equal(n.titulo, 'Sua Palavra do Dia chegou!');
++    assert.ok(n.corpo.includes(e.ref), e.ref);
++    assert.ok(n.corpo.endsWith('Toque para ler a mensagem completa'));
++    assert.ok(n.corpo.length < 220, e.ref + ' ' + n.corpo.length);
++    assert.equal(n.url, './?pdia=' + i);
++  });
++});
++
++function simular(pref, hora, permissao) {
++  const mostradas = [];
++  const store = { lembrete: JSON.stringify(pref) };
++  const ouvintes = {};
++  const sw = {
++    addEventListener: (t, f) => { ouvintes[t] = f; },
++    registration: { scope: 'http://x/', showNotification: async (t, o) => { mostradas.push({ t, o }); } },
++    importScripts: () => { sw.PVPalavraDia = PD; },
++    Notification: { permission: permissao || 'granted' },
++    caches: { open: async () => ({ match: async () => (store.lembrete ? new Response(store.lembrete) : undefined), put: async (k, r) => { store.lembrete = await r.text(); } }) },
++    clients: {}, location: { origin: 'http://x' }, Response, Date: class extends Date { constructor(...a) { super(...(a.length ? a : [hora])); } }
++  };
++  sw.self = sw; sw.PVCore = {};
++  vm.createContext(sw);
++  vm.runInContext(fs.readFileSync(new URL('../sw.js', import.meta.url), 'utf8'), sw);
++  const evento = (tag) => { let p; ouvintes.periodicsync({ tag, waitUntil: (x) => { p = x; } }); return p; };
++  return { mostradas, store, evento };
++}
++
++test('lembrete: avisa uma vez por dia, só depois da hora e só com permissão', async () => {
++  const depois = new Date(2026, 9, 26, 8, 0), antes = new Date(2026, 9, 26, 6, 0);
++  let s = simular({ on: true, hora: '07:00', ultimo: '' }, depois);
++  await s.evento('pv-pdia'); assert.equal(s.mostradas.length, 1);
++  assert.equal(s.mostradas[0].t, 'Sua Palavra do Dia chegou!');
++  assert.equal(s.mostradas[0].o.icon, 'icons/icon-192.png');
++  assert.equal(s.mostradas[0].o.tag, 'pv-palavra-dia');
++  assert.ok(!('sound' in s.mostradas[0].o));
++  await s.evento('pv-pdia'); assert.equal(s.mostradas.length, 1, 'sem duplicar no mesmo dia');
++  s = simular({ on: true, hora: '07:00', ultimo: '' }, antes); await s.evento('pv-pdia'); assert.equal(s.mostradas.length, 0);
++  s = simular({ on: false, hora: '07:00', ultimo: '' }, depois); await s.evento('pv-pdia'); assert.equal(s.mostradas.length, 0);
++  s = simular({ on: true, hora: '07:00', ultimo: '' }, depois, 'denied'); await s.evento('pv-pdia'); assert.equal(s.mostradas.length, 0);
++  s = simular({ on: true, hora: '07:00', ultimo: '' }, depois); await s.evento('outra'); assert.equal(s.mostradas.length, 0);
++});
