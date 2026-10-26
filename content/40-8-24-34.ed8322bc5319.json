@@ -1,0 +1,142 @@
+{
+ "id": "40-8-24-34",
+ "ref": "Mateus 8:24-34",
+ "book": "40",
+ "chapter": 8,
+ "verses": [
+  {
+   "n": 24,
+   "t": "E eis que se levantou no mar uma tormenta tão grande que o barco era coberto pelas ondas; porém ele dormia."
+  },
+  {
+   "n": 25,
+   "t": "E seus discípulos se aproximaram para acordá-lo, dizendo: Senhor, salva-nos! Estamos sendo destruídos!"
+  },
+  {
+   "n": 26,
+   "t": "E ele lhes respondeu: Por que temeis, homens de pouca fé? Então ele se levantou e repreendeu os ventos e o mar. E houve grande calmaria."
+  },
+  {
+   "n": 27,
+   "t": "E aqueles homens se maravilharam, dizendo: Quem é este, que até os ventos e o mar lhe obedecem?"
+  },
+  {
+   "n": 28,
+   "t": "E quando chegou à outra margem, à terra dos gergesenos, vieram-lhe ao encontro dois endemoninhados que tinham saído dos sepulcros. Eles eram tão ferozes que ninguém podia passar por aquele caminho."
+  },
+  {
+   "n": 29,
+   "t": "E eis que gritaram, dizendo: Que temos contigo, Jesus, Filho de Deus? Vieste aqui nos atormentar antes do tempo?"
+  },
+  {
+   "n": 30,
+   "t": "Enquanto isso longe deles estava uma manada de muitos porcos pastando."
+  },
+  {
+   "n": 31,
+   "t": "E os demônios rogaram-lhe, dizendo: Se nos expulsares, permite-nos entrar naquela manada de porcos."
+  },
+  {
+   "n": 32,
+   "t": "E ele lhes disse: Ide. Então eles saíram, e entraram na manada de porcos; e eis que toda aquela manada de porcos se lançou de um precipício ao mar, e morreram nas águas."
+  },
+  {
+   "n": 33,
+   "t": "E os que cuidavam dos porcos fugiram; e ao chegarem à cidade, anunciaram todas estas coisas, inclusive o que havia acontecido aos endemoninhados."
+  },
+  {
+   "n": 34,
+   "t": "E eis que toda aquela cidade saiu ao encontro de Jesus; e quando o viram, rogaram-lhe que se retirasse do território deles."
+  }
+ ],
+ "titulo": "Quando a tempestade encontra o poder de Cristo",
+ "temas": [
+  "fé",
+  "autoridade",
+  "livramento",
+  "espírito"
+ ],
+ "pergunta": "Você confia que Jesus pode acalmar as tormentas da sua vida?",
+ "entender": "Jesus e seus discípulos atravessavam o mar quando \"se levantou no mar uma tormenta tão grande que o barco era coberto pelas ondas\" (Mateus 8.24). Enquanto os discípulos clamavam: \"Senhor, salva‑nos! Estamos sendo destruídos!\", Jesus, ainda adormecido, respondeu: \"Por que temeis, homens de pouca fé?\" e repreendeu o vento e o mar, trazendo \"grande calmaria\" (8.26). Depois, ao chegar à região dos gerasenos, encontrou dois endemoninhados que pediram para entrar numa manada de porcos; ao obedecer, os porcos se lançaram ao mar e morreram (8.31‑32). Os moradores, assustados, pediram que Jesus se retirasse (8.34). O relato mostra duas demonstrações do poder de Jesus: sobre a natureza e sobre o reino espiritual, revelando sua autoridade divina.\n\nNo contexto imediato, Jesus já havia chamado o discípulo que queria enterrar seu pai a segui‑lo, indicando que a missão exige prioridade sobre as preocupações humanas (Mateus 8.21‑22). O capítulo termina sem registrar a reação de Jesus ao pedido de partida, deixando o leitor refletir sobre o impacto de seus atos na comunidade local.",
+ "ligar": {
+  "texto": "A tempestade acalmada revela que o mesmo Jesus que controla o vento e as ondas também tem poder sobre o mal interior, como demonstra a libertação dos endemoninhados. Essa autoridade aponta para o coração do evangelho: Cristo vem como o Filho de Deus para trazer vida, libertar da escravidão do pecado e oferecer paz que supera as tempestades humanas. Ao reconhecer que \"os ventos e o mar lhe obedecem\", a multidão testemunha a divindade de Jesus, preparando o caminho para a mensagem da salvação que Ele proclamaria depois da cruz.",
+  "selo": true
+ },
+ "viver": "Assim como os discípulos foram surpreendidos pela calma após clamarem por socorro, podemos lembrar que, nas crises, nossa fé pode ser fortalecida ao buscar a presença de Jesus. Quando enfrentar situações que parecem fora de controle – problemas financeiros, familiares ou de saúde – traga a situação a Cristo em oração, reconhecendo que Ele tem domínio sobre tudo. Essa atitude transforma o medo em confiança, permitindo que experimentemos a paz que vem do Senhor, mesmo antes de ver a solução completa.\n\nAlém disso, a reação dos gerasenos nos alerta sobre o medo de mudar. Quando Jesus libertou os endemoninhados, os moradores pediram que Ele fosse embora, temendo as consequências. Devemos estar dispostos a receber a mudança que Cristo traz, mesmo que isso desafie nossas zonas de conforto.",
+ "guarde": "Jesus tem poder sobre as tempestades externas e internas; basta confiar nele.",
+ "ore": "Jesus, ao acalmar a tormenta, eu reconheço teu domínio sobre meus medos; ajuda‑me a confiar em ti quando as ondas da vida parecem invadir meu barco.",
+ "quiz": {
+  "pergunta": "O que Jesus fez depois que os discípulos clamaram por socorro na tempestade?",
+  "opcoes": [
+   "Enviou os discípulos de volta à terra",
+   "Pediu ajuda aos pescadores",
+   "Repreendeu os ventos e o mar, trazendo calmaria"
+  ],
+  "certa": 2,
+  "explicacao": "O texto relata que Jesus se levantou, repreendeu os ventos e o mar e houve grande calmaria (Mateus 8.26). As outras opções não aparecem no relato."
+ },
+ "refs": [
+  "Marcos 4:39-41",
+  "Lucas 8:24-25",
+  "Salmos 107:29",
+  "João 14:27"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-26T09:51:13.605Z",
+  "rounds": 1
+ }
+}

@@ -1,0 +1,138 @@
+{
+ "id": "40-9-1-10",
+ "ref": "Mateus 9:1-10",
+ "book": "40",
+ "chapter": 9,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Então ele entrou no barco, passou para a outra margem, e veio à sua própria cidade."
+  },
+  {
+   "n": 2,
+   "t": "E eis que lhe trouxeram um paralítico, deitado em um leito. Quando Jesus viu a fé deles, disse ao paralítico: Tem bom ânimo, filho! Teus pecados são perdoados."
+  },
+  {
+   "n": 3,
+   "t": "E eis que alguns dos escribas disseram entre si: Ele blasfema."
+  },
+  {
+   "n": 4,
+   "t": "Mas Jesus, conhecendo seus pensamentos, disse: “Por que pensais o mal em vossos corações?"
+  },
+  {
+   "n": 5,
+   "t": "Pois o que é mais fácil? Dizer: ‘Teus pecados estão perdoados’, ou dizer: ‘Levanta-te, e anda’?"
+  },
+  {
+   "n": 6,
+   "t": "Ora, para que saibais que o Filho do homem tem autoridade na terra para perdoar pecados”, (Ele, então, disse ao paralítico): Levanta-te, toma o teu leito, e vai para tua casa."
+  },
+  {
+   "n": 7,
+   "t": "E este se levantou e foi para sua casa."
+  },
+  {
+   "n": 8,
+   "t": "Quando as multidões viram isto , ficaram maravilhadas, e glorificaram a Deus, que tinha dado tal autoridade aos homens."
+  },
+  {
+   "n": 9,
+   "t": "E Jesus, ao passar dali, viu um homem sentado na coletoria de impostos, chamado Mateus; e disse-lhe: Segue-me. Então este se levantou e o seguiu."
+  },
+  {
+   "n": 10,
+   "t": "E aconteceu que, enquanto Jesus estava reclinado à mesa na casa de Mateus , eis que muitos publicanos e pecadores vieram e se reclinaram à mesa juntamente com Jesus e seus discípulos."
+  }
+ ],
+ "titulo": "A fé que desperta perdão e cura",
+ "temas": [
+  "fé",
+  "perdão",
+  "autoridade",
+  "chamado"
+ ],
+ "pergunta": "Você já percebeu como a fé dos outros pode mudar a sua vida?",
+ "entender": "Jesus chegou à sua cidade e encontrou um paralítico trazido por amigos. Ao ver a fé deles, ele disse: \"Tem bom ânimo, filho! Teus pecados são perdoados\" (Mateus 9.2). Em seguida, confrontou os escribas que o acusavam de blasfêmia, perguntando: \"Por que pensais o mal em vossos corações?\" (Mateus 9.4). Ele mostrou que tem autoridade tanto para perdoar pecados quanto para curar, dizendo: \"Levanta-te, toma o teu leito, e vai para tua casa\" (Mateus 9.6). O homem obedeceu e foi curado, provocando admiração nas multidões (v.7‑8). Logo depois, Jesus chamou Mateus, o coletor de impostos, dizendo: \"Segue-me\" (v.9), e ao jantar com ele, muitos publicanos e pecadores se juntaram à mesa (v.10). O texto destaca duas situações: a cura física ligada ao perdão espiritual e o convite de Jesus a quem é marginalizado.\n\nEsses eventos ocorrem num ministério que já vinha provocando críticas dos fariseus. A cura do paralítico demonstra que a autoridade de Jesus vai além da medicina humana; ele tem poder para declarar perdão, algo que só Deus pode fazer. O chamado de Mateus revela que o Reino de Deus inclui todos, inclusive os considerados pecadores pela sociedade. O relato mostra que a fé dos que trazem o paralítico e a disposição de seguir de Mateus são respostas ao convite de Cristo, que oferece nova vida tanto física quanto espiritual.",
+ "ligar": {
+  "texto": "Jesus demonstra que o perdão dos pecados e a cura são obras do mesmo poder divino, apontando para sua identidade como Filho de Deus que veio para restaurar o que o pecado havia quebrado. Quando ele perdoa o paralítico, ele revela a autoridade que só o Pai tem, confirmando que a salvação vem pela graça, recebida por fé. O convite a Mateus mostra que Jesus busca pessoas que reconhecem sua necessidade, oferecendo-lhes um novo caminho. Assim, o texto aponta ao evangelho: crer em Jesus traz perdão, restauração e convite para seguir o caminho da vida eterna.",
+  "selo": true
+ },
+ "viver": "A atitude dos amigos que trouxeram o paralítico nos ensina que nossa fé pode ser o canal para que outros experimentem a graça de Deus. Quando alguém ao nosso redor está sofrendo, levar a pessoa a Cristo, como fizeram, pode trazer cura espiritual e física. Da mesma forma, o convite de Jesus a Mateus nos desafia a deixar nossas rotinas de segurança e seguir o chamado de Deus, mesmo que isso signifique mudar de vida. Hoje, procure oportunidades de levar alguém a Jesus, seja ouvindo sua história ou convidando para um encontro na igreja, confiando que Deus pode transformar tanto o coração quanto a situação.",
+ "guarde": "A fé que traz alguém a Cristo pode abrir portas de perdão e cura que ninguém pode fechar.",
+ "ore": "Jesus, ao chamar Mateus, me lembra que seu convite ainda está aberto; que eu possa responder com coragem e seguir o caminho que ele prepara para mim.",
+ "quiz": {
+  "pergunta": "Qual foi a primeira coisa que Jesus fez ao ver o paralítico?",
+  "opcoes": [
+   "Ele perdoou os seus pecados",
+   "Ele o curou imediatamente",
+   "Ele o enviou ao templo"
+  ],
+  "certa": 0,
+  "explicacao": "Jesus primeiro declarou: \"Teus pecados são perdoados\" (Mateus 9.2), mostrando que o perdão precede a cura física."
+ },
+ "refs": [
+  "Marcos 2:5-12",
+  "Lucas 5:20-26",
+  "João 8:31-36",
+  "Atos 10:34-35"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-26T09:56:12.191Z",
+  "rounds": 1
+ }
+}

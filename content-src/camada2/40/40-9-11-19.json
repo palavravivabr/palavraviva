@@ -1,0 +1,133 @@
+{
+ "id": "40-9-11-19",
+ "ref": "Mateus 9:11-19",
+ "book": "40",
+ "chapter": 9,
+ "verses": [
+  {
+   "n": 11,
+   "t": "E quando os fariseus viram isto , perguntaram aos seus discípulos: Por que o vosso Mestre come com publicanos e pecadores?"
+  },
+  {
+   "n": 12,
+   "t": "Porém Jesus ouviu, e respondeu-lhes: Os que têm saúde não precisam de médico, mas sim os que estão doentes."
+  },
+  {
+   "n": 13,
+   "t": "Mas ide aprender o que significa: ‘Quero misericórdia, e não sacrifício’. Oseías 6:6 Porque eu não vim chamar os justos, mas sim, os pecadores, ao arrependimento."
+  },
+  {
+   "n": 14,
+   "t": "Então os discípulos de João vieram a ele, e perguntaram: Por que nós e os fariseus jejuamos muitas vezes, mas os teus discípulos não jejuam?"
+  },
+  {
+   "n": 15,
+   "t": "E Jesus lhes respondeu: Podem, por acaso, os convidados do casamento andar tristes enquanto o noivo está com eles? Mas dias virão, quando o noivo lhes for tirado, e então jejuarão."
+  },
+  {
+   "n": 16,
+   "t": "E ninguém põe remendo de pano novo em roupa velha; porque tal remendo rasga a roupa, e o rompimento se torna pior."
+  },
+  {
+   "n": 17,
+   "t": "Nem põem vinho novo em odres velhos; pois senão os odres se rompem, o vinho se derrama, e os odres se perdem; mas põem o vinho novo em odres novos, e ambos juntamente se conservam."
+  },
+  {
+   "n": 18,
+   "t": "Enquanto ele lhes dizia estas coisas, eis que um chefe de sinagoga veio prostrar-se diante dele, e disse: Minha filha faleceu ainda agora; mas vem, e põe tua mão sobre ela, e ela viverá."
+  },
+  {
+   "n": 19,
+   "t": "Então Jesus se levantou e o seguiu com seus discípulos."
+  }
+ ],
+ "titulo": "O médico que senta à mesa dos doentes",
+ "temas": [
+  "misericórdia",
+  "graça",
+  "arrependimento",
+  "nova vida"
+ ],
+ "pergunta": "Por que a presença de Jesus gera tanta resistência entre os que se consideram corretos?",
+ "entender": "Em Mateus 9, os fariseus criticam Jesus por se sentar à mesa com publicanos e pecadores. A resposta de Jesus é direta: ele não veio para os que se acham saudáveis, mas para os doentes. Ao citar Oseias, ele destaca que Deus quer misericórdia, não apenas rituais. A missão de Cristo é chamar os pecadores ao arrependimento, oferecendo graça onde há condenação.\n\nQuando os discípulos de João perguntam sobre o jejum, Jesus usa a imagem do casamento: não há tristeza enquanto o noivo está presente. Ele acrescenta que o vinho novo precisa de odres novos, indicando que sua mensagem traz uma realidade nova que não se ajusta às estruturas religiosas antigas. É um convite para uma transformação completa, não apenas um remendo superficial.",
+ "ligar": {
+  "texto": "Este texto mostra o coração do evangelho: Jesus se aproxima dos excluídos para oferecer vida. A referência ao noivo aponta para a alegria da salvação, que é um presente e não uma conquista. A imagem do odre novo revela que seguir a Cristo é receber uma nova natureza. Ele não veio para consertar a velha religião, mas para criar uma família nova, onde a misericórdia substitui o julgamento e a presença de Deus traz festa.",
+  "selo": true
+ },
+ "viver": "A cena da mesa compartilhada nos desafia a olhar para quem está à margem. Se você sente que precisa estar 'perfeito' para se aproximar de Deus, lembre-se de que Jesus se sentou com os que se consideravam indignos. Em vez de julgar os outros ou a si mesmo, permita-se receber a misericórdia. Ao compartilhar essa mesa, você não apenas é transformado, mas torna-se canal da graça para aqueles que também se sentem doentes e afastados.",
+ "guarde": "Quem se considera doente encontra no médico a cura que a religião não oferece.",
+ "ore": "Jesus, ao te veres na casa de Mateus comendo com pecadores, aprendo que tua mesa é lugar de acolhimento. Ajuda-me a deixar de lado os julgamentos e a me sentar com quem sofre, levando a ti a misericórdia que recebi. Amém.",
+ "quiz": {
+  "pergunta": "Qual é a missão principal de Jesus, segundo a resposta aos fariseus em Mateus 9:13?",
+  "opcoes": [
+   "Chamar os pecadores ao arrependimento.",
+   "Ensinar os justos a jejuar mais.",
+   "Corrigir os erros dos fariseus."
+  ],
+  "certa": 0,
+  "explicacao": "Jesus afirma explicitamente que não veio chamar os justos, mas os pecadores ao arrependimento, destacando o foco da sua missão em salvar os que reconhecem sua necessidade."
+ },
+ "refs": [
+  "Lucas 5:31-32",
+  "Marcos 2:17-22",
+  "Oseias 6:6"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-26T10:07:16.229Z",
+  "rounds": 4
+ }
+}
