@@ -1,0 +1,14 @@
+diff --git a/assets/abertura-som.js b/assets/abertura-som.js
+index 706f711..13b59fa 100644
+--- a/assets/abertura-som.js
++++ b/assets/abertura-som.js
+@@ -36 +36 @@ window.PV_ABERTURA='data:audio/mpeg;base64,'+[
+-'q0jQ5i8zInYAAadjuAAADKnhIAM5Ss7jQpzjtcTN3LpG+SBDYhBlye+szyAAAH3AB/GKVARgoMQdgEu/GIDV28AIAgJEeiYmefRAPd20awTeLKLwT8CrGiXQxtPni8JSH4JmojeGsMqELuoQV+2N8qoNfpsfYJCKebuAAAB5i3sh6KxGNKdyiROkG3fNnzdHZR8WUaZ',
++'q0jQ5i8zInYAAadjuAAADKnhIAM5Ss7jQpzjtcTN3LpG+SBDYhBlye+szyAAAH3AB/GKVARgoMQdgEu/GIDV28AIAgJEeiYmefRAPd20awTeLKLwT8CrGiXQxtPni8JSH4JmojeGsMqELuoQV+2N8qoNfpsfYJCKebuAAAB5i3sh6KxGNKdyiROkG3fNnzdHZR8WUaWZ',
+@@ -158 +158 @@ window.PV_ABERTURA='data:audio/mpeg;base64,'+[
+-'PLwLQBPGaILVohSnK/ejarmgvKZvzGHWctgCX5aksua2gOqCEln6fgiDP+3JgNUGSP/7UmSZgRVEEsnrKysYKoI5GWniVwUESSMtZWUgowgj1aetVFSlQBxXFX/TkGQ2G5bAADsJ0ZjCkyei3iwF/WYgtpNyErZ/Z+KkgmFgH0kHAFcdNEBpIEMcfERQxv8/Y82wox1I',
++'PLwLQBPGaILVohSnK/ejarmgvKZvzGHWctgCX5aksua2gOqCEln6fgiDP+3JgNUGSP/7UmTmCZFVEsnrKysYKoI5GWniVwUESSMtZWUgowgj1aetVFSlQBxXFX/TkGQ2G5bAADsJ0ZjCkyei3iwF/WYgtpNyErZ/Z+KkgmFgH0kHAFcdNEBpIEMcfERQxv8/Y82wox1I',
+@@ -186 +186,2 @@ window.PV_ABERTURA='data:audio/mpeg;base64,'+[
+-'3wBpobiYGu8dObu73RvFYXmmj1cYw+0htNzrm8j/+1Jk5w/xXQ46Axtg4C2CB0BrbDgEoDToDGsiAJWHXUGmCZArYbM5LpjV1UxBTUUzLjEwMF'+'V'.repeat(117)+'f/7UmTrioFEDjaDOHmgGADXyRmME4ZwOLzMPSaAzwZXRZwlSFVVVVVVVVVVTEFNRTMuMTAwVVVVVVVVVVVV',
++'3wBpobiYGu8dObu73RvFYXmmj1cYw+0htNzrm8j/+1Jk5w/xXQ46Axtg4C2CB0BrbDgEoDToDGsiAJWHXUGmCZArYbM5LpjV1UxBTUUzLjEwMF'+'V'.repeat(90),
++'V'.repeat(117)+'f/7UmTrioFEDjaDOHmgGADXyRmME4ZwOLzMPSaAzwZXRZwlSFVVVVVVVVVVTEFNRTMuMTAwVVVVVVVVVVVV',
