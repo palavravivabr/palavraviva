@@ -38,7 +38,7 @@ index 6c8b1ff..8482c6f 100644
 +++ b/assets/creditos.html
 @@ -127,2 +127,3 @@ x125
    <p><b>Fundos musicais</b>: as trilhas “Alvorada” e “Quietude” foram sintetizadas por computador para este projeto, sem uso de gravações ou composições de terceiros. A trilha instrumental ambiente padrão está descrita no registro de créditos do projeto.</p>
-+  <p><b>Créditos do som de abertura</b>: título “Ambient Logo Reveal”; autor: Universfield; fonte: Pixabay; licença: Pixabay Content License (Licença de Conteúdo do Pixabay). Página original: <a href="https://pixabay.com/sound-effects/musical-ambient-logo-reveal-149633/">pixabay.com/sound-effects/musical-ambient-logo-reveal-149633</a>. Termos da licença: <a href="https://pixabay.com/service/license-summary/">pixabay.com/service/license-summary</a>. O áudio foi apenas convertido para um arquivo menor (mesma duração e conteúdo sonoro) e é usado como parte do aplicativo, não como arquivo avulso. O crédito é apresentado voluntariamente.</p>
++  <p><b>Créditos do som de abertura</b>: título “Ambient Logo Reveal”; autor: Universfield; fonte: Pixabay; licença: Pixabay Content License (Licença de Conteúdo do Pixabay). Página original: pixabay.com/sound-effects/musical-ambient-logo-reveal-149633/. Termos da licença: pixabay.com/service/license-summary/. O áudio foi apenas convertido para um arquivo menor (mesma duração e conteúdo sonoro) e é usado como parte do aplicativo, não como arquivo avulso. O crédito é apresentado voluntariamente.</p>
    <p>Os créditos detalhados dos materiais e as condições de uso constam nos <a href="termos.html">Termos de Uso e Privacidade</a> e no registro de créditos do projeto.</p>
 diff --git a/index.html b/index.html
 index 73d5070..7bb5872 100644
