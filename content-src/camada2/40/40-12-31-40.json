@@ -1,0 +1,138 @@
+{
+ "id": "40-12-31-40",
+ "ref": "Mateus 12:31-40",
+ "book": "40",
+ "chapter": 12,
+ "verses": [
+  {
+   "n": 31,
+   "t": "Por isso eu vos digo: todo pecado e blasfêmia serão perdoados aos seres humanos; mas a blasfêmia contra o Espírito não será perdoada aos seres humanos."
+  },
+  {
+   "n": 32,
+   "t": "E qualquer um que falar palavra contra o Filho do homem lhe será perdoado; mas qualquer um que falar contra o Espírito Santo, não lhe será perdoado, nem na era presente, nem na futura."
+  },
+  {
+   "n": 33,
+   "t": "Ou fazei a árvore boa, e seu fruto bom; ou fazei a árvore má, e seu fruto mau; pois pelo fruto se conhece a árvore."
+  },
+  {
+   "n": 34,
+   "t": "Ninhada de víboras, como podeis vós falar boas coisas, sendo maus? Pois a boca fala do que o coração tem em abundância."
+  },
+  {
+   "n": 35,
+   "t": "A pessoa boa tira coisas boas do bom tesouro do coração, e a pessoa má tira coisas más do tesouro mau."
+  },
+  {
+   "n": 36,
+   "t": "Eu, porém, vos digo que de toda palavra imprudente que as pessoas falarem, dela prestarão contas no dia do juízo."
+  },
+  {
+   "n": 37,
+   "t": "Porque por tuas palavras serás justificado, e por tuas palavras serás condenado."
+  },
+  {
+   "n": 38,
+   "t": "Então responderam uns dos escribas e dos fariseus, dizendo: Mestre, queremos ver de ti algum sinal."
+  },
+  {
+   "n": 39,
+   "t": "Mas ele lhes deu a seguinte resposta: Uma geração má e adúltera pede sinal; mas não lhe será dado, exceto o sinal do profeta Jonas."
+  },
+  {
+   "n": 40,
+   "t": "Porque assim como Jonas esteve três dias e três noites no ventre da baleia, assim também o Filho do homem estará três dias e três noites no coração da terra."
+  }
+ ],
+ "titulo": "O coração que define suas palavras",
+ "temas": [
+  "perdão",
+  "coração",
+  "juízo",
+  "sinal",
+  "ressurreição"
+ ],
+ "pergunta": "Por que Jesus disse que a boca fala do que o coração tem em abundância?",
+ "entender": "Neste trecho, Jesus faz uma distinção grave: a maioria dos pecados pode ser perdoada, mas falar contra o Espírito Santo não será perdoado. Isso não significa que Deus é cruel, mas que rejeitar ativamente a obra do Espírito, que convence do pecado e aponta para Cristo, é fechar a porta da graça.\n\nJesus usa a imagem de uma árvore: uma árvore boa produz frutos bons. Da mesma forma, a pessoa boa tira coisas boas do seu tesouro interior. Não são as palavras isoladas que condenam, mas a condição do coração. Se o coração está cheio de maldade, as palavras refletirão isso.\n\nAo final, quando os líderes religiosos pedem um sinal, Jesus aponta para si mesmo. Ele compara sua morte e ressurreição à história de Jonas, que passou três dias no ventre da baleia antes de ser lançado em terra. Jesus está anunciando que morreria e ressuscitaria em três dias.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para a obra redentora de Cristo. Jesus não apenas ensina sobre o perdão, mas se oferece como o único caminho para ele. A menção ao 'Filho do homem' e ao sinal de Jonas revela que a salvação não vem de obras humanas, mas do sacrifício e da vitória de Jesus sobre a morte. Ele é a árvore boa que produz o fruto da vida eterna.",
+  "selo": true
+ },
+ "viver": "Pense nas suas últimas conversas. Suas palavras revelaram paciência e amor, ou impaciência e julgamento? O texto nos convida a examinar o 'tesouro do coração'. Em vez de apenas controlar a língua, busque preencher seu coração com a presença de Deus através da oração e da leitura da Bíblia. Quando o interior é transformado pelo Espírito, as palavras fluem de forma natural e edificante, refletindo a graça que você recebeu.",
+ "guarde": "Suas palavras são o espelho do que há dentro do seu coração.",
+ "ore": "Espírito Santo, revela-me as raízes amargas ou as vaidades que ainda habitam no meu coração. Ajuda-me a deixar que a Tua verdade transforme meu interior, para que minhas palavras reflitam o amor de Cristo e não a minha própria natureza caída.",
+ "quiz": {
+  "pergunta": "Qual foi o sinal que Jesus prometeu aos que pediam provas?",
+  "opcoes": [
+   "A cura de um cego de nascença",
+   "Um milagre de multiplicação",
+   "O sinal do profeta Jonas"
+  ],
+  "certa": 2,
+  "explicacao": "Jesus comparou sua morte e ressurreição à estadia de Jonas no ventre da baleia, indicando que o sinal seria sua ressurreição após três dias."
+ },
+ "refs": [
+  "Lucas 11:29-32",
+  "Marcos 3:28-30",
+  "Tiago 3:9-10"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-27T00:53:11.462Z",
+  "rounds": 1
+ }
+}

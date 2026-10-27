@@ -1,0 +1,137 @@
+{
+ "id": "40-12-41-50",
+ "ref": "Mateus 12:41-50",
+ "book": "40",
+ "chapter": 12,
+ "verses": [
+  {
+   "n": 41,
+   "t": "Os de Nínive se levantarão no Juízo com esta geração, e a condenarão; porque se arrependeram com a pregação de Jonas. E eis aqui quem é maior que Jonas."
+  },
+  {
+   "n": 42,
+   "t": "A rainha do sul se levantará no Juízo com esta geração, e a condenará; porque veio dos confins da terra para ouvir a sabedoria de Salomão. E eis aqui quem é maior que Salomão."
+  },
+  {
+   "n": 43,
+   "t": "Quando o espírito imundo sai de alguém, anda por lugares secos buscando repouso, e não o acha."
+  },
+  {
+   "n": 44,
+   "t": "Então diz: ‘Voltarei para a minha casa, de onde saí.’ E quando chega, a encontra desocupada, varrida, e arrumada."
+  },
+  {
+   "n": 45,
+   "t": "Então vai, e toma consigo outros sete espíritos piores que ele; eles entram, e moram ali; e a última condição de tal pessoa se torna pior que a primeira. Assim também acontecerá com esta geração má."
+  },
+  {
+   "n": 46,
+   "t": "Enquanto ele ainda estava falando às multidões, eis que sua mãe e seus irmãos estavam fora, querendo falar com ele."
+  },
+  {
+   "n": 47,
+   "t": "E alguém lhe disse: Eis que tua mãe e teus irmãos estão fora, querendo falar contigo."
+  },
+  {
+   "n": 48,
+   "t": "Porém ele disse em resposta ao que o avisou: Quem é minha mãe? E quem são meus irmãos?"
+  },
+  {
+   "n": 49,
+   "t": "Então estendeu sua mão para os seus discípulos, e disse: Eis aqui minha mãe e meus irmãos;"
+  },
+  {
+   "n": 50,
+   "t": "Pois qualquer um que fizer a vontade do meu Pai, que está nos céus, esse é meu irmão, e irmã, e mãe."
+  }
+ ],
+ "titulo": "A casa vazia e a família de Jesus",
+ "temas": [
+  "arrependimento",
+  "família",
+  "obediência",
+  "presença de deus"
+ ],
+ "pergunta": "O que acontece quando limpamos nossa vida, mas deixamos o coração vazio?",
+ "entender": "Jesus usa duas figuras históricas para chamar a atenção de seus ouvintes: os ninivitas, que se arrependeram com a pregação de Jonas, e a rainha do sul, que buscou a sabedoria de Salomão. Ele afirma que, no juízo, ambos se levantarão contra aquela geração, pois havia ali presente alguém maior que Jonas e Salomão. Essa comparação destaca a gravidade de rejeitar a mensagem de Cristo, que é a verdade definitiva.\n\nDepois, Jesus conta uma parábola sobre um espírito imundo que sai de uma pessoa, busca repouso e não encontra. Ao voltar para a 'casa' que achou limpa e arrumada, ele traz outros sete piores. A lição é que apenas remover o mal sem preencher o espaço com a presença de Deus deixa a pessoa mais vulnerável, não mais segura.\n\nPor fim, quando sua mãe e irmãos chegam para vê-lo, Jesus redefine o que significa ser família. Ele aponta para os discípulos e declara que quem faz a vontade do Pai é seu irmão, irmã e mãe. A lealdade a Deus cria laços mais profundos e duradouros que os laços de sangue.",
+ "ligar": {
+  "texto": "Este texto aponta claramente para Jesus como o centro da história da salvação. Ao se declarar maior que os grandes personagens do Antigo Testamento, Ele mostra que a verdadeira sabedoria e o caminho para o arrependimento passam por Ele. A parábola da casa vazia alerta que a segurança espiritual não vem de reformas externas, mas da habitação de Cristo no coração. A redefinição de família revela que o evangelho cria uma comunidade unida pela obediência a Deus, onde Jesus é o cabeça e os crentes compartilham de sua identidade.",
+  "selo": true
+ },
+ "viver": "A imagem da casa 'varrida e arrumada' nos convida a examinar nossa rotina. Muitas vezes, focamos em eliminar maus hábitos ou em manter uma aparência de ordem, mas esquecemos de cultivar a intimidade com Jesus. Se nossa vida está organizada, mas vazia de oração, comunhão e obediência, ela fica frágil diante das tentações. Pense em um momento do seu dia onde você tenta se controlar sozinho. Em vez de apenas 'limpar' a situação, pare e converse com Deus, convidando-O para preencher aquele espaço. A verdadeira paz vem da presença dEle, não da perfeição de nossas ações.",
+ "guarde": "Quem faz a vontade de Deus pertence à família de Jesus, independentemente do sobrenome.",
+ "ore": "Nínive e a rainha do sul buscaram sabedoria, mas eu tenho a maior de todas. Senhor, não quero apenas uma vida externa arrumada. Enche meu coração com Tua presença para que eu não fique vazio. Ensina-me a fazer a Tua vontade diária, para que viva como verdadeiro membro da Tua família espiritual.",
+ "quiz": {
+  "pergunta": "Segundo a parábola de Jesus, o que acontece quando o espírito imundo volta à casa que achou limpa?",
+  "opcoes": [
+   "Ele se arrepende e abandona a pessoa para sempre",
+   "Ele finalmente encontra o repouso que procurava",
+   "Ele traz consigo outros sete espíritos piores"
+  ],
+  "certa": 2,
+  "explicacao": "O texto diz que o espírito imundo, ao encontrar a casa desocupada, varrida e arrumada, vai e toma consigo outros sete espíritos piores, tornando a última condição da pessoa pior que a primeira."
+ },
+ "refs": [
+  "Lucas 11:24-26",
+  "Marcos 3:34-35",
+  "Mateus 7:24-27"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-27T01:00:12.106Z",
+  "rounds": 3
+ }
+}

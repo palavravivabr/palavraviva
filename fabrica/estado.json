@@ -1658,8 +1658,8 @@
    "titulo": "O médico que senta à mesa dos doentes"
   },
   "40-9-20-29": {
-   "execucoes": 1,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "execucoes": 2,
+   "ultimo": "automático: entender:menos_de_2_paragrafos"
   },
   "40-9-30-38": {
    "execucoes": 0,
@@ -1729,15 +1729,21 @@
   },
   "40-12-31-40": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: PRAYER_FIDELITY: A oração foi dirigida ao profeta Jonas em vez de ser dirigida a Deus, o que contraria o ensino bíblico sobre a oração.",
+   "estado": "pronto",
+   "titulo": "O coração que define suas palavras"
   },
   "40-12-41-50": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:ore:40-10-33-42",
+   "estado": "pronto",
+   "titulo": "A casa vazia e a família de Jesus"
   },
   "40-13-1-12": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: titulo_repetido:42-8-12-22",
+   "estado": "pronto",
+   "titulo": "Onde sua mente deixa a semente cair?"
   },
   "40-13-13-23": {
    "execucoes": 0,
@@ -1762,28 +1768,44 @@
   "40-14-13-24": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-14-25-36": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-15-1-10": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-15-11-20": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-15-21-29": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 585,
-   "entrada": 1482532,
-   "saida": 520010
+   "chamadas": 592,
+   "entrada": 1502148,
+   "saida": 526082
   },
   "groq-qwen": {
-   "chamadas": 580,
-   "entrada": 1407191,
-   "saida": 470688
+   "chamadas": 588,
+   "entrada": 1429409,
+   "saida": 477083
   },
   "gemini": {
-   "chamadas": 489,
-   "entrada": 1584680,
-   "saida": 641551
+   "chamadas": 493,
+   "entrada": 1597631,
+   "saida": 644335
   },
   "cloudflare": {
-   "chamadas": 298,
-   "entrada": 1037466,
-   "saida": 110558
+   "chamadas": 301,
+   "entrada": 1048003,
+   "saida": 111671
   },
   "mistral": {
    "chamadas": 0,

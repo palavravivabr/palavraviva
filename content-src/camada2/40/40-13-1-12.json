@@ -1,0 +1,145 @@
+{
+ "id": "40-13-1-12",
+ "ref": "Mateus 13:1-12",
+ "book": "40",
+ "chapter": 13,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Naquele dia, Jesus saiu de casa e se sentou junto ao mar."
+  },
+  {
+   "n": 2,
+   "t": "E ajuntaram-se perto dele tantas multidões, de maneira que ele entrou num barco e se sentou; e toda a multidão ficou na praia,"
+  },
+  {
+   "n": 3,
+   "t": "E ele lhes falou muitas coisas por parábolas. Ele disse: Eis que o semeador saiu a semear."
+  },
+  {
+   "n": 4,
+   "t": "E enquanto semeava, caiu parte das sementes junto ao caminho, e vieram as aves e a comeram."
+  },
+  {
+   "n": 5,
+   "t": "E outra parte caiu entre pedras, onde não havia muita terra, e logo nasceu, porque não tinha terra funda."
+  },
+  {
+   "n": 6,
+   "t": "Mas quando o sol surgiu, queimou-se; e por não ter raiz, secou-se."
+  },
+  {
+   "n": 7,
+   "t": "E outra parte caiu entre espinhos, e os espinhos cresceram e a sufocaram."
+  },
+  {
+   "n": 8,
+   "t": "E outra parte caiu em boa terra, e rendeu fruto: um a cem, outro a sessenta, e outro a trinta."
+  },
+  {
+   "n": 9,
+   "t": "Quem tem ouvidos para ouvir, ouça."
+  },
+  {
+   "n": 10,
+   "t": "Então os discípulos se aproximaram, e lhe perguntaram: Por que falas a eles por parábolas?"
+  },
+  {
+   "n": 11,
+   "t": "E ele lhes respondeu: Porque a vós é dado saber os mistérios do Reino dos céus, mas a eles não é dado."
+  },
+  {
+   "n": 12,
+   "t": "Pois a quem tem, lhe será dado, e terá em abundância; mas a quem não tem, até aquilo que tem lhe será tirado."
+  }
+ ],
+ "titulo": "Onde sua mente deixa a semente cair?",
+ "temas": [
+  "parábola",
+  "coração",
+  "fruto",
+  "atenção"
+ ],
+ "pergunta": "O que impede a palavra de Deus de produzir fruto profundo em você?",
+ "entender": "Jesus saiu de casa e, vendo multidões, sentou-se num barco para ensinar. Ele usou parábolas, histórias do cotidiano, para explicar o Reino dos céus. A primeira é a do semeador. A semente cai em quatro tipos de solo: no caminho, onde as aves comem; em pedras, onde nasce rápido mas seca; entre espinhos, que sufocam a planta; e em boa terra, que dá fruto abundante.\n\nOs discípulos perguntaram por que Jesus falava assim. Ele respondeu que a eles era dado entender os mistérios do Reino, mas não a todos. Isso significa que a capacidade de compreender depende da disposição do coração. Jesus conclui dizendo que quem tem ouvidos para ouvir, ouça. A mensagem é clara: o mesmo evangelho tem efeitos diferentes dependendo de como o ouvinte o recebe.",
+ "ligar": {
+  "texto": "Jesus é o Semeador que oferece a vida. A semente representa a mensagem do Reino, que é a boa notícia de que Jesus veio para salvar. O evangelho não força ninguém; ele planta. Se o coração é duro ou cheio de preocupações, a semente morre. Mas se há abertura, a graça de Cristo transforma a pessoa, produzindo mudanças reais. Reconhecer nosso estado é o primeiro passo para deixar Deus trabalhar em nós.",
+  "selo": true
+ },
+ "viver": "Pense no seu dia: quantas vezes você ouviu uma verdade espiritual e a deixou passar como se fosse barulho de fundo? Ou talvez tenha se animado por um dia, mas desistiu quando a rotina pesou. Identifique onde você está. Se é 'caminho', pare de consumir conteúdo religioso de forma passiva e comece a meditar. Se é 'pedras', busque aprofundar sua fé em momentos de crise. Se são 'espinhos', liste as ansiedades que roubam sua atenção e entregue-as a Deus. A boa terra exige cuidado, não perfeição.",
+ "guarde": "A qualidade da terra não muda a semente, mas decide se ela terá vida.",
+ "ore": "Jesus, que se sentou no barco para falar comigo, revela o estado do meu coração. Mostra se estou distraído, superficial ou ansioso. Prepara meu solo para que Tua palavra enraíze e produza fruto. Não quero apenas ouvir, quero entender e aplicar.",
+ "quiz": {
+  "pergunta": "Por que a semente que caiu entre pedras secou-se?",
+  "opcoes": [
+   "Porque as aves a comeram.",
+   "Porque o sol era muito forte.",
+   "Porque não tinha terra funda para ter raiz."
+  ],
+  "certa": 2,
+  "explicacao": "O texto diz que ela nasceu logo porque não tinha terra funda, mas secou por não ter raiz quando o sol surgiu. A falta de profundidade foi a causa principal."
+ },
+ "refs": [
+  "Marcos 4:1-20",
+  "Lucas 8:11-15",
+  "Hebreus 4:12"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-27T00:57:35.270Z",
+  "rounds": 2
+ }
+}
