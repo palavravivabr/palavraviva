@@ -3,8 +3,8 @@
    Layout: vitrine de fotos no topo, cartões de fotos em carrossel, faixa "Continuar leitura", Bíblia em grade, menu lateral. */
 :root{
   --paper:#F7EEDC; --card:#FCF8EE; --card-2:#E3EADC; --tile-at:#E9DEC1;
-  --text:#1D2A26; --soft:#7A745F; --ink:#1F4D43; --gold:#E3B96F; --gold-ink:#2A2118; --gold-soft:#F1E2B9; --icon-bg:#EFE3C2;
-  --line:#E6DBC1; --gospel:#8E3B2E; --gospel-soft:#F4E3D6; --accent:#1F4D43; --tagink:#7A5510; --sup:#9A6A1F;
+  --text:#1D2A26; --soft:#665F4A; --ink:#1F4D43; --gold:#E3B96F; --gold-ink:#2A2118; --gold-soft:#F1E2B9; --icon-bg:#EFE3C2;
+  --line:#E6DBC1; --gospel:#8E3B2E; --gospel-soft:#F4E3D6; --accent:#1F4D43; --tagink:#7A5510; --sup:#85571A;
   --shadow:0 4px 14px rgba(77,57,34,.08);
   --serif:"Noto Serif","Source Serif 4",Georgia,serif; --ui:Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; --fs:1.125rem;
 }
@@ -291,3 +291,8 @@ a.srow{color:inherit;text-decoration:none}
 .rdopts select{flex:1;min-width:120px;min-height:44px;border-radius:12px;padding:0 10px;background:var(--paper);color:var(--text);border:1px solid var(--line);font:inherit}
 .rdopts .fsread{flex-basis:100%;margin:0}
 #audioPanel .vol:has(#trilha){flex-direction:column;align-items:stretch;gap:6px}
+.tsearch{flex:none;width:40px;height:40px;border-radius:50%;display:grid;place-items:center;color:inherit;background:rgba(255,255,255,.12)}
+.tsearch svg{width:20px;height:20px}
+.dica{display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:14px;background:var(--gold-soft);color:var(--tagink);font-size:13px;line-height:1.4;margin:0 0 8px}
+.dica span{flex:1}
+.dica button{flex:none;min-height:40px;padding:0 14px;border-radius:14px;background:var(--ink);color:#FCF8EE;font-weight:700;font-size:13px}

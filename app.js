@@ -517,6 +517,7 @@
     var marks = await hlAll();
     clear(box);
     if (pkg.titulo) box.appendChild(h('p', { class: 'ptitulo', text: pkg.titulo }));
+    if (!lsGet('pv4-dica-marca', '')) box.appendChild(h('div', { class: 'dica' }, [h('span', { text: 'Dica: toque num versículo para destacá-lo. Seus destaques ficam em Minha Palavra. Deslize para os lados para trocar de capítulo.' }), h('button', { type: 'button', text: 'Entendi', onclick: function (e) { lsSet('pv4-dica-marca', '1'); var d = e.currentTarget.parentNode; d.parentNode.removeChild(d); } })]));
     pkg.verses.forEach(function (v) {
       var key = b.id + ':' + s.c + ':' + v.n;
       var vl = v.ate ? v.n + '-' + v.ate : String(v.n);
@@ -828,7 +829,7 @@
     var s = document.createElement('script'); s.src = 'assets/abertura-som.js';
     s.onload = function () {
       if (!window.PV_ABERTURA) return;
-      var a = new Audio(window.PV_ABERTURA), feito = false; a.volume = 0.8;
+      var a = new Audio(window.PV_ABERTURA), feito = false; a.volume = 0.5;
       function toca() { if (feito) return; feito = true; var p = a.play(); if (p && p.catch) p.catch(function () { /* sem permissão do sistema: fica em silêncio */ }); }
       var p0 = a.play();
       if (p0 && p0.then) p0.then(function () { feito = true; }, function () { /* o navegador pede um toque antes de tocar: aproveita o primeiro toque, só nos primeiros segundos */
@@ -1092,6 +1093,24 @@
     $('#modalBg').addEventListener('click', function (e) { if (e.target.id === 'modalBg') closeOverlay(); });
     $$('.nav button').forEach(function (b) { b.addEventListener('click', function () { var t = b.dataset.tab; if (t === 'drawer') openDrawer(); else if (curState.v === t) $('#s-' + t).scrollTo({ top: 0, behavior: 'smooth' }); else go({ v: t }); }); });
     (function () { var ab = $('#aaBtn'), ro = $('#rdOpts'); ab.addEventListener('click', function () { ro.hidden = !ro.hidden; ab.setAttribute('aria-expanded', String(!ro.hidden)); }); })();
+    /* busca a um toque em todas as telas de leitura e estudo */
+    ['chap', 'read', 'study', 'ens', 'marks'].forEach(function (n) {
+      var tb = $('#s-' + n + ' .topbar'); if (!tb) return;
+      var sb = h('button', { class: 'tsearch', type: 'button', 'aria-label': 'Buscar livro ou palavra', onclick: function () { go({ v: 'search' }); } });
+      sb.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>'; /* SVG fixo do próprio app */
+      tb.appendChild(sb);
+    });
+    /* deslizar para os lados na leitura troca de capítulo (ignora as bordas da tela, usadas pelo gesto de voltar do Android) */
+    (function () {
+      var r = $('#s-read'), x0 = 0, y0 = 0, t0 = 0;
+      r.addEventListener('touchstart', function (e) { var t = e.changedTouches[0]; x0 = t.clientX; y0 = t.clientY; t0 = Date.now(); }, { passive: true });
+      r.addEventListener('touchend', function (e) {
+        var t = e.changedTouches[0], dx = t.clientX - x0, dy = t.clientY - y0;
+        if (Date.now() - t0 > 700 || Math.abs(dx) < 90 || Math.abs(dy) > 45 || x0 < 24 || x0 > innerWidth - 24) return;
+        if (e.target.closest && e.target.closest('input,select,.rdopts')) return;
+        var bt = dx < 0 ? $('#chNext') : $('#chPrev'); if (bt && !bt.hidden) bt.click();
+      }, { passive: true });
+    })();
     $$('[data-back]').forEach(function (b) { b.addEventListener('click', back); });
     var sl = $('#slides'), dots = $$('#dots i');
     function cur() { return Math.round(sl.scrollLeft / sl.clientWidth); }
@@ -1163,7 +1182,7 @@
     }, 5000);
   }
   (async function start() {
-    applyAppearance(); bindStatic(); refreshInstall(); lemBind(); aberturaBind(); aberturaTocar();
+    aberturaTocar(); applyAppearance(); bindStatic(); refreshInstall(); lemBind(); aberturaBind();
     setupSW();
     /* abre na hora com o que já está guardado no aparelho; a internet só atualiza por trás */
     var stored = null;
