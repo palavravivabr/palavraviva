@@ -1,0 +1,137 @@
+{
+ "id": "40-19-11-20",
+ "ref": "Mateus 19:11-20",
+ "book": "40",
+ "chapter": 19,
+ "verses": [
+  {
+   "n": 11,
+   "t": "Porém ele lhes disse: Nem todos recebem esta palavra, a não ser aqueles a quem é dado;"
+  },
+  {
+   "n": 12,
+   "t": "Pois há castrados que nasceram assim do ventre da mãe; e há castrados que foram castrados pelos homens; e há castrados que castraram a si mesmos por causa do Reino dos céus. Quem pode receber isto ,receba."
+  },
+  {
+   "n": 13,
+   "t": "Então lhe trouxeram crianças, para que pusesse as mãos sobre elas e orasse, mas os discípulos os repreendiam."
+  },
+  {
+   "n": 14,
+   "t": "Mas Jesus disse: Deixai as crianças, e não as impeçais de vir a mim, porque delas é o Reino dos céus."
+  },
+  {
+   "n": 15,
+   "t": "Ele pôs as mãos sobre elas, e depois partiu-se dali."
+  },
+  {
+   "n": 16,
+   "t": "E eis que alguém se aproximou, e perguntou-lhe: “Bom Mestre, que bem farei para eu ter a vida eterna?”"
+  },
+  {
+   "n": 17,
+   "t": "E ele lhe disse: “Por que me chamas bom? Ninguém há bom, a não ser um: Deus. Porém, se queres entrar na vida, guarda os mandamentos.”"
+  },
+  {
+   "n": 18,
+   "t": "Perguntou-lhe ele: “Quais?” E Jesus respondeu: “Não cometerás homicídio, não adulterarás, não furtarás, não darás falso testemunho;"
+  },
+  {
+   "n": 19,
+   "t": "honra ao teu pai e à tua mãe; e amarás ao teu próximo como a ti mesmo.”"
+  },
+  {
+   "n": 20,
+   "t": "O rapaz lhe disse: “Tenho guardado tudo isso desde a minha juventude. Que me falta ainda?”"
+  }
+ ],
+ "titulo": "A vida eterna começa com uma pergunta",
+ "temas": [
+  "vida eterna",
+  "mandamentos",
+  "discipulado",
+  "coração"
+ ],
+ "pergunta": "O que acontece quando tentamos comprar a vida eterna com nossos próprios esforços?",
+ "entender": "Após uma discussão sobre o casamento e os discípulos repreenderem crianças que queriam se aproximar de Jesus, um jovem se aproxima perguntando o que deve fazer para ter a vida eterna. Ele trata Jesus como um mestre bom, mas Jesus redireciona o foco para Deus, o único realmente bom, e aponta para a obediência aos mandamentos.\n\nO jovem afirma ter guardado todas as regras desde a juventude e pergunta o que lhe falta. Jesus, que conhecia o coração das pessoas, viu que a riqueza era um obstáculo. O texto mostra que a obediência externa, sem a rendição interna do coração, não é suficiente para entrar no Reino. A vida eterna não é conquistada por uma lista de tarefas, mas por uma relação com Deus, mediada por Cristo.",
+ "ligar": {
+  "texto": "Jesus é o único que pode dar a vida eterna que o jovem procurava. Ao perguntar 'que bem farei?', o jovem busca uma transação: obra por salvação. Jesus revela que o problema não é a falta de uma boa ação, mas a falta de submissão a Deus. O evangelho nos mostra que ninguém é bom o suficiente por si mesmo; precisamos de Jesus, que cumpriu a lei perfeitamente e morreu em nosso lugar, para que a fé nEle nos dê a vida eterna que não podemos merecer.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, como o jovem rico, podemos sentir que estamos 'na linha' cumprindo nossas obrigações religiosas ou morais, mas algo continua vazio. Essa sensação de falta pode indicar que há algo ocupando o lugar de Deus em nosso coração, seja um vício, uma ambição ou a segurança financeira. A aplicação prática é fazer um inventário honesto: o que eu estou segurando com força que impede eu de seguir Jesus? A vida eterna não é um prêmio para quem acerta todas as contas, mas um dom para quem se entrega a Cristo.",
+ "guarde": "A obediência às regras não compra o céu; apenas a rendição ao coração de Jesus abre a porta da vida eterna.",
+ "ore": "Jesus, que vieste buscar o que estava perdido, eu Te louvo por revelar a verdade sobre meu coração. Perdoa-me por tentar me salvar com minhas próprias forças e por colocar minha segurança em coisas passageiras. Ensina-me a soltar o que prende minha alma para que eu possa, de verdade, seguir Teus passos com liberdade e alegria.",
+ "quiz": {
+  "pergunta": "Qual foi a resposta de Jesus quando o jovem perguntou o que deveria fazer para ter a vida eterna?",
+  "opcoes": [
+   "Crença na ressurreição dos mortos",
+   "Guarda os mandamentos",
+   "Vende tudo e segue-me"
+  ],
+  "certa": 1,
+  "explicacao": "Jesus primeiro apontou para os mandamentos como a base da vida. A instrução de vender os bens veio depois, como um desafio específico para aquele jovem, revelando sua afeição maior pela riqueza do que por Deus."
+ },
+ "refs": [
+  "Marcos 10:17-22",
+  "Lucas 18:18-23",
+  "Romanos 10:9-10"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-27T21:47:00.551Z",
+  "rounds": 1
+ }
+}

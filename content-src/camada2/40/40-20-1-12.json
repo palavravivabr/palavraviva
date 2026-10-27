@@ -1,0 +1,145 @@
+{
+ "id": "40-20-1-12",
+ "ref": "Mateus 20:1-12",
+ "book": "40",
+ "chapter": 20,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Pois o reino dos céus é semelhante a um homem, dono de propriedade, que saiu de madrugada para empregar trabalhadores para a sua vinha."
+  },
+  {
+   "n": 2,
+   "t": "Ele entrou em acordo com os trabalhadores por um denário ao dia, e os mandou à sua vinha."
+  },
+  {
+   "n": 3,
+   "t": "E quando saiu perto da hora terceira, viu outros que estavam desocupados na praça."
+  },
+  {
+   "n": 4,
+   "t": "Então disse-lhes: “Ide vós também à vinha, e vos darei o que for justo”. E eles foram."
+  },
+  {
+   "n": 5,
+   "t": "Saindo novamente perto da hora sexta e nona, fez o mesmo."
+  },
+  {
+   "n": 6,
+   "t": "E quando saiu perto da décima primeira hora, achou outros que estavam desocupados, e lhes perguntou: “Por que estais aqui o dia todo desocupados?”"
+  },
+  {
+   "n": 7,
+   "t": "Eles lhe disseram: “Porque ninguém nos empregou”. Ele lhes respondeu: “Ide vós também à vinha, e recebereis o que for justo”."
+  },
+  {
+   "n": 8,
+   "t": "E chegando o anoitecer, o senhor da vinha disse ao seu mordomo: “Chama aos trabalhadores, e paga-lhes o salário, começando dos últimos, até os primeiros”."
+  },
+  {
+   "n": 9,
+   "t": "Então vieram os de cerca da hora décima primeira, e receberam um denário cada um."
+  },
+  {
+   "n": 10,
+   "t": "Quando os primeiros vieram, pensavam que receberiam mais; porém eles também receberam um denário cada um."
+  },
+  {
+   "n": 11,
+   "t": "Assim, ao receberem, murmuraram contra o chefe de casa,"
+  },
+  {
+   "n": 12,
+   "t": "dizendo: “Estes últimos trabalharam uma única hora, e tu os igualaste conosco, que suportamos a carga e o calor do dia”."
+  }
+ ],
+ "titulo": "Por que todos receberam o mesmo?",
+ "temas": [
+  "gratidão",
+  "justiça",
+  "reino de deus",
+  "generosidade"
+ ],
+ "pergunta": "Você já sentiu que alguém recebeu o mesmo que você, mas fez menos esforço?",
+ "entender": "Jesus conta a história de um dono de vinha que contratou trabalhadores em horários diferentes. Os primeiros saíram de madrugada e concordaram por um denário. Outros foram chamados mais tarde, perto do fim do dia, sem acordo prévio sobre o valor. Quando caiu a noite, o dono pagou todos, começando pelos últimos, dando a cada um um denário.\n\nOs trabalhadores da manhã esperavam ganhar mais, pois trabalharam mais horas e suportaram o calor. Ao ver que os que ficaram uma hora recebiam o mesmo, eles murmuraram com amargura. A parábola destaca o contraste entre a expectativa humana de troca (trabalho por pagamento proporcional) e a lógica do Reino, onde a generosidade do dono surpreende.",
+ "ligar": {
+  "texto": "O dono da vinha é uma imagem de Deus. No mundo, o salário é baseado no mérito e no tempo de serviço. No Reino de Deus, a vida eterna é um presente de graça. Jesus não veio apenas para dizer que Deus é justo, mas para mostrar que Ele é bom e generoso, dando a todos a mesma oferta de salvação, independentemente de quando começaram a conhecê-lo. A resposta certa não é a reclamação, mas a gratidão por receber o que não merecíamos.",
+  "selo": false
+ },
+ "viver": "Nossa tendência natural é comparar nossos esforços com os dos outros. Talvez você se sinta cansado por servir a Deus há anos, vendo novos crentes receberem a mesma acolhida e bênçãos. A parábola nos convida a examinar nosso coração: estamos servindo por obrigação ou por gratidão? Em vez de medir o quanto demos, foque no quanto Deus deu. A alegria do Reino vem de conhecer a bondade do Senhor, não de calcular méritos.",
+ "guarde": "A generosidade de Deus não compete com a justiça; ela revela o coração do Pai.",
+ "ore": "Dono da vinha, perdoa minha amargura quando vejo outros receberem graça. Ensina-me a servir com alegria, não por obrigação, mas porque sei que Tu és bom e generoso.",
+ "quiz": {
+  "pergunta": "Qual era a reclamação principal dos trabalhadores contratados de madrugada?",
+  "opcoes": [
+   "Que os últimos, que trabalharam menos, receberam o mesmo que eles.",
+   "Que o pago era baixo demais para o esforço físico.",
+   "Que o dono da vinha era cruel e não os valorizava."
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz explicitamente que eles murmuraram porque os últimos foram igualados a eles, apesar de trabalharem menos tempo."
+ },
+ "refs": [
+  "Romanos 11:6",
+  "Efésios 2:8-9",
+  "Lucas 15:25-32"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-27T21:51:03.499Z",
+  "rounds": 1
+ }
+}

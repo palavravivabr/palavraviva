@@ -1,0 +1,145 @@
+{
+ "id": "40-18-1-12",
+ "ref": "Mateus 18:1-12",
+ "book": "40",
+ "chapter": 18,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Naquela hora os discípulos se aproximaram de Jesus, e perguntaram: Ora, quem é o maior no Reino dos céus?"
+  },
+  {
+   "n": 2,
+   "t": "Então Jesus chamou a si uma criança, e a pôs no meio deles,"
+  },
+  {
+   "n": 3,
+   "t": "e disse: Em verdade vos digo, que se vós não converterdes, e fordes como crianças, de maneira nenhuma entrareis no Reino dos céus."
+  },
+  {
+   "n": 4,
+   "t": "Assim, qualquer um que for humilde como esta criança, este é o maior no reino dos céus."
+  },
+  {
+   "n": 5,
+   "t": "E qualquer um que receber a uma criança como esta em meu nome, recebe a mim."
+  },
+  {
+   "n": 6,
+   "t": "Mas qualquer um que conduzir ao pecado a um destes pequeninos que creem em mim, melhor lhe fora que uma grande pedra de moinho lhe fosse pendurada ao pescoço, e se afundasse no fundo do mar."
+  },
+  {
+   "n": 7,
+   "t": "Ai do mundo por causa das tentações do pecado! Pois é necessário que as tentações venham, mas ai daquela pessoa por quem a tentação vem!"
+  },
+  {
+   "n": 8,
+   "t": "Portanto, se a tua mão ou o teu pé te faz pecar, corta-os, e lança-os de ti; melhor te é entrar manco ou aleijado na vida do que, tendo duas mãos ou dois pés, ser lançado no fogo eterno."
+  },
+  {
+   "n": 9,
+   "t": "E se o teu olho te faz pecar, arranca-o, e lança-o de ti. Melhor te é entrar com um olho na vida do que, tendo dois olhos, ser lançado no inferno de fogo."
+  },
+  {
+   "n": 10,
+   "t": "Olhai para que não desprezeis a algum destes pequeninos; porque eu vos digo que os seus anjos nos céus sempre veem a face do meu Pai, que está nos céus."
+  },
+  {
+   "n": 11,
+   "t": "Pois o Filho do homem veio para salvar o que havia se perdido."
+  },
+  {
+   "n": 12,
+   "t": "Que vos parece? Se alguém tivesse cem ovelhas, e uma delas se desviasse, por acaso não iria ele pelos montes, deixando as noventa e nove, em busca da desviada?"
+  }
+ ],
+ "titulo": "Quem é realmente o maior no Reino?",
+ "temas": [
+  "humildade",
+  "cuidado",
+  "reino",
+  "perdão"
+ ],
+ "pergunta": "Você já pensou que ser o maior pode significar ser pequeno?",
+ "entender": "Jesus respondeu ao pedido dos discípulos sobre quem seria o maior no Reino dos céus trazendo uma criança ao meio deles. Ele disse que, se não nos tornarmos como crianças, não entraremos no Reino. A humildade da criança revela o critério de grandeza: \"qualquer um que for humilde como esta criança, este é o maior no reino dos céus\" (Mateus 18.4). Em seguida, Jesus ensina que receber uma criança em Seu nome é receber a Ele, e que causar dano a esses pequeninos traz juízo severo. O texto também traz ilustrações fortes sobre cortar o que nos faz pecar e alerta para não desprezar os pequenos, pois seus anjos veem a face do Pai.\n\nNo contexto imediato, os discípulos buscavam status e liderança. Jesus, ao chamar uma criança, subverte essa expectativa, mostrando que o Reino valoriza a dependência, a confiança e a pureza de coração. Essa atitude contrasta com a cultura da época, que valorizava autoridade e poder. O trecho culmina com a parábola da ovelha perdida, reforçando o cuidado de Deus por cada pessoa, sobretudo pelos que são vulneráveis.",
+ "ligar": {
+  "texto": "A mensagem aponta para o próprio Cristo quando Ele afirma que receber uma criança em Seu nome é recebê‑Lo (v.5). Isso revela que Jesus é o centro da relação de cuidado: Ele se identifica com os pequenos e os protege. A promessa de que \"os seus anjos nos céus sempre veem a face do meu Pai\" (v.10) aponta para a presença divina que acompanha Jesus. Assim, o evangelho se manifesta ao reconhecer que a salvação vem da confiança infantil em Cristo, que morreu para resgatar os que se desviam, como a ovelha perdida (v.12).",
+  "selo": true
+ },
+ "viver": "Quando Jesus fala que quem se torna como criança entra no Reino, Ele nos convida a abandonar a soberba e a buscar uma fé simples e confiante. Na prática, isso pode significar ouvir com atenção as necessidades de quem é vulnerável ao nosso redor – crianças, idosos, recém‑convertidos – e tratá‑los com respeito e proteção. Se alguém nos magoa, a resposta não é a violência, mas a disposição de cortar o que nos leva ao pecado, como cortar a mão que nos faz tropeçar. Essa atitude protege o coração e mantém a comunidade saudável.\n\nAlém disso, a parábola da ovelha perdida nos desafia a não abandonar quem se afasta. Se percebermos alguém em dificuldade, devemos buscar, orar e oferecer apoio, lembrando que cada pessoa tem valor aos olhos de Deus.",
+ "guarde": "A verdadeira grandeza no Reino é ser humilde como uma criança e cuidar dos pequenos.",
+ "ore": "Jesus, ao chamar a criança, ensina-me a confiar como ela e a proteger os pequeninos ao meu redor.",
+ "quiz": {
+  "pergunta": "Qual atitude Jesus destaca como essencial para entrar no Reino dos céus?",
+  "opcoes": [
+   "Tornar‑se humilde como uma criança",
+   "Acumular riquezas e poder",
+   "Ser o mais sábio entre os discípulos"
+  ],
+  "certa": 0,
+  "explicacao": "Jesus diz que quem não se converter e for como crianças não entrará no Reino; a humildade infantil é a condição para a grandeza."
+ },
+ "refs": [
+  "Lucas 18:16-17",
+  "Marcos 10:14-15",
+  "Mateus 19:14"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-27T21:41:38.067Z",
+  "rounds": 1
+ }
+}

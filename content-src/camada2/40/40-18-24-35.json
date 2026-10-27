@@ -1,0 +1,145 @@
+{
+ "id": "40-18-24-35",
+ "ref": "Mateus 18:24-35",
+ "book": "40",
+ "chapter": 18,
+ "verses": [
+  {
+   "n": 24,
+   "t": "E começando a fazer acerto de contas, foi-lhe apresentado um que lhe devia dez mil talentos."
+  },
+  {
+   "n": 25,
+   "t": "Como ele não tinha com que pagar, o seu senhor mandou que ele, sua mulher, filhos, e tudo quanto tinha fossem vendidos para se fazer o pagamento."
+  },
+  {
+   "n": 26,
+   "t": "Então aquele servo caiu e ficou prostrado diante dele, dizendo: “Senhor, tem paciência comigo, e tudo te pagarei”."
+  },
+  {
+   "n": 27,
+   "t": "O senhor daquele servo compadeceu-se dele, então o soltou e lhe perdoou a dívida."
+  },
+  {
+   "n": 28,
+   "t": "Todavia, depois daquele servo sair, achou um companheiro de serviço seu, que lhe devia cem denários; então o agarrou e o sufocou, dizendo: “Paga-me o que me deves!”"
+  },
+  {
+   "n": 29,
+   "t": "Então o seu colega se prostrou diante dos seus pés, e lhe suplicou, dizendo: “Tem paciência comigo, e tudo te pagarei”."
+  },
+  {
+   "n": 30,
+   "t": "Mas ele não quis. Em vez disso foi lançá-lo na prisão até que pagasse a dívida."
+  },
+  {
+   "n": 31,
+   "t": "Quando os seus companheiros de serviço viram o que se passava, entristeceram-se muito. Então vieram denunciar ao seu senhor tudo o que havia se passado."
+  },
+  {
+   "n": 32,
+   "t": "Assim o seu senhor o chamou, e lhe disse: “Servo mau! Toda aquela dívida te perdoei, porque me suplicaste."
+  },
+  {
+   "n": 33,
+   "t": "Não tinhas tu a obrigação de ter tido misericórdia do sevo colega teu, assim como eu tive misericórdia de ti?”"
+  },
+  {
+   "n": 34,
+   "t": "E, enfurecido, o seu senhor o entregou aos torturadores até que pagasse tudo o que lhe devia."
+  },
+  {
+   "n": 35,
+   "t": "Assim também meu Pai celestial vos fará, se não perdoardes de coração cada um ao seu irmão suas ofensas."
+  }
+ ],
+ "titulo": "O perdão que não aceita troco",
+ "temas": [
+  "perdão",
+  "misericórdia",
+  "dívida",
+  "coração"
+ ],
+ "pergunta": "Se você fosse perdoado de uma dívida impossível, pediria justiça para quem te ofendeu?",
+ "entender": "Jesus ilustra o Reino dos céus com um rei que faz acerto de contas. Um servo devia dez mil talentos, soma impagável. Diante da ameaça de ter tudo vendido, ele suplica: “Senhor, tem paciência comigo”. O rei, movido a compaixão, anula a dívida.\n\nMas o mesmo servo encontra um colega que lhe deve apenas cem denários. Em vez de perdoar, ele o agarra e o sufoca, exigindo pagamento. Ao saber disso, o rei o entrega aos torturadores. A lição é dura: quem recebeu graça total não pode ser rígido com quem deve pouco.",
+ "ligar": {
+  "texto": "A parábola aponta para a realidade do evangelho: nossa dívida de pecado diante de Deus é infinita, como os dez mil talentos. Jesus, Deus e homem, pagou essa conta na cruz, oferecendo perdão gratuito. O texto nos convida a responder a essa graça imerecida com o mesmo coração de misericórdia que recebemos de Cristo.",
+  "selo": true
+ },
+ "viver": "A dívida de cem denários é pequena perto dos dez mil talentos. Se alguém te ferir, compare o tamanho da ofensa com o tamanho do perdão que você já recebeu. Não se trata de ignorar a dor, mas de soltar o direito de cobrar. Escolha hoje uma pessoa com quem você está guardando rancor e decida, com oração, perdoar de coração, sem condições.",
+ "guarde": "Quem foi perdoado de tudo, não pode cobrar dos outros.",
+ "ore": "Pai, ao lembrar do servo que recebeu o perdão de dez mil talentos, eu me reconheço como devedor. Obrigado por me ter libertado da minha dívida. Ensina-me a ter o mesmo coração que Teu, para que eu perdoe de verdade a quem me ofende, sem guardar rancor.",
+ "quiz": {
+  "pergunta": "Qual era a quantia que o primeiro servo devia ao rei?",
+  "opcoes": [
+   "Sete talentos",
+   "Cem denários",
+   "Dez mil talentos"
+  ],
+  "certa": 2,
+  "explicacao": "O texto diz explicitamente no versículo 24 que o servo devia dez mil talentos, uma quantia enorme. Cem denários era a dívida do segundo servo."
+ },
+ "refs": [
+  "Lucas 7:41-43",
+  "Efésios 4:32",
+  "Colossenses 3:13"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-27T21:48:55.806Z",
+  "rounds": 2
+ }
+}

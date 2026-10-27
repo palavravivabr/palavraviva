@@ -1,0 +1,137 @@
+{
+ "id": "40-19-1-10",
+ "ref": "Mateus 19:1-10",
+ "book": "40",
+ "chapter": 19,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E aconteceu que, quando Jesus acabou essas palavras, partiu da Galileia, e veio para a região da Judeia, além do Jordão."
+  },
+  {
+   "n": 2,
+   "t": "E muitas multidões o seguiram, e ele os curou ali."
+  },
+  {
+   "n": 3,
+   "t": "Então os fariseus se aproximaram dele e, provando-o, perguntaram-lhe: É lícito ao homem se divorciar da sua mulher por qualquer causa?"
+  },
+  {
+   "n": 4,
+   "t": "Porém ele lhes respondeu: Não tendes lido que aquele que os fez no princípio, macho e fêmea os fez,"
+  },
+  {
+   "n": 5,
+   "t": "e disse: Portanto o homem deixará pai e mãe, e se unirá a sua mulher, e os dois serão uma única carne? Gênesis 2:24"
+  },
+  {
+   "n": 6,
+   "t": "Assim eles já não são mais dois, mas sim uma única carne; portanto, o que Deus juntou, o ser humano não separe."
+  },
+  {
+   "n": 7,
+   "t": "Eles lhe disseram: Por que, pois, Moisés mandou lhe dar carta de separação, e divorciar-se dela?"
+  },
+  {
+   "n": 8,
+   "t": "Jesus lhes disse: Por causa da dureza dos vossos corações Moisés vos permitiu divorciardes de vossas mulheres; mas no princípio não foi assim."
+  },
+  {
+   "n": 9,
+   "t": "Porém eu vos digo que qualquer um que se divorciar de sua mulher, a não ser por causa de pecado sexual, e se casar com outra, adultera; e o que se casar com a divorciada também adultera."
+  },
+  {
+   "n": 10,
+   "t": "Os seus discípulos lhe disseram: Se assim é a condição do homem com a mulher, não convém se casar."
+  }
+ ],
+ "titulo": "O que Deus uniu e a dureza do coração",
+ "temas": [
+  "casamento",
+  "divórcio",
+  "grace",
+  "intenção de deus"
+ ],
+ "pergunta": "Por que Jesus defendeu a união original de Adão e Eva diante dos fariseus?",
+ "entender": "Os fariseus tentaram testar Jesus perguntando se era permitido divorciar-se por qualquer motivo. Em vez de responder apenas sobre a lei, Jesus remeteu ao princípio criacional: Deus fez o homem e a mulher e os uniu de tal forma que deixaram de ser dois para se tornarem uma única carne. Essa união não foi uma ideia humana, mas um ato divino que estabelece o padrão do casamento.\n\nQuando os fariseus citaram Moisés, que permitia a carta de separação, Jesus explicou que isso foi uma concessão por causa da dureza dos corações, não o ideal original. Ele reafirmou que, exceto em casos de pecado sexual, divorciar-se e casar-se novamente é considerado adultério. A resposta de Jesus elevou o casamento a uma aliança sagrada que reflete a fidelidade de Deus.",
+ "ligar": {
+  "texto": "Jesus mostra aqui Sua autoridade sobre a lei e Sua lealdade ao designo original de Deus. Ao defender a indissolubilidade do casamento, Ele aponta para Sua própria fidelidade: assim como Deus não abandona Seu povo, o casal é chamado a refletir essa constância. O evangelho nos lembra que, embora sejamos falhos e nossos corações duros, a graça de Cristo nos capacita a amar com fidelidade, mesmo quando a tentação de desistir parece forte.",
+  "selo": true
+ },
+ "viver": "Talvez você esteja enfrentando dificuldades no relacionamento e pensando em desistir. Lembre-se de que a união que Deus abençoou exige esforço e perdão. Em vez de focar nos erros do outro, procure renovar seu compromisso, buscando a ajuda de Deus para amadurecer seu coração. O casamento é um lugar onde a graça de Cristo se torna visível através da paciência e do amor sacrificial.",
+ "guarde": "O que Deus uniu em amor, o ser humano não deve separar por impaciência.",
+ "ore": "Jesus, que ensinou a santidade do casamento em Mateus 19, ajuda-me a ter um coração suave e fiel. Ensina-me a amar minha família com a mesma constância com que Tu amas o Teu povo, perdoando as ofensas e buscando a reconciliação sempre que possível.",
+ "quiz": {
+  "pergunta": "Segundo Jesus, por que Moisés permitiu a carta de separação?",
+  "opcoes": [
+   "Por causa da dureza dos corações.",
+   "Porque era o ideal original de Deus.",
+   "Para facilitar a vida dos ricos."
+  ],
+  "certa": 0,
+  "explicacao": "Jesus explicou que a permissão de Moisés foi uma concessão temporária devido à dureza humana, não o plano perfeito estabelecido no princípio da criação."
+ },
+ "refs": [
+  "Gênesis 2:24",
+  "Marcos 10:2-9",
+  "Efésios 5:31-32"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-27T21:47:59.845Z",
+  "rounds": 1
+ }
+}

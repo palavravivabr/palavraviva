@@ -1,0 +1,134 @@
+{
+ "id": "40-17-19-27",
+ "ref": "Mateus 17:19-27",
+ "book": "40",
+ "chapter": 17,
+ "verses": [
+  {
+   "n": 19,
+   "t": "Depois os discípulos se aproximaram de Jesus em particular, e perguntaram: Por que nós não o pudemos expulsar?"
+  },
+  {
+   "n": 20,
+   "t": "E Jesus lhes respondeu: Por causa da vossa incredulidade; pois em verdade vos digo, que se tivésseis fé como um grão de mostarda, diríeis a este monte: “Passa-te daqui para lá”, E ele passaria. E nada vos seria impossível."
+  },
+  {
+   "n": 21,
+   "t": "Mas este tipo de demônio não sai, a não ser por oração e jejum."
+  },
+  {
+   "n": 22,
+   "t": "E enquanto eles estavam na Galileia, Jesus lhes disse: O Filho do homem será entregue em mãos de homens."
+  },
+  {
+   "n": 23,
+   "t": "E o matarão, e ele será ressuscitado ao terceiro dia.E eles se entristeceram muito."
+  },
+  {
+   "n": 24,
+   "t": "E quando entraram em Cafarnaum, os cobradores da taxa de duas dracmas vieram a Pedro, e perguntaram: Vosso mestre não paga as duas dracmas?"
+  },
+  {
+   "n": 25,
+   "t": "Ele respondeu: Sim. Quando ele entrou em casa, Jesus o antecipou, dizendo: Que te parece, Simão? De quem os reis da terra cobram tributos ou taxas? Dos seus filhos, ou dos outros?"
+  },
+  {
+   "n": 26,
+   "t": "Pedro lhe respondeu: Dos outros. Jesus lhe disse: Logo, os filhos são livres de pagar."
+  },
+  {
+   "n": 27,
+   "t": "Mas para não os ofendermos, vai ao mar, e lança o anzol. Toma o primeiro peixe que subir, e quando lhe abrir a boca, acharás uma moeda de quatro dracmas. Toma-a, e dá a eles por mim e por ti."
+  }
+ ],
+ "titulo": "A fé que move montanhas e paga tributos",
+ "temas": [
+  "fé",
+  "oração",
+  "dependência",
+  "confiança"
+ ],
+ "pergunta": "Você já tentou confiar em Deus mesmo quando tudo parece impossível?",
+ "entender": "Os discípulos ficaram perplexos ao não conseguir expulsar um demônio e perguntaram a Jesus por que falharam. Ele respondeu que a \"incredulidade\" era a causa e explicou que, se tivessem fé \"como um grão de mostarda\", poderiam dizer ao monte para se mover e nada seria impossível. Para esse tipo de demônio, Jesus acrescentou que é preciso \"oração e jejum\". Em seguida, ao chegar a Cafarnaum, os cobradores da taxa de duas dracmas questionaram se o Mestre pagava o tributo. Jesus usou a situação para ensinar que os filhos são livres de pagar impostos dos outros, mas, para não ofender, pediu a Pedro que pegasse um peixe e encontrasse uma moeda para pagar a taxa.\n\nO contexto mostra que Jesus já havia curado um menino possuído por demônio (versículos 16‑18) e que agora os discípulos ainda lutavam com a falta de fé. A conversa sobre o tributo revela a sensibilidade de Jesus ao respeito cultural, ao mesmo tempo que demonstra seu poder sobrenatural ao prover a moeda no ventre do peixe.",
+ "ligar": {
+  "texto": "A fé que Jesus descreve – tão pequena como um grão de mostarda – aponta para a confiança no próprio Cristo, que tem poder sobre toda a criação. Quando Jesus fala que nada será impossível, Ele está revelando Sua autoridade divina, que se cumpre na cruz e na ressurreição, onde Ele venceu o impossível da morte. O pedido de oração e jejum mostra que a vitória espiritual depende de um relacionamento íntimo com Ele. A provisão da moeda no peixe demonstra que o mesmo Deus que sustenta o universo também cuida das necessidades diárias dos que confiam n'Ele, apontando ao evangelho da dependência total em Cristo.",
+  "selo": true
+ },
+ "viver": "Quando enfrentamos situações que parecem fora do nosso controle – um problema financeiro, uma decisão difícil ou um conflito – lembre‑se de que a fé não precisa ser enorme para ser eficaz. Comece com pequenos atos de confiança: ore por direção, pratique um jejum breve e procure obedecer ao que Deus pede, mesmo que pareça pequeno. Assim como Pedro encontrou a moeda no peixe, Deus pode suprir o que precisamos de maneiras inesperadas, se estivermos dispostos a obedecer e confiar.",
+ "guarde": "A fé do tamanho de um grão de mostarda pode mover montanhas e abrir bocas de peixes.",
+ "ore": "Cafarnaum, Senhor, ajuda-me a confiar em Ti como Pedro confiou, para que eu experimente tua provisão até nas pequenas necessidades.",
+ "quiz": {
+  "pergunta": "Por que Jesus disse que o demônio só sai por oração e jejum?",
+  "opcoes": [
+   "Porque esse tipo de demônio exige maior intimidade espiritual.",
+   "Porque o demônio tem medo da água.",
+   "Porque o jejum faz o demônio perder força."
+  ],
+  "certa": 0,
+  "explicacao": "Jesus explicou que certos espíritos são mais resistentes e só se afastam quando há profunda dependência de Deus, demonstrada por oração e jejum."
+ },
+ "refs": [
+  "Marcos 9:29",
+  "Lucas 17:6",
+  "Mateus 6:16-18",
+  "Hebreus 11:1"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-27T21:42:23.114Z",
+  "rounds": 1
+ }
+}
