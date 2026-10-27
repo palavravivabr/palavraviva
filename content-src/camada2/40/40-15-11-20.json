@@ -1,0 +1,137 @@
+{
+ "id": "40-15-11-20",
+ "ref": "Mateus 15:11-20",
+ "book": "40",
+ "chapter": 15,
+ "verses": [
+  {
+   "n": 11,
+   "t": "Não é o que entra na boca que contamina o ser humano; mas sim o que sai da boca, isso contamina o ser humano."
+  },
+  {
+   "n": 12,
+   "t": "Então os seus discípulos aproximaram-se dele, e lhe perguntaram: Tu sabes que os fariseus se ofenderam quando ouviram essa palavra?"
+  },
+  {
+   "n": 13,
+   "t": "Mas ele respondeu: Toda planta que meu Pai celestial não plantou será arrancada pela raiz."
+  },
+  {
+   "n": 14,
+   "t": "Deixai-os, são guias cegos de cegos. E se o cego guiar outro cego, ambos cairão na cova."
+  },
+  {
+   "n": 15,
+   "t": "E Pedro lhe disse: Explica-nos esta parábola."
+  },
+  {
+   "n": 16,
+   "t": "Porém Jesus disse: Até vós ainda estais sem entender?"
+  },
+  {
+   "n": 17,
+   "t": "Não percebeis ainda que tudo o que entra na boca vai ao ventre, mas depois é lançado na privada?"
+  },
+  {
+   "n": 18,
+   "t": "Porém as coisas que saem da boca procedem do coração; e elas contaminam o ser humano."
+  },
+  {
+   "n": 19,
+   "t": "Pois do coração procedem maus pensamentos, mortes, adultérios, pecados sexuais, furtos, falsos testemunhos, blasfêmias."
+  },
+  {
+   "n": 20,
+   "t": "Estas coisas são as que contaminam o ser humano; mas comer sem lavar as mãos não contamina o ser humano."
+  }
+ ],
+ "titulo": "O que sai de você define quem você é",
+ "temas": [
+  "coração",
+  "pureza",
+  "intenções",
+  "liberdade"
+ ],
+ "pergunta": "Por que Jesus disse que o que entra na boca não contamina, mas o que sai, sim?",
+ "entender": "Em Mateus 15, Jesus responde aos fariseus que criticavam seus discípulos por não lavar as mãos antes de comer. Ele inverte a lógica: o problema não é o alimento, mas a origem dos pensamentos. Jesus explica que \"tudo o que entra na boca vai ao ventre\", mas \"as coisas que saem da boca procedem do coração\". Isso significa que a pureza não se mede por rituais externos, mas pela qualidade do que há dentro de nós.\n\nJesus lista exemplos concretos do que contamina o ser humano: maus pensamentos, mortes, adultérios, furtos, falsos testemunhos e blasfêmias. Ele deixa claro que a raiz do problema moral está no coração, não nas regras de higiene ou tradição. Para os discípulos, que ainda estavam confusos, essa é uma revelação profunda: a verdadeira limpeza é interna.",
+ "ligar": {
+  "texto": "Jesus, sendo o único sem pecado, revela a verdadeira pureza que a lei não podia dar. Ele mostra que o coração humano está inclinado ao mal, mas oferece o caminho para a transformação. Através de sua morte e ressurreição, Jesus limpa o coração do pecador, permitindo que pensamentos e palavras boas fluam de uma nova natureza. O evangelho nos liberta da ansiedade por rituais externos e nos aponta para a obra interior do Espírito Santo em Cristo.",
+  "selo": true
+ },
+ "viver": "Pare por um momento e observe o que está \"saindo\" de você hoje. Não são as suas refeições, mas suas palavras e reações que revelam seu estado interior. Se você percebe palavras amargas, fofocas ou julgamentos constantes, isso indica que precisa de cura no coração. Em vez de apenas se esforçar para falar melhor, busque a Jesus em oração, pedindo que Ele examine suas intenções e transforme o que está na raiz. A mudança real começa quando permitimos que o amor de Cristo reorganize nossas prioridades internas.",
+ "guarde": "A pureza verdadeira não vem do que evitamos comer, mas do que deixamos nascer no coração.",
+ "ore": "Jesus, ao dizer que o que sai da boca contamina, revela-me a necessidade de um coração limpo. Eu confesso que muitas vezes permito que maus pensamentos se tornem palavras. Peço que o Espírito Santo examine minha mente e minha boca, removendo a raiz do mal e encheendo-me com o Teu fruto. Ajuda-me a viver com a consciência tranquila de quem foi perdoado e renovado por Ti.",
+ "quiz": {
+  "pergunta": "Segundo Mateus 15:19, de onde procedem as coisas que contaminam o ser humano?",
+  "opcoes": [
+   "Do coração",
+   "Da comida",
+   "Das mãos"
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma explicitamente que \"as coisas que saem da boca procedem do coração\" e é disso que vêm os males que contaminam o ser humano."
+ },
+ "refs": [
+  "Marcos 7:14-23",
+  "Lucas 6:45",
+  "Tiago 3:6"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-27T10:08:01.960Z",
+  "rounds": 1
+ }
+}

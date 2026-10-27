@@ -1,0 +1,136 @@
+{
+ "id": "40-9-20-29",
+ "ref": "Mateus 9:20-29",
+ "book": "40",
+ "chapter": 9,
+ "verses": [
+  {
+   "n": 20,
+   "t": "(Eis, porém, que uma mulher enferma de um fluxo de sangue havia doze anos veio por detrás dele , e tocou a borda de sua roupa;"
+  },
+  {
+   "n": 21,
+   "t": "Porque dizia consigo mesma: Se eu tão-somente tocar a roupa dele, serei curada."
+  },
+  {
+   "n": 22,
+   "t": "Jesus se virou e a viu. Então disse: Tem bom ânimo, filha, a tua fé te sarou. E desde aquela hora a mulher ficou com saúde.)"
+  },
+  {
+   "n": 23,
+   "t": "Quando Jesus chegou à casa daquele chefe, viu os tocadores de flauta e a multidão que fazia alvoroço,"
+  },
+  {
+   "n": 24,
+   "t": "E disse-lhes: Retirai-vos, porque a menina não está morta, mas sim dormindo. E riram dele."
+  },
+  {
+   "n": 25,
+   "t": "Mas quando a multidão foi expulsa, ele entrou, pegou a mão dela, e a menina se levantou."
+  },
+  {
+   "n": 26,
+   "t": "E esta notícia se espalhou por toda aquela terra."
+  },
+  {
+   "n": 27,
+   "t": "E saindo Jesus dali, dois cegos o seguiram, gritando: Tem compaixão de nós, Filho de Davi!"
+  },
+  {
+   "n": 28,
+   "t": "E quando ele entrou em casa, os cegos vieram a ele. Jesus lhes perguntou: Credes que posso fazer isto? Eles lhe responderam: Sim, Senhor."
+  },
+  {
+   "n": 29,
+   "t": "Então tocou os olhos deles, dizendo: Seja feito convosco conforme a vossa fé."
+  }
+ ],
+ "titulo": "Doze anos de espera e uma mão estendida",
+ "temas": [
+  "fé",
+  "cura",
+  "esperança"
+ ],
+ "pergunta": "O que fez aquela mulher, após doze anos de sofrimento, ousar tocar a roupa de Jesus?",
+ "entender": "Em Mateus 9, vemos três momentos de poder de Jesus. Primeiro, uma mulher que sofria de hemorragia há doze anos se aproxima por trás dele e toca a borda da sua roupa. Ela dizia consigo mesma que, se apenas tocasse, seria curada. Jesus se vira, reconhece a fé dela e a cura na hora.\n\nLogo depois, Jesus chega à casa de um chefe de sinagoga para ressuscitar a filha. A multidão fazia alvoroço com tocadores de flauta, mas Jesus afirma que a menina não está morta, apenas dormindo. Ao tocar a mão dela, a jovem se levanta.\n\nPor fim, dois cegos seguem Jesus pedindo compaixão. Ele pergunta se eles creem que pode curá-los. Ao tocarem os olhos, Jesus diz que seja feito conforme a fé deles. Em todos os casos, a resposta de Jesus é imediata e completa.",
+ "ligar": {
+  "texto": "Estas cenas mostram Jesus como o Filho de Davi que traz vida e restauração. A mulher, a menina e os cegos estavam em situações de desespero, mas encontraram em Jesus a compaixão que muda o destino. O evangelho nos lembra que a fé em Cristo é a ponte entre a nossa necessidade e o poder de Deus. Assim como Jesus venceu a morte e a doença, Ele oferece vida eterna a todos que creem nEle.",
+  "selo": true
+ },
+ "viver": "Talvez você carregue um problema que parece insolúvel, como os doze anos de sofrimento daquela mulher. Jesus convida você a ir até Ele com a mesma confiança. Não espere estar \"pronto\" ou \"merecedor\". A cura começa no momento em que você reconhece sua necessidade e estende a mão para Cristo. A fé não é sobre a intensidade do grito, mas sobre a certeza de que Ele pode agir agora.",
+ "guarde": "Sua fé é a ponte que liga sua necessidade ao poder de Deus.",
+ "ore": "Jesus, ao lembrar da mulher que tocou sua roupa, eu confio que você pode curar minhas feridas. Ajude-me a crer que você tem poder sobre minha situação, assim como levantou a menina e abriu os olhos dos cegos.",
+ "quiz": {
+  "pergunta": "O que Jesus disse aos dois cegos ao tocar os olhos deles?",
+  "opcoes": [
+   "Pedem perdão pelos seus pecados.",
+   "Vocês serão curados amanhã.",
+   "Seja feito convosco conforme a vossa fé."
+  ],
+  "certa": 2,
+  "explicacao": "O texto em Mateus 9:29 registra que Jesus tocou os olhos deles, dizendo: \"Seja feito convosco conforme a vossa fé\"."
+ },
+ "refs": [
+  "Marcos 5:25-34",
+  "Lucas 8:43-48",
+  "João 9:1-7"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-27T09:57:38.638Z",
+  "rounds": 2
+ }
+}

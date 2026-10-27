@@ -1659,7 +1659,9 @@
   },
   "40-9-20-29": {
    "execucoes": 2,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:guarde:41-5-23-32",
+   "estado": "pronto",
+   "titulo": "Doze anos de espera e uma mão estendida"
   },
   "40-9-30-38": {
    "execucoes": 0,
@@ -1776,8 +1778,8 @@
    "titulo": "O preço de dizer a verdade ao poder"
   },
   "40-14-13-24": {
-   "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "execucoes": 1,
+   "ultimo": "automático: entender:citacao_fora_do_texto, ligar:citacao_fora_do_texto"
   },
   "40-14-25-36": {
    "execucoes": 0,
@@ -1785,11 +1787,13 @@
   },
   "40-15-1-10": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: gemini: 503 { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\", \"status\": \"UNAVAILABLE\" } } "
   },
   "40-15-11-20": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "O que sai de você define quem você é"
   },
   "40-15-21-29": {
    "execucoes": 0,
@@ -1810,28 +1814,36 @@
   "40-16-20-28": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-17-1-9": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-17-10-18": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 599,
-   "entrada": 1520808,
-   "saida": 532279
+   "chamadas": 606,
+   "entrada": 1539524,
+   "saida": 538230
   },
   "groq-qwen": {
-   "chamadas": 595,
-   "entrada": 1447783,
-   "saida": 482936
+   "chamadas": 603,
+   "entrada": 1469231,
+   "saida": 489352
   },
   "gemini": {
-   "chamadas": 500,
-   "entrada": 1621210,
-   "saida": 649380
+   "chamadas": 504,
+   "entrada": 1634065,
+   "saida": 658303
   },
   "cloudflare": {
-   "chamadas": 306,
-   "entrada": 1065875,
-   "saida": 113526
+   "chamadas": 308,
+   "entrada": 1072765,
+   "saida": 114268
   },
   "mistral": {
    "chamadas": 0,
