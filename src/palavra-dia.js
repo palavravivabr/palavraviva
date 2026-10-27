@@ -328,7 +328,7 @@
     '.pdhero.nb .pdbar,.pdhero.nb .pdj{display:none}' +
     '.pdhero:fullscreen,.pdhero.fs{width:100vw}' +
     '.pdtop{top:20px;padding:0 64px}.pdtop span{font-size:22px}' +
-    '.pdhero .pdcap{bottom:210px;font-size:26px;color:rgba(255,255,255,.65)}.pdhero .pdcap.fx{font-size:22px;color:#fff}.pdhero .pdcap .on{color:#fff}' +
+    '.pdhero .pdcap{bottom:210px;font-size:26px;color:rgba(255,255,255,.65)}.pdhero .pdcap.fx{font-size:26px;color:#fff}.pdhero .pdcap .on{color:#fff}' +
     '.pdhero .pdbar{left:18px;right:18px;bottom:max(26px,env(safe-area-inset-bottom))}.pdhero .pdbar .pdvol{display:block;flex:0 0 70px}.pdhero .pdbar .pdvb{display:block}' +
     '.pdw .pdhero .pdbt.pdplay{top:auto;bottom:86px;transform:translateX(-50%)}' +
     '.pdw .pdhero .pdx{display:block;position:absolute;top:16px;left:16px;width:44px;height:44px;font-size:20px}' +
