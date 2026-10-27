@@ -323,7 +323,7 @@
     '.pdw .pdbt.pdplay{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:64px;height:64px;padding:0;border-radius:50%;font-size:22px;background:rgba(0,0,0,.45);border:2px solid rgba(255,255,255,.85);color:#fff}' +
     '.pdbar{position:absolute;left:12px;right:12px;bottom:12px;display:flex;align-items:center;gap:8px;color:#fff;font:12px sans-serif;text-shadow:0 1px 4px #000}' +
     '.pdbar input[type=range]{flex:1;min-width:0;accent-color:#f3d98b}.pdbar .pdvol,.pdbar .pdvb{display:none}' +
-    '.pdw .pdbar button,.pdw .pdx,.pdw .pdj{background:rgba(0,0,0,.4);color:#fff;border:0;border-radius:50%;width:36px;height:36px;padding:0;font:inherit;font-size:16px}' +
+    '.pdw .pdbar button,.pdw .pdx,.pdw .pdj{background:rgba(0,0,0,.4);color:#fff;border:0;border-radius:50%;width:40px;height:40px;padding:0;font:inherit;font-size:16px}' +
     '.pdw .pdx,.pdw .pdj{display:none}' +
     '.pdhero.nb .pdbar,.pdhero.nb .pdj{display:none}' +
     '.pdhero:fullscreen,.pdhero.fs{width:100vw}' +
@@ -334,7 +334,7 @@
     '.pdw .pdhero .pdx{display:block;position:absolute;top:16px;left:16px;width:44px;height:44px;font-size:20px}' +
     '.pdw .pdhero .pdj{display:block;position:absolute;bottom:96px;width:46px;height:46px;font-size:13px}.pdhero .pdj.b{left:calc(50% - 112px)}.pdhero .pdj.f{left:calc(50% + 66px)}' +
     '.pdacts{position:absolute;left:10px;right:10px;bottom:158px;display:flex;flex-wrap:wrap;justify-content:center;gap:8px}' +
-    '.pdw .pdacts .pdbt{padding:8px 13px;font-size:13px;border-radius:18px;background:rgba(0,0,0,.45);color:#fff;border:1px solid rgba(255,255,255,.55)}' +
+    '.pdw .pdacts .pdbt{min-height:38px;padding:8px 13px;font-size:13px;border-radius:18px;background:rgba(0,0,0,.45);color:#fff;border:1px solid rgba(255,255,255,.55)}' +
     '.pdtx{position:absolute;left:0;right:0;top:84px;bottom:200px;overflow-y:auto;padding:14px 18px;background:rgba(0,0,0,.66);color:#fff;display:none;-webkit-overflow-scrolling:touch}' +
     '.pdhero.tx .pdtx{display:block}.pdhero.tx .pdcap{display:none}' +
     '.pdw .pdtx h3,.pdw .pdtx .tr,.pdw .pdtx .cr{color:rgba(255,255,255,.72)}.pdw .pdtx h3{color:#f3d98b}.pdw .pdtx blockquote{border-left-color:#f3d98b}.pdw .pdtx span.on{color:#f3d98b}' +

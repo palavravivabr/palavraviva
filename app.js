@@ -791,10 +791,10 @@
   function lemPintar() {
     var p = lemEstado(), sw = $('#lemSw'), ok = 'serviceWorker' in navigator && 'Notification' in window && !isIOS();
     sw.setAttribute('aria-checked', String(p.on && ok)); $('#lemHora').value = p.hora;
-    if (isIOS()) { sw.disabled = true; $('#lemHora').disabled = true; lemInfo('No iPhone, a Apple só permite avisos de sites por meio de um servidor de envio, que este app não usa (ele não coleta dados). Por isso o lembrete não está disponível no iPhone. Você pode abrir a Palavra do Dia pelo app a qualquer momento.'); return; }
+    if (isIOS()) { sw.disabled = true; $('#lemHora').disabled = true; lemInfo('No iPhone, a Apple só permite avisos por meio de um servidor, que este app não usa. Por isso o lembrete não está disponível aqui.'); return; }
     if (!ok) { sw.disabled = true; $('#lemHora').disabled = true; lemInfo('Este navegador não permite lembretes.'); return; }
     if (Notification.permission === 'denied') { lemInfo('As notificações deste app estão bloqueadas nas configurações do aparelho. Libere-as nas configurações do Android para usar o lembrete.'); return; }
-    lemInfo(p.on ? 'Ativo. O Android decide o instante exato do aviso e pode atrasá-lo; funciona com o app instalado na tela inicial.' : 'Receba um convite diário, com um trecho do versículo, para ler a Palavra do Dia. Sem som próprio e sem coleta de dados.');
+    lemInfo(p.on ? 'Ativo. O Android escolhe o instante exato e pode atrasar o aviso. Funciona com o app instalado.' : 'Um convite diário, com um trecho do versículo. Sem som e sem coleta de dados.');
   }
   function lemLigar() {
     modal([mtag('Lembrete diário', true), h('h2', { text: 'Receber a Palavra do Dia' }),
