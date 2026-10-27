@@ -1,0 +1,12 @@
+diff --git a/src/books.js b/src/books.js
+index c54062a..0d7efc7 100644
+--- a/src/books.js
++++ b/src/books.js
+@@ -74,5 +74,6 @@
+   function thumb(p) {
+-    var t = norm((p.titulo || '') + ' ' + (p.temas || []).join(' ')), kind = 'vale', hs = 7, i;
++    var t = norm((p.titulo || '') + ' ' + (p.temas || []).join(' ')), kind = '', hs = 7, i;
+     for (i = 0; i < THEMES.length; i++) { if (new RegExp(THEMES[i][1]).test(t)) { kind = THEMES[i][0]; break; } }
+     String(p.id).split('').forEach(function (ch) { hs = (hs * 31 + ch.charCodeAt(0)) % 99991; });
++    if (!kind) { var ks = Object.keys(SCENES); kind = ks[hs % ks.length]; } /* sem tema no título: a cena varia conforme o estudo */
+     var W = 112, c = document.createElement('canvas'); c.width = c.height = W; c.className = 'thumb'; c.setAttribute('aria-hidden', 'true');
