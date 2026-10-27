@@ -1,0 +1,89 @@
+diff --git a/app.js b/app.js
+index d4a1fb4..a0d3b39 100644
+--- a/app.js
++++ b/app.js
+@@ -232,5 +232,5 @@
+     SCREENS.forEach(function (x) { var s = $('#s-' + x); if (s) s.classList.toggle('on', x === v); });
+     var el = $('#s-' + v); if (el) el.scrollTop = 0;
+-    $$('.nav button[data-tab="home"]').forEach(function (b) { if (v === 'home') b.setAttribute('aria-current', 'page'); else b.removeAttribute('aria-current'); });
++    $$('.nav button[data-tab]').forEach(function (b) { if (b.dataset.tab === v) b.setAttribute('aria-current', 'page'); else b.removeAttribute('aria-current'); });
+   }
+   function go(state, replace) {
+@@ -1077,6 +1077,6 @@
+     appReady = function () { setTimeout(hideSplash, Math.max(0, 300 - (Date.now() - t0))); };
+     if (ssGet('pv4-splash')) { splashOn = false; splash.classList.add('off'); applyAppearance(); }
+-    else { setTimeout(hideSplash, 8000); splash.addEventListener('click', hideSplash); splash.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') hideSplash(); }); }
+-
++    else { setTimeout(hideSplash, 3500); splash.addEventListener('click', hideSplash); splash.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') hideSplash(); }); }
++    /* botões do topo e da barra inferior */
+     $('#menuBtn').addEventListener('click', openDrawer);
+     $('#dClose').addEventListener('click', closeOverlay);
+@@ -1084,5 +1084,6 @@
+     $('#mClose').addEventListener('click', closeOverlay);
+     $('#modalBg').addEventListener('click', function (e) { if (e.target.id === 'modalBg') closeOverlay(); });
+-    $$('.nav button').forEach(function (b) { b.addEventListener('click', function () { if (b.dataset.tab === 'drawer') openDrawer(); else if (curState.v === 'home') $('#s-home').scrollTo({ top: 0, behavior: 'smooth' }); else go({ v: 'home' }); }); });
++    $$('.nav button').forEach(function (b) { b.addEventListener('click', function () { var t = b.dataset.tab; if (t === 'drawer') openDrawer(); else if (curState.v === t) $('#s-' + t).scrollTo({ top: 0, behavior: 'smooth' }); else go({ v: t }); }); });
++    (function () { var ab = $('#aaBtn'), ro = $('#rdOpts'); ab.addEventListener('click', function () { ro.hidden = !ro.hidden; ab.setAttribute('aria-expanded', String(!ro.hidden)); }); })();
+     $$('[data-back]').forEach(function (b) { b.addEventListener('click', back); });
+     var sl = $('#slides'), dots = $$('#dots i');
+diff --git a/index.html b/index.html
+index 7bb5872..caa216d 100644
+--- a/index.html
++++ b/index.html
+@@ -84,12 +84,17 @@
+       <span class="tag">Texto bíblico</span>
+       <div class="verbar" id="verBar"></div>
+-      <div class="listen" id="listen" hidden>
+-        <button type="button" class="btn" id="lsPlay" aria-label="Ouvir o capítulo">&#9654; Ouvir capítulo</button>
+-        <button type="button" class="ghost" id="lsStop" aria-label="Parar" hidden>&#9632; Parar</button>
++      <div class="rdrow">
++        <div class="listen" id="listen" hidden>
++          <button type="button" class="btn" id="lsPlay" aria-label="Ouvir o capítulo">&#9654; Ouvir capítulo</button>
++          <button type="button" class="ghost" id="lsStop" aria-label="Parar" hidden>&#9632; Parar</button>
++          <small id="lsInfo"></small>
++        </div>
++        <button type="button" class="aabtn" id="aaBtn" aria-expanded="false" aria-controls="rdOpts" aria-label="Ajustes de leitura: tamanho da letra, voz e velocidade">Aa</button>
++      </div>
++      <div class="rdopts" id="rdOpts" hidden>
+         <select id="lsVoz" aria-label="Voz de leitura" hidden></select>
+         <select id="lsRate" aria-label="Velocidade da leitura" hidden><option value="0.8">Lenta</option><option value="0.92" selected>Normal</option><option value="1.1">Rápida</option></select>
+-        <small id="lsInfo"></small>
++        <div class="fsrow fsread"><span style="font-size:.85rem" aria-hidden="true">A</span><input type="range" id="fsRead" min="1" max="1.5" step="0.025" aria-label="Tamanho da letra"><span style="font-size:1.4rem" aria-hidden="true">A</span></div>
+       </div>
+-      <div class="fsrow fsread"><span style="font-size:.85rem" aria-hidden="true">A</span><input type="range" id="fsRead" min="1" max="1.5" step="0.025" aria-label="Tamanho da letra"><span style="font-size:1.4rem" aria-hidden="true">A</span></div>
+       <div class="text" id="rtext"></div>
+       <p class="vcred" id="verCred"></p>
+@@ -151,4 +156,6 @@
+   <nav class="nav" aria-label="Navegação principal">
+     <button type="button" data-tab="home" aria-current="page"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6c-2-1.5-5-2-8-1.5v13c3-.5 6 0 8 1.5 2-1.5 5-2 8-1.5v-13C17 4 14 4.5 12 6Z"/><path d="M12 6v13"/></svg>Início</button>
++    <button type="button" data-tab="ens"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2.1h5c0-.9.4-1.6 1-2.1A6 6 0 0 0 12 3Z"/></svg>Estudos</button>
++    <button type="button" data-tab="marks"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3.5l2.6 5.3 5.9.9-4.3 4.1 1 5.8L12 16.8 6.8 19.6l1-5.8L3.5 9.7l5.9-.9L12 3.5Z"/></svg>Minha Palavra</button>
+     <button type="button" data-tab="drawer"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg>Menu</button>
+   </nav>
+diff --git a/styles.css b/styles.css
+index c0031c9..1a2c20b 100644
+--- a/styles.css
++++ b/styles.css
+@@ -136,6 +136,6 @@
+ .btnrow .b2{min-height:50px;border-radius:14px;background:var(--ink);color:#FCF8EE;font-weight:800}
+ /* barra inferior */
+-.nav{position:absolute;left:0;right:0;bottom:0;display:grid;grid-template-columns:1fr 1fr;background:var(--card);border-top:1px solid var(--line);padding:6px 0 calc(6px + env(safe-area-inset-bottom,0px));z-index:20}
+-.nav button{display:flex;flex-direction:column;align-items:center;gap:2px;min-height:52px;justify-content:center;color:var(--soft);font-size:12px;font-weight:600}
++.nav{position:absolute;left:0;right:0;bottom:0;display:grid;grid-template-columns:repeat(4,1fr);background:var(--card);border-top:1px solid var(--line);padding:6px 0 calc(6px + env(safe-area-inset-bottom,0px));z-index:20}
++.nav button{display:flex;flex-direction:column;align-items:center;gap:2px;min-height:52px;justify-content:center;color:var(--soft);font-size:12px;font-weight:600;padding:0 2px;white-space:nowrap}
+ .nav button svg{width:22px;height:22px}
+ .nav button[aria-current="page"]{color:var(--accent);font-weight:800}
+@@ -278,2 +278,13 @@
+ .pcard:nth-child(even)::before{animation-name:pczo;animation-delay:-5s}.pcard:nth-child(3n)::before{animation-delay:-9s}
+ @media (prefers-reduced-motion:reduce){.pcard::before{animation-duration:50s}}
++/* leitura compacta: texto sobe; letra, voz e velocidade ficam atrás do botão Aa */
++#s-read .pad{gap:8px}
++#s-read .pad>.tag{display:none}
++.rdrow{display:flex;align-items:center;gap:10px}
++.rdrow .listen{flex:1;min-width:0;margin:0}
++.aabtn{min-width:48px;min-height:44px;border-radius:14px;background:var(--card-2);color:var(--text);font:700 15px var(--serif);margin-left:auto}
++.aabtn[aria-expanded="true"]{background:var(--gold-soft);color:var(--tagink)}
++.rdopts{display:flex;flex-wrap:wrap;align-items:center;gap:10px;padding:10px 12px;border-radius:14px;background:var(--card)}
++.rdopts[hidden]{display:none}
++.rdopts select{flex:1;min-width:120px;min-height:44px;border-radius:12px;padding:0 10px;background:var(--paper);color:var(--text);border:1px solid var(--line);font:inherit}
++.rdopts .fsread{flex-basis:100%;margin:0}
