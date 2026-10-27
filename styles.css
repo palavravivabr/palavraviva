@@ -135,8 +135,8 @@ html,body{height:100%}
 .btnrow .b1{min-height:50px;border-radius:14px;background:var(--gold);color:var(--gold-ink);font-weight:800}
 .btnrow .b2{min-height:50px;border-radius:14px;background:var(--ink);color:#FCF8EE;font-weight:800}
 /* barra inferior */
-.nav{position:absolute;left:0;right:0;bottom:0;display:grid;grid-template-columns:1fr 1fr;background:var(--card);border-top:1px solid var(--line);padding:6px 0 calc(6px + env(safe-area-inset-bottom,0px));z-index:20}
-.nav button{display:flex;flex-direction:column;align-items:center;gap:2px;min-height:52px;justify-content:center;color:var(--soft);font-size:12px;font-weight:600}
+.nav{position:absolute;left:0;right:0;bottom:0;display:grid;grid-template-columns:repeat(4,1fr);background:var(--card);border-top:1px solid var(--line);padding:6px 0 calc(6px + env(safe-area-inset-bottom,0px));z-index:20}
+.nav button{display:flex;flex-direction:column;align-items:center;gap:2px;min-height:52px;justify-content:center;color:var(--soft);font-size:12px;font-weight:600;padding:0 2px;white-space:nowrap}
 .nav button svg{width:22px;height:22px}
 .nav button[aria-current="page"]{color:var(--accent);font-weight:800}
 /* menu lateral */
@@ -219,7 +219,7 @@ a.srow{color:inherit;text-decoration:none}
 
 /* ensinos: título, viver, teste, lista */
 #studyHead .stitle{font:700 1.35rem/1.25 var(--serif);padding:6px 0 2px;text-wrap:balance}
-#studyHead .sref{font-size:12.5px;color:var(--soft);font-weight:600;letter-spacing:.04em}
+#studyHead .sharebtn{width:auto;min-height:40px;padding:8px 16px;font-size:13px;margin:6px 0 2px}
 .viver .sub{font-size:10.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--tagink);margin:0 0 6px}
 .viver p{font-family:var(--serif);font-size:1.06rem;line-height:1.65}
 .viver .box{display:flex;flex-direction:column;gap:4px}
@@ -277,3 +277,14 @@ a.srow{color:inherit;text-decoration:none}
 .pcard::after{background:linear-gradient(180deg,rgba(10,18,17,.05) 25%,rgba(10,18,17,.8) 100%)}
 .pcard:nth-child(even)::before{animation-name:pczo;animation-delay:-5s}.pcard:nth-child(3n)::before{animation-delay:-9s}
 @media (prefers-reduced-motion:reduce){.pcard::before{animation-duration:50s}}
+/* leitura compacta: texto sobe; letra, voz e velocidade ficam atrás do botão Aa */
+#s-read .pad{gap:8px}
+#s-read .pad>.tag{display:none}
+.rdrow{display:flex;align-items:center;gap:10px}
+.rdrow .listen{flex:1;min-width:0;margin:0}
+.aabtn{min-width:48px;min-height:44px;border-radius:14px;background:var(--card-2);color:var(--text);font:700 15px var(--serif);margin-left:auto}
+.aabtn[aria-expanded="true"]{background:var(--gold-soft);color:var(--tagink)}
+.rdopts{display:flex;flex-wrap:wrap;align-items:center;gap:10px;padding:10px 12px;border-radius:14px;background:var(--card)}
+.rdopts[hidden]{display:none}
+.rdopts select{flex:1;min-width:120px;min-height:44px;border-radius:12px;padding:0 10px;background:var(--paper);color:var(--text);border:1px solid var(--line);font:inherit}
+.rdopts .fsread{flex-basis:100%;margin:0}

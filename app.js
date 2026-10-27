@@ -231,7 +231,7 @@
   function showScreen(v) {
     SCREENS.forEach(function (x) { var s = $('#s-' + x); if (s) s.classList.toggle('on', x === v); });
     var el = $('#s-' + v); if (el) el.scrollTop = 0;
-    $$('.nav button[data-tab="home"]').forEach(function (b) { if (v === 'home') b.setAttribute('aria-current', 'page'); else b.removeAttribute('aria-current'); });
+    $$('.nav button[data-tab]').forEach(function (b) { if (b.dataset.tab === v) b.setAttribute('aria-current', 'page'); else b.removeAttribute('aria-current'); });
   }
   function go(state, replace) {
     var s = {}; Object.keys(state).forEach(function (k) { s[k] = state[k]; });
@@ -414,7 +414,7 @@
   }
   function drawVerBar(v, wanted) {
     var bar = clear($('#verBar')), cred = clear($('#verCred'));
-    var name = h('span', { class: 'vname' }, [h('b', { text: v.sigla }), ' · ' + v.nome + ' · ' + (v.cobertura === 'nt' ? 'só Novo Testamento' : 'Bíblia completa')]);
+    var name = h('span', { class: 'vname' }, [h('b', { text: v.sigla }), ' · ' + v.nome + (v.cobertura === 'nt' ? ' · só Novo Testamento' : '')]);
     bar.appendChild(name);
     if (versionsList().length > 1) bar.appendChild(h('button', { type: 'button', text: 'Trocar tradução', onclick: versionModal }));
     if (wanted) bar.appendChild(h('p', { class: 'vaviso', style: 'flex-basis:100%;margin:0', text: wanted.sigla + ' não inclui este livro. Mostrando a ' + v.nome + ' (' + v.sigla + ') neste capítulo.' }));
@@ -562,7 +562,7 @@
     if (curState !== s) return;
     var refs = (p.refs || []).map(function (r) { return { text: r, to: resolveRef(r) }; }).filter(function (r) { return r.to; });
     var shown = core.visibleTabs({ verses: p.verses, entender: p.entender, ligar: p.ligar, viver: p.viver, guarde: p.guarde, ore: p.ore, quiz: p.quiz, refs: refs });
-    if (p.titulo) { head.appendChild(h('div', { class: 'sref', text: meta.ref })); head.appendChild(h('h2', { class: 'stitle', text: p.titulo })); }
+    if (p.titulo) { head.appendChild(h('h2', { class: 'stitle', text: p.titulo })); }
     head.appendChild(h('button', { class: 'btn alt sharebtn', type: 'button', text: 'Compartilhar este estudo', onclick: function () { shareStudy(meta.id); } }));
     var NAMES = { ler: 'Ler', entender: 'Entender', ligar: 'Ligar ao evangelho', viver: 'Viver', testar: 'Testar', aprofundar: 'Aprofundar' };
     var stamp = function () {
@@ -707,7 +707,7 @@
     var items = keys.map(function (k) { var p = k.split(':'); return { b: p[0], c: parseInt(p[1], 10), v: parseInt(p[2], 10) }; })
       .filter(function (x) { return bookOf(x.b); })
       .sort(function (a, b) { return (order[a.b] - order[b.b]) || (a.c - b.c) || (a.v - b.v); });
-    body.appendChild(h('p', { class: 'count', text: items.length + ' versículo(s) destacado(s)' }));
+    body.appendChild(h('p', { class: 'count', text: items.length + (items.length === 1 ? ' versículo destacado' : ' versículos destacados') }));
     var list = h('div', { class: 'list' }); body.appendChild(list);
     for (var i = 0; i < items.length; i++) {
       var it = items[i], bk = bookOf(it.b), text = '';
@@ -1076,14 +1076,15 @@
     /* a abertura fica na tela, em verde-escuro, até o app terminar de carregar (mínimo 0,3 s) */
     appReady = function () { setTimeout(hideSplash, Math.max(0, 300 - (Date.now() - t0))); };
     if (ssGet('pv4-splash')) { splashOn = false; splash.classList.add('off'); applyAppearance(); }
-    else { setTimeout(hideSplash, 8000); splash.addEventListener('click', hideSplash); splash.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') hideSplash(); }); }
-
+    else { setTimeout(hideSplash, 3500); splash.addEventListener('click', hideSplash); splash.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') hideSplash(); }); }
+    /* botões do topo e da barra inferior */
     $('#menuBtn').addEventListener('click', openDrawer);
     $('#dClose').addEventListener('click', closeOverlay);
     $('#drawerBg').addEventListener('click', function (e) { if (e.target.id === 'drawerBg') closeOverlay(); });
     $('#mClose').addEventListener('click', closeOverlay);
     $('#modalBg').addEventListener('click', function (e) { if (e.target.id === 'modalBg') closeOverlay(); });
-    $$('.nav button').forEach(function (b) { b.addEventListener('click', function () { if (b.dataset.tab === 'drawer') openDrawer(); else if (curState.v === 'home') $('#s-home').scrollTo({ top: 0, behavior: 'smooth' }); else go({ v: 'home' }); }); });
+    $$('.nav button').forEach(function (b) { b.addEventListener('click', function () { var t = b.dataset.tab; if (t === 'drawer') openDrawer(); else if (curState.v === t) $('#s-' + t).scrollTo({ top: 0, behavior: 'smooth' }); else go({ v: t }); }); });
+    (function () { var ab = $('#aaBtn'), ro = $('#rdOpts'); ab.addEventListener('click', function () { ro.hidden = !ro.hidden; ab.setAttribute('aria-expanded', String(!ro.hidden)); }); })();
     $$('[data-back]').forEach(function (b) { b.addEventListener('click', back); });
     var sl = $('#slides'), dots = $$('#dots i');
     function cur() { return Math.round(sl.scrollLeft / sl.clientWidth); }
