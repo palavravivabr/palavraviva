@@ -1,0 +1,134 @@
+{
+ "id": "40-15-21-29",
+ "ref": "Mateus 15:21-29",
+ "book": "40",
+ "chapter": 15,
+ "verses": [
+  {
+   "n": 21,
+   "t": "E, tendo Jesus partido dali, foi para as partes de Tiro e de Sidom."
+  },
+  {
+   "n": 22,
+   "t": "E eis que uma mulher Cananeia, que tinha saído daquela região, clamou-lhe: Senhor, Filho de Davi, tem misericórdia de mim! Minha filha está miseravelmente endemoninhada."
+  },
+  {
+   "n": 23,
+   "t": "Mas ele não lhe respondeu palavra. Então seus discípulos se aproximaram dele, e rogaram-lhe, dizendo: Manda-a embora, porque ela está gritando atrás de nós."
+  },
+  {
+   "n": 24,
+   "t": "E ele respondeu: Não fui enviado para ninguém além das ovelhas perdidas da casa de Israel."
+  },
+  {
+   "n": 25,
+   "t": "Então ela veio e se prostrou diante dele, dizendo: Senhor, socorre-me."
+  },
+  {
+   "n": 26,
+   "t": "Mas ele respondeu: Não é bom tomar o pão dos filhos e lançá-lo aos cachorrinhos."
+  },
+  {
+   "n": 27,
+   "t": "Ela, porém, disse: Sim, Senhor. Porém os cachorrinhos também comem, das migalhas que caem da mesa dos seus senhores."
+  },
+  {
+   "n": 28,
+   "t": "Então Jesus lhe respondeu: Ó mulher, grande é a tua fé. A ti seja feito como tu queres. E desde aquela hora sua filha ficou curada."
+  },
+  {
+   "n": 29,
+   "t": "E tendo Jesus partido dali, veio ao mar da Galileia. Ele subiu a um monte, e ali se sentou."
+  }
+ ],
+ "titulo": "A ousadia da fé que não desiste",
+ "temas": [
+  "fé",
+  "misericórdia",
+  "inclusão",
+  "oração",
+  "persistência"
+ ],
+ "pergunta": "O que você faria se sentisse que não tem direito ao cuidado de Deus?",
+ "entender": "Jesus estava na região de Tiro e Sidom, terra pagã, quando uma mulher cananeia o procurou. Ela gritava: \"Minha filha está miseravelmente endemoninhada\". Os discípulos queriam mandá-la embora, mas Jesus a ouviu. Ele disse que sua missão era para as ovelhas perdidas de Israel, usando a metáfora do pão e dos cachorrinhos. A mulher não se ofendeu. Ela respondeu com humildade e astúcia: os cachorrinhos comem as migalhas da mesa. Jesus ficou impressionado com a persistência e a confiança dela, chamando sua fé de grande, e curou a filha à distância.\n\nEste episódio mostra que, embora a missão inicial de Jesus fosse para Israel, a graça dele transborda. A mulher, excluída por sua origem, acessou Jesus pela fé, não por direito. O texto destaca que a resposta de Jesus não era uma rejeição final, mas um teste que revelou a profundidade do coração dela. A cura da filha, longe dali, demonstra o poder de Jesus sobre o mal e a importância da oração persistente.",
+ "ligar": {
+  "texto": "Jesus é o centro desta história. Ele é o \"Filho de Davi\" a quem a mulher se dirige, reconhecendo sua autoridade e sua identidade messiânica. A cura da filha aponta para o evangelho: Jesus tem poder para libertar e curar, e esse poder está disponível a todos os que se aproximam com fé, independentemente de sua origem ou status social. A \"mesa\" de Jesus é a mesa da graça, onde até os \"cachorrinhos\" (os gentios) podem receber as migalhas da salvação que ele oferece.",
+  "selo": true
+ },
+ "viver": "Às vezes, sentimos que não temos direito a Deus, talvez por nossos erros, nossa origem ou nossa falta de mérito. A mulher cananeia nos ensina que a fé não se baseia em quem somos, mas em quem Jesus é. Em vez de desistir diante de um \"não\" inicial, ela se prostrou e insistiu com humildade. Hoje, quando você sentir que está à margem, lembre-se: a mesa de Jesus é grande. Não é sobre você provar seu valor, mas sobre confiar que as migalhas da graça dele são suficientes para sua necessidade. Ore com persistência e humildade, sem desistir.",
+ "guarde": "A fé verdadeira não exige permissão; ela se prostra e insiste na presença de Deus.",
+ "ore": "Jesus, Filho de Davi, ouve o clamor da mulher cananeia e cura sua filha. Ajuda-me a ter essa mesma fé persistente e humilde. Quando eu me sentir inadequado, que eu me lembre de que as migalhas da tua mesa são suficientes para a minha vida. Ensina-me a não desistir de orar, confiando no teu poder e na tua misericórdia.",
+ "quiz": {
+  "pergunta": "Qual foi a resposta da mulher cananeia quando Jesus falou sobre o pão dos filhos?",
+  "opcoes": [
+   "Ela disse que também era descendente de Abraão.",
+   "Ela disse que os cachorrinhos comem as migalhas da mesa.",
+   "Ela reclamou que Jesus a estava discriminando."
+  ],
+  "certa": 1,
+  "explicacao": "O texto em Mateus 15:27 mostra que ela aceitou a metáfora de Jesus e argumentou que até os cachorrinhos recebem as migalhas, demonstrando humildade e fé."
+ },
+ "refs": [
+  "Marcos 7:24-30",
+  "Lucas 11:5-10",
+  "Efésios 2:12-13"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-27T12:54:28.195Z",
+  "rounds": 1
+ }
+}

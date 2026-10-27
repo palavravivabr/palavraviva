@@ -1,67 +1,79 @@
-Fábrica de ensinos — execução de 2026-10-27T10:08:01.961Z
-Fila: 3058 trechos; prontos: 297; limite desta execução: 150 ensinos / 170 min; 3 em paralelo.
-> Mateus 9:20-29 (40-9-20-29)
-  [40-9-20-29] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
+Fábrica de ensinos — execução de 2026-10-27T13:02:19.876Z
+Fila: 3058 trechos; prontos: 299; limite desta execução: 150 ensinos / 170 min; 3 em paralelo.
 > Mateus 14:13-24 (40-14-13-24)
   [40-14-13-24] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
 > Mateus 14:25-36 (40-14-25-36)
   [40-14-25-36] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
-  [40-14-13-24] rodada 1: verificação automática recusou: entender:citacao_fora_do_texto, ligar:citacao_fora_do_texto
-  [40-14-13-24] rodada 2: verificação automática recusou: entender:citacao_fora_do_texto, ligar:citacao_fora_do_texto
-  [40-14-13-24] rodada 3: verificação automática recusou: entender:citacao_longa, entender:citacao_fora_do_texto, ligar:citacao_fora_do_texto
-  [40-14-13-24] rodada 4: verificação automática recusou: entender:citacao_fora_do_texto, ligar:citacao_fora_do_texto
-  [40-14-13-24] não aprovado nesta execução (1/3); tenta de novo depois
 > Mateus 15:1-10 (40-15-1-10)
   [40-15-1-10] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
-  [40-15-1-10] rodada 1: verificação automática recusou: entender:citacao_fora_do_texto
-  LIMITE DIÁRIO [40-15-1-10]: groq-gpt: limite diário atingido ({"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 196425, Requested 3922. Please try again in 2m29.904s. Need more tokens? Upg — troca de modelo, se houver outro permitido.
-  [40-15-1-10] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
-  [40-15-1-10] rodada 1: verificação automática recusou: entender:citacao_longa, viver:citacao_fora_do_texto, quiz.explicacao:citacao_longa, abertura_repetida:viver:41-9-41-50
-  [40-15-1-10] rodada 2: verificação automática recusou: entender:citacao_longa
+  [40-14-25-36] rodada 1: verificação automática recusou: entender:citacao_fora_do_texto, ore:citacao_longa
+  [40-15-1-10] rodada 1: verificação automática recusou: entender:citacao_fora_do_texto, viver:citacao_fora_do_texto
+  [40-15-1-10] rodada 2: verificação automática recusou: entender:citacao_fora_do_texto, entender:citacao_longa
   [40-15-1-10] rodada 3: verificação automática recusou: entender:citacao_longa
-  [40-9-20-29] rodada 1: gemini recusou: NARRATIVE_EVENT_CONSISTENCY: O texto afirma que Jesus cura duas pessoas, mas o próprio trecho narra a cura da mulher, a restauração da menina e a cura de dois cegos. | LANGUAGE_CLARITY: A oração apresenta construção sem sentido claro em português ao dizer 'ao ver a mulher tocar minha esperança'.
-  LIMITE DIÁRIO [40-9-20-29]: groq-gpt: limite diário atingido ({"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 196425, Requested 3922. Please try again in 2m29.904s. Need more tokens? Upg — troca de modelo, se houver outro permitido.
-  [40-9-20-29] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
-  [40-9-20-29] rodada 1: verificação automática recusou: abertura_repetida:guarde:41-5-23-32
-  PRONTO [40-9-20-29]: "Doze anos de espera e uma mão estendida" (aprovado pelos dois auditores em 2 rodada(s))
-> Mateus 15:11-20 (40-15-11-20)
-  [40-15-11-20] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
-  [40-14-25-36] rodada 1: gemini recusou: NARRATIVE_EVENT_CONSISTENCY: O ensino afirma que o vento cessou e Jesus foi adorado ao chegarem à terra, quando o texto relata que isso ocorreu ainda no barco pelos que ali estavam. | TEMPORAL_SEQUENCE: A sequência foi invertida ao colocar o cessar do vento e a adoração dos discípulos após a chegada à terra de Genesaré. | PRAYER_FIDELITY: A oração começa invocando 'Mar tempestuoso' em vez de se di
-  LIMITE DIÁRIO [40-14-25-36]: groq-gpt: limite diário atingido ({"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 196425, Requested 3922. Please try again in 2m29.904s. Need more tokens? Upg — troca de modelo, se houver outro permitido.
+  [40-14-25-36] rodada 2: verificação automática recusou: entender:menos_de_2_paragrafos, ore:citacao_longa
+  [40-14-25-36] rodada 3: verificação automática recusou: ore:citacao_longa
+  [40-15-1-10] rodada 4: verificação automática recusou: entender:citacao_longa
+  [40-15-1-10] não aprovado nesta execução (1/3); tenta de novo depois
+> Mateus 15:21-29 (40-15-21-29)
+  [40-15-21-29] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
+  LIMITE DIÁRIO [40-15-21-29]: groq-gpt: limite diário atingido ({"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199096, Requested 3482. Please try again in 18m33.696s. Need more tokens? Up — troca de modelo, se houver outro permitido.
+  [40-15-21-29] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  PRONTO [40-15-21-29]: "A ousadia da fé que não desiste" (aprovado pelos dois auditores em 1 rodada(s))
+> Mateus 15:30-39 (40-15-30-39)
+  [40-15-30-39] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  LIMITE DIÁRIO [40-14-25-36]: groq-gpt: limite diário atingido ({"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199096, Requested 3482. Please try again in 18m33.696s. Need more tokens? Up — troca de modelo, se houver outro permitido.
   [40-14-25-36] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
-  [40-14-25-36] rodada 1: verificação automática recusou: abertura_repetida:ore:41-16-1-10
-  LIMITE DIÁRIO [40-14-25-36]: groq-qwen: limite diário atingido ({"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198584, Requested 4241. Please try again in 20m20.4s. Need more tokens? Upgrad — troca de modelo, se houver outro permitido.
+  [40-14-13-24] rodada 1: gemini recusou: NARRATIVE_EVENT_CONSISTENCY: A oração afirma incorretamente que Jesus estava no barco com os cinco pães e dois peixes, quando o texto relata que a multiplicação ocorreu em terra firme sobre a grama. | PRAYER_FIDELITY: A oração atribui a Jesus um cenário incorreto durante o milagre dos pães e peixes, dizendo que Ele estava no barco. | CROSS_SECTION_CONSISTENCY: A oração contradiz o texto da seção E
+  LIMITE DIÁRIO [40-14-13-24]: groq-gpt: limite diário atingido ({"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199096, Requested 3482. Please try again in 18m33.696s. Need more tokens? Up — troca de modelo, se houver outro permitido.
+  [40-14-13-24] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  PRONTO [40-14-13-24]: "Cinco pães, dois peixes e uma multidão saciada" (aprovado pelos dois auditores em 1 rodada(s))
+> Mateus 16:1-9 (40-16-1-9)
+  [40-16-1-9] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  [40-14-25-36] rodada 1: gemini recusou: NARRATIVE_EVENT_CONSISTENCY: O ensino afirma erroneamente que os moradores de Genesaré adoraram a Jesus como Filho de Deus, quando o texto bíblico afirma que foram os que estavam no barco que o adoraram antes de chegarem à terra de Genesaré.
+  PRONTO [40-16-1-9]: "O céu vermelho e a geração que não crê" (aprovado pelos dois auditores em 1 rodada(s))
+> Mateus 16:10-19 (40-16-10-19)
+  [40-16-10-19] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  [40-15-30-39] rodada 1: verificação automática recusou: pergunta:vazio, entender:vazio
+  PRONTO [40-16-10-19]: "A rocha que sustenta a igreja" (aprovado pelos dois auditores em 1 rodada(s))
+> Mateus 16:20-28 (40-16-20-28)
+  [40-16-20-28] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  LIMITE DIÁRIO [40-14-25-36]: groq-qwen: limite diário atingido ({"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 196510, Requested 4117. Please try again in 4m30.864s. Need more tokens? Upgra — troca de modelo, se houver outro permitido.
   [40-14-25-36] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
   ERRO [40-14-25-36]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-> Mateus 15:21-29 (40-15-21-29)
-  [40-15-21-29] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
-  ERRO [40-15-21-29]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-> Mateus 15:30-39 (40-15-30-39)
-  [40-15-30-39] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
-  ERRO [40-15-1-10]: gemini: 503 { "error": { "code": 503, "message": "This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.", "status": "UNAVAILABLE" } } 
-> Mateus 16:1-9 (40-16-1-9)
-  [40-16-1-9] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
-  ERRO [40-15-30-39]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-> Mateus 16:10-19 (40-16-10-19)
-  [40-16-10-19] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
-  ERRO [40-16-1-9]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-> Mateus 16:20-28 (40-16-20-28)
-  [40-16-20-28] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
-  ERRO [40-16-10-19]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 > Mateus 17:1-9 (40-17-1-9)
   [40-17-1-9] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
-  ERRO [40-16-20-28]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+  ERRO [40-17-1-9]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 > Mateus 17:10-18 (40-17-10-18)
   [40-17-10-18] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
-  ERRO [40-17-1-9]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-Oito erros seguidos; parando para não gastar à toa.
+  LIMITE DIÁRIO [40-15-30-39]: groq-qwen: limite diário atingido ({"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 196510, Requested 4117. Please try again in 4m30.864s. Need more tokens? Upgra — troca de modelo, se houver outro permitido.
+  [40-15-30-39] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
   ERRO [40-17-10-18]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+> Mateus 17:19-27 (40-17-19-27)
+  [40-17-19-27] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
+  ERRO [40-15-30-39]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+> Mateus 18:1-12 (40-18-1-12)
+  [40-18-1-12] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
+  ERRO [40-17-19-27]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+> Mateus 18:13-23 (40-18-13-23)
+  [40-18-13-23] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
+  ERRO [40-18-1-12]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+> Mateus 18:24-35 (40-18-24-35)
+  [40-18-24-35] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
+  LIMITE DIÁRIO [40-16-20-28]: groq-qwen: limite diário atingido ({"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 196510, Requested 4117. Please try again in 4m30.864s. Need more tokens? Upgra — troca de modelo, se houver outro permitido.
+  [40-16-20-28] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
+  ERRO [40-18-13-23]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+> Mateus 19:1-10 (40-19-1-10)
+  [40-19-1-10] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
+  ERRO [40-18-24-35]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 Oito erros seguidos; parando para não gastar à toa.
-  PRONTO [40-15-11-20]: "O que sai de você define quem você é" (aprovado pelos dois auditores em 1 rodada(s))
-Resumo: 2 novos ensinos, 1 não aprovados, 2 travados ignorados. Total pronto: 299 de 3058 trechos.
+  ERRO [40-16-20-28]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+Oito erros seguidos; parando para não gastar à toa.
+  ERRO [40-19-1-10]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+Oito erros seguidos; parando para não gastar à toa.
+Resumo: 4 novos ensinos, 1 não aprovados, 2 travados ignorados. Total pronto: 303 de 3058 trechos.
 
-groq-gpt (openai/gpt-oss-120b): 7 chamadas, 18716 tokens entrada, 5951 saída [LIMITE DIÁRIO ATINGIDO]
-groq-qwen (qwen/qwen3.8-27b): 8 chamadas, 21448 tokens entrada, 6416 saída [LIMITE DIÁRIO ATINGIDO]
+groq-gpt (openai/gpt-oss-120b): 8 chamadas, 22721 tokens entrada, 7642 saída [LIMITE DIÁRIO ATINGIDO]
+groq-qwen (qwen/qwen3.8-27b): 6 chamadas, 14121 tokens entrada, 4803 saída [LIMITE DIÁRIO ATINGIDO]
 mistral (mistral-medium-latest): 0 chamadas, 0 tokens entrada, 0 saída
-gemini (gemini-3.8-flash): 4 chamadas, 12855 tokens entrada, 8923 saída
-cloudflare (@cf/meta/llama-3.3-70b-instruct-fp8-fast): 2 chamadas, 6890 tokens entrada, 742 saída
+gemini (gemini-3.5-flash): 6 chamadas, 19673 tokens entrada, 12537 saída
+cloudflare (@cf/meta/llama-3.3-70b-instruct-fp8-fast): 4 chamadas, 14202 tokens entrada, 1484 saída

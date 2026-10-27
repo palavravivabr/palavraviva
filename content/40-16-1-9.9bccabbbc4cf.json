@@ -1,0 +1,135 @@
+{
+ "id": "40-16-1-9",
+ "ref": "Mateus 16:1-9",
+ "book": "40",
+ "chapter": 16,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Então os fariseus e os saduceus se aproximaram dele e, a fim de tentá-lo, pediram-lhe que lhes mostrasse algum sinal do céu."
+  },
+  {
+   "n": 2,
+   "t": "Mas ele lhes respondeu: Quando chega a tarde, dizeis: “ Haverá tempo bom, pois o céu está vermelho”."
+  },
+  {
+   "n": 3,
+   "t": "E pela manhã: “Hoje haverá tempestade, pois o céu está de um vermelho sombrio”. Hipócritas! Vós bem sabeis distinguir a aparência do céu, mas os sinais dos tempos não podeis?"
+  },
+  {
+   "n": 4,
+   "t": "Uma geração má e adúltera pede um sinal; mas nenhum sinal lhe será dado, a não ser o sinal do profeta Jonas. Então os deixou, e foi embora."
+  },
+  {
+   "n": 5,
+   "t": "E quando os seus discípulos vieram para a outra margem, esqueceram-se de tomar pão."
+  },
+  {
+   "n": 6,
+   "t": "E Jesus lhes disse: Ficai atentos, e tende cuidado com o fermento dos fariseus e saduceus."
+  },
+  {
+   "n": 7,
+   "t": "E eles argumentaram entre si, dizendo: É porque não tomamos pão."
+  },
+  {
+   "n": 8,
+   "t": "Jesus percebeu, e disse-lhes: Por que estais argumentando entre vós mesmos, ó homens de pouca fé, que não tomastes pão?"
+  },
+  {
+   "n": 9,
+   "t": "Ainda não entendeis, nem vos lembrais dos cinco pães dos cinco mil, e quantos cestos levantastes?"
+  }
+ ],
+ "titulo": "O céu vermelho e a geração que não crê",
+ "temas": [
+  "fé",
+  "hipocrisia",
+  "sinais",
+  "jonas",
+  "alerta"
+ ],
+ "pergunta": "Por que Jesus disse que os fariseus sabiam ler o céu, mas não os sinais dos tempos?",
+ "entender": "Em Mateus 16, os fariseus e saduceus tentam Jesus pedindo um sinal do céu. Jesus usa uma imagem do cotidiano: essas pessoas sabem prever o tempo olhando as cores do céu, dizendo que o vermelho indica bom tempo ou tempestade. No entanto, Jesus as chama de hipócritas porque, apesar de serem observadoras da natureza, não reconhecem os sinais que Deus dá na história e na presença de Cristo.\n\nJesus afirma que uma geração má pede um sinal, mas que nenhum será dado, exceto o sinal do profeta Jonas. Isso aponta para a ressurreição de Jesus, o maior sinal de todos. Em seguida, ao cruzar para a outra margem, Jesus alerta os discípulos para terem cuidado com o fermento dos fariseus e saduceus. Os discípulos, preocupados com o pão físico que esqueceram de levar, interpretam o aviso de forma literal. Jesus corrige sua pouca fé, lembrando-os dos milagres anteriores, como a multiplicação dos pães, para que entendam que o perigo não é o alimento, mas a doutrina corrupta dos líderes religiosos.",
+ "ligar": {
+  "texto": "Jesus se coloca como o centro dos 'sinais dos tempos'. Ele não é apenas um profeta, mas o cumprimento das Escrituras. O 'sinal de Jonas' aponta diretamente para a morte e ressurreição de Cristo, que é a base da nossa salvação. A advertência sobre o 'fermento' nos lembra de que a verdadeira segurança não vem de rituais externos ou líderes humanos, mas de uma relação viva e confiável com Jesus, que sustenta a Igreja mesmo quando seus membros falham ou esquecem.",
+  "selo": true
+ },
+ "viver": "Talvez você confie mais em previsões humanas ou em sensações do que na Palavra de Deus. Jesus nos convida a ser mais atentos aos sinais do Reino do que às circunstâncias externas. Não deixe que a preocupação com as necessidades imediatas (como o pão que os discípulos esqueceram) cegue a sua visão para a vontade de Deus. Confie no provedor que já multiplicou pães antes. Em vez de temer as 'doutrinas' ou opiniões de líderes religiosos que podem levar ao erro, busque a verdade simples do evangelho em Cristo. A fé não é sobre ter todas as respostas imediatas, mas sobre confiar naquele que já provou seu poder e cuidado.",
+ "guarde": "Não deixe a preocupação com o pão imediato cegar a sua visão para os sinais do Reino de Deus.",
+ "ore": "Jesus, ao te veres confrontado por aqueles que pediam sinais vazios, ensina-me a confiar na tua ressurreição, o sinal verdadeiro. Perdoa a minha pouca fé e a minha tendência a me preocupar apenas com as necessidades físicas. Ajuda-me a distinguir a doutrina correta do fermento do erro, guardando meu coração na verdade do evangelho.",
+ "quiz": {
+  "pergunta": "O que Jesus quis dizer quando alertou os discípulos sobre o 'fermento dos fariseus e saduceus'?",
+  "opcoes": [
+   "A doutrina e o ensinamento corrupto desses grupos",
+   "Um tipo específico de alimento que causaria problemas de saúde",
+   "O pão que eles esqueceram de levar para a viagem"
+  ],
+  "certa": 0,
+  "explicacao": "Jesus esclarece nos versículos seguintes que não se tratava do fermento do pão, mas da doutrina (ensino) dos fariseus e saduceus, que era falsa e perigosa para a fé."
+ },
+ "refs": [
+  "Lucas 12:54-56",
+  "Mateus 12:38-41",
+  "Marcos 8:15-21",
+  "Atos 2:22-24"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-27T12:57:23.015Z",
+  "rounds": 1
+ }
+}

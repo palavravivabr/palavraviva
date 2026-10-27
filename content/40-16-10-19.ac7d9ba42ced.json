@@ -1,0 +1,137 @@
+{
+ "id": "40-16-10-19",
+ "ref": "Mateus 16:10-19",
+ "book": "40",
+ "chapter": 16,
+ "verses": [
+  {
+   "n": 10,
+   "t": "Nem dos sete pães dos quatro mil, e quantos cestos levantastes?"
+  },
+  {
+   "n": 11,
+   "t": "Como não entendeis que não foi pelo pão que eu vos disse para tomardes cuidado com o fermento dos fariseus e saduceus?"
+  },
+  {
+   "n": 12,
+   "t": "Então entenderam que ele não havia dito que tomassem cuidado com o fermento de pão, mas sim, com a doutrina dos fariseus e saduceus."
+  },
+  {
+   "n": 13,
+   "t": "E tendo Jesus vindo às partes da Cesareia de Filipe, perguntou aos seus discípulos: Quem as pessoas dizem que eu, o Filho do homem, sou?"
+  },
+  {
+   "n": 14,
+   "t": "E eles responderam: Alguns João Batista, outros Elias, e outros Jeremias ou algum dos profetas."
+  },
+  {
+   "n": 15,
+   "t": "Ele lhes disse: E vós, quem dizeis que eu sou?"
+  },
+  {
+   "n": 16,
+   "t": "E Simão Pedro respondeu: Tu és o Cristo, o Filho do Deus vivo!"
+  },
+  {
+   "n": 17,
+   "t": "E Jesus lhe replicou: Bendito és tu, Simão, filho de Jonas; pois não foi carne e sangue que o revelou a ti, mas sim meu Pai, que está nos céus."
+  },
+  {
+   "n": 18,
+   "t": "E eu também te digo que tu és Pedro, e sobre esta pedra edificarei a minha igreja; e as portas do Xeol não prevalecerão contra ela."
+  },
+  {
+   "n": 19,
+   "t": "E a ti darei as chaves do Reino dos céus; e tudo o que ligares na terra terá sido ligado nos céus; e tudo o que desligares na terra terá sido desligado nos céus."
+  }
+ ],
+ "titulo": "A rocha que sustenta a igreja",
+ "temas": [
+  "identidade de cristo",
+  "fé",
+  "igreja",
+  "autoridade"
+ ],
+ "pergunta": "O que Pedro entendeu sobre Jesus que os outros apenas ouviam dizer?",
+ "entender": "Antes de chegar a Cesareia de Filipe, Jesus adverte os discípulos contra o fermento dos fariseus, referindo-se não ao pão, mas à doutrina falsa. Ao mudar de assunto, Ele faz uma pergunta direta: \"Quem as pessoas dizem que eu, o Filho do homem, sou?\" Os discípulos relatam as opiniões da multidão: João Batista, Elias ou Jeremias. Mas Jesus muda o foco: \"E vós, quem dizeis que eu sou?\"\n\nPedro responde com clareza: \"Tu és o Cristo, o Filho do Deus vivo!\" Jesus confirma que essa revelação não veio de \"carne e sangue\", mas do Pai. Ele então declara que sobre essa confissão (a \"pedra\") edificará a sua igreja, dando a Pedro as chaves do Reino, simbolizando a autoridade de proclamar a verdade sobre quem Jesus é.",
+ "ligar": {
+  "texto": "Este texto é o centro do evangelho na narrativa de Mateus. A salvação depende de reconhecer Jesus não apenas como um profeta, mas como o Cristo, o Filho de Deus. A \"igreja\" aqui é a comunidade de pessoas que creem n'Ele. A promessa de que \"as portas do Xeol não prevalecerão\" garante que a morte e o inferno não terão a última palavra contra aqueles que pertencem a Cristo.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, conhecemos Jesus apenas pelo que ouvimos dos outros: é um bom exemplo, um sábio antigo ou um líder político. Mas a fé verdadeira exige uma resposta pessoal. Assim como Pedro, precisamos olhar para Jesus e declarar quem Ele é para nós. Essa confissão não é apenas uma frase religiosa, mas a base da nossa vida. Quando declaramos que Ele é o Filho de Deus, nossa identidade e segurança se firmam n'Ele, e não nas opiniões que mudam ao nosso redor.",
+ "guarde": "Sobre a confissão de que Jesus é o Cristo, a igreja é construída e permanece firme.",
+ "ore": "Jesus, em Cesareia de Filipe, Tu me chamaste a revelar quem eu creio que és. Abre meus olhos para ver além das opiniões humanas e confirma em mim a fé de que Tu és o Filho do Deus vivo, a rocha sobre a qual minha vida deve estar assentada.",
+ "quiz": {
+  "pergunta": "O que Jesus disse que revelaria a Pedro a sua identidade?",
+  "opcoes": [
+   "Seu Pai, que está nos céus",
+   "João Batista",
+   "Os outros discípulos"
+  ],
+  "certa": 0,
+  "explicacao": "Jesus afirma explicitamente que não foi \"carne e sangue\" (pessoas humanas) que revelou a Pedro, mas sim seu Pai nos céus (Mateus 16.17)."
+ },
+ "refs": [
+  "Lucas 9:18-21",
+  "Marcos 8:27-30",
+  "João 1:49"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-27T12:59:29.723Z",
+  "rounds": 1
+ }
+}

@@ -1,0 +1,145 @@
+{
+ "id": "40-14-13-24",
+ "ref": "Mateus 14:13-24",
+ "book": "40",
+ "chapter": 14,
+ "verses": [
+  {
+   "n": 13,
+   "t": "Depois de Jesus ouvir, retirou-se dali num barco, a um lugar deserto, sozinho; mas assim que as multidões ouviram acerca disso, seguiram-no a pé das cidades."
+  },
+  {
+   "n": 14,
+   "t": "Quando Jesus saiu, viu uma grande multidão. Ele se compadeceu deles, e curou dentre eles os enfermos."
+  },
+  {
+   "n": 15,
+   "t": "E chegando o entardecer, os seus discípulos se aproximaram dele, e disseram: O lugar é deserto, e já é tarde. Despede as multidões, para irem às aldeias, e comprarem para si de comer."
+  },
+  {
+   "n": 16,
+   "t": "Mas Jesus lhes respondeu: Eles não precisam ir. Vós mesmos, dai-lhes de comer."
+  },
+  {
+   "n": 17,
+   "t": "E eles lhe disseram: Nada temos aqui além de cinco pães e dois peixes."
+  },
+  {
+   "n": 18,
+   "t": "Então disse: Trazei-os aqui a mim."
+  },
+  {
+   "n": 19,
+   "t": "Ele mandou às multidões que se sentassem sobre a grama. Então tomou os cinco pães e os dois peixes, levantou os olhos ao céu, e os abençoou. Em seguida partiu os pães, deu-os aos discípulos, e os discípulos às multidões."
+  },
+  {
+   "n": 20,
+   "t": "E todos comeram, e se fartaram. E do que sobrou dos pedaços levantaram doze cestos cheios."
+  },
+  {
+   "n": 21,
+   "t": "E os que comeram foram quase cinco mil homens, sem contar as mulheres e as crianças."
+  },
+  {
+   "n": 22,
+   "t": "E logo Jesus mandou os seus discípulos entrarem no barco, e que fossem adiante dele para a outra margem, enquanto ele despedia as multidões."
+  },
+  {
+   "n": 23,
+   "t": "Depois de despedir as multidões, subiu ao monte, à parte, para orar. Tendo chegado a noite, ele estava ali sozinho."
+  },
+  {
+   "n": 24,
+   "t": "E o barco já estava no meio do mar, atormentado pelas ondas, porque o vento era contrário."
+  }
+ ],
+ "titulo": "Cinco pães, dois peixes e uma multidão saciada",
+ "temas": [
+  "milagre",
+  "compaixão",
+  "provisão",
+  "fé"
+ ],
+ "pergunta": "O que acontece quando entregamos a Jesus o pouco que temos?",
+ "entender": "Logo após a morte de João Batista, Jesus busca um lugar deserto para descansar, mas as multidões o seguem. Ao vê-los, Jesus não os manda embora; ele se compadece deles e cura os enfermos. Quando a noite chega, os discípulos sugerem que as pessoas comprem comida, pois não têm o que oferecer. Jesus surpreende ao dizer: \"Vós mesmos, dai-lhes de comer\". Os discípulos mostram apenas cinco pães e dois peixes, recursos insignificantes para milhares de pessoas.\n\nJesus toma o pouco que eles têm, abençoa, parte e distribui. O resultado é extraordinário: todos se fartam e ainda sobram doze cestos cheios. O texto destaca que eram quase cinco mil homens, sem contar mulheres e crianças. Este milagre mostra que a provisão de Deus não depende da quantidade, mas da entrega e da obediência à Sua palavra.",
+ "ligar": {
+  "texto": "Este milagre revela o coração de Jesus, que se compadece das necessidades humanas e age com poder sobre a criação. Ele transforma o pouco em abundância, demonstrando que é o provedor fiel. Ao multiplicar o pão, Jesus prefigura a si mesmo como o Pão da Vida, que sacia a fome espiritual da humanidade. A cena aponta para o evangelho: assim como o pão físico foi multiplicado para o corpo, a graça de Cristo é suficiente para a alma.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, olhamos para nossos recursos financeiros ou emocionais e achamos que são insuficientes para ajudar os outros ou para enfrentar um problema. Jesus nos convida a trazer a Ele o que temos, por menor que seja, com confiança. A aplicação prática é parar de tentar resolver tudo com nossas próprias forças e começar a depender da provisão divina. Entregue a Jesus suas limitações hoje e veja como Ele pode transformar o pouco em algo que abençoa a você e aos que estão ao seu redor.",
+ "guarde": "O pouco que entregamos nas mãos de Jesus se torna suficiente para a fome de todos.",
+ "ore": "Jesus, ao lembrar dos cinco pães e dois peixes, eu te entrego minhas limitações. Assim como você multiplicou o pouco para saciar a multidão, multiplica a graça e a paz em meu coração. Ajuda-me a confiar na sua provisão diária e a servir aos outros com o que você me der, não com o que eu acho que tenho.",
+ "quiz": {
+  "pergunta": "Quem sugeriu que Jesus mandasse as multidões embora para comprarem comida?",
+  "opcoes": [
+   "Os discípulos",
+   "A multidão",
+   "João Batista"
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma que, ao entardecer, os discípulos se aproximaram de Jesus e disseram que o lugar era deserto e que as multidões deveriam ir às aldeias comprar comida."
+ },
+ "refs": [
+  "João 6:1-14",
+  "Marcos 6:30-44",
+  "Lucas 9:10-17"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-27T12:56:10.922Z",
+  "rounds": 1
+ }
+}

@@ -1779,15 +1779,17 @@
   },
   "40-14-13-24": {
    "execucoes": 1,
-   "ultimo": "automático: entender:citacao_fora_do_texto, ligar:citacao_fora_do_texto"
+   "ultimo": "gemini: NARRATIVE_EVENT_CONSISTENCY: A oração afirma incorretamente que Jesus estava no barco com os cinco pães e dois peixes, quando o texto relata que a multiplicação ocorreu em terra firme sobre a grama. | PRAYER_FIDELITY: A oração atribui a Jesus um cenário incorreto durante o milagre dos pães e peixes,",
+   "estado": "pronto",
+   "titulo": "Cinco pães, dois peixes e uma multidão saciada"
   },
   "40-14-25-36": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   },
   "40-15-1-10": {
-   "execucoes": 0,
-   "ultimo": "erro: gemini: 503 { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\", \"status\": \"UNAVAILABLE\" } } "
+   "execucoes": 1,
+   "ultimo": "automático: entender:citacao_longa"
   },
   "40-15-11-20": {
    "execucoes": 0,
@@ -1797,7 +1799,9 @@
   },
   "40-15-21-29": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "A ousadia da fé que não desiste"
   },
   "40-15-30-39": {
    "execucoes": 0,
@@ -1805,11 +1809,15 @@
   },
   "40-16-1-9": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "O céu vermelho e a geração que não crê"
   },
   "40-16-10-19": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "A rocha que sustenta a igreja"
   },
   "40-16-20-28": {
    "execucoes": 0,
@@ -1822,28 +1830,48 @@
   "40-17-10-18": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-17-19-27": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-18-1-12": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-18-13-23": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-18-24-35": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-19-1-10": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 606,
-   "entrada": 1539524,
-   "saida": 538230
+   "chamadas": 614,
+   "entrada": 1562245,
+   "saida": 545872
   },
   "groq-qwen": {
-   "chamadas": 603,
-   "entrada": 1469231,
-   "saida": 489352
+   "chamadas": 609,
+   "entrada": 1483352,
+   "saida": 494155
   },
   "gemini": {
-   "chamadas": 504,
-   "entrada": 1634065,
-   "saida": 658303
+   "chamadas": 510,
+   "entrada": 1653738,
+   "saida": 670840
   },
   "cloudflare": {
-   "chamadas": 308,
-   "entrada": 1072765,
-   "saida": 114268
+   "chamadas": 312,
+   "entrada": 1086967,
+   "saida": 115752
   },
   "mistral": {
    "chamadas": 0,
