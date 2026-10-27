@@ -1,0 +1,133 @@
+{
+ "id": "40-17-1-9",
+ "ref": "Mateus 17:1-9",
+ "book": "40",
+ "chapter": 17,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Seis dias depois, Jesus tomou consigo Pedro, Tiago, e seu irmão João, e os levou a sós a um monte alto."
+  },
+  {
+   "n": 2,
+   "t": "Então transfigurou-se diante deles; seu rosto brilhou como o sol, e suas roupas se tornaram brancas como a luz."
+  },
+  {
+   "n": 3,
+   "t": "E eis que lhes apareceram Moisés e Elias, falando com ele."
+  },
+  {
+   "n": 4,
+   "t": "Pedro, então, disse a Jesus: Senhor, bom é para nós estarmos aqui. Se queres, façamos aqui três tendas: uma para ti, uma para Moisés, e uma para Elias."
+  },
+  {
+   "n": 5,
+   "t": "Enquanto ele ainda estava falando, eis que uma nuvem brilhante os cobriu. E eis que uma voz da nuvem disse: Este é o meu Filho amado, em quem me agrado; a ele ouvi."
+  },
+  {
+   "n": 6,
+   "t": "Quando os discípulos ouviram, caíram sobre seus rostos, e tiveram muito medo."
+  },
+  {
+   "n": 7,
+   "t": "Jesus se aproximou deles, tocou-os, e disse: Levantai-vos, e não tenhais medo."
+  },
+  {
+   "n": 8,
+   "t": "E quando eles levantaram seus olhos, não viram a ninguém, a não ser a Jesus somente."
+  },
+  {
+   "n": 9,
+   "t": "E enquanto desciam do monte, Jesus lhes disse a seguinte ordem: Não conteis a visão a ninguém, até que o Filho do homem seja ressuscitado dos mortos."
+  }
+ ],
+ "titulo": "O brilho que revela quem Jesus realmente é",
+ "temas": [
+  "transfiguração",
+  "identidade",
+  "glória",
+  "confiança"
+ ],
+ "pergunta": "O que aconteceria se você visse Jesus não apenas como mestre, mas como o Filho de Deus?",
+ "entender": "Seis dias após Pedro declarar que Jesus era o Cristo, Jesus leva três discípulos a um monte alto. Lá, sua aparência muda radicalmente: seu rosto brilha como o sol e suas roupas ficam brancas como a luz. Moisés e Elias aparecem falando com ele, confirmando que Jesus cumpre a Lei e os Profetas.\n\nPedro, impressionado, sugere construir três tendas. Antes que termine, uma nuvem brilhante os cobre e uma voz do céu declara: \"Este é o meu Filho amado, em quem me agrado; a ele ouvi\". Os discípulos caem de medo, mas Jesus os toca e diz para não temerem. Ao olharem, só veem Jesus. Ele ordena que não contem o que viram até que ele ressuscite dos mortos.",
+ "ligar": {
+  "texto": "A Transfiguração é a prova visual da identidade de Jesus. Antes, Pedro falou de fé; agora, Deus fala do céu. A voz confirma que Jesus é o Filho amado, o centro da vontade divina. A presença de Moisés e Elias mostra que toda a história da salvação aponta para ele. Jesus não é apenas um profeta mais; ele é o Filho, e sua glória é real, mesmo em meio ao sofrimento que virá. Isso prepara o caminho para a cruz e a ressurreição.",
+  "selo": true
+ },
+ "viver": "Muitas vezes enxergamos Jesus apenas como o que nos ajuda no dia a dia, perdendo sua glória e autoridade. Este texto nos convida a olhar além das circunstâncias. Quando a vida ficar escura, lembre-se do brilho que foi revelado no monte. Jesus não mudou, mas nossa visão precisa ser renovada pela fé. Confie na voz do Pai que diz: \"a ele ouvi\", mesmo quando o mundo não entende o caminho da cruz.",
+ "guarde": "A voz do céu confirmou a identidade de Jesus, e essa certeza deve guiar nossa fé em todos os momentos.",
+ "ore": "Jesus, no monte da transfiguração, vi o brilho da tua glória. Ajuda-me a não te ver apenas como meu conselheiro, mas como o Filho amado do Pai. Ensina-me a ouvir a tua voz acima de todas as outras e a confiar em ti, mesmo quando o caminho parece levar à cruz.",
+ "quiz": {
+  "pergunta": "Quem apareceu falando com Jesus no monte da transfiguração?",
+  "opcoes": [
+   "Moisés e Elias",
+   "Pedro e João",
+   "Os anjos"
+  ],
+  "certa": 0,
+  "explicacao": "O texto em Mateus 17:3 afirma explicitamente que Moisés e Elias apareceram falando com Jesus, representando a Lei e os Profetas."
+ },
+ "refs": [
+  "Marcos 9:2-8",
+  "Lucas 9:28-36",
+  "2 Pedro 1:16-18"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-27T15:59:07.338Z",
+  "rounds": 1
+ }
+}

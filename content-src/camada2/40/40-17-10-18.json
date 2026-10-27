@@ -1,0 +1,134 @@
+{
+ "id": "40-17-10-18",
+ "ref": "Mateus 17:10-18",
+ "book": "40",
+ "chapter": 17,
+ "verses": [
+  {
+   "n": 10,
+   "t": "E os seus discípulos lhe perguntaram: Por que, então, os escribas dizem que Elias tem que vir primeiro?"
+  },
+  {
+   "n": 11,
+   "t": "Jesus lhes respondeu: Em verdade Elias virá primeiro, e restaurará todas as coisas."
+  },
+  {
+   "n": 12,
+   "t": "Digo-vos, porém, que Elias já veio, mas não o reconheceram. Em vez disso fizeram dele tudo o que quiseram. Assim também o Filho do homem sofrerá por meio deles."
+  },
+  {
+   "n": 13,
+   "t": "Então os discípulos entenderam que ele lhes falara a respeito de João Batista."
+  },
+  {
+   "n": 14,
+   "t": "E quando chegaram à multidão, veio a ele um homem, que se ajoelhou diante dele, e disse:"
+  },
+  {
+   "n": 15,
+   "t": "Senhor, tem misericórdia do meu filho, que é epilético, e sofre muito mal; porque cai muitas vezes no fogo, e muitas vezes na água."
+  },
+  {
+   "n": 16,
+   "t": "E eu o trouxe aos teus discípulos, mas não o puderam curar."
+  },
+  {
+   "n": 17,
+   "t": "Jesus respondeu: Ó geração incrédula e perversa! Até quando estarei convosco? Até quando vos suportarei? Trazei-o a mim aqui."
+  },
+  {
+   "n": 18,
+   "t": "E Jesus o repreendeu. Então o demônio saiu dele, e o menino sarou desde aquela hora."
+  }
+ ],
+ "titulo": "O menino, o fogo e a incredulidade",
+ "temas": [
+  "fé",
+  "misericórdia",
+  "suficiência",
+  "milagre",
+  "discipulado"
+ ],
+ "pergunta": "O que acontece quando a nossa fé é pequena demais para resolver os problemas da família?",
+ "entender": "Logo após a transfiguração, Jesus desce do monte e encontra uma multidão. Um pai desesperado se ajoelha diante dele, pedindo misericórdia para o filho epilético. O menino sofria muito, caindo no fogo e na água. O pai revela que já havia levado o menino aos discípulos, mas eles não conseguiram curá-lo. A situação é tensa: a família está em crise e a primeira tentativa de ajuda falhou.\n\nJesus reage com firmeza, chamando a geração de incrédula e perversa, perguntando até quando estaria com eles. No entanto, sua reação não é de rejeição, mas de convites: \"Trazei-o a mim aqui\". Ao repreender o demônio, o menino é curado imediatamente. O texto mostra que, embora a fé humana possa falhar ou ser insuficiente, a palavra de Jesus tem poder absoluto sobre o mal e a doença.\n\nOs discípulos haviam falhado não por falta de vontade, mas provavelmente por falta de fé suficiente ou dependência de Jesus. A presença de Jesus muda tudo. O que era impossível para os discípulos torna-se simples para Cristo. A cena contraposta a dúvida humana e o poder divino.",
+ "ligar": {
+  "texto": "Este trecho revela a suficiência de Jesus. Os discípulos, que estavam com Jesus, não puderam curar o menino, mas Jesus pôde. Isso aponta para a centralidade de Cristo na vida de fé. Não é a nossa força que salva, mas a dele. O evangelho nos convida a trazer nossos problemas a Jesus, reconhecendo nossa incapacidade. A cura do menino é um sinal do Reino e da autoridade de Jesus sobre o mal, antecipando a vitória final sobre o pecado e a morte.",
+  "selo": true
+ },
+ "viver": "Talvez você esteja carregando um problema que já tentou resolver sozinho ou com ajuda humana e não saiu. A história desse pai nos ensina a parar de insistir no que não funciona e a trazer o caso diretamente a Jesus. Não tenha vergonha de sua fraqueza ou da sua fé pequena. A aplicação prática é a oração honesta: conte a Jesus exatamente o que está acontecendo, como o pai fez. Ele não se afasta da sua realidade caótica; ele entra nela e age. Confie no poder dele, não no seu esforço.",
+ "guarde": "Quando a nossa força acaba, a palavra de Jesus começa a agir.",
+ "ore": "Jesus, diante do menino epilético, eu trago meu problema. Reconheço minha incredulidade e minha fraqueza. Como o pai, eu Te peço misericórdia. Não confio nas minhas forças, mas no Teu poder. Cura o que está quebrado em mim e fortalece minha fé, para que eu dependa apenas de Ti.",
+ "quiz": {
+  "pergunta": "Por que Jesus chamou a geração de incrédula e perversa?",
+  "opcoes": [
+   "Porque eles duvidavam e não confiavam plenamente nele.",
+   "Porque eles eram ricos e orgulhosos.",
+   "Porque eles não conheciam a lei de Moisés."
+  ],
+  "certa": 0,
+  "explicacao": "O texto mostra a frustração de Jesus com a falta de confiança e a dureza de coração dos que o cercavam, contrastando com a fé do pai que pediu misericórdia."
+ },
+ "refs": [
+  "Marcos 9:14-29",
+  "Lucas 9:37-42",
+  "Mateus 17:20"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-27T16:04:32.975Z",
+  "rounds": 1
+ }
+}

@@ -1,0 +1,138 @@
+{
+ "id": "40-15-1-10",
+ "ref": "Mateus 15:1-10",
+ "book": "40",
+ "chapter": 15,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Então alguns escribas e fariseus de Jerusalém se aproximaram de Jesus, e perguntaram:"
+  },
+  {
+   "n": 2,
+   "t": "Por que os teus discípulos transgridem a tradição dos anciãos? Pois não lavam suas mãos quando comem pão."
+  },
+  {
+   "n": 3,
+   "t": "Porém ele lhes respondeu: E vós, por que transgredis o mandamento de Deus por vossa tradição?"
+  },
+  {
+   "n": 4,
+   "t": "Pois Deus mandou, dizendo: Honra ao teu pai e à tua mãe; e quem maldisser ao pai ou à mãe seja sentenciado à morte. Êxodo 21:17, Levítico 20:9"
+  },
+  {
+   "n": 5,
+   "t": "Mas vós dizeis: “Qualquer um que disser ao pai ou à mãe: ‘Todo o proveito que terias de mim é oferta exclusiva para Deus ’, não precisa honrar seu pai ou à sua mãe”."
+  },
+  {
+   "n": 6,
+   "t": "E assim invalidastes o mandamento de Deus por vossa tradição."
+  },
+  {
+   "n": 7,
+   "t": "Hipócritas! Isaías bem profetizou sobre vós, dizendo:"
+  },
+  {
+   "n": 8,
+   "t": "Este povo com sua boca se aproxima de mim, e com os lábios me honra; mas o seu coração está longe de mim."
+  },
+  {
+   "n": 9,
+   "t": "Em vão, porém, me veneram, ensinando doutrinas que são regras humanas. Isaías 29:13"
+  },
+  {
+   "n": 10,
+   "t": "Assim chamou a multidão para si, e disse-lhes: Ouvi e entendei."
+  }
+ ],
+ "titulo": "Quando a tradição pesa mais que o mandamento",
+ "temas": [
+  "tradição",
+  "obediência",
+  "coração",
+  "hipocrisia",
+  "deus"
+ ],
+ "pergunta": "Você já trocou um mandamento de Deus por uma regra humana por medo do que os outros pensarão?",
+ "entender": "Em Mateus 15, os escribas e fariseus questionam Jesus porque seus discípulos não lavam as mãos antes de comer. Para eles, essa tradição dos anciãos era tão importante quanto a lei de Deus. Jesus responde com uma pergunta incisiva: por que vocês transgridem o mandamento de Deus por causa das suas tradições?\n\nJesus usa o exemplo do mandamento \"Honra ao teu pai e à tua mãe\". Ele explica que os fariseus permitiam que as pessoas dissessem que o dinheiro destinado aos pais era oferta para Deus, assim não precisavam cuidar deles. Dessa forma, uma regra religiosa invalidava um comando direto de Deus. Jesus chama essa atitude de hipocrisia, citando Isaías: o povo se aproxima com a boca, mas o coração está longe.\n\nO ponto central não é apenas a lavagem das mãos, mas a prioridade. Quando nossas costumes ou opiniões humanas começam a definir o que é certo ou errado, afastando-nos da palavra de Deus, estamos seguindo regras humanas e não a vontade do Criador.",
+ "ligar": {
+  "texto": "Jesus se coloca aqui como a autoridade máxima, acima das tradições humanas. Ele revela que a verdadeira obediência não está nos rituais externos, mas na disposição do coração. Isso aponta para o evangelho: só o coração transformado pela graça de Cristo pode obedecer a Deus de verdade, não por obrigação legalista, mas por amor. Jesus nos mostra o caminho da verdadeira liberdade espiritual, onde o coração está alinhado com a vontade de Deus, não preso a correntes de costumes que afastam as pessoas da comunhão com o Pai.",
+  "selo": true
+ },
+ "viver": "Pense em uma regra que você segue na igreja ou na família que talvez não esteja na Bíblia, mas que você trata como lei. Pergunte-se: isso está me aproximando de Deus ou me fazendo sentir superior? A aplicação prática é examinar suas prioridades. Se você está gastando mais energia defendendo uma tradição do que cuidando de uma pessoa que precisa de ajuda (como os pais no exemplo), é hora de reavaliar. A obediência a Deus deve ser o critério final, não a opinião da maioria ou o costume de sempre.",
+ "guarde": "O coração longe de Deus é o maior perigo para a fé verdadeira.",
+ "ore": "Senhor Jesus, em Mateus 15 Tu mostraste que o coração importa mais que os rituais. Perdoa-me pelas vezes que segui tradições humanas em vez da Tua palavra. Limpa meu coração, para que eu Te honre de verdade, não apenas com os lábios, mas com toda a minha vida e ações.",
+ "quiz": {
+  "pergunta": "Qual mandamento Jesus usou como exemplo para mostrar a hipocrisia dos fariseus?",
+  "opcoes": [
+   "Honrar pai e mãe",
+   "Lavar as mãos antes de comer",
+   "Ofertar o dízimo ao templo"
+  ],
+  "certa": 0,
+  "explicacao": "Jesus cita especificamente o mandamento de honrar pai e mãe para contrastar com a tradição que permitia usar esse dinheiro como oferta para Deus, invalidando o cuidado familiar."
+ },
+ "refs": [
+  "Isaías 29:13",
+  "Marcos 7:6-13",
+  "Lucas 11:38-40"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-27T15:55:48.248Z",
+  "rounds": 1
+ }
+}
