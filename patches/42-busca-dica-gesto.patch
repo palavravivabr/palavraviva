@@ -1,0 +1,40 @@
+diff --git a/app.js b/app.js
+index 578f3c2..bbad38d 100644
+--- a/app.js
++++ b/app.js
+@@ -519,2 +519,3 @@
+     if (pkg.titulo) box.appendChild(h('p', { class: 'ptitulo', text: pkg.titulo }));
++    if (!lsGet('pv4-dica-marca', '')) box.appendChild(h('div', { class: 'dica' }, [h('span', { text: 'Dica: toque num versículo para destacá-lo. Seus destaques ficam em Minha Palavra. Deslize para os lados para trocar de capítulo.' }), h('button', { type: 'button', text: 'Entendi', onclick: function (e) { lsSet('pv4-dica-marca', '1'); var d = e.currentTarget.parentNode; d.parentNode.removeChild(d); } })]));
+     pkg.verses.forEach(function (v) {
+@@ -1094,2 +1095,20 @@
+     (function () { var ab = $('#aaBtn'), ro = $('#rdOpts'); ab.addEventListener('click', function () { ro.hidden = !ro.hidden; ab.setAttribute('aria-expanded', String(!ro.hidden)); }); })();
++    /* busca a um toque em todas as telas de leitura e estudo */
++    ['chap', 'read', 'study', 'ens', 'marks'].forEach(function (n) {
++      var tb = $('#s-' + n + ' .topbar'); if (!tb) return;
++      var sb = h('button', { class: 'tsearch', type: 'button', 'aria-label': 'Buscar livro ou palavra', onclick: function () { go({ v: 'search' }); } });
++      sb.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>'; /* SVG fixo do próprio app */
++      tb.appendChild(sb);
++    });
++    /* deslizar para os lados na leitura troca de capítulo (ignora as bordas da tela, usadas pelo gesto de voltar do Android) */
++    (function () {
++      var r = $('#s-read'), x0 = 0, y0 = 0, t0 = 0;
++      r.addEventListener('touchstart', function (e) { var t = e.changedTouches[0]; x0 = t.clientX; y0 = t.clientY; t0 = Date.now(); }, { passive: true });
++      r.addEventListener('touchend', function (e) {
++        var t = e.changedTouches[0], dx = t.clientX - x0, dy = t.clientY - y0;
++        if (Date.now() - t0 > 700 || Math.abs(dx) < 90 || Math.abs(dy) > 45 || x0 < 24 || x0 > innerWidth - 24) return;
++        if (e.target.closest && e.target.closest('input,select,.rdopts')) return;
++        var bt = dx < 0 ? $('#chNext') : $('#chPrev'); if (bt && !bt.hidden) bt.click();
++      }, { passive: true });
++    })();
+     $$('[data-back]').forEach(function (b) { b.addEventListener('click', back); });
+diff --git a/styles.css b/styles.css
+index 4597a13..405d1cf 100644
+--- a/styles.css
++++ b/styles.css
+@@ -293 +293,6 @@
+ #audioPanel .vol:has(#trilha){flex-direction:column;align-items:stretch;gap:6px}
++.tsearch{flex:none;width:40px;height:40px;border-radius:50%;display:grid;place-items:center;color:inherit;background:rgba(255,255,255,.12)}
++.tsearch svg{width:20px;height:20px}
++.dica{display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:14px;background:var(--gold-soft);color:var(--tagink);font-size:13px;line-height:1.4;margin:0 0 8px}
++.dica span{flex:1}
++.dica button{flex:none;min-height:40px;padding:0 14px;border-radius:14px;background:var(--ink);color:#FCF8EE;font-weight:700;font-size:13px}
