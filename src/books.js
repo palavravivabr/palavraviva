@@ -72,9 +72,10 @@ if (typeof document !== 'undefined') {
     vale: function (g, W, r) { lin(g, W, 0, 0.7, ['#8dbad3', '#f1efd6']); g.fillRect(0, 0, W, W); glow(g, W, W * (0.3 + r() * 0.4), W * 0.35, W * 0.5, 'rgba(255,248,215,.9)'); [['#7d9e7c', 0.55], ['#5b8062', 0.68], ['#3f6350', 0.82]].forEach(function (m, i) { hills(g, W, m[1], 0.09, m[0], r, 1.1 + i * 0.4); g.fillStyle = 'rgba(240,244,228,0.28)'; g.fillRect(0, W * (m[1] + 0.02), W, W * 0.08); }); hills(g, W, 1, 0.1, '#254232', r, 1.5); }
   };
   function thumb(p) {
-    var t = norm((p.titulo || '') + ' ' + (p.temas || []).join(' ')), kind = 'vale', hs = 7, i;
+    var t = norm((p.titulo || '') + ' ' + (p.temas || []).join(' ')), kind = '', hs = 7, i;
     for (i = 0; i < THEMES.length; i++) { if (new RegExp(THEMES[i][1]).test(t)) { kind = THEMES[i][0]; break; } }
     String(p.id).split('').forEach(function (ch) { hs = (hs * 31 + ch.charCodeAt(0)) % 99991; });
+    if (!kind) { var ks = Object.keys(SCENES); kind = ks[hs % ks.length]; } /* sem tema no título: a cena varia conforme o estudo */
     var W = 112, c = document.createElement('canvas'); c.width = c.height = W; c.className = 'thumb'; c.setAttribute('aria-hidden', 'true');
     try { SCENES[kind](c.getContext('2d'), W, rng(hs)); } catch (e) { /* fica o fundo verde */ }
     return c;
