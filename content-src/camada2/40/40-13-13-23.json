@@ -1,0 +1,141 @@
+{
+ "id": "40-13-13-23",
+ "ref": "Mateus 13:13-23",
+ "book": "40",
+ "chapter": 13,
+ "verses": [
+  {
+   "n": 13,
+   "t": "Por isso falo a eles por parábolas; porque vendo, não veem; e ouvindo, não ouvem, nem entendem."
+  },
+  {
+   "n": 14,
+   "t": "Assim neles se cumpre a profecia de Isaías, que diz: De fato ouvireis, mas não entendereis; De fato vereis, mas não percebereis."
+  },
+  {
+   "n": 15,
+   "t": "Porque o coração deste povo está insensível; Com seus ouvidos dificilmente ouvem, e seus olhos fecharam; A fim de não haver que seus olhos vejam, seus ouvidos ouçam, Seus corações entendam, e se arrependam, E eu os cure. Isaías 6:9-10"
+  },
+  {
+   "n": 16,
+   "t": "Mas benditos são os vossos olhos, porque veem; e os vossos ouvidos, porque ouvem."
+  },
+  {
+   "n": 17,
+   "t": "Pois em verdade vos digo que muitos profetas e justos desejaram ver o que vós vedes, mas não viram; e desejaram ouvir o que vós ouvis, mas não ouviram."
+  },
+  {
+   "n": 18,
+   "t": "Portanto, ouvi vós a parábola do semeador:"
+  },
+  {
+   "n": 19,
+   "t": "Quando alguém ouve a palavra do Reino e não a entende, o maligno vem e arranca o que foi semeado em seu coração; este é o que foi semeado junto ao caminho."
+  },
+  {
+   "n": 20,
+   "t": "E o que foi semeado entre as pedras é o que ouve a palavra, e logo a recebe com alegria,"
+  },
+  {
+   "n": 21,
+   "t": "mas não tem raiz em si mesmo. Em vez disso, dura um pouco, mas quando vem a aflição ou a perseguição pela palavra, logo tropeça na fé."
+  },
+  {
+   "n": 22,
+   "t": "E o que foi semeado entre os espinhos é o que ouve a palavra, mas a ansiedade com o tempo presente e a sedução das riquezas sufocam a palavra, e fica sem dar fruto."
+  },
+  {
+   "n": 23,
+   "t": "Mas o que foi semeado em boa terra, este é o que ouve e entende a palavra, e o que dá e produz fruto, um a cem, outro a sessenta, e outro a trinta."
+  }
+ ],
+ "titulo": "Por que alguns corações não dão frutos?",
+ "temas": [
+  "parábola",
+  "coração",
+  "fruto"
+ ],
+ "pergunta": "Você já se perguntou por que a mesma palavra pode produzir resultados tão diferentes?",
+ "entender": "Jesus explica que fala por parábolas porque “vendo, não veem; e ouvindo, não ouvem, nem entendem” (Mateus 13.13). Ele cita Isaías para mostrar que o povo tem o coração endurecido, de modo que nem olhos nem ouvidos funcionam para a verdade. Em seguida, apresenta a parábola do semeador, descrevendo quatro tipos de solo: ao longo do caminho, entre pedras, entre espinhos e boa terra, cada um representando uma atitude distinta diante da mensagem do Reino.\n\nO contexto imediato mostra os discípulos perguntando por que Jesus usa parábolas (Mateus 13.10‑12). Ele responde que aos que têm entendimento será dado ainda mais, enquanto aos que não têm, até o que têm será tirado. Assim, a parábola serve para revelar o Reino aos que têm coração aberto e ocultá‑lo aos que permanecem endurecidos. O sentido central é que a palavra de Deus só produz vida quando o coração está preparado para recebê‑la.",
+ "ligar": {
+  "texto": "A semente que Jesus lança representa a própria mensagem do Evangelho: a boa terra são aqueles que recebem a palavra, creem e dão fruto em vida transformada. O “maligno” que arranca a semente ao longo do caminho aponta ao inimigo que impede a fé (cf. Efésios 6.12). Quando reconhecemos que somos o solo, podemos escolher abrir‑nos a Cristo, o Semeador que oferece vida eterna.",
+  "selo": false
+ },
+ "viver": "Ao observar os diferentes solos, veja em que tipo de terra você tem sido. Se sua vida tem sido como o caminho, as distrações e a dureza do coração impedem que a palavra crie raízes. Se está entre pedras, há entusiasmo, mas falta firmeza para suportar dificuldades. Se os espinhos são as preocupações e a busca por riqueza, eles sufocam o crescimento espiritual. Procure tornar‑se boa terra, dedicando tempo à oração, ao estudo da Bíblia e ao serviço, permitindo que a palavra crie raízes profundas e dê frutos abundantes.",
+ "guarde": "Um coração preparado recebe a semente e produz fruto que glorifica a Deus.",
+ "ore": "Senhor, ao ouvir a parábola do semeador, ajuda‑me a remover as pedras e espinhos do meu coração, para que a semente da tua palavra possa germinar e frutificar.",
+ "quiz": {
+  "pergunta": "Qual solo da parábola representa quem ouve a palavra, mas deixa que as preocupações e riquezas a sufocam?",
+  "opcoes": [
+   "Solo entre os espinhos",
+   "Solo ao longo do caminho",
+   "Solo entre pedras"
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz que o solo entre os espinhos “a ansiedade com o tempo presente e a sedução das riquezas sufocam a palavra”."
+ },
+ "refs": [
+  "Marcos 4:3-20",
+  "Isaías 6:9-10",
+  "Efésios 6:12",
+  "João 15:5"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-27T06:48:08.335Z",
+  "rounds": 2
+ }
+}

@@ -1,0 +1,136 @@
+{
+ "id": "40-13-37-46",
+ "ref": "Mateus 13:37-46",
+ "book": "40",
+ "chapter": 13,
+ "verses": [
+  {
+   "n": 37,
+   "t": "E ele lhes respondeu: O que semeia a boa semente é o Filho do homem."
+  },
+  {
+   "n": 38,
+   "t": "E o campo é o mundo; e a boa semente, estes são os filhos do Reino; e o joio são os filhos do maligno."
+  },
+  {
+   "n": 39,
+   "t": "E o inimigo, que o semeou, é o diabo; e a colheita é o fim da era; e os que colhem são os anjos."
+  },
+  {
+   "n": 40,
+   "t": "Portanto, como o joio é colhido e queimado no fogo, assim também será no fim desta era."
+  },
+  {
+   "n": 41,
+   "t": "O Filho do homem enviará seus anjos, e eles recolherão do seu Reino todas as causas do pecado, assim como os que praticam injustiça,"
+  },
+  {
+   "n": 42,
+   "t": "e os lançarão na fornalha de fogo. Ali haverá choro e ranger de dentes."
+  },
+  {
+   "n": 43,
+   "t": "Então os justos brilharão como o sol, no Reino de seu Pai. Quem tem ouvidos para ouvir, ouça."
+  },
+  {
+   "n": 44,
+   "t": "O Reino dos céus também é semelhante a um tesouro escondido num campo, que um homem, depois de achá-lo, escondeu. Então, em sua alegria, vai, vende tudo quanto tem, e compra aquele campo."
+  },
+  {
+   "n": 45,
+   "t": "O Reino dos céus também é semelhante a um homem negociante, que buscava boas pérolas."
+  },
+  {
+   "n": 46,
+   "t": "Quando este achou uma pérola de grande valor, foi, vendeu tudo quanto tinha, e a comprou."
+  }
+ ],
+ "titulo": "O Tesouro que Vale tudo",
+ "temas": [
+  "reino",
+  "valor",
+  "decisão",
+  "fé"
+ ],
+ "pergunta": "O que você faria se descobrisse que o maior tesouro está ao seu alcance?",
+ "entender": "Jesus termina a explicação das parábolas falando do Reino dos céus como um tesouro escondido num campo. Ele diz: \"um tesouro escondido num campo, que um homem, depois de achá-lo, escondeu\" (Mateus 13.44). Em seguida, compara o Reino a uma pérola de grande valor que alguém compra vendendo tudo o que tem (13.45‑46). O contexto imediato mostra os discípulos pedindo explicação da parábola do joio, e Jesus usa essas imagens para revelar que o Reino tem um valor incomparável e exige total entrega. O campo, a pérola e a venda de tudo ilustram que o Reino não é algo distante, mas algo que se encontra aqui e agora, e que a decisão de segui‑lo requer abandonar tudo que compete ao mundo.\n\nEssas duas parábolas reforçam a ideia de que o Reino de Deus tem prioridade absoluta. O tesouro e a pérola são coisas que, uma vez reconhecidas, provocam uma mudança radical de vida. O texto não descreve detalhes do futuro, mas destaca a urgência da escolha presente: quem reconhece o valor do Reino deve estar disposto a sacrificar o que tem para obtê‑lo.",
+ "ligar": {
+  "texto": "Embora o texto não mencione Jesus diretamente, ele apresenta o Reino dos céus como algo que só se obtém quando alguém reconhece seu valor supremo e entrega tudo a ele. Essa atitude espelha a entrega que Jesus nos chama a fazer: confiar plenamente nele, que é o Filho do homem, e deixar para trás tudo que impede a vida plena em Deus. Assim, a busca pelo tesouro ou pela pérola aponta para a necessidade de reconhecer Cristo como o maior valor, entregando‑nos a Ele para participar do Reino que Ele inaugurou.",
+  "selo": false
+ },
+ "viver": "Ao perceber que o Reino de Deus tem valor maior que qualquer bem material, você pode avaliar o que tem segurado como prioridade. Se há algo – um emprego, um relacionamento ou um hobby – que impede de buscar a Deus de todo o coração, considere o que seria preciso sacrificar para colocar o Reino em primeiro lugar. Essa decisão pode começar com pequenas renúncias, como dedicar tempo diário à oração e ao estudo da Bíblia, ou com grandes mudanças, como deixar um estilo de vida que afasta de Deus. O ponto é viver como quem já encontrou o tesouro, valorizando o que realmente importa.\n\nLembre‑se de que a verdadeira riqueza não está nas coisas que possuímos, mas na comunhão com o Rei que nos ama. Quando colocamos o Reino acima de tudo, experimentamos a paz e a alegria que só Ele pode dar.",
+ "guarde": "O Reino de Deus vale mais que tudo que o mundo oferece; entregue tudo por ele.",
+ "ore": "Jesus, ao contar a parábola da pérola, mostrou o preço da entrega total. Eu reconheço que só Tu és o maior tesouro da minha vida. Ajuda‑me a vender o que me prende e a comprar o teu Reino, confiando que em Ti encontro o verdadeiro valor.",
+ "quiz": {
+  "pergunta": "O que Jesus comparou ao tesouro escondido no campo?",
+  "opcoes": [
+   "O Reino dos céus",
+   "O juízo final",
+   "A vida eterna"
+  ],
+  "certa": 0,
+  "explicacao": "Jesus usou o tesouro escondido para ilustrar o valor incomparável do Reino dos céus, que deve ser buscado acima de tudo."
+ },
+ "refs": [
+  "Lucas 12:34",
+  "1 Timóteo 6:10"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-27T06:49:03.844Z",
+  "rounds": 1
+ }
+}

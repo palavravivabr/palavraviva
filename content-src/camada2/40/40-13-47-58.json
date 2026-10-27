@@ -1,0 +1,145 @@
+{
+ "id": "40-13-47-58",
+ "ref": "Mateus 13:47-58",
+ "book": "40",
+ "chapter": 13,
+ "verses": [
+  {
+   "n": 47,
+   "t": "O Reino dos céus também é semelhante a uma rede lançada ao mar, que colhe toda espécie de peixes ."
+  },
+  {
+   "n": 48,
+   "t": "E quando está cheia, os pescadores puxam-na à praia, sentam-se, e recolhem os bons em cestos, mas os ruins lançam fora."
+  },
+  {
+   "n": 49,
+   "t": "Assim será ao fim da era; os anjos sairão, e separarão dentre os justos os maus,"
+  },
+  {
+   "n": 50,
+   "t": "e os lançarão na fornalha de fogo. Ali haverá choro e ranger de dentes."
+  },
+  {
+   "n": 51,
+   "t": "E Jesus lhes perguntou: Entendestes todas estas coisas?Eles lhe responderam: Sim, Senhor."
+  },
+  {
+   "n": 52,
+   "t": "E ele lhes disse: Portanto todo escriba que se tornou discípulo no Reino dos céus é semelhante a um chefe de casa, que do seu tesouro tira coisas novas e velhas."
+  },
+  {
+   "n": 53,
+   "t": "E aconteceu que, quando Jesus acabou essas parábolas, retirou-se dali."
+  },
+  {
+   "n": 54,
+   "t": "E vindo à sua terra, ensinava-os na sinagoga deles, de tal maneira que ficavam admirados, e diziam: De onde vêm a este tal sabedoria, e os milagres?"
+  },
+  {
+   "n": 55,
+   "t": "Não é este o filho do carpinteiro? E não se chama sua mãe Maria, e seus irmãos Tiago, José, Simão, e Judas?"
+  },
+  {
+   "n": 56,
+   "t": "Não estão todas as suas irmãs conosco? Ora, de onde vem a este tudo isto?"
+  },
+  {
+   "n": 57,
+   "t": "E ofenderam-se por causa dele. Mas Jesus lhes disse: Não há profeta sem honra, a não ser em sua terra, e em sua casa."
+  },
+  {
+   "n": 58,
+   "t": "E não fez ali muitos milagres por causa da incredulidade deles."
+  }
+ ],
+ "titulo": "Peixes na rede e o carpinteiro da sinagoga",
+ "temas": [
+  "juízo",
+  "fé",
+  "reino",
+  "incredulidade"
+ ],
+ "pergunta": "Como a familiaridade com Jesus pode nos impedir de crer nele?",
+ "entender": "Jesus compara o Reino dos céus a uma rede que 'colhe toda espécie de peixes'. Quando cheia, os pescadores separam os bons dos ruins. Isso ilustra que, no fim dos tempos, os anjos farão essa separação definitiva, enviando os maus para a 'fornalha de fogo'.\n\nDepois de ensinar, Jesus volta à sua terra natal. Os vizinhos, que o conheciam como 'o filho do carpinteiro', ficam admirados com sua sabedoria, mas também ofendidos. A incredulidade deles é tão grande que Jesus não faz muitos milagres ali.\n\nO contraste é forte: a rede do Reino aceita todos, mas o juízo final será real. E a familiaridade sem fé pode bloquear o reconhecimento de Jesus como o Profeta e o Messias.",
+ "ligar": {
+  "texto": "Este texto nos convida a olhar para Jesus não apenas como o homem da vila, mas como o Rei que julgará. A incredulidade de Nazararet mostra que conhecer os fatos sobre Cristo não basta; é preciso fé. O evangelho é a única rede que nos salva do juízo, oferecendo graça a quem crê.",
+  "selo": true
+ },
+ "viver": "Nossa rotina pode nos cegar para a grandeza de Deus. Assim como os vizinhos de Jesus viam apenas o carpinteiro, podemos tratar a fé como algo comum, perdendo a reverência. Examine seu coração: você trata Jesus com o respeito que Ele merece, ou a familiaridade apagou o temor santo? A fé exige que vejamos além da aparência.",
+ "guarde": "A rede colhe a todos, mas a fé determina o destino no juízo final.",
+ "ore": "Jesus, filho do carpinteiro, quebre minha incredulidade. Não me deixe tratar tua presença como algo comum. Ajuda-me a crer em ti com reverência, vendo-te como o Rei que julgará e o Salvador que me amou.",
+ "quiz": {
+  "pergunta": "Por que Jesus não fez muitos milagres na sua terra natal?",
+  "opcoes": [
+   "Por causa da incredulidade deles.",
+   "Porque ele estava cansado.",
+   "Porque os anjos impediram."
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma explicitamente que 'não fez ali muitos milagres por causa da incredulidade deles' (Mateus 13.58)."
+ },
+ "refs": [
+  "Mateus 12:41",
+  "João 4:44",
+  "2 Timóteo 3:1-5"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-27T06:54:01.965Z",
+  "rounds": 2
+ }
+}

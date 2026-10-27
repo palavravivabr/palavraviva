@@ -1659,7 +1659,7 @@
   },
   "40-9-20-29": {
    "execucoes": 2,
-   "ultimo": "automático: entender:menos_de_2_paragrafos"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   },
   "40-9-30-38": {
    "execucoes": 0,
@@ -1747,23 +1747,33 @@
   },
   "40-13-13-23": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:citacao_longa",
+   "estado": "pronto",
+   "titulo": "Por que alguns corações não dão frutos?"
   },
   "40-13-24-36": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: LANGUAGE_CLARITY: Uso incorreto do termo 'manada' para se referir a ovelhas ao parafrasear João 10:16, quando o correto em português é 'rebanho' ou 'aprisco'.",
+   "estado": "pronto",
+   "titulo": "O joio que cresce no meio do trigo"
   },
   "40-13-37-46": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "O Tesouro que Vale tudo"
   },
   "40-13-47-58": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:entender:43-15-1-9",
+   "estado": "pronto",
+   "titulo": "Peixes na rede e o carpinteiro da sinagoga"
   },
   "40-14-1-12": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "O preço de dizer a verdade ao poder"
   },
   "40-14-13-24": {
    "execucoes": 0,
@@ -1784,28 +1794,44 @@
   "40-15-21-29": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-15-30-39": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-16-1-9": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-16-10-19": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-16-20-28": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 592,
-   "entrada": 1502148,
-   "saida": 526082
+   "chamadas": 599,
+   "entrada": 1520808,
+   "saida": 532279
   },
   "groq-qwen": {
-   "chamadas": 588,
-   "entrada": 1429409,
-   "saida": 477083
+   "chamadas": 595,
+   "entrada": 1447783,
+   "saida": 482936
   },
   "gemini": {
-   "chamadas": 493,
-   "entrada": 1597631,
-   "saida": 644335
+   "chamadas": 500,
+   "entrada": 1621210,
+   "saida": 649380
   },
   "cloudflare": {
-   "chamadas": 301,
-   "entrada": 1048003,
-   "saida": 111671
+   "chamadas": 306,
+   "entrada": 1065875,
+   "saida": 113526
   },
   "mistral": {
    "chamadas": 0,
