@@ -227,7 +227,7 @@
 
   /* ---------- navegação (o botão voltar do Android funciona dentro do app) ---------- */
   var curState = { v: 'home', d: 0 }, overlay = null;
-  var SCREENS = ['home', 'chap', 'read', 'study', 'ens', 'search', 'marks', 'menu', 'err'];
+  var SCREENS = ['home', 'chap', 'read', 'study', 'ens', 'search', 'marks', 'plano', 'menu', 'err'];
   function showScreen(v) {
     SCREENS.forEach(function (x) { var s = $('#s-' + x); if (s) s.classList.toggle('on', x === v); });
     var el = $('#s-' + v); if (el) el.scrollTop = 0;
@@ -250,7 +250,7 @@
     curState = s;
     try {
       if (s.v === 'chap') viewChap(s); else if (s.v === 'read') viewRead(s); else if (s.v === 'study') viewStudy(s);
-      else if (s.v === 'ens') viewEnsinos(); else if (s.v === 'search') viewSearch(); else if (s.v === 'marks') viewMarks(); else if (s.v === 'menu') viewMenu(); else viewHome();
+      else if (s.v === 'ens') viewEnsinos(); else if (s.v === 'search') viewSearch(); else if (s.v === 'marks') viewMarks(); else if (s.v === 'plano') viewPlano(); else if (s.v === 'menu') viewMenu(); else viewHome();
     } catch (e) { fail(e); }
   }
   function fail(e) {
@@ -302,6 +302,7 @@
     if (last && bookOf(last.book)) { r.hidden = false; $('#resumeEb').textContent = 'Continuar leitura'; $('#resumeTxt').textContent = last.label; r.onclick = function () { go({ v: 'read', b: last.book, c: last.chapter }); }; }
     else if (first) { var fb = bookOf(first.book); r.hidden = false; $('#resumeEb').textContent = 'Começar a leitura'; $('#resumeTxt').textContent = fb.name + ' ' + first.chapter; r.onclick = function () { go({ v: 'read', b: first.book, c: first.chapter }); }; }
     else r.hidden = true;
+    planoCard();
     var f = featured(); $('#cardStudy').hidden = !f; $('#railSec').hidden = false;
     var np = (manifest.passages || []).length; $('#cardEns').hidden = !np; $('#ensBanner').hidden = !np; if (np) $('#ensBannerTxt').textContent = 'Aprenda a Palavra: ' + np + (np === 1 ? ' ensino pronto' : ' ensinos prontos');
     if (np) { $('#ensTitle').textContent = 'Aprenda a Palavra'; $('#ensSmall').textContent = np + (np === 1 ? ' ensino pronto' : ' ensinos prontos') + ' · toque para ver'; }
@@ -311,6 +312,56 @@
         if (p.pergunta) { $('#qEyebrow').textContent = 'Para pensar antes de ler'; $('#qTitle').textContent = p.pergunta; $('#qText').textContent = 'Uma pergunta para abrir o coração antes de ler ' + f.ref + '.'; }
       } catch (e) { /* sem rede e sem cache: fica o texto padrão */ }
     }
+  }
+  /* ---------- plano de leitura: Evangelhos em 30 dias (o progresso fica só neste aparelho e entra no backup) ---------- */
+  var PLANO = { id: 'ev30', nome: 'Evangelhos em 30 dias', livros: [['40', 28], ['41', 16], ['42', 24], ['43', 21]], porDia: 3 };
+  function planoLista() { var l = []; PLANO.livros.forEach(function (x) { var b = bookOf(x[0]); for (var c = 1; c <= x[1]; c++) l.push({ b: x[0], c: c, n: b ? b.name : x[0] }); }); return l; }
+  function planoGet() { return kvGet('plano').then(function (p) { return p && p.id === PLANO.id ? p : null; }); }
+  function planoFeito(p, it) { return !!(p && p.feitos && p.feitos[it.b + ':' + it.c]); }
+  function planoDia(l, p) { var i = 0; while (i < l.length && planoFeito(p, l[i])) i++; return i >= l.length ? { fim: true } : { dia: Math.floor(i / PLANO.porDia) + 1 }; }
+  function planoMarcar(b, c, ligar) {
+    return planoGet().then(function (p) {
+      if (!p) return;
+      var k = b + ':' + c; p.feitos = p.feitos || {};
+      if (ligar === undefined) ligar = !p.feitos[k];
+      if (ligar && p.feitos[k]) return; if (ligar) p.feitos[k] = 1; else delete p.feitos[k];
+      var l = planoLista(), dia = planoDia(l, p);
+      return kvSet('plano', p).then(function () { if (ligar) toast(dia.fim ? 'Plano concluído. Parabéns!' : 'Capítulo concluído no plano'); });
+    });
+  }
+  function planoCard() {
+    var c = $('#planoCard'); if (!c) return;
+    planoGet().then(function (p) {
+      var d = p ? planoDia(planoLista(), p) : null;
+      $('#planoTxt').textContent = !p ? PLANO.nome : d.fim ? 'Plano concluído' : PLANO.nome + ' · dia ' + d.dia + ' de ' + Math.ceil(planoLista().length / PLANO.porDia);
+      $('#planoAcao').textContent = p ? 'Abrir' : 'Começar';
+      c.hidden = false; c.onclick = function () { go({ v: 'plano' }); };
+    });
+  }
+  async function viewPlano() {
+    showScreen('plano');
+    var body = clear($('#planoBody')), p = await planoGet(), l = planoLista();
+    if (!p) {
+      body.appendChild(h('div', { class: 'planohero' }, [h('h2', { text: PLANO.nome }),
+        h('p', { text: 'Os quatro Evangelhos, Mateus, Marcos, Lucas e João, em 30 dias, com cerca de 3 capítulos por dia. Leia no seu ritmo: se pular um dia, o plano continua de onde você parou. O progresso fica só neste aparelho.' }),
+        h('button', { class: 'btn', type: 'button', text: 'Começar o plano', onclick: function () { kvSet('plano', { id: PLANO.id, feitos: {} }).then(viewPlano); } })]));
+      return;
+    }
+    var n = l.filter(function (it) { return planoFeito(p, it); }).length, pct = Math.floor(n / l.length * 100), d = planoDia(l, p);
+    body.appendChild(h('div', { class: 'planohero' }, [h('h2', { text: PLANO.nome }), h('p', { text: n + ' de ' + l.length + ' capítulos lidos · ' + pct + '%' }), h('div', { class: 'pbar', 'aria-hidden': 'true' }, [h('i', { style: 'width:' + pct + '%' })])]));
+    if (d.fim) body.appendChild(h('p', { class: 'lead', text: 'Você terminou os quatro Evangelhos. Que a Palavra continue a falar com você.' }));
+    else {
+      body.appendChild(h('h3', { class: 'planosec', text: 'Leitura de hoje (dia ' + d.dia + ')' }));
+      l.slice((d.dia - 1) * PLANO.porDia, d.dia * PLANO.porDia).forEach(function (it) {
+        var feito = planoFeito(p, it), est = passagesOf(it.b, it.c);
+        var linha = h('div', { class: 'prow' }, [
+          h('button', { class: 'pler', type: 'button', onclick: function () { go({ v: 'read', b: it.b, c: it.c }); } }, [h('strong', { text: it.n + ' ' + it.c }), h('span', { text: feito ? 'Lido' : 'Toque para ler' })]),
+          est.length ? h('button', { class: 'pest', type: 'button', text: 'Estudo', onclick: function () { go({ v: 'study', id: est[0].id }); } }) : null,
+          h('button', { class: 'pok', type: 'button', 'aria-pressed': feito ? 'true' : 'false', 'aria-label': 'Marcar ' + it.n + ' ' + it.c + ' como lido', text: '✓', onclick: function () { planoMarcar(it.b, it.c).then(viewPlano); } })]);
+        body.appendChild(linha);
+      });
+    }
+    body.appendChild(h('button', { class: 'btn alt', type: 'button', style: 'margin-top:18px', text: 'Reiniciar o plano', onclick: function () { if (window.confirm('Apagar o progresso deste plano e começar de novo?')) kvSet('plano', null).then(viewPlano); } }));
   }
   function actRead() { kvGet('onde-parei').then(function (last) { var f = firstAvailable(); if (last && bookOf(last.book)) go({ v: 'read', b: last.book, c: last.chapter }); else if (f) go({ v: 'read', b: f.book, c: f.chapter }); else toast('Ainda não há texto bíblico neste aparelho.'); }); }
   function actStudy() { var f = featured(); if (f) go({ v: 'study', id: f.id }); else toast('Ainda não há ensino publicado neste aparelho.'); }
@@ -532,6 +583,15 @@
     passagesOf(b.id, s.c).forEach(function (p) {
       $('#studyList').appendChild(h('button', { class: 'entender', type: 'button', style: '--img:url(assets/hero-bible.jpg)', onclick: function () { go({ v: 'study', id: p.id }); } },
         [h('span', {}, [h('strong', { text: 'Entender ' + p.ref })]), h('span', { class: 'cta', style: 'min-height:40px', text: 'Abrir' })]));
+    });
+    planoGet().then(function (pl) {
+      if (!pl || !('IntersectionObserver' in window)) return;
+      var fim = $('.row2'), t0 = Date.now(); if (!fim) return;
+      var ob = new IntersectionObserver(function (es) {
+        if (!es[0].isIntersecting) return; ob.disconnect();
+        setTimeout(function () { if (curState === s) planoMarcar(b.id, s.c, true); }, Math.max(0, 6000 - (Date.now() - t0)));
+      }, { threshold: 0.6 });
+      ob.observe(fim);
     });
     if (s.verse) { var t = $('.v[data-n="' + s.verse + '"]', box); if (t) { t.scrollIntoView({ block: 'center' }); t.classList.add('flash'); } }
   }
@@ -829,7 +889,7 @@
     var s = document.createElement('script'); s.src = 'assets/abertura-som.js';
     s.onload = function () {
       if (!window.PV_ABERTURA) return;
-      var a = new Audio(window.PV_ABERTURA), feito = false; a.volume = 0.5;
+      var a = new Audio(window.PV_ABERTURA), feito = false; a.volume = 0.25;
       function toca() { if (feito) return; feito = true; var p = a.play(); if (p && p.catch) p.catch(function () { /* sem permissão do sistema: fica em silêncio */ }); }
       var p0 = a.play();
       if (p0 && p0.then) p0.then(function () { feito = true; }, function () { /* o navegador pede um toque antes de tocar: aproveita o primeiro toque, só nos primeiros segundos */
@@ -1110,6 +1170,12 @@
         if (e.target.closest && e.target.closest('input,select,.rdopts')) return;
         var bt = dx < 0 ? $('#chNext') : $('#chPrev'); if (bt && !bt.hidden) bt.click();
       }, { passive: true });
+    })();
+    /* tela do plano de leitura, criada aqui para ter o mesmo botão Voltar das demais */
+    (function () {
+      var sec = document.createElement('section'); sec.className = 'screen'; sec.id = 's-plano'; sec.setAttribute('aria-label', 'Plano de leitura');
+      sec.innerHTML = '<div class="topbar"><button class="back" type="button" data-back><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>Voltar</button><h2>Plano de leitura</h2></div><div class="pad" id="planoBody"></div>'; /* HTML fixo do próprio app */
+      $('#app').insertBefore(sec, $('#s-menu'));
     })();
     $$('[data-back]').forEach(function (b) { b.addEventListener('click', back); });
     var sl = $('#slides'), dots = $$('#dots i');
