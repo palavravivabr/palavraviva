@@ -279,6 +279,18 @@
       falando = true; marcar(true); speechSynthesis.speak(u);
     } catch (x) { parar(); }
   }
+  /* painel de mídia do Android: mostra o que está tocando e permite pausar fora do app */
+  function sessaoMidia() {
+    try {
+      if (!('mediaSession' in navigator) || typeof MediaMetadata === 'undefined' || !ui) return;
+      var ms = navigator.mediaSession;
+      ms.metadata = new MediaMetadata({ title: 'Palavra do Dia', artist: ui.e.ref, album: 'Palavra Viva', artwork: [{ src: 'icons/icon-512.png', sizes: '512x512', type: 'image/png' }] });
+      ms.setActionHandler('play', function () { if (audioEl) audioEl.play(); });
+      ms.setActionHandler('pause', function () { if (audioEl) audioEl.pause(); });
+      ms.setActionHandler('seekbackward', function () { saltar(-10); });
+      ms.setActionHandler('seekforward', function () { saltar(10); });
+    } catch (x) { /* sem suporte */ }
+  }
   /* botão central: toca, pausa e retoma */
   function alternar() {
     if (!ui) return;
@@ -290,7 +302,7 @@
     Promise.all([urlVoz(e), carregarTempos()]).then(function (r) {
       if (!falando || !ui) return;
       var au = new Audio(r[0]); audioEl = au; ui.T = r[1]; ui.L = null; ui.chave = '';
-      au.volume = ui.vol.value / 100; ui.cap.className = 'pdcap';
+      au.volume = ui.vol.value / 100; ui.cap.className = 'pdcap'; sessaoMidia();
       au.onplay = function () { marcar(true); rodar(); };
       au.onpause = function () { if (audioEl === au) marcar(false); };
       au.onended = au.onerror = function () { if (audioEl === au) { audioEl = null; falando = false; if (rafId) { cancelAnimationFrame(rafId); rafId = 0; } if (ui) ui.repouso(); } };
@@ -359,8 +371,16 @@
     ui = { e: e, hero: hero, cap: cap, lab: lab, play: play, seek: seek, tempo: tempo, vol: vol, sp: sp, flat: [], n: 0, L: null, T: null, chave: '', gravada: gravada, arrasta: false, fsFallback: false,
       repouso: function () {
         cap.className = 'pdcap fx'; cap.textContent = e.texto; lab.textContent = 'Palavra do Dia'; ui.chave = ''; ui.L = null;
-        sp.forEach(function (s) { s.className = ''; }); ui.n = 0; seek.value = 0; tempo.textContent = '0:00'; marcar(false);
+        sp.forEach(function (s) { s.className = ''; }); ui.n = 0; seek.value = 0; tempo.textContent = ui.total ? '0:00 / ' + fmt(ui.total) : '0:00'; marcar(false);
       } };
+    /* duração total já antes de tocar: lê só os metadados do áudio */
+    if (gravada) {
+      try {
+        var mt = new Audio(); mt.preload = 'metadata';
+        mt.onloadedmetadata = function () { if (ui && ui.e === e && isFinite(mt.duration)) { ui.total = mt.duration; if (!audioEl) tempo.textContent = '0:00 / ' + fmt(mt.duration); } };
+        mt.src = arquivoVoz(e);
+      } catch (x) { /* sem áudio gravado */ }
+    }
     seek.addEventListener('input', function () { ui.arrasta = true; if (audioEl && audioEl.duration) { audioEl.currentTime = seek.value / 1000 * audioEl.duration; if (!rafId) ciclo(); } });
     seek.addEventListener('change', function () { ui.arrasta = false; });
     vol.oninput = function () { if (audioEl) audioEl.volume = vol.value / 100; vb.textContent = +vol.value ? '🔊' : '🔇'; };

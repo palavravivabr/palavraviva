@@ -279,12 +279,16 @@
 
   /* ---------- início ---------- */
   var testament = 'at';
+  /* grupos dos livros (por número do livro): títulos pequenos separam a grade longa */
+  var GRUPOS = [[1, 'Lei'], [6, 'Históricos'], [18, 'Poéticos'], [23, 'Profetas'], [40, 'Evangelhos e Atos'], [45, 'Cartas'], [66, 'Apocalipse']];
+  function grupoDe(id) { var n = parseInt(id, 10), r = ''; GRUPOS.forEach(function (x) { if (n >= x[0]) r = x[1]; }); return r; }
   function drawBooks() {
-    var g = clear($('#bgrid')), av = activeVersion(), note = $('#bkNote');
+    var g = clear($('#bgrid')), av = activeVersion(), note = $('#bkNote'), ult = '';
     var bv = $('#bkVer'); if (bv) bv.textContent = 'Texto bíblico: ' + av.nome + ' (' + av.sigla + ')';
     if (note) { note.hidden = av.cobertura !== 'nt'; note.textContent = av.cobertura === 'nt' ? av.sigla + ' contém apenas o Novo Testamento. Para ler o Antigo Testamento, troque a tradução.' : ''; }
     catalog().filter(function (b) { return b.testament === testament; }).forEach(function (b) {
-      var have = b.chapters.length > 0;
+      var have = b.chapters.length > 0, gp = grupoDe(b.id);
+      if (gp && gp !== ult) { ult = gp; g.appendChild(h('p', { class: 'bkgrp', text: gp })); }
       g.appendChild(h('button', { class: 'bk', type: 'button', 'aria-disabled': have ? 'false' : 'true', 'aria-label': b.name + (have ? '' : ', sem conteúdo neste aparelho'),
         onclick: function () { if (have) go({ v: 'chap', b: b.id }); else toast(av.cobertura === 'nt' ? av.sigla + ' contém apenas o Novo Testamento. Troque a tradução para ler ' + b.name + '.' : 'O texto de ' + b.name + ' ainda não foi incluído no app.'); } },
         [h('b', { text: b.abbr }), h('span', { text: b.name })]));
@@ -725,7 +729,7 @@
       var c = await caches.open(CONTENT), have = (await c.keys()).map(function (r) { return relPath(r.url); });
       var base = { packages: manifest.packages.filter(function (p) { return !p.version; }) };
       var need = core.missingPackages(base, have).length, total = base.packages.length;
-      dlState = need === 0 ? 'Tudo baixado' : (total - need) + ' de ' + total;
+      dlState = need === 0 ? 'Tudo baixado' : Math.floor((total - need) / total * 100) + '% baixado';
       $('#dlSmall').textContent = dlState;
     } catch (e) { $('#dlSmall').textContent = ''; }
     var est = '';
@@ -942,10 +946,13 @@
       row('Versão', 'App ' + APP_VERSION + ' · conteúdo ' + manifest.contentVersion + ' (geração ' + manifest.generation + ')')
     ]);
     var nodes = [mtag(APP_NAME, true), h('h2', { text: 'Sobre' }), dl];
+    /* créditos e licenças das traduções ficam dentro de um bloco que abre ao toque (o texto completo continua aqui e na tela de Créditos) */
+    var det = h('details', { style: 'margin:12px 0 0;padding:0 12px;border-radius:14px;background:var(--paper)' }, [h('summary', { style: 'min-height:44px;display:flex;align-items:center;font-weight:700;font-size:14px;cursor:pointer', text: 'Traduções e licenças' })]);
     versionsList().forEach(function (v) {
-      nodes.push(h('p', { style: 'font-size:13px;line-height:1.5;margin:10px 0 4px' }, [h('b', { text: v.sigla + ' · ' + covLabel(v) }), h('br'), v.credito || '']));
-      if (v.licencaUrl) nodes.push(h('p', { style: 'margin:0' }, [h('a', { href: v.licencaUrl, rel: 'noopener', target: '_blank', text: 'Licença de ' + v.sigla + ' (' + (v.licenca || '') + ')' })]));
+      det.appendChild(h('p', { style: 'font-size:13px;line-height:1.5;margin:10px 0 4px' }, [h('b', { text: v.sigla + ' · ' + covLabel(v) }), h('br'), v.credito || '']));
+      if (v.licencaUrl) det.appendChild(h('p', { style: 'margin:0 0 10px' }, [h('a', { href: v.licencaUrl, rel: 'noopener', target: '_blank', text: 'Licença de ' + v.sigla + ' (' + (v.licenca || '') + ')' })]));
     });
+    nodes.push(det);
     var USERS = '<svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>';
     var ic = h('span', { 'aria-hidden': 'true', style: 'flex:none;display:flex;align-items:center;justify-content:center;width:34px;height:34px;border-radius:50%;overflow:hidden;color:var(--accent);background:var(--gold-soft)' }); ic.innerHTML = USERS; /* SVG fixo do próprio app */
     var fo = new Image(); fo.alt = ''; fo.style.cssText = 'width:100%;height:100%;object-fit:cover;display:none'; /* miniatura do responsável, se a foto existir */
