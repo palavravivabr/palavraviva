@@ -1,0 +1,14 @@
+diff --git a/app.js b/app.js
+index 6faa379..8d23161 100644
+--- a/app.js
++++ b/app.js
+@@ -2,3 +2,3 @@
+     var bar = clear($('#verBar')), cred = clear($('#verCred'));
+-    var name = h('span', { class: 'vname' }, [h('b', { text: v.sigla }), ' · ' + v.nome + ' · ' + (v.cobertura === 'nt' ? 'só Novo Testamento' : 'Bíblia completa')]);
++    var name = h('span', { class: 'vname' }, [h('b', { text: v.sigla }), ' · ' + v.nome + (v.cobertura === 'nt' ? ' · só Novo Testamento' : '')]);
+     bar.appendChild(name);
+@@ -6,3 +6,3 @@
+       .sort(function (a, b) { return (order[a.b] - order[b.b]) || (a.c - b.c) || (a.v - b.v); });
+-    body.appendChild(h('p', { class: 'count', text: items.length + ' versículo(s) destacado(s)' }));
++    body.appendChild(h('p', { class: 'count', text: items.length + (items.length === 1 ? ' versículo destacado' : ' versículos destacados') }));
+     var list = h('div', { class: 'list' }); body.appendChild(list);
