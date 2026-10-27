@@ -1,0 +1,146 @@
+{
+ "id": "40-14-25-36",
+ "ref": "Mateus 14:25-36",
+ "book": "40",
+ "chapter": 14,
+ "verses": [
+  {
+   "n": 25,
+   "t": "Mas à quarta vigília da noite Jesus foi até eles, andando sobre o mar."
+  },
+  {
+   "n": 26,
+   "t": "Quando os discípulos o viram andar sobre o mar, apavoraram-se, dizendo: É um fantasma! E gritaram de medo."
+  },
+  {
+   "n": 27,
+   "t": "Mas Jesus logo lhes falou, dizendo: Tende coragem! Sou eu, não tenhais medo."
+  },
+  {
+   "n": 28,
+   "t": "E Pedro lhe respondeu, dizendo: Senhor, se és tu, manda-me vir a ti sobre as águas."
+  },
+  {
+   "n": 29,
+   "t": "E ele disse: Vem. Então Pedro desceu do barco e andou sobre as águas, para vir em direção a Jesus."
+  },
+  {
+   "n": 30,
+   "t": "Mas quando viu o vento forte, teve medo; e começando a afundar, gritou: Senhor, salva-me!"
+  },
+  {
+   "n": 31,
+   "t": "Imediatamente Jesus estendeu a mão, segurou-o, e disse-lhe: Homem de pouca fé, por que duvidaste?"
+  },
+  {
+   "n": 32,
+   "t": "E quando subiram no barco, o vento se aquietou."
+  },
+  {
+   "n": 33,
+   "t": "Então os que estavam no barco vieram e o adoraram, dizendo: Verdadeiramente tu és o Filho de Deus."
+  },
+  {
+   "n": 34,
+   "t": "E havendo passado para a outra margem, chegaram à terra de Genesaré."
+  },
+  {
+   "n": 35,
+   "t": "E quando os homens daquele lugar o reconheceram, deram aviso por toda aquela região em redor, e lhe trouxeram todos os que estavam enfermos."
+  },
+  {
+   "n": 36,
+   "t": "E rogavam-lhe que tão somente tocassem a borda de sua roupa; e todos os que tocavam ficaram curados."
+  }
+ ],
+ "titulo": "Pedro afunda, mas Jesus não solta a mão",
+ "temas": [
+  "fé",
+  "medo",
+  "socorro",
+  "identidade de cristo"
+ ],
+ "pergunta": "O que você faria se visse Jesus caminhar sobre as águas durante uma tempestade?",
+ "entender": "É a quarta vigília da noite, o momento mais escuro e frio antes do amanhecer. Os discípulos estão no barco, exaustos e lutando contra o vento contrário. De repente, veem Jesus caminhando sobre o mar. O medo toma conta deles; acham que é um fantasma. Mas Jesus fala logo: \"Tende coragem! Sou eu, não tenhais medo.\" \n\nPedro, movido por uma fé ousada, pede para ir até Jesus sobre as águas. Ele desce do barco e anda, mas ao focar no vento forte, tem medo e começa a afundar. Grita: \"Senhor, salva-me!\" Jesus estende a mão imediatamente, segura-o e chama-o de \"homem de pouca fé\". Quando entram no barco, o vento para. Os discípulos adoram Jesus, reconhecendo-o como o Filho de Deus. Ao chegarem em Genesaré, a fama da cura se espalha e multidões de enfermos procuram tocar a roupa de Jesus para serem curados.",
+ "ligar": {
+  "texto": "Este texto revela a soberania de Jesus sobre a natureza e sua presença constante na tempestade. A adoração dos discípulos confessa que Ele é o Filho de Deus, o Criador que não teme as águas. O evangelho está aqui: Jesus não apenas acalma a tempestade externa, mas estende a mão para quem está afundando no medo. A cura em Genesaré mostra que o mesmo Jesus que domina o mar oferece vida e restauração a todos que vêm a Ele pela fé, tocando a borda da sua graça.",
+  "selo": true
+ },
+ "viver": "Talvez você esteja olhando para o \"vento forte\" da sua vida e sentindo-se afundar, esquecendo-se de quem está ao seu lado. Pedro conseguiu andar sobre as águas enquanto seus olhos estavam em Jesus, mas falhou quando olhou para a tempestade. A aplicação concreta é simples: quando o medo bater, não tente resolver a onda sozinho. Grite \"Senhor, salva-me!\" como Pedro fez. Jesus não repreende a sua fraqueza com raiva, mas com um toque que segura você. Confie na direção Dele, não na força da sua própria fé, e permita-se ser sustentado.",
+ "guarde": "Quando o medo te faz afundar, a mão de Jesus é mais rápida que a água.",
+ "ore": "Jesus, Tu que andaste sobre o mar em Genesaré, ensina-me a fixar os olhos em Ti e não no vento. Quando eu começar a afundar no medo, lembra-me de que Tu estendes a mão para me segurar. Ajuda-me a adorar a Tuas obras e a confiar no Teu poder de cura no meu dia a dia.",
+ "quiz": {
+  "pergunta": "O que Pedro fez que o levou a começar a afundar?",
+  "opcoes": [
+   "Olhou para o vento forte e teve medo",
+   "Ficou demorando para descer do barco",
+   "Tentou nadar de volta para a margem"
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz que quando Pedro viu o vento forte, teve medo e começou a afundar, mostrando que o foco no problema, e não em Jesus, causou o afundamento."
+ },
+ "refs": [
+  "Marcos 6:45-52",
+  "João 6:16-21",
+  "Mateus 14:22-24",
+  "Lucas 5:1-11"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-27T19:01:57.291Z",
+  "rounds": 1
+ }
+}

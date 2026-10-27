@@ -1,0 +1,138 @@
+{
+ "id": "40-15-30-39",
+ "ref": "Mateus 15:30-39",
+ "book": "40",
+ "chapter": 15,
+ "verses": [
+  {
+   "n": 30,
+   "t": "E vieram a ele muitas multidões, que tinham consigo mancos, cegos, mudos, aleijados, e muitos outros; e os lançaram aos pés de Jesus, e ele os curou."
+  },
+  {
+   "n": 31,
+   "t": "Desta maneira, as multidões se maravilhavam quando viam os mudos falarem, os aleijados ficarem sãos, os mancos andarem, e os cegos verem; então glorificaram ao Deus de Israel."
+  },
+  {
+   "n": 32,
+   "t": "Jesus chamou a si os seus discípulos, e disse: Estou compadecido com a multidão, porque já há três dias que estão comigo, e não têm o que comer. E não quero os deixar ir em jejum, para que não desmaiem no caminho."
+  },
+  {
+   "n": 33,
+   "t": "E os seus discípulos lhe responderam: De onde conseguiremos tantos pães no deserto, para saciar tão grande multidão?"
+  },
+  {
+   "n": 34,
+   "t": "Jesus lhes perguntou: Quantos pães tendes? E eles disseram: Sete; e uns poucos peixinhos."
+  },
+  {
+   "n": 35,
+   "t": "Então mandou as multidões que se sentassem pelo chão."
+  },
+  {
+   "n": 36,
+   "t": "Tomou os sete pães e os peixes, deu graças e os partiu. Em seguida, ele os deu aos seus discípulos, e os discípulos à multidão."
+  },
+  {
+   "n": 37,
+   "t": "E todos comeram e se saciaram; e levantaram dos pedaços que sobraram sete cestos cheios."
+  },
+  {
+   "n": 38,
+   "t": "E foram os que comeram quatro mil homens, sem contar as mulheres e as crianças."
+  },
+  {
+   "n": 39,
+   "t": "Depois de despedir as multidões, Jesus entrou em um barco, e veio à região de Magdala."
+  }
+ ],
+ "titulo": "Fome de três dias e sete pães",
+ "temas": [
+  "compaixão",
+  "milagre",
+  "provisão",
+  "fé"
+ ],
+ "pergunta": "O que acontece quando entregamos a Jesus o pouco que temos, mesmo no deserto?",
+ "entender": "Após curar muitos enfermos, Jesus percebe que a multidão está com fome há três dias. Ele sente compaixão e não quer que desmaiem no caminho. Os discípulos, olhando para o deserto, questionam como saciar tanta gente. Jesus pergunta quantos pães têm, e eles respondem: sete pães e uns poucos peixinhos. Jesus parte o pão, dá graças e distribui através dos discípulos. Todos se saciam e ainda sobram sete cestos cheios. O texto destaca que eram quatro mil homens, sem contar mulheres e crianças, mostrando a escala do cuidado de Jesus.\n\nEste milagre ecoa o primeiro (dos cinco pães), mas aqui há mais pessoas e menos pão por pessoa. A reação da multidão é glorificar ao Deus de Israel, reconhecendo a origem divina do poder que opera em Cristo. Jesus não apenas cura o corpo, mas nutre a alma e o físico, demonstrando que seu cuidado é integral. Ele age não por obrigação, mas por compaixão ativa, transformando a escassez humana em abundância divina através da sua autoridade.",
+ "ligar": {
+  "texto": "Jesus é o Pão da Vida que satisfaz a fome mais profunda. Assim como multiplicou o pão físico, ele oferece o evangelho como alimento espiritual para quem está faminto e sedento de justiça. A multiplicação aponta para a suficiência da graça de Deus: o que parece insuficiente nas mãos humanas se torna abundante quando passa pelas mãos de Cristo. Ele não apenas dá, mas se dá, e seu sacrifício na cruz é o suprimento definitivo para a alma.",
+  "selo": true
+ },
+ "viver": "A multidão tinha três dias de fome, e os discípulos viam apenas o deserto. Jesus, porém, viu a necessidade e agiu com o que estava à mão. Talvez você sinta que suas forças estão acabando, como quem caminha em jejum. Não tente resolver tudo com sua própria lógica. Entregue a Jesus seus 'sete pães', ou seja, suas limitações e recursos escassos. Ele não despreza o pouco; Ele o multiplica. Confie no cuidado dele para o seu sustento diário, físico e espiritual, e veja como a provisão chega no tempo certo.",
+ "guarde": "Quem confia em Jesus, nunca passa fome verdadeira, pois Ele é a provisão eterna.",
+ "ore": "Jesus, que saciou quatro mil homens no deserto, eu te entrego minha fome e minha ansiedade. Hoje meus recursos parecem poucos, como aqueles sete pães. Mas eu confio na tua compaixão. Multiplica a minha fé e provê para as minhas necessidades, não apenas as físicas, mas as espirituais. Ensina-me a depender de ti e a glorificar o Deus de Israel em cada provisão.",
+ "quiz": {
+  "pergunta": "Quantos pães Jesus tinha antes de multiplicá-los neste episódio?",
+  "opcoes": [
+   "Cinco",
+   "Sete",
+   "Doze"
+  ],
+  "certa": 1,
+  "explicacao": "O texto em Mateus 15:34 diz explicitamente que os discípulos disseram: 'Sete; e uns poucos peixinhos'. O milagre dos cinco pães ocorre em outro momento (Mateus 14)."
+ },
+ "refs": [
+  "Mateus 14:13-21",
+  "João 6:35",
+  "Marcos 8:1-9",
+  "Lucas 9:10-17"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-27T19:04:35.664Z",
+  "rounds": 3
+ }
+}

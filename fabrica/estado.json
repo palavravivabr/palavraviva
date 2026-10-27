@@ -1785,7 +1785,9 @@
   },
   "40-14-25-36": {
    "execucoes": 0,
-   "ultimo": "erro: gemini: 503 { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\", \"status\": \"UNAVAILABLE\" } } "
+   "ultimo": "automático: entender:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "Pedro afunda, mas Jesus não solta a mão"
   },
   "40-15-1-10": {
    "execucoes": 1,
@@ -1807,7 +1809,9 @@
   },
   "40-15-30-39": {
    "execucoes": 0,
-   "ultimo": "erro: gemini: 503 { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\", \"status\": \"UNAVAILABLE\" } } "
+   "ultimo": "automático: abertura_repetida:guarde:41-6-23-34",
+   "estado": "pronto",
+   "titulo": "Fome de três dias e sete pães"
   },
   "40-16-1-9": {
    "execucoes": 0,
@@ -1823,7 +1827,9 @@
   },
   "40-16-20-28": {
    "execucoes": 1,
-   "ultimo": "automático: abertura_repetida:entender:42-9-23-31"
+   "ultimo": "automático: titulo_repetido:40-8-12-23, abertura_repetida:viver:41-9-41-50",
+   "estado": "pronto",
+   "titulo": "Por que Pedro foi chamado de Satanás?"
   },
   "40-17-1-9": {
    "execucoes": 0,
@@ -1896,24 +1902,24 @@
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 621,
-   "entrada": 1581188,
-   "saida": 551831
+   "chamadas": 628,
+   "entrada": 1600402,
+   "saida": 557856
   },
   "groq-qwen": {
-   "chamadas": 617,
-   "entrada": 1504334,
-   "saida": 500753
+   "chamadas": 624,
+   "entrada": 1524094,
+   "saida": 506690
   },
   "gemini": {
-   "chamadas": 514,
-   "entrada": 1666383,
-   "saida": 673882
+   "chamadas": 517,
+   "entrada": 1676065,
+   "saida": 675189
   },
   "cloudflare": {
-   "chamadas": 315,
-   "entrada": 1097257,
-   "saida": 116865
+   "chamadas": 318,
+   "entrada": 1107702,
+   "saida": 117978
   },
   "mistral": {
    "chamadas": 0,
