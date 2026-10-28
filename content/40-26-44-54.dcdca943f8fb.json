@@ -1,0 +1,141 @@
+{
+ "id": "40-26-44-54",
+ "ref": "Mateus 26:44-54",
+ "book": "40",
+ "chapter": 26,
+ "verses": [
+  {
+   "n": 44,
+   "t": "Então os deixou, e foi orar pela terceira vez, dizendo as mesmas palavras."
+  },
+  {
+   "n": 45,
+   "t": "Depois veio aos seus discípulos, e disse-lhes: Agora dormi e descansai. Eis que chegou a hora em que o Filho do homem é entregue em mãos de pecadores."
+  },
+  {
+   "n": 46,
+   "t": "Levantai-vos, vamos! Eis que chegou o que me trai."
+  },
+  {
+   "n": 47,
+   "t": "Enquanto ele ainda estava falando, eis que veio Judas, um dos doze, e com ele uma grande multidão, com espadas e bastões, da parte dos chefes dos sacerdotes e dos anciãos do povo."
+  },
+  {
+   "n": 48,
+   "t": "O seu traidor havia lhes dado sinal, dizendo: Aquele a quem eu beijar, é esse. Prendei-o."
+  },
+  {
+   "n": 49,
+   "t": "Logo ele se aproximou de Jesus, e disse: Felicitações, Rabi! e o beijou."
+  },
+  {
+   "n": 50,
+   "t": "Jesus, porém, lhe perguntou: Amigo, para que vieste? Então chegaram, agarraram Jesus, e o prenderam."
+  },
+  {
+   "n": 51,
+   "t": "E eis que um dos que estavam com Jesus estendeu a mão, puxou de sua espada, e feriu o servo do sumo sacerdote, cortando-lhe uma orelha."
+  },
+  {
+   "n": 52,
+   "t": "Jesus, então, lhe disse: Põe de volta tua espada ao seu lugar, pois todos os que pegarem espada, pela espada perecerão."
+  },
+  {
+   "n": 53,
+   "t": "Ou, por acaso, pensas tu que eu não posso agora orar ao meu Pai, e ele me daria mais de doze legiões de anjos?"
+  },
+  {
+   "n": 54,
+   "t": "Como, pois, se cumpririam as Escrituras que dizem que assim tem que ser feito?"
+  }
+ ],
+ "titulo": "O beijo que selou a traição",
+ "temas": [
+  "traição",
+  "soberania",
+  "entrega",
+  "calma"
+ ],
+ "pergunta": "Por que Jesus aceitou ser preso por quem mais amava?",
+ "entender": "Em Getsemani, Jesus ora pela terceira vez e volta aos discípulos, que dormem. Ele avisa que chegou a hora em que o Filho do homem é entregue em mãos de pecadores. A cena é tensa: uma multidão com espadas e bastões, liderada pelos chefes dos sacerdotes, chega para prendê-lo.\n\nJudas, um dos doze, usa um beijo como sinal para identificá-lo. Ao aproximar-se, chama Jesus de Rabi e o beija. Jesus responde com uma pergunta suave: Amigo, para que vieste?. A reação imediata dos soldados é agarrá-lo. Um dos discípulos reage com violência, cortando a orelha de um servo do sumo sacerdote.\n\nJesus ordena que a espada seja guardada, lembrando que quem vive da espada pela espada perecerá. Ele afirma ter autoridade sobre anjos, mas escolhe não resistir. Tudo acontece para que as Escrituras se cumpram, mostrando que Jesus está no controle, mesmo sendo o prisioneiro.",
+ "ligar": {
+  "texto": "Este trecho mostra Jesus não como vítima passiva, mas como o Cordeiro que se entrega voluntariamente. Ele poderia ter chamado doze legiões de anjos, mas escolheu a cruz para cumprir a Profecia e pagar o preço do pecado. A calma de Jesus diante da traição revela que Sua morte não foi um acidente, mas o plano de Deus para nos salvar. O beijo de Judas, símbolo de amizade, torna-se o instrumento da condenação que Jesus aceita por amor a nós.",
+  "selo": true
+ },
+ "viver": "A traição de Judas nos lembra que a dor e a rejeição fazem parte da jornada de fé. Jesus não fugiu da dor, mas a abraçou por amor. Em momentos de crise, quando sentimos que somos traídos ou que as forças nos abandonam, podemos confiar que Deus está no controle. Assim como Jesus disse aos discípulos para se levantarem, somos chamados a permanecer firmes na oração e na confiança, sabendo que a vitória final é d'Ele, mesmo quando as circunstâncias parecem caóticas.",
+ "guarde": "Jesus escolheu a cruz não por fraqueza, mas para que o amor de Deus fosse maior que a nossa traição.",
+ "ore": "Jesus, em Getsemani, Tu oraste quando eu muitas vezes desisto. Ensina-me a confiar no Teu plano quando a dor parece injusta. Dá-me a mesma paz que Tinhas ao aceitar o cálice, sabendo que Tua vontade é boa e perfeita, mesmo no sofrimento.",
+ "quiz": {
+  "pergunta": "O que Jesus disse ao discípulo que feriu o servo do sumo sacerdote?",
+  "opcoes": [
+   "Põe de volta tua espada ao seu lugar.",
+   "Foge agora com os outros discípulos.",
+   "Perdoa o servo do sumo sacerdote."
+  ],
+  "certa": 0,
+  "explicacao": "O texto em Mateus 26:52 registra explicitamente a ordem de Jesus para que a espada fosse guardada, estabelecendo o princípio de que a vingança e a resistência violenta não são o caminho do Reino."
+ },
+ "refs": [
+  "Lucas 22:42-46",
+  "João 18:3-12",
+  "Isaías 53:7"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-28T21:50:14.028Z",
+  "rounds": 1
+ }
+}

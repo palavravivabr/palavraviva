@@ -1,0 +1,142 @@
+{
+ "id": "40-26-22-32",
+ "ref": "Mateus 26:22-32",
+ "book": "40",
+ "chapter": 26,
+ "verses": [
+  {
+   "n": 22,
+   "t": "Eles ficaram muito tristes, e cada um deles começou a lhe perguntar: Por acaso sou eu, Senhor?"
+  },
+  {
+   "n": 23,
+   "t": "E ele respondeu: O que mete comigo a mão no prato, esse me trairá."
+  },
+  {
+   "n": 24,
+   "t": "De fato, o Filho do homem vai assim como dele está escrito; mas ai daquele homem por quem o Filho do homem é traído! Bom seria a tal homem se não houvesse nascido."
+  },
+  {
+   "n": 25,
+   "t": "E Judas, o que o traía, perguntou: Por acaso sou eu, Rabi? Jesus lhe disse: Tu o disseste."
+  },
+  {
+   "n": 26,
+   "t": "E enquanto comiam, Jesus tomou o pão, abençoou-o, e o partiu. Então o deu aos discípulos, e disse: Tomai, comei; isto é o meu corpo."
+  },
+  {
+   "n": 27,
+   "t": "Em seguida tomou o cálice, deu graças, e o deu a eles, dizendo: Bebei dele todos,"
+  },
+  {
+   "n": 28,
+   "t": "porque este é o meu sangue, o sangue do novo testamento, o qual é derramado por muitos, para o perdão de pecados."
+  },
+  {
+   "n": 29,
+   "t": "E eu vos digo que desde agora não beberei deste fruto da vide, até aquele dia, quando convosco o beber, novo, no reino do meu Pai."
+  },
+  {
+   "n": 30,
+   "t": "E depois de cantarem um hino, saíram para o monte das Oliveiras."
+  },
+  {
+   "n": 31,
+   "t": "Então Jesus lhes disse: Todos vós falhareis comigo esta noite; porque está escrito: “Ferirei o pastor, e as ovelhas do rebanho serão dispersas”."
+  },
+  {
+   "n": 32,
+   "t": "Mas, depois que eu for ressuscitado, irei adiante de vós para a Galileia."
+  }
+ ],
+ "titulo": "A última ceia antes da cruz",
+ "temas": [
+  "traição",
+  "nova aliança",
+  "esperança",
+  "corpo de cristo"
+ ],
+ "pergunta": "O que Jesus fez no momento em que soube que seria traído?",
+ "entender": "Após revelar que um dos doze o traía, Jesus não fugiu nem se escondeu. Ele continuou a refeição, transformando aquele momento de dor em um ato de amor. Ao partir o pão e tomar o cálice, ele instituiu o que conhecemos como a Ceia do Senhor. Ele disse: \"isto é o meu corpo\" e \"este é o meu sangue, o sangue do novo testamento\". Isso significa que sua morte seria o meio para perdoar os pecados de muitos, criando uma nova relação entre Deus e a humanidade.\n\nAntes de saírem para o monte das Oliveiras, Jesus previu que seus seguidores o abandonariam. Citando a Escritura, ele disse que as ovelhas seriam dispersas. Mas ele encerrou a noite com uma promessa firme: \"depois que eu for ressuscitado, irei adiante de vós para a Galileia\". Mesmo na hora da maior traição, Jesus manteve o foco na ressurreição e no encontro futuro com seus discípulos.",
+ "ligar": {
+  "texto": "Este trecho é o coração do evangelho. Jesus aponta diretamente para si mesmo ao dizer que seu sangue é derramado \"para o perdão de pecados\". Ele não apenas previu sua morte, mas deu-lhe sentido: é o pagamento pela nossa culpa. A menção ao \"novo testamento\" mostra que Jesus cumpriu a antiga promessa de Deus de um dia em que o perdão seria completo. A promessa de ir adiante para a Galileia confirma que a história não termina na cruz, mas na vitória da ressurreição.",
+  "selo": true
+ },
+ "viver": "Ao receber o pão e o cálice, ou ao refletir sobre esta cena, lembre-se de que você não está sozinho na fraqueza. Jesus sabia que você falharia, mas mesmo assim preparou o caminho para o seu perdão. Em vez de se paralisar pelo medo de falhar novamente, confie na promessa de que, após a ressurreição, ele está adiante de você. Use a Ceia como um lembrete semanal de que sua identidade não é definida pela sua queda, mas pela graça que o sangue de Jesus oferece.",
+ "guarde": "Mesmo quando somos traídos ou falhamos, a promessa da ressurreição nos leva adiante.",
+ "ore": "Jesus, na última ceia, tu transformaste a traição em aliança. Perdoa os meus fracassos e fortalece a minha esperança na tua ressurreição. Ensina-me a confiar no teu amor, que é maior que a minha infidelidade, e a olhar para a Galileia, onde tu me esperas.",
+ "quiz": {
+  "pergunta": "O que Jesus disse que o seu sangue representaria?",
+  "opcoes": [
+   "O sangue do novo testamento, para o perdão de pecados.",
+   "Uma promessa de riqueza para os discípulos.",
+   "Um sinal de que ele estava com fome."
+  ],
+  "certa": 0,
+  "explicacao": "No versículo 28, Jesus declara explicitamente que o cálice é o sangue do novo testamento, derramado para o perdão de pecados."
+ },
+ "refs": [
+  "Lucas 22:19-20",
+  "1 Coríntios 11:23-26",
+  "João 13:21-30",
+  "Isaías 53:5"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-28T21:51:08.306Z",
+  "rounds": 1
+ }
+}

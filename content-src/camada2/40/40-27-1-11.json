@@ -1,0 +1,141 @@
+{
+ "id": "40-27-1-11",
+ "ref": "Mateus 27:1-11",
+ "book": "40",
+ "chapter": 27,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Vinda a manhã, todos os chefes dos sacerdotes e anciãos do povo juntamente se aconselharam contra Jesus, para o matarem."
+  },
+  {
+   "n": 2,
+   "t": "E o levaram amarrado, e o entregaram a Pôncio Pilatos, o governador."
+  },
+  {
+   "n": 3,
+   "t": "Então Judas, o que o havia traído, ao ver que Jesus já estava condenado, devolveu, sentindo remorso, as trinta moedas de prata aos chefes dos sacerdotes e aos anciãos;"
+  },
+  {
+   "n": 4,
+   "t": "e disse: Pequei, traindo sangue inocente. Porém eles disseram: Que nos interessa? Isso é problema teu!"
+  },
+  {
+   "n": 5,
+   "t": "Então ele lançou as moedas de prata no templo, saiu, e foi enforcar-se."
+  },
+  {
+   "n": 6,
+   "t": "Os chefes dos sacerdotes tomaram as moedas de prata, e disseram: Não é lícito pô-las no tesouro das ofertas, pois isto é preço de sangue."
+  },
+  {
+   "n": 7,
+   "t": "Então juntamente se aconselharam, e compraram com elas o campo do oleiro, para ser cemitério dos estrangeiros."
+  },
+  {
+   "n": 8,
+   "t": "Por isso aquele campo tem sido chamado campo de sangue até hoje."
+  },
+  {
+   "n": 9,
+   "t": "Assim se cumpriu o que foi dito pelo profeta Jeremias, que disse: Tomaram as trinta moedas de prata, preço avaliado pelos filhos de Israel, o qual eles avaliaram;"
+  },
+  {
+   "n": 10,
+   "t": "e as deram pelo campo do oleiro, conforme o que o Senhor me mandou. Zacarias 11:12-13; Jeremias 19:1-13; 32:6-9"
+  },
+  {
+   "n": 11,
+   "t": "Jesus esteve diante do governador, e o governador lhe perguntou: És tu o Rei dos Judeus? E Jesus lhe respondeu: Tu o dizes."
+  }
+ ],
+ "titulo": "O silêncio de Jesus diante do poder",
+ "temas": [
+  "justiça",
+  "silêncio",
+  "sofrimento",
+  "propósito"
+ ],
+ "pergunta": "Por que Jesus não se defendeu quando foi levado diante de Pilatos?",
+ "entender": "A cena é pesada. De manhã cedo, os líderes religiosos se reúnem para matar Jesus. Eles o levam amarrado e o entregam a Pôncio Pilatos, o representante do império romano. Enquanto isso, Judas, movido por remorso, devolve as trinta moedas de prata aos sacerdotes, admitindo que pecou ao trair sangue inocente. Mas eles não se importam, dizendo que o problema é dele. Judas, desesperado, morre.\n\nNa presença de Pilatos, a pergunta é direta: \"És tu o Rei dos Judeus?\". Em vez de dar uma explicação longa ou tentar provar sua inocência com argumentos políticos, Jesus responde apenas: \"Tu o dizes\". Ele permanece em silêncio diante das acusações dos sacerdotes. Essa postura não é de fraqueza, mas de uma decisão consciente de aceitar o caminho da cruz, cumprindo o que Deus planejou.",
+ "ligar": {
+  "texto": "Este trecho mostra Jesus assumindo o papel de servo sofredor. Ele não busca escapar por meios humanos, mas se entrega voluntariamente para levar o peso do pecado de muitos. O silêncio de Jesus diante da injustiça aponta para a cruz, onde o justo morreu pelos injustos. Isso nos lembra que a salvação não veio por uma revolta humana, mas pela obediência total de Cristo à vontade do Pai, mesmo diante da morte.",
+  "selo": true
+ },
+ "viver": "Às vezes, nos sentimos pressionados a reagir imediatamente a injustiças ou críticas, usando nossas palavras para nos defender. O silêncio de Jesus nos ensina que, em momentos de crise, a resposta mais poderosa pode ser a confiança em Deus, não a necessidade de provar que estamos certos. Aprender a pausar e confiar no propósito de Deus, mesmo quando a situação parece perdida, é um exercício de fé profunda que nos liberta da ansiedade de controlar tudo.",
+ "guarde": "O silêncio de Jesus diante da injustiça revela a profundidade do seu amor e obediência ao Pai.",
+ "ore": "Jesus, que permaneceu em silêncio diante de Pilatos, ensina-me a confiar no Teu tempo e na Tua justiça, mesmo quando o mundo me acusa ou me oprime. Ajuda-me a não me defender com raiva, mas a descansar na Tua soberania.",
+ "quiz": {
+  "pergunta": "O que Pilatos perguntou a Jesus quando Ele estava diante do governador?",
+  "opcoes": [
+   "És tu o Rei dos Judeus?",
+   "Por que os sacerdotes te entregaram?",
+   "Quem te ensinou a fazer milagres?"
+  ],
+  "certa": 0,
+  "explicacao": "O texto em Mateus 27:11 registra explicitamente que Pilatos perguntou: \"És tu o Rei dos Judeus?\". As outras opções não são encontradas neste diálogo específico."
+ },
+ "refs": [
+  "Isaías 53:7",
+  "Atos 8:32",
+  "Miqueias 5:2"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-28T21:55:08.190Z",
+  "rounds": 1
+ }
+}

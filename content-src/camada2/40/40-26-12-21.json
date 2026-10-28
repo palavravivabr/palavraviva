@@ -1,0 +1,137 @@
+{
+ "id": "40-26-12-21",
+ "ref": "Mateus 26:12-21",
+ "book": "40",
+ "chapter": 26,
+ "verses": [
+  {
+   "n": 12,
+   "t": "Pois ela, ao derramar este óleo perfumado sobre o meu corpo, ela o fez para preparar o meu sepultamento."
+  },
+  {
+   "n": 13,
+   "t": "Em verdade vos digo que, onde quer que este Evangelho em todo o mundo for pregado, também se dirá o que ela fez, para que seja lembrada."
+  },
+  {
+   "n": 14,
+   "t": "Então um dos doze, chamado Judas Iscariotes, foi aos chefes dos sacerdotes,"
+  },
+  {
+   "n": 15,
+   "t": "e disse: O que quereis me dar, para que eu o entregue a vós? E eles lhe determinaram trinta moedas de prata."
+  },
+  {
+   "n": 16,
+   "t": "E desde então ele buscava oportunidade para o entregar."
+  },
+  {
+   "n": 17,
+   "t": "E no primeiro dia da festa dos pães sem fermento, os discípulos vieram a Jesus lhe perguntar: Onde queres que te preparemos para comer a Páscoa?"
+  },
+  {
+   "n": 18,
+   "t": "E ele respondeu: Ide à cidade a um tal, e dizei-lhe: “O Mestre diz: ‘Meu tempo está perto. Contigo celebrarei a Páscoa com os meus discípulos’”."
+  },
+  {
+   "n": 19,
+   "t": "Os discípulos fizeram como Jesus havia lhes mandado, e prepararam a Páscoa."
+  },
+  {
+   "n": 20,
+   "t": "E vindo o anoitecer, ele se assentou à mesa com os doze."
+  },
+  {
+   "n": 21,
+   "t": "E enquanto comiam, disse: Em verdade vos digo que um de vós me trairá."
+  }
+ ],
+ "titulo": "A mulher que honrou a esperança",
+ "temas": [
+  "generosidade",
+  "traição",
+  "fé"
+ ],
+ "pergunta": "Você já pensou que um gesto simples pode mudar a história da salvação?",
+ "entender": "Jesus agradece à mulher que derramou o óleo perfumado sobre o seu corpo, dizendo que ela o fez \"para preparar o meu sepultamento\" (Mateus 26.12). Ele explica que, onde o Evangelho for pregado, esse ato será lembrado. Em seguida, o texto relata a conspiração de Judas Iscariotes, que vai aos chefes dos sacerdotes e aceita trinta moedas de prata para entregar Jesus. No mesmo dia, os discípulos perguntam a Jesus onde preparar a Páscoa; Ele indica que a celebração será na cidade, anunciando que \"Meu tempo está perto\" (v.18). Ao cair da noite, Jesus se senta à mesa e anuncia que um dos presentes o trairá (v.21). O trecho mostra duas realidades paralelas: a devoção da mulher e a traição de Judas, ambas ocorrendo na mesma noite, preparando o cenário da paixão.\n\nO contexto anterior (v.9‑11) revela que alguns criticavam o uso do óleo caro, mas Jesus defende a ação da mulher como boa obra. Depois, os discípulos ficam angustiados, perguntando quem será o traidor (v.22‑24). Assim, o texto destaca a importância de reconhecer atos de amor mesmo quando o mundo os julga, enquanto alerta para o perigo da ambição que leva à traição.",
+ "ligar": {
+  "texto": "O gesto da mulher aponta para o sacrifício que Jesus está prestes a oferecer: ao preparar o seu corpo para o sepultamento, ela, sem saber, antecipa a morte redentora de Cristo. A traição de Judas, motivada por dinheiro, revela a necessidade de um Salvador que perdoa até o traidor (cf. Lucas 23.34). Ambos os eventos conduzem ao Evangelho: a morte de Jesus por nossos pecados e a promessa de vida nova para quem crê. Assim, o texto nos mostra que, enquanto alguns buscam honrar a Cristo com generosidade, outros ainda escolhem o caminho da traição, mas a graça de Deus alcança ambos.",
+  "selo": true
+ },
+ "viver": "A mulher nos ensina que atos de amor a Jesus são valiosos mesmo que pareçam pequenos ou despercebidos pelos outros. Podemos demonstrar nossa fé oferecendo o que temos de melhor, seja tempo, recursos ou atenção, sem buscar aprovação humana. Ao mesmo tempo, a atitude de Judas nos alerta a examinar nossos corações: o que nos leva a colocar o dinheiro acima da lealdade a Cristo? Escolher a generosidade impede que a ambição nos conduza ao caminho da traição.\n\nHoje, ao servir na igreja ou ajudar alguém, faça-o como se fosse um ato que prepara o coração de Jesus, lembrando que Ele valoriza cada gesto que demonstra devoção sincera.",
+ "guarde": "Um pequeno gesto de amor pode ecoar na história da salvação.",
+ "ore": "Maria, ao derramar o óleo, eu agradeço por me ensinar a valorizar o que Deus ama, e peço que eu possa oferecer o melhor de mim a Cristo, sem temer o que os outros dizem.",
+ "quiz": {
+  "pergunta": "Qual foi a razão que Jesus deu para agradecer à mulher que derramou o óleo?",
+  "opcoes": [
+   "Para curar os enfermos",
+   "Para vender o óleo aos pobres",
+   "Para preparar o seu sepultamento"
+  ],
+  "certa": 2,
+  "explicacao": "Jesus disse que a mulher derramou o óleo \"para preparar o meu sepultamento\" (Mateus 26.12), mostrando que o gesto antecipava sua morte."
+ },
+ "refs": [
+  "João 12:3-5",
+  "Marcos 14:3-9",
+  "Lucas 22:47-48",
+  "Hebreus 9:12"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-28T21:47:19.261Z",
+  "rounds": 1
+ }
+}

@@ -1,0 +1,141 @@
+{
+ "id": "40-26-1-11",
+ "ref": "Mateus 26:1-11",
+ "book": "40",
+ "chapter": 26,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E aconteceu que, quando Jesus terminou todas estas palavras, disse aos seus discípulos:"
+  },
+  {
+   "n": 2,
+   "t": "Vós bem sabeis que daqui a dois dias é a Páscoa, e o Filho do homem será entregue para ser crucificado."
+  },
+  {
+   "n": 3,
+   "t": "Então os chefes dos sacerdotes, os escribas, e os anciãos do povo se reuniram na casa do sumo sacerdote, que se chamava Caifás."
+  },
+  {
+   "n": 4,
+   "t": "E conversaram a fim de, usando mentira, prenderem Jesus, e o matarem."
+  },
+  {
+   "n": 5,
+   "t": "Porém diziam: Não na festa, para que não haja tumulto entre o povo."
+  },
+  {
+   "n": 6,
+   "t": "Enquanto Jesus estava em Betânia, na casa de Simão o leproso,"
+  },
+  {
+   "n": 7,
+   "t": "veio a ele uma mulher com um vaso de alabastro, de óleo perfumado de grande valor, e derramou sobre a cabeça dele, enquanto estava sentado à mesa."
+  },
+  {
+   "n": 8,
+   "t": "E quando os seus discípulos viram, ficaram indignados, dizendo: Para que este desperdício?"
+  },
+  {
+   "n": 9,
+   "t": "Pois esse óleo perfumado podia ter sido vendido por muito, e o dinheiro dado aos pobres."
+  },
+  {
+   "n": 10,
+   "t": "Porém Jesus, sabendo disso ,disse-lhes: Por que perturbais a esta mulher? Ora, ela me fez uma boa obra!"
+  },
+  {
+   "n": 11,
+   "t": "Pois vós sempre tendes os pobres convosco, porém nem sempre me tereis."
+  }
+ ],
+ "titulo": "O perfume que desafia a crítica dos discípulos",
+ "temas": [
+  "generosidade",
+  "adoração",
+  "prioridades"
+ ],
+ "pergunta": "Por que alguns consideram desperdício o ato de honrar a Jesus?",
+ "entender": "Jesus estava em Betânia quando uma mulher trouxe um vaso de alabastro com óleo perfumado de grande valor e o derramou sobre a sua cabeça enquanto ele estava sentado à mesa. Os discípulos, ao verem, ficaram indignados, dizendo que o perfume poderia ser vendido e o dinheiro dado aos pobres (verso 8‑9). Jesus respondeu: \"Por que perturbais a esta mulher? Ora, ela me fez uma boa obra!\" (verso 10). Ele explicou que, embora os pobres estejam sempre presentes, Ele não estará sempre entre eles (verso 11). O episódio ocorre poucos dias antes da Páscoa, quando os chefes religiosos já tramavam a entrega de Jesus, mostrando que o momento era de grande tensão.\n\nO ato da mulher revela uma atitude de devoção que vai além da utilidade prática. Ela oferece o melhor que tem para honrar Jesus, reconhecendo que seu corpo seria preparado para o sepultamento (como continua no versículo 12). Os discípulos, ainda que bem-intencionados, medem a ação por critérios econômicos, esquecendo que a adoração pode assumir formas que não se encaixam em cálculos humanos.",
+ "ligar": {
+  "texto": "Ao defender a mulher, Jesus mostra que a verdadeira adoração envolve reconhecer seu valor eterno, não apenas atender necessidades imediatas. Ele aponta que a sua morte está próxima, preparando o caminho para o sacrifício que traz salvação. Assim, o perfume simboliza a entrega total a Cristo, antecipando o evangelho que oferece perdão e vida nova a quem entrega tudo a Ele.",
+  "selo": false
+ },
+ "viver": "A história nos convida a examinar nossas próprias prioridades. Quando nos deparamos com oportunidades de honrar a Deus – seja com tempo, recursos ou talento – podemos cair na tentação de medir tudo em termos de utilidade prática. Como a mulher, somos chamados a oferecer o que temos de mais precioso para Deus, sem medo de críticas. Ao mesmo tempo, devemos lembrar que ajudar os pobres continua sendo um mandamento, mas não deve substituir a adoração que reconhece a supremacia de Cristo.\n\nPortanto, procure equilibrar a generosidade prática com atos de devoção que expressem gratidão a Jesus, confiando que Ele cuida de todas as necessidades.",
+ "guarde": "A adoração sincera pode parecer desperdício aos olhos humanos, mas agrada a Deus.",
+ "ore": "Jesus, ao defender a mulher que ungiu teu corpo, ensina-me a valorizar o que ofereço a Ti, mesmo quando o mundo diz que é desperdício.",
+ "quiz": {
+  "pergunta": "O que Jesus disse aos discípulos sobre a mulher que ungiu seu corpo?",
+  "opcoes": [
+   "Ela deveria vender o óleo",
+   "Ela desperdiçou o perfume",
+   "Ela fez uma boa obra"
+  ],
+  "certa": 2,
+  "explicacao": "Jesus respondeu: \"Por que perturbais a esta mulher? Ora, ela me fez uma boa obra!\" (Mateus 26:10), defendendo a ação dela como ato de adoração."
+ },
+ "refs": [
+  "João 12:3-5",
+  "Marcos 14:3-9",
+  "Lucas 7:36-50",
+  "1 Coríntios 10:31"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.7-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-28T21:45:10.549Z",
+  "rounds": 1
+ }
+}

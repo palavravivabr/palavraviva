@@ -1,0 +1,141 @@
+{
+ "id": "40-26-65-75",
+ "ref": "Mateus 26:65-75",
+ "book": "40",
+ "chapter": 26,
+ "verses": [
+  {
+   "n": 65,
+   "t": "Então o sumo sacerdote rasgou suas roupas, e disse: Ele blasfemou! Para que necessitamos mais de testemunhas? Eis que agora ouvistes a sua blasfêmia."
+  },
+  {
+   "n": 66,
+   "t": "Que vos parece?E eles responderam: Culpado de morte ele é."
+  },
+  {
+   "n": 67,
+   "t": "Então lhe cuspiram no rosto, e lhe deram socos."
+  },
+  {
+   "n": 68,
+   "t": "Outros lhe deram bofetadas, e diziam: Profetiza-nos, ó Cristo, quem é o que te feriu?"
+  },
+  {
+   "n": 69,
+   "t": "Pedro estava sentado fora no pátio. Uma serva aproximou-se dele, e disse: Também tu estavas com Jesus, o galileu."
+  },
+  {
+   "n": 70,
+   "t": "Mas ele o negou diante de todos, dizendo: Não sei o que dizes."
+  },
+  {
+   "n": 71,
+   "t": "E quando ele saiu em direção à entrada, outra o viu, e disse aos que ali estavam : Também este estava com Jesus, o nazareno."
+  },
+  {
+   "n": 72,
+   "t": "E ele o negou outra vez com um juramento: Não conheço esse homem."
+  },
+  {
+   "n": 73,
+   "t": "Pouco depois, os que ali estavam se aproximaram, e disseram a Pedro: Verdadeiramente também tu és um deles, pois a tua fala te denuncia."
+  },
+  {
+   "n": 74,
+   "t": "Então ele começou a amaldiçoar e a jurar: Não conheço esse homem!E imediatamente o galo cantou."
+  },
+  {
+   "n": 75,
+   "t": "Então Pedro se lembrou da palavra de Jesus, que lhe dissera: Antes do galo cantar, tu me negarás três vezes. Assim ele saiu, e chorou amargamente."
+  }
+ ],
+ "titulo": "O galo que ecoou a vergonha de Pedro",
+ "temas": [
+  "fraqueza",
+  "perdão",
+  "verdade",
+  "humildade"
+ ],
+ "pergunta": "Por que Pedro negou Jesus três vezes, mesmo tendo dormido com Ele no jardim?",
+ "entender": "No pátio do tribunal, enquanto Jesus é julgado e açoitado, Pedro está fora, tentando se manter discreto. Uma serva o reconhece, mas ele diz: \"Não sei o que dizes\". A pressão aumenta com outra pessoa e, por fim, com um grupo que aponta o sotaque dele. Em cada momento, Pedro escolhe a segurança própria em vez da lealdade a Cristo, chegando a amaldiçoar para se dissociar.\n\nA cena é brutal: Jesus é cuspido e socado, tratado como criminoso, enquanto Pedro, cheio de medo, se distancia. O canto do galo não é apenas um marcador de tempo, mas o gatilho da memória. Pedro se lembra da profecia de Jesus e sai chorando amargamente. Não é um choro de desespero sem saída, mas o início do arrependimento sincero. O texto mostra que até os discípulos mais próximos falham gravemente, mas a graça de Deus alcança a fraqueza humana.\n\nEste trecho revela a realidade da condição humana: mesmo com a melhor intenção, o medo pode nos levar a negar o que cremos. A resposta de Pedro, no entanto, aponta para a misericórdia. Ele não esconde o erro; ele se confronta com a verdade. Isso prepara o terreno para a restauração que veremos depois, mostrando que o evangelho não é apenas para os perfeitos, mas para os que se arrependem.",
+ "ligar": {
+  "texto": "Jesus, mesmo sendo o Filho de Deus, suportou a humilhação e a injustiça sem se defender, apontando para a cruz onde Ele pagaria o preço pelos nossos pecados. Pedro, ao negar, demonstra a necessidade dessa redenção. O evangelho nos mostra que não dependemos da nossa força para permanecer fiéis, mas da graça de Cristo. O choro de Pedro é o primeiro passo para voltar a Jesus, que o perdoou e restaurou seu ministério. Esta cena nos lembra que a fé verdadeira não elimina o medo, mas nos leva de volta ao Salvador quando falhamos.",
+  "selo": true
+ },
+ "viver": "Talvez você já tenha se sentido envergonhado ou tenha negado sua fé em situações de pressão, seja no trabalho, na família ou nas redes sociais. Pedro nos ensina que a vergonha não precisa ser o fim da história. Quando nos lembrarmos da palavra de Jesus e do Seu sacrifício, podemos escolher o arrependimento em vez da desculpa. A aplicação concreta é examinar, com honestidade, se há áreas onde você tem evitado ser identificado com Cristo por medo. Se houver, ore pedindo a coragem de se alinhar à verdade, confiando no perdão que já foi oferecido na cruz, e deixe que essa restauração transforme sua confiança para o dia seguinte.",
+ "guarde": "O choro sincero diante da falha abre caminho para a restauração da graça.",
+ "ore": "Pedro, que negou o Mestre, ensina-me a não esconder minhas falhas. Perdoa a minha covardia e a minha busca por segurança humana. Dá-me a coragem de confessar minha fé, mesmo quando o custo for alto, e lembra-me sempre do Teu perdão restaurador.",
+ "quiz": {
+  "pergunta": "O que Pedro fez imediatamente após o galo cantar?",
+  "opcoes": [
+   "Correu para dentro do tribunal para defender Jesus.",
+   "Lembrou-se das palavras de Jesus e chorou amargamente.",
+   "Ficou em silêncio e voltou para casa sem dizer nada."
+  ],
+  "certa": 1,
+  "explicacao": "O texto afirma que Pedro se lembrou da palavra de Jesus e saiu chorando amargamente, o que indica arrependimento e memória da profecia."
+ },
+ "refs": [
+  "Lucas 22:54-62",
+  "João 21:15-19",
+  "Marcos 14:66-72"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-28T21:53:16.317Z",
+  "rounds": 1
+ }
+}
