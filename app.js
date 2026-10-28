@@ -126,6 +126,23 @@
   }
   function importAll(obj) {
     if (!obj || obj.app !== 'palavra-viva' || obj.version !== 1) return Promise.reject(new Error('Arquivo de backup inválido.'));
+    /* validação rígida: só objetos simples, chaves e valores de tamanho razoável, nada de chaves perigosas */
+    var total = 0;
+    function bk(k) { return k === '__proto__' || k === 'constructor' || k === 'prototype'; }
+    function ok(v, d) {
+      if (v === null || typeof v === 'boolean' || typeof v === 'number') return true;
+      if (typeof v === 'string') { total += v.length; return v.length <= 500000; }
+      if (d > 6 || typeof v !== 'object') return false;
+      if (Array.isArray(v)) return v.length <= 20000 && v.every(function (x) { return ok(x, d + 1); });
+      return Object.keys(v).every(function (k) { return !bk(k) && k.length <= 200 && ok(v[k], d + 1); });
+    }
+    var bad = ['kv', 'highlights', 'notes'].some(function (n) {
+      var m = obj[n]; if (m === undefined) return false;
+      if (!m || typeof m !== 'object' || Array.isArray(m)) return true;
+      var ks = Object.keys(m); if (ks.length > 50000) return true;
+      return !ks.every(function (k) { return !bk(k) && k.length <= 200 && ok(m[k], 0); });
+    });
+    if (bad || total > 20000000) return Promise.reject(new Error('Backup recusado: o arquivo tem conteúdo inesperado.'));
     return db().then(function (d) { return new Promise(function (res, rej) {
       var t = d.transaction(['kv', 'highlights', 'notes'], 'readwrite');
       ['kv', 'highlights', 'notes'].forEach(function (n) { var s = t.objectStore(n); Object.keys(obj[n] || {}).forEach(function (k) { s.put(obj[n][k], k); }); });
@@ -1211,6 +1228,7 @@
     });
     $('#impfile').addEventListener('change', function (e) {
       var f = e.target.files && e.target.files[0]; if (!f) return;
+      if (f.size > 20000000) { toast('Arquivo grande demais para ser um backup.'); e.target.value = ''; return; }
       f.text().then(function (t) { return importAll(JSON.parse(t)); }).then(function () { toast('Backup importado'); }, function (er) { toast(er.message || 'Arquivo inválido.'); });
       e.target.value = '';
     });
