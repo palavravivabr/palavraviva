@@ -1,0 +1,133 @@
+{
+ "id": "40-23-31-39",
+ "ref": "Mateus 23:31-39",
+ "book": "40",
+ "chapter": 23,
+ "verses": [
+  {
+   "n": 31,
+   "t": "Assim vós mesmos dais testemunho de que sois filhos dos que mataram os profetas."
+  },
+  {
+   "n": 32,
+   "t": "Completai, pois, a medida de vossos pais."
+  },
+  {
+   "n": 33,
+   "t": "Serpentes, ninhada de víboras! Como escapareis da condenação do inferno?"
+  },
+  {
+   "n": 34,
+   "t": "Por isso, eis que eu vos envio profetas, sábios, e escribas; a uns deles matareis e crucificareis, e a outros deles açoitareis em vossas sinagogas, e perseguireis de cidade em cidade;"
+  },
+  {
+   "n": 35,
+   "t": "para que venha sobre vós todo o sangue justo que foi derramado sobre a terra, desde o sangue do justo Abel, até o sangue de Zacarias, filho de Baraquias, ao qual matastes entre o templo e o altar."
+  },
+  {
+   "n": 36,
+   "t": "Em verdade vos digo que tudo isto virá sobre esta geração."
+  },
+  {
+   "n": 37,
+   "t": "Jerusalém, Jerusalém, que matas os profetas, e apedrejas os que te são enviados! Quantas vezes eu quis ajuntar os teus filhos, como a galinha ajunta os seus pintos debaixo das asas; porém não quisestes!"
+  },
+  {
+   "n": 38,
+   "t": "Eis que vossa casa vos será deixada desolada."
+  },
+  {
+   "n": 39,
+   "t": "Pois eu vos digo que a partir de agora não me vereis, até que digais: “Bendito aquele que vem no nome do Senhor”. Salmos 118:26"
+  }
+ ],
+ "titulo": "Jerusalém, a cidade que rejeitou o amor",
+ "temas": [
+  "rejeição",
+  "amor",
+  "juízo",
+  "esperança"
+ ],
+ "pergunta": "O que significa quando Jesus diz que sua casa será deixada desolada?",
+ "entender": "Neste trecho, Jesus dirige uma fala intensa a Jerusalém. Ele acusa a cidade de ter uma linhagem de rejeição, dizendo que os líderes atuais são filhos daqueles que mataram os profetas. A expressão \"ninhada de víboras\" mostra a gravidade do pecado deles, que persiste mesmo com os avisos divinos.\n\nJesus lembra que enviou profetas, sábios e escribas, mas eles foram perseguidos, açoitados e mortos. Ele conecta essa história de violência desde Abel até Zacarias, indicando que a culpa se acumula sobre aquela geração. A imagem mais comovente é a de Jesus comparando-se a uma galinha que quer juntar os pintos debaixo das asas, mas que é rejeitada. A casa, símbolo do templo e da presença de Deus, ficará vazia porque o povo não aceitou o convite do Pai.\n\nA frase final, \"não me vereis, até que digais: 'Bendito aquele que vem no nome do Senhor'\", aponta para um tempo futuro em que o povo reconhecerá Jesus como o Messias prometido, mesmo que seja tarde demais para aquela geração específica.",
+ "ligar": {
+  "texto": "Este texto revela o coração de Jesus: ele não veio para condenar, mas para salvar. A metáfora da galinha mostra seu desejo profundo de proteger e acolher. A rejeição de Jerusalém leva à cruz, onde Jesus recebe a condenação que merecia o povo. O evangelho é a resposta a essa rejeição: Jesus se oferece para que, mesmo após a cruz, possamos ser acolhidos por ele.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, assim como Jerusalém, podemos nos afastar de Deus por orgulho ou por darmos ouvidos a vozes que nos afastam do amor dele. Jesus nos convida a perceber que sua oferta de proteção é real. Se você se sente distante, lembre-se de que a \"galinha\" ainda estende suas asas. O arrependimento não é vergonha, mas o caminho para voltar para casa. Aceite o convite de Jesus hoje, antes que a distância se torne um abismo.",
+ "guarde": "O amor de Jesus se estende como asas de galinha, mesmo quando somos rejeitados.",
+ "ore": "Jesus, Tu que quiseste juntar os filhos de Jerusalém debaixo de Tuas asas, aceita o meu coração cansado. Não me deixes desolado, mas guia-me para o dia em que eu Te bendirei como Senhor, reconhecendo a Tua graça.",
+ "quiz": {
+  "pergunta": "Qual imagem Jesus usa para descrever seu desejo de proteger os filhos de Jerusalém?",
+  "opcoes": [
+   "Uma galinha que junta os pintos debaixo das asas.",
+   "Um pai que constrói uma muralha de proteção.",
+   "Um pastor que guarda as ovelhas no curral."
+  ],
+  "certa": 0,
+  "explicacao": "No versículo 37, Jesus compara seu desejo de ajuntar os filhos de Jerusalém ao de uma galinha que protege seus pintos debaixo das asas."
+ },
+ "refs": [
+  "Lucas 19:41-44",
+  "Atos 2:23",
+  "Mateus 21:33-41"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-28T10:06:23.376Z",
+  "rounds": 2
+ }
+}

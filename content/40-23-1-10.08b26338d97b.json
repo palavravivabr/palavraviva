@@ -1,0 +1,137 @@
+{
+ "id": "40-23-1-10",
+ "ref": "Mateus 23:1-10",
+ "book": "40",
+ "chapter": 23,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Então Jesus falou às multidões e aos seus discípulos,"
+  },
+  {
+   "n": 2,
+   "t": "dizendo: Os escribas e os fariseus se sentam sobre o assento de Moisés."
+  },
+  {
+   "n": 3,
+   "t": "Portanto, tudo o que eles vos disserem que guardeis, guardai, e fazei. Mas não façais segundo as suas obras, porque eles dizem e não fazem."
+  },
+  {
+   "n": 4,
+   "t": "Pois eles amarram cargas pesadas e difíceis de levar, e as põem sobre os ombros das pessoas; porém eles nem sequer com o seu dedo as querem mover."
+  },
+  {
+   "n": 5,
+   "t": "E fazem todas as suas obras a fim de serem vistos pelas pessoas: por isso alargam seus filactérios, ) e fazem compridas as franjas de suas roupas."
+  },
+  {
+   "n": 6,
+   "t": "Eles amam os primeiros assentos nas ceias, as primeiras cadeiras nas sinagogas,"
+  },
+  {
+   "n": 7,
+   "t": "as saudações nas praças, e serem chamados: “Rabi, Rabi” pelas pessoas."
+  },
+  {
+   "n": 8,
+   "t": "Mas vós, não sejais chamados Rabi, porque o vosso Mestre é um: o Cristo; e todos vós sois irmãos."
+  },
+  {
+   "n": 9,
+   "t": "E não chameis a ninguém na terra vosso pai; porque o vosso Pai é um: aquele que está nos céus."
+  },
+  {
+   "n": 10,
+   "t": "Nem sejais chamados mestres; porque o vosso mestre é um: o Cristo."
+  }
+ ],
+ "titulo": "Quando o título substitui o serviço?",
+ "temas": [
+  "hipocrisia",
+  "humildade",
+  "serviço"
+ ],
+ "pergunta": "Você já percebeu que buscar reconhecimento pode impedir o verdadeiro serviço?",
+ "entender": "Jesus fala às multidões e aos discípulos, reconhecendo a autoridade dos escribas e fariseus: “Os escribas e os fariseus se sentam sobre o assento de Moisés”. Ele os alerta a não imitarem suas atitudes, pois “dizem e não fazem”. Eles impõem “cargas pesadas e difíceis de levar” sem sequer mover o dedo, e exibem ostentação ao alargar filactérios e alongar as franjas das vestes. Também buscam os primeiros assentos nas ceias e ser chamados “Rabi”. Por isso, Jesus diz que não devemos usar esses títulos, lembrando que “o vosso Mestre é um: o Cristo” e que todos são irmãos.\n\nNo contexto imediato, o mestre continua ensinando que a verdadeira grandeza está no serviço humilde (Mateus 23.11‑12). A crítica de Jesus expõe a diferença entre autoridade formal e autoridade que nasce do caráter humilde, convidando os ouvintes a examinarem suas motivações ao servir.",
+ "ligar": {
+  "texto": "A partir do versículo 8 Jesus se apresenta como o Mestre único, apontando que a verdadeira autoridade vem d’Ele, que serviu e morreu por nós. Ao rejeitar títulos vazios, somos levados a reconhecer que somente em Cristo encontramos o modelo de serviço humilde que o evangelho proclama (cf. Marcos 10.45).",
+  "selo": true
+ },
+ "viver": "A busca por reconhecimento pode aparecer no trabalho, nas redes sociais ou até na igreja. Quando nos apegamos a cargos ou elogios, corremos o risco de carregar “cargas pesadas” sobre os outros sem realmente ajudar. Uma aplicação prática é servir em silêncio: ofereça ajuda a alguém sem esperar agradecimento, ou aceite uma tarefa difícil mesmo que ninguém veja. Essa atitude reflete o chamado de Jesus para que sejamos servos antes de buscar posições de destaque.\n\nAo lembrar que todos somos irmãos, podemos deixar de lado a necessidade de ser chamado “Rabi” ou “pai” e tratar cada pessoa com respeito e igualdade, construindo comunidades onde o serviço mútuo prevalece sobre a ostentação.",
+ "guarde": "Não busque títulos vazios; sirva com humildade, como o Cristo.",
+ "ore": "Jesus, ao confrontar os fariseus, ajuda-me a abandonar a necessidade de ser reconhecido e a servir sem buscar elogios, carregando minhas responsabilidades com amor.",
+ "quiz": {
+  "pergunta": "O que Jesus proíbe que façamos em relação aos títulos religiosos?",
+  "opcoes": [
+   "Ensinarem a Lei de Moisés",
+   "Usarem vestes luxuosas",
+   "Chamarem-se Rabi ou pai"
+  ],
+  "certa": 2,
+  "explicacao": "Jesus instrui que não devemos ser chamados ‘Rabi’ nem ‘pai’, pois o verdadeiro Mestre é Cristo, e todos são irmãos."
+ },
+ "refs": [
+  "Marcos 10:45",
+  "1 Pedro 5:2-3",
+  "Tiago 1:22",
+  "Mateus 20:26-28"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-28T09:57:40.350Z",
+  "rounds": 3
+ }
+}

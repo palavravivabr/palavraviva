@@ -1,0 +1,137 @@
+{
+ "id": "40-24-1-10",
+ "ref": "Mateus 24:1-10",
+ "book": "40",
+ "chapter": 24,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Jesus saiu do templo, e se foi. Então seus discípulos se aproximaram dele para lhe mostrarem os edifícios do complexo do templo."
+  },
+  {
+   "n": 2,
+   "t": "Mas Jesus lhes disse: Não vedes tudo isto? Em verdade vos digo, que não será deixada aqui pedra sobre pedra, que não seja derrubada."
+  },
+  {
+   "n": 3,
+   "t": "E, depois de se assentar no monte das Oliveiras, os discípulos se aproximaram dele reservadamente, perguntando: Dize-nos, quando serão estas coisas, e que sinal haverá da tua vinda, e do fim da era?"
+  },
+  {
+   "n": 4,
+   "t": "E Jesus lhes respondeu: Permanecei atentos, para que ninguém vos engane."
+  },
+  {
+   "n": 5,
+   "t": "Porque muitos virão em meu nome, dizendo: “Eu sou o Cristo”, e enganarão a muitos."
+  },
+  {
+   "n": 6,
+   "t": "E ouvireis de guerras, e de rumores de guerras. Olhai que não vos espanteis; porque é necessário, que tudo isto aconteça, mas ainda não é o fim."
+  },
+  {
+   "n": 7,
+   "t": "Pois se levantará nação contra nação, e reino contra reino; e haverá fomes, pestilências, e terremotos em diversos lugares."
+  },
+  {
+   "n": 8,
+   "t": "Mas todas estas coisas são o começo das dores."
+  },
+  {
+   "n": 9,
+   "t": "Então vos entregarão para serdes afligidos, e vos matarão; e sereis odiados por todas as nações, por causa do meu nome."
+  },
+  {
+   "n": 10,
+   "t": "E muitos tropeçarão na fé; e trairão uns aos outros, e uns aos outros se odiarão."
+  }
+ ],
+ "titulo": "Pedras caindo: o aviso de Jesus",
+ "temas": [
+  "alerta",
+  "perseguição",
+  "fé",
+  "esperança"
+ ],
+ "pergunta": "O que Jesus disse sobre o Templo impressionou tanto os discípulos que eles quiseram saber mais?",
+ "entender": "Ao sair do Templo, Jesus declarou que não ficaria pedra sobre pedra. Os discípulos, impressionados com a grandiosidade do lugar, perguntaram quando aquilo aconteceria e qual seria o sinal da vinda de Cristo. Jesus respondeu com um alerta inicial: cuidado para não serem enganados por pessoas que diriam ser o Messias.\n\nEle mencionou guerras, fomes e terremotos, mas classificou tudo isso como apenas o começo das dores. O ponto central não era a previsão de catástrofes naturais, mas a preparação para a oposição que viria. Jesus avisou que seus seguidores seriam odiados por causa do seu nome e que muitos abandonariam a fé, traíam-se mutuamente.",
+ "ligar": {
+  "texto": "Este texto revela a autoridade de Jesus sobre a história e o custo de segui-lo. Ele não apenas previu a queda de um símbolo religioso, mas preparou seus discípulos para a realidade de que a lealdade a Cristo pode gerar rejeição. O evangelho sobrevive porque, mesmo quando as estruturas humanas caem, a verdade de Jesus permanece. A perseguição descrita aqui não é um acidente, mas parte do processo de purificação dos que confiam nele.",
+  "selo": true
+ },
+ "viver": "Hoje, assim como naquela época, muitas vozes surgem prometendo atalhos ou soluções mágicas para a vida. Jesus nos convida a discernir o que é verdadeiro. Quando ouvirmos notícias de conflitos ou virmos pessoas confiáveis se afastando da fé, podemos sentir medo ou desânimo. Lembre-se: essas situações são o começo das dores, não o fim. O convite é para permanecer firme na fé, amando Jesus mesmo quando o mundo ao redor parece instável ou hostil.",
+ "guarde": "As crises são apenas o começo das dores; a fidelidade a Cristo é o que sustenta até o fim.",
+ "ore": "No monte das Oliveiras, onde Jesus nos alertou, ensina-me a não temer as notícias do mundo. Ajuda-me a reconhecer falsos profetas e a permanecer firme em ti, mesmo quando for odiado por causa do teu nome. Dá-me discernimento e paz no meio das dores.",
+ "quiz": {
+  "pergunta": "Como Jesus classificou as guerras, fomes e terremotos mencionados no texto?",
+  "opcoes": [
+   "O começo das dores",
+   "O sinal imediato do fim",
+   "Punições diretas de Deus"
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz explicitamente que 'todas estas coisas são o começo das dores', indicando que são eventos iniciais de um processo maior, não o fim em si."
+ },
+ "refs": [
+  "Marcos 13:1-13",
+  "Lucas 21:8-19",
+  "João 16:33"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-28T10:04:49.747Z",
+  "rounds": 3
+ }
+}

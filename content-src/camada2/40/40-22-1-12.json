@@ -1,0 +1,146 @@
+{
+ "id": "40-22-1-12",
+ "ref": "Mateus 22:1-12",
+ "book": "40",
+ "chapter": 22,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Então Jesus voltou a lhes falar por parábolas, dizendo:"
+  },
+  {
+   "n": 2,
+   "t": "O reino dos céus é semelhante a um rei que fez uma festa de casamento para o seu filho;"
+  },
+  {
+   "n": 3,
+   "t": "e mandou a seus servos que chamassem os convidados para a festa de casamento, mas não quiseram vir."
+  },
+  {
+   "n": 4,
+   "t": "Outra vez ele mandou outros servos, dizendo: “Dizei aos convidados: ‘Eis que já preparei meu jantar: meus bois e animais cevados já foram mortos, e tudo está pronto. Vinde à festa de casamento’”."
+  },
+  {
+   "n": 5,
+   "t": "Porém eles não deram importância e foram embora, um ao seu campo, e outro ao seu comércio;"
+  },
+  {
+   "n": 6,
+   "t": "e outros agarraram os servos dele, e os humilharam e os mataram."
+  },
+  {
+   "n": 7,
+   "t": "Quando o rei Então enviou os seus exércitos, destruiu aqueles homicidas, e incendiou a cidade deles."
+  },
+  {
+   "n": 8,
+   "t": "Em seguida, disse aos seus servos: “Certamente a festa de casamento está pronta, porém os convidados não eram dignos."
+  },
+  {
+   "n": 9,
+   "t": "Ide, pois, às saídas dos caminhos, e convidai à festa de casamento tantos quantos achardes."
+  },
+  {
+   "n": 10,
+   "t": "Aqueles servos saíram pelos caminhos, e ajuntaram todos quantos acharam, tanto maus como bons; e a festa de casamento se encheu de convidados."
+  },
+  {
+   "n": 11,
+   "t": "Mas quando o rei entrou para ver os convidados, percebeu ali um homem que não estava vestido com roupa adequada para a festa de casamento."
+  },
+  {
+   "n": 12,
+   "t": "Então lhe perguntou: “Amigo, como entraste aqui sem ter roupa para a festa?” E ele emudeceu."
+  }
+ ],
+ "titulo": "Quem realmente foi convidado para o banquete?",
+ "temas": [
+  "convite",
+  "rejeição",
+  "justiça",
+  "arrependimento"
+ ],
+ "pergunta": "Você já se sentiu excluído de um convite importante?",
+ "entender": "Jesus conta a parábola do rei que preparou um grande casamento para seu filho. Ele enviou servos para chamar os convidados, mas eles ignoraram o convite, foram aos seus negócios ou até maltrataram os mensageiros. Então o rei mandou seus exércitos destruir os homicidas e, em seguida, ordenou que os servos fossem pelos caminhos e trouxessem todos que encontrassem, \"tanto maus como bons\", para que a festa se enchesse. Quando o rei entrou para observar os convidados, viu um homem sem roupa de festa e o repreendeu, \"Amigo, como entraste aqui sem ter roupa para a festa?\" (Mateus 22.1-12). A história mostra duas respostas humanas ao convite de Deus: a rejeição e a indiferença, que trazem juízo, e a aceitação inesperada, que enche o Reino. O detalhe da roupa inadequada revela que, embora o convite seja aberto a todos, há uma preparação necessária para participar plenamente do Reino.\n\nNo contexto imediato, Jesus usa essa parábola para responder aos fariseus que questionavam sua autoridade. Ele demonstra que o Reino de Deus não se restringe a um grupo exclusivo, mas que Deus convida a todos, inclusive os que antes eram considerados indignos. A reação do rei ao homem sem vestimenta mostra que há responsabilidade pessoal: aceitar o convite implica estar pronto, vestindo-se adequadamente – isto é, viver de acordo com a vontade de Deus.",
+ "ligar": {
+  "texto": "A parábola aponta para Jesus como o noivo do Reino. O rei que prepara o banquete representa Deus, e o filho que vai casar‑se simboliza Cristo, cujo sacrifício abre o convite à salvação. Quando o rei destrói os homicidas, vemos a justiça divina que elimina o pecado. A chamada para buscar convidados pelos caminhos reflete a missão da igreja de levar o evangelho a todos, inclusive aos que se consideram indignos. O homem sem roupa representa quem aceita o convite, mas não se reveste da justiça de Cristo; assim, a necessidade de “vestir-se” aponta para a fé que nos cobre, a graça que nos justifica. Em resumo, o texto revela que o convite ao Reino está centrado em Jesus, e que a resposta correta é crer nele e viver transformado.",
+  "selo": false
+ },
+ "viver": "A festa estava cheia porque o rei enviou servos para buscar pessoas por todos os caminhos. Da mesma forma, somos chamados a olhar além da nossa zona de conforto e convidar quem está distante da fé – vizinhos, colegas, familiares – a conhecer Cristo. Quando alguém aceita, devemos acompanhá‑lo, ajudando‑o a se \"vestir\" da nova vida em Cristo, isto é, a crescer na fé e na prática do amor. Assim, a comunidade se torna um banquete vivo, onde todos são bem‑vindos, mas cada um tem a responsabilidade de viver de modo digno da chamada que recebeu.",
+ "guarde": "O convite de Deus é amplo, mas a resposta exige estar preparado.",
+ "ore": "Rei, ao enviar os servos pelos caminhos, ajuda-me a ser um mensageiro fiel que convida todos ao teu banquete, e a vestir-me sempre com a justiça que vem de Ti.",
+ "quiz": {
+  "pergunta": "Qual foi a reação do rei ao homem que não tinha roupa adequada?",
+  "opcoes": [
+   "Ele o ignorou",
+   "Ele o convidou para se vestir depois",
+   "Ele o repreendeu e o expulsou"
+  ],
+  "certa": 2,
+  "explicacao": "O texto relata que o rei perguntou ao homem como entrou sem roupa e, ao não responder, mandou que o amarrassem e o lançassem nas trevas (Mateus 22.12‑13)."
+ },
+ "refs": [
+  "João 3:16",
+  "Lucas 14:15-24",
+  "Efésios 2:8-9",
+  "Apocalipse 19:7-9"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-28T10:05:38.349Z",
+  "rounds": 1
+ }
+}
