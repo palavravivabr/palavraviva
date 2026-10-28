@@ -1,0 +1,12 @@
+diff --git a/styles.css b/styles.css
+index 3f06712..c8496b3 100644
+--- a/styles.css
++++ b/styles.css
+@@ -340 +340,7 @@
+ .pcard[data-act="marks"] .eb{background:#E9A6B8;color:#46101F}
++/* acessibilidade e leitura (patch 46) */
++.ler,.back,.verbar button,.banner button,.dtab,#studyHead .sharebtn{min-height:44px}
++a:focus-visible,[role="button"]:focus-visible,[tabindex]:focus-visible,summary:focus-visible{outline:3px solid var(--gold);outline-offset:2px}
++.study h3{font-size:1rem;font-weight:700;color:var(--accent);margin:6px 0 8px}
++.study p{max-width:42em;hyphens:auto;-webkit-hyphens:auto;text-wrap:pretty}
++.study p+p{margin-top:.9em}
