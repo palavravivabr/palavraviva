@@ -1,0 +1,137 @@
+{
+ "id": "40-19-21-30",
+ "ref": "Mateus 19:21-30",
+ "book": "40",
+ "chapter": 19,
+ "verses": [
+  {
+   "n": 21,
+   "t": "Disse-lhe Jesus: “Se queres ser completo, vai, vende o que tens, e dá aos pobres. Assim terás um tesouro no céu. Então vem, segue-me.”"
+  },
+  {
+   "n": 22,
+   "t": "Mas quando o rapaz ouviu essa palavra, foi embora triste, porque tinha muitos bens."
+  },
+  {
+   "n": 23,
+   "t": "Jesus, então, disse aos seus discípulos: “Em verdade vos digo que dificilmente um rico entrará no reino dos céus."
+  },
+  {
+   "n": 24,
+   "t": "Aliás, eu vos digo que é mais fácil um camelo passar pela abertura de uma agulha do que o rico entrar no reino de Deus.”"
+  },
+  {
+   "n": 25,
+   "t": "Quando os seus discípulos ouviram isso , espantaram-se muito, e disseram: “Quem, pois, pode se salvar?”"
+  },
+  {
+   "n": 26,
+   "t": "Jesus olhou para eles ,e lhes respondeu: Para os seres humanos, isto é impossível; mas para Deus tudo é possível."
+  },
+  {
+   "n": 27,
+   "t": "Então Pedro se pôs a falar, e lhe perguntou: Eis que deixamos tudo, e te seguimos; o que, pois, conseguiremos ter?"
+  },
+  {
+   "n": 28,
+   "t": "E Jesus lhes disse: Em verdade vos digo que vós que me seguistes, na regeneração, quando o Filho do homem se sentar no trono de sua glória, vós também vos sentareis sobre doze tronos, para julgar as doze tribos de Israel."
+  },
+  {
+   "n": 29,
+   "t": "E qualquer um que houver deixado casas, ou irmãos, ou irmãs, ou pai, ou mãe, ou mulher, ou filhos, ou terras por causa do meu nome, receberá cem vezes tanto, e herdará a vida eterna."
+  },
+  {
+   "n": 30,
+   "t": "Porém muitos primeiros serão últimos; e últimos, primeiros."
+  }
+ ],
+ "titulo": "O preço da riqueza na busca por Deus",
+ "temas": [
+  "riqueza",
+  "discipulado",
+  "graça",
+  "dependência"
+ ],
+ "pergunta": "Por que a riqueza pode se tornar um obstáculo maior que a pobreza para seguir a Jesus?",
+ "entender": "Um jovem rico pergunta a Jesus o que falta para ter a vida eterna. Ele já cumpre os mandamentos, mas Jesus, olhando-o com amor, lhe dá um comando específico: vender tudo e dar aos pobres. O rapaz vai embora triste, pois seus bens eram muito valiosos para ele. A cena revela que o problema não era a riqueza em si, mas o coração que a guardava como tesouro supremo.\n\nJesus usa uma imagem chocante para os ouvintes: é mais fácil um camelo passar pelo buraco de uma agulha do que um rico entrar no reino. Os discípulos ficam espantados e perguntam quem pode ser salvo. A resposta de Jesus é a chave: para os seres humanos, isso é impossível; mas para Deus tudo é possível. A salvação não depende da nossa capacidade de nos livrar de tudo, mas da ação soberana de Deus.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para a suficiência de Cristo. O jovem tentou se salvar por mérito e obediência, mas só encontrou no encontro pessoal com Jesus o diagnóstico de seu coração. A promessa a Pedro de que os discípulos receberão 'cem vezes tanto' e a 'vida eterna' mostra que o verdadeiro ganho não é material, mas a comunhão com o Filho do Homem. Jesus é o único que pode transformar a impossibilidade humana em realidade divina, oferecendo um tesouro no céu que não se perde.",
+  "selo": true
+ },
+ "viver": "Talvez você não tenha muitos bens, mas todos temos algo que idolatramos: uma carreira, uma imagem, um conforto ou uma autonomia que nos impede de seguir Jesus com liberdade. O convite de Jesus não é apenas financeiro, mas de prioridade. Pergunte-se: o que eu estou segurando com tanta força que me impede de dizer 'sim' ao chamado de Deus? A obediência pode custar caro aos nossos olhos, mas ela abre espaço para um tesouro que nenhuma crise pode roubar.",
+ "guarde": "A salvação é impossível para nós, mas é plenamente possível para Deus, que transforma o impossível em vida eterna.",
+ "ore": "Jesus, diante do jovem rico, Tu mostraste que só Tu podes salvar. Ajuda-me a identificar o que eu guardo como meu maior tesouro e a entregá-lo a Ti. Que eu não vá embora triste por apegar-me a coisas passageiras, mas que eu encontre em Ti a satisfação plena e a vida eterna que o mundo não pode dar.",
+ "quiz": {
+  "pergunta": "O que Jesus disse aos discípulos quando eles perguntaram quem pode ser salvo?",
+  "opcoes": [
+   "Para os seres humanos é impossível, mas para Deus tudo é possível",
+   "Quem vende tudo e dá aos pobres será salvo",
+   "Aquele que guarda todos os mandamentos desde a juventude"
+  ],
+  "certa": 0,
+  "explicacao": "Jesus respondeu que a salvação é impossível pela força humana, mas totalmente possível para Deus, destacando a necessidade da graça divina em vez de mérito próprio."
+ },
+ "refs": [
+  "Lucas 18:18-30",
+  "Marcos 10:17-31",
+  "Mateus 6:19-21"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-28T01:03:49.732Z",
+  "rounds": 1
+ }
+}

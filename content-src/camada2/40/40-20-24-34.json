@@ -1,0 +1,141 @@
+{
+ "id": "40-20-24-34",
+ "ref": "Mateus 20:24-34",
+ "book": "40",
+ "chapter": 20,
+ "verses": [
+  {
+   "n": 24,
+   "t": "E quando os dez ouviram isso ,indignaram-se contra os dois irmãos."
+  },
+  {
+   "n": 25,
+   "t": "Então Jesus os chamou a si, e disse: Vós bem sabeis que os chefes dos gentios os dominam, e os grandes usam de autoridade sobre eles."
+  },
+  {
+   "n": 26,
+   "t": "Mas não será assim entre vós. Ao contrário, quem quiser se tornar grande entre vós seja o vosso assistente;"
+  },
+  {
+   "n": 27,
+   "t": "e quem quiser ser o primeiro entre vós seja o vosso servo;"
+  },
+  {
+   "n": 28,
+   "t": "assim como o Filho do homem não veio para ser servido, mas sim para servir, e para dar a sua vida em resgate por muitos."
+  },
+  {
+   "n": 29,
+   "t": "Quando eles saíram de Jericó, uma grande multidão o seguiu."
+  },
+  {
+   "n": 30,
+   "t": "E eis que dois cegos assentados junto ao caminho, ao ouvirem que Jesus passava, clamaram: Senhor, Filho de Davi, tem misericórdia de nós!"
+  },
+  {
+   "n": 31,
+   "t": "E a multidão os repreendia, para que se calassem, mas eles clamavam ainda mais: Senhor, Filho de Davi, tem misericórdia de nós!"
+  },
+  {
+   "n": 32,
+   "t": "Então Jesus parou, chamou-os, e perguntou: Que quereis que eu vos faça?"
+  },
+  {
+   "n": 33,
+   "t": "Eles lhe responderam: Senhor, que nossos olhos sejam abertos."
+  },
+  {
+   "n": 34,
+   "t": "E Jesus, compadecido deles, tocou-lhes os olhos. E logo os olhos deles enxergaram, e o seguiram."
+  }
+ ],
+ "titulo": "O trono que virou mesa de serviço",
+ "temas": [
+  "serviço",
+  "humildade",
+  "misericórdia",
+  "fé"
+ ],
+ "pergunta": "O que acontece quando buscamos honras em vez de servir aos outros?",
+ "entender": "Após Tiago e João pedirem lugares de honra, os outros dez discípulos se indignaram. Jesus corrige essa mentalidade explicando que, no Reino, a lógica é invertida: ao contrário dos líderes gentios que dominam, quem quer ser grande deve ser assistente, e quem quer ser primeiro, servo (Mateus 20.26-27).\n\nJesus se apresenta como o modelo supremo: ele não veio para ser servido, mas para servir e dar sua vida em resgate por muitos (Mateus 20.28). Em seguida, ao sair de Jericó, dois cegos clamam por misericórdia. A multidão tenta silenciá-los, mas eles insistem. Jesus para, ouve o pedido e, movido de compaixão, abre-lhes os olhos, e eles passam a segui-lo.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para o coração do evangelho. Jesus redefiniu o poder ao anunciar que sua grandeza se manifestaria na entrega da própria vida como resgate. A cura dos cegos demonstra essa compaixão ativa: Jesus não apenas ensina a humildade, mas age com misericórdia concreta, atendendo à fé dos que O buscam. A salvação é um ato de serviço divino, não de conquista humana.",
+  "selo": true
+ },
+ "viver": "A grandeza no Reino não se mede por cargos, mas pela disposição de atender às necessidades alheias. Talvez você esteja buscando validação em seu trabalho ou na igreja. Pense em uma pessoa ao seu redor que está 'no caminho', talvez ignorada ou com uma necessidade urgente. Assim como Jesus parou para atender aos cegos, busque uma oportunidade concreta de servir hoje, sem esperar remuneração ou elogios, reconhecendo que a verdadeira liderança é estar disponível.",
+ "guarde": "Quem quiser ser o primeiro entre nós seja o nosso servo, assim como o Filho do Homem veio para servir.",
+ "ore": "Dois cegos em Jericó clamaram por Ti, e a multidão tentou calá-los. Ensina-me a persistir na oração mesmo quando o mundo me desagrada. Que eu pare minha rotina para servir com compaixão, não buscando honras, mas entregando minha vida em amor aos que estão ao meu redor, imitando Teu exemplo de resgate.",
+ "quiz": {
+  "pergunta": "Como Jesus descreveu a grandeza entre seus discípulos?",
+  "opcoes": [
+   "Quem liderar a multidão será grande.",
+   "Quem quiser ser grande, seja o vosso assistente.",
+   "Quem tiver mais fé será o primeiro."
+  ],
+  "certa": 1,
+  "explicacao": "Em Mateus 20.26, Jesus inverte a lógica do mundo, afirmando que a grandeza no Reino é definida pelo serviço e pela submissão, não pelo domínio ou pelo tamanho da liderança."
+ },
+ "refs": [
+  "Marcos 10:43-45",
+  "Lucas 22:25-27",
+  "Filipenses 2:5-8"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-28T01:07:53.386Z",
+  "rounds": 2
+ }
+}

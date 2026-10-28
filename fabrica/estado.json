@@ -1856,8 +1856,8 @@
    "titulo": "Quem é realmente o maior no Reino?"
   },
   "40-18-13-23": {
-   "execucoes": 1,
-   "ultimo": "automático: entender:menos_de_2_paragrafos"
+   "execucoes": 2,
+   "ultimo": "gemini: PRAYER_FIDELITY: A seção de oração está formulada incorretamente ao dirigir-se a Pedro em vez de ser uma oração dirigida a Deus."
   },
   "40-18-24-35": {
    "execucoes": 0,
@@ -1879,7 +1879,9 @@
   },
   "40-19-21-30": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: COMMAND_SCOPE: A ordem de vender tudo o que possui foi dada especificamente ao jovem rico e não deve ser apresentada na oração como um chamado universal a todos os leitores.",
+   "estado": "pronto",
+   "titulo": "O preço da riqueza na busca por Deus"
   },
   "40-20-1-12": {
    "execucoes": 0,
@@ -1889,19 +1891,27 @@
   },
   "40-20-13-23": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:menos_de_2_paragrafos, ore:citacao_longa, abertura_repetida:entender:40-8-12-23",
+   "estado": "pronto",
+   "titulo": "O cálice que precede o trono"
   },
   "40-20-24-34": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:citacao_longa, abertura_repetida:ore:41-10-43-52",
+   "estado": "pronto",
+   "titulo": "O trono que virou mesa de serviço"
   },
   "40-21-1-12": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:entender:41-11-1-11",
+   "estado": "pronto",
+   "titulo": "O Rei que entra em silêncio"
   },
   "40-21-13-23": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "A figueira seca e o poder da fé"
   },
   "40-21-24-35": {
    "execucoes": 0,
@@ -1922,28 +1932,48 @@
   "40-22-23-35": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-22-36-46": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-23-1-10": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-23-11-20": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-23-21-30": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-23-31-39": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 636,
-   "entrada": 1621553,
-   "saida": 564246
+   "chamadas": 643,
+   "entrada": 1641815,
+   "saida": 570554
   },
   "groq-qwen": {
-   "chamadas": 631,
-   "entrada": 1541392,
-   "saida": 511978
+   "chamadas": 638,
+   "entrada": 1559810,
+   "saida": 517429
   },
   "gemini": {
-   "chamadas": 523,
-   "entrada": 1695282,
-   "saida": 678458
+   "chamadas": 530,
+   "entrada": 1718172,
+   "saida": 685360
   },
   "cloudflare": {
-   "chamadas": 324,
-   "entrada": 1128417,
-   "saida": 120204
+   "chamadas": 329,
+   "entrada": 1145897,
+   "saida": 122059
   },
   "mistral": {
    "chamadas": 0,

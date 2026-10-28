@@ -1,0 +1,142 @@
+{
+ "id": "40-20-13-23",
+ "ref": "Mateus 20:13-23",
+ "book": "40",
+ "chapter": 20,
+ "verses": [
+  {
+   "n": 13,
+   "t": "Ele, porém, respondeu a um deles: “Amigo, nada de errado estou fazendo contigo. Não concordaste tu comigo por um denário?"
+  },
+  {
+   "n": 14,
+   "t": "Toma o que é teu, e vai embora; e quero dar a este último tanto quanto a ti."
+  },
+  {
+   "n": 15,
+   "t": "Acaso não me é lícito fazer do que é meu o que eu quiser? Ou o teu olho é mau, porque eu sou bom?”"
+  },
+  {
+   "n": 16,
+   "t": "Assim os últimos serão primeiros; e os primeiros, últimos; pois muitos são chamados, mas poucos escolhidos."
+  },
+  {
+   "n": 17,
+   "t": "E enquanto Jesus subia a Jerusalém, tomou consigo os doze discípulos à parte no caminho, e lhes disse:"
+  },
+  {
+   "n": 18,
+   "t": "Eis que estamos subindo a Jerusalém, e o Filho do homem será entregue aos chefes dos sacerdotes e aos escribas, e o condenarão à morte."
+  },
+  {
+   "n": 19,
+   "t": "E o entregarão aos gentios, para que dele escarneçam, e o açoitem, e crucifiquem; mas ao terceiro dia ressuscitará."
+  },
+  {
+   "n": 20,
+   "t": "Então se aproximou dele a mãe dos filhos de Zebedeu, com os seus filhos. Ela o adorou para lhe pedir algo."
+  },
+  {
+   "n": 21,
+   "t": "E ele lhe perguntou: O que queres? Ela lhe disse: Dá ordem para que estes meus dois filhos se sentem, um à tua direita e outro à tua esquerda, no teu Reino."
+  },
+  {
+   "n": 22,
+   "t": "Porém Jesus respondeu: Não sabeis o que pedis. Podeis vós beber o cálice que eu beberei, e ser batizados com o batismo com que eu sou batizado? Eles lhe disseram: Podemos."
+  },
+  {
+   "n": 23,
+   "t": "E ele lhes disse: De fato meu cálice bebereis, e com o batismo com que eu sou batizado sereis batizados; mas sentar-se à minha direita, e à minha esquerda, não me cabe concedê-lo, mas será para os que por meu Pai está preparado."
+  }
+ ],
+ "titulo": "O cálice que precede o trono",
+ "temas": [
+  "sofrimento",
+  "serviço",
+  "reino",
+  "fé",
+  "cristo"
+ ],
+ "pergunta": "Por que Jesus perguntou se seus discípulos podiam beber o seu cálice antes de falar sobre sentar-se ao seu lado?",
+ "entender": "Neste trecho, Jesus está subindo para Jerusalém. Ele avisa os doze que lá será entregue, condenado, açoitado e crucificado, mas ressuscitará ao terceiro dia. É uma previsão clara da sua morte e vitória. \n\nDepois, a mãe dos filhos de Zebedeu pede que seus filhos ocupem os lugares de honra no Reino. Jesus responde que eles não sabem o que pedem e pergunta se podem beber o cálice que ele beberá. Ele afirma que eles beberão, mas os lugares de honra pertencem a Deus. O texto mostra que o Reino de Deus não se acessa pelo conforto, mas pela identificação com o sofrimento de Cristo.",
+ "ligar": {
+  "texto": "Aqui vemos o coração do evangelho: Jesus não veio para ser servido, mas para servir e dar a vida. A promessa de glória está ligada à cruz. Ele nos convida a seguir seu caminho de sacrifício, não buscando posição, mas participando do seu sofrimento e, depois, da sua ressurreição. O 'cálice' aponta para a morte expiatória de Jesus, que abre o caminho para a vida eterna.",
+  "selo": true
+ },
+ "viver": "Muitas vezes queremos os benefícios da fé sem as consequências. Jesus nos chama a examinar se estamos prontos para carregar a cruz, ou seja, para renunciar aos nossos direitos e conforto em favor dele. Isso não é masoquismo, mas uma escolha de amor. Pergunte-se: estou buscando apenas bênçãos ou estou disposto a seguir Jesus, mesmo quando o caminho é difícil?",
+ "guarde": "Os lugares de honra no Reino não são conquistados, mas dados por Deus aos que participam do sofrimento de Cristo.",
+ "ore": "Jesus, ao subir a Jerusalém, Tu me ensinas que o Reino começa na cruz. Dá-me coragem para beber do Teu cálice, renunciando aos meus direitos e seguindo Teu exemplo de serviço e sacrifício.",
+ "quiz": {
+  "pergunta": "O que Jesus disse que acontecerá com Ele em Jerusalém antes de ressuscitar?",
+  "opcoes": [
+   "Partirá para o céu direto.",
+   "Será coroado rei imediatamente.",
+   "Será entregue, condenado, açoitado e crucificado."
+  ],
+  "certa": 2,
+  "explicacao": "O texto (v. 18-19) descreve explicitamente a entrega aos líderes, a condenação, o açoite e a crucificação, seguido pela ressurreição ao terceiro dia."
+ },
+ "refs": [
+  "Lucas 22:42-44",
+  "Marcos 10:38-39",
+  "João 12:24-26"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-28T01:03:05.278Z",
+  "rounds": 1
+ }
+}

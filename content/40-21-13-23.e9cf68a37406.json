@@ -1,0 +1,143 @@
+{
+ "id": "40-21-13-23",
+ "ref": "Mateus 21:13-23",
+ "book": "40",
+ "chapter": 21,
+ "verses": [
+  {
+   "n": 13,
+   "t": "E disse-lhes: Está escrito: “Minha casa será chamada casa de oração”; mas vós a tornastes em covil de ladrões! Isaías 56:7; Jeremias 7:11"
+  },
+  {
+   "n": 14,
+   "t": "E cegos e mancos vieram a ele no Templo, e ele os curou."
+  },
+  {
+   "n": 15,
+   "t": "Quando os chefes dos sacerdotes e os escribas viram as maravilhas que ele fazia, e as crianças gritando no Templo: “Hosana ao Filho de Davi!”, eles ficaram indignados."
+  },
+  {
+   "n": 16,
+   "t": "E perguntaram-lhe: Ouves o que estas crianças dizem? E Jesus lhes respondeu: Sim. Nunca lestes: “Da boca das crianças e dos bebês providenciaste o louvor?” Salmos 8:2"
+  },
+  {
+   "n": 17,
+   "t": "Então ele os deixou, e saiu da cidade para Betânia, e ali passou a noite."
+  },
+  {
+   "n": 18,
+   "t": "E pela manhã, enquanto voltava para a cidade, teve fome."
+  },
+  {
+   "n": 19,
+   "t": "Quando ele viu uma figueira perto do caminho, veio a ela, mas nada nela achou, a não ser somente folhas. E disse-lhe: Nunca de ti nasça fruto, jamais!E imediatamente a figueira se secou."
+  },
+  {
+   "n": 20,
+   "t": "Os discípulos viram, e ficaram maravilhados, dizendo: Como a figueira se secou de imediato?"
+  },
+  {
+   "n": 21,
+   "t": "Porém Jesus lhes respondeu: Em verdade vos digo: se tiverdes fé, e não duvidardes, vós não somente fareis isto à figueira, mas até se disserdes a este monte: “Levanta-te, e lança-te no mar”, isso se fará."
+  },
+  {
+   "n": 22,
+   "t": "E tudo o que pedirdes em oração, crendo, recebereis."
+  },
+  {
+   "n": 23,
+   "t": "Depois de entrar no templo, quando ele estava ensinando, os chefes dos sacerdotes e os anciãos do povo se aproximaram dele, perguntando: Com que autoridade fazes isto? E quem te deu esta autoridade?"
+  }
+ ],
+ "titulo": "A figueira seca e o poder da fé",
+ "temas": [
+  "fé",
+  "oração",
+  "autoridade",
+  "templo",
+  "milagre"
+ ],
+ "pergunta": "Por que Jesus repreendeu uma árvore e depois falou sobre mover montanhas?",
+ "entender": "Após limpar o Templo, Jesus vai para Betânia. De manhã, com fome, vê uma figueira que só tem folhas. Ele diz: \"Nunca de ti nasça fruto, jamais!\", e a árvore seca na hora. Os discípulos ficam impressionados com a rapidez do milagre.\n\nJesus usa essa cena para ensinar sobre fé. Ele afirma que, se tivermos fé e não duvidarmos, podemos pedir coisas grandes em oração e receber. Não é mágica, mas confiança no poder de Deus. No final, ao voltar ao Templo, os líderes religiosos questionam a autoridade de Jesus para ensinar e fazer milagres, mostrando que reconheciam seu poder, mas não aceitavam sua origem divina.",
+ "ligar": {
+  "texto": "Este trecho revela a autoridade de Jesus sobre a criação e sobre o sistema religioso. Afigueira seca simboliza a hipocrisia religiosa: aparência de vida (folhas) sem fruto (obediência e amor). Jesus é o verdadeiro Fruto que dá vida. A fé que Ele pede não é para manipular Deus, mas para confiar Nele. O evangelho é claro: só em Jesus encontramos a autoridade que perdoa pecados e a fé que transforma o coração, algo que os ritos do Templo jamais puderam oferecer.",
+  "selo": true
+ },
+ "viver": "Talvez você sinta sua fé pequena diante de problemas grandes. Jesus não pede que você tenha força própria, mas que confie Nele. Assim como a figueira secou por não dar fruto, nossa vida deve demonstrar amor e obediência. Em oração, pare de tentar convencer Deus e comece a confiar na Palavra dEle. Peça com fé, crendo que Ele é fiel, e entregue a ansiedade de controlar o resultado.",
+ "guarde": "A fé verdadeira não duvida do poder de Deus, mas confia na Sua fidelidade.",
+ "ore": "Jesus, ao secar a figueira, mostraste Tua autoridade. Ensina-me a ter fé inabalável. Ajuda-me a dar frutos de amor e obediência, não apenas aparência. Que minha oração seja marcada pela confiança em Ti, não pela dúvida.",
+ "quiz": {
+  "pergunta": "O que a figueira seca simboliza no ensino de Jesus?",
+  "opcoes": [
+   "A falta de fruto real na vida religiosa",
+   "Uma maldição contra a natureza",
+   "A fome de Jesus"
+  ],
+  "certa": 0,
+  "explicacao": "Jesus usa a imagem para ilustrar a hipocrisia: ter folhas (aparência) sem fruto (vida real). O foco é a fé e a autenticidade, não um ato de vingança contra a árvore."
+ },
+ "refs": [
+  "Marcos 11:12-14",
+  "Marcos 11:20-24",
+  "Mateus 17:20",
+  "Salmos 8:2"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-28T01:07:24.368Z",
+  "rounds": 1
+ }
+}

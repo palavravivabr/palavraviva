@@ -1,0 +1,146 @@
+{
+ "id": "40-21-1-12",
+ "ref": "Mateus 21:1-12",
+ "book": "40",
+ "chapter": 21,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E quando se aproximaram de Jerusalém, e chegaram a Betfagé, ao monte das Oliveiras, então Jesus mandou dois discípulos, dizendo-lhes:"
+  },
+  {
+   "n": 2,
+   "t": "Ide à aldeia em vossa frente, e logo achareis uma jumenta amarrada, e um jumentinho com ela; desamarra-a, e trazei-os a mim."
+  },
+  {
+   "n": 3,
+   "t": "E se alguém vos disser algo, direis: “O Senhor precisa deles, mas logo os devolverá”."
+  },
+  {
+   "n": 4,
+   "t": "Ora, tudo isto aconteceu para que se cumprisse o que foi dito pelo profeta, que disse:"
+  },
+  {
+   "n": 5,
+   "t": "Dizei à filha de Sião: “Eis que o teu rei vem a ti, manso, e sentado sobre um jumento; um jumentinho, filho de uma animal de carga”. Zacarias 9:9"
+  },
+  {
+   "n": 6,
+   "t": "Os discípulos foram, e fizeram como Jesus havia lhes mandado;"
+  },
+  {
+   "n": 7,
+   "t": "Então trouxeram a jumenta e o jumentinho, puseram as suas capas sobre eles, e fizeram -no montar sobre elas."
+  },
+  {
+   "n": 8,
+   "t": "E uma grande multidão estendia suas roupas pelo caminho, e outros cortavam ramos das árvores, e os espalhavam pelo caminho."
+  },
+  {
+   "n": 9,
+   "t": "E as multidões que iam adiante, e as que seguiam, clamavam: Hosana ao Filho de Davi! Bendito o que vem no nome do Senhor! Hosana nas alturas!"
+  },
+  {
+   "n": 10,
+   "t": "Enquanto ele entrava em Jerusalém, toda a cidade se alvoroçou, perguntando: Quem é este?"
+  },
+  {
+   "n": 11,
+   "t": "E as multidões respondiam: Este é Jesus, o Profeta de Nazaré de Galileia."
+  },
+  {
+   "n": 12,
+   "t": "Jesus entrou no Templo de Deus; então expulsou todos os que estavam vendendo e comprando no Templo, e virou as mesas dos cambistas e as cadeiras dos que vendiam pombas."
+  }
+ ],
+ "titulo": "O Rei que entra em silêncio",
+ "temas": [
+  "humildade",
+  "realeza",
+  "adoração",
+  "purificação"
+ ],
+ "pergunta": "Por que o Rei do Universo escolheu um animal de carga para sua entrada triunfal?",
+ "entender": "Aproximando-se de Jerusalém, Jesus envia dois discípulos para buscar uma jumenta e seu filhote. Ele cumpre a profecia de Zacarias, mostrando que seu reino não vem com violência, mas com mansidão. A multidão o recebe estendendo roupas e ramos, gritando \"Hosana ao Filho de Davi!\". É uma cena de celebração, mas também de expectativa: a cidade inteira se pergunta quem é esse homem.\n\nLogo após a entrada, Jesus vai ao Templo e revira as mesas dos vendedores. Essa ação mostra dois lados de sua realeza: a acolhida humilde e a autoridade para purificar a casa de Deus. Ele não veio para destruir a adoração, mas para limpar o que a impedia de ser autêntica. O contraste entre a jumenta mansa e a ira contra os comerciantes revela a profundidade do caráter de Cristo.",
+ "ligar": {
+  "texto": "Este episódio aponta diretamente para Jesus como o Messias prometido. A entrada em Jerusalém cumpre a profecia messiânica, confirmando sua identidade divina e humana. A limpeza do Templo revela que ele tem autoridade sobre a adoração a Deus e que o verdadeiro culto deve ser puro. Tudo isso prepara o caminho para a cruz, onde ele se tornaria o sacrifício definitivo, substituindo o sistema de sacrifícios do Templo.",
+  "selo": true
+ },
+ "viver": "A cena nos convida a examinar como recebemos Jesus em nossa vida. Muitas vezes, queremos um Deus que resolva nossos problemas com força e autoridade, mas ele nos convida a segui-lo com mansidão. Ao mesmo tempo, precisamos verificar se não há \"mesas de comércio\" em nossos corações: coisas que colocamos entre nós e Deus, como orgulho ou preocupações excessivas, que impedem a oração genuína. Que tal fazer uma limpeza espiritual hoje, removendo o que atrapalha sua comunhão com Cristo?",
+ "guarde": "O Rei dos reis escolheu a humildade para nos mostrar o caminho do coração.",
+ "ore": "Jesus, que entrou em Jerusalém sobre um jumentinho, eu te recebo hoje com coração humilde. Limpa em mim tudo que impede minha adoração sincera. Ensina-me a seguir teus passos de mansidão e a reverenciar tua casa como lugar de oração pura. Em nome de Jesus, amém.",
+ "quiz": {
+  "pergunta": "Qual profeta é mencionado no texto como fonte da profecia cumprida por Jesus ao entrar em Jerusalém?",
+  "opcoes": [
+   "Zacarias",
+   "Isaías",
+   "Jeremias"
+  ],
+  "certa": 0,
+  "explicacao": "O texto cita explicitamente Zacarias 9:9 ao descrever a entrada de Jesus em Jerusalém sobre um jumentinho, cumprindo a profecia sobre o rei manso."
+ },
+ "refs": [
+  "Zacarias 9:9",
+  "Marcos 11:1-11",
+  "Lucas 19:28-40",
+  "João 12:12-19"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-28T01:09:12.690Z",
+  "rounds": 2
+ }
+}
