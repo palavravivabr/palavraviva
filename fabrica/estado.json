@@ -1959,7 +1959,9 @@
   },
   "40-23-11-20": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:ore:40-23-1-10",
+   "estado": "pronto",
+   "titulo": "Servir ou ser exaltado? O convite de Jesus"
   },
   "40-23-21-30": {
    "execucoes": 0,
@@ -1993,15 +1995,21 @@
   },
   "40-24-32-41": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:entender:42-11-33-43",
+   "estado": "pronto",
+   "titulo": "O verão que chega sem aviso"
   },
   "40-24-42-51": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "Vigiai: a surpresa da volta inesperada"
   },
   "40-25-1-12": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: LANGUAGE_CLARITY: O texto apresenta erro ortográfico nas seções de teste e explicação ao grafar a palavra 'azeite' incorretamente como 'azeito'.",
+   "estado": "pronto",
+   "titulo": "A porta fechada e o azeite que faltava"
   },
   "40-25-13-23": {
    "execucoes": 0,
@@ -2009,7 +2017,9 @@
   },
   "40-25-24-35": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "O medo que esconde o dom"
   },
   "40-25-36-46": {
    "execucoes": 0,
@@ -2026,28 +2036,48 @@
   "40-26-22-32": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-26-33-43": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-26-44-54": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-26-55-64": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-26-65-75": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-27-1-11": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 678,
-   "entrada": 1740829,
-   "saida": 601435
+   "chamadas": 685,
+   "entrada": 1760463,
+   "saida": 607176
   },
   "groq-qwen": {
-   "chamadas": 671,
-   "entrada": 1651186,
-   "saida": 544722
+   "chamadas": 678,
+   "entrada": 1670102,
+   "saida": 550311
   },
   "gemini": {
-   "chamadas": 550,
-   "entrada": 1783350,
-   "saida": 714946
+   "chamadas": 557,
+   "entrada": 1805912,
+   "saida": 723279
   },
   "cloudflare": {
-   "chamadas": 342,
-   "entrada": 1191773,
-   "saida": 126882
+   "chamadas": 347,
+   "entrada": 1208972,
+   "saida": 128737
   },
   "mistral": {
    "chamadas": 0,

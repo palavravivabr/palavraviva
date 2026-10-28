@@ -1,0 +1,137 @@
+{
+ "id": "40-24-42-51",
+ "ref": "Mateus 24:42-51",
+ "book": "40",
+ "chapter": 24,
+ "verses": [
+  {
+   "n": 42,
+   "t": "Vigiai, pois, porque não sabeis em que hora o vosso Senhor virá."
+  },
+  {
+   "n": 43,
+   "t": "Porém sabei isto: se o dono de casa soubesse a que hora da noite o ladrão viria, vigiaria, e não deixaria invadir a sua casa."
+  },
+  {
+   "n": 44,
+   "t": "Portanto também vós estai prontos, porque o Filho do homem virá na hora que não esperais."
+  },
+  {
+   "n": 45,
+   "t": "Pois quem é o servo fiel e prudente, ao qual o seu senhor pôs sobre os seus trabalhadores, para lhes dar alimento no tempo devido?"
+  },
+  {
+   "n": 46,
+   "t": "Feliz será aquele servo a quem, quando o seu senhor vier, achar fazendo assim."
+  },
+  {
+   "n": 47,
+   "t": "Em verdade vos digo que ele o porá sobre todos os seus bens."
+  },
+  {
+   "n": 48,
+   "t": "Porém se aquele servo mau disser em seu coração: “Meu senhor está demorando a chegar”,"
+  },
+  {
+   "n": 49,
+   "t": "e começar a espancar os seus companheiros de serviço, e a comer, e a beber com os beberrões,"
+  },
+  {
+   "n": 50,
+   "t": "o senhor daquele servo chegará num dia que ele não espera, e numa hora que ele não sabe,"
+  },
+  {
+   "n": 51,
+   "t": "e o despedaçará, e porá sua parte com os hipócritas; ali haverá pranto e ranger de dentes."
+  }
+ ],
+ "titulo": "Vigiai: a surpresa da volta inesperada",
+ "temas": [
+  "vigilância",
+  "fé",
+  "responsabilidade"
+ ],
+ "pergunta": "Você está preparado para o dia em que o Senhor chegará sem aviso?",
+ "entender": "Jesus alerta seus discípulos a permanecerem alertas porque \"não sabeis em que hora o vosso Senhor virá\" (Mateus 24.42). Ele usa a imagem de um ladrão que chega de noite: se o dono da casa soubesse a hora, vigiaria e impediria a invasão (v.43). O chamado é para que estejam prontos, pois \"o Filho do homem virá na hora que não esperais\" (v.44). Em seguida, Jesus conta a parábola dos servos: o fiel que cumpre bem sua tarefa será recompensado, enquanto o que se entrega ao ócio e à indulgência será castigado quando o senhor retornar inesperadamente (v.45‑51). O contexto imediato fala das tribulações finais e da vinda repentina do Reino, reforçando a necessidade de viver com expectativa constante.\n\nA mensagem central é a urgência de viver como se cada momento fosse o último antes do retorno de Cristo. Não se trata de adivinhação, mas de uma postura de prontidão, responsabilidade e fidelidade nas pequenas tarefas diárias, porque o retorno será inesperado e trará juízo.",
+ "ligar": {
+  "texto": "O \"Filho do homem\" mencionado é o próprio Cristo, que prometeu voltar para julgar os vivos e os mortos (cf. João 5.28‑29). A vigilância exigida aqui aponta para a necessidade de fé viva, aguardando o Salvador e respondendo ao seu chamado de servir com lealdade. Quando Jesus fala do servo fiel que receberá \"todos os seus bens\", ele revela a generosidade do Reino que recompensa a fidelidade (cf. Lucas 12.42‑44). Assim, a chamada à vigilância não é apenas prática, mas uma preparação para encontrar o Cristo na sua volta gloriosa.",
+  "selo": true
+ },
+ "viver": "A vida cotidiana oferece muitas oportunidades de exercer vigilância: cumprir com zelo nossas responsabilidades no trabalho, na família ou na igreja, como se cada ação fosse observada pelo Senhor. Quando sentimos vontade de procrastinar ou de nos acomodar, lembre‑nos que o retorno de Cristo pode acontecer a qualquer instante, e que seremos chamados a prestar contas. Portanto, escolha fazer o que é certo agora, sem esperar por um horário certo, e mantenha o coração pronto para o encontro com o Salvador.",
+ "guarde": "Esteja sempre pronto, pois o Senhor volta quando menos se espera.",
+ "ore": "Jesus, ao falar da vinda inesperada, desperta em mim o desejo de vigiar e servir fielmente, sem deixar que a preguiça ou o medo dominem meu coração.",
+ "quiz": {
+  "pergunta": "Qual é a consequência para o servo que se entrega ao ócio quando o senhor chega?",
+  "opcoes": [
+   "Ele receberá mais bens.",
+   "Ele será castigado e despedaçado.",
+   "Ele será perdoado."
+  ],
+  "certa": 1,
+  "explicacao": "Mateus 24.50‑51 descreve que o servo mau será surpreendido e \"o despedaçará\", mostrando a seriedade do juízo para quem não está pronto."
+ },
+ "refs": [
+  "João 5:28-29",
+  "Lucas 12:42-44",
+  "1 Tessalonicenses 5:2-6",
+  "Mateus 25:1-13"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-28T19:02:05.759Z",
+  "rounds": 1
+ }
+}

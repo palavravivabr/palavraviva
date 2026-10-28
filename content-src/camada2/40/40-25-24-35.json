@@ -1,0 +1,145 @@
+{
+ "id": "40-25-24-35",
+ "ref": "Mateus 25:24-35",
+ "book": "40",
+ "chapter": 25,
+ "verses": [
+  {
+   "n": 24,
+   "t": "Mas, chegando também o que havia recebido um talento, disse: “Senhor, eu te conhecia, que és homem duro, que colhes onde não semeaste, e ajuntas onde não espalhaste;"
+  },
+  {
+   "n": 25,
+   "t": "E eu, atemorizado, fui e escondi o teu talento na terra; eis aqui tens o que é teu”."
+  },
+  {
+   "n": 26,
+   "t": "Porém seu senhor lhe respondeu: “Servo mau e preguiçoso! Sabias que colho onde não semeei, e ajunto onde não espalhei."
+  },
+  {
+   "n": 27,
+   "t": "Devias, portanto, ter depositado o meu dinheiro com os banqueiros e, quando eu voltasse, receberia o que é meu com juros."
+  },
+  {
+   "n": 28,
+   "t": "Por isso, tirai dele o talento, e dai-o ao que tem dez talentos”."
+  },
+  {
+   "n": 29,
+   "t": "Pois a todo aquele que tiver, lhe será dado, e terá em abundância; porém ao que não tiver, até o que tem lhe será tirado."
+  },
+  {
+   "n": 30,
+   "t": "“E lançai o servo inútil às trevas de fora (ali haverá pranto e ranger de dentes)”."
+  },
+  {
+   "n": 31,
+   "t": "E quando o Filho do homem vier em sua glória, e todos os santos anjos com ele, então ele se assentará sobre o trono de sua glória."
+  },
+  {
+   "n": 32,
+   "t": "E serão ajuntadas diante dele todas as nações, e separará as pessoas umas das outras, assim como o pastor separa as ovelhas dos bodes."
+  },
+  {
+   "n": 33,
+   "t": "E porá as ovelhas à sua direita, porém os bodes à esquerda."
+  },
+  {
+   "n": 34,
+   "t": "Então o Rei dirá o rei aos que estiverem à sua direita: “Vinde, benditos de meu Pai! Herdai o Reino que está preparado para vós desde a fundação do mundo."
+  },
+  {
+   "n": 35,
+   "t": "Pois tive fome, e me destes de comer; tive sede, e me destes de beber; fui forasteiro, e me acolhestes;"
+  }
+ ],
+ "titulo": "O medo que esconde o dom",
+ "temas": [
+  "medo",
+  "responsabilidade",
+  "fidelidade",
+  "julgamento"
+ ],
+ "pergunta": "Você já deixou de usar um talento seu por medo do que os outros possam pensar?",
+ "entender": "Neste trecho, um servo que recebeu um talento não o investiu. Ele diz ao senhor: \"eu te conhecia, que és homem duro\" (Mateus 25:24). O medo o paralisou, levando-o a esconder o dinheiro na terra. O senhor o chama de \"servo mau e preguiçoso\" (Mateus 25:26), não por falta de resultado financeiro, mas por falta de confiança e ação.\n\nA cena continua com a chegada do Filho do Homem em sua glória (Mateus 25:31). Ele separará as pessoas como um pastor separa ovelhas de bodes. Aqueles à direita herdarão o Reino, não por merecimento próprio, mas porque agiram com compaixão: deram comida, água e acolhimento a quem precisava (Mateus 25:34-35).",
+ "ligar": {
+  "texto": "O texto aponta para o retorno de Jesus como Juiz e Rei. A separação baseia-se em como tratamos os \"menores\" da sociedade, identificando-os com Cristo. O evangelho é anunciado ao mostrar que a herança do Reino é um presente preparado desde a fundação do mundo, recebido por aqueles que, movidos pela graça, servem aos outros com amor concreto, ao contrário do servo paralisado pelo medo.",
+  "selo": true
+ },
+ "viver": "O servo escondeu o talento porque via o dono como duro. Talvez você também guarde seus dons, ideias ou afetos por medo de julgamento ou fracasso. Pense em uma área da sua vida onde você está \"enterrando\" algo por insegurança. O texto nos convida a agir com confiança no caráter de Deus, que é generoso. Sirva a alguém que esteja necessitando de comida, visita ou ajuda prática esta semana, sem esperar reconhecimento, apenas para cumprir seu chamado.",
+ "guarde": "O medo nos faz esconder, mas a fé em Cristo nos move a servir com coragem e amor.",
+ "ore": "Senhor, diante do teu trono de glória, confesso meu medo de usar meus dons. Ensina-me a tratar os necessitados como se eu mesmo estivesse ali. Dá-me coragem para servir com fidelidade, confiando em tua bondade e não na minha força.",
+ "quiz": {
+  "pergunta": "Por que o senhor chama o servo de \"mau e preguiçoso\"?",
+  "opcoes": [
+   "Porque ele agiu por medo e não investiu o que recebeu",
+   "Porque ele perdeu o dinheiro no jogo",
+   "Porque ele não deu esmolas aos pobres"
+  ],
+  "certa": 0,
+  "explicacao": "O texto mostra que a falha foi a inação motivada pelo medo e a falta de confiança no senhor, e não uma perda financeira ou falta de caridade direta."
+ },
+ "refs": [
+  "Lucas 19:13-16",
+  "Mateus 25:36-40",
+  "João 14:2-3"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-28T19:02:49.150Z",
+  "rounds": 1
+ }
+}

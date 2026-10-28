@@ -1,0 +1,145 @@
+{
+ "id": "40-25-1-12",
+ "ref": "Mateus 25:1-12",
+ "book": "40",
+ "chapter": 25,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Então o Reino dos céus será semelhante a dez virgens, que tomaram suas lâmpadas, e saíram ao encontro do noivo."
+  },
+  {
+   "n": 2,
+   "t": "E cinco delas eram prudentes, e cinco tolas."
+  },
+  {
+   "n": 3,
+   "t": "As tolas, quando tomaram as suas lâmpadas, não tomaram azeite consigo."
+  },
+  {
+   "n": 4,
+   "t": "Mas as prudentes tomaram azeite nos seus frascos, com as suas lâmpadas."
+  },
+  {
+   "n": 5,
+   "t": "O noivo demorou, por isso todas cochilaram e adormeceram."
+  },
+  {
+   "n": 6,
+   "t": "Mas à meia-noite houve um grito: “Eis que vem o noivo! Ide ao seu encontro!”."
+  },
+  {
+   "n": 7,
+   "t": "Então todas aquelas virgens se levantaram, e prepararam suas lâmpadas."
+  },
+  {
+   "n": 8,
+   "t": "E as tolas disseram às prudentes: “Dai-nos do vosso azeite, porque as nossas lâmpadas estão se apagando”."
+  },
+  {
+   "n": 9,
+   "t": "Mas as prudentes responderam: “ Não ,para que não falte a nós e a vós; em vez disso, ide aos vendedores, e comprai para vós mesmas”."
+  },
+  {
+   "n": 10,
+   "t": "Enquanto elas foram comprar, veio o noivo. As que estavam preparadas entraram com ele à festa do casamento, e fechou-se a porta."
+  },
+  {
+   "n": 11,
+   "t": "Depois vieram também as outras virgens, dizendo: “Senhor, Senhor, abre-nos!”"
+  },
+  {
+   "n": 12,
+   "t": "Mas ele respondeu: “Em verdade vos digo que não vos conheço”."
+  }
+ ],
+ "titulo": "A porta fechada e o azeite que faltava",
+ "temas": [
+  "vigilância",
+  "preparação",
+  "retorno de cristo",
+  "fé pessoal"
+ ],
+ "pergunta": "O que você tem feito para manter sua relação com Jesus viva enquanto Ele não volta?",
+ "entender": "A cena começa com dez mulheres que saíram para encontrar o noivo. Cinco delas levaram azeite extra para suas lâmpadas; as outras cinco não levaram. O noivo demorou, e todas dormiram. Quando o grito anunciou a chegada dele, as que tinham azeite acesas entraram na festa, mas as outras ficaram de fora.\n\nAqui, o Reino dos Céus é comparado à espera do noivo. O azeite representa a preparação interna de cada uma, algo que não podia ser emprestado de outra pessoa. A porta se fechou quando o noivo chegou, mostrando que há um momento definido para essa entrada. A história não trata de falta de esforço coletivo, mas da responsabilidade individual de estar pronta.\n\nO contexto é o ensino de Jesus sobre o fim dos tempos. Ele usa essa imagem para mostrar que a vinda dele é certa, mas o momento é desconhecido. A reação das tolas ao bater na porta e serem respondidas com 'não vos conheço' destaca a gravidade de estar despreparado no dia do encontro.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para a segunda vinda de Jesus. O noivo é Cristo, que voltará para receber os seus. A parábola nos lembra que a salvação e a comunhão com Deus não são herdadas por associação, mas exigem uma relação pessoal e contínua com Jesus. A porta fechada simboliza a finalidade do julgamento: no fim, só haverá uma oportunidade. O evangelho nos chama a viver em Cristo agora, com o coração preparado, para que, quando Ele voltar, possamos dizer que O conhecemos de verdade.",
+  "selo": true
+ },
+ "viver": "Pense na sua vida espiritual como uma lâmpada que precisa de azeite constante. Não basta ter participado de cultos ou lido a Bíblia no passado; é preciso manter o relacionamento vivo hoje. Que prática concreta você pode adotar esta semana para garantir que sua fé não fique apagada? Pode ser um tempo diário de oração, a leitura bíblica com atenção ou a comunhão com outros crentes. A preparação não é para impressionar, mas para estar pronto quando Jesus chegar.",
+ "guarde": "A porta da festa se fecha para quem não está preparado no momento do encontro.",
+ "ore": "Jesus, noivo que voltará, ensina-me a manter meu coração preparado. Como as virgens prudentes, quero ter o azeite da fé e do amor para que, quando o dia chegar, eu entre na Tua presença e não fique do lado de fora.",
+ "quiz": {
+  "pergunta": "Por que as virgens tolas pediram azeite às prudentes?",
+  "opcoes": [
+   "Porque as suas lâmpadas estavam se apagando.",
+   "Porque queriam dividir a festa com elas.",
+   "Porque o noivo havia demorado demais."
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz explicitamente que as tolas pediram azeite porque suas lâmpadas estavam se apagando, indicando que não tinham preparação suficiente para o momento do encontro."
+ },
+ "refs": [
+  "Mateus 24:42-44",
+  "Lucas 12:35-38",
+  "1 Tessalonicenses 4:16-17"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-28T19:01:26.194Z",
+  "rounds": 3
+ }
+}

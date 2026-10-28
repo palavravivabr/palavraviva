@@ -1,0 +1,136 @@
+{
+ "id": "40-23-11-20",
+ "ref": "Mateus 23:11-20",
+ "book": "40",
+ "chapter": 23,
+ "verses": [
+  {
+   "n": 11,
+   "t": "Porém o maior de vós será vosso servo."
+  },
+  {
+   "n": 12,
+   "t": "E o que a si mesmo se exaltar será humilhado; e o que a si mesmo se humilhar será exaltado."
+  },
+  {
+   "n": 13,
+   "t": "Mas ai de vós, escribas e fariseus, hipócritas! Porque fechais o Reino dos céus em frente das pessoas; pois nem vós entrais, nem permitis a entrada do que estão para entrar."
+  },
+  {
+   "n": 14,
+   "t": "Ai de vós, escribas e fariseus, hipócritas! Porque devorais as casas das viúvas, e isso com pretexto de longas orações; por isso recebereis mais grave condenação."
+  },
+  {
+   "n": 15,
+   "t": "Ai de vós, escribas e fariseus, hipócritas! Porque rodeais o mar e a terra para fazerdes um prosélito; e quando é feito, vós o tornais filho do inferno duas vezes mais que a vós."
+  },
+  {
+   "n": 16,
+   "t": "Ai de vós, guias cegos, que dizeis: “Qualquer um que jurar pelo templo, nada é; mas qualquer um que jurar pelo ouro do templo, devedor é”."
+  },
+  {
+   "n": 17,
+   "t": "Tolos e cegos! Pois qual é maior: o ouro, ou o templo que santifica o ouro?"
+  },
+  {
+   "n": 18,
+   "t": "Também dizeis : “Qualquer um que jurar pelo altar, nada é; mas quem jurar pela oferta que está sobre ele, devedor é”."
+  },
+  {
+   "n": 19,
+   "t": "Tolos e cegos! Pois qual é maior: a oferta, ou o altar que santifica a oferta?"
+  },
+  {
+   "n": 20,
+   "t": "Portanto, quem jurar pelo altar, jura por ele, e por tudo o que está sobre ele."
+  }
+ ],
+ "titulo": "Servir ou ser exaltado? O convite de Jesus",
+ "temas": [
+  "humildade",
+  "hipocrisia",
+  "justiça"
+ ],
+ "pergunta": "Você tem buscado ser maior pelos outros ou servir com o coração?",
+ "entender": "Jesus dirige palavras duras aos escribas e fariseus, lembrando que \"o maior de vós será vosso servo\" (Mateus 23:11) e que quem se exalta será humilhado, enquanto quem se humilha será exaltado (23:12). Ele denuncia que esses líderes fecham o Reino dos céus, devoram as casas das viúvas e transformam novos convertidos em \"filho do inferno\" (23:13‑15). Também critica a prática de jurar ao ouro ou à oferta, mostrando que o que santifica é o templo ou o altar, não o objeto material (23:16‑20).\n\nNesse discurso, Jesus expõe a contradição entre a aparência externa de religiosidade e a falta de justiça, misericórdia e fidelidade que Deus deseja. O contexto imediato (Mateus 23:8‑10) já havia alertado contra o desejo de títulos humanos, preparando o coração dos ouvintes para reconhecer que a verdadeira autoridade vem de servir.",
+ "ligar": {
+  "texto": "Embora o texto não mencione Cristo diretamente, o chamado ao serviço humilde reflete o exemplo de Jesus, que se fez servo e deu a sua vida (Marcos 10:45). A denúncia de que os líderes fecham o Reino aponta para a necessidade de abrir caminho ao evangelho, pois somente em Cristo o Reino pode ser entrado (João 10:9). Assim, a humildade e a justiça que Jesus ensina preparam o coração para receber a graça que só Ele oferece.",
+  "selo": false
+ },
+ "viver": "A crítica de Jesus ao juramento vazio nos alerta para não confiar em símbolos externos como garantia de integridade. Na prática, isso significa que, ao fazer promessas, devemos ser sinceros e deixar que nossa palavra reflita o caráter de Deus, não apenas rituais religiosos. Quando perceber que alguém usa a religião como máscara, pergunte a si mesmo se está servindo a Deus de verdade ou apenas exibindo santidade.",
+ "guarde": "A verdadeira grandeza nasce do serviço humilde, não da autopromoção.",
+ "ore": "Nas palavras de Jesus, conceda-me a graça de abandonar a hipocrisia e viver como servo humilde, colocando justiça e misericórdia acima de aparências.",
+ "quiz": {
+  "pergunta": "O que Jesus disse que acontece com quem se exalta?",
+  "opcoes": [
+   "Será humilhado",
+   "Será recompensado",
+   "Será reconhecido"
+  ],
+  "certa": 0,
+  "explicacao": "Em Mateus 23:12 Jesus afirma que quem se exalta será humilhado, contrastando com a atitude dos fariseus que se vangloriam."
+ },
+ "refs": [
+  "Marcos 10:43-45",
+  "João 10:9",
+  "Tiago 2:14-17"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-28T19:01:44.853Z",
+  "rounds": 4
+ }
+}

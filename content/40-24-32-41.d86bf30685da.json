@@ -1,0 +1,137 @@
+{
+ "id": "40-24-32-41",
+ "ref": "Mateus 24:32-41",
+ "book": "40",
+ "chapter": 24,
+ "verses": [
+  {
+   "n": 32,
+   "t": "Aprendei a parábola da figueira: “Quando os seus ramos já ficam verdes, e as folhas brotam, sabeis que o verão está perto”."
+  },
+  {
+   "n": 33,
+   "t": "Assim também vós, quando virdes todas estas coisas, sabei que já está perto, às portas."
+  },
+  {
+   "n": 34,
+   "t": "Em verdade vos digo que esta geração não passará, até que todas estas coisas aconteçam."
+  },
+  {
+   "n": 35,
+   "t": "O céu e a terra passarão, mas minhas palavras de maneira nenhuma passarão."
+  },
+  {
+   "n": 36,
+   "t": "Porém daquele dia e hora, ninguém sabe, nem os anjos do céu, a não ser meu Pai somente."
+  },
+  {
+   "n": 37,
+   "t": "Assim como foram os dias de Noé, assim também será a vinda do Filho do homem."
+  },
+  {
+   "n": 38,
+   "t": "Pois, assim como nos dias antes do dilúvio comiam, bebiam, casavam, e davam-se em casamento, até o dia em que Noé entrou na arca;"
+  },
+  {
+   "n": 39,
+   "t": "e não sabiam, até que veio o dilúvio, e levou todos, assim também será a vinda do Filho do homem."
+  },
+  {
+   "n": 40,
+   "t": "Naquela hora dois estarão no campo; um será tomado, e o outro será deixado."
+  },
+  {
+   "n": 41,
+   "t": "Duas estarão moendo em um moinho; uma será tomada, e a outra será deixada."
+  }
+ ],
+ "titulo": "O verão que chega sem aviso",
+ "temas": [
+  "vigilância",
+  "segunda vinda",
+  "sinais",
+  "esperança"
+ ],
+ "pergunta": "Por que Jesus comparou a sua volta ao brotar das folhas da figueira?",
+ "entender": "Jesus usa a natureza para falar de algo espiritual. Assim como o verde nos ramos indica que o verão se aproxima, certos acontecimentos mostram que a volta de Cristo é real. Ele afirma com clareza: \"já está perto, às portas\".\n\nMas há um mistério que impede cálculos humanos: \"daquele dia e hora, ninguém sabe\". Nem os anjos sabem. Isso nos livra da ansiedade de prever datas e nos convida a viver no presente.\n\nA comparação com Noé é crucial. As pessoas viviam rotinas normais—comer, beber, casar—sem perceber o perigo. A surpresa não veio por falta de aviso, mas por falta de atenção. A vinda do Filho do homem será assim: repentina para quem está distraído.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para a autoridade de Jesus sobre o tempo. Ele é o \"Filho do homem\" que virá com poder. A salvação não é apenas um evento passado, mas uma esperança futura que transforma o hoje. Confiamos na soberania de Deus sobre a história, aguardando o dia em que tudo será consumado em Cristo.",
+  "selo": true
+ },
+ "viver": "A rotina pode nos tornar cegos para a realidade espiritual. Assim como as pessoas nos dias de Noé continuavam suas vidas normais, podemos estar tão ocupados com o trabalho e as preocupações diárias que esquecemos de viver para Deus. Vigiar não é ficar ansioso, mas manter o coração aberto e o foco em Jesus, vivendo cada dia com propósito, pronto para encontrar o Senhor em qualquer momento.",
+ "guarde": "A certeza da vinda de Cristo deve nos fazer viver com atenção, não com medo.",
+ "ore": "Pai, assim como os ramos da figueira anunciam o verão, que minha vida anuncie a Tua presença. Perdoa-me pela distração da rotina. Dá-me olhos para ver a Tua obra e coração vigilante para a Tua volta, até que eu Te veja face a face.",
+ "quiz": {
+  "pergunta": "Segundo Mateus 24:36, quem sabe o dia e a hora da vinda de Cristo?",
+  "opcoes": [
+   "Os profetas e apóstolos",
+   "Os anjos do céu",
+   "Somente o Pai"
+  ],
+  "certa": 2,
+  "explicacao": "O texto afirma explicitamente que nem os anjos sabem, apenas o Pai. Isso enfatiza a soberania divina sobre o tempo."
+ },
+ "refs": [
+  "Lucas 17:26-30",
+  "Marcos 13:32-37",
+  "1 Pedro 3:20"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-28T18:57:57.338Z",
+  "rounds": 2
+ }
+}
