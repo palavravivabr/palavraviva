@@ -332,36 +332,43 @@
   function planoCard() {
     var c = $('#planoCard'); if (!c) return;
     planoGet().then(function (p) {
-      var d = p ? planoDia(planoLista(), p) : null;
-      $('#planoTxt').textContent = !p ? PLANO.nome : d.fim ? 'Plano concluído' : PLANO.nome + ' · dia ' + d.dia + ' de ' + Math.ceil(planoLista().length / PLANO.porDia);
+      var l = planoLista(), d = p ? planoDia(l, p) : null, n = p ? l.filter(function (it) { return planoFeito(p, it); }).length : 0, tot = Math.ceil(l.length / PLANO.porDia);
+      $('#planoTxt').textContent = !p ? PLANO.nome : d.fim ? 'Plano concluído' : PLANO.nome + ' · dia ' + d.dia + ' de ' + tot;
       $('#planoAcao').textContent = p ? 'Abrir' : 'Começar';
+      $('#planoDiaN').textContent = !p ? '30' : d.fim ? '✓' : String(d.dia);
+      c.style.setProperty('--p', Math.floor(n / l.length * 100) + '%');
       c.hidden = false; c.onclick = function () { go({ v: 'plano' }); };
     });
   }
   async function viewPlano() {
     showScreen('plano');
-    var body = clear($('#planoBody')), p = await planoGet(), l = planoLista();
+    var body = clear($('#planoBody')), p = await planoGet(), l = planoLista(), tot = Math.ceil(l.length / PLANO.porDia);
+    function anel(pct, big, small) { return h('div', { class: 'pring', style: '--p:' + pct + '%', 'aria-hidden': 'true' }, [h('b', { text: big }), h('small', { text: small })]); }
+    function topo(pct, big, small, titulo, sub) { return h('div', { class: 'phero' }, [anel(pct, big, small), h('div', { class: 'ptxt' }, [h('span', { class: 'eyebrow', text: 'Plano de leitura' }), h('h2', { text: titulo }), h('p', { text: sub })])]); }
     if (!p) {
-      body.appendChild(h('div', { class: 'planohero' }, [h('h2', { text: PLANO.nome }),
-        h('p', { text: 'Os quatro Evangelhos, Mateus, Marcos, Lucas e João, em 30 dias, com cerca de 3 capítulos por dia. Leia no seu ritmo: se pular um dia, o plano continua de onde você parou. O progresso fica só neste aparelho.' }),
-        h('button', { class: 'btn', type: 'button', text: 'Começar o plano', onclick: function () { kvSet('plano', { id: PLANO.id, feitos: {} }).then(viewPlano); } })]));
+      body.appendChild(topo(0, '30', 'dias', PLANO.nome, 'Mateus, Marcos, Lucas e João, com cerca de 3 capítulos por dia.'));
+      body.appendChild(h('p', { class: 'pnota', text: 'Leia no seu ritmo: se pular um dia, o plano continua de onde você parou. O progresso fica só neste aparelho.' }));
+      body.appendChild(h('button', { class: 'btn', type: 'button', text: 'Começar o plano', onclick: function () { kvSet('plano', { id: PLANO.id, feitos: {} }).then(viewPlano); } }));
       return;
     }
     var n = l.filter(function (it) { return planoFeito(p, it); }).length, pct = Math.floor(n / l.length * 100), d = planoDia(l, p);
-    body.appendChild(h('div', { class: 'planohero' }, [h('h2', { text: PLANO.nome }), h('p', { text: n + ' de ' + l.length + ' capítulos lidos · ' + pct + '%' }), h('div', { class: 'pbar', 'aria-hidden': 'true' }, [h('i', { style: 'width:' + pct + '%' })])]));
-    if (d.fim) body.appendChild(h('p', { class: 'lead', text: 'Você terminou os quatro Evangelhos. Que a Palavra continue a falar com você.' }));
+    body.appendChild(topo(pct, d.fim ? '✓' : String(d.dia), d.fim ? 'fim' : 'de ' + tot, d.fim ? 'Plano concluído' : 'Dia ' + d.dia + ' de ' + tot, n + ' de ' + l.length + ' capítulos · ' + pct + '%'));
+    if (d.fim) body.appendChild(h('p', { class: 'pnota', text: 'Você terminou os quatro Evangelhos. Que a Palavra continue a falar com você.' }));
     else {
-      body.appendChild(h('h3', { class: 'planosec', text: 'Leitura de hoje (dia ' + d.dia + ')' }));
-      l.slice((d.dia - 1) * PLANO.porDia, d.dia * PLANO.porDia).forEach(function (it) {
-        var feito = planoFeito(p, it), est = passagesOf(it.b, it.c);
-        var linha = h('div', { class: 'prow' }, [
-          h('button', { class: 'pler', type: 'button', onclick: function () { go({ v: 'read', b: it.b, c: it.c }); } }, [h('strong', { text: it.n + ' ' + it.c }), h('span', { text: feito ? 'Lido' : 'Toque para ler' })]),
-          est.length ? h('button', { class: 'pest', type: 'button', text: 'Estudo', onclick: function () { go({ v: 'study', id: est[0].id }); } }) : null,
-          h('button', { class: 'pok', type: 'button', 'aria-pressed': feito ? 'true' : 'false', 'aria-label': 'Marcar ' + it.n + ' ' + it.c + ' como lido', text: '✓', onclick: function () { planoMarcar(it.b, it.c).then(viewPlano); } })]);
-        body.appendChild(linha);
+      body.appendChild(h('h3', { class: 'planosec', text: 'Leitura de hoje' }));
+      var ol = h('ol', { class: 'ptl' }), achou = false;
+      l.slice((d.dia - 1) * PLANO.porDia, d.dia * PLANO.porDia).forEach(function (it, k) {
+        var feito = planoFeito(p, it), est = passagesOf(it.b, it.c), atual = !feito && !achou; if (atual) achou = true;
+        ol.appendChild(h('li', { class: 'pstep' + (feito ? ' feito' : atual ? ' atual' : '') }, [
+          h('button', { class: 'pdot', type: 'button', 'aria-pressed': feito ? 'true' : 'false', 'aria-label': 'Marcar ' + it.n + ' ' + it.c + ' como lido', text: feito ? '✓' : String(k + 1), onclick: function () { planoMarcar(it.b, it.c).then(viewPlano); } }),
+          h('div', { class: 'pbody' }, [
+            h('button', { class: 'pler', type: 'button', onclick: function () { go({ v: 'read', b: it.b, c: it.c }); } }, [h('strong', { text: it.n + ' ' + it.c }), h('span', { text: feito ? 'Lido' : atual ? 'Próxima leitura' : 'Toque para ler' })]),
+            est.length ? h('button', { class: 'pest', type: 'button', text: 'Ver o estudo ›', onclick: function () { go({ v: 'study', id: est[0].id }); } }) : null])]));
       });
+      body.appendChild(ol);
+      body.appendChild(h('p', { class: 'pnota', text: 'Toque no círculo para marcar um capítulo como lido. Ao chegar ao fim do texto, ele é marcado sozinho.' }));
     }
-    body.appendChild(h('button', { class: 'btn alt', type: 'button', style: 'margin-top:18px', text: 'Reiniciar o plano', onclick: function () { if (window.confirm('Apagar o progresso deste plano e começar de novo?')) kvSet('plano', null).then(viewPlano); } }));
+    body.appendChild(h('button', { class: 'plink', type: 'button', text: 'Reiniciar o plano', onclick: function () { if (window.confirm('Apagar o progresso deste plano e começar de novo?')) kvSet('plano', null).then(viewPlano); } }));
   }
   function actRead() { kvGet('onde-parei').then(function (last) { var f = firstAvailable(); if (last && bookOf(last.book)) go({ v: 'read', b: last.book, c: last.chapter }); else if (f) go({ v: 'read', b: f.book, c: f.chapter }); else toast('Ainda não há texto bíblico neste aparelho.'); }); }
   function actStudy() { var f = featured(); if (f) go({ v: 'study', id: f.id }); else toast('Ainda não há ensino publicado neste aparelho.'); }
