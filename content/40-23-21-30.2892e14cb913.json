@@ -1,0 +1,137 @@
+{
+ "id": "40-23-21-30",
+ "ref": "Mateus 23:21-30",
+ "book": "40",
+ "chapter": 23,
+ "verses": [
+  {
+   "n": 21,
+   "t": "E quem jurar pelo templo, jura por ele, e por aquele que nele habita."
+  },
+  {
+   "n": 22,
+   "t": "E quem jurar pelo Céu, jura pelo trono de Deus, e por aquele que sobre ele está sentado."
+  },
+  {
+   "n": 23,
+   "t": "Ai de vós, escribas e fariseus, hipócritas! Porque dais o dízimo da hortelã, do endro, e do cominho, e desprezais o que é mais importante da Lei: a justiça, a misericórdia, e a fidelidade; estas coisas devem ser feitas, sem se desprezar as outras."
+  },
+  {
+   "n": 24,
+   "t": "Guias cegos, que coais um mosquito, e engolis um camelo!"
+  },
+  {
+   "n": 25,
+   "t": "Ai de vós, escribas e fariseus, hipócritas! Porque limpais o exterior do copo ou do prato, mas por dentro estão cheios de extorsão e cobiça."
+  },
+  {
+   "n": 26,
+   "t": "Fariseu cego! Limpa primeiro o interior do copo e do prato, para que também o exterior deles fique limpo."
+  },
+  {
+   "n": 27,
+   "t": "Ai de vós, escribas e fariseus, hipócritas! Porque sois semelhantes aos sepulcros caiados, que por fora realmente parecem belos, mas por dentro estão cheios de ossos de cadáveres, e de toda imundícia."
+  },
+  {
+   "n": 28,
+   "t": "Assim também vós, por fora, realmente pareceis justos às pessoas, mas por dentro estais cheios de hipocrisia e de injustiça."
+  },
+  {
+   "n": 29,
+   "t": "Ai de vós, escribas e fariseus, hipócritas! Porque edificais os sepulcros dos profetas, adornais os monumentos dos justos,"
+  },
+  {
+   "n": 30,
+   "t": "e dizeis: “Se estivéssemos nos dias dos nossos pais, nunca teríamos sido cúmplices deles quando derramaram o sangue dos profetas”."
+  }
+ ],
+ "titulo": "O perigo de limpar só o exterior",
+ "temas": [
+  "hipocrisia",
+  "justiça",
+  "misericórdia",
+  "coração"
+ ],
+ "pergunta": "Quanto tempo você gasta cuidando da aparência da sua vida espiritual em vez do coração?",
+ "entender": "Em Mateus 23, Jesus confronta os líderes religiosos que eram rigorosos em detalhes pequenos, como o dízimo de ervas, mas negligenciavam o essencial: \"a justiça, a misericórdia, e a fidelidade\". Ele usa imagens fortes para mostrar o contraste: eram como \"guias cegos\" que coavam mosquitos mas engoliam camelos, ou como \"sepulcros caiados\", bonitos por fora, mas cheios de imundície por dentro. O problema não era a aparência, mas a falta de transformação real no caráter.\n\nJesus aponta que eles honravam os profetas no passado, mas se recusavam a mudar seu comportamento presente, revelando uma incoerência profunda. A religião deles era uma fachada. Ele não condenava os rituais em si, mas a atitude de usar a obediência externa como desculpa para não tratar o coração. A verdadeira pureza começa por dentro, afetando como tratamos os outros e como agimos em situações onde ninguém está olhando.",
+ "ligar": {
+  "texto": "Jesus expõe a hipocrisia para mostrar que Deus busca um coração sincero, não apenas rituais. Ele mesmo viveu a justiça, a misericórdia e a fidelidade em plenitude, sem hipocrisia. Ao morrer na cruz, Jesus se tornou a justiça que nos falta, lavando nosso interior da imundícia do pecado. O evangelho nos chama a uma transformação real, guiada pelo Espírito, e não a uma performance religiosa vazia.",
+  "selo": false
+ },
+ "viver": "A imagem do copo sujo por dentro nos convida a uma inspeção honesta. Talvez você se sinta orgulhoso de suas boas ações públicas, mas sinta um vazio ou amargura em momentos de privacidade. Isso indica que o \"interior\" precisa de limpeza. Em vez de tentar parecer perfeito para os outros, busque um ato concreto de misericórdia ou justiça hoje, mesmo que seja pequeno e ninguém saiba. Deixe que a obediência venha do desejo de agradar a Deus, não da necessidade de aprovação humana.",
+ "guarde": "Deus olha para o interior do copo, não apenas para a limpeza do exterior.",
+ "ore": "Jesus, Tu viste a hipocrisia dos fariseus e a minha também. Lava meu coração da imundícia do pecado. Ensina-me a viver a justiça e a misericórdia de forma autêntica, sem máscaras. Que minha vida reflita a verdade do Teu Reino.",
+ "quiz": {
+  "pergunta": "Quais três coisas Jesus disse que os fariseus desprezavam?",
+  "opcoes": [
+   "Justiça, misericórdia e fidelidade",
+   "Dízimo, jejum e oração",
+   "Leitura, estudo e memória"
+  ],
+  "certa": 0,
+  "explicacao": "No versículo 23, Jesus lista explicitamente a justiça, a misericórdia e a fidelidade como o que é mais importante na Lei, o qual eles desprezavam."
+ },
+ "refs": [
+  "Isaías 29:13",
+  "Marcos 7:6",
+  "1 Samuel 16:7"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-28T13:05:12.554Z",
+  "rounds": 2
+ }
+}

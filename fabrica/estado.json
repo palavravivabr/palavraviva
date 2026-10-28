@@ -1959,11 +1959,13 @@
   },
   "40-23-11-20": {
    "execucoes": 0,
-   "ultimo": "erro: groq-qwen: 429 {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on output tokens per minute (OTPM): Limit 1"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   },
   "40-23-21-30": {
    "execucoes": 0,
-   "ultimo": "erro: groq-qwen: 429 {\"error\":{\"message\":\"Request too large for model `qwen/qwen3.8-27b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on output tokens per minute (OTPM): Limit 1"
+   "ultimo": "automático: abertura_repetida:entender:42-6-40-49, abertura_repetida:viver:43-4-12-22",
+   "estado": "pronto",
+   "titulo": "O perigo de limpar só o exterior"
   },
   "40-23-31-39": {
    "execucoes": 0,
@@ -1979,7 +1981,9 @@
   },
   "40-24-11-20": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: CROSS_SECTION_CONSISTENCY: A seção 'Entender' afirma que Jesus está falando no trecho, enquanto a seção 'Ligar ao Evangelho' diz contraditoriamente que o texto não menciona Jesus diretamente.",
+   "estado": "pronto",
+   "titulo": "Perseverar quando o amor esfria"
   },
   "40-24-21-31": {
    "execucoes": 0,
@@ -2020,24 +2024,24 @@
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 664,
-   "entrada": 1701411,
-   "saida": 589436
+   "chamadas": 672,
+   "entrada": 1724062,
+   "saida": 596468
   },
   "groq-qwen": {
-   "chamadas": 659,
-   "entrada": 1618032,
-   "saida": 534863
+   "chamadas": 666,
+   "entrada": 1637330,
+   "saida": 540694
   },
   "gemini": {
-   "chamadas": 544,
-   "entrada": 1763721,
-   "saida": 702826
+   "chamadas": 548,
+   "entrada": 1776875,
+   "saida": 711884
   },
   "cloudflare": {
-   "chamadas": 339,
-   "entrada": 1181152,
-   "saida": 125769
+   "chamadas": 341,
+   "entrada": 1188217,
+   "saida": 126511
   },
   "mistral": {
    "chamadas": 0,
