@@ -18438,6 +18438,20 @@
       ]
     },
     {
+      "id": "40-18-13-23",
+      "ref": "Mateus 18:13-23",
+      "book": "40",
+      "chapter": 18,
+      "path": "content/40-18-13-23.27afbefe898c.json",
+      "titulo": "Perdoar sem contar: a matemática de Jesus",
+      "temas": [
+        "perdão",
+        "restauração",
+        "igreja",
+        "disciplina"
+      ]
+    },
+    {
       "id": "40-18-24-35",
       "ref": "Mateus 18:24-35",
       "book": "40",
@@ -18591,6 +18605,35 @@
         "autoridade",
         "templo",
         "milagre"
+      ]
+    },
+    {
+      "id": "40-21-24-35",
+      "ref": "Mateus 21:24-35",
+      "book": "40",
+      "chapter": 21,
+      "path": "content/40-21-24-35.e80f4f7df2fa.json",
+      "titulo": "A pergunta que calou os líderes religiosos",
+      "temas": [
+        "autoridade",
+        "arrependimento",
+        "obediência",
+        "hipocrisia"
+      ]
+    },
+    {
+      "id": "40-21-36-46",
+      "ref": "Mateus 21:36-46",
+      "book": "40",
+      "chapter": 21,
+      "path": "content/40-21-36-46.a47a6a12c105.json",
+      "titulo": "O herdeiro que os lavradores rejeitaram",
+      "temas": [
+        "rejeição",
+        "herança",
+        "julgamento",
+        "graça",
+        "cristo"
       ]
     },
     {
@@ -31038,6 +31081,13 @@
       "kind": "camada2"
     },
     {
+      "path": "content/40-18-13-23.27afbefe898c.json",
+      "sha256": "27afbefe898c4599f132a387c4920e00185b56d48d239e379646c292b3130f67",
+      "size": 6100,
+      "precache": false,
+      "kind": "camada2"
+    },
+    {
       "path": "content/40-18-24-35.689293a79c29.json",
       "sha256": "689293a79c29a73899399bcb21d325ce73487da64a30f17dd8574f1187fe3bbb",
       "size": 5646,
@@ -31111,6 +31161,20 @@
       "path": "content/40-21-13-23.e9cf68a37406.json",
       "sha256": "e9cf68a37406dee3fdd1de95e641f318141a23e555f8001612a54235890b4ec6",
       "size": 6003,
+      "precache": false,
+      "kind": "camada2"
+    },
+    {
+      "path": "content/40-21-24-35.e80f4f7df2fa.json",
+      "sha256": "e80f4f7df2fa4e5bd532f77e0e53635f5d08103bc816edadb49f9cabe780e510",
+      "size": 6898,
+      "precache": false,
+      "kind": "camada2"
+    },
+    {
+      "path": "content/40-21-36-46.a47a6a12c105.json",
+      "sha256": "a47a6a12c105bcb164f18de0ee0945e01cbe126e86c2ec49932ad3306193d42e",
+      "size": 5830,
       "precache": false,
       "kind": "camada2"
     },

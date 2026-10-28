@@ -1,0 +1,142 @@
+{
+ "id": "40-21-36-46",
+ "ref": "Mateus 21:36-46",
+ "book": "40",
+ "chapter": 21,
+ "verses": [
+  {
+   "n": 36,
+   "t": "Outra vez enviou outros servos, em maior número que os primeiros, mas fizeram-lhes o mesmo."
+  },
+  {
+   "n": 37,
+   "t": "E por último lhes enviou o seu filho, dizendo: “Respeitarão ao meu filho”."
+  },
+  {
+   "n": 38,
+   "t": "Mas quando os lavradores viram o filho, disseram entre si: “Este é o herdeiro. Venhamos matá-lo, e tomemos a sua herança”."
+  },
+  {
+   "n": 39,
+   "t": "Então o agarraram, lançaram-no para fora da vinha, e o mataram."
+  },
+  {
+   "n": 40,
+   "t": "Ora, quando o senhor da vinha chegar, o que fará com aqueles lavradores?"
+  },
+  {
+   "n": 41,
+   "t": "Eles lhe responderam: Aos maus dará uma morte má, e arrendará a vinha a outros lavradores, que lhe deem os frutos em seus tempos de colheita ."
+  },
+  {
+   "n": 42,
+   "t": "Jesus lhes disse: Nunca lestes nas Escrituras: “A pedra que os construtores rejeitaram, essa se tornou cabeça da esquina. Isto foi feito pelo Senhor, e é maravilhoso aos nossos olhos”? Salmos 118:22,23"
+  },
+  {
+   "n": 43,
+   "t": "Portanto eu vos digo que o reino de Deus será tirado de vós, e será dado a um povo que produza os frutos dele."
+  },
+  {
+   "n": 44,
+   "t": "E quem cair sobre esta pedra será quebrado; mas sobre quem ela cair, ela o tornará em pó."
+  },
+  {
+   "n": 45,
+   "t": "Quando os chefes dos sacerdotes e os fariseus ouviram estas suas parábolas, entenderam que Jesus estava falando deles."
+  },
+  {
+   "n": 46,
+   "t": "E procuravam prendê-lo, mas temeram as multidões, pois elas o consideravam profeta."
+  }
+ ],
+ "titulo": "O herdeiro que os lavradores rejeitaram",
+ "temas": [
+  "rejeição",
+  "herança",
+  "julgamento",
+  "graça",
+  "cristo"
+ ],
+ "pergunta": "O que os lavradores da parábola de Jesus fizeram com o filho do dono da vinha?",
+ "entender": "Jesus continua a parábola da vinha. O dono enviou vários servos para receber os frutos, mas os lavradores os maltrataram. Por fim, ele enviou seu filho, esperando que o respeitassem. Mas os lavradores, vendo o herdeiro, conspiraram para matá-lo e tomar a herança. Eles agarraram o filho, lançaram-no para fora da vinha e o mataram.\n\nJesus pergunta aos líderes religiosos o que o dono fará. Eles respondem que destruirá os maus e dará a vinha a outros. Jesus então cita o Salmo 118:22, dizendo que a pedra rejeitada se tornou a cabeça da esquina. Ele anuncia que o reino de Deus será tirado deles e dado a um povo que produza frutos. Aqueles que caírem sobre essa pedra serão quebrados, mas sobre quem ela cair, será reduzida a pó.",
+ "ligar": {
+  "texto": "Esta parábola é uma profecia direta sobre a morte de Jesus. Os 'lavradores' representam os líderes religiosos que rejeitaram Jesus, o Filho de Deus, por inveja e ganância. A 'pedra rejeitada' é Cristo, que, embora crucificado, se tornou a fundação da igreja. O texto aponta para a cruz e a ressurreição: Jesus foi entregue à morte, mas Deus o exaltou, oferecendo a salvação a todos que O aceitam.",
+  "selo": true
+ },
+ "viver": "A parábola nos alerta sobre a tendência humana de rejeitar o que Deus nos oferece por medo ou orgulho. Assim como os lavradores planejaram matar o herdeiro, podemos, por vezes, resistir à vontade de Deus em nossas vidas, querendo controlar tudo por conta própria. A aplicação é examinar se estamos aceitando Jesus como Senhor, permitindo que Ele transforme nossa vida, ou se estamos 'matando' Sua voz em nós para manter nosso próprio controle. A graça nos chama a render a herança de nossa vida a Deus.",
+ "guarde": "A pedra que os construtores rejeitaram se tornou a cabeça da esquina.",
+ "ore": "Lavradores da vinha, perdoai-me por ter desejado controlar a herança que é Tua. Que eu pare de rejeitar o Teu Filho e aceite a pedra que os construtores desprezaram como fundamento da minha vida. Amém.",
+ "quiz": {
+  "pergunta": "Quem os lavradores da parábola mataram?",
+  "opcoes": [
+   "Os servos enviados primeiro",
+   "O filho do dono da vinha",
+   "O dono da vinha"
+  ],
+  "certa": 1,
+  "explicacao": "O texto diz explicitamente que, por último, o dono enviou seu filho, e os lavradores o agarraram e o mataram para tomar a herança."
+ },
+ "refs": [
+  "Marcos 12:1-12",
+  "Lucas 20:9-19",
+  "Atos 4:11"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-28T03:57:48.778Z",
+  "rounds": 2
+ }
+}

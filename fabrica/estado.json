@@ -1857,7 +1857,9 @@
   },
   "40-18-13-23": {
    "execucoes": 2,
-   "ultimo": "gemini: PRAYER_FIDELITY: A seção de oração está formulada incorretamente ao dirigir-se a Pedro em vez de ser uma oração dirigida a Deus."
+   "ultimo": "gemini: LANGUAGE_CLARITY: Há um erro de digitação na seção VIVER, onde foi escrito 'Perdar' em vez de 'Perdoar'.",
+   "estado": "pronto",
+   "titulo": "Perdoar sem contar: a matemática de Jesus"
   },
   "40-18-24-35": {
    "execucoes": 0,
@@ -1915,11 +1917,15 @@
   },
   "40-21-24-35": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "A pergunta que calou os líderes religiosos"
   },
   "40-21-36-46": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:ore:42-7-31-40",
+   "estado": "pronto",
+   "titulo": "O herdeiro que os lavradores rejeitaram"
   },
   "40-22-1-12": {
    "execucoes": 0,
@@ -1952,28 +1958,36 @@
   "40-23-31-39": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-24-1-10": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-24-11-20": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 643,
-   "entrada": 1641815,
-   "saida": 570554
+   "chamadas": 650,
+   "entrada": 1662014,
+   "saida": 576597
   },
   "groq-qwen": {
-   "chamadas": 638,
-   "entrada": 1559810,
-   "saida": 517429
+   "chamadas": 644,
+   "entrada": 1576812,
+   "saida": 522275
   },
   "gemini": {
-   "chamadas": 530,
-   "entrada": 1718172,
-   "saida": 685360
+   "chamadas": 534,
+   "entrada": 1731452,
+   "saida": 688875
   },
   "cloudflare": {
-   "chamadas": 329,
-   "entrada": 1145897,
-   "saida": 122059
+   "chamadas": 332,
+   "entrada": 1156669,
+   "saida": 123172
   },
   "mistral": {
    "chamadas": 0,

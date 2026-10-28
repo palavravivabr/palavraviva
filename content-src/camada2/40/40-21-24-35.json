@@ -1,0 +1,145 @@
+{
+ "id": "40-21-24-35",
+ "ref": "Mateus 21:24-35",
+ "book": "40",
+ "chapter": 21,
+ "verses": [
+  {
+   "n": 24,
+   "t": "Jesus lhes respondeu: Eu também vos farei uma pergunta. Se vós a responderdes a mim, também eu vos responderei com que autoridade faço isto."
+  },
+  {
+   "n": 25,
+   "t": "De onde era o batismo de João? Do céu, ou dos seres humanos?E eles pensaram entre si mesmos, dizendo: Se dissermos: “Do céu”, ele nos dirá: “Por que, então, não crestes nele?"
+  },
+  {
+   "n": 26,
+   "t": "Mas se dissermos: “Dos seres humanos”, temos medo da multidão, pois todos consideram João como profeta."
+  },
+  {
+   "n": 27,
+   "t": "Então responderam a Jesus: Não sabemos. E ele lhes disse: Nem eu vos digo com que autoridade faço isto."
+  },
+  {
+   "n": 28,
+   "t": "Mas que vos parece? Um homem tinha dois filhos. Aproximando-se do primeiro, disse: “Filho, vai hoje trabalhar na minha vinha.”"
+  },
+  {
+   "n": 29,
+   "t": "Porém ele respondeu: “Não quero”; mas depois se arrependeu, e foi."
+  },
+  {
+   "n": 30,
+   "t": "E, aproximando-se do segundo, disse da mesma maneira. E ele respondeu: “Eu vou , senhor”, mas não foi."
+  },
+  {
+   "n": 31,
+   "t": "Qual dos dois fez a vontade do pai? Eles lhe responderam: O primeiro. Jesus lhes disse: Em verdade vos digo que os publicanos e as prostitutas estão indo adiante de vós ao Reino de Deus."
+  },
+  {
+   "n": 32,
+   "t": "Pois João veio a vós mesmos no caminho de justiça, mas não crestes nele; enquanto que os publicanos e as prostitutas nele creram. Vós, porém, mesmo tendo visto isto , nem assim vos arrependestes, a fim de nele crer."
+  },
+  {
+   "n": 33,
+   "t": "Ouvi outra parábola. Havia um homem, dono de uma propriedade. Ele plantou uma vinha, cercou-a, fundou nela uma prensa de uvas, e construiu uma torre. Depois a arrendou a uns lavradores, e partiu-se para um lugar distante."
+  },
+  {
+   "n": 34,
+   "t": "Quando chegou o tempo dos frutos, enviou seus servos aos lavradores, para receberem os frutos que a ele pertenciam."
+  },
+  {
+   "n": 35,
+   "t": "Mas os lavradores tomaram os seus servos, e feriram um, mataram outro, e apedrejaram outro."
+  }
+ ],
+ "titulo": "A pergunta que calou os líderes religiosos",
+ "temas": [
+  "autoridade",
+  "arrependimento",
+  "obediência",
+  "hipocrisia"
+ ],
+ "pergunta": "Por que a resposta certa à pergunta de Jesus parecia impossível para os líderes?",
+ "entender": "Em Mateus 21, os chefes dos sacerdotes e anciãos confrontam Jesus no templo, perguntando com que autoridade Ele age. Jesus responde com uma contrapergunta: de onde era o batismo de João? Do céu ou dos homens? Eles ficam presos em um dilema. Se disserem 'do céu', Jesus apontará que não creram em João. Se disserem 'dos homens', a multidão, que via João como profeta, os atacará. Assim, respondem: 'Não sabemos', e Jesus não revela a fonte de sua autoridade, mostrando que a questão não é apenas intelectual, mas espiritual.\n\nLogo após, Jesus conta a parábola dos dois filhos. O primeiro diz 'não quero' trabalhar na vinha, mas se arrepende e vai. O segundo diz 'eu vou, senhor', mas não cumpre. Quando perguntado qual fez a vontade do pai, eles respondem corretamente: o primeiro. Jesus então aplica a lição: publicanos e prostitutas, que reconheciam seu erro e creram em João, estão adiantados no Reino em relação a eles, que ouviam a justiça, mas não se arrependiam.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para a autoridade de Jesus sobre a lei e a religião. A recusa dos líderes em responder revela que a verdadeira barreira não é a falta de conhecimento, mas a rejeição a João e, por extensão, a Jesus, que veio no caminho de justiça. O evangelho é apresentado aqui como o chamado ao arrependimento genuíno: não basta dizer 'sim' com a boca (como o segundo filho ou os líderes que citavam a lei), mas é preciso obedecer e crer, como os marginalizados que se arrependeram. Jesus é o dono da vinha que envia seu Filho, e a resposta humana a Ele define o destino eterno.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, nossa fé se parece com a do segundo filho: dizemos 'sim' a Deus com facilidade, prometendo mudanças, mas mantemos nossos velhos hábitos. Jesus nos convida a examinar se nossa obediência é real. Pense em uma área da sua vida onde você prometeu a Deus, mas não agiu. O arrependimento do primeiro filho, que mudou de 'não' para 'sim', é o modelo. A verdadeira devoção não está nas palavras bonitas, mas na disposição de ir trabalhar na vinha do Senhor, mesmo quando custa conforto ou status.",
+ "guarde": "A obediência que parece lenta é mais valiosa que a promessa que nunca se cumpre.",
+ "ore": "Jesus, no templo, Tu perguntaste sobre a origem de João. Perdoa minha boca que promete e meu coração que não cumpre. Dá-me o arrependimento do primeiro filho, para que eu trabalhe em Tua vinha com fidelidade.",
+ "quiz": {
+  "pergunta": "Qual dos dois filhos fez a vontade do pai, segundo Jesus?",
+  "opcoes": [
+   "O primeiro, que se arrependeu.",
+   "O segundo, que disse 'eu vou'.",
+   "Nenhum, pois ambos pecaram."
+  ],
+  "certa": 0,
+  "explicacao": "Jesus afirma que o primeiro fez a vontade do pai porque, apesar da recusa inicial, ele se arrependeu e foi trabalhar, enquanto o segundo apenas prometeu."
+ },
+ "refs": [
+  "Lucas 10:29-37",
+  "Atos 2:37-38",
+  "Romanos 2:13"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-28T03:57:55.707Z",
+  "rounds": 1
+ }
+}

@@ -1,0 +1,141 @@
+{
+ "id": "40-18-13-23",
+ "ref": "Mateus 18:13-23",
+ "book": "40",
+ "chapter": 18,
+ "verses": [
+  {
+   "n": 13,
+   "t": "E se acontecesse de achá-la, em verdade vos digo que ele se alegra mais daquela, do que das noventa e nove que se não desviaram."
+  },
+  {
+   "n": 14,
+   "t": "Da mesma maneira, não é da vontade do vosso Pai, que está nos céus, que um sequer destes pequeninos se perca."
+  },
+  {
+   "n": 15,
+   "t": "Porém, se teu irmão pecar contra ti, vai repreendê-lo entre ti e ele só; se te ouvir, ganhaste o teu irmão."
+  },
+  {
+   "n": 16,
+   "t": "Mas se não ouvir, toma ainda contigo um ou dois, para que toda palavra se confirme pela boca de duas ou três testemunhas. Deuteronômio 19:15"
+  },
+  {
+   "n": 17,
+   "t": "E se não lhes der ouvidos, comunica à igreja; e se também não der ouvidos à igreja, considera-o como gentio e publicano."
+  },
+  {
+   "n": 18,
+   "t": "Em verdade vos digo que tudo o que vós ligardes na terra será ligado no céu; e tudo o que desligardes na terra será desligado no céu."
+  },
+  {
+   "n": 19,
+   "t": "E digo-vos também que, se dois de vós concordarem na terra acerca de qualquer coisa que pedirem, isso lhes será feito por meu Pai, que está nos céus."
+  },
+  {
+   "n": 20,
+   "t": "Pois onde dois ou três estiverem reunidos em meu nome, ali eu estou no meio deles."
+  },
+  {
+   "n": 21,
+   "t": "Então Pedro aproximou-se dele, e perguntou: Senhor, até quantas vezes meu irmão pecará contra mim, e eu lhe perdoarei? Até sete?"
+  },
+  {
+   "n": 22,
+   "t": "Jesus lhe respondeu: Eu não te digo até sete, mas sim até setenta vezes sete."
+  },
+  {
+   "n": 23,
+   "t": "Por isso o Reino dos céus é comparável a um certo rei, que quis fazer acerto de contas com os seus servos."
+  }
+ ],
+ "titulo": "Perdoar sem contar: a matemática de Jesus",
+ "temas": [
+  "perdão",
+  "restauração",
+  "igreja",
+  "disciplina"
+ ],
+ "pergunta": "O que acontece quando paramos de contar as ofensas e começamos a olhar para a graça?",
+ "entender": "Depois de falar sobre a alegria de Deus ao encontrar quem se perde, Jesus muda o foco para a vida em comunidade. Ele dá um passo a passo para lidar com ofensas: primeiro, uma conversa privada e respeitosa; se não resolver, chamar testemunhas; e, por último, envolver a comunidade (a igreja). O objetivo não é punir, mas restaurar o irmão.\n\nPedro, querendo parecer generoso, pergunta se deve perdoar sete vezes. A resposta de Jesus surpreende: \"não te digo até sete, mas sim até setenta vezes sete\". Não é uma conta exata, mas uma imagem de perdão ilimitado. A parábola final, que começa no versículo 23, usa a imagem de um rei fazendo contas com seus servos para mostrar a dimensão da dívida que temos perante Deus e a graça que nos é oferecida.",
+ "ligar": {
+  "texto": "Este trecho revela o caráter de Jesus como o Pastor que busca a ovelha perdida e o Rei que oferece perdão abundante. A instrução para perdoar \"setenta vezes sete\" reflete a própria natureza de Cristo, que nos perdoou não porque merecemos, mas pela Sua graça. A presença de Jesus na comunidade (\"onde dois ou três estiverem reunidos em meu nome\") mostra que o perdão e a restauração são ações que Ele mesmo realiza em meio a nós, apontando para o evangelho de reconciliação.",
+  "selo": true
+ },
+ "viver": "A resposta de Jesus à pergunta de Pedro desafia nossa tendência natural de registrar cada erro alheio. Em vez de manter uma lista mental de ofensas, experimente soltar a guarda da contabilidade. Perdoar não é ignorar o mal, mas decidir, como Jesus nos ensina, que a dívida foi paga na cruz. Isso libera seu coração para buscar a paz com seu irmão, confiando que a justiça final pertence a Deus.",
+ "guarde": "O perdão cristão não tem limite, pois reflete a graça infinita de Deus que nos buscou quando estávamos perdidos.",
+ "ore": "Pai, ao lembrar do pastor que deixou noventa e nove ovelhas, ajuda-me a deixar de lado minha contabilidade de ofensas. Dá-me a coragem de buscar a reconciliação com meu irmão e a gratidão por ter sido eu o perdido que Tu encontraste.",
+ "quiz": {
+  "pergunta": "O que Jesus responde quando Pedro pergunta quantas vezes deve perdoar seu irmão?",
+  "opcoes": [
+   "Até que o irmão peça desculpas formais",
+   "Até setenta vezes sete",
+   "Até sete vezes"
+  ],
+  "certa": 1,
+  "explicacao": "Jesus responde em Mateus 18:22 que não é até sete, mas até setenta vezes sete, indicando um perdão ilimitado, não uma regra matemática."
+ },
+ "refs": [
+  "Lucas 17:3-4",
+  "Efésios 4:32",
+  "Deuteronômio 19:15"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-28T03:58:28.894Z",
+  "rounds": 3
+ }
+}
