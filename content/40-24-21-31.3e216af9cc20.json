@@ -1,0 +1,142 @@
+{
+ "id": "40-24-21-31",
+ "ref": "Mateus 24:21-31",
+ "book": "40",
+ "chapter": 24,
+ "verses": [
+  {
+   "n": 21,
+   "t": "Pois haverá então grande aflição, como nunca houve desde o princípio do mundo até agora, nem jamais haverá."
+  },
+  {
+   "n": 22,
+   "t": "E se aqueles dias não fossem encurtados, ninguém se salvaria; mas por causa dos escolhidos, aqueles dias serão encurtados."
+  },
+  {
+   "n": 23,
+   "t": "Então, se alguém vos disser: “Olha o Cristo aqui”, ou “ Olha ele ali”, não creiais,"
+  },
+  {
+   "n": 24,
+   "t": "pois se levantarão falsos cristos e falsos profetas; e farão tão grandes sinais e prodígios que, se fosse possível, enganariam até os escolhidos."
+  },
+  {
+   "n": 25,
+   "t": "Eis que eu tenho vos dito com antecedência."
+  },
+  {
+   "n": 26,
+   "t": "Portanto, se vos disserem: “Eis que ele está no deserto”, não saiais; “Eis que ele está em um recinto”, não creiais."
+  },
+  {
+   "n": 27,
+   "t": "Porque, assim como o relâmpago, que sai do oriente, e aparece até o ocidente, assim também será a vinda do Filho do homem."
+  },
+  {
+   "n": 28,
+   "t": "Pois onde estiver o cadáver, ali se ajuntarão os abutres."
+  },
+  {
+   "n": 29,
+   "t": "E logo depois da aflição daqueles dias, o sol se escurecerá, a lua não dará o seu brilho, as estrelas cairão do céu, e as forças dos céus se estremecerão."
+  },
+  {
+   "n": 30,
+   "t": "Então aparecerá no céu o sinal do Filho do homem. Naquela hora todas as tribos da terra lamentarão, e verão ao Filho do homem, que vem sobre as nuvens do céu, com poder e grande glória."
+  },
+  {
+   "n": 31,
+   "t": "E enviará os seus anjos com grande som de trombeta, e ajuntarão os seus escolhidos desde os quatro ventos, de uma extremidade à outra dos céus."
+  }
+ ],
+ "titulo": "O relâmpago do céu: a vinda de Cristo",
+ "temas": [
+  "segunda vinda",
+  "falsos cristos",
+  "esperança",
+  "vigilância",
+  "glória"
+ ],
+ "pergunta": "Como podemos distinguir a voz de Deus de tantas vozes que prometem milagres hoje?",
+ "entender": "Jesus descreve um tempo de crise extrema, onde a aflição será tão grande que, sem a intervenção de Deus, ninguém sobreviveria. Ele avisa que, nesse cenário de caos, surgirão impostores. Homens e mulheres aparecerão dizendo que o Messias está ali, ou em um lugar secreto, tentando levar as pessoas ao erro com sinais impressionantes.\n\nO contraste é forte: a vinda verdadeira não será escondida no deserto ou em recintos escuros. Jesus usa a imagem do relâmpago, que ilumina o céu inteiro de uma ponta à outra. A volta de Cristo será pública, visível para todos, e virá acompanhada de sinais cósmicos e do som de trombetas. Não é uma visita secreta, mas uma revelação gloriosa que reunirá os escolhidos de todas as partes.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para a soberania de Jesus sobre a história. Ele não apenas prevê o futuro, mas garante que Sua presença final será inconfundível. O evangelho aqui é a certeza de que, mesmo no meio do engano e do medo, Cristo é o único que traz a verdade definitiva. A salvação não depende de nossos esforços em tempos difíceis, mas da graça que Ele reserva para os que nEle confiam, resgatando-os da aflição para a glória.",
+  "selo": true
+ },
+ "viver": "Vivemos cercados de \"falsos profetas\" digitais: influenciadores, teorias da conspiração e promessas de cura rápida que ganham milhões de seguidores. Assim como Jesus alertou, a tentação é buscar respostas em sinais espetaculares ou lugares ocultos. A aplicação prática é verificar toda mensagem à luz das Escrituras. Se uma doutrina pede segredo, dinheiro ou desvia o foco da cruz de Cristo, ela não é do relâmpago divino. Confie na Palavra escrita, não no barulho da multidão.",
+ "guarde": "A verdade de Deus não se esconde; ela brilha como o relâmpago para todos que têm olhos para ver.",
+ "ore": "Jesus, Senhor da glória, em meio a tantas vozes falsas que prometem o impossível, ensina-me a discernir o Teu verdadeiro sinal. Que minha fé não se apoie em especulações, mas na certeza da Tua volta pública e poderosa. Guarda meu coração do medo e da ingenuidade, para que eu viva vigilante, esperando o dia em que o céu se abrirá e Tu aparecerás em toda a sua majestade.",
+ "quiz": {
+  "pergunta": "Segundo Mateus 24, como será a vinda do Filho do homem?",
+  "opcoes": [
+   "Invisível, percebida apenas por pessoas com dons espirituais.",
+   "Pública e visível, como um relâmpago que aparece de uma ponta à outra do céu.",
+   "Secreta, apenas para um grupo de eleitos no deserto."
+  ],
+  "certa": 1,
+  "explicacao": "O texto compara a vinda ao relâmpago que sai do oriente e aparece até o ocidente, indicando uma manifestação pública e universal, não uma aparição oculta ou restrita."
+ },
+ "refs": [
+  "Marcos 13:24-27",
+  "Lucas 21:25-28",
+  "Atos 1:9-11"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-28T16:04:45.452Z",
+  "rounds": 1
+ }
+}

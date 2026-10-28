@@ -1987,7 +1987,9 @@
   },
   "40-24-21-31": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "O relâmpago do céu: a vinda de Cristo"
   },
   "40-24-32-41": {
    "execucoes": 0,
@@ -2020,28 +2022,32 @@
   "40-26-12-21": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-26-22-32": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 672,
-   "entrada": 1724062,
-   "saida": 596468
+   "chamadas": 678,
+   "entrada": 1740829,
+   "saida": 601435
   },
   "groq-qwen": {
-   "chamadas": 666,
-   "entrada": 1637330,
-   "saida": 540694
+   "chamadas": 671,
+   "entrada": 1651186,
+   "saida": 544722
   },
   "gemini": {
-   "chamadas": 548,
-   "entrada": 1776875,
-   "saida": 711884
+   "chamadas": 550,
+   "entrada": 1783350,
+   "saida": 714946
   },
   "cloudflare": {
-   "chamadas": 341,
-   "entrada": 1188217,
-   "saida": 126511
+   "chamadas": 342,
+   "entrada": 1191773,
+   "saida": 126882
   },
   "mistral": {
    "chamadas": 0,
