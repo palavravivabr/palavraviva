@@ -1,0 +1,137 @@
+{
+ "id": "40-22-13-22",
+ "ref": "Mateus 22:13-22",
+ "book": "40",
+ "chapter": 22,
+ "verses": [
+  {
+   "n": 13,
+   "t": "Então o rei disse aos servos: “Amarrai-o nos pés e nas mãos, tomai-o, e lançai-o nas trevas de fora. Ali haverá pranto e o ranger de dentes”."
+  },
+  {
+   "n": 14,
+   "t": "Pois muitos são chamados, porém poucos escolhidos."
+  },
+  {
+   "n": 15,
+   "t": "Então os fariseus foram embora, e se reuniram para tramar como o apanhariam em cilada por algo que dissesse."
+  },
+  {
+   "n": 16,
+   "t": "Depois lhe enviaram seus discípulos, juntamente com os apoiadores de Herodes, e perguntaram: Mestre, bem sabemos que tu és verdadeiro, e que com verdade ensinas o caminho de Deus, e que não te importas com a opinião de ninguém, porque não dás atenção à aparência humana."
+  },
+  {
+   "n": 17,
+   "t": "Dize-nos, pois, o que te parece: é lícito dar tributo a César, ou não?"
+  },
+  {
+   "n": 18,
+   "t": "Mas Jesus, entendendo a sua malícia, disse: Por que me tentais, hipócritas?"
+  },
+  {
+   "n": 19,
+   "t": "Mostrai-me a moeda do tributo.E eles lhe trouxeram um denário."
+  },
+  {
+   "n": 20,
+   "t": "E ele lhes perguntou: De quem é esta imagem, e a inscrição?"
+  },
+  {
+   "n": 21,
+   "t": "Eles lhe responderam: De César. Então ele lhes disse: Dai, pois, a César o que é de César, e a Deus o que é de Deus."
+  },
+  {
+   "n": 22,
+   "t": "Quando ouviram isso, eles ficaram admirados; então o deixaram e se retiraram."
+  }
+ ],
+ "titulo": "A moeda que revela a quem pertencemos",
+ "temas": [
+  "soberania",
+  "devoção",
+  "justiça",
+  "coração"
+ ],
+ "pergunta": "O que a imagem gravada na moeda que você usa todos os dias revela sobre o dono real da sua vida?",
+ "entender": "Depois de rejeitar um convidado que não se preparou para a festa, Jesus muda de assunto. Os fariseus e herodianos se unem para armadilhá-lo. Eles perguntam se é permitido pagar impostos a César. Era uma pergunta perigosa: dizer 'sim' irritava o povo que odiava Roma; dizer 'não' era traição à lei.\n\nJesus percebe a malícia e pede uma moeda. Eles trazem um denário. Ele pergunta: 'De quem é esta imagem, e a inscrição?' A resposta deles é óbvia: de César. Aí Jesus dá a resposta que os deixa admirados e sem resposta: 'Dai, pois, a César o que é de César, e a Deus o que é de Deus'.\n\nO ponto não é apenas pagar impostos. A moeda carrega a imagem do imperador, mas o ser humano carrega a imagem de Deus (Gênesis 1.27). César tem direito a um tributo, mas Deus tem direito à inteira lealdade do nosso coração, mente e vida. Não podemos servir a dois senhores.",
+ "ligar": {
+  "texto": "Este episódio mostra a autoridade de Jesus sobre as estruturas de poder da época. Ele não se deixa encurralar pela política, mas revela uma verdade maior: a lealdade a Deus não compete com a obediência civil, mas a transcende. O evangelho nos chama a reconhecer que, embora vivamos no mundo (e devamos respeito às autoridades), nossa identidade e destino pertencem a Deus. Jesus, sendo o Rei verdadeiro, nos ensina a separar o que é temporal do que é eterno, apontando para a necessidade de uma rendição total a Ele, não apenas por obrigação legal, mas por amor.",
+  "selo": true
+ },
+ "viver": "Pense na 'imagem' que você imprime no mundo. Assim como o denário tinha o rosto de César, suas atitudes, palavras e escolhas diárias mostram quem realmente governa sua vida. Se você busca aprovação humana, conforto material ou status acima de tudo, está servindo a 'Césares' visíveis ou invisíveis. O convite é um exame de consciência: o que você dá a Deus? Dá apenas o troco do domingo, ou entrega a direção dos seus sonhos, medos e decisões? A lealdade a Deus se prova no 'restante' da vida, naquilo que ninguém vê, mas que define quem você é para Ele.",
+ "guarde": "A moeda cunha a imagem do imperador, mas o coração carrega a imagem de Deus; entregue a Ele o que é Seu.",
+ "ore": "Jesus, diante da moeda de César, Tu mostraste que o coração pertence a Deus. Ajuda-me a examinar minhas lealdades. Mostra-me onde tenho dado a criaturas o que é devido a Ti. Que eu viva reconhecendo que minha imagem reflete a Tua, e que minha vida Te pertence inteiramente.",
+ "quiz": {
+  "pergunta": "Qual foi a pergunta que Jesus fez aos fariseus sobre a moeda do tributo?",
+  "opcoes": [
+   "De quem é esta imagem, e a inscrição?",
+   "Quanto custa o denário?",
+   "Por que vocês não pagam o imposto?"
+  ],
+  "certa": 0,
+  "explicacao": "O texto em Mateus 22.20 registra explicitamente que Jesus perguntou: 'De quem é esta imagem, e a inscrição?', para destacar que a moeda representava a autoridade de César."
+ },
+ "refs": [
+  "Romanos 13:1-7",
+  "Marcos 12:13-17",
+  "Lucas 20:20-26"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-28T07:04:57.377Z",
+  "rounds": 1
+ }
+}

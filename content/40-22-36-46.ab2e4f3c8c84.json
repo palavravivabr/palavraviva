@@ -1,0 +1,142 @@
+{
+ "id": "40-22-36-46",
+ "ref": "Mateus 22:36-46",
+ "book": "40",
+ "chapter": 22,
+ "verses": [
+  {
+   "n": 36,
+   "t": "Mestre, qual é o grande mandamento na Lei?"
+  },
+  {
+   "n": 37,
+   "t": "E Jesus lhe respondeu: Amarás ao Senhor teu Deus com todo o teu coração, com toda a tua alma, e com todo o teu entendimento: Deuteronômio 6:5"
+  },
+  {
+   "n": 38,
+   "t": "este é o primeiro e grande mandamento."
+  },
+  {
+   "n": 39,
+   "t": "E o segundo, semelhante a este, é : Amarás o teu próximo como a ti mesmo. Levítico 19:18"
+  },
+  {
+   "n": 40,
+   "t": "Destes dois mandamentos dependem toda a Lei e os Profetas."
+  },
+  {
+   "n": 41,
+   "t": "E, estando os fariseus reunidos, Jesus lhes perguntou,"
+  },
+  {
+   "n": 42,
+   "t": "dizendo: Que pensais vós acerca do Cristo? De quem ele é filho? Eles lhe responderam: De Davi."
+  },
+  {
+   "n": 43,
+   "t": "Jesus lhes disse: Como, pois, Davi, em espírito, o chama Senhor, dizendo:"
+  },
+  {
+   "n": 44,
+   "t": "Disse o Senhor a meu Senhor: “Senta-te à minha direita, até que eu ponha os teus inimigos como estrado de teus pés”. Salmos 110:1"
+  },
+  {
+   "n": 45,
+   "t": "Ora, se Davi o chama Senhor, como é seu filho?"
+  },
+  {
+   "n": 46,
+   "t": "E ninguém podia lhe responder palavra; nem ninguém ousou desde aquele dia a mais lhe perguntar."
+  }
+ ],
+ "titulo": "O mistério do título que calou os fariseus",
+ "temas": [
+  "cristo",
+  "davi",
+  "soberania",
+  "lei",
+  "mandamentos"
+ ],
+ "pergunta": "Por que a resposta dos especialistas da Lei sobre a origem de Jesus revelou sua falta de compreensão?",
+ "entender": "Um especialista da Lei pergunta a Jesus qual é o grande mandamento. Jesus responde citando Deuteronômio 6:5 e Levítico 19:18: amar a Deus com todo o ser e ao próximo como a si mesmo. Ele afirma que toda a Lei depende desses dois pilares, unindo o vertical (relação com Deus) e o horizontal (relação com o outro).\n\nEm seguida, Jesus vira a tabela e pergunta aos fariseus: \"Que pensais vós acerca do Cristo?\". Eles respondem que é filho de Davi, o que era a crença comum. Porém, Jesus cita o Salmo 110:1, onde Davi chama o Messias de \"Senhor\". Se Davi, o pai, chama o filho de Senhor, há algo mais profundo na identidade de Cristo do que apenas uma linhagem genealógica. A pergunta final de Jesus deixa os fariseus sem resposta, pois expõe o limite do conhecimento deles sobre a natureza divina do Messias.",
+ "ligar": {
+  "texto": "Este trecho é central para o evangelho porque desvenda a identidade de Jesus. Ele não é apenas um descendente de Davi, mas o Senhor que se assenta à direita de Deus. Ao conectar os mandamentos ao seu próprio ensino, Jesus se posiciona como a chave que interpreta a Lei. A incapacidade dos fariseus de responder mostra que a fé precisa ir além de tradições humanas para abraçar a revelação de Cristo como Deus encarnado, que cumpre a Lei e nos chama a amá-lo.",
+  "selo": true
+ },
+ "viver": "Às vezes, buscamos em Jesus apenas benefícios ou respostas práticas, esquecendo de contemplar quem Ele é. Assim como os fariseus, podemos ter uma visão limitada, reduzindo o Cristo a um título ou a um conjunto de regras. O convite aqui é aprofundar o conhecimento de Cristo, reconhecendo Sua autoridade e divindade. Quando entendemos que Jesus é o Senhor, nosso amor a Ele e ao próximo deixa de ser esforço humano e passa a ser uma resposta à sua grandeza. Medite em como conhecer melhor o caráter de Jesus transforma a forma como você ama e obedece.",
+ "guarde": "Conhecer a quem Jesus é transforma a maneira como amamos a Deus e ao próximo.",
+ "ore": "Jesus, Senhor dos fariseus e de Davi, abre meus olhos para ver tua grandeza além da linhagem humana. Ensina-me a amar a ti e ao próximo com a profundidade que só a tua revelação pode dar. Que minha vida reflita o mandamento que tu cumpreste.",
+ "quiz": {
+  "pergunta": "Qual foi a pergunta que Jesus fez aos fariseus que os deixou sem resposta?",
+  "opcoes": [
+   "De onde veio o poder de Jesus?",
+   "Quem é o maior mandamento na Lei?",
+   "Como Davi chama o Cristo de Senhor, se ele é seu filho?"
+  ],
+  "certa": 2,
+  "explicacao": "Jesus usou o Salmo 110:1 para mostrar a contradição aparente: se Davi é o pai do Messias, por que o chama de Senhor? Isso revelou a natureza divina de Cristo, algo que os fariseus não compreendiam."
+ },
+ "refs": [
+  "Marcos 12:29-34",
+  "Lucas 20:41-44",
+  "Atos 2:34-36"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-28T07:19:57.833Z",
+  "rounds": 1
+ }
+}

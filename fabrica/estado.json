@@ -1933,15 +1933,21 @@
   },
   "40-22-13-22": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: PRAYER_FIDELITY: A oração começa dirigindo uma petição a César em vez de ser direcionada exclusivamente a Deus.",
+   "estado": "pronto",
+   "titulo": "A moeda que revela a quem pertencemos"
   },
   "40-22-23-35": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:citacao_longa",
+   "estado": "pronto",
+   "titulo": "Deus dos vivos: a lógica da ressurreição"
   },
   "40-22-36-46": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "O mistério do título que calou os fariseus"
   },
   "40-23-1-10": {
    "execucoes": 0,
@@ -1966,28 +1972,32 @@
   "40-24-11-20": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "40-24-21-31": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 650,
-   "entrada": 1662014,
-   "saida": 576597
+   "chamadas": 658,
+   "entrada": 1684820,
+   "saida": 583827
   },
   "groq-qwen": {
-   "chamadas": 644,
-   "entrada": 1576812,
-   "saida": 522275
+   "chamadas": 652,
+   "entrada": 1599024,
+   "saida": 529309
   },
   "gemini": {
-   "chamadas": 534,
-   "entrada": 1731452,
-   "saida": 688875
+   "chamadas": 538,
+   "entrada": 1744639,
+   "saida": 694390
   },
   "cloudflare": {
-   "chamadas": 332,
-   "entrada": 1156669,
-   "saida": 123172
+   "chamadas": 335,
+   "entrada": 1167372,
+   "saida": 124285
   },
   "mistral": {
    "chamadas": 0,
