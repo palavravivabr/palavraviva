@@ -1125,6 +1125,28 @@
     var cur = parseInt(lsGet('pv4-trilha', '0'), 10); s.value = String(cur >= 0 && cur < l.length ? cur : 0);
     s.parentNode.style.display = 'flex';
   }
+  /* música ambiente automática: começa em 10% no primeiro toque de cada abertura do app (o navegador só libera som depois de um toque); pode ser desligada nas configurações */
+  function autoLigada() { return lsGet('pv4-auto', '1') !== '0'; }
+  function autoMusica() {
+    var sw = $('#sw'), feito = false, evs = ['pointerup', 'touchend', 'keydown'];
+    function solta() { evs.forEach(function (n) { document.removeEventListener(n, tocou, true); }); }
+    function tocou(e) {
+      if (feito) return; feito = true; solta();
+      if (!autoLigada() || aud.on || (e.target && e.target.closest && e.target.closest('#sw'))) return;
+      $('#vol').value = '10';
+      startAudio().then(function (ok) {
+        if (!ok || aud.on) return;
+        aud.on = true; sw.setAttribute('aria-checked', 'true'); $('#audState').textContent = 'Tocando baixinho enquanto você lê';
+      }, function () { /* sem som: segue em silêncio */ });
+    }
+    evs.forEach(function (n) { document.addEventListener(n, tocou, true); });
+    /* baixa a trilha por trás (uma vez) para a música começar na hora no primeiro toque; não baixa com economia de dados */
+    setTimeout(function () {
+      var c = navigator.connection, l = cfg.audio || [], i = parseInt(lsGet('pv4-trilha', '0'), 10) || 0;
+      if ((c && c.saveData) || !l[i]) return;
+      mediaResponse(l[i]).catch(function () { /* sem internet: tenta no toque */ });
+    }, 6000);
+  }
   function bindAudio() {
     $('#trilha').addEventListener('change', async function () {
       lsSet('pv4-trilha', $('#trilha').value);
@@ -1141,6 +1163,9 @@
       if (aud.el) aud.el.volume = volume();
       if (aud.master && aud.ctx) aud.master.gain.linearRampToValueAtTime(volume() * 0.8, aud.ctx.currentTime + 0.1);
     });
+    var sa = $('#swAuto'); sa.setAttribute('aria-checked', String(autoLigada()));
+    sa.addEventListener('click', function () { var on = !autoLigada(); lsSet('pv4-auto', on ? '1' : '0'); sa.setAttribute('aria-checked', String(on)); toast(on ? 'A música começa sozinha ao tocar na tela' : 'A música não começa mais sozinha'); });
+    if (autoLigada()) autoMusica();
   }
 
   /* ---------- atualização do app (botão "Atualizar", sem skipWaiting automático) ---------- */
