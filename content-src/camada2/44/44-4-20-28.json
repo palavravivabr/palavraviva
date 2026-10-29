@@ -1,0 +1,133 @@
+{
+ "id": "44-4-20-28",
+ "ref": "Atos 4:20-28",
+ "book": "44",
+ "chapter": 4,
+ "verses": [
+  {
+   "n": 20,
+   "t": "Porque nós não podemos deixar de falar daquilo que temos visto e ouvido."
+  },
+  {
+   "n": 21,
+   "t": "Mas eles, tendo os ameaçado ainda mais, nada acharam de motivo para os castigar, e os deixaram ir por causa do povo; porque todos glorificavam a Deus pelo que tinha acontecido."
+  },
+  {
+   "n": 22,
+   "t": "Porque era de mais de quarenta anos o homem em quem este milagre de cura tinha sido feito."
+  },
+  {
+   "n": 23,
+   "t": "E eles, tendo sido soltos, vieram aos seus companheiros , e lhes contaram tudo o que os chefes dos sacerdotes e os anciãos tinham lhes dito."
+  },
+  {
+   "n": 24,
+   "t": "E eles, ao ouvirem isto , levantaram concordantes a voz a Deus, e disseram: Senhor, tu és o Deus que fizeste o céu, a terra, o mar, e todas as coisas que neles há;"
+  },
+  {
+   "n": 25,
+   "t": "Que pela boca de teu servo Davi disseste: Por que os gentios se irritam, e os povos gastam seus pensamentos em coisas vãs?"
+  },
+  {
+   "n": 26,
+   "t": "Os reis da terra se levantaram, e os príncipes se juntaram em um mesmo propósito contra o Senhor, e contra o seu Ungido."
+  },
+  {
+   "n": 27,
+   "t": "Porque verdadeiramente contra teu Santo Filho Jesus, ao qual tu ungiste, se ajuntaram, tanto Herodes, como Pôncio Pilatos, com os gentios e os povos de Israel."
+  },
+  {
+   "n": 28,
+   "t": "Para fazerem tudo o que a tua mão e o teu conselho desde antes tinha determinado para acontecer."
+  }
+ ],
+ "titulo": "Quando a cruz era parte do plano",
+ "temas": [
+  "soberania",
+  "cruz",
+  "propósito",
+  "coragem"
+ ],
+ "pergunta": "Como Pedro e João reagiram diante da ameaça dos líderes religiosos?",
+ "entender": "Após serem presos e ameaçados para que não falassem mais de Jesus, Pedro e João foram soltos. Ao voltarem para os outros discípulos, não responderam com medo ou revolta, mas com uma oração unânime. Eles reconhecem a Deus como o criador de todas as coisas e citam um salmo de Davi, mostrando que a oposição humana contra Cristo faz parte de uma história maior.\n\nO texto revela que Herodes, Pôncio Pilatos, gentios e judeus se uniram contra Jesus, o Ungido. No entanto, os apóstolos entendem que isso aconteceu porque \"a tua mão e o teu conselho desde antes tinha determinado para acontecer\" (Atos 4:28). A morte de Jesus não foi um acidente histórico ou uma vitória dos inimigos, mas o cumprimento do propósito eterno de Deus.\n\nEssa compreensão transforma a perseguição em oportunidade. Em vez de se calarem, eles pedem a Deus que lhes dê ousadia para continuar falando a sua palavra, confiando que o mesmo Deus que planejou a cruz também sustenta a sua igreja hoje.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para Jesus como o centro da história da salvação. A menção ao \"Santo Filho Jesus\" e ao cumprimento do conselho divino desde antes confirma que a cruz não foi um fracasso, mas o meio escolhido por Deus para salvar a humanidade. O evangelho é apresentado como a vitória definitiva sobre a oposição humana, garantindo aos crentes que a autoridade final pertence a Cristo, não aos governantes terrenos.",
+  "selo": true
+ },
+ "viver": "A certeza de que Deus está no controle não elimina a dor da perseguição, mas muda nossa postura diante dela. Em vez de reagir com medo ou raiva quando enfrentamos oposição, podemos nos curvar em oração, reconhecendo a soberania de Deus. Isso nos dá uma paz profunda e a coragem de permanecer firmes na fé, sabendo que nosso combate não é contra pessoas, mas que a última palavra sempre pertence a Deus.",
+ "guarde": "A cruz de Jesus foi o cumprimento do conselho eterno de Deus, não um acidente.",
+ "ore": "Deus criador, que fizeste o céu e a terra, eu Te adoro. Reconheço que a morte de Jesus cumpriu Teu propósito desde antes dos tempos. Dá-me ousadia para falar de Ti, mesmo diante de ameaças, confiando que Tua mão guia a história e que Tua graça me sustenta.",
+ "quiz": {
+  "pergunta": "O que os apóstolos afirmaram sobre a atuação de Herodes e Pilatos contra Jesus?",
+  "opcoes": [
+   "Que cumpriram o que Deus determinou desde antes",
+   "Que agiram por ignorância divina",
+   "Que foram impedidos por Deus"
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma que eles se ajuntaram para fazerem tudo o que a mão e o conselho de Deus tinha determinado para acontecer."
+ },
+ "refs": [
+  "Salmos 2:1-2",
+  "Atos 2:23",
+  "Isaías 53:10"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-29T16:07:46.702Z",
+  "rounds": 2
+ }
+}

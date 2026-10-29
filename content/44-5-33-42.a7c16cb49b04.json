@@ -1,0 +1,137 @@
+{
+ "id": "44-5-33-42",
+ "ref": "Atos 5:33-42",
+ "book": "44",
+ "chapter": 5,
+ "verses": [
+  {
+   "n": 33,
+   "t": "E eles, ouvindo isso , enfureceram-se grandemente, e planejaram matá-los."
+  },
+  {
+   "n": 34,
+   "t": "Mas, levantando-se no supremo conselho um certo fariseu, de nome Gamaliel, instrutor da Lei, bem honrado por todo o povo, ele mandou levarem aos apóstolos para fora por um pouco de tempo ."
+  },
+  {
+   "n": 35,
+   "t": "E lhes disse: Homens israelitas, olhai por vós mesmos, quanto ao que haveis de fazer a estes homens;"
+  },
+  {
+   "n": 36,
+   "t": "Porque antes destes dias se levantou Teudas, dizendo ser alguém; ao qual se ajuntaram cerca de quatrocentos homens; ao qual foi morto, e todos os que acreditavam nele foram dispersos, e reduzidos a nada."
+  },
+  {
+   "n": 37,
+   "t": "Depois deste se levantou Judas, o galileu, nos dias do censo; e perverteu muito do povo atrás dele; e este também pereceu, e todos os que acreditavam nele foram dispersos."
+  },
+  {
+   "n": 38,
+   "t": "E agora, eu vos digo, afastai-vos destes homens, e deixai-os; porque se este conselho ou esta obra for humana, ela se desfará."
+  },
+  {
+   "n": 39,
+   "t": "Mas se é de Deus, vós não a podereis desfazer; para que não venhais a ser achados de também lutardes contra Deus."
+  },
+  {
+   "n": 40,
+   "t": "E concordaram com ele. E chamando aos apóstolos, tendo os açoitado, mandaram -lhes que não mais falassem no nome de Jesus; e os deixaram ir."
+  },
+  {
+   "n": 41,
+   "t": "Então eles saíram da presença do supremo conselho, alegres por terem sido considerados dignos de serem humilhados por causa do nome dele."
+  },
+  {
+   "n": 42,
+   "t": "E todos os dias no Templo, e pelas casas, não paravam de ensinar e de anunciar a Jesus Cristo."
+  }
+ ],
+ "titulo": "Gamaliel e o conselho que não parou a pregação",
+ "temas": [
+  "coragem",
+  "soberania",
+  "perseguição",
+  "evangelho"
+ ],
+ "pergunta": "E se a sua fidelidade a Deus for mais forte que a pressão dos líderes humanos?",
+ "entender": "Após Pedro pregar com ousadia no Supremo Conselho, os líderes ficaram furiosos e planejaram matá-lo. Foi então que Gamaliel, um fariseu respeitado e instrutor da Lei, interveio. Ele sugeriu que deixassem os apóstolos em paz por um tempo, citando exemplos de outros líderes que surgiram e depois desapareceram, como Teudas e Judas o galileu.\n\nGamaliel argumentou que, se aquela obra fosse apenas humana, ela se desfará sozinha. Mas, se fosse de Deus, eles não poderiam destruí-la. O conselho aceitou a ideia, açoitou os apóstolos e ordenou que não falassem no nome de Jesus. Porém, os apóstolos saíram alegres por serem considerados dignos de sofrer por causa de Jesus e continuaram ensinando diariamente no Templo e nas casas.\n\nO texto mostra que a autoridade humana pode punir o corpo, mas não pode calar a verdade de Deus. A alegria dos apóstolos não vinha da dor, mas da certeza de que estavam do lado certo da história.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para Jesus como o centro da mensagem. Os apóstolos foram punidos exatamente porque falavam no nome de Jesus. A persistência deles demonstra que a ressurreição de Cristo é a base inabalável da fé cristã. Mesmo sob ameaça de morte, a mensagem de que Jesus é o Salvador continua viva, mostrando que o evangelho não depende da aprovação humana, mas do poder de Deus que ressuscitou Jesus dos mortos.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, sentimos medo de compartilhar nossa fé porque tememos o julgamento de colegas, familiares ou líderes. O exemplo dos apóstolos nos ensina que a coragem não é a ausência de medo, mas a decisão de obedecer a Deus mesmo quando a consequência é a rejeição. Assim como eles saíram do conselho alegres, podemos encontrar paz e alegria em ser fiéis a Cristo, sabendo que Nossa causa está em boas mãos, mesmo quando o mundo tenta silenciá-la.",
+ "guarde": "Se a obra é de Deus, nenhuma autoridade humana pode destruí-la.",
+ "ore": "Pai, ao lembrar de Gamaliel e do conselho, ensina-me a discernir a tua voz. Dá-me a coragem dos apóstolos para falar de Jesus, mesmo diante da pressão. Que eu tenha alegria em ser humilhado por causa do teu nome, confiando que a tua obra é eterna.",
+ "quiz": {
+  "pergunta": "Qual foi o argumento principal que Gamaliel usou para convencer o conselho a deixar os apóstolos?",
+  "opcoes": [
+   "Os apóstolos pagaram uma multa para saírem livres",
+   "Se a obra for de Deus, eles não poderão destruí-la",
+   "Gamaliel disse que Jesus era um falso profeta"
+  ],
+  "certa": 1,
+  "explicacao": "Gamaliel argumentou que obras humanas se desfazem sozinhas, mas se a obra for de Deus, é impossível para os homens destruí-la, evitando que o conselho lutasse contra Deus."
+ },
+ "refs": [
+  "Atos 4:13-22",
+  "2 Coríntios 4:7",
+  "1 Pedro 4:12-14"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-29T16:09:49.034Z",
+  "rounds": 2
+ }
+}

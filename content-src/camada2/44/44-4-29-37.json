@@ -1,0 +1,133 @@
+{
+ "id": "44-4-29-37",
+ "ref": "Atos 4:29-37",
+ "book": "44",
+ "chapter": 4,
+ "verses": [
+  {
+   "n": 29,
+   "t": "E agora, Senhor, observa as ameaças deles, e dá a teus servos, que com toda ousadia falem tua palavra;"
+  },
+  {
+   "n": 30,
+   "t": "Estendendo tua mão para a cura, e que se façam sinais e milagres pelo nome de teu Santo filho Jesus."
+  },
+  {
+   "n": 31,
+   "t": "E tendo orado, agitou-se o lugar em que eles estavam juntos, e foram todos cheios do Espírito Santo, e falavam a palavra de Deus com ousadia."
+  },
+  {
+   "n": 32,
+   "t": "E a multidão dos que criam, era de um só oração e uma só alma; e ninguém dizia ser próprio coisa alguma de seus bens, mas todas as coisas lhes eram comuns."
+  },
+  {
+   "n": 33,
+   "t": "E com grande poder os apóstolos davam testemunho da ressurreição do Senhor Jesus; e em todos eles havia grande graça."
+  },
+  {
+   "n": 34,
+   "t": "Porque também nenhum necessitado havia entre eles; porque todos os que possuíam propriedades de terras, ou casas, vendendo -as , traziam o valor das coisas vendidas, e o depositavam junto aos pés dos apóstolos."
+  },
+  {
+   "n": 35,
+   "t": "E a cada um se repartia segundo cada qual tinha necessidade."
+  },
+  {
+   "n": 36,
+   "t": "E José, chamado pelos apóstolos pelo sobrenome de Barnabé (que traduzido é filho da consolação), levita, natural do Chipre,"
+  },
+  {
+   "n": 37,
+   "t": "Tendo ele uma propriedade de terra, vendeu -a , e trouxe o valor, e o depositou junto aos pés dos apóstolos."
+  }
+ ],
+ "titulo": "Quando a comunidade partilha tudo com coragem",
+ "temas": [
+  "comunhão",
+  "ousadia",
+  "generosidade",
+  "espírito santo"
+ ],
+ "pergunta": "O que muda em nós quando paramos de nos preocupar apenas com o nosso e olhamos para a necessidade do outro?",
+ "entender": "Depois de serem ameaçados pelos líderes religiosos, Pedro e João não pedem proteção pessoal, mas ousadia para pregar. Eles clamam: \"dá a teus servos, que com toda ousadia falem tua palavra\" (Atos 4:29). A resposta de Deus é imediata: o lugar treme e todos ficam cheios do Espírito Santo, falando a Deus com coragem.\n\nO resultado dessa oração não é apenas fé interior, mas uma comunidade transformada. O texto descreve um grupo onde \"ninguém dizia ser próprio coisa alguma de seus bens\" (Atos 4:32). Eles vendiam terras e casas para ajudar quem tinha necessidade, como vemos no exemplo de Barnabé, que depositou o valor da sua venda aos pés dos apóstolos. Era uma prática concreta de amor mútuo.\n\nEssa cena mostra que a verdadeira fé cristã se expressa em duas frentes: anunciar Jesus com poder e cuidar uns dos outros com generosidade. A igreja primitiva era marcada pela \"grande graça\" que pairava sobre todos, porque a preocupação com o próximo era tão forte quanto a pregação do evangelho.",
+ "ligar": {
+  "texto": "Este trecho aponta para Jesus de forma direta, pois os apóstolos pregam \"a ressurreição do Senhor Jesus\" e pedem milagres em Seu nome. A comunidade descrita é o corpo de Cristo, onde o amor que Jesus ensinou se torna prática diária. A generosidade deles reflete o coração de Jesus, que se esvaziou por nós. Ao partilhar seus bens, os crentes demonstram que pertencem a Cristo, não ao dinheiro, vivendo a liberdade que o evangelho oferece.",
+  "selo": true
+ },
+ "viver": "A ousadia dos apóstolos veio depois de orarem juntos. Talvez você sinta medo de falar de Jesus ou de ser diferente no seu ambiente de trabalho ou escola. A lição aqui é que a coragem não é uma força humana, mas um presente do Espírito Santo recebido na comunhão. Busque momentos de oração sincera com outros crentes, pedindo não apenas por suas necessidades, mas pela coragem de viver a fé.\n\nAlém disso, a igreja primitiva resolvia problemas financeiros com transparência e generosidade. Se você possui algo que pode ajudar alguém em necessidade, considere como um ato de adoração. Não precisa ser uma grande soma, mas a disposição de soltar o controle sobre seus bens para servir aos outros reflete o amor de Cristo e fortalece sua comunidade de fé.",
+ "guarde": "A verdadeira ousadia cristã nasce da oração e se expressa no cuidado generoso com o próximo.",
+ "ore": "Espírito Santo, que encheu o grupo em Jerusalém, enche-me hoje. Dá-me a mesma ousadia para falar de Jesus e a generosidade para partilhar meus bens com quem precisa, assim como Barnabé fez.",
+ "quiz": {
+  "pergunta": "Qual era a característica principal dos bens na comunidade descrita em Atos 4:32?",
+  "opcoes": [
+   "Eram comuns a todos",
+   "Eram mantidos em segredo",
+   "Eram usados apenas para templos"
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma que ninguém dizia ser próprio coisa alguma, mas todas as coisas lhes eram comuns, indicando uma partilha coletiva das necessidades."
+ },
+ "refs": [
+  "Atos 2:44-45",
+  "2 Coríntios 9:7",
+  "Hebreus 10:24-25"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-29T16:05:55.608Z",
+  "rounds": 1
+ }
+}

@@ -2192,15 +2192,21 @@
   },
   "44-4-20-28": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: NARRATIVE_EVENT_CONSISTENCY: A pergunta inicial afirma incorretamente que Pedro e João se alegraram ao saber da ação de Herodes e Pilatos, algo que não está no texto e altera os fatos narrados.",
+   "estado": "pronto",
+   "titulo": "Quando a cruz era parte do plano"
   },
   "44-4-29-37": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "Quando a comunidade partilha tudo com coragem"
   },
   "44-5-1-11": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: LANGUAGE_CLARITY: Na seção Viver, a frase 'Ananias e Safira tentaram manter uma aparência de generosidade esconder suas reais motivações' apresenta um erro gramatical pela falta da preposição 'para' antes de 'esconder'.",
+   "estado": "pronto",
+   "titulo": "O preço da mentira diante de Deus"
   },
   "44-5-12-21": {
    "execucoes": 0,
@@ -2212,7 +2218,9 @@
   },
   "44-5-33-42": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: PRAYER_FIDELITY: A oração pede a Gamaliel (um personagem bíblico) que ensine o leitor, o que é teologicamente inadequado, pois a oração deve ser dirigida a Deus.",
+   "estado": "pronto",
+   "titulo": "Gamaliel e o conselho que não parou a pregação"
   },
   "44-6-1-8": {
    "execucoes": 0,
@@ -2229,28 +2237,44 @@
   "44-7-13-24": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "44-7-25-36": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "44-7-37-48": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "44-7-49-60": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "44-8-1-10": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 728,
-   "entrada": 1879187,
-   "saida": 643301
+   "chamadas": 736,
+   "entrada": 1901686,
+   "saida": 650164
   },
   "groq-qwen": {
-   "chamadas": 721,
-   "entrada": 1784051,
-   "saida": 585068
+   "chamadas": 728,
+   "entrada": 1803078,
+   "saida": 590780
   },
   "gemini": {
-   "chamadas": 603,
-   "entrada": 1955867,
-   "saida": 776986
+   "chamadas": 611,
+   "entrada": 1981640,
+   "saida": 785497
   },
   "cloudflare": {
-   "chamadas": 376,
-   "entrada": 1310521,
-   "saida": 139496
+   "chamadas": 380,
+   "entrada": 1324542,
+   "saida": 140980
   },
   "mistral": {
    "chamadas": 0,
