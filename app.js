@@ -1125,28 +1125,6 @@
     var cur = parseInt(lsGet('pv4-trilha', '0'), 10); s.value = String(cur >= 0 && cur < l.length ? cur : 0);
     s.parentNode.style.display = 'flex';
   }
-  /* música ambiente automática: começa em 10% no primeiro toque de cada abertura do app (o navegador só libera som depois de um toque); pode ser desligada nas configurações */
-  function autoLigada() { return lsGet('pv4-auto', '1') !== '0'; }
-  function autoMusica() {
-    var sw = $('#sw'), feito = false, evs = ['pointerup', 'touchend', 'keydown'];
-    function solta() { evs.forEach(function (n) { document.removeEventListener(n, tocou, true); }); }
-    function tocou(e) {
-      if (feito) return; feito = true; solta();
-      if (!autoLigada() || aud.on || (e.target && e.target.closest && e.target.closest('#sw'))) return;
-      $('#vol').value = '10';
-      startAudio().then(function (ok) {
-        if (!ok || aud.on) return;
-        aud.on = true; sw.setAttribute('aria-checked', 'true'); $('#audState').textContent = 'Tocando baixinho enquanto você lê';
-      }, function () { /* sem som: segue em silêncio */ });
-    }
-    evs.forEach(function (n) { document.addEventListener(n, tocou, true); });
-    /* baixa a trilha por trás (uma vez) para a música começar na hora no primeiro toque; não baixa com economia de dados */
-    setTimeout(function () {
-      var c = navigator.connection, l = cfg.audio || [], i = parseInt(lsGet('pv4-trilha', '0'), 10) || 0;
-      if ((c && c.saveData) || !l[i]) return;
-      mediaResponse(l[i]).catch(function () { /* sem internet: tenta no toque */ });
-    }, 6000);
-  }
   function bindAudio() {
     $('#trilha').addEventListener('change', async function () {
       lsSet('pv4-trilha', $('#trilha').value);
@@ -1163,9 +1141,6 @@
       if (aud.el) aud.el.volume = volume();
       if (aud.master && aud.ctx) aud.master.gain.linearRampToValueAtTime(volume() * 0.8, aud.ctx.currentTime + 0.1);
     });
-    var sa = $('#swAuto'); sa.setAttribute('aria-checked', String(autoLigada()));
-    sa.addEventListener('click', function () { var on = !autoLigada(); lsSet('pv4-auto', on ? '1' : '0'); sa.setAttribute('aria-checked', String(on)); toast(on ? 'A música começa sozinha ao tocar na tela' : 'A música não começa mais sozinha'); });
-    if (autoLigada()) autoMusica();
   }
 
   /* ---------- atualização do app (botão "Atualizar", sem skipWaiting automático) ---------- */
@@ -1187,6 +1162,43 @@
   }
 
   /* ---------- ligações dos elementos fixos ---------- */
+  /* ---------- Anotações: texto livre guardado só neste aparelho (IndexedDB, loja "notes"; entra no backup) ---------- */
+  function notasLer() { return tx('notes', 'readonly', function (s) { return s.getAll(); }).then(function (l) { return (l || []).filter(function (n) { return n && n.id; }).sort(function (a, b) { return (b.editado || 0) - (a.editado || 0); }); }).catch(function () { return []; }); }
+  function notaGravar(n) { return tx('notes', 'readwrite', function (s) { return s.put(n, n.id); }); }
+  function notaApagar(id) { return tx('notes', 'readwrite', function (s) { return s.delete(id); }); }
+  function notasAbrir() {
+    var est = curState && curState.v === 'study' ? metaOf(curState.id) : null, edit = null;
+    var ta = h('textarea', { class: 'ntxt', maxlength: '5000', rows: '5', placeholder: 'Escreva aqui a sua anotação…', 'aria-label': 'Anotação' });
+    var lig = h('p', { class: 'nlig' }), lista = h('div', { class: 'nlist' });
+    var salvar = h('button', { class: 'big', type: 'button', text: 'Salvar anotação' });
+    function liga() { var e = edit ? (edit.estudo ? { id: edit.estudo, ref: edit.ref } : null) : (est ? { id: est.id, ref: est.ref } : null); lig.textContent = e ? 'Ligada ao estudo: ' + e.ref : ''; lig.hidden = !e; return e; }
+    function zera() { edit = null; ta.value = ''; salvar.textContent = 'Salvar anotação'; liga(); }
+    function pintar() {
+      notasLer().then(function (l) {
+        clear(lista);
+        if (!l.length) { lista.appendChild(h('p', { class: 'empty', text: 'Você ainda não tem anotações.' })); return; }
+        l.forEach(function (n) {
+          var d = new Date(n.editado || n.criado || 0).toLocaleDateString('pt-BR');
+          lista.appendChild(h('div', { class: 'nitem' }, [
+            h('div', { class: 'nmeta', text: d + (n.ref ? ' · ' + n.ref : '') }),
+            h('p', { class: 'ntexto', text: n.texto }),
+            h('div', { class: 'row' }, [
+              n.estudo && metaOf(n.estudo) ? h('button', { class: 'nbtn', type: 'button', text: 'Abrir estudo', onclick: function () { go({ v: 'study', id: n.estudo }); } }) : null,
+              h('button', { class: 'nbtn', type: 'button', text: 'Editar', onclick: function () { edit = n; ta.value = n.texto; liga(); salvar.textContent = 'Salvar alterações'; ta.focus(); } }),
+              h('button', { class: 'nbtn', type: 'button', text: 'Excluir', onclick: function () { if (window.confirm('Excluir esta anotação?')) notaApagar(n.id).then(function () { if (edit && edit.id === n.id) zera(); pintar(); }); } })])]));
+        });
+      });
+    }
+    salvar.addEventListener('click', function () {
+      var t = ta.value.trim(); if (!t) { toast('Escreva algo antes de salvar.'); return; }
+      var e = liga(), agora = Date.now();
+      var n = edit ? { id: edit.id, texto: t, estudo: edit.estudo || null, ref: edit.ref || null, criado: edit.criado || agora, editado: agora }
+        : { id: 'n' + agora + Math.random().toString(36).slice(2, 6), texto: t, estudo: e ? e.id : null, ref: e ? e.ref : null, criado: agora, editado: agora };
+      notaGravar(n).then(function () { toast('Anotação salva'); zera(); pintar(); }, function () { toast('Não foi possível salvar neste aparelho.'); });
+    });
+    modal([mtag('Meu caderno', true), h('h2', { text: 'Anotações' }), lig, ta, salvar, lista]);
+    liga(); pintar();
+  }
   function bindStatic() {
     var splash = $('#splash'), t0 = Date.now();
     function hideSplash() { if (!splashOn) return; splashOn = false; splash.classList.add('off'); ssSet('pv4-splash', '1'); applyAppearance(); }
@@ -1208,6 +1220,11 @@
       var sb = h('button', { class: 'tsearch', type: 'button', 'aria-label': 'Buscar livro ou palavra', onclick: function () { go({ v: 'search' }); } });
       sb.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>'; /* SVG fixo do próprio app */
       tb.appendChild(sb);
+      if (n === 'study' || n === 'ens') {
+        var nb = h('button', { class: 'tnota', type: 'button', 'aria-label': 'Anotações', title: 'Anotações', onclick: notasAbrir });
+        nb.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 3v18M12 8h4M12 12h4"/></svg>'; /* SVG fixo do próprio app */
+        tb.insertBefore(nb, sb);
+      }
     });
     /* deslizar para os lados na leitura troca de capítulo (ignora as bordas da tela, usadas pelo gesto de voltar do Android) */
     (function () {

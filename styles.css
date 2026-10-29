@@ -344,3 +344,13 @@ a:focus-visible,[role="button"]:focus-visible,[tabindex]:focus-visible,summary:f
 .study h3{font-size:1rem;font-weight:700;color:var(--accent);margin:6px 0 8px}
 .study p{max-width:42em;hyphens:auto;-webkit-hyphens:auto;text-wrap:pretty}
 .study p+p{margin-top:.9em}
+/* anotações (patch 48) */
+.tnota{flex:none;width:40px;height:40px;border-radius:50%;display:grid;place-items:center;color:inherit;background:rgba(255,255,255,.12)}
+.tnota svg{width:20px;height:20px}
+.ntxt{width:100%;min-height:120px;border-radius:14px;border:1px solid var(--line);background:var(--paper);color:var(--text);font:inherit;padding:10px 12px;resize:vertical}
+.nlig{font-size:13px;color:var(--tagink);font-weight:700;margin-bottom:8px}
+.nlist{margin-top:16px;display:flex;flex-direction:column;gap:10px}
+.nitem{background:var(--paper);border-radius:16px;padding:12px}
+.nmeta{font-size:11.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--soft)}
+.ntexto{white-space:pre-wrap;word-break:break-word;margin:6px 0 0}
+.nbtn{flex:1;min-height:44px;border-radius:12px;background:var(--card);font-weight:700;font-size:13px;color:var(--accent);padding:0 8px}
