@@ -1,0 +1,133 @@
+{
+ "id": "44-4-1-9",
+ "ref": "Atos 4:1-9",
+ "book": "44",
+ "chapter": 4,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E enquanto eles ainda estavam falando ao povo, vieram sobre eles os sacerdotes, e o oficial do Templo, e os saduceus,"
+  },
+  {
+   "n": 2,
+   "t": "Muito incomodados por eles ensinarem ao povo, e anunciarem no nome de Jesus a ressurreição dos mortos."
+  },
+  {
+   "n": 3,
+   "t": "E puseram as mãos sobre eles, e os puseram na prisão até o dia seguinte, porque já era tarde."
+  },
+  {
+   "n": 4,
+   "t": "E muitos dos que ouviram a palavra, creram; e era o número dos homens de cerca de cinco mil."
+  },
+  {
+   "n": 5,
+   "t": "E aconteceu no dia seguinte, que os chefes, e anciãos, e escribas, se reuniram em Jerusalém;"
+  },
+  {
+   "n": 6,
+   "t": "E Anás, o sumo sacerdote, e Caifás, e João, e Alexandre, e todos quantos havia da linhagem do governo sacerdotal."
+  },
+  {
+   "n": 7,
+   "t": "E pondo-os no meio, perguntaram -lhes : Por meio de que poder ou por qual nome vós fizestes isto?"
+  },
+  {
+   "n": 8,
+   "t": "Então Pedro, cheio do Espírito Santo, lhes disse: Chefes do povo, e anciões de Israel,"
+  },
+  {
+   "n": 9,
+   "t": "Se hoje somos interrogados quanto a uma boa ação feita a um enfermo, pela qual este foi curado;"
+  }
+ ],
+ "titulo": "A pergunta que expôs a verdade",
+ "temas": [
+  "testemunho",
+  "prisão",
+  "coragem",
+  "fé"
+ ],
+ "pergunta": "Por que a prisão de Pedro e João não conseguiu impedir o crescimento dos crentes?",
+ "entender": "Pedro e João estavam ensinando o povo quando foram interrompidos por sacerdotes, o oficial do Templo e saduceus. O motivo da sua indignação era claro: os apóstolos anunciavam a ressurreição dos mortos em nome de Jesus. Como era tarde, colocaram os dois na prisão até o dia seguinte. Mas, mesmo com essa interrupção, muitos ouviram a palavra e creram, chegando a cerca de cinco mil homens.\n\nNo dia seguinte, a reunião dos líderes em Jerusalém parecia imponente, com Anás, Caifás e outros anciãos. A pergunta feita a Pedro e João era direta: por qual nome eles haviam curado o aleijado? Pedro, cheio do Espírito Santo, começou a responder reconhecendo a autoridade deles, mas preparando o terreno para revelar a fonte real do poder.",
+ "ligar": {
+  "texto": "O foco de todo o episódio é a pessoa de Jesus. A cura do aleijado não foi um ato isolado, mas a demonstração pública do poder de Jesus ressuscitado. O texto mostra que a oposição religiosa não conseguia apagar o nome de Jesus, pois a salvação e o poder vêm exclusivamente dele. A pergunta dos líderes, ao buscar saber 'por qual nome' a cura ocorreu, termina por confirmar que Jesus é o único caminho para a vida e a cura.",
+  "selo": true
+ },
+ "viver": "A cena nos lembra de que a nossa fé não depende da aprovação dos líderes religiosos ou da sociedade. Assim como Pedro e João, podemos enfrentar momentos de pressão ou até de restrição, mas a mensagem de Jesus continua viva. Não precisamos nos intimidar; o Espírito Santo nos dá a coragem necessária para falar da verdade, mesmo quando a resposta do mundo é a oposição. A nossa segurança está no poder de Deus, não na ausência de problemas.",
+ "guarde": "O poder que cura e salva vem exclusivamente do nome de Jesus Cristo.",
+ "ore": "Espírito Santo, que encheu Pedro diante dos líderes, enche também a minha coragem. Que eu não tenha medo de testemunhar de Jesus, confiando no Teu poder e não na minha própria força. Ajuda-me a ser firme na verdade.",
+ "quiz": {
+  "pergunta": "Qual era o motivo principal da indignação dos sacerdotes e saduceus?",
+  "opcoes": [
+   "A cura física do aleijado",
+   "O anúncio da ressurreição de Jesus",
+   "A multidão que se reuniu no Templo"
+  ],
+  "certa": 1,
+  "explicacao": "O texto afirma que eles estavam incomodados por eles ensinarem ao povo e anunciarem a ressurreição dos mortos no nome de Jesus."
+ },
+ "refs": [
+  "Atos 2:14-21",
+  "Atos 5:27-29",
+  "Marcos 16:15-16"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-29T13:07:56.279Z",
+  "rounds": 2
+ }
+}

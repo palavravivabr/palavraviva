@@ -1,0 +1,132 @@
+{
+ "id": "44-3-18-26",
+ "ref": "Atos 3:18-26",
+ "book": "44",
+ "chapter": 3,
+ "verses": [
+  {
+   "n": 18,
+   "t": "Mas Deus cumpriu assim o que já antes pela boca de todos os seus profetas ele tinha anunciado, que o Cristo tinha de sofrer."
+  },
+  {
+   "n": 19,
+   "t": "Arrependei-vos, pois, e convertei-vos, para que vosso pecados sejam apagados, quando vierem os tempos do refrigério da presença do Senhor."
+  },
+  {
+   "n": 20,
+   "t": "E ele enviar a Jesus Cristo, que já vos foi pregado anteriormente."
+  },
+  {
+   "n": 21,
+   "t": "Ao qual convém que o céu receba até os tempos da restauração de todas as coisas, que Deus falou pela boca de todos os seus santos profetas, desde o princípio."
+  },
+  {
+   "n": 22,
+   "t": "Porque Moisés disse aos nossos pais: O Senhor, vosso Deus, levantará dentre vossos irmãos um profeta como eu; a ele ouvireis em tudo o que ele vos falar."
+  },
+  {
+   "n": 23,
+   "t": "E será que toda pessoa que não ouvir este profeta será exterminada do povo."
+  },
+  {
+   "n": 24,
+   "t": "E também todos os profetas, desde Samuel e os posteriores, todos os que falaram, também anunciaram com antecedência destes dias."
+  },
+  {
+   "n": 25,
+   "t": "Vós sois os filhos dos profetas e do pacto que Deus estabeleceu com nossos pais, dizendo a Abraão: E em tua semente serão abençoadas todas as famílias da terra."
+  },
+  {
+   "n": 26,
+   "t": "Deus, ao ressuscitar seu filho Jesus, primeiro o enviou a vós, para que nisto vos abençoasse: afastando cada um de vós de vossas maldades”."
+  }
+ ],
+ "titulo": "O plano antigo que Jesus cumpriu",
+ "temas": [
+  "arrependimento",
+  "promessa",
+  "restauração"
+ ],
+ "pergunta": "O que Pedro revela sobre a relação entre os profetas e Jesus?",
+ "entender": "Pedro fala à multidão reunida no templo, muitas semanas após a ascensão de Jesus. Ele argumenta que a morte de Cristo não foi um acidente, mas o cumprimento do que Deus anunciou pelos profetas. O sofrimento do Messias estava previsto desde o início.\n\nA mensagem central é um convite ao arrependimento e conversão. Pedro explica que isso levará à remoção dos pecados e à vinda de tempos de refrigério da presença do Senhor. Ele cita Moisés, que falou de um profeta como ele que deveria ser ouvido, identificando esse profeta com Jesus.\n\nPedro também conecta essa promessa à aliança com Abraão, onde todas as famílias da terra seriam abençoadas por sua semente. Ao ressuscitar Jesus, Deus o enviou primeiro aos judeus para afastá-los de suas maldades, mostrando que o plano de salvação é antigo e universal.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para Jesus como o cumprimento das profecias. Pedro identifica Jesus como o profeta prometido por Moisés e a semente de Abraão. A ressurreição de Jesus é apresentada como a ação de Deus para enviar essa bênção. O evangelho aqui é claro: o arrependimento e a fé em Jesus, o Cristo ressurreto, são o caminho para a remoção dos pecados e para a restauração que Deus prometeu.",
+  "selo": true
+ },
+ "viver": "Às vezes, sentimos que nossas falhas nos separam de Deus, mas este trecho mostra que Deus já tinha um plano para nos alcançar. A aplicação concreta é olhar para Jesus não apenas como um exemplo, mas como a resposta definitiva para nossos pecados. Assim como Pedro chamou a multidão a se arrepender, somos convidados a reconhecer nossas maldades e aceitar a bênção que vem por meio de Cristo. Isso significa uma mudança de direção, afastando-se do que nos afasta de Deus e confiando na obra de Jesus.",
+ "guarde": "Deus cumpriu o que anunciou: Jesus veio para nos afastar de nossas maldades.",
+ "ore": "Jesus, Tu que cumpres as profecias, ajuda-me a me arrepender de verdade. Afasta-me de minhas maldades e me dá a paz de saber que meus pecados são apagados por Ti.",
+ "quiz": {
+  "pergunta": "Quem Pedro identifica como o profeta que Moisés prometeu?",
+  "opcoes": [
+   "Jesus Cristo",
+   "Moisés",
+   "Samuel"
+  ],
+  "certa": 0,
+  "explicacao": "Pedro cita Moisés dizendo que Deus levantaria um profeta como ele, e afirma que Jesus é esse profeta que deve ser ouvido."
+ },
+ "refs": [
+  "Deuteronômio 18:15",
+  "Gênesis 22:18",
+  "Atos 2:22"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-29T13:06:30.045Z",
+  "rounds": 2
+ }
+}

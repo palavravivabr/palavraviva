@@ -2174,15 +2174,21 @@
   },
   "44-3-18-26": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: SPEAKER_AUDIENCE_CONSISTENCY: O ensino afirma que Pedro falava aos líderes religiosos que julgaram Jesus, quando na verdade ele discursava à multidão do povo reunida no templo (os líderes são mencionados em terceira pessoa no v. 17 e só chegam no capítulo 4).",
+   "estado": "pronto",
+   "titulo": "O plano antigo que Jesus cumpriu"
   },
   "44-4-1-9": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: ligar:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "A pergunta que expôs a verdade"
   },
   "44-4-10-19": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: PRAYER_FIDELITY: A oração foi dirigida ao Sinédrio de Jerusalém em vez de ser dirigida a Deus, contrariando o padrão bíblico de oração.",
+   "estado": "pronto",
+   "titulo": "O nome que os líderes tentaram calar"
   },
   "44-4-20-28": {
    "execucoes": 0,
@@ -2211,28 +2217,40 @@
   "44-6-1-8": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "44-6-9-15": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "44-7-1-12": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "44-7-13-24": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 721,
-   "entrada": 1859844,
-   "saida": 637500
+   "chamadas": 728,
+   "entrada": 1879187,
+   "saida": 643301
   },
   "groq-qwen": {
-   "chamadas": 714,
-   "entrada": 1764311,
-   "saida": 579291
+   "chamadas": 721,
+   "entrada": 1784051,
+   "saida": 585068
   },
   "gemini": {
-   "chamadas": 597,
-   "entrada": 1936660,
-   "saida": 768534
+   "chamadas": 603,
+   "entrada": 1955867,
+   "saida": 776986
   },
   "cloudflare": {
-   "chamadas": 373,
-   "entrada": 1300180,
-   "saida": 138383
+   "chamadas": 376,
+   "entrada": 1310521,
+   "saida": 139496
   },
   "mistral": {
    "chamadas": 0,

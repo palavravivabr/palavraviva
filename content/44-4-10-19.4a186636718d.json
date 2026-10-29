@@ -1,0 +1,137 @@
+{
+ "id": "44-4-10-19",
+ "ref": "Atos 4:10-19",
+ "book": "44",
+ "chapter": 4,
+ "verses": [
+  {
+   "n": 10,
+   "t": "Seja conhecido a todos vós, e a todos o povo de Israel, que pelo nome de Jesus Cristo, o nazareno, aquele que vós crucificastes, ao qual Deus ressuscitou dos mortos, por ele este homem está são diante de vós."
+  },
+  {
+   "n": 11,
+   "t": "Este é a pedra que foi desprezada por vós, edificadores; a qual foi feita por cabeça de esquina."
+  },
+  {
+   "n": 12,
+   "t": "E em nenhum outro há salvação; porque nenhum outro nome há abaixo do céu, dado entre os seres humanos, em quem devemos ser salvos."
+  },
+  {
+   "n": 13,
+   "t": "E eles, ao verem a ousadia de Pedro, e de João; e informados que eles eram homens sem instrução e ordinários, maravilharam-se; e eles sabiam que eles tinham estado com Jesus."
+  },
+  {
+   "n": 14,
+   "t": "E vendo estar com eles o homem que tinha sido curado, nada tinham a dizer contra eles ."
+  },
+  {
+   "n": 15,
+   "t": "E mandando-os saírem do supremo conselho, discutiam entre si,"
+  },
+  {
+   "n": 16,
+   "t": "Dizendo: O que faremos a estes homens? Porque um sinal notório foi feito por eles, manifesto a todos os que habitam em Jerusalém, e não podemos negar."
+  },
+  {
+   "n": 17,
+   "t": "Mas para que esta notícia não seja ainda mais divulgada entre o povo, façamos sérias ameaças a eles, para que nunca mais falem a ninguém neste nome."
+  },
+  {
+   "n": 18,
+   "t": "E chamando-os, ordenaram-lhes que nunca mais falassem nem ensinassem no nome de Jesus."
+  },
+  {
+   "n": 19,
+   "t": "Mas, respondendo Pedro, e João, disseram-lhes: Julgai se é justo diante de Deus, ouvir a vós mais do que a Deus;"
+  }
+ ],
+ "titulo": "O nome que os líderes tentaram calar",
+ "temas": [
+  "coragem",
+  "soberania",
+  "testemunho",
+  "nome de jesus"
+ ],
+ "pergunta": "Por que os líderes religiosos, vendo a cura, decidiram ameaçar Pedro e João em vez de investigar a verdade?",
+ "entender": "Pedro e João estão diante do Sinédrio, o tribunal supremo de Israel. Eles foram interrogados sobre o poder que curou um homem aleijado de mais de quarenta anos. Pedro, cheio do Espírito Santo, responde sem rodeios: a cura aconteceu \"pelo nome de Jesus Cristo, o nazareno\". Ele lembra aos líderes que foram eles quem crucificou esse homem, mas Deus o ressuscitou. Pedro usa uma imagem poderosa: Jesus é a \"pedra que foi desprezada\", mas que se tornou a \"cabeça de esquina\" da construção de Deus. Ele afirma com clareza que não há salvação em nenhum outro nome.\n\nOs líderes ficaram chocados. Eles sabiam que Pedro e João eram \"homens sem instrução e ordinários\", mas reconheciam que haviam estado com Jesus. O homem curado estava ali, vivo e andando, impossível de negar. Diante da evidência irrefutável, a reação deles não foi buscar a verdade, mas tentar controlar a narrativa. Mandaram os apóstolos sair e decidiram \"fazer sérias ameaças\" para que não falassem mais no nome de Jesus. O medo do escândalo e da perda de controle político os levou a reprimir a mensagem, ignorando que o poder que curou não podia ser ignorado.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para a exclusividade de Jesus Cristo na salvação. Pedro não oferece uma filosofia de vida ou uma nova religião, mas um nome específico: Jesus, o crucificado e ressurreto. A afirmação de que \"em nenhum outro há salvação\" destaca que a obra de redenção foi completa na cruz. O evangelho não é apenas uma boa notícia moral, mas a proclamação de que o Rei ressurreto tem autoridade sobre a morte e sobre a história. A resposta dos líderes mostra o conflito eterno: o mundo tenta silenciar a voz de Cristo, mas o Espírito Santo garante que a mensagem continue a ser proclamada, apesar das ameaças humanas.",
+  "selo": true
+ },
+ "viver": "Pedro e João não eram oradores treinados, mas sua coragem veio de estarem cheios do Espírito Santo. Hoje, podemos sentir que nossa voz é pequena diante de colegas, chefes ou familiares que não compartilham nossa fé. Este trecho nos ensina que a fidelidade a Deus não depende da nossa eloquência, mas da nossa obediência àquele que nos chamou. Quando a pressão social tenta nos fazer silenciar sobre quem é Jesus, podemos confiar que a mesma autoridade que ressuscitou Cristo sustenta nossa testemunha. Não precisamos temer o julgamento dos homens, pois a verdade que confessamos é mais poderosa que qualquer ameaça humana.",
+ "guarde": "O medo dos homens não pode calar a voz de quem viu a ressurreição de Jesus.",
+ "ore": "Pai, que o Espírito Santo me encha de coragem para confessar que Jesus é o Senhor, mesmo quando a pressão social tenta me fazer ficar em silêncio. Que eu não tema mais o julgamento dos homens do que a aprovação de Deus.",
+ "quiz": {
+  "pergunta": "O que os líderes do Sinédrio decidiram fazer com Pedro e João depois de verem o homem curado?",
+  "opcoes": [
+   "Pediram que Pedro ensinasse publicamente sobre Jesus",
+   "Ameaçá-los para que não falassem mais no nome de Jesus",
+   "Aceitaram a explicação de Pedro e os libertaram"
+  ],
+  "certa": 1,
+  "explicacao": "O texto diz que eles discutiram e decidiram fazer 'sérias ameaças' para impedir que a notícia se espalhasse, pois não podiam negar o sinal feito."
+ },
+ "refs": [
+  "Atos 5:27-29",
+  "Atos 5:40-41",
+  "1 Pedro 2:7-8"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-29T13:08:28.258Z",
+  "rounds": 3
+ }
+}
