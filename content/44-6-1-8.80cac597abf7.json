@@ -1,0 +1,130 @@
+{
+ "id": "44-6-1-8",
+ "ref": "Atos 6:1-8",
+ "book": "44",
+ "chapter": 6,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Naqueles dias, ao se multiplicar o número de discípulos, houve uma murmuração dos gregos contra os hebreus, de que suas viúvas estavam sendo desprezadas no serviço diário de entrega de comida ."
+  },
+  {
+   "n": 2,
+   "t": "E os doze, chamando à multidão dos discípulos, disseram: Não é bom que nós deixemos a palavra de Deus para servirmos às mesas."
+  },
+  {
+   "n": 3,
+   "t": "Portanto, irmãos, buscai sete homens dentre vós, de quem haja bom testemunho, cheios do Espírito Santo e de sabedoria, aos quais constituamos sobre esta importante tarefa."
+  },
+  {
+   "n": 4,
+   "t": "Nós, porém, perseveraremos na oração e no serviço da palavra."
+  },
+  {
+   "n": 5,
+   "t": "E esta palavra foi do agrado diante de toda a multidão, e escolheram a Estêvão, homem cheio de fé e do Espírito Santo, e Filipe, Prócoro, Nicanor, Timom, Parmenas e a Nicolão, o prosélito de Antioquia."
+  },
+  {
+   "n": 6,
+   "t": "Aos quais se apresentaram diante dos apóstolos; e eles, orando, puseram as mãos sobre eles."
+  },
+  {
+   "n": 7,
+   "t": "E a palavra de Deus crescia, e o número dos discípulos se multiplicava muito em Jerusalém; e grande multidão dos sacerdotes obedecia à fé."
+  },
+  {
+   "n": 8,
+   "t": "E Estêvão, cheio de fé e poder, fazia milagres e grandes sinais entre o povo."
+  }
+ ],
+ "titulo": "Sete servos para cuidar das viúvas",
+ "temas": [
+  "serviço",
+  "comunhão",
+  "espírito santo",
+  "liderança"
+ ],
+ "pergunta": "Por que a igreja primitiva separou sete homens para atender às viúvas antes de continuar a pregação?",
+ "entender": "Em Atos 6:1‑8 a comunidade cristã já havia crescido muito, e surgiram queixas das viúvas gregas que sentiam que suas necessidades eram ignoradas. Os doze apóstolos, percebendo que não podiam \"não é bom que nós deixemos a palavra de Deus para servirmos às mesas\", convocaram a multidão dos discípulos e propuseram escolher sete homens de bom testemunho, cheios do Espírito Santo e de sabedoria, para cuidar da distribuição de alimento. Os nomes escolhidos foram Estêvão, Filipe, Prócoro, Nicanor, Timom, Parmenas e Nicolau, o prosélito de Antioquia. Depois de apresentarem os candidatos, os apóstolos oraram, impuseram as mãos sobre eles e a palavra de Deus continuou a crescer, assim como o número de discípulos.\n\nEsse relato ocorre depois do Pentecostes (Atos 2), quando o Espírito Santo já havia sido derramado sobre os crentes. A escolha de homens \"cheios do Espírito Santo\" mostra que o Espírito continua guiando decisões práticas da igreja. O episódio destaca que a missão da comunidade inclui tanto a proclamação da palavra quanto o cuidado com os vulneráveis, e que Deus equipa pessoas comuns para essas tarefas.",
+ "ligar": {
+  "texto": "O cuidado das viúvas reflete o amor que Jesus demonstrou ao servir os necessitados (Mateus 25:40). O fato de os sete serem \"cheios do Espírito Santo\" aponta para o mesmo poder que capacitou Cristo a realizar milagres e a dar vida eterna. Quando a comunidade se organiza para atender às necessidades reais, abre espaço para que a mensagem da salvação alcance mais corações, pois o serviço prático testemunha o Reino de Deus que Jesus inaugurou.",
+  "selo": false
+ },
+ "viver": "Ao observar que alguém em nossa igreja ou vizinhança está sendo deixado de lado – seja por falta de alimento, apoio ou atenção – devemos seguir o exemplo dos primeiros cristãos: identificar pessoas de bom testemunho, orar por elas e colocá‑las a serviço da comunidade. Não é preciso ter um cargo formal; basta ter um coração disposto e buscar a direção do Espírito. Ao organizar grupos de ajuda, criamos oportunidades concretas de mostrar o amor de Cristo e fortalecemos os laços de comunhão que sustentam a igreja.\n\nAlém disso, a prática de impor as mãos e orar pelos servos nos lembra que nossa força vem de Deus. Reconhecer que o poder para servir vem do Espírito nos protege do orgulho e nos mantém dependentes da graça que nos capacita a amar como Jesus amou.",
+ "guarde": "Servir aos vulneráveis abre caminho para que a mensagem de Cristo alcance corações famintos.",
+ "ore": "Estêvão, escolhido para servir, inspire-me a apoiar quem cuida das viúvas e dos necessitados em minha comunidade.",
+ "quiz": {
+  "pergunta": "Qual foi a razão principal dos apóstolos ao escolher sete homens para o serviço de distribuição de alimento?",
+  "opcoes": [
+   "Porque eram todos judeus de alta posição",
+   "Para substituir os apóstolos na pregação",
+   "Para que pudessem dedicar‑se à oração e à palavra de Deus"
+  ],
+  "certa": 2,
+  "explicacao": "Os apóstolos declararam que não era bom deixar a palavra de Deus para servir às mesas, então escolheram homens para que eles pudessem perseverar na oração e no serviço da palavra."
+ },
+ "refs": [
+  "Mateus 25:40",
+  "1 Coríntios 12:4-7",
+  "Filipenses 2:4",
+  "Gálatas 6:2"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-29T18:56:06.574Z",
+  "rounds": 3
+ }
+}

@@ -1,0 +1,139 @@
+{
+ "id": "44-5-22-32",
+ "ref": "Atos 5:22-32",
+ "book": "44",
+ "chapter": 5,
+ "verses": [
+  {
+   "n": 22,
+   "t": "Mas quando os oficiais vieram, não os acharam na prisão; e voltando, anunciaram,"
+  },
+  {
+   "n": 23,
+   "t": "Dizendo: Nós achamos a prisão fechada, em toda segurança, e com os guardas que estavam fora junto às portas; mas quando as abrimos, a ninguém achamos dentro."
+  },
+  {
+   "n": 24,
+   "t": "Quando o sumo sacerdote, o chefe da guarda do Templo, e os chefes dos sacerdotes ouviram estas palavras, eles duvidaram deles quanto o que aquilo viria a ser."
+  },
+  {
+   "n": 25,
+   "t": "E vindo alguém, anunciou-lhes, dizendo: Eis que os homens que vós pusestes na prisão estão no Templo, e ensinam ao povo."
+  },
+  {
+   "n": 26,
+   "t": "Então foi o chefe da guarda do Templo com os oficiais, e os trouxe, mas não com violência, porque temiam ao povo, para que não fossem apedrejados."
+  },
+  {
+   "n": 27,
+   "t": "E quando os trouxeram, apresentaram-nos ao supremo conselho. E o sumo sacerdote perguntou a eles, dizendo:"
+  },
+  {
+   "n": 28,
+   "t": "Não vos ordenamos expressamente para não ensinardes mais neste nome? E eis que vós enchestes a Jerusalém com vossa doutrina, e quereis trazer sobre nós o sangue deste homem!"
+  },
+  {
+   "n": 29,
+   "t": "E Pedro, respondendo com os apóstolos, disseram: Maior obrigação é obedecer a Deus do que às pessoas."
+  },
+  {
+   "n": 30,
+   "t": "O Deus de nossos Pais ressuscitou a Jesus, ao qual vós matastes, pendurando -o no madeiro."
+  },
+  {
+   "n": 31,
+   "t": "A este Deus exaltou com sua mão direita por Príncipe e Salvador, para dar a Israel arrependimento e perdão de pecados."
+  },
+  {
+   "n": 32,
+   "t": "E nós somos testemunhas dele quanto a estas palavras, e também o Espírito Santo, o qual Deus tem dado a aqueles que lhe obedecem."
+  }
+ ],
+ "titulo": "Quando a prisão não prende a mensagem",
+ "temas": [
+  "obediencia",
+  "testemunho",
+  "espírito santo"
+ ],
+ "pergunta": "O que acontece quando a autoridade humana tenta calar a verdade?",
+ "entender": "Pedro e os apóstolos foram libertados milagrosamente e, ao invés de fugir, foram ao templo ensinar o povo. O sumo sacerdote e a guarda do templo, temendo a reação da multidão, levaram-nos ao supremo conselho. Lá, o sumo sacerdote lhes pergunta: \"Não vos ordenamos expressamente para não ensinardes mais neste nome?\" (Atos 5.28). Pedro responde que obedecer a Deus tem prioridade sobre obedecer a homens, lembrando que \"O Deus de nossos pais ressuscitou a Jesus\" (v.30) e que Ele foi exaltado como Príncipe e Salvador (v.31). O discurso mostra a coragem dos primeiros cristãos ao proclamar a ressurreição, mesmo diante de ameaças.\n\nO contexto imediato revela que, após o anjo libertar os presos (Atos 5.19‑21), eles obedeceram à ordem de pregar no templo. A reação das autoridades demonstra o medo de perder o controle sobre o povo. O capítulo segue mostrando que, apesar da perseguição, o Espírito Santo continua capacitando os crentes a testemunhar a verdade.",
+ "ligar": {
+  "texto": "Neste discurso Pedro declara que \"O Deus de nossos pais ressuscitou a Jesus\" (v.30) e que Ele foi exaltado como \"Príncipe e Salvador\" (v.31). Essa afirmação aponta diretamente para o evangelho: a ressurreição de Cristo prova que Ele venceu a morte e oferece arrependimento e perdão (v.31). A coragem de obedecer a Deus acima das autoridades humanas reflete a chamada de Jesus para que seus seguidores sejam fiéis, mesmo sob perseguição, confiando na vitória que Ele já conquistou. Assim, o texto conecta a ação do Espírito Santo que capacita os apóstolos a proclamar a salvação em Cristo.",
+  "selo": true
+ },
+ "viver": "A determinação dos apóstolos em pregar, mesmo quando a lei humana tenta silenciá‑los, nos desafia a manter firme a nossa fé diante de pressões sociais ou profissionais. Quando somos confrontados com demandas que vão contra os princípios do evangelho, devemos lembrar que obedecer a Deus tem prioridade. Isso pode significar falar a verdade no trabalho, defender a justiça na comunidade ou simplesmente compartilhar a esperança em Cristo com quem nos cerca, confiando que o Espírito Santo nos dá coragem e sabedoria.\n\nAssim como a guarda temia ser apedrejada, hoje podemos temer rejeição ou críticas. Mas a história mostra que Deus protege e usa até as circunstâncias difíceis para ampliar o Seu testemunho. Portanto, escolha ser testemunha fiel, mesmo que isso signifique ser incompreendido ou rejeitado.",
+ "guarde": "Obedecer a Deus vale mais que temer a opinião dos homens.",
+ "ore": "Senhor, assim como a guarda temia o povo, ajuda-me a não temer a opinião dos outros ao proclamar a verdade de Jesus.",
+ "quiz": {
+  "pergunta": "Qual foi a razão dada pelo sumo sacerdote para trazer os apóstolos ao supremo conselho?",
+  "opcoes": [
+   "Eles queriam impedir que ensinassem no nome de Jesus.",
+   "Eles queriam recompensá‑los por libertarem a prisão.",
+   "Eles precisavam de ajuda para construir o templo."
+  ],
+  "certa": 0,
+  "explicacao": "O sumo sacerdote perguntou se não tinham sido proibidos de ensinar neste nome, mostrando que o objetivo era calar a pregação (Atos 5.28)."
+ },
+ "refs": [
+  "Romanos 1:16",
+  "1 Coríntios 1:18"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-29T18:53:54.920Z",
+  "rounds": 1
+ }
+}

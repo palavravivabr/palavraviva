@@ -1,0 +1,126 @@
+{
+ "id": "44-6-9-15",
+ "ref": "Atos 6:9-15",
+ "book": "44",
+ "chapter": 6,
+ "verses": [
+  {
+   "n": 9,
+   "t": "E levantaram-se alguns da sinagoga, que era chamada sinagoga dos libertos, cireneus, e alexandrinos, e dos que eram da Cilícia, e da Ásia, e discutiam contra Estêvão."
+  },
+  {
+   "n": 10,
+   "t": "E eles não podiam resistir à sabedoria e ao Espírito com que ele falava."
+  },
+  {
+   "n": 11,
+   "t": "Então eles subornaram a uns homens, para que dissessem: Nós o ouvimos falando palavras blasfemas contra Moisés e contra Deus."
+  },
+  {
+   "n": 12,
+   "t": "E incitaram ao povo, aos anciãos e aos escribas; e vieram sobre Estêvão , e o detiveram, e o levaram ao supremo conselho."
+  },
+  {
+   "n": 13,
+   "t": "E apresentaram falsas testemunhas, que diziam: Este homem não para de falar palavras blasfemas contra este santo lugar, e contra a Lei."
+  },
+  {
+   "n": 14,
+   "t": "Porque nós o ouvimos dizer que este Jesus Nazareno vai destruir este lugar, e mudar os costumes que Moisés nos entregou."
+  },
+  {
+   "n": 15,
+   "t": "Então todos os que estavam sentados no supremo conselho, observando-o com atenção, viram o rosto dele como de um anjo."
+  }
+ ],
+ "titulo": "O rosto que não era de medo",
+ "temas": [
+  "perseguição",
+  "falsas acusações",
+  "presença de deus",
+  "coragem",
+  "testemunho"
+ ],
+ "pergunta": "O que acontece quando mentimos para destruir alguém que fala a verdade?",
+ "entender": "Em Atos 6, vemos a igreja em Jerusalém crescendo rapidamente. Estêvão, um dos sete homens escolhidos para servir, era cheio de fé e poder. Seus oponentes, homens da sinagoga dos libertos, não podiam vencer os argumentos dele porque ele falava guiado pelo Espírito Santo.\n\nFrustrados, eles subornaram homens para acusá-lo de blasfemar contra Moisés e Deus. Incitaram o povo e os líderes religiosos a prendê-lo e levá-lo ao Supremo Conselho. Lá, apresentaram falsas testemunhas dizendo que Estêvão ameaçava destruir o Templo e mudar a Lei de Moisés, citando supostamente Jesus.\n\nA reação de todos os presentes foi surpreendente: ao olharem para Estêvão, viram seu rosto com uma serenidade sobrenatural, descrito como o de um anjo. Isso mostra que a verdade, quando vive em nós, não gera medo, mas uma paz que transparece mesmo sob ameaça de morte.",
+ "ligar": {
+  "texto": "Estêvão defendia a mensagem de Jesus, que cumpriu a Lei e apontou para um novo pacto. A acusação de que Jesus destruiria o Templo refletia a tensão entre a antiga aliança e a nova, inaugurada pela cruz e ressurreição de Cristo. A coragem de Estêvão nasce da certeza de quem conhece a Jesus como o caminho, a verdade e a vida.",
+  "selo": true
+ },
+ "viver": "Quando enfrentamos críticas injustas ou ambientes hostis, nossa tendência é reagir com raiva ou defesa agressiva. Estêvão nos ensina que a resposta mais poderosa é manter a paz interior e a fidelidade à verdade. Pratique a calma: antes de responder a uma ofensa, respire e busque a presença de Deus. Deixe que sua atitude demonstre que você pertence a um Reino maior que o da opinião humana.",
+ "guarde": "A paz de Cristo em nós torna nosso rosto um testemunho que nem a mentira pode esconder.",
+ "ore": "Senhor, diante das falsas acusações que enfrento, dá-me a mesma serenidade que Estêvão teve. Que meu rosto reflita a Tua presença e não o medo. Ensina-me a confiar na Tua justiça, mesmo quando os homens não a veem.",
+ "quiz": {
+  "pergunta": "O que os membros do Supremo Conselho viram no rosto de Estêvão?",
+  "opcoes": [
+   "Um rosto vermelho de raiva",
+   "O rosto dele como de um anjo",
+   "Um rosto cheio de medo e tristeza"
+  ],
+  "certa": 1,
+  "explicacao": "O texto diz explicitamente que viram o rosto dele como de um anjo, indicando uma paz sobrenatural, não medo ou raiva."
+ },
+ "refs": [
+  "Mateus 10:28",
+  "2 Coríntios 10:3",
+  "Salmos 27:1"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-29T18:58:45.587Z",
+  "rounds": 1
+ }
+}

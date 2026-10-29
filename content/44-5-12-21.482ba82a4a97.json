@@ -1,0 +1,138 @@
+{
+ "id": "44-5-12-21",
+ "ref": "Atos 5:12-21",
+ "book": "44",
+ "chapter": 5,
+ "verses": [
+  {
+   "n": 12,
+   "t": "E pelas mãos dos apóstolos foram feitos muitos sinais e milagres entre o povo. E estavam todos em concordância no pórtico de Salomão."
+  },
+  {
+   "n": 13,
+   "t": "Mas dos outros, ninguém ousava se juntar a eles; porém o povo os estimava grandemente."
+  },
+  {
+   "n": 14,
+   "t": "E cada vez mais os que criam no Senhor se aumentavam, multidões tanto de homens como de mulheres."
+  },
+  {
+   "n": 15,
+   "t": "De maneira que traziam os enfermos às ruas, e os botavam em camas e macas, para que, vindo Pedro, pelo menos a sombra dele cobrisse a alguns deles."
+  },
+  {
+   "n": 16,
+   "t": "E também das cidades vizinhas vinha uma multidão a Jerusalém, trazendo enfermos, e atormentados por espíritos imundos, os quais todos eram curados."
+  },
+  {
+   "n": 17,
+   "t": "E levantando-se o sumo sacerdote, e todos os que estavam com ele (que eram do grupo sectário dos saduceus), eles se encheram de inveja."
+  },
+  {
+   "n": 18,
+   "t": "E puseram suas mãos nos apóstolos, e os colocaram na prisão pública."
+  },
+  {
+   "n": 19,
+   "t": "Mas um anjo do Senhor, durante a noite, abriu as portas da prisão; e levando-os para fora, disse:"
+  },
+  {
+   "n": 20,
+   "t": "Ide; ficai em pé, e falai no Templo ao povo todas as palavras desta vida."
+  },
+  {
+   "n": 21,
+   "t": "E eles, ouvindo isto , entraram de manhã cedo no templo, e ensinavam. Mas vindo o sumo sacerdote, e os que estavam com ele, chamaram ao supremo conselho, e a todos os anciãos dos filhos de Israel, e mandaram à prisão, para que os trouxessem."
+  }
+ ],
+ "titulo": "A prisão que se abriu sem cadeado",
+ "temas": [
+  "milagres",
+  "perseguição",
+  "fé",
+  "libertação"
+ ],
+ "pergunta": "Como a igreja reage quando a autoridade tenta calar o poder de Deus?",
+ "entender": "Em Atos 5:12‑21 vemos a comunidade cristã crescendo rapidamente. Muitos sinais e milagres aconteciam \"pelas mãos dos apóstolos\" (v.12) e a multidão trazia enfermos de cidades vizinhas (v.16). Essa prosperidade espiritual despertou inveja nos saduceus, que prenderam Pedro e os outros apóstolos (v.18‑19). Contudo, durante a noite, \"um anjo do Senhor\" abriu as portas da prisão e os libertou, ordenando‑os a continuar a pregação no templo (v.20‑21). O texto mostra duas realidades: o poder humano que tenta conter a obra de Deus e a intervenção divina que garante a continuidade da mensagem.\n\nO contexto anterior relata o medo que tomou conta da igreja após a morte de uma mulher (Atos 5:9‑11). Depois da libertação, os oficiais não encontram os apóstolos na prisão (Atos 5:22‑24), reforçando que a autoridade terrena não tem controle sobre o plano de Deus. Essa narrativa enfatiza que, mesmo diante da perseguição, a missão de anunciar o Evangelho permanece firme.",
+ "ligar": {
+  "texto": "Embora Jesus não seja mencionado neste trecho, a libertação dos apóstolos aponta para a vitória que Cristo já conquistou sobre a morte e a prisão do pecado. O anjo que abre a prisão simboliza o mesmo poder que ressuscitou Jesus (Romanos 8:34) e que continua a libertar os crentes da opressão. Ao mandar que falem \"todas as palavras desta vida\", o anjo ecoa a missão de proclamar a vida em Cristo, que transforma e cura, como demonstrado pelos milagres realizados pelos apóstolos.",
+  "selo": false
+ },
+ "viver": "A coragem dos apóstolos ao continuar a pregar, mesmo depois de serem presos, nos desafia a não recuar quando enfrentamos oposição. Quando alguém tenta nos silenciar – seja no trabalho, na família ou na comunidade – podemos lembrar que Deus já abriu portas que parecem trancadas. Assim como o anjo libertou Pedro, o Espírito Santo nos dá força para falar a verdade do Evangelho, confiando que a vitória não depende da nossa força, mas da presença de Deus ao nosso lado.",
+ "guarde": "A autoridade humana pode fechar portas, mas o poder de Deus sempre encontra um caminho para abrir.",
+ "ore": "Senhor, assim como o anjo abriu a prisão dos apóstolos em Jerusalém, abre também as portas que parecem trancadas na minha vida para que eu possa proclamar a tua verdade com coragem.",
+ "quiz": {
+  "pergunta": "O que aconteceu com os apóstolos depois que foram presos?",
+  "opcoes": [
+   "Um anjo abriu a prisão e os libertou",
+   "Eles foram julgados e condenados à morte",
+   "Fugiram secretamente durante a noite"
+  ],
+  "certa": 0,
+  "explicacao": "O texto relata que \"um anjo do Senhor, durante a noite, abriu as portas da prisão\" (v.19‑20) e os mandou pregar novamente, mostrando que não foram julgados nem fugiram por conta própria."
+ },
+ "refs": [
+  "Atos 12:7-11",
+  "Romanos 8:34",
+  "2 Coríntios 4:8-9",
+  "Filipenses 1:12-14"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-29T18:57:07.487Z",
+  "rounds": 1
+ }
+}

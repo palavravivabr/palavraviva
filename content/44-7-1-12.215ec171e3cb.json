@@ -1,0 +1,145 @@
+{
+ "id": "44-7-1-12",
+ "ref": "Atos 7:1-12",
+ "book": "44",
+ "chapter": 7,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E disse o chefe dos sacerdotes: Por acaso é isto assim?"
+  },
+  {
+   "n": 2,
+   "t": "E ele disse: Homens irmãos e pais, ouvi: o Deus da glória apareceu a nosso pai Abraão, estando ele na Mesopotâmia, antes de habitar em Harã;"
+  },
+  {
+   "n": 3,
+   "t": "E disse-lhe: Sai de tua terra, e de tua parentela, e vem a terra que eu te mostrarei."
+  },
+  {
+   "n": 4,
+   "t": "Então ele saiu da terra dos caldeus, e habitou em Harã. E dali, depois que morreu seu pai, ele partiu para esta terra, em que agora vós habitais."
+  },
+  {
+   "n": 5,
+   "t": "E Deus não lhe deu herança nela, nem mesmo a pegada de um pé; mas prometeu que a daria a ele em propriedade, e a sua semente depois dele, não tendo ele filho ainda ."
+  },
+  {
+   "n": 6,
+   "t": "E Deus falou assim: Tua semente será peregrina em terra alheia, e a escravizarão, e a maltratarão por quatrocentos anos."
+  },
+  {
+   "n": 7,
+   "t": "E à nação a quem eles servirem, eu a julgarei, (disse Deus). E depois disso eles sairão, e me servirão neste lugar."
+  },
+  {
+   "n": 8,
+   "t": "E ele lhe deu o pacto da circuncisão; e assim gerou a Isaque, e o circuncidou ao oitavo dia; e Isaque gerou a Jacó, e Jacó aos doze patriarcas."
+  },
+  {
+   "n": 9,
+   "t": "E os patriarcas, tendo inveja de José, venderam -no ao Egito; mas Deus era com ele."
+  },
+  {
+   "n": 10,
+   "t": "E o livrou de todas as suas aflições, e lhe deu graça e sabedoria diante de Faraó, rei do Egito; e o pôs por governador sobre o Egito, e toda a sua casa."
+  },
+  {
+   "n": 11,
+   "t": "E veio fome sobre toda a terra do Egito e de Canaã, e grande aflição; e nossos pais não achavam alimentos."
+  },
+  {
+   "n": 12,
+   "t": "Mas Jacó, ao ouvir que havia cereal no Egito, ele enviou nossos pais a primeira vez."
+  }
+ ],
+ "titulo": "A promessa guardada antes do filho nascer",
+ "temas": [
+  "promessa",
+  "fé",
+  "sofrimento",
+  "soberania"
+ ],
+ "pergunta": "Como podemos confiar em Deus quando a realidade parece contradizer a Sua promessa?",
+ "entender": "Em Atos 7, Estêvão faz um resumo da história de Israel para os líderes religiosos. Ele começa por Abraão, que obedeceu a Deus deixando sua terra, mas ainda não tinha filhos. Deus prometeu a ele e à sua descendência uma terra, mas também avisou que os seus descendentes seriam escravizados por quatrocentos anos. \n\nApesar da promessa de liberdade futura, o texto mostra que o povo passou por aflições. Os patriarcas venderam José por inveja, e depois houve uma fome grande. Estêvão destaca que, mesmo no sofrimento, Deus estava com José e o elevou a governador. Essa narrativa serve para mostrar que Deus cumpre Seus planos mesmo através de situações difíceis e ações humanas falhas.",
+ "ligar": {
+  "texto": "Este trecho aponta para Jesus como o verdadeiro herdeiro da promessa. Assim como José foi rejeitado pelos irmãos, mas Deus o usou para salvar muitas vidas, Jesus foi rejeitado por Seu povo, mas Sua morte e ressurreição trouxeram salvação a todos que creem. A promessa feita a Abraão se cumpre plenamente em Cristo, que é a 'semente' pela qual todas as nações serão abençoadas.",
+  "selo": false
+ },
+ "viver": "A história de José nos mostra que Deus age mesmo quando a família falha. Ele pode transformar a inveja dos irmãos em um instrumento de salvação para muitas pessoas. Da mesma forma, quando enfrentamos rejeições ou erros alheios, podemos descansar na soberania divina. Não precisamos resolver tudo sozinhos nem desistir da fé diante do mal. A fidelidade de Deus permanece firme, trabalhando nos bastidores para o bem daqueles que O amam, mesmo quando o caminho parece duvidoso e cheio de obstáculos.",
+ "guarde": "A fidelidade divina transforma até as falhas humanas em instrumentos de bem para o plano eterno.",
+ "ore": "Abraão, que saiu da Mesopotâmia, ensina a obediência. José, que foi vendido, ensina a esperança. Pai, quando não entendo o porquê do meu sofrimento ou das ações de outros, ajuda-me a confiar que Tu estás no controle. Transforma as dificuldades da minha vida em testemunho da Tua graça, assim como fizeste com os patriarcas.",
+ "quiz": {
+  "pergunta": "O que Deus prometeu a Abraão, segundo Atos 7:5?",
+  "opcoes": [
+   "A terra em propriedade para ele e sua descendência",
+   "Uma cidade fortificada na Mesopotâmia",
+   "A imediata liberação de seu povo escravo"
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma que Deus prometeu que daria a terra a Abraão em propriedade, e a sua semente depois dele, mesmo que ele ainda não tivesse filho."
+ },
+ "refs": [
+  "Gênesis 12:1-3",
+  "Gênesis 15:13-14",
+  "Romanos 8:28"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-29T19:00:34.987Z",
+  "rounds": 2
+ }
+}

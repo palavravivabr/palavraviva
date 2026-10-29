@@ -1,0 +1,144 @@
+{
+ "id": "44-7-13-24",
+ "ref": "Atos 7:13-24",
+ "book": "44",
+ "chapter": 7,
+ "verses": [
+  {
+   "n": 13,
+   "t": "E na segunda vez ,José foi reconhecido pelos seus irmãos, e a família de José foi conhecia por Faraó."
+  },
+  {
+   "n": 14,
+   "t": "E José mandou chamar a seu pai Jacó, e toda a sua parentela, setenta e cinco almas."
+  },
+  {
+   "n": 15,
+   "t": "E Jacó desceu ao Egito, e morreu; ele, e nossos pais;"
+  },
+  {
+   "n": 16,
+   "t": "E foram levados a Siquém, e postos na sepultura que Abraão, por uma quantia em dinheiro, tinha comprado dos filhos de Emor, pai de Siquém."
+  },
+  {
+   "n": 17,
+   "t": "Mas quando chegou perto o tempo da promessa que Deus tinha prometido a Abraão, o povo cresceu e se multiplicou no Egito."
+  },
+  {
+   "n": 18,
+   "t": "Até que se levantou outro rei, que não tinha conhecido a José."
+  },
+  {
+   "n": 19,
+   "t": "Este, usando de astúcia para com nossa parentela, maltratou a nossos pais, até fazendo com que eles rejeitassem suas crianças, para que não sobrevivessem."
+  },
+  {
+   "n": 20,
+   "t": "Naquele tempo nasceu Moisés, e ele era muito formoso para Deus, e ele foi criado por três meses na casa de seu pai."
+  },
+  {
+   "n": 21,
+   "t": "E tendo sido abandonado, a filha de Faraó o tomou, e o criou para si como filho."
+  },
+  {
+   "n": 22,
+   "t": "E Moisés foi instruído em toda a sabedoria dos egípcios; e era poderoso em palavras e ações."
+  },
+  {
+   "n": 23,
+   "t": "E quando lhe foi completado o tempo de quarenta anos de idade , veio ao seu coração o desejo de visitar a seus irmãos, os filhos de Israel."
+  },
+  {
+   "n": 24,
+   "t": "E vendo um deles sofrendo injustamente, defendeu -o , e vingou pelo que tinha sido oprimido, matando ao egípcio."
+  }
+ ],
+ "titulo": "A educação egípcia que não salvou Moisés",
+ "temas": [
+  "providência",
+  "justiça",
+  "identidade"
+ ],
+ "pergunta": "O que acontece quando a nossa inteligência e status não resolvem o problema mais profundo da nossa vida?",
+ "entender": "Estêvão conta a história de Israel no Egito. Depois de José, um novo rei que não conhecia José começou a oprimir o povo. Foi nesse cenário difícil que Moisés nasceu. O texto diz que ele \"era muito formoso para Deus\" e foi criado como filho da filha de Faraó.\n\nMoisés recebeu uma educação privilegiada: \"instruído em toda a sabedoria dos egípcios\". Ele tinha poder, status e conhecimento. Porém, aos quarenta anos, ele sentiu o desejo de visitar seus irmãos. Ao ver um deles sendo maltratado, Moisés agiu por conta própria, matando um egípcio. Ele pensava que Deus o usaria para libertar o povo, mas a Bíblia mostra que ele não entendeu o plano de Deus naquele momento. A força humana, mesmo sendo talentosa, não substitui a direção divina.",
+ "ligar": {
+  "texto": "Moisés tentou resolver a opressão com sua própria força e julgamento. Jesus, por outro lado, resolveu a opressão do pecado não com vingança, mas se deixando matar na cruz. Enquanto Moisés agiu para vingar seu irmão, Cristo agiu para salvar o mundo inteiro, oferecendo graça onde havia justiça. A história de Moisés aponta para a necessidade de um libertador perfeito, que é Jesus.",
+  "selo": false
+ },
+ "viver": "Às vezes, temos muitos talentos, diplomas ou recursos, e achamos que podemos resolver os problemas da nossa família ou comunidade sozinhos. Moisés tinha tudo isso, mas agiu impulsivamente. O texto nos lembra que a sabedoria humana, sem a direção de Deus, pode levar a erros graves. Em vez de tentar \"salvar\" situações com nossa própria força, precisamos parar, orar e buscar a vontade de Deus, confiando no tempo dEle.",
+ "guarde": "Talentos sem a direção de Deus podem levar a ações impulsivas que afastam, em vez de aproximar.",
+ "ore": "Moisés, criado no palácio de Faraó, ensina-me que meu conhecimento não me torna sábio diante de Deus. Ajuda-me a não agir por impulso quando vejo injustiças, mas a depender da Tua direção. Que eu visite meus irmãos com amor, não com julgamento.",
+ "quiz": {
+  "pergunta": "Por que Moisés matou o egípcio?",
+  "opcoes": [
+   "Para vingar seu irmão que estava sendo maltratado",
+   "Por ordem direta de Deus naquele momento",
+   "Para se tornar rei do Egito"
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz que ele o defendeu e vingou o oprimido, agindo por conta própria, sem uma ordem divina específica registrada ali."
+ },
+ "refs": [
+  "Êxodo 2:11-12",
+  "Atos 7:23-25",
+  "Gálatas 3:19"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-29T18:59:44.239Z",
+  "rounds": 1
+ }
+}
