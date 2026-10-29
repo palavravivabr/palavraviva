@@ -1,0 +1,130 @@
+{
+ "id": "44-1-10-17",
+ "ref": "Atos 1:10-17",
+ "book": "44",
+ "chapter": 1,
+ "verses": [
+  {
+   "n": 10,
+   "t": "E enquanto eles estavam com os olhos fixos ao céu, depois dele ter ido, eis que dois homens de roupas brancas se puseram junto a eles;"
+  },
+  {
+   "n": 11,
+   "t": "Os quais também disseram: Homens galileus, por que estais olhando para o céu? Este Jesus, que foi tomado de vós acima ao céu, assim virá, da maneira como o vistes ir ao céu."
+  },
+  {
+   "n": 12,
+   "t": "Então eles voltaram a Jerusalém do monte que se chama das Oliveiras, o qual está perto de Jerusalém à distância de um caminho de sábado."
+  },
+  {
+   "n": 13,
+   "t": "E ao entrarem, subiram ao cômodo superior, onde ficaram Pedro, Tiago, João, André, Filipe, Tomé, Bartolomeu, Mateus, Tiago filho de Alfeu, Simão Zelote e Judas irmão de Tiago."
+  },
+  {
+   "n": 14,
+   "t": "Todos estes perseveravam concordando em orações, e petições, com as mulheres, com Maria a mãe de Jesus, e com os irmãos dele."
+  },
+  {
+   "n": 15,
+   "t": "E em algum d aqueles dias, havendo uma multidão reunida de cerca de cento e vinte pessoas, Pedro se levantou no meio dos discípulos e disse:"
+  },
+  {
+   "n": 16,
+   "t": "Homens irmãos, era necessário que se cumprisse a Escritura, que o Espírito Santo, por meio da boca de Davi, predisse quanto a Judas, que foi o guia daqueles que prenderam a Jesus."
+  },
+  {
+   "n": 17,
+   "t": "Porque ele foi contado conosco, e obteve uma porção neste ministério."
+  }
+ ],
+ "titulo": "O céu aberto e a espera da promessa",
+ "temas": [
+  "ascensão",
+  "espera",
+  "unidade",
+  "oração",
+  "espiritual"
+ ],
+ "pergunta": "Por que os discípulos ficaram olhando para cima em vez de começar a pregar?",
+ "entender": "Após Jesus subir aos céus, os discípulos ficaram com os olhos fixos no alto. Dois homens de roupas brancas os corrigiram suavemente, lembrando que Jesus voltaria do mesmo modo como partiu. Eles desceram do Monte das Oliveiras e voltaram para Jerusalém, subindo ao cômodo superior onde estavam reunidos Pedro, os apóstolos, as mulheres e a mãe de Jesus.\n\nLá, cerca de cento e vinte pessoas perseveravam unânimes em oração. Pedro se levantou e lembrou que a traição de Judas cumpriu a Escritura, pois ele tinha sido contado entre eles e recebeu sua parte no ministério, mas agiu contra a vontade de Deus. A cena mostra a transição: a missão continua, mas agora sob a liderança do Espírito Santo, e a Igreja nasce na unidade e na espera.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para Jesus, que subiu ao céu para voltar como Salvador. A promessa de que Ele virá da mesma forma fortalece a esperança cristã. A união dos discípulos em oração mostra que a Igreja depende da presença de Cristo, mesmo quando Ele não está fisicamente visível. O evangelho aqui é a certeza da volta de Jesus e o poder do Espírito para testemunhar.",
+  "selo": true
+ },
+ "viver": "Os discípulos pararam de olhar para o céu para começar a agir. Às vezes, ficamos paralisados esperando sinais ou datas específicas, esquecendo que a missão já começou. A aplicação concreta é deixar a dúvida sobre o 'quando' e focar no 'como': unir-se a outros crentes em oração sincera e agir com coragem, confiando que Jesus está no controle e voltará.",
+ "guarde": "A verdadeira força da igreja não está em prever o futuro, mas em esperar unida a volta de Cristo.",
+ "ore": "No cômodo superior, onde Pedro orava, ensina-me a não me distrair com especulações. Dá-me o foco dos dois homens de branco: esperar Tua volta com olhos fixos em Ti, unido aos irmãos em oração constante e obediência à Tua palavra.",
+ "quiz": {
+  "pergunta": "O que os dois homens de roupas brancas disseram aos discípulos sobre Jesus?",
+  "opcoes": [
+   "Que eles deveriam esperar mais dez dias.",
+   "Que Ele virá da maneira como o vistes ir ao céu.",
+   "Que Jesus tinha esquecido de levar algo."
+  ],
+  "certa": 1,
+  "explicacao": "O texto afirma claramente que Jesus voltaria do mesmo modo como subiu, corrigindo a atitude de ficarem apenas olhando para o céu sem agir."
+ },
+ "refs": [
+  "Atos 2:1-4",
+  "Salmos 69:25",
+  "Marcos 16:19"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-29T07:11:28.997Z",
+  "rounds": 1
+ }
+}

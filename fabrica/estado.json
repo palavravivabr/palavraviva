@@ -2127,7 +2127,9 @@
   },
   "44-1-10-17": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:citacao_fora_do_texto, ligar:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "O céu aberto e a espera da promessa"
   },
   "44-1-18-26": {
    "execucoes": 0,
@@ -2142,7 +2144,9 @@
   },
   "44-2-13-24": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: PRAYER_FIDELITY: A oração foi dirigida ao apóstolo Pedro pedindo que ele ensine coragem e derrame o Espírito Santo, o que é biblicamente incorreto e incompatível com o padrão escriturístico de oração a Deus.",
+   "estado": "pronto",
+   "titulo": "A zombaria que não calou a voz de Pedro"
   },
   "44-2-25-35": {
    "execucoes": 0,
@@ -2150,7 +2154,7 @@
   },
   "44-2-36-47": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: PRAYER_FIDELITY: A oração se dirige ao apóstolo Pedro em vez de se dirigir a Deus, o que é incompatível com o padrão bíblico de oração."
   },
   "44-3-1-9": {
    "execucoes": 0,
@@ -2175,28 +2179,52 @@
   "44-4-20-28": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "44-4-29-37": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "44-5-1-11": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "44-5-12-21": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "44-5-22-32": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "44-5-33-42": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "44-6-1-8": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 707,
-   "entrada": 1820107,
-   "saida": 625717
+   "chamadas": 714,
+   "entrada": 1840214,
+   "saida": 631479
   },
   "groq-qwen": {
-   "chamadas": 699,
-   "entrada": 1723273,
-   "saida": 567551
+   "chamadas": 706,
+   "entrada": 1742817,
+   "saida": 572971
   },
   "gemini": {
-   "chamadas": 580,
-   "entrada": 1880845,
-   "saida": 739787
+   "chamadas": 588,
+   "entrada": 1907392,
+   "saida": 753040
   },
   "cloudflare": {
-   "chamadas": 367,
-   "entrada": 1279071,
-   "saida": 136157
+   "chamadas": 369,
+   "entrada": 1286147,
+   "saida": 136899
   },
   "mistral": {
    "chamadas": 0,

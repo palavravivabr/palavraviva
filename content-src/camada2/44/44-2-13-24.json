@@ -1,0 +1,145 @@
+{
+ "id": "44-2-13-24",
+ "ref": "Atos 2:13-24",
+ "book": "44",
+ "chapter": 2,
+ "verses": [
+  {
+   "n": 13,
+   "t": "E outros, ridicularizando, diziam: Eles estão cheios de vinho doce."
+  },
+  {
+   "n": 14,
+   "t": "Mas Pedro, pondo-se de pé com os onze, levantou sua voz, e lhes falou: Homens judeus, e todos os que habitais em Jerusalém, seja isto conhecido, e ouvi minhas palavras:"
+  },
+  {
+   "n": 15,
+   "t": "Porque estes não estão bêbados, como vós pensais, sendo ainda a terceira hora do dia."
+  },
+  {
+   "n": 16,
+   "t": "Mas isto é o que foi dito por meio do profeta Joel:"
+  },
+  {
+   "n": 17,
+   "t": "E será nos últimos dias, diz Deus, que: Eu derramarei do meu Espírito sobre toda carne, e vossos filhos e filhas profetizarão, e vossos rapazes terão visões, e vossos velhos sonharão sonhos;"
+  },
+  {
+   "n": 18,
+   "t": "E também sobre meus servos e sobre minhas servas, naqueles dias eu derramarei do meu Espírito, e profetizarão."
+  },
+  {
+   "n": 19,
+   "t": "E darei milagres acima no céu, e sinais abaixo na terra; sangue, fogo, e vapor de fumaça;"
+  },
+  {
+   "n": 20,
+   "t": "O sol se converterá em trevas, e a lua em sangue, antes que venha o grande e notório dia do Senhor."
+  },
+  {
+   "n": 21,
+   "t": "E será que todo aquele que chamar ao nome do Senhor será salvo."
+  },
+  {
+   "n": 22,
+   "t": "Homens israelitas, ouvi estas palavras: Jesus o nazareno, homem aprovado por Deus entre vós, com maravilhas, milagres e sinais, que Deus fez por meio dele no meio de vós, assim como vós mesmos também sabeis;"
+  },
+  {
+   "n": 23,
+   "t": "Este, sendo entregue pelo determinado conselho e conhecimento prévio de Deus, sendo tomando, pelas mãos de injustos o crucificastes e matastes;"
+  },
+  {
+   "n": 24,
+   "t": "Ao qual Deus ressuscitou, tendo soltado as dores da morte; porque não era possível ele ser retido por ela;"
+  }
+ ],
+ "titulo": "A zombaria que não calou a voz de Pedro",
+ "temas": [
+  "espírito santo",
+  "pentecostes",
+  "ressurreição",
+  "coragem"
+ ],
+ "pergunta": "O que Pedro fez quando a multidão o chamou de bêbado?",
+ "entender": "No dia de Pentecostes, o Espírito Santo desceu sobre os discípulos. Alguns observadores, confusos com a mudança de comportamento, zombavam: \"Eles estão cheios de vinho doce\". Pedro, porém, não respondeu com raiva ou silêncio. Ele levantou a voz para explicar que ainda era cedo no dia e que aquilo era o cumprimento da profecia de Joel: Deus derramaria seu Espírito sobre toda a humanidade.\n\nPedro então conecta esse evento à pessoa de Jesus. Ele lembra a multidão que Jesus foi aprovado por Deus através de milagres, mas foi entregue e crucificado. A chave da mensagem está no final: Deus ressuscitou Jesus, pois a morte não podia retê-lo. O poder que os apóstolos demonstravam não vinha do álcool, mas da autoridade de Cristo ressuscitado e do Espírito prometido.",
+ "ligar": {
+  "texto": "Este texto é uma proclamação direta do evangelho. Pedro usa a acusação de embriaguez como ponte para pregar a ressurreição. Ele mostra que a salvação prometida por Joel (\"todo aquele que chamar ao nome do Senhor será salvo\") só é possível porque Jesus venceu a morte. O Espírito Santo é o agente dessa nova era, quebrando barreiras linguísticas e culturais para que todos possam conhecer o nome de Jesus.",
+  "selo": true
+ },
+ "viver": "Quando nossa fé é questionada ou vista como estranha pelo mundo, a tentação é nos defender com medo ou nos esconder. A atitude de Pedro nos ensina a responder com clareza e base bíblica. Em vez de justificar nossas ações por sentimentos passageiros, podemos apontar para a fonte real de nossa força: Jesus ressuscitado. Isso nos dá segurança para viver com autenticidade, sabendo que o Espírito Santo está conosco, não para nos embriagar, mas para nos guiar.",
+ "guarde": "A morte não tem a última palavra, pois Deus ressuscitou Jesus para que a vida prevaleça.",
+ "ore": "Senhor, que eu não tenha medo de explicar minha fé diante da zombaria. Ajuda-me a apontar sempre para Jesus ressuscitado, com clareza e coragem, confiando no poder do Teu Espírito Santo.",
+ "quiz": {
+  "pergunta": "Por que Pedro disse que os apóstolos não estavam bêbados?",
+  "opcoes": [
+   "Porque ainda era a terceira hora do dia e cumpria-se a profecia de Joel",
+   "Porque o vinho doce não dá embriaguez",
+   "Porque eles haviam bebido apenas água"
+  ],
+  "certa": 0,
+  "explicacao": "Pedro argumenta que a hora do dia não permitia embriaguez e, principalmente, que o que acontecia era o cumprimento da profecia de Joel sobre o derramamento do Espírito."
+ },
+ "refs": [
+  "Joel 2:28-32",
+  "Lucas 24:44-49",
+  "Romanos 10:13"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-29T07:05:38.060Z",
+  "rounds": 2
+ }
+}
