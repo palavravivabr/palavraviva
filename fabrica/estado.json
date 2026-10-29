@@ -2061,7 +2061,9 @@
   },
   "40-26-55-64": {
    "execucoes": 1,
-   "ultimo": "automático: entender:citacao_longa"
+   "ultimo": "automático: abertura_repetida:guarde:42-4-23-34",
+   "estado": "pronto",
+   "titulo": "O silêncio que revelou a maior verdade"
   },
   "40-26-65-75": {
    "execucoes": 0,
@@ -2134,7 +2136,9 @@
   },
   "44-2-1-12": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: ligar:citacao_fora_do_texto, ore:citacao_longa, quiz.explicacao:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "O dia em que o céu tocou a terra"
   },
   "44-2-13-24": {
    "execucoes": 0,
@@ -2167,28 +2171,32 @@
   "44-4-10-19": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "44-4-20-28": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 701,
-   "entrada": 1803420,
-   "saida": 620635
+   "chamadas": 707,
+   "entrada": 1820107,
+   "saida": 625717
   },
   "groq-qwen": {
-   "chamadas": 693,
-   "entrada": 1706375,
-   "saida": 562659
+   "chamadas": 699,
+   "entrada": 1723273,
+   "saida": 567551
   },
   "gemini": {
-   "chamadas": 577,
-   "entrada": 1871150,
-   "saida": 736223
+   "chamadas": 580,
+   "entrada": 1880845,
+   "saida": 739787
   },
   "cloudflare": {
-   "chamadas": 365,
-   "entrada": 1272167,
-   "saida": 135415
+   "chamadas": 367,
+   "entrada": 1279071,
+   "saida": 136157
   },
   "mistral": {
    "chamadas": 0,

@@ -1,0 +1,146 @@
+{
+ "id": "44-2-1-12",
+ "ref": "Atos 2:1-12",
+ "book": "44",
+ "chapter": 2,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E ao se cumprir o dia de Pentecostes, estavam todos concordando no mesmo lugar."
+  },
+  {
+   "n": 2,
+   "t": "E de repente houve um ruído do céu, como de um vento forte e violento, e encheu toda a casa onde eles estavam sentados."
+  },
+  {
+   "n": 3,
+   "t": "E foram vistas por eles línguas repartidas como que de fogo, e se pôs sobre cada um deles."
+  },
+  {
+   "n": 4,
+   "t": "E eles foram todos cheios do Espírito Santo, e começaram a falar em outras línguas, conforme o Espírito lhes dava a discursarem."
+  },
+  {
+   "n": 5,
+   "t": "E havia judeus que estavam morando em Jerusalém, homens devotos, de toda nação abaixo do céu."
+  },
+  {
+   "n": 6,
+   "t": "E acontecendo esta voz, ajuntou-se a multidão; e ela estava confusa, porque cada um os ouvia falar em sua própria língua."
+  },
+  {
+   "n": 7,
+   "t": "E todos estavam admirados, e se maravilhavam, dizendo uns aos outros: Ora, estes que estão falando, não são todos eles galileus?"
+  },
+  {
+   "n": 8,
+   "t": "E como nós ouvimos cada um deles em nossa própria língua, na qual nascemos?"
+  },
+  {
+   "n": 9,
+   "t": "Partos, Medos, Elamitas, os habitantes da Mesopotâmia, da Judeia, Capadócia, Ponto, Ásia,"
+  },
+  {
+   "n": 10,
+   "t": "Frígia, Panfília, Egito e regiões da Líbia perto de Cirene, e romanos estrangeiros, tanto judeus como prosélitos,"
+  },
+  {
+   "n": 11,
+   "t": "Cretenses e Árabes, os ouvimos em nossas próprias línguas eles falarem das grandezas de Deus."
+  },
+  {
+   "n": 12,
+   "t": "E todos estavam admirados e confusos, dizendo uns aos outros: O que isso quer dizer?"
+  }
+ ],
+ "titulo": "O dia em que o céu tocou a terra",
+ "temas": [
+  "espírito santo",
+  "pentecostes",
+  "unidade",
+  "missões",
+  "fé"
+ ],
+ "pergunta": "Você já sentiu que uma mudança repentina pode transformar completamente sua realidade?",
+ "entender": "Em Atos 2, os discípulos estão reunidos em Jerusalém no dia de Pentecostes. De repente, um som como de vento forte enche a casa e línguas de fogo repousam sobre cada um deles. Eles são cheios do Espírito Santo e começam a falar em outras línguas, conforme o Espírito lhes dava a discursarem.\n\nA multidão de judeus devotos de várias nações se reúne, confusa porque ouve cada um falando na própria língua materna. Partos, medos, egípcios e romanos se admiram, perguntando o que isso quer dizer, pois reconhecem suas línguas nativas sendo usadas para pregar as grandezas de Deus.",
+ "ligar": {
+  "texto": "Este evento marca o cumprimento da promessa de Jesus de que o Consolador viria. O Espírito Santo, a terceira pessoa da Trindade, é derramado para capacitar os seguidores de Cristo a testemunhar sua ressurreição e obras. A divisão de línguas é invertida: onde Babel trouxe confusão e separação, Pentecostes traz unidade na mensagem do Evangelho, mostrando que a salvação em Jesus Cristo é para todas as nações, rompendo barreiras culturais e linguísticas.",
+  "selo": true
+ },
+ "viver": "Assim como os discípulos estavam \"todos concordando no mesmo lugar\", a eficácia da nossa fé começa na unidade e na oração coletiva. Não espere por sinais visuais para agir; o Espírito Santo trabalha hoje para nos dar coragem e clareza para compartilhar a fé. Busque momentos de comunhão profunda com outros crentes, pois é nesses encontros que muitas vezes recebemos a direção e o poder para falar de Cristo onde você está.",
+ "guarde": "O Espírito Santo não veio para nos isolar, mas para nos enviar com a mensagem de Deus para o mundo todo.",
+ "ore": "Espírito Santo, que encheu a casa em Pentecostes, enche meu coração hoje. Dá-me coragem para falar das grandezas de Deus em minha língua e em meu contexto. Que eu não tenha medo de testemunhar de Jesus, confiando em teu poder e não no meu. Amém.",
+ "quiz": {
+  "pergunta": "Por que a multidão ficou confusa e admirada em Atos 2?",
+  "opcoes": [
+   "Porque houve um terremoto que derrubou a casa.",
+   "Porque os discípulos estavam bêbados de vinho doce.",
+   "Porque ouvia os discípulos falando em suas próprias línguas nativas."
+  ],
+  "certa": 2,
+  "explicacao": "O texto afirma que cada um os ouvia falar em sua própria língua (v. 6-8), o que causou a admiração e a confusão sobre o significado do ocorrido."
+ },
+ "refs": [
+  "João 14:26",
+  "João 16:13",
+  "Isaías 28:11-12"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-29T04:00:04.914Z",
+  "rounds": 1
+ }
+}
