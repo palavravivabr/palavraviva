@@ -1,0 +1,137 @@
+{
+ "id": "44-8-21-30",
+ "ref": "Atos 8:21-30",
+ "book": "44",
+ "chapter": 8,
+ "verses": [
+  {
+   "n": 21,
+   "t": "Tu não tens parte nem porção nesta palavra; porque teu coração não é correto diante de Deus."
+  },
+  {
+   "n": 22,
+   "t": "Arrepende-te, pois, desta tua maldade, e ora a Deus, para que talvez este pensamento de teu coração te seja perdoado;"
+  },
+  {
+   "n": 23,
+   "t": "Porque eu vejo que tu estás em fel amargo, e atado em injustiça."
+  },
+  {
+   "n": 24,
+   "t": "Mas respondendo Simão, disse: Orai vós por mim ao Senhor, para que nada do que dissestes venha sobre mim."
+  },
+  {
+   "n": 25,
+   "t": "Tendo eles pois dado testemunho e falado a palavra do Senhor, voltaram a Jerusalém, e em muitas aldeias dos samaritanos anunciaram o Evangelho."
+  },
+  {
+   "n": 26,
+   "t": "E um anjo do Senhor falou a Filipe, dizendo: Levanta-te, e vai para o sul, ao caminho que desce de Jerusalém para Gaza, que é deserto."
+  },
+  {
+   "n": 27,
+   "t": "E ele levantou-se, e foi, e eis que um homem etíope, eunuco, administrador subordinado a Candace, a rainha dos etíopes, que estava sobre o controle de todos os bens dela, tinha vindo a Jerusalém para adorar;"
+  },
+  {
+   "n": 28,
+   "t": "E ele estava voltando, sentado em sua carruagem, e lia ao profeta Isaías."
+  },
+  {
+   "n": 29,
+   "t": "E o Espírito disse a Filipe: Aproxima-te, e ajunta-te a esta carruagem."
+  },
+  {
+   "n": 30,
+   "t": "E Filipe, correndo, ouviu que ele estava lendo ao profeta Isaías, e disse: Tu entendes o que estás lendo?"
+  }
+ ],
+ "titulo": "O eunuco que corria para o deserto",
+ "temas": [
+  "busca",
+  "orientação",
+  "espirito",
+  "saída"
+ ],
+ "pergunta": "Você já tentou entender a Bíblia sozinho e se sentiu confuso?",
+ "entender": "Depois de repreender Simão por tentar comprar o Espírito Santo, Pedro e João voltam a Jerusalém pregando em aldeias samaritanas. Enquanto isso, o anjo do Senhor chama Filipe para ir ao sul, por uma estrada deserta que descia para Gaza. Ali, ele encontra um oficial etíope, eunuco da rainha Candace, voltando de Jerusalém após adorar. O homem estava na carruagem lendo o profeta Isaías.\n\nO Espírito Santo dá a direção exata a Filipe: aproximar-se da carruagem. Filipe corre e pergunta se ele entende o que lê. Esse encontro não foi acaso. Deus moveu pessoas em lugares diferentes para que a fé daquele oficial não ficasse presa na letra, mas chegasse ao coração. A leitura da Escritura é preciosa, mas precisa de alguém que explique quem é o personagem central da profecia.",
+ "ligar": {
+  "texto": "O trecho aponta para Jesus porque o eunuco lia Isaías, e nos versos seguintes (fora deste alvo, mas no contexto imediato) fica claro que ele lia sobre o Servo Sofredor, que é Cristo. Filipe não apenas explica o texto, mas usa a oportunidade para anunciar a Jesus. A salvação não vem de esforço humano ou de visitar lugares santos, mas de entender que Jesus é o Cordeiro que foi levado ao matadouro por nós.",
+  "selo": true
+ },
+ "viver": "Às vezes lemos a Bíblia com vontade, mas sem clareza, e isso pode nos deixar frustrados ou até inseguros na fé. A cena de Filipe e o eunuco nos lembra que Deus não nos deixa sozinhos na caminhada. Ele providencia irmãos maduros, pastores ou amigos que podem nos ajudar a interpretar as Escrituras. Se você está confuso em algum ponto, busque alguém que possa te ensinar com amor, assim como Filipe correu para ajudar aquele oficial. A fé cresce na comunidade e no ensino da Palavra.",
+ "guarde": "Não tente decifrar as profecias sozinho; busque a comunidade que explica o Evangelho.",
+ "ore": "Filipe, que correu para o deserto, ensina-me a buscar ajuda. Que eu não tenha vergonha de perguntar aos irmãos o que não entendo da Tua Palavra. Guia-me a um lugar de ensino onde eu possa conhecer melhor a Jesus, o Cordeiro de Deus.",
+ "quiz": {
+  "pergunta": "O que o eunuco etíope estava fazendo na carruagem quando Filipe o encontrou?",
+  "opcoes": [
+   "Lendo o profeta Isaías",
+   "Ora em alto voz",
+   "Escrevendo cartas"
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz claramente no versículo 28 que ele 'lia ao profeta Isaías'. Isso mostra que ele estava estudando as Escrituras, o que prepara o terreno para a explicação de Filipe sobre Jesus."
+ },
+ "refs": [
+  "João 1:45",
+  "Atos 8:35",
+  "Isaías 53:7"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-29T21:52:57.467Z",
+  "rounds": 1
+ }
+}

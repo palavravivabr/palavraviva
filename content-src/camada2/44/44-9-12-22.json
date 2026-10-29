@@ -1,0 +1,141 @@
+{
+ "id": "44-9-12-22",
+ "ref": "Atos 9:12-22",
+ "book": "44",
+ "chapter": 9,
+ "verses": [
+  {
+   "n": 12,
+   "t": "E ele viu em visão que um homem, de nome Ananias, entrava, e sobre ele punha a mão, para que voltasse a ver."
+  },
+  {
+   "n": 13,
+   "t": "E Ananias respondeu: Senhor, eu ouvi de muitos sobre este homem, quantos males ele tem feito aos teus santos em Jerusalém;"
+  },
+  {
+   "n": 14,
+   "t": "E aqui ele tem poder dos chefes dos sacerdotes para prender a todos os que invocam o teu nome."
+  },
+  {
+   "n": 15,
+   "t": "Mas o Senhor lhe disse: Vai, porque este me é um vaso escolhido para levar meu nome diante dos gentios, e dos reis, e dos filhos de Israel;"
+  },
+  {
+   "n": 16,
+   "t": "Porque eu mostrarei a ele o quanto ele deve sofrer por causa do meu nome."
+  },
+  {
+   "n": 17,
+   "t": "E Ananias foi, e entrou na casa; e pondo as mãos sobre ele, disse: Irmão Saulo, o Senhor, que é Jesus, aquele que apareceu a ti no caminho, me enviou para que tu voltes a ver, e sejas cheio do Espírito Santo."
+  },
+  {
+   "n": 18,
+   "t": "E logo lhe caíram como que escamas dos olhos, e imediatamente voltou a ver; e levantando-se, foi batizado."
+  },
+  {
+   "n": 19,
+   "t": "E ao comer, ele se fortaleceu. E Saulo ficou alguns dias com os discípulos que estavam em Damasco."
+  },
+  {
+   "n": 20,
+   "t": "E logo nas sinagogas pregava a Cristo, dizendo que aquele era o Filho de Deus."
+  },
+  {
+   "n": 21,
+   "t": "E todos os que o ouviam ficavam admirados, e diziam: Não é este aquele que em Jerusalém tentava destruir aos que invocavam este nome? E não foi para isso que ele veio aqui, para os levar presos aos chefes dos sacerdotes?"
+  },
+  {
+   "n": 22,
+   "t": "Mas Saulo se esforçava muito mais, e confundia aos judeus que habitavam em Damasco, provando que aquele era o Cristo."
+  }
+ ],
+ "titulo": "O perseguidor que se tornou testemunha",
+ "temas": [
+  "conversão",
+  "misericórdia",
+  "propósito",
+  "testemunho"
+ ],
+ "pergunta": "O que acontece quando o ódio finda diante da graça de Deus?",
+ "entender": "Saulo estava cego e vulnerável em Damasco. Ananias, um discípulo local, tinha medo de conhecê-lo, pois sabia que Saulo havia perseguido a igreja em Jerusalém. Mas Deus revelou a Ananias que Saulo era um \"vaso escolhido\" para levar o nome de Jesus aos gentios e aos reis.\n\nAo tocar em Saulo, Ananias transmitiu a cura e o Espírito Santo. As escamas caíram dos olhos de Saulo, e ele foi batizado imediatamente. Em vez de continuar escondido, Saulo começou a pregar nas sinagogas, provando que Jesus era o Cristo. A transformação foi tão radical que os antigos conhecidos ficaram admirados, mas Saulo se esforçou ainda mais para confirmar a verdade.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para Jesus como o Senhor soberano que transforma corações. A conversão de Saulo demonstra que a graça de Cristo é poderosa o suficiente para mudar até o mais ferrenho opositor. Jesus usa os instrumentos mais improváveis para cumprir Seu propósito global de levar o evangelho a todas as nações.",
+  "selo": true
+ },
+ "viver": "Às vezes, sentimos que nosso passado de erros ou nossa reputação nos impedem de servir a Deus. A história de Saulo nos ensina que Deus não olha para o que fizemos de errado, mas para o que Ele pode fazer através de nós. Assim como Saulo, podemos deixar que a graça de Cristo cure nossas \"escamas\" e nos dar uma nova direção, mesmo que isso signifique enfrentar o ceticismo de quem nos conhece.",
+ "guarde": "Deus transforma o inimigo em instrumento de Sua glória.",
+ "ore": "Senhor Jesus, assim como Saulo foi cego mas tocado por Ti, abra meus olhos para ver Teu propósito em minha vida. Perdoa meus medos e usa minhas mãos para servir aos outros, tal como Ananias serviu a Saulo. Que minha vida seja um vaso escolhido para levar Teu nome a todos.",
+ "quiz": {
+  "pergunta": "Qual era a missão que Deus revelou a Ananias sobre Saulo?",
+  "opcoes": [
+   "Levar o nome de Jesus aos gentios e aos reis",
+   "Construir um novo templo em Jerusalém",
+   "Escrever os livros do Antigo Testamento"
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma explicitamente que Saulo era um vaso escolhido para levar o nome de Jesus diante dos gentios, dos reis e dos filhos de Israel."
+ },
+ "refs": [
+  "Atos 22:6-16",
+  "Atos 26:12-18",
+  "1 Timóteo 1:12-16"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-29T21:56:57.135Z",
+  "rounds": 1
+ }
+}

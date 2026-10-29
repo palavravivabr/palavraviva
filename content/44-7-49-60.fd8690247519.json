@@ -1,0 +1,145 @@
+{
+ "id": "44-7-49-60",
+ "ref": "Atos 7:49-60",
+ "book": "44",
+ "chapter": 7,
+ "verses": [
+  {
+   "n": 49,
+   "t": "O céu é o meu trono, e a terra é o estrado dos meus pés; que casa vós construireis para mim?, diz o Senhor; ou Qual é o lugar do meu repouso?"
+  },
+  {
+   "n": 50,
+   "t": "Por acaso não foi minhão mão que fez todas estas coisas?"
+  },
+  {
+   "n": 51,
+   "t": "Vós, obstinados e incircuncisos de coração e de ouvidos! Vós sempre resistis ao Espírito Santo! Tal como vossos pais foram , assim também sois vós!"
+  },
+  {
+   "n": 52,
+   "t": "Qual dos profetas vossos pais não perseguiram? E eles mataram a todos os que anunciaram com antecedência a vinda do Justo, do qual agora vós tendes sido traidores e homicidas;"
+  },
+  {
+   "n": 53,
+   "t": "Que recebestes a Lei por ordem de anjos, e não a guardastes."
+  },
+  {
+   "n": 54,
+   "t": "Eles, ao ouvirem estas coisas, retalharam-se de raiva em seus corações, e rangiam os dentes contra ele."
+  },
+  {
+   "n": 55,
+   "t": "Mas ele, estando cheio do Espírito Santo, olhando firmemente para o céu, viu à glória de Deus, e a Jesus, que estava à direita de Deus."
+  },
+  {
+   "n": 56,
+   "t": "E disse: Eis que vejo os céus abertos, e o Filho do homem, que está a direita de Deus!"
+  },
+  {
+   "n": 57,
+   "t": "Mas eles, clamando com alta voz, taparam seus próprios ouvidos, e correram juntos contra ele;"
+  },
+  {
+   "n": 58,
+   "t": "E, lançando -o fora da cidade, o apedrejaram; e as testemunhas puseram as roupas deles junto aos pés de um rapaz chamado Saulo."
+  },
+  {
+   "n": 59,
+   "t": "E apedrejaram a Estêvão, que estava clamando e dizendo: Senhor Jesus, recebe o meu espírito."
+  },
+  {
+   "n": 60,
+   "t": "E pondo-se de joelhos, clamou com alta voz: Senhor, não os culpes por este pecado.E tendo dito isto, morreu."
+  }
+ ],
+ "titulo": "O céu aberto e a última oração",
+ "temas": [
+  "visão celestial",
+  "perdão",
+  "mártir",
+  "espírito santo"
+ ],
+ "pergunta": "O que Estêvão viu quando seus algozes se preparavam para matá-lo?",
+ "entender": "Estêvão encerra seu discurso lembrando que Deus não habita em templos feitos por mãos humanas. Ele acusa a multidão de resistir ao Espírito Santo e de perseguir os profetas, chamando-os de traidores do Justo. A multidão reagiu com fúria, apedrejando-o até a morte. \n\nMesmo sendo apedrejado, Estêvão não viu apenas a ira dos homens. Cheio do Espírito Santo, ele \"viu a glória de Deus, e a Jesus, que estava à direita de Deus\". Enquanto seus algozes tapavam os ouvidos, Estêvia via os céus abertos. Sua última ação foi orar por eles, pedindo que Deus não lhes imputasse este pecado.",
+ "ligar": {
+  "texto": "Este é um dos momentos mais claros da visão cristã: Jesus está à direita do Pai, vivo e glorificado. Estêvão, ao olhar para cima, confessa a divindade e a autoridade de Jesus. Sua oração final espelha a de Jesus na cruz: perdoar os que o matam. A morte de Estêvão não foi o fim, mas a porta para a conversão de Saulo, que aparece no próximo capítulo.",
+  "selo": true
+ },
+ "viver": "Estêvão escolheu olhar para cima quando a dor era maior. Isso nos ensina que nossa visão do céu pode mudar a forma como enfrentamos a injustiça. Quando alguém nos ferir, nossa tendência é revidar ou guardar rancor. O exemplo de Estêvão nos convida a entregar a justiça a Deus e a orar por quem nos faz mal, confiando que o céu está aberto e Jesus intercede por nós.",
+ "guarde": "Enquanto o mundo te ataca, você pode ver o céu aberto e Jesus à direita de Deus.",
+ "ore": "Estêvão, que viu o céu aberto antes de morrer, ensina-me a olhar para Cristo em meio à dor. Ajuda-me a perdoar quem me fere, confiando que Tu, Senhor, estás no trono e cuidas de mim.",
+ "quiz": {
+  "pergunta": "O que Estêvão viu ao olhar para o céu?",
+  "opcoes": [
+   "A glória de Deus e Jesus à direita de Deus",
+   "Um anjo descendo para protegê-lo",
+   "A multidão se arrependendo e chorando"
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma explicitamente que ele viu a glória de Deus e o Filho do Homem à direita de Deus, não anjos ou arrependimento da multidão."
+ },
+ "refs": [
+  "Lucas 23:34",
+  "Atos 8:1",
+  "Hebreus 12:2"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-29T21:55:39.318Z",
+  "rounds": 2
+ }
+}

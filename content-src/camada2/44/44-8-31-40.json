@@ -1,0 +1,137 @@
+{
+ "id": "44-8-31-40",
+ "ref": "Atos 8:31-40",
+ "book": "44",
+ "chapter": 8,
+ "verses": [
+  {
+   "n": 31,
+   "t": "E ele disse: Como eu poderia, se alguém não me ensinar? E pediu a Filipe que subisse e se sentasse com ele."
+  },
+  {
+   "n": 32,
+   "t": "E o lugar da Escritura que ele estava lendo era este: Como ovelha ele foi levado ao matadouro, e como um cordeiro mudo fica diante do que o tosquia, assim também ele não abriu sua boca."
+  },
+  {
+   "n": 33,
+   "t": "Em sua humilhação foi tirado seu julgamento; e quem anunciará sua geração? Porque da terra sua vida é tirada."
+  },
+  {
+   "n": 34,
+   "t": "E respondendo o eunuco a Filipe, disse: Eu te rogo, de quem o profeta diz isto? De si mesmo, ou de alguém outro?"
+  },
+  {
+   "n": 35,
+   "t": "E Filipe, abrindo sua boca, e começando desta escritura, anunciou-lhe o Evangelho de Jesus."
+  },
+  {
+   "n": 36,
+   "t": "E enquanto eles iam caminhando, chegaram a uma certa porção de água; e o eunuco disse: Eis aqui água; o que me impede de ser batizado?"
+  },
+  {
+   "n": 37,
+   "t": "E Filipe disse: Se tu crês de todo coração, então é lícito;E respondendo ele, disse: Creio que Jesus Cristo é o Filho de Deus."
+  },
+  {
+   "n": 38,
+   "t": "E ele mandou parar a carruagem; e desceram ambos à água, tanto Filipe como o eunuco; e ele o batizou."
+  },
+  {
+   "n": 39,
+   "t": "E quando eles subiram da água, o Espírito do Senhor arrebatou a Filipe, e o eunuco não mais o viu, porque ele foi em seu caminho com alegria."
+  },
+  {
+   "n": 40,
+   "t": "Mas Filipe se achou em Azoto; e passando, anunciava ao Evangelho em todas as cidades, até que veio a Cesareia."
+  }
+ ],
+ "titulo": "O silêncio do servo e a voz do evangelho",
+ "temas": [
+  "fé",
+  "batismo",
+  "serviço",
+  "evangelho"
+ ],
+ "pergunta": "O que você faria se estivesse lendo a Bíblia e não entendesse o sentido de um trecho?",
+ "entender": "Filipe encontra um eunuco etíope lendo Isaías. O homem confessa que precisa de ajuda para entender e pergunta a quem se refere a passagem sobre o cordeiro mudo. Filipe, então, usa essa mesma Escritura para explicar o evangelho de Jesus, mostrando que o sofrimento do profeta apontava para a cruz.\n\nA resposta do eunuco é imediata: ele crê que Jesus é o Filho de Deus e pede para ser batizado. Ao subirem da água, o Espírito Santo leva Filipe embora, e o eunuco continua seu caminho com alegria. A cena mostra que a compreensão bíblica não é apenas intelectual, mas leva à decisão pessoal de seguir a Cristo.",
+ "ligar": {
+  "texto": "Este trecho é o coração do evangelho em ação. A profecia de Isaías sobre o servo sofredor cumpre-se em Jesus, que foi levado ao matadouro e ressuscitou. A fé do eunuco não se baseou em milagres visíveis, mas na Palavra explicada. O batismo aqui é a resposta pública a essa fé, marcando a entrada na comunidade de Cristo.",
+  "selo": true
+ },
+ "viver": "Talvez você tenha passado anos lendo a Bíblia sentindo que falta algo para conectar os pontos. Esta história nos lembra que é seguro admitir nossa dúvida e buscar ajuda. Quando a Palavra é explicada com clareza, ela nos leva a uma decisão: crer e nos identificar com Cristo. Não guarde suas dúvidas para si; busque quem possa te ajudar a ver Jesus nas Escrituras.",
+ "guarde": "A dúvida sincera é o primeiro passo para a fé que transforma a vida.",
+ "ore": "Filipe, obrigado por ter parado para explicar a Escritura ao eunuco. Ajuda-me a buscar compreensão verdadeira da Palavra e a ter a coragem de confessar minha fé em Jesus, assim como aquele homem fez ao descer à água.",
+ "quiz": {
+  "pergunta": "O que Filipe fez ao perceber que o eunuco não entendia o texto de Isaías?",
+  "opcoes": [
+   "Disse que a passagem era apenas histórica.",
+   "Explicou o evangelho de Jesus a partir daquela escritura.",
+   "Mandou o eunuco parar de ler."
+  ],
+  "certa": 1,
+  "explicacao": "O texto diz que Filipe, abrindo sua boca, começou daquela escritura a anunciar-lhe o Evangelho de Jesus (Atos 8.35)."
+ },
+ "refs": [
+  "Isaías 53:7-8",
+  "Marcos 16:16",
+  "1 Pedro 1:24-25"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-29T21:54:11.209Z",
+  "rounds": 1
+ }
+}

@@ -1,0 +1,146 @@
+{
+ "id": "44-7-25-36",
+ "ref": "Atos 7:25-36",
+ "book": "44",
+ "chapter": 7,
+ "verses": [
+  {
+   "n": 25,
+   "t": "E ele pensava que seus irmãos tivessem entendido que Deus ia lhes dar liberdade por meio da mão dele; mas eles não entenderam."
+  },
+  {
+   "n": 26,
+   "t": "E no dia seguinte, estando uns deles lutando, ele foi visto por eles, e ordenou-lhes fazerem as pazes, dizendo: Homens, vós sois irmãos, por que fazeis mal um ao outro?"
+  },
+  {
+   "n": 27,
+   "t": "Mas aquele que maltratava a seu próximo empurrou-o, dizendo: Quem te pôs por chefe e juiz sobre nós?"
+  },
+  {
+   "n": 28,
+   "t": "Queres tu também matar a mim, assim como ontem mataste ao egípcio?"
+  },
+  {
+   "n": 29,
+   "t": "E com esta palavra Moisés fugiu, e foi peregrino na terra de Midiã, onde ele gerou dois filhos."
+  },
+  {
+   "n": 30,
+   "t": "E completados quarenta anos, um anjo do Senhor lhe apareceu no deserto do monte Sinai, em uma sarça inflamada."
+  },
+  {
+   "n": 31,
+   "t": "Moisés, ao ver isso ,maravilhou-se da visão; e ao aproximar-se para ver, veio até ele a voz do Senhor,"
+  },
+  {
+   "n": 32,
+   "t": "Dizendo : Eu sou o Deus de teus pais, o Deus de Abraão, o Deus de Isaque, e o Deus de Jacó. E Moisés, estando tremendo, não ousava olhar com atenção."
+  },
+  {
+   "n": 33,
+   "t": "E o Senhor lhe disse: Descalça-te as sandálias de teus pés, porque o lugar em que estás é terra santa."
+  },
+  {
+   "n": 34,
+   "t": "Eu tenho visto com atenção a aflição de meu povo que está no Egito, e ouvi o gemido deles, e eu desci para livrá-los; então vem agora, eu te enviarei ao Egito."
+  },
+  {
+   "n": 35,
+   "t": "A este Moisés, ao qual tinham negado, dizendo: Quem te pôs por chefe e juiz, A este Deus enviou por chefe e libertador, pela mão do anjo que lhe apareceu na sarça."
+  },
+  {
+   "n": 36,
+   "t": "Este os levou para fora, fazendo milagres e sinais na terra do Egito, e no mar Vermelho, e no deserto, por quarenta anos."
+  }
+ ],
+ "titulo": "A sarça que ardia sem consumir",
+ "temas": [
+  "chamado",
+  "humildade",
+  "deus fiel",
+  "libertação"
+ ],
+ "pergunta": "O que acontece quando tentamos salvar nós mesmos e Deus decide intervir?",
+ "entender": "Moisés tentou agir por conta própria para ajudar seus irmãos, mas foi rejeitado e teve que fugir. Por quarenta anos ele viveu como peregrino em Midiã, longe do palácio egípcio. Nesse período de silêncio, Deus não o esqueceu. No deserto do Sinai, um anjo lhe apareceu em uma sarça que ardia, mas não se consumia. Ao se aproximar, Moisés ouviu a voz do Senhor, que se identificou como o Deus de seus pais: Abraão, Isaque e Jacó.\n\nAqui, Moisés aprende que a terra é santa e que Deus já viu a aflição do seu povo no Egito. O texto mostra que, embora Moisés tenha sido rejeitado pelos israelitas antes, foi Deus quem o enviou como libertador. A diferença fundamental é a origem da missão: antes era a iniciativa humana de Moisés; agora é o envio divino, com poder para fazer milagres e sinais.",
+ "ligar": {
+  "texto": "Este trecho aponta para Jesus como o verdadeiro libertador. Assim como Deus enviou Moisés para tirar o povo da escravidão do Egito, enviou Jesus para nos tirar da escravidão do pecado. Moisés era um homem imperfeito que falhou, mas Jesus é o Servo perfeito que obedeceu completamente ao Pai. A sarça ardia, mas não se consumia, prefigurando a santidade de Deus que se aproxima de nós sem nos destruir, mas nos purificando. É em Cristo que a promessa de libertação feita a Abraão se cumpre plenamente.",
+  "selo": false
+ },
+ "viver": "Às vezes, quando vemos injustiças, queremos resolver tudo imediatamente com nossas próprias forças, como Moisés fez ao matar o egípcio. Mas essa pressa pode nos levar ao fracasso e ao isolamento. Este texto nos ensina a importância do tempo de espera e da obediência. Antes de agir, precisamos ouvir a voz de Deus e reconhecer que a liberação vem dEle, não da nossa força. Quando sentimos que estamos lutando sozinhos, lembre-se que Deus está vendo sua aflição e tem um plano específico para a sua vida, mesmo que isso exija um período de silêncio e aprendizado, como os quarenta anos de Moisés no deserto.",
+ "guarde": "Deus vê sua aflição e envia o libertador no tempo certo, não no nosso.",
+ "ore": "Senhor, que eu não tente salvar a mim mesmo ou aos outros com força própria. Ensina-me a esperar em Midiã, a ouvir a voz da sarça e a confiar que o Senhor vê minha aflição e age no tempo dEle.",
+ "quiz": {
+  "pergunta": "Por que Moisés foi rejeitado pelos irmãos da primeira vez, mas aceito depois?",
+  "opcoes": [
+   "Porque a segunda vez ele foi enviado por Deus, não por iniciativa própria.",
+   "Porque ele mudou de aparência e ficou mais velho.",
+   "Porque ele prometeu comida e água no deserto."
+  ],
+  "certa": 0,
+  "explicacao": "O texto destaca que, antes, Moisés agiu por conta própria e foi chamado de chefe injustamente; depois, Deus o enviou explicitamente como libertador pela mão do anjo."
+ },
+ "refs": [
+  "Êxodo 3:1-4",
+  "Hebreus 11:27",
+  "João 1:17",
+  "Gálatas 4:4"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-29T21:50:58.255Z",
+  "rounds": 1
+ }
+}

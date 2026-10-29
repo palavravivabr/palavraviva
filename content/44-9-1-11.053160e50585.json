@@ -1,0 +1,142 @@
+{
+ "id": "44-9-1-11",
+ "ref": "Atos 9:1-11",
+ "book": "44",
+ "chapter": 9,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E Saulo, ainda assoprando ameaças e mortes contra os discípulos do Senhor, foi ao chefe dos sacerdotes."
+  },
+  {
+   "n": 2,
+   "t": "E pediu-lhe cartas para Damasco, para as sinagogas, para que se achasse alguns deste caminho, tanto homens como mulheres, ele os trouxesse presos a Jerusalém."
+  },
+  {
+   "n": 3,
+   "t": "E indo, aconteceu que chegando perto de Damasco, repentinamente brilhou ao redor dele uma luz do céu."
+  },
+  {
+   "n": 4,
+   "t": "E caindo em terra, ouviu ma voz lhe dizendo: Saulo, Saulo, por que me persegues?"
+  },
+  {
+   "n": 5,
+   "t": "E ele disse: Quem és, Senhor?E o Senhor disse: Eu sou Jesus, a quem tu persegues; duro é para ti dar coices contra os aguilhões."
+  },
+  {
+   "n": 6,
+   "t": "E ele, tremendo e atônito, disse: Senhor, que queres que eu faça?E o Senhor lhe disse : Levanta-te, e entra na cidade; e ali te será dito o que deves fazer."
+  },
+  {
+   "n": 7,
+   "t": "E os homens que viajavam com ele pararam emudecidos, ouvindo, de fato, a voz, porém não vendo ninguém."
+  },
+  {
+   "n": 8,
+   "t": "E Saulo se levantou da terra e, tendo aberto seus olhos, não via ninguém; e sendo guiado pela mão, levaram-no a Damasco."
+  },
+  {
+   "n": 9,
+   "t": "E ele estava três dias sem ver; e não comeu, nem bebeu."
+  },
+  {
+   "n": 10,
+   "t": "E havia em Damasco um certo discípulo, de nome Ananias; e disse-lhe o Senhor em visão: Ananias!E ele respondeu: Eis-me aqui, Senhor!"
+  },
+  {
+   "n": 11,
+   "t": "E o Senhor lhe disse : Levanta-te, e vai a rua chamada Direita, e pergunta na casa de Judas por um chamado Saulo, de Tarso; porque que ele ora."
+  }
+ ],
+ "titulo": "O homem que perseguia Jesus no céu",
+ "temas": [
+  "conversão",
+  "grace",
+  "humilhação",
+  "visão",
+  "arrependimento"
+ ],
+ "pergunta": "O que acontece quando alguém tenta destruir a fé dos outros e encontra o próprio Cristo?",
+ "entender": "Saulo estava determinado a prender os discípulos em Damasco. Ele via a fé cristã como um caminho errado que precisava ser eliminado. Mas, no caminho, uma luz do céu o cegou e uma voz o chamou pelo nome. A surpresa não foi apenas a luz, mas o conteúdo da mensagem: Jesus disse: \"Saulo, Saulo, por que me persegues?\". Isso revela que perseguiros seguidores de Cristo é, na verdade, perseguir a Jesus mesmo.\n\nSaulo caiu por terra, tremendo e atônito. Ele perguntou o que deveria fazer e recebeu a instrução de ir para a cidade, onde seria informado. Ele ficou três dias cego, sem comer nem beber. Em meio a essa vulnerabilidade, Deus enviou Ananias, um discípulo em Damasco, para restaurar a visão de Saulo. Aquele que era perseguidor tornaria-se, pela graça, um instrumento poderoso para levar o nome de Jesus aos gentios.",
+ "ligar": {
+  "texto": "Este texto é central para o evangelho porque mostra Jesus vivo e ativo após a ressurreição. Ele não é apenas uma memória, mas o Senhor que fala, chama e transforma. A conversão de Saulo demonstra que a salvação é pela graça: mesmo um perseguidor ferrenho pode ser alcançado. Jesus usa a fraqueza (a cegueira de Saulo) para revelar sua força e soberania, mostrando que o evangelho pode transformar qualquer coração, por mais resistente que pareça.",
+  "selo": true
+ },
+ "viver": "Às vezes, nos sentimos distantes de Deus ou até em conflito com a fé, achando que nosso passado nos define. Mas a história de Saulo nos ensina que Jesus pode nos encontrar exatamente onde estamos, mesmo no meio da nossa cegueira espiritual. Ele não nos rejeita; Ele nos chama por nome e nos oferece uma nova direção. A pergunta \"Senhor, que queres que eu faça?\" é o começo de uma vida transformada pela obediência à voz de Cristo, não pelas nossas forças.",
+ "guarde": "A luz de Cristo pode cegar nosso orgulho para revelar nossa necessidade dEle.",
+ "ore": "Jesus, que brilhou no caminho de Damasco, eu Te peço: abre meus olhos para ver minha necessidade. Como Saulo, eu me coloco diante de Ti, cego e dependente. Ensina-me a obedecer à Tua voz e a deixar que Tua graça transforme meu coração, não pela minha força, mas pelo Teu poder.",
+ "quiz": {
+  "pergunta": "O que Jesus disse a Saulo quando a luz o atingiu?",
+  "opcoes": [
+   "Saulo, para onde você vai?",
+   "Saulo, eu sou o Deus do céu.",
+   "Saulo, Saulo, por que me persegues?"
+  ],
+  "certa": 2,
+  "explicacao": "O texto em Atos 9:4 registra explicitamente a voz dizendo: 'Saulo, Saulo, por que me persegues?'. As outras opções não aparecem nesta passagem específica."
+ },
+ "refs": [
+  "Atos 22:6-11",
+  "Atos 26:12-18",
+  "Filipenses 3:4-8"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-29T21:56:17.259Z",
+  "rounds": 1
+ }
+}

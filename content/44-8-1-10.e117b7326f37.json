@@ -1,0 +1,138 @@
+{
+ "id": "44-8-1-10",
+ "ref": "Atos 8:1-10",
+ "book": "44",
+ "chapter": 8,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E Saulo também consentia na morte dele. E naquele dia foi feita uma grande perseguição contra a igreja que estava em Jerusalém; e todos foram dispersos pelas regiões da Judeia, e de Samaria, exceto os apóstolos."
+  },
+  {
+   "n": 2,
+   "t": "E alguns homens devotos levaram juntos a Estêvão para enterrá-lo ,e fizeram grande pranto por causa dele."
+  },
+  {
+   "n": 3,
+   "t": "E Saulo tentava destruir a igreja, entrando nas casas, e puxando a homens e mulheres, entregava-os à prisão."
+  },
+  {
+   "n": 4,
+   "t": "Os que, pois, estavam dispersos, passavam anunciando a palavra."
+  },
+  {
+   "n": 5,
+   "t": "E Filipe, tendo descido à cidade de Samaria, pregava-lhes a Cristo."
+  },
+  {
+   "n": 6,
+   "t": "E as multidões prestavam atenção em concordância às coisas que eram ditas por Filipe, ao ouvirem e verem os sinais que ele fazia."
+  },
+  {
+   "n": 7,
+   "t": "Porque os espíritos imundos, clamando em alta voz, saíam de muitos que os tinham; e muitos paralíticos e aleijados foram curados."
+  },
+  {
+   "n": 8,
+   "t": "E havia grande alegria naquela cidade."
+  },
+  {
+   "n": 9,
+   "t": "E havia um certo homem, de nome Simão, que antes naquela cidade usava de magia, e fazia o povo de Samaria ficar admirado, dizendo de si mesmo ser alguém grande;"
+  },
+  {
+   "n": 10,
+   "t": "A quem eles todos davam atenção, desde o menor até o maior, diziam: Este é o grande poder de Deus."
+  }
+ ],
+ "titulo": "Quando a perseguição espalha a boa nova",
+ "temas": [
+  "perseguição",
+  "dispersão",
+  "evangelho",
+  "cura"
+ ],
+ "pergunta": "Como a perseguição pode abrir caminhos para a mensagem de Jesus?",
+ "entender": "Em Atos 8:1‑10 lemos que, após a morte de Estêvão, \"uma grande perseguição\" fez os cristãos de Jerusalém se dispersarem pela Judeia e Samaria. Enquanto Saulo tentava \"destruir a igreja\", os crentes que fugiam continuavam anunciando a palavra (v.4). Em Samaria, Filipe chegou, pregou \"a Cristo\" e realizou sinais; muitos foram libertados de espíritos e curados de doenças (v.6‑7). A cidade ficou cheia de alegria, mas também surgiram personagens como Simão, o mágico, que usava truques para impressionar o povo (v.9‑10). O relato mostra que a violência contra a igreja não acabou com o evangelho; ao contrário, ela o levou a novas regiões, onde o poder de Deus se manifestou de forma visível.\n\nO contexto imediato revela que a dispersão dos crentes não foi um fracasso, mas uma oportunidade providencial. A perseguição em Jerusalém forçou os discípulos a levar a mensagem a lugares onde ainda não haviam ouvido. Filipe, obediente ao Espírito, entrou em Samaria, cumprindo a ordem de levar o evangelho a todos os povos (cf. Atos 1:8). Os sinais que acompanhavam a pregação confirmavam que o poder que operava em Jerusalém ainda estava presente, confirmando a autoridade de Cristo sobre doenças e espíritos.\n\nEsse trecho também introduz o conflito entre o poder humano (a magia de Simão) e o poder de Deus. Enquanto Simão buscava admiração por truques, o verdadeiro poder que trazia cura e libertação vinha de Cristo, anunciando que a verdadeira grandeza pertence a Deus.",
+ "ligar": {
+  "texto": "Filipe pregou \"a Cristo\" (v.5) e realizou curas, mostrando que o poder que liberta do pecado e das enfermidades vem de Jesus. A perseguição que dispersou os crentes acabou levando a mensagem do Reino a Samaria, cumprindo a promessa de que o evangelho seria levado a todas as nações (Mateus 28:19). Mesmo quando Saulo perseguia a igreja, Deus usou aquele movimento para expandir o testemunho de Cristo, preparando o caminho para a conversão de Simão e, mais tarde, para o encontro de Saulo com Jesus em Damasco. Assim, o texto aponta para o evangelho ao revelar que a verdadeira cura e libertação são obra de Cristo, não de magia humana.",
+  "selo": true
+ },
+ "viver": "A alegria que tomou Samaria após as curas mostra que o evangelho traz transformação real e visível. Quando enfrentamos oposição ou situações difíceis, podemos confiar que Deus pode usar até mesmo a adversidade para abrir novas portas de ministério. Como Filipe, somos chamados a levar a mensagem onde houver necessidade, sem temer a perseguição, sabendo que o poder de Cristo acompanha a pregação. Também devemos reconhecer que a verdadeira autoridade vem de Deus, não de habilidades ou truques pessoais, evitando a tentação de buscar reconhecimento por meios falsos.\n\nHoje, se você sentir que está sendo empurrado para fora de um círculo familiar ou profissional, veja isso como uma oportunidade de compartilhar a esperança que tem em Cristo, confiando que Ele pode operar milagres mesmo em lugares inesperados.",
+ "guarde": "A perseguição pode ser o vento que espalha a semente do evangelho.",
+ "ore": "Senhor, ao lembrar da dispersão dos irmãos em Samaria, ajuda-me a ver nas dificuldades oportunidades de levar a tua palavra, como Filipe fez.",
+ "quiz": {
+  "pergunta": "Qual foi a reação da cidade de Samaria ao ministério de Filipe?",
+  "opcoes": [
+   "Grande alegria e curas",
+   "Silêncio e rejeição",
+   "Só curiosidade sem mudança"
+  ],
+  "certa": 0,
+  "explicacao": "O texto relata que, ao ouvirem Filipe e verem os sinais, \"havia grande alegria\" e muitos foram curados (Atos 8:6‑8)."
+ },
+ "refs": [
+  "Mateus 28:19",
+  "Atos 1:8",
+  "Romanos 10:14",
+  "1 Coríntios 1:18"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-29T21:48:03.923Z",
+  "rounds": 1
+ }
+}
