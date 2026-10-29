@@ -1,0 +1,136 @@
+{
+ "id": "40-28-11-20",
+ "ref": "Mateus 28:11-20",
+ "book": "40",
+ "chapter": 28,
+ "verses": [
+  {
+   "n": 11,
+   "t": "Enquanto elas iam, eis que alguns da guarda vieram à cidade, e anunciaram aos chefes dos sacerdotes tudo o que havia acontecido."
+  },
+  {
+   "n": 12,
+   "t": "Então eles se reuniram com os anciãos, depois de decidirem em conjunto, deram muito dinheiro aos soldados,"
+  },
+  {
+   "n": 13,
+   "t": "dizendo: Falai: “Os discípulos dele vieram de noite, e o furtaram enquanto estávamos dormindo”."
+  },
+  {
+   "n": 14,
+   "t": "E, se isto for ouvido pelo governador, nós o persuadiremos, e vos manteremos seguros."
+  },
+  {
+   "n": 15,
+   "t": "Eles tomaram o dinheiro e fizeram como foram instruídos. E este dito foi divulgado entre os judeus até hoje."
+  },
+  {
+   "n": 16,
+   "t": "Os onze discípulos se foram para a Galileia, ao monte onde Jesus havia lhes ordenado."
+  },
+  {
+   "n": 17,
+   "t": "E quando o viram, o adoraram; porém alguns duvidaram."
+  },
+  {
+   "n": 18,
+   "t": "Jesus se aproximou deles, e lhes falou: Todo o poder me é dado no céu e na terra."
+  },
+  {
+   "n": 19,
+   "t": "Portanto ide, fazei discípulos a todas as nações, batizando-os em nome do Pai, do Filho, e do Espírito Santo,"
+  },
+  {
+   "n": 20,
+   "t": "ensinando-lhes a guardar todas as coisas que eu vos tenho mandado. E eis que eu estou convosco todos os dias, até o fim dos tempos. Amém."
+  }
+ ],
+ "titulo": "O mandato que atravessa a história",
+ "temas": [
+  "missão",
+  "presença",
+  "discipulado"
+ ],
+ "pergunta": "O que significa ser discípulo em um mundo que ainda duvida?",
+ "entender": "Mateus encerra seu evangelho com uma cena dupla. De um lado, os chefes dos sacerdotes compram uma mentira dos soldados da guarda para explicar a ausência do corpo de Jesus. Eles espalham a versão de que os discípulos roubaram o corpo enquanto dormiam. Do outro, os onze discípulos seguem para a Galileia, ao monte onde Jesus os havia ordenado ir.\n\nLá, ao verem Jesus, eles o adoram, embora alguns ainda duvidem. Jesus declara: \"Todo o poder me é dado no céu e na terra\". Com esse poder, Ele envia seus seguidores para fazer discípulos de todas as nações, batizando-os em nome do Pai, do Filho e do Espírito Santo, e ensinando-os a guardar tudo o que Ele mandou.\n\nO texto termina com uma promessa pessoal e constante: Jesus estará com os seus todos os dias, até o fim dos tempos. Não é apenas uma ordem, mas uma garantia de companhia.",
+ "ligar": {
+  "texto": "Este trecho é o coração do evangelho em ação. A morte e ressurreição de Jesus não foram eventos isolados, mas o início de uma nova era onde Ele exerce autoridade sobre toda a criação. O evangelho não é apenas uma história passada, mas uma missão ativa. Jesus, ao prometer sua presença, garante que a missão não depende da força humana, mas da aliança divina. Ele nos convida a participar da obra de reconciliação, confiando em seu poder presente.",
+  "selo": true
+ },
+ "viver": "A dúvida dos discípulos é humana e honesta. Eles viram o Ressuscitado, mas ainda processavam o impacto. Isso nos ensina que a fé não elimina a perplexidade, mas a abraça na presença de Cristo. Na prática, fazer discípulos não significa ter todas as respostas, mas viver na certeza de que Jesus está conosco. Comece compartilhando sua história: como a presença de Jesus mudou sua rotina, mesmo em dias de incerteza. A missão cresce na intimidade, não na perfeição.",
+ "guarde": "A maior segurança do discípulo não é a ausência de dúvidas, mas a presença constante de Jesus até o fim.",
+ "ore": "Jesus, ao subir ao monte na Galileia, Tu nos deste a missão. Perdoa minha hesitação e minha dúvida. Ajuda-me a confiar em Teu poder, que se estende do céu à terra. Ensina-me a fazer discípulos não com minha força, mas com a certeza de que estás comigo todos os dias. Amém.",
+ "quiz": {
+  "pergunta": "O que Jesus prometeu aos discípulos ao enviar-los para fazer discípulos?",
+  "opcoes": [
+   "Que estaria com eles todos os dias até o fim dos tempos.",
+   "Que removeria toda dúvida intelectual imediatamente.",
+   "Que daria riquezas materiais para sustentar a missão."
+  ],
+  "certa": 0,
+  "explicacao": "O texto final de Mateus 28.20 afirma explicitamente a presença contínua de Jesus com seus seguidores, o que contrasta com a ideia de uma ajuda apenas material ou uma eliminação instantânea da dúvida."
+ },
+ "refs": [
+  "Marcos 16:15-18",
+  "Lucas 24:44-49",
+  "Atos 1:8"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-29T01:08:55.515Z",
+  "rounds": 1
+ }
+}

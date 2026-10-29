@@ -1,0 +1,141 @@
+{
+ "id": "40-27-12-22",
+ "ref": "Mateus 27:12-22",
+ "book": "40",
+ "chapter": 27,
+ "verses": [
+  {
+   "n": 12,
+   "t": "E, sendo ele foi acusado pelos chefes dos sacerdotes e pelos anciãos, nada respondeu."
+  },
+  {
+   "n": 13,
+   "t": "Pilatos, então, lhe disse: Não ouves quantas coisas estão testemunhando contra ti?"
+  },
+  {
+   "n": 14,
+   "t": "Mas Jesus não lhe respondeu uma só palavra, de maneira que o governador ficou muito maravilhado."
+  },
+  {
+   "n": 15,
+   "t": "Na festa o governador costuma soltar um preso ao povo, qualquer um que quisessem."
+  },
+  {
+   "n": 16,
+   "t": "E tinham então um preso bem conhecido, chamado Barrabás."
+  },
+  {
+   "n": 17,
+   "t": "Quando, pois, se ajuntaram, Pilatos lhes perguntou: Qual quereis que vos solte? Barrabás, ou Jesus, que é chamado Cristo?"
+  },
+  {
+   "n": 18,
+   "t": "Pois ele sabia que foi por inveja que o entregaram."
+  },
+  {
+   "n": 19,
+   "t": "E, enquanto ele estava sentado no assento de juiz, sua mulher lhe enviou a seguinte mensagem: Nada faças com aquele justo, pois hoje sofri muito em sonhos por causa dele."
+  },
+  {
+   "n": 20,
+   "t": "Mas os chefes dos sacerdotes e os anciãos persuadiram as multidões a pedirem Barrabás, e a exigirem a morte de Jesus."
+  },
+  {
+   "n": 21,
+   "t": "O governador lhes perguntou: Qual destes dois quereis que vos solte? E responderam: Barrabás!"
+  },
+  {
+   "n": 22,
+   "t": "Pilatos lhes disse: Que, pois, farei de Jesus, que é chamado Cristo? Todos lhe disseram: Seja crucificado!"
+  }
+ ],
+ "titulo": "O silêncio que confundiu Pilatos",
+ "temas": [
+  "silêncio",
+  "justiça",
+  "inveja",
+  "cruz"
+ ],
+ "pergunta": "Por que a falta de defesa de Jesus deixou o governador romano tão surpreso?",
+ "entender": "Em Mateus 27, Jesus está diante de Pilatos. Os líderes religiosos o acusam de muitas coisas, mas Jesus permanece calado. O texto diz que \"o governador ficou muito maravilhado\" com essa atitude. Pilatos esperava que Jesus se defendesse, como qualquer réu faria, mas Jesus não disse uma única palavra em sua defesa.\n\nA cena mostra um contraste forte. Pilatos sabia que Jesus foi entregue \"por inveja\". Ainda assim, ele tenta usar uma tradição da festa para se livrar do problema: oferecer ao povo a escolha entre soltar Barrabás, um prisioneiro perigoso, ou Jesus. Os líderes religiosos persuadem a multidão a pedir a liberação de Barrabás e a morte de Jesus. A resposta do povo é unânime e violenta: \"Seja crucificado!\"",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para o evangelho, pois mostra Jesus aceitando a cruz voluntariamente. Ele não usa seu poder para escapar, nem se defende com argumentos humanos. O silêncio de Jesus revela que ele não está ali para salvar a si mesmo, mas para pagar o preço dos nossos pecados. A multidão grita pela morte, mas é exatamente essa morte que trará vida para nós. Jesus é o justo que sofre pelos injustos, cumprindo a profecia e oferecendo salvação pela graça.",
+  "selo": true
+ },
+ "viver": "Diante de acusações falsas, nossa tendência é reagir com raiva ou tentar provar nossa inocência a todo custo. Jesus nos ensina que, às vezes, confiar em Deus é mais poderoso que qualquer defesa humana. Isso não significa passividade diante do mal, mas entregar o resultado a Deus. Quando você for tentado a se vingar ou a gritar sua razão, pare e pergunte: estou confiando na justiça de Deus ou na minha própria capacidade? Permita que a paz de Cristo guie sua resposta, substituindo o clamor humano pela confiança no plano divino.",
+ "guarde": "Jesus calou-se não por fraqueza, mas para entregar-se voluntariamente pelos pecadores.",
+ "ore": "Pilatos, ao ver o silêncio de Jesus, ficou maravilhado. Senhor, ensina-me a calar minha necessidade de me defender. Quando me acusarem injustamente, ajuda-me a confiar na tua justiça e a entregar meu destino em tuas mãos, assim como Jesus fez diante da cruz.",
+ "quiz": {
+  "pergunta": "O que Pilatos sabia sobre o motivo da entrega de Jesus?",
+  "opcoes": [
+   "Que Barrabás era mais culpado",
+   "Que Jesus era perigoso para Roma",
+   "Que foi por inveja"
+  ],
+  "certa": 2,
+  "explicacao": "O texto afirma explicitamente em Mateus 27:18 que \"ele sabia que foi por inveja que o entregaram\"."
+ },
+ "refs": [
+  "Isaías 53:7",
+  "Marcos 15:3-5",
+  "Lucas 23:10-12"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-29T01:06:57.766Z",
+  "rounds": 2
+ }
+}

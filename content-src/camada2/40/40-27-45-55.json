@@ -1,0 +1,143 @@
+{
+ "id": "40-27-45-55",
+ "ref": "Mateus 27:45-55",
+ "book": "40",
+ "chapter": 27,
+ "verses": [
+  {
+   "n": 45,
+   "t": "Desde a hora sexta houve trevas sobre toda a terra até a hora nona."
+  },
+  {
+   "n": 46,
+   "t": "E perto da hora nona, Jesus gritou em alta voz: Eli, Eli, lamá sabactâni?, Isto é: Deus meu, Deus meu, porque me desamparaste?"
+  },
+  {
+   "n": 47,
+   "t": "E alguns dos que ali estavam, quando ouviram, disseram: Ele está chamando Elias."
+  },
+  {
+   "n": 48,
+   "t": "Logo um deles correu e tomou uma esponja. Então a encheu de vinagre, colocou-a em uma cana, e lhe dava de beber."
+  },
+  {
+   "n": 49,
+   "t": "Porém os outros disseram: Deixa, vejamos se Elias vem livrá-lo."
+  },
+  {
+   "n": 50,
+   "t": "Jesus gritou outra vez em alta voz, e entregou o espírito."
+  },
+  {
+   "n": 51,
+   "t": "E eis que o véu do Templo se rasgou em dois, de cima até embaixo, a terra tremeu, e as pedras se fenderam."
+  },
+  {
+   "n": 52,
+   "t": "Os sepulcros se abriram, e muitos corpos de santos que tinham morrido foram ressuscitados."
+  },
+  {
+   "n": 53,
+   "t": "E, depois de ressuscitarem, saíram dos sepulcros, vieram à santa cidade, e apareceram a muitos."
+  },
+  {
+   "n": 54,
+   "t": "E o centurião, e os que com ele vigiavam Jesus, ao verem o terremoto e as coisas que haviam sucedido, tiveram muito medo, e disseram: Verdadeiramente ele era Filho de Deus."
+  },
+  {
+   "n": 55,
+   "t": "Muitas mulheres, que desde a Galileia haviam seguido Jesus, e o serviam, estavam ali, olhando de longe."
+  }
+ ],
+ "titulo": "O silêncio que rasgou o céu e a terra",
+ "temas": [
+  "sofrimento",
+  "abandono",
+  "ressurreição",
+  "medo",
+  "verdade"
+ ],
+ "pergunta": "Por que Jesus gritou que Deus o havia desamparado, se ele é o próprio Filho de Deus?",
+ "entender": "Mateus 27 descreve o momento mais sombrio da história: Jesus na cruz. Desde as treze horas, a terra ficou escura. Perto das dezesseis horas, Jesus gritou: \"Deus meu, Deus meu, porque me desamparaste?\". Essa frase, que ecoa um salmo antigo, não é apenas um pedido de ajuda, mas a expressão de uma dor profunda. Ele sente o peso do pecado do mundo sobre si mesmo.\n\nAlguns presentes pensaram que ele chamava Elias para ser salvo, o que mostra o mal-entendido sobre quem ele era. Outros esperaram para ver. Mas Jesus gritou novamente e \"entregou o espírito\". A morte dele não foi apenas um fim biológico, mas um ato de entrega. Imediatamente, o véu do Templo se rasgou de cima para baixo, a terra tremeu e as pedras se fenderam. Até os sepulcros se abriram.\n\nO centurião romano, que representava o poder da época, teve muito medo e reconheceu: \"Verdadeiramente ele era Filho de Deus\". Enquanto as autoridades religiosas o rejeitavam, um soldado comum, ao ver os sinais sobrenaturais, confessou a verdade sobre a identidade de Jesus. As mulheres que o seguiram da Galileia ficaram olhando de longe, testemunhas silenciosas desse evento histórico que mudaria o curso da humanidade.",
+ "ligar": {
+  "texto": "Este trecho é o coração do evangelho. A dor de Jesus na cruz não foi um acidente, mas o meio pelo qual Deus resolve o problema do pecado. O grito de abandono indica que Jesus absorveu a separação que nosso pecado nos causa. A morte dele, seguida pelos sinais cósmicos, mostra que a vitória já foi conquistada. O centurião confessa o que os discípulos ainda não entendiam plenamente: Jesus é o Filho de Deus. A cruz é o lugar onde a justiça e o amor de Deus se encontram. Sem essa morte, não há perdão. Com ela, a porta para Deus se abre, representada pelo véu rasgado.",
+  "selo": true
+ },
+ "viver": "A cena das trevas e do grito de Jesus nos convida a olhar para a cruz com realismo. Jesus não escondeu sua dor; ele a expressou em alta voz. Isso nos ensina que a fé não é a negação do sofrimento, mas a confiança em Deus mesmo no meio da dor. Quando enfrentarmos momentos de escuridão, podemos lembrar que Jesus passou por ali e venceu. Não precisamos ter todas as respostas, mas podemos ter a certeza de que ele está conosco, mesmo quando as circunstâncias parecem dizer o contrário. A fé se fortalece não na ausência de problemas, mas na presença de Cristo no meio deles.",
+ "guarde": "No grito de abandono de Jesus, a porta da salvação se abriu para todos.",
+ "ore": "Jesus, que gritou na cruz, eu confesso que muitas vezes sinto distância de ti. Mas vejo no véu rasgado que o caminho está aberto. Ajuda-me a confiar em tua presença mesmo quando não sinto tua voz, e que meu coração se entregue a ti como o do centurião, reconhecendo tua autoridade e teu amor.",
+ "quiz": {
+  "pergunta": "O que o centurião disse após ver o terremoto e as coisas que sucederam?",
+  "opcoes": [
+   "Verdadeiramente ele era Filho de Deus.",
+   "Ele estava chamando Elias para livrá-lo.",
+   "Ele era apenas um homem justo."
+  ],
+  "certa": 0,
+  "explicacao": "O texto em Mateus 27:54 registra explicitamente que o centurião e os que vigiavam Jesus, ao verem os sinais, tiveram medo e declararam que ele era verdadeiramente o Filho de Deus."
+ },
+ "refs": [
+  "Isaías 53:5",
+  "Hebreus 10:19-20",
+  "Marcos 15:34",
+  "Lucas 23:44-46"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-29T01:04:55.630Z",
+  "rounds": 1
+ }
+}

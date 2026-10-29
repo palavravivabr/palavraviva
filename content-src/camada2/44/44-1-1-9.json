@@ -1,0 +1,133 @@
+{
+ "id": "44-1-1-9",
+ "ref": "Atos 1:1-9",
+ "book": "44",
+ "chapter": 1,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Eu fiz o primeiro livro, ó Teófilo, sobre todas as coisas que Jesus começou, tanto a fazer como a ensinar;"
+  },
+  {
+   "n": 2,
+   "t": "Até o dia em que ele foi recebido acima, depois de pelo Espírito Santo ter dado mandamentos aos apóstolos que tinha escolhido;"
+  },
+  {
+   "n": 3,
+   "t": "Aos quais também, depois de ter sofrido, apresentou-se vivo com muitas evidências; sendo visto por eles durante quarenta dias, e falando -lhes das coisas relativas ao reino de Deus."
+  },
+  {
+   "n": 4,
+   "t": "E, reunindo-os, mandou-lhes que não saíssem de Jerusalém, mas que esperassem a promessa do Pai que (disse ele) de mim ouvistes."
+  },
+  {
+   "n": 5,
+   "t": "Porque João batizou com água, mas vós sereis batizados com o Espírito Santo, não muitos dias depois destes."
+  },
+  {
+   "n": 6,
+   "t": "Então aqueles que tinham se reunido lhe perguntaram, dizendo: Senhor, tu restaurarás neste tempo o Reino a Israel?"
+  },
+  {
+   "n": 7,
+   "t": "E ele lhes disse: Não pertence a vós saber os tempos ou estações que o Pai pôs em sua própria autoridade."
+  },
+  {
+   "n": 8,
+   "t": "Mas vós recebereis poder do Espírito Santo, que virá sobre vós; e vós sereis minhas testemunhas, tanto em Jerusalém como em toda a Judeia, e Samaria, e até ao último lugar da terra."
+  },
+  {
+   "n": 9,
+   "t": "E tendo ele dito estas coisas, enquanto eles o viam, ele foi levantado acima, e uma nuvem o tirou dos olhos deles."
+  }
+ ],
+ "titulo": "A missão que não depende de datas",
+ "temas": [
+  "missões",
+  "espírito santo",
+  "espera",
+  "testemunho"
+ ],
+ "pergunta": "Por que Jesus mandou os apóstolos ficarem parados em Jerusalém antes de começarem a pregar?",
+ "entender": "Lucas escreve a Teófilo para mostrar a continuação do que Jesus fez e ensinou. Aqui, o foco é o período entre a ressurreição e a ascensão. Jesus aparece vivo por quarenta dias, provando sua vitória sobre a morte com muitas evidências. Ele fala sobre o Reino de Deus, mas corrige a expectativa dos discípulos. Eles perguntam se ele restaurará o reino político de Israel agora. Jesus responde que não cabe a eles saber os tempos, mas sim atuar como testemunhas.\n\nA instrução é clara: esperar a promessa do Pai, o batismo no Espírito Santo. Jesus define o alcance da missão em círculos concêntricos: começa em Jerusalém, expande-se para a Judeia, chega à Samaria e vai até ao último lugar da terra. A cena termina com a ascensão, quando Jesus é elevado aos céus, deixando os discípulos com uma tarefa, não com um calendário.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para a pessoa e obra de Jesus. Ele não é apenas um mestre que parte, mas o Senhor ressurreto que comissiona. A salvação não é um evento isolado, mas impulsiona uma missão global. O evangelho que Jesus anunciou ganha força pelo Espírito Santo, garantindo que a mensagem de graça alcance todos os povos, transpondo barreiras culturais e geográficas.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, tentamos agendar a vontade de Deus, querendo saber o \"quando\" de cada resposta. Jesus nos convida a focar no \"o que\" e no \"para onde\". Em vez de ansiedade pelas datas, podemos ocupar nosso tempo em testemunhar o que já vivemos. Sua fé não precisa ser perigosa para ser eficaz; ela começa no seu círculo mais próximo, como Jerusalém para os apóstolos. Acredite que o Espírito Santo é quem dá poder e direção, não a sua capacidade de prever o futuro.",
+ "guarde": "Não estamos aqui para calcular o tempo de Deus, mas para testemunhar a obra do Espírito onde Ele nos coloca.",
+ "ore": "Senhor Jesus, que subiste ao céu, eu quero ser testemunha da tua obra. Ajuda-me a não me preocupar com o calendário, mas a confiar no poder do Espírito Santo. Dá-me coragem para começar em minha casa e em minha comunidade, levando a boa nova até onde teus olhos me levarem. Amém.",
+ "quiz": {
+  "pergunta": "Qual era o alcance da missão que Jesus deu aos discípulos em Atos 1.8?",
+  "opcoes": [
+   "De Jerusalém até ao último lugar da terra",
+   "Somente para a nação de Israel",
+   "Apenas para os judeus da Judeia"
+  ],
+  "certa": 0,
+  "explicacao": "O texto lista explicitamente a expansão da missão: Jerusalém, Judeia, Samaria e até aos confins da terra."
+ },
+ "refs": [
+  "Marcos 16:15",
+  "João 14:26",
+  "Efésios 2:12"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-29T01:10:01.060Z",
+  "rounds": 1
+ }
+}

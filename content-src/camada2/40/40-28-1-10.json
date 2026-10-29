@@ -1,0 +1,136 @@
+{
+ "id": "40-28-1-10",
+ "ref": "Mateus 28:1-10",
+ "book": "40",
+ "chapter": 28,
+ "verses": [
+  {
+   "n": 1,
+   "t": "No fim do sábado, quando já começava a clarear para o primeiro dia da semana, Maria Madalena, e a outra Maria vieram ver o sepulcro."
+  },
+  {
+   "n": 2,
+   "t": "E eis que houve um grande terremoto; porque um anjo do Senhor desceu do céu, chegou, e moveu a pedra da entrada, e ficou sentado sobre ela."
+  },
+  {
+   "n": 3,
+   "t": "A aparência dele era como um relâmpago, e sua roupa branca como neve."
+  },
+  {
+   "n": 4,
+   "t": "E de medo dele os guardas tremeram muito, e ficaram como mortos."
+  },
+  {
+   "n": 5,
+   "t": "Mas o anjo disse às mulheres: Não vos atemorizeis, pois eu sei que buscais Jesus, o que foi crucificado."
+  },
+  {
+   "n": 6,
+   "t": "Ele não está aqui, pois já ressuscitou, como ele disse. Vinde ver o lugar onde o Senhor jazia."
+  },
+  {
+   "n": 7,
+   "t": "Ide depressa dizer aos seus discípulos que ele ressuscitou dos mortos; e eis que vai adiante de vós para a Galileia; ali o vereis. Eis que eu tenho vos dito."
+  },
+  {
+   "n": 8,
+   "t": "Então elas saíram apressadamente do sepulcro, com temor e grande alegria, e correram para anunciar aos seus discípulos."
+  },
+  {
+   "n": 9,
+   "t": "E, enquanto elas iam anunciar aos seus discípulos, eis que Jesus veio ao encontro delas, e disse: Saudações. Elas se aproximaram, pegaram os pés dele, e o adoraram."
+  },
+  {
+   "n": 10,
+   "t": "Jesus, então, lhes disse: Não temais. Ide anunciar aos meus irmãos para eles irem à Galileia, e ali me verão."
+  }
+ ],
+ "titulo": "O vazio que trouxe a maior alegria",
+ "temas": [
+  "ressurreição",
+  "esperança",
+  "missão"
+ ],
+ "pergunta": "O que faria você correr apressadamente para contar uma boa notícia a alguém?",
+ "entender": "Imagine a cena: é o fim do sábado, o dia de descanso, e o amanhecer começa a clarear. Maria Madalena e a outra Maria vão ao sepulcro, provavelmente para cuidar do corpo de Jesus. Mas o que elas encontram não é um corpo, mas uma pedra rolada e um anjo com aparência de relâmpago.\n\nO anjo diz às mulheres: \"Ele não está aqui, pois já ressuscitou, como ele disse.\" Essa é a primeira vez no Evangelho de Mateus que a ressurreição é anunciada explicitamente. As mulheres, que antes tinham medo, saem com \"temor e grande alegria\" e correm para contar aos discípulos. A morte, que parecia ter vencido Jesus, foi derrotada.\n\nÉ importante notar que Jesus mesmo aparece a elas, diz \"Saudações\" e as envia para anunciar aos seus irmãos. A ressurreição não é apenas um fato histórico, mas o início de uma nova era em que a mensagem de esperança precisa ser compartilhada.",
+ "ligar": {
+  "texto": "Este texto é o coração do evangelho: Jesus venceu a morte. Se Ele não tivesse ressuscitado, nossa fé seria vã. Mas porque Ele vive, a mensagem de perdão e vida eterna é verdadeira. Jesus envia as mulheres, que eram testemunhas primordiais, para proclamar que Ele vive. Isso nos lembra que a salvação não é apenas pessoal, mas nos chama a ser portadores dessa esperança para os outros. A cruz foi um fim, mas o sepulcro vazio é um começo.",
+  "selo": true
+ },
+ "viver": "As mulheres saíram do sepulcro com \"grande alegria\" e correram para anunciar. Talvez você sinta que sua fé está parada, como uma pedra pesada. Pense em alguém que precisa ouvir que Jesus está vivo e que a morte não tem a última palavra. Não espere por sinais grandiosos; comece com o que você sabe. A alegria da ressurreição se multiplica quando compartilhada. Quem você pode visitar ou chamar hoje para falar dessa esperança?",
+ "guarde": "A pedra foi rolada não para Jesus sair, mas para nós vermos que Ele já tinha partido.",
+ "ore": "Maria Madalena, você que viu o sepulcro vazio, ensina-me a não ficar presa ao medo da morte. Que eu sinta a mesma alegria que você sentiu ao ouvir que Jesus vive, e que eu tenha coragem de contar essa boa notícia aos meus irmãos.",
+ "quiz": {
+  "pergunta": "Quem apareceu às mulheres no sepulcro e lhes disse que Jesus havia ressuscitado?",
+  "opcoes": [
+   "Um anjo do Senhor",
+   "Um soldado romano",
+   "Pedro"
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz que um anjo do Senhor desceu do céu, moveu a pedra e falou com as mulheres, anunciando a ressurreição."
+ },
+ "refs": [
+  "Lucas 24:1-8",
+  "Marcos 16:1-8",
+  "João 20:11-18"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-29T01:08:22.580Z",
+  "rounds": 1
+ }
+}

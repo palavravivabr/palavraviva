@@ -1,0 +1,142 @@
+{
+ "id": "40-27-56-66",
+ "ref": "Mateus 27:56-66",
+ "book": "40",
+ "chapter": 27,
+ "verses": [
+  {
+   "n": 56,
+   "t": "Entre elas estavam Maria Madalena, e Maria mãe de Tiago e de José, e a mãe dos filhos de Zebedeu."
+  },
+  {
+   "n": 57,
+   "t": "E chegado o entardecer, veio um homem rico de Arimateia, por nome José, que também era discípulo de Jesus."
+  },
+  {
+   "n": 58,
+   "t": "Ele chegou a Pilatos, e pediu o corpo de Jesus. Então Pilatos mandou que o corpo lhe fosse entregue."
+  },
+  {
+   "n": 59,
+   "t": "José tomou o corpo, e o envolveu em um lençol limpo, de linho fino,"
+  },
+  {
+   "n": 60,
+   "t": "e o pôs em seu sepulcro novo, que tinha escavado numa rocha; em seguida rolou uma grande pedra à porta do sepulcro, e foi embora."
+  },
+  {
+   "n": 61,
+   "t": "E ali estavam Maria Madalena e a outra Maria, sentadas de frente ao sepulcro."
+  },
+  {
+   "n": 62,
+   "t": "No dia seguinte, que é o depois da preparação, os chefes dos sacerdotes, e os fariseus se reuniram com Pilatos,"
+  },
+  {
+   "n": 63,
+   "t": "e disseram: Senhor, nos lembramos que aquele enganador, enquanto ainda vivia, disse: “Depois de três dias serei ressuscitado”."
+  },
+  {
+   "n": 64,
+   "t": "Portanto, manda que o sepulcro esteja em segurança até o terceiro dia, para que não aconteça dos seus discípulos virem de noite, e o furtem, e digam ao povo que ele ressuscitou dos mortos; e assim o último engano será pior que o primeiro."
+  },
+  {
+   "n": 65,
+   "t": "Pilatos lhes disse: Vós tendes uma guarda. Ide fazer segurança como o entendeis."
+  },
+  {
+   "n": 66,
+   "t": "E eles se foram, e fizeram segurança no sepulcro com a guarda, selando a pedra."
+  }
+ ],
+ "titulo": "O sepulcro selado e a esperança da ressurreição",
+ "temas": [
+  "entrega",
+  "esperança",
+  "ressurreição",
+  "segurança",
+  "fé"
+ ],
+ "pergunta": "O que a preocupação dos líderes religiosos em selar o túmulo revela sobre o que eles temiam?",
+ "entender": "Após a crucificação, Maria Madalena e outras mulheres observavam de longe. José de Arimateia, um discípulo rico, pediu o corpo a Pilatos e o colocou em seu próprio sepulcro novo, rolando uma grande pedra à porta. As mulheres ficaram sentadas diante do local, aguardando.\n\nNo dia seguinte, os chefes dos sacerdotes e fariseus procuraram Pilatos. Eles lembraram que Jesus dissera: “Depois de três dias serei ressuscitado”. Por isso, pediram segurança no sepulcro até o terceiro dia, temendo que os discípulos furtassem o corpo e dissessem ao povo que ele ressuscitara. Pilatos lhes disse que fizessem como entendiam, e eles selaram a pedra com a guarda.",
+ "ligar": {
+  "texto": "Este trecho mostra a certeza de Jesus sobre sua própria ressurreição, que os líderes tentaram calar com medo e engano. A entrega do corpo por José e a vigilância dos soldados contrastam com a vitória de Cristo sobre a morte. O evangelho se firma aqui: Jesus não foi um enganador, mas o Filho de Deus que venceu a morte, oferecendo vida eterna a todos que creem nele.",
+  "selo": true
+ },
+ "viver": "Às vezes, tentamos \"selar\" nossas esperanças ou esconder nossas fraquezas, assim como os líderes tentaram esconder a verdade sobre Jesus. Mas a ressurreição nos ensina que nada pode conter a vida que Deus dá. Confie em que, mesmo em momentos de dor ou espera, como as mulheres diante do túmulo, a promessa de Deus é fiel e a morte não tem a última palavra.",
+ "guarde": "A pedra selada não pôde conter a vida que Jesus trouxe.",
+ "ore": "José de Arimateia, que entregou seu sepulcro a Jesus, ensina-me a entregar minha vida a Ti. Ajuda-me a confiar na ressurreição, mesmo quando o medo tenta selar minha esperança.",
+ "quiz": {
+  "pergunta": "Por que os chefes dos sacerdotes pediram uma guarda para o sepulcro?",
+  "opcoes": [
+   "Para honrar a memória de Jesus.",
+   "Temiam que os discípulos furtassem o corpo e dissessem que Jesus ressuscitou.",
+   "Porque a lei exigia segurança em túmulos novos."
+  ],
+  "certa": 1,
+  "explicacao": "O texto diz claramente que eles temiam um engano futuro, citando a profecia de Jesus sobre a ressurreição em três dias."
+ },
+ "refs": [
+  "Lucas 24:1-12",
+  "João 19:38-42",
+  "Atos 2:24-31"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-29T01:11:00.596Z",
+  "rounds": 1
+ }
+}

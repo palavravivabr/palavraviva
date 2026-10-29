@@ -1,0 +1,145 @@
+{
+ "id": "40-27-23-34",
+ "ref": "Mateus 27:23-34",
+ "book": "40",
+ "chapter": 27,
+ "verses": [
+  {
+   "n": 23,
+   "t": "E o governador perguntou: Ora, que mal ele fez? Porém gritavam mais: Seja crucificado!"
+  },
+  {
+   "n": 24,
+   "t": "Quando, pois, Pilatos viu que nada adiantava, em vez disso se fazia mais tumulto, ele pegou água, lavou as mãos diante da multidão, e disse: Estou inocente do sangue deste justo. A responsabilidade é vossa."
+  },
+  {
+   "n": 25,
+   "t": "E todo o povo respondeu: O sangue dele venha sobre nós, e sobre os nossos filhos."
+  },
+  {
+   "n": 26,
+   "t": "Então soltou-lhes Barrabás, enquanto que mandou açoitar Jesus, e o entregou para ser crucificado."
+  },
+  {
+   "n": 27,
+   "t": "Em seguida, os soldados do governador levaram Jesus consigo ao pretório, ajuntaram-se a ele toda a unidade miltar."
+  },
+  {
+   "n": 28,
+   "t": "Eles o despiram e o cobriram com um manto vermelho."
+  },
+  {
+   "n": 29,
+   "t": "E, depois de tecerem uma coroa de espinhos, puseram-na sobre a sua cabeça, e uma cana em sua mão direita. Em seguida, puseram-se de joelhos diante dele, zombando-o, e diziam: Felicitações, Rei dos Judeus!"
+  },
+  {
+   "n": 30,
+   "t": "E cuspiram nele, tomaram a cana, e deram-lhe golpes na cabeça."
+  },
+  {
+   "n": 31,
+   "t": "Depois de terem o zombado, despiram-lhe a capa, vestiram-no com suas roupas, e o levaram para crucificar."
+  },
+  {
+   "n": 32,
+   "t": "Ao saírem, encontraram um homem de Cirene, por nome Simão; e obrigaram-no a levar sua cruz."
+  },
+  {
+   "n": 33,
+   "t": "E quando chegaram ao lugar chamado Gólgota, que significa “o lugar da caveira”,"
+  },
+  {
+   "n": 34,
+   "t": "deram-lhe de beber vinagre misturado com fel. E, depois de provar, não quis beber."
+  }
+ ],
+ "titulo": "Por que a multidão gritou “Seja crucificado?”",
+ "temas": [
+  "culpa",
+  "injustiça",
+  "humilhação"
+ ],
+ "pergunta": "O que levou a multidão a insistir na crucificação de Jesus mesmo quando Pilatos tentou buscar outra solução?",
+ "entender": "Neste trecho, Pilatos pergunta ao povo o que Jesus teria feito de errado, mas eles respondem com mais intensidade: “Seja crucificado!” (v.23). Diante da pressão, Pilatos lava as mãos, declarando: “Estou inocente do sangue deste justo. A responsabilidade é vossa.” (v.24). O povo, então, aceita a culpa coletiva: “O sangue dele venha sobre nós, e sobre os nossos filhos.” (v.25). Em seguida, Pilatos solta Barrabás, açoita Jesus e o entrega para a crucificação (v.26‑27). Os soldados o despem, o vestem com um manto vermelho, lhe colocam uma coroa de espinhos e zombam, chamando‑o de “Rei dos Judeus” (v.28‑29). Depois o espancam, o forçam a carregar a cruz e lhe dão vinagre ao invés de água (v.30‑34). O relato mostra a rejeição violenta de Jesus, a tentativa de Pilatos de se desvincular da situação e a disposição do povo em assumir a culpa que eles mesmos atribuem a Ele.\n\nO contexto anterior (v.20‑22) revela que os líderes religiosos incitaram a multidão contra Jesus, e o contexto posterior (v.35‑37) descreve a crucificação e a inscrição da acusação. O texto cumpre a narrativa da paixão, destacando a injustiça humana e a humilhação que o Messias suportou.",
+ "ligar": {
+  "texto": "A atitude da multidão, ao exigir a morte de Jesus e ao dizer que o sangue dele caia sobre eles, evidencia a rejeição do Salvador que, segundo as Escrituras, veio para levar sobre si o peso do pecado (cf. Isaías 53). Pilatos tenta se afastar da responsabilidade, mas o povo aceita a culpa que, em seu coração, reconhece que Jesus está pagando. Essa situação aponta ao evangelho: Cristo morreu como substituto, carregando a condenação que nós merecíamos, para que, crendo nele, recebamos perdão e vida.",
+  "selo": true
+ },
+ "viver": "Ao observar como a multidão, mesmo diante da injustiça, insistiu na crucificação, percebemos que, hoje, podemos ser tentados a culpar outros ou a nos afastar da responsabilidade. Em vez disso, devemos reconhecer que a culpa que carregamos não nos pertence mais, pois Cristo a assumiu. Quando surgirem situações de injustiça ou pressão, escolha não ficar em silêncio como Pilatos, mas agir com compaixão e verdade, lembrando que o sacrifício de Jesus nos chama a viver em responsabilidade e amor ao próximo.",
+ "guarde": "A culpa que nos pesa foi levada por Cristo; somos livres para viver em verdade.",
+ "ore": "Pilatos, ao lavar as mãos, me lembra que não devo fugir da responsabilidade; ajuda‑me a reconhecer que, por meio de Cristo, a culpa que me sobrecarrega já foi carregada na cruz.",
+ "quiz": {
+  "pergunta": "Qual foi a resposta do povo quando Pilatos disse estar inocente do sangue de Jesus?",
+  "opcoes": [
+   "O sangue dele venha sobre nós, e sobre os nossos filhos.",
+   "Que a justiça prevaleça sobre Ele.",
+   "Deixem Jesus livre, pois Ele é inocente."
+  ],
+  "certa": 0,
+  "explicacao": "Mateus 27:25 registra exatamente essa frase, mostrando que o povo assumiu a culpa que atribui a Jesus."
+ },
+ "refs": [
+  "Isaías 53:5",
+  "2 Coríntios 5:21",
+  "1 Pedro 2:24",
+  "João 19:30"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-29T01:01:55.288Z",
+  "rounds": 2
+ }
+}
