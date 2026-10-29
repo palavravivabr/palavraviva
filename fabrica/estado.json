@@ -2150,19 +2150,27 @@
   },
   "44-2-25-35": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: refs:quantidade",
+   "estado": "pronto",
+   "titulo": "Davi morreu, mas Jesus viveu"
   },
   "44-2-36-47": {
    "execucoes": 0,
-   "ultimo": "gemini: PRAYER_FIDELITY: A oração se dirige ao apóstolo Pedro em vez de se dirigir a Deus, o que é incompatível com o padrão bíblico de oração."
+   "ultimo": "automático: entender:menos_de_2_paragrafos, entender:citacao_longa",
+   "estado": "pronto",
+   "titulo": "Três mil corações mudados em um dia"
   },
   "44-3-1-9": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: PRAYER_FIDELITY: A oração está sendo dirigida ao apóstolo Pedro em vez de ser dirigida a Deus ou a Jesus Cristo, o que contraria o padrão bíblico de oração.",
+   "estado": "pronto",
+   "titulo": "O nome que curou o aleijado"
   },
   "44-3-10-17": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: PRAYER_FIDELITY: A oração dirige-se ao apóstolo Pedro em vez de ser uma oração dirigida a Deus.",
+   "estado": "pronto",
+   "titulo": "O poder que não vem de nós"
   },
   "44-3-18-26": {
    "execucoes": 0,
@@ -2207,24 +2215,24 @@
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 714,
-   "entrada": 1840214,
-   "saida": 631479
+   "chamadas": 721,
+   "entrada": 1859844,
+   "saida": 637500
   },
   "groq-qwen": {
-   "chamadas": 706,
-   "entrada": 1742817,
-   "saida": 572971
+   "chamadas": 714,
+   "entrada": 1764311,
+   "saida": 579291
   },
   "gemini": {
-   "chamadas": 588,
-   "entrada": 1907392,
-   "saida": 753040
+   "chamadas": 597,
+   "entrada": 1936660,
+   "saida": 768534
   },
   "cloudflare": {
-   "chamadas": 369,
-   "entrada": 1286147,
-   "saida": 136899
+   "chamadas": 373,
+   "entrada": 1300180,
+   "saida": 138383
   },
   "mistral": {
    "chamadas": 0,

@@ -1,0 +1,140 @@
+{
+ "id": "44-2-25-35",
+ "ref": "Atos 2:25-35",
+ "book": "44",
+ "chapter": 2,
+ "verses": [
+  {
+   "n": 25,
+   "t": "Porque Davi diz sobre ele: Eu sempre via ao Senhor diante de mim, porque ele está à minha direita, para que eu não seja abalado."
+  },
+  {
+   "n": 26,
+   "t": "Por isso meu coração está contente, e minha língua se alegra, e até mesmo minha carne repousará em esperança."
+  },
+  {
+   "n": 27,
+   "t": "Pois tu não abandonarás minha alma no Xeol, nem permitirás que o teu santo veja a degradação."
+  },
+  {
+   "n": 28,
+   "t": "Tu tens me feito conhecer os caminhos da vida; tu me encherás de alegria com tua face."
+  },
+  {
+   "n": 29,
+   "t": "Homens irmãos, é lícito eu vos dizer abertamente sobre o patriarca Davi, que morreu, e foi sepultado, e a sepultura dele está conosco até o dia de hoje."
+  },
+  {
+   "n": 30,
+   "t": "Portanto, sendo ele profeta, e sabendo que Deus tinha lhe prometido com juramento que, da sua descendência segundo a carne, levantaria ao Cristo para se sentar no seu trono;"
+  },
+  {
+   "n": 31,
+   "t": "Vendo -o com antecedência, falou da ressurreição do Cristo, que a sua alma não foi abandonada no Xeol, nem a sua carne viu a degradação."
+  },
+  {
+   "n": 32,
+   "t": "A este Jesus Deus ressuscitou; do qual todos nós somos testemunhas."
+  },
+  {
+   "n": 33,
+   "t": "Portanto, tendo sido exaltado à direita de Deus, e recebido do Pai a promessa do Espírito Santo, derramou isto que agora estais vendo e ouvindo."
+  },
+  {
+   "n": 34,
+   "t": "Porque Davi não subiu aos céus; mas sim, ele diz: Disse o Senhor a meu Senhor: Senta-te à minha direita,"
+  },
+  {
+   "n": 35,
+   "t": "Até que eu ponha teus inimigos por escabelo de teus pés."
+  }
+ ],
+ "titulo": "Davi morreu, mas Jesus viveu",
+ "temas": [
+  "ressurreição",
+  "profecia",
+  "esperança",
+  "cristo"
+ ],
+ "pergunta": "O que Pedro está provando ao dizer que a sepultura de Davi ainda existe?",
+ "entender": "Pedro está diante do povo judeu no dia de Pentecostes. Ele usa um salmo de Davi para explicar o que aconteceu com Jesus. Davi escreveu que Deus não abandonaria sua alma no Xeol (o lugar dos mortos) nem permitiria que seu corpo sofresse degradação. Pedro argumenta que Davi sabia que ele mesmo morreria, pois sua sepultura era conhecida. Portanto, Davi não estava falando de si mesmo, mas de um descendente que viria dele.\n\nPedro declara que esse descendente é Jesus. Embora Jesus tenha sido crucificado, Deus o ressuscitou. O corpo de Jesus não se decompôs no túmulo. Pedro aponta que Jesus foi exaltado à direita de Deus e derramou o Espírito Santo sobre os apóstolos, provando que está vivo e em autoridade. O salmo de Davi se cumpriu em Jesus, confirmando que Ele é o Messias prometido.",
+ "ligar": {
+  "texto": "Este texto é o coração do evangelho: Jesus não é apenas um profeta morto, mas o Cristo vivo. A ressurreição é a prova de que Deus aceitou o sacrifício de Jesus. Se Jesus estivesse morto, nossa fé seria vã. Mas, como Ele vive, temos a garantia da salvação e a presença do Espírito Santo em nós. A vitória sobre a morte é a base da nossa esperança.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, nossa esperança depende de circunstâncias ou de pessoas que partem. Este texto nos lembra que a esperança cristã está ancorada em uma pessoa viva. Quando enfrentamos a dor ou a perda, podemos olhar para o túmulo vazio de Jesus. Ele venceu a morte. Isso nos dá a coragem de viver com propósito e a certeza de que a história não termina no sofrimento, mas na vida eterna com Deus.",
+ "guarde": "A sepultura de Davi existe, mas o túmulo de Jesus está vazio porque Ele vive.",
+ "ore": "Jesus, Senhor ressurreto, obrigado por não teres permitido que a morte te retivesse. Ensina-me a confiar na tua vida em meio às minhas perdas e a esperar na tua promessa de vida eterna.",
+ "quiz": {
+  "pergunta": "Qual era o argumento de Pedro para provar que o salmo de Davi se cumpria em Jesus?",
+  "opcoes": [
+   "Davi morreu e sua sepultura era conhecida, então ele não podia estar falando de si mesmo.",
+   "Davi nunca morreu, apenas dormiu.",
+   "Davi ressuscitou e subiu aos céus."
+  ],
+  "certa": 0,
+  "explicacao": "Pedro usa o fato de que a sepultura de Davi ainda existia para mostrar que Davi sabia que morreria. Logo, a promessa de não ver a degradação referia-se a um descendente, Jesus."
+ },
+ "refs": [
+  "1 Coríntios 15:17",
+  "Lucas 24:46"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-29T10:09:38.642Z",
+  "rounds": 2
+ }
+}

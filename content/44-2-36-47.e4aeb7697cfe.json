@@ -1,0 +1,145 @@
+{
+ "id": "44-2-36-47",
+ "ref": "Atos 2:36-47",
+ "book": "44",
+ "chapter": 2,
+ "verses": [
+  {
+   "n": 36,
+   "t": "Saiba então com certeza toda a casa de Israel, que Deus o fez Senhor e Cristo a este Jesus, que vós crucificastes."
+  },
+  {
+   "n": 37,
+   "t": "E eles, ao ouvirem estas coisas , foram afligidos como que perfurados de coração, e disseram a Pedro, e aos outros apóstolos: Que faremos, homens irmãos?"
+  },
+  {
+   "n": 38,
+   "t": "E Pedro lhes disse: Arrependei-vos, e batize-se cada um de vós no nome de Jesus Cristo, para perdão dos pecados; e vós recebereis o dom do Espírito Santo."
+  },
+  {
+   "n": 39,
+   "t": "Porque a promessa é para vós, e para vossos filhos, e para todos que ainda estão longe, a tantos quantos Deus, nosso Senhor, chamar."
+  },
+  {
+   "n": 40,
+   "t": "E com muitas outras palavras ele dava testemunho, e exortava, dizendo: Salvai-vos desta geração perversa!"
+  },
+  {
+   "n": 41,
+   "t": "Então os que receberam a palavra dele de boa vontade foram batizados; e foram adicionados naquele dia quase três mil almas."
+  },
+  {
+   "n": 42,
+   "t": "E eles perseveravam na doutrina dos apóstolos, na comunhão, no partir do pão, e nas orações."
+  },
+  {
+   "n": 43,
+   "t": "E houve temor em toda alma; e muitos milagres e sinais foram feitos pelos apóstolos."
+  },
+  {
+   "n": 44,
+   "t": "E todos os que criam estavam juntos, e tinham todas as coisas em comum."
+  },
+  {
+   "n": 45,
+   "t": "E eles vendiam suas propriedades e bens, e as repartiam com todos, conforme a necessidade que cada um tinha."
+  },
+  {
+   "n": 46,
+   "t": "E perseverando a cada dia em concordância no Templo, e partindo o pão de casa em casa, comiam juntos com alegria e sinceridade de coração."
+  },
+  {
+   "n": 47,
+   "t": "Louvando a Deus, e tendo graça, sendo do agrado de todo o povo. E a cada dia o Senhor acrescentava à igreja aqueles que estavam sendo salvos."
+  }
+ ],
+ "titulo": "Três mil corações mudados em um dia",
+ "temas": [
+  "arrependimento",
+  "comunidade",
+  "espirito santo",
+  "salvação"
+ ],
+ "pergunta": "O que aconteceu quando as pessoas ouviram que Jesus era o Senhor?",
+ "entender": "Pedro termina seu discurso dizendo que Deus fez Jesus, a quem eles crucificaram, Senhor e Cristo. A reação da multidão foi imediata: eles foram \"afligidos como que perfurados de coração\" e pediram a Pedro o que deveriam fazer. A resposta de Pedro foi clara: arrependimento, batismo no nome de Jesus para perdão dos pecados e a promessa do dom do Espírito Santo.\n\nO resultado foi transformador. Quase três mil pessoas foram batizadas naquele dia. O texto descreve a vida desses novos crentes: perseveravam na doutrina, na comunhão, no partir do pão e nas orações. Havia temor, sinais e uma unidade profunda onde vendiam bens para ajudar quem precisava. Eles comiam juntos com alegria e sinceridade, e a igreja crescia diariamente com novos salvos.",
+ "ligar": {
+  "texto": "Este trecho é o coração do evangelho em ação. Mostra que a salvação não é apenas uma ideia, mas uma mudança de vida que começa com o reconhecimento de Jesus como Senhor e a entrega dos próprios pecados a Ele. A graça de Deus, recebida pela fé, gera uma comunidade viva, onde o amor prático e a presença do Espírito Santo são evidentes para todos. É a prova de que o poder da cruz e da ressurreição ainda é suficiente para transformar corações e construir a Igreja.",
+  "selo": true
+ },
+ "viver": "A igreja primitiva tinha \"alegria e sinceridade de coração\" ao se reunirem. Hoje, muitas vezes nos reunimos por obrigação ou hábito. Pense em como você pode trazer mais sinceridade e alegria para sua comunhão com outros crentes. Não se trata de fingir felicidade, mas de reconhecer a graça que nos reuniu. Que tal compartilhar algo específico que Deus fez na sua vida esta semana com um irmão ou irmã? A verdade compartilhada com sinceridade fortalece a todos.",
+ "guarde": "A graça de Deus transforma indivíduos em uma família que se ama e serve com alegria.",
+ "ore": "Senhor Jesus, assim como aqueles que ouviram Pedro, deixa o Teu Espírito perfurar meu coração. Eu me arrependo dos meus pecados e Te aceito como meu Senhor. Dá-me a mesma fome e sede que eles tinham, e ajuda-me a viver em comunhão sincera e alegre com os meus irmãos na fé.",
+ "quiz": {
+  "pergunta": "O que Pedro disse que as pessoas deveriam fazer para receber o perdão dos pecados?",
+  "opcoes": [
+   "Ir ao templo e oferecer sacrifícios",
+   "Apenas crer mentalmente em Jesus",
+   "Arrependimento e batismo no nome de Jesus"
+  ],
+  "certa": 2,
+  "explicacao": "Em Atos 2:38, Pedro instrui explicitamente a se arrependerem e a serem batizados no nome de Jesus Cristo para o perdão dos pecados."
+ },
+ "refs": [
+  "Romanos 10:9-10",
+  "1 Coríntios 12:12-27",
+  "Hebreus 10:24-25"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-29T10:10:39.393Z",
+  "rounds": 1
+ }
+}

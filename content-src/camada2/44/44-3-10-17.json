@@ -1,0 +1,129 @@
+{
+ "id": "44-3-10-17",
+ "ref": "Atos 3:10-17",
+ "book": "44",
+ "chapter": 3,
+ "verses": [
+  {
+   "n": 10,
+   "t": "E eles o reconheceram, que este era o que se sentava para pedir esmola perto da porta formosa do Templo; e ficaram cheios de surpresa e espanto, por causa do que tinha lhe acontecido."
+  },
+  {
+   "n": 11,
+   "t": "E o aleijado que tinha sido curado, tendo se apegado a Pedro e a João, todo o povo correu maravilhado a eles ao pórtico, que se chama de Salomão."
+  },
+  {
+   "n": 12,
+   "t": "Quando Pedro viu isso , respondeu ao povo: “Homens israelitas, por que vos maravilhais disto? Ou por que vós olhais tão atentamente para nós, como se por nosso próprio poder ou devoção divina o tivéssemos feito andar?"
+  },
+  {
+   "n": 13,
+   "t": "O Deus de Abraão, e de Isaque, e de Jacó, o Deus de nossos pais, glorificou a seu filho Jesus, ao qual vós entregastes, e diante do rosto de Pilatos o negastes, mesmo ele julgando que fosse solto."
+  },
+  {
+   "n": 14,
+   "t": "Mas vós negastes ao santo e justo, e pedistes que um homem assassino fosse vos dado."
+  },
+  {
+   "n": 15,
+   "t": "E vós matastes ao Príncipe da vida, ao qual Deus ressuscitou dos mortos, do que nós somos testemunhas."
+  },
+  {
+   "n": 16,
+   "t": "E pela fé em seu nome, o nome dele deu firmeza a este, que vedes e conheceis; e a fé que é por meio dele deu a este perfeita saúde na presença de todos vós."
+  },
+  {
+   "n": 17,
+   "t": "E agora, irmãos, eu sei que vós fizestes isso por ignorância, assim como também vossos líderes."
+  }
+ ],
+ "titulo": "O poder que não vem de nós",
+ "temas": [
+  "fé",
+  "glória",
+  "cristo",
+  "perdão"
+ ],
+ "pergunta": "Por que Pedro sentiu necessidade de corrigir o espanto da multidão antes de pregar?",
+ "entender": "A cena está no pórtico de Salomão, no Templo. O homem que era chamado de aleijado, agora anda e salta, louvando a Deus. A multidão se aglomera ao redor de Pedro e João, maravilhada. Eles assumem que os apóstolos fizeram a cura por algum poder próprio ou devoção especial.\n\nPedro interrompe essa lógica. Ele pergunta: \"por que vos maravilhais disto?\" e explica que não foi por \"nosso próprio poder ou devoção divina\". A glória pertence a Deus, que glorificou seu Filho Jesus. Pedro lembra o povo de que eles mesmos entregaram Jesus a Pilatos e pediram a libertação de um assassino, matando assim o \"Príncipe da vida\". A cura só aconteceu pela fé no nome de Jesus, que deu firmeza às pernas do homem. Pedro encerra com uma nota de graça: ele sabe que o povo agiu assim por ignorância, assim como seus líderes.",
+ "ligar": {
+  "texto": "Este texto é um sermão direto sobre a pessoa de Jesus. Pedro desvia o foco de si mesmo para Cristo, mostrando que a ressurreição é o centro de tudo. A cura física é um sinal, mas a mensagem central é espiritual: Jesus, quem foi rejeitado e morto, foi exaltado por Deus. O evangelho aparece na tensão entre a culpa do povo (que matou o justo) e a oferta de perdão de Pedro (que fala em ignorância), apontando para a necessidade de arrependimento que vem nos versículos seguintes.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, quando algo bom acontece na nossa vida, como uma recuperação ou uma oportunidade, podemos cair na tentação de nos glorificar ou buscar reconhecimento. Este trecho nos ensina a redirecionar o olhar. Assim como Pedro, devemos ser rápidos em atribuir a Deus a fonte de qualquer bênção. Não se trata de fingir humildade, mas de reconhecer a verdade: não há poder em nós mesmos para transformar situações desesperadoras. A fé em Jesus é o único canal que traz firmeza e saúde para a nossa existência, e isso deve ser a base do nosso testemunho.",
+ "guarde": "A glória não é nossa; é de Deus, que exaltou Jesus, o Príncipe da vida, acima de toda ignorância e rejeição.",
+ "ore": "Pai, ao lembrar do pórtico de Salomão, ensina-me a não buscar aplauso. Ajuda-me a ver que toda cura e força vêm do nome de Jesus. Que eu reconheça minha dependência de Ti e atribua a Ti toda a glória, mesmo quando as pessoas olham para mim.",
+ "quiz": {
+  "pergunta": "Segundo o texto, o que Pedro diz que deu firmeza ao homem aleijado?",
+  "opcoes": [
+   "O poder pessoal de Pedro",
+   "A fé no nome de Jesus",
+   "A devoção divina de João"
+  ],
+  "certa": 1,
+  "explicacao": "Pedro afirma explicitamente que foi pela fé no nome de Jesus que o homem recebeu firmeza, negando que fosse por poder próprio ou devoção."
+ },
+ "refs": [
+  "Atos 4:10-12",
+  "Lucas 24:44-47",
+  "João 14:12"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-29T10:08:49.254Z",
+  "rounds": 2
+ }
+}

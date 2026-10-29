@@ -1,0 +1,134 @@
+{
+ "id": "44-3-1-9",
+ "ref": "Atos 3:1-9",
+ "book": "44",
+ "chapter": 3,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E Pedro e João estavam subindo juntos para o Templo à hora da oração (a nona hora );"
+  },
+  {
+   "n": 2,
+   "t": "E um certo homem estava sendo trazido, que era aleijado desde o ventre de sua mãe, ao qual todo dia colocavam à porta do Templo, chamada Porta Formosa, para pedir esmola aos que entravam no Templo."
+  },
+  {
+   "n": 3,
+   "t": "O qual, ao ver Pedro e João perto de entrarem no Templo, ele lhes pediu uma esmola."
+  },
+  {
+   "n": 4,
+   "t": "E Pedro, olhando fixamente para ele, junto com João, disse: Olha para nós."
+  },
+  {
+   "n": 5,
+   "t": "E o aleijado ficou prestando atenção neles, esperando receber deles alguma coisa."
+  },
+  {
+   "n": 6,
+   "t": "E Pedro disse: Prata e ouro eu não tenho; mas o que eu tenho, isso eu te dou: no nome de Jesus Cristo, o nazareno, levanta-te, e anda!"
+  },
+  {
+   "n": 7,
+   "t": "E, tomando-o pela mão direita, levantou -o ; e logo os seus pés e tornozelos ficaram firmes."
+  },
+  {
+   "n": 8,
+   "t": "E ele, saltando, pôs-se de pé, e andou, e entrou com eles no Templo, andando, e saltando, e louvando a Deus."
+  },
+  {
+   "n": 9,
+   "t": "E todo o povo o viu andar, e louvar a Deus."
+  }
+ ],
+ "titulo": "O nome que curou o aleijado",
+ "temas": [
+  "cura",
+  "fé",
+  "nome de jesus",
+  "dignidade",
+  "louvor"
+ ],
+ "pergunta": "O que Pedro tinha para dar ao aleijado que era mais valioso que ouro ou prata?",
+ "entender": "Pedro e João estavam indo ao Templo para a oração da nona hora. Lá, na Porta Formosa, encontraram um homem aleijado desde o ventre materno, que dependia diariamente de esmolas para sobreviver. Ao pedir algo, Pedro não ofereceu dinheiro, mas declarou: \"no nome de Jesus Cristo, o nazareno, levanta-te, e anda!\".\n\nAo tocar a mão do homem, ele se levantou instantaneamente. Seus pés e tornozelos ficaram firmes, e ele começou a andar, saltar e louvar a Deus. A cena foi vista por toda a multidão, que ficou espantada ao reconhecer que aquele era o mesmo mendigo que sempre sentava ali. A cura não foi um ato de magia, mas a demonstração do poder do nome de Jesus agindo através da fé dos apóstolos.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para a autoridade de Jesus Cristo. Pedro não tinha poder próprio, mas agia \"no nome de Jesus\", reconhecendo que a cura vinha de Deus através do Messias. A cura física ilustra o que Jesus faz espiritualmente: Ele restaura a vida, a dignidade e a capacidade de louvar a Deus. Assim como o aleijado foi transformado de dependente para adorador, Jesus oferece salvação que muda nossa identidade e nos capacita a viver em liberdade e gratidão.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, buscamos soluções humanas para problemas espirituais ou emocionais, esperando que dinheiro, status ou esforço próprio resolvam tudo. Este texto nos lembra que a verdadeira transformação vem de Jesus. Quando enfrentamos limitações, não devemos focar no que falta, mas no que Cristo oferece: vida nova. A prática concreta é parar de mendigar por validação externa e começar a declarar a autoridade de Jesus sobre suas áreas de fraqueza, confiando que Ele pode restaurar o que parece impossível.",
+ "guarde": "O que eu tenho para dar é o poder restaurador de Jesus, não apenas recursos materiais.",
+ "ore": "Jesus, que Pedro invocou na Porta Formosa, ensina-me a agir em Teu nome. Que eu não dependa de minhas forças, mas confie no Teu poder que cura e transforma. Ajuda-me a ver pessoas com olhos de compaixão e fé, declarando a Tua vitória sobre toda limitação em minha vida e na vida de quem eu encontro.",
+ "quiz": {
+  "pergunta": "O que Pedro disse que não tinha, mas que deu ao aleijado?",
+  "opcoes": [
+   "Prata e ouro, mas deu o nome de Jesus Cristo",
+   "Medicinas e remédios, mas deu orações",
+   "Poder próprio, mas deu conselho espiritual"
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma explicitamente que Pedro não tinha prata nem ouro, mas deu o que tinha: a autoridade do nome de Jesus Cristo para a cura."
+ },
+ "refs": [
+  "Marcos 5:25-34",
+  "João 5:1-9",
+  "Lucas 10:17-20"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-29T10:07:20.362Z",
+  "rounds": 2
+ }
+}
