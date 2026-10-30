@@ -1,0 +1,137 @@
+{
+ "id": "44-13-43-52",
+ "ref": "Atos 13:43-52",
+ "book": "44",
+ "chapter": 13,
+ "verses": [
+  {
+   "n": 43,
+   "t": "E tendo terminado a reunião da sinagoga, muitos dos judeus, e dos religiosos prosélitos, seguiram a Paulo e a Barnabé; os quais, falando-lhes, exortavam-nos a permanecerem na graça de Deus."
+  },
+  {
+   "n": 44,
+   "t": "E no sábado seguinte ajuntou-se quase toda a cidade para ouvir a palavra de Deus."
+  },
+  {
+   "n": 45,
+   "t": "Mas os Judeus, ao verem as multidões, ficaram cheios de inveja, e falavam contrariamente ao que Paulo dizia, falando contrariamente e blasfemando."
+  },
+  {
+   "n": 46,
+   "t": "Mas Paulo e Barnabé, usando de ousadia, disseram: Era necessário que a palavra de Deus fosse primeiro falada a vós; mas já que a rejeitais, e não vos julgais dignos da vida eterna, eis que nós nos viramos em direção aos gentios."
+  },
+  {
+   "n": 47,
+   "t": "Porque assim o Senhor nos mandou, dizendo : Eu te pus como luz para os gentios, para que tu sejas como salvação até às extremidades da terra."
+  },
+  {
+   "n": 48,
+   "t": "E os gentios, tendo ouvido isto ,alegraram-se, e glorificavam ao Senhor; e creram todos quantos estavam determinados para a vida eterna."
+  },
+  {
+   "n": 49,
+   "t": "E a palavra do Senhor era divulgada por toda aquela região."
+  },
+  {
+   "n": 50,
+   "t": "Mas os judeus incitaram algumas mulheres devotas e honradas, e aos líderes da cidade, e levantaram perseguição contra Paulo e Barnabé, e os expulsaram de seus limites."
+  },
+  {
+   "n": 51,
+   "t": "Mas eles, sacudindo contra eles o pó dos seus pés, vieram a Icônio."
+  },
+  {
+   "n": 52,
+   "t": "E os discípulos se enchiam de alegria e do Espírito Santo."
+  }
+ ],
+ "titulo": "A luz que atravessa a rejeição",
+ "temas": [
+  "missão",
+  "graça",
+  "perseguição",
+  "alegria"
+ ],
+ "pergunta": "Como a oposição humana pode servir ao propósito de Deus sem ser o fim da história?",
+ "entender": "Em Antioquia da Pisídia, após a primeira pregação, muitos judeus e prosélitos seguiram Paulo e Barnabé. No sábado seguinte, quase toda a cidade se reuniu para ouvir a palavra. Porém, ao verem as multidões, os judeus ficaram cheios de inveja e passaram a blasfemar contra a mensagem. Diante disso, Paulo e Barnabé usaram de ousadia e declararam que, como a palavra foi rejeitada e eles não se julgavam dignos da vida eterna, virariam-se para os gentios.\n\nA resposta dos gentios foi de alegria e fé, enquanto os líderes judeus incitaram perseguição e expulsaram os apóstolos da cidade. Mesmo assim, a palavra do Senhor se divulgou por toda a região. O texto encerra mostrando que os discípulos se enchiam de alegria e do Espírito Santo, apesar da oposição. A cena ilustra que a recusa de alguns não detém o avanço do evangelho, mas pode direcioná-lo para novos espaços.",
+ "ligar": {
+  "texto": "Este trecho aponta para Jesus ao citar o mandato do Servo do Senhor: ser luz para os gentios. A vida eterna mencionada é o dom da salvação em Cristo, acessível a todos os que creem. A alegria dos discípulos, mesmo sendo perseguidos, reflete a certeza de que a missão de Jesus de salvar pessoas de toda tribo e língua está em andamento. A rejeição não invalida a obra de Deus, mas demonstra a soberania dEle em abrir caminhos onde a porta parece fechada.",
+  "selo": true
+ },
+ "viver": "Quando ouvimos não ou enfrentamos críticas ao compartilhar nossa fé, é natural sentir frustração. Contudo, este texto nos convida a confiar que Deus pode usar até a rejeição para direcionar Sua luz a lugares inesperados. Em vez de guardarmos rancor ou desanimarmos, podemos sacudir o pó dos pés e seguir em frente, como Paulo e Barnabé foram para Icônio. Nossa alegria deve nascer da certeza de que o Espírito Santo age independentemente da aceitação imediata, nos enchendo de paz mesmo em meio à oposição.",
+ "guarde": "A rejeição não é o fim, mas pode ser o redirecionamento que Deus usa para levar Sua luz mais longe.",
+ "ore": "Paulo e Barnabé, ao serem rejeitados, olharam para os gentios com ousadia. Ensina-me a não me apegar ao orgulho ferido quando minha mensagem é mal recebida. Quero ter a coragem de continuar compartilhando Tua luz, confiando que Tu abres caminhos novos. Que minha alegria venha de Teu Espírito, não da aprovação humana.",
+ "quiz": {
+  "pergunta": "O que Paulo e Barnabé declararam aos judeus que os rejeitaram?",
+  "opcoes": [
+   "Que Deus os castigaria pela inveja.",
+   "Que parariam de pregar a palavra.",
+   "Que se voltariam para os gentios."
+  ],
+  "certa": 2,
+  "explicacao": "O texto diz explicitamente que, como os judeus rejeitaram a palavra, eles se voltaram para os gentios, cumprindo a ordem do Senhor."
+ },
+ "refs": [
+  "Isaías 49:6",
+  "Atos 1:8",
+  "Romanos 11:11"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-30T10:05:45.488Z",
+  "rounds": 3
+ }
+}

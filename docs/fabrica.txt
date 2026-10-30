@@ -1,96 +1,67 @@
-Fábrica de ensinos — execução de 2026-10-30T07:15:55.528Z
-Fila: 3058 trechos; prontos: 396; limite desta execução: 150 ensinos / 170 min; 3 em paralelo.
+Fábrica de ensinos — execução de 2026-10-30T10:07:53.484Z
+Fila: 3058 trechos; prontos: 401; limite desta execução: 150 ensinos / 170 min; 3 em paralelo.
 > Atos 12:9-17 (44-12-9-17)
   [44-12-9-17] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
-> Atos 12:18-25 (44-12-18-25)
-  [44-12-18-25] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
-> Atos 13:1-10 (44-13-1-10)
-  [44-13-1-10] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
-  [44-12-9-17] rodada 1: verificação automática recusou: entender:menos_de_2_paragrafos, entender:citacao_fora_do_texto, ligar:citacao_fora_do_texto
-  [44-12-9-17] rodada 2: verificação automática recusou: entender:citacao_fora_do_texto, ligar:citacao_fora_do_texto
-  [44-12-18-25] rodada 1: gemini recusou: NARRATIVE_EVENT_CONSISTENCY: O ensino afirma incorretamente que Herodes aceitou um convite para ouvir um discurso e que morreu comendo vermes, contrariando o texto bíblico, que relata que ele mesmo proferiu o discurso e foi comido por vermes.
-  [44-13-1-10] rodada 1: verificação automática recusou: entender:citacao_longa, abertura_repetida:guarde:40-24-21-31
-  [44-12-9-17] rodada 3: verificação automática recusou: entender:menos_de_2_paragrafos, ligar:citacao_fora_do_texto
-  [44-12-18-25] rodada 2: gemini recusou: NARRATIVE_EVENT_CONSISTENCY: O ensino afirma erroneamente que Herodes buscava 'garantir alimento', quando o versículo 20 declara que era o povo de Tiro e Sidom que dependia dos alimentos providos pela terra de Herodes.
-  [44-13-1-10] rodada 2: verificação automática recusou: abertura_repetida:guarde:40-24-21-31
-  [44-12-9-17] rodada 4: verificação automática recusou: entender:citacao_longa, ligar:citacao_fora_do_texto
-  [44-12-9-17] não aprovado nesta execução (1/3); tenta de novo depois
-> Atos 13:11-21 (44-13-11-21)
-  [44-13-11-21] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
-  LIMITE DIÁRIO [44-12-18-25]: groq-gpt: limite diário atingido ({"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 197355, Requested 4025. Please try again in 9m56.16s. Need more tokens? Upgr — troca de modelo, se houver outro permitido.
-  [44-12-18-25] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
-  LIMITE DIÁRIO [44-13-1-10]: groq-gpt: limite diário atingido ({"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 197355, Requested 4025. Please try again in 9m56.16s. Need more tokens? Upgr — troca de modelo, se houver outro permitido.
-  [44-13-1-10] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
-  [44-12-18-25] rodada 1: gemini recusou: NARRATIVE_EVENT_CONSISTENCY: O texto afirma erroneamente que Barnabé e Saulo estavam voltando da primeira viagem missionária, serviço que sequer havia começado (inicia-se apenas em Atos 13). | TEMPORAL_SEQUENCE: Situa cronologicamente o retorno da primeira viagem missionária em Atos 12:25, antes mesmo do seu início no capítulo 13. | PRAYER_FIDELITY: A oração inicia dirigindo-se a Herodes ('Herodes
-  LIMITE DIÁRIO [44-13-11-21]: groq-gpt: limite diário atingido ({"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 197355, Requested 4025. Please try again in 9m56.16s. Need more tokens? Upgr — troca de modelo, se houver outro permitido.
-  [44-13-11-21] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
-  PRONTO [44-13-1-10]: "O Espírito Santo escolhe para a missão" (aprovado pelos dois auditores em 1 rodada(s))
-> Atos 13:22-31 (44-13-22-31)
-  [44-13-22-31] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
-  [44-13-22-31] rodada 1: gemini recusou: PRAYER_FIDELITY: A oração é incorretamente endereçada ao apóstolo Paulo pedindo instrução e ajuda, em vez de ser dirigida a Deus.
-  PRONTO [44-12-18-25]: "O rei que morreu comido por vermes" (aprovado pelos dois auditores em 2 rodada(s))
-> Atos 13:32-42 (44-13-32-42)
-  [44-13-32-42] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
-  [44-13-11-21] rodada 1: gemini recusou: PRAYER_FIDELITY: A oração foi dirigida ao apóstolo Paulo em vez de ser dirigida a Deus.
-  PRONTO [44-13-32-42]: "A promessa que venceu a morte" (aprovado pelos dois auditores em 1 rodada(s))
 > Atos 13:43-52 (44-13-43-52)
-  [44-13-43-52] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
-  PRONTO [44-13-22-31]: "Do trono de Davi ao madeiro" (aprovado pelos dois auditores em 2 rodada(s))
+  [44-13-43-52] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
 > Atos 14:1-10 (44-14-1-10)
+  [44-14-1-10] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
+  [44-12-9-17] rodada 1: verificação automática recusou: entender:menos_de_2_paragrafos, ore:citacao_longa
+  [44-13-43-52] rodada 1: verificação automática recusou: quiz.explicacao:citacao_longa
+  [44-14-1-10] rodada 1: gemini recusou: REFERENCE_BOUNDARY: O ensino descreve a reação da multidão considerando os apóstolos como deuses pagãos como parte do trecho, mas isso só ocorre nos versículos seguintes (11-13). | NARRATIVE_EVENT_CONSISTENCY: O ensino afirma erroneamente que Deus 'curou o paralítico na cruz' e inverte o relato ao falar em ver 'a fé de Paulo' em vez da fé do enfermo. | PRAYER_FIDELITY: A oração é bizarramente diri
+  [44-13-43-52] rodada 2: verificação automática recusou: quiz.explicacao:citacao_fora_do_texto
+  [44-13-43-52] rodada 3: verificação automática recusou: entender:menos_de_2_paragrafos
+  [44-12-9-17] rodada 2: gemini recusou: NARRATIVE_EVENT_CONSISTENCY: O texto bíblico afirma que os irmãos disseram a Rode que ela estava delirando, e não que Pedro estava delirando. | PRAYER_FIDELITY: A seção de oração não traz uma prece para o leitor e inventa que Pedro pediu a Deus coragem para contar o que viu.
+  LIMITE DIÁRIO [44-13-43-52]: groq-gpt: limite diário atingido ({"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198026, Requested 4068. Please try again in 15m4.608s. Need more tokens? Upg — troca de modelo, se houver outro permitido.
+  [44-13-43-52] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  [44-13-43-52] rodada 1: verificação automática recusou: abertura_repetida:entender:44-13-22-31, abertura_repetida:viver:44-9-12-22
+  [44-14-1-10] rodada 2: gemini recusou: PRAYER_FIDELITY: A oração foi formulada dirigindo-se à cidade de Listra em vez de ser dirigida a Deus.
+  LIMITE DIÁRIO [44-12-9-17]: groq-gpt: limite diário atingido ({"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198026, Requested 4068. Please try again in 15m4.608s. Need more tokens? Upg — troca de modelo, se houver outro permitido.
+  [44-12-9-17] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  LIMITE DIÁRIO [44-14-1-10]: groq-gpt: limite diário atingido ({"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 198026, Requested 4068. Please try again in 15m4.608s. Need more tokens? Upg — troca de modelo, se houver outro permitido.
   [44-14-1-10] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
-  LIMITE DIÁRIO [44-13-43-52]: groq-qwen: limite diário atingido ({"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199032, Requested 2404. Please try again in 10m20.352s. Need more tokens? Upgr — troca de modelo, se houver outro permitido.
-  [44-13-43-52] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
-  ERRO [44-13-43-52]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+  [44-14-1-10] rodada 1: gemini recusou: MIRACLE_SCOPE: A frase da seção 'Guarde' generaliza a cura como uma promessa garantida pela fé, em vez de tratar o milagre como ato soberano de Deus. | CROSS_SECTION_CONSISTENCY: O título menciona 'a fé de Paulo', contradizendo o texto e as demais seções do ensino, que destacam a fé do homem aleijado.
+  [44-12-9-17] rodada 1: gemini recusou: DOCTRINAL_OVERREACH: A oração é dirigida diretamente a um ser humano falecido (Pedro), contrariando a linha cristocêntrica da oração bíblica voltada a Deus. | PRAYER_FIDELITY: A oração foi direcionada ao apóstolo Pedro ('Pedro, obrigado... Ensina-me a orar') em vez de ser dirigida a Deus.
+  [44-13-43-52] rodada 2: verificação automática recusou: entender:citacao_fora_do_texto
+  [44-14-1-10] rodada 2: gemini recusou: TEMPORAL_SEQUENCE: O ensino inverte a ordem cronológica do texto ao colocar os sinais e milagres de versículo 3 em Listra após a fuga, quando na verdade eles ocorreram em Icônio antes de fugirem.
+  LIMITE DIÁRIO [44-12-9-17]: groq-qwen: limite diário atingido ({"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 197194, Requested 4367. Please try again in 11m14.352s. Need more tokens? Upgr — troca de modelo, se houver outro permitido.
+  [44-12-9-17] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
+  PRONTO [44-13-43-52]: "A luz que atravessa a rejeição" (aprovado pelos dois auditores em 3 rodada(s))
 > Atos 14:11-19 (44-14-11-19)
   [44-14-11-19] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
-  ERRO [44-14-11-19]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+  ERRO [44-12-9-17]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 > Atos 14:20-28 (44-14-20-28)
   [44-14-20-28] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
-  LIMITE DIÁRIO [44-14-1-10]: groq-qwen: limite diário atingido ({"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199032, Requested 2404. Please try again in 10m20.352s. Need more tokens? Upgr — troca de modelo, se houver outro permitido.
-  [44-14-1-10] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
-  ERRO [44-14-20-28]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+  ERRO [44-14-11-19]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 > Atos 15:1-10 (44-15-1-10)
   [44-15-1-10] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
-  ERRO [44-14-1-10]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+  ERRO [44-14-20-28]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 > Atos 15:11-21 (44-15-11-21)
   [44-15-11-21] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
   ERRO [44-15-1-10]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 > Atos 15:22-31 (44-15-22-31)
   [44-15-22-31] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
-  PRONTO [44-13-11-21]: "O Deus que guiou Israel no deserto" (aprovado pelos dois auditores em 2 rodada(s))
+  LIMITE DIÁRIO [44-14-1-10]: groq-qwen: limite diário atingido ({"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 197194, Requested 4367. Please try again in 11m14.352s. Need more tokens? Upgr — troca de modelo, se houver outro permitido.
+  [44-14-1-10] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
+  ERRO [44-15-11-21]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 > Atos 15:32-41 (44-15-32-41)
   [44-15-32-41] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
-  ERRO [44-15-11-21]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+  ERRO [44-15-22-31]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 > Atos 16:1-10 (44-16-1-10)
   [44-16-1-10] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
-  ERRO [44-15-22-31]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+  ERRO [44-14-1-10]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 > Atos 16:11-20 (44-16-11-20)
   [44-16-11-20] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
   ERRO [44-15-32-41]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-> Atos 16:21-30 (44-16-21-30)
-  [44-16-21-30] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
+Oito erros seguidos; parando para não gastar à toa.
   ERRO [44-16-1-10]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-> Atos 16:31-40 (44-16-31-40)
-  [44-16-31-40] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
+Oito erros seguidos; parando para não gastar à toa.
   ERRO [44-16-11-20]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-> Atos 17:1-11 (44-17-1-11)
-  [44-17-1-11] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
-  ERRO [44-16-21-30]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-> Atos 17:12-23 (44-17-12-23)
-  [44-17-12-23] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
-  ERRO [44-16-31-40]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-> Atos 17:24-34 (44-17-24-34)
-  [44-17-24-34] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
-  ERRO [44-17-1-11]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 Oito erros seguidos; parando para não gastar à toa.
-  ERRO [44-17-12-23]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-Oito erros seguidos; parando para não gastar à toa.
-  ERRO [44-17-24-34]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-Oito erros seguidos; parando para não gastar à toa.
-Resumo: 5 novos ensinos, 1 não aprovados, 2 travados ignorados. Total pronto: 401 de 3058 trechos.
+Resumo: 1 novos ensinos, 0 não aprovados, 2 travados ignorados. Total pronto: 402 de 3058 trechos.
 
-groq-gpt (openai/gpt-oss-120b): 8 chamadas, 23447 tokens entrada, 6862 saída [LIMITE DIÁRIO ATINGIDO]
-groq-qwen (qwen/qwen3.8-27b): 8 chamadas, 21922 tokens entrada, 6366 saída [LIMITE DIÁRIO ATINGIDO]
+groq-gpt (openai/gpt-oss-120b): 7 chamadas, 19974 tokens entrada, 5671 saída [LIMITE DIÁRIO ATINGIDO]
+groq-qwen (qwen/qwen3.8-27b): 6 chamadas, 17000 tokens entrada, 5239 saída [LIMITE DIÁRIO ATINGIDO]
 mistral (mistral-medium-latest): 0 chamadas, 0 tokens entrada, 0 saída
-gemini (gemini-3.7-flash): 10 chamadas, 32663 tokens entrada, 13843 saída
-cloudflare (@cf/meta/llama-3.3-70b-instruct-fp8-fast): 5 chamadas, 17430 tokens entrada, 1855 saída
+gemini (gemini-3.5-flash): 7 chamadas, 22733 tokens entrada, 12953 saída
+cloudflare (@cf/meta/llama-3.3-70b-instruct-fp8-fast): 1 chamadas, 3526 tokens entrada, 371 saída

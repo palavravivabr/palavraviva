@@ -2366,7 +2366,7 @@
   },
   "44-12-9-17": {
    "execucoes": 1,
-   "ultimo": "automático: entender:citacao_longa, ligar:citacao_fora_do_texto"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   },
   "44-12-18-25": {
    "execucoes": 0,
@@ -2400,7 +2400,9 @@
   },
   "44-13-43-52": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "A luz que atravessa a rejeição"
   },
   "44-14-1-10": {
    "execucoes": 0,
@@ -2461,24 +2463,24 @@
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 770,
-   "entrada": 1996858,
-   "saida": 680263
+   "chamadas": 777,
+   "entrada": 2016832,
+   "saida": 685934
   },
   "groq-qwen": {
-   "chamadas": 763,
-   "entrada": 1895487,
-   "saida": 619082
+   "chamadas": 769,
+   "entrada": 1912487,
+   "saida": 624321
   },
   "gemini": {
-   "chamadas": 657,
-   "entrada": 2132609,
-   "saida": 829700
+   "chamadas": 664,
+   "entrada": 2155342,
+   "saida": 842653
   },
   "cloudflare": {
-   "chamadas": 410,
-   "entrada": 1431041,
-   "saida": 152110
+   "chamadas": 411,
+   "entrada": 1434567,
+   "saida": 152481
   },
   "mistral": {
    "chamadas": 0,
