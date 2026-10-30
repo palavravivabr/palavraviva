@@ -117,12 +117,13 @@ self.addEventListener('fetch', function (event) {
   if (file === 'sw.js') return; // sempre da rede, nunca interceptado
   if (file === 'content-manifest.json') { event.respondWith(networkFirst(req, CONTENT, 'content-manifest.json')); return; }
   if (file === 'config.json') { event.respondWith(staleWhileRevalidate(event, req, SHELL, 'config.json')); return; }
+  if (/\/assets\/biblia-voz\/index\.json$/.test(url.pathname)) { event.respondWith(networkFirst(req, CONTENT, 'biblia-voz-index.json')); return; }
   event.respondWith((async function () {
     const hit = await caches.match(req, { ignoreSearch: true });
     if (hit) return hit;
     try {
       const r = await fetch(req);
-      if (r.ok && r.status === 200 && /\/assets\//.test(url.pathname) && !req.headers.has('range')) { const c = await caches.open(SHELL); await c.put(req, r.clone()); }
+      if (r.ok && r.status === 200 && /\/assets\//.test(url.pathname) && !/\/assets\/biblia-voz\//.test(url.pathname) && !req.headers.has('range')) { const c = await caches.open(SHELL); await c.put(req, r.clone()); }
       return r;
     } catch (e) {
       if (req.mode === 'navigate') { const shell = await caches.open(SHELL); const idx = await shell.match('index.html'); if (idx) return idx; }
