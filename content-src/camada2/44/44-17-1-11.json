@@ -1,0 +1,142 @@
+{
+ "id": "44-17-1-11",
+ "ref": "Atos 17:1-11",
+ "book": "44",
+ "chapter": 17,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E viajando por Anfípolis e Apolônia, vieram a Tessalônica, onde havia uma sinagoga de judeus."
+  },
+  {
+   "n": 2,
+   "t": "E Paulo, como era de seu costume, entrou a eles, e por três sábados argumentava com eles pelas Escrituras."
+  },
+  {
+   "n": 3,
+   "t": "Declarando -as ,e propondo -lhes ,que era necessário que o Cristo morresse, e ressuscitasse dos mortos; e que ( dizia ele ) este Jesus é o Cristo, a quem eu vos anuncio."
+  },
+  {
+   "n": 4,
+   "t": "E alguns deles creram, e se ajuntaram a Paulo e Silas; e dos gregos devotos grande multidão; e não poucas das mulheres principais."
+  },
+  {
+   "n": 5,
+   "t": "Mas os judeus incrédulos, movidos de inveja, tomaram consigo alguns homens malignos dos mercados, e juntando uma multidão, tumultuaram a cidade; e atacando a casa de Jasão, procuravam trazê-los ao povo."
+  },
+  {
+   "n": 6,
+   "t": "E não os achando, puxaram a Jasão, e a alguns irmãos às maiores autoridades da cidade, clamando: Estes que tem perturbado ao mundo também vieram até aqui."
+  },
+  {
+   "n": 7,
+   "t": "Aos quais Jasão tem recolhido, e todos estes fazem contra as ordens de César, dizendo que há outro rei, chamado Jesus."
+  },
+  {
+   "n": 8,
+   "t": "E eles tumultuaram a multidão, e às autoridades da cidade, que ouviam estas coisas."
+  },
+  {
+   "n": 9,
+   "t": "Mas tendo recebido fiança de Jasão e dos demais, eles os soltaram."
+  },
+  {
+   "n": 10,
+   "t": "E logo os irmãos enviaram de noite a Paulo e a Silas até Bereia; os quais, ao chegarem lá, foram à sinagoga dos judeus."
+  },
+  {
+   "n": 11,
+   "t": "E estes foram mais nobres do que os que estavam em Tessalônica, porque os quais receberam a palavra com toda boa vontade, examinando a cada dia as escrituras, para ver se estas coisas eram assim."
+  }
+ ],
+ "titulo": "Testando a Palavra em vez de confiar cegamente",
+ "temas": [
+  "verificação",
+  "fé",
+  "perseguição",
+  "estudo",
+  "coragem"
+ ],
+ "pergunta": "O que você faria se alguém dissesse que o que você crê precisa ser provado pela Bíblia?",
+ "entender": "Paulo e Silas chegaram em Tessalônica e, como era costume, Paulo entrou na sinagoga por três sábados. Ele argumentou pelas Escrituras, mostrando que era necessário que o Cristo morresse e ressuscitasse, e que Jesus era essa pessoa. Alguns creram, mas outros, movidos de inveja, causaram tumulto e acusaram os apóstolos de perturbar o mundo e proclamar outro rei.\n\nDiante da pressão, os irmãos enviaram Paulo e Silas para Bereia à noite. Lá, a recepção foi diferente. O texto diz que os bereanos foram mais nobres, porque receberam a palavra com toda boa vontade e examinavam as Escrituras cada dia para ver se as coisas eram assim. Essa atitude de buscar a verdade na Palavra, mesmo sob pressão, é o coração do texto.",
+ "ligar": {
+  "texto": "Paulo não apenas pregou histórias; ele apontou para o cumprimento das profecias em Jesus. O evangelho não é uma opinião, mas a resposta de Deus à história. A atitude dos bereanos nos lembra que a fé bíblica não é passiva: ela examina a Palavra para encontrar em Cristo a verdade que liberta. Jesus é o centro das Escrituras, e nossa fé deve descansar nEle, não em tradições vazias.",
+  "selo": true
+ },
+ "viver": "Muitas vezes aceitamos verdades religiosas por hábito ou tradição, sem checar se realmente estão na Bíblia. Assim como os bereanos, podemos cultivar o hábito de examinar as Escrituras diariamente. Não para duvidar de Deus, mas para amá-Lo com entendimento. Quando enfrentamos dúvidas ou pressões, voltar ao texto bíblico e à pessoa de Jesus nos dá firmeza. A fé viva é aquela que se alimenta da verdade revelada.",
+ "guarde": "A fé verdadeira examina a Palavra para encontrar em Cristo a certeza que liberta.",
+ "ore": "Bereia, ensina-me a buscar a verdade em Ti, Senhor. Que eu não aceite cegamente, mas examine as Escrituras com amor e desejo de conhecer Jesus. Dá-me coragem de viver o que aprendo, mesmo quando for difícil.",
+ "quiz": {
+  "pergunta": "Qual era a atitude dos judeus em Bereia ao ouvirem Paulo?",
+  "opcoes": [
+   "Examinavam as Escrituras para ver se as coisas eram assim.",
+   "Acusaram Paulo de perturbar o mundo imediatamente.",
+   "Rejeitaram a mensagem por causa da inveja dos mercados."
+  ],
+  "certa": 0,
+  "explicacao": "O texto em Atos 17:11 destaca que os bereanos receberam a palavra com boa vontade e examinavam as Escrituras diariamente para verificar os ensinamentos de Paulo, diferentemente do que aconteceu em Tessalônica."
+ },
+ "refs": [
+  "Atos 8:30-35",
+  "2 Timóteo 3:16-17",
+  "Salmos 119:105"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-30T21:48:05.817Z",
+  "rounds": 1
+ }
+}

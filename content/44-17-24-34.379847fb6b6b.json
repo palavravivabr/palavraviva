@@ -1,0 +1,141 @@
+{
+ "id": "44-17-24-34",
+ "ref": "Atos 17:24-34",
+ "book": "44",
+ "chapter": 17,
+ "verses": [
+  {
+   "n": 24,
+   "t": "O Deus que fez o mundo, e todas as coisas que nele há ; este, sendo Senhor do céu e da terra, não habita em tempos feitos por mãos."
+  },
+  {
+   "n": 25,
+   "t": "E nem também é servido por mãos humanas; como que necessitasse de alguma coisa; porque ele é que dá a todos vida, respiração, e todas as coisas;"
+  },
+  {
+   "n": 26,
+   "t": "E de um sangue ele fez toda nação humana, para habitarem sobre a face da terra, determinando os tempos desde antes ordenados, e o limites da morada deles ;"
+  },
+  {
+   "n": 27,
+   "t": "Para que buscassem ao Senhor, se talvez pudessem apalpá-lo e encontrá-lo,apesar dele não estar longe de cada um de nós."
+  },
+  {
+   "n": 28,
+   "t": "Porque nele vivemos, e nos movemos, e somos; assim como também alguns de vossos poetas disseram; porque também nós somos descendência dele."
+  },
+  {
+   "n": 29,
+   "t": "Sendo então descendência de Deus, nós não devemos pensar que a divindade seja semelhante a ouro, ou a prata, ou a pedra esculpida por artifício e imaginação humana."
+  },
+  {
+   "n": 30,
+   "t": "Portanto Deus, tendo desconsiderado os tempos da vossa ignorância, agora anuncia a todos as pessoas, em todo lugar, para que se arrependam."
+  },
+  {
+   "n": 31,
+   "t": "Porque ele tem estabelecido um dia em que ele julgará ao mundo em justiça por meio do homem a quem determinou; dando certeza a todos, tendo o ressuscitado dos mortos."
+  },
+  {
+   "n": 32,
+   "t": "E ao ouvirem da ressurreição dos mortos, alguns zombavam; e outros diziam: Nós ouviremos sobre isto de ti na próxima vez."
+  },
+  {
+   "n": 33,
+   "t": "E assim Paulo saiu do meio deles."
+  },
+  {
+   "n": 34,
+   "t": "Porém, tendo chegado alguns homens até ele, creram; entre os quais estava também Dionísio o areopagita, e uma mulher de nome Dâmaris, e outros com eles."
+  }
+ ],
+ "titulo": "Deus não mora em templos de pedra",
+ "temas": [
+  "criação",
+  "proximidade",
+  "ressurreição",
+  "arrependimento"
+ ],
+ "pergunta": "O que você acredita que Deus precisa de nós para ser satisfeito?",
+ "entender": "Paulo estava no Areópago, em Atenas, diante de uma plateia curiosa e cética. Ele viu que eles eram religiosos, mas não conheciam o verdadeiro Deus. Então, ele apresentou o Criador, dizendo que Ele não habita em templos feitos por mãos humanas. Ele explicou que Deus não depende de nós, mas nós dependemos dele, pois é Ele quem dá vida e respiração a todos.\n\nPaulo também corrigiu a ideia de que Deus é uma estátua de ouro ou pedra. Ele disse que somos descendência de Deus e que Ele está perto de cada um de nós. O objetivo é que busquemos a Ele. Como Deus desconsiderou nossa ignorância passada, agora Ele pede arrependimento de todos os lugares, anunciando que haverá um julgamento justo através de um homem específico que foi ressuscitado dos mortos.",
+ "ligar": {
+  "texto": "O texto aponta diretamente para Jesus ao mencionar o dia do julgamento e \"o homem a quem determinou\", dando certeza a todos \"tendo o ressuscitado dos mortos\". Essa ressurreição é a prova central do evangelho. Jesus é o único que venceu a morte, validando sua autoridade como juiz e salvador. O arrependimento que Paulo prega é a resposta necessária a essa realidade: reconhecer que Jesus é o caminho para a reconciliação com Deus.",
+  "selo": true
+ },
+ "viver": "Muitas vezes buscamos a Deus em fórmulas religiosas, rituais ou lugares específicos, achando que nossa espiritualidade depende de onde estamos ou do que fazemos. Mas Paulo nos lembra que Deus dá vida a cada um de nós, independentemente de nossa situação. Isso significa que podemos encontrá-lo no dia a dia, não apenas na igreja. A aplicação prática é parar de tentar \"servir\" a Deus como se Ele precisasse de nós, e começar a viver em gratidão e obediência, reconhecendo que Ele está sempre presente e acessível, mesmo nos momentos mais simples da rotina.",
+ "guarde": "Deus não precisa dos seus templos, mas Ele está presente na sua vida, dando vida e respiração a cada instante.",
+ "ore": "Paulo, em Atenas, ensina que Deus está perto. Pai, ajuda-me a parar de buscar você em rituais vazios e a te encontrar na simplicidade da minha vida diária. Que eu reconheça tua presença constante e viva em arrependimento e gratidão.",
+ "quiz": {
+  "pergunta": "O que Paulo disse ser a prova de que Deus estabeleceu um dia de julgamento?",
+  "opcoes": [
+   "A ressurreição do homem que Ele determinou",
+   "A construção de novos templos",
+   "O silêncio dos poetas gregos"
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma que Deus deu certeza a todos \"tendo o ressuscitado dos mortos\", referindo-se a Jesus, o homem designado para julgar o mundo."
+ },
+ "refs": [
+  "Atos 2:22-24",
+  "Romanos 2:16",
+  "João 14:6"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-30T21:53:30.517Z",
+  "rounds": 3
+ }
+}

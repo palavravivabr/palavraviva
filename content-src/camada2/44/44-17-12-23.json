@@ -1,0 +1,145 @@
+{
+ "id": "44-17-12-23",
+ "ref": "Atos 17:12-23",
+ "book": "44",
+ "chapter": 17,
+ "verses": [
+  {
+   "n": 12,
+   "t": "Portanto muitos deles realmente creram, e das mulheres gregas honradas; e dos homens, não poucos."
+  },
+  {
+   "n": 13,
+   "t": "Mas quando os judeus de Tessalônica souberam que também em Bereia a palavra de Deus era anunciada por Paulo, vieram também para lá, e incitaram as multidões."
+  },
+  {
+   "n": 14,
+   "t": "Mas então no mesmo instante os irmãos despediram a Paulo, para que fosse ao mar; mas Silas e Timóteo continuaram ali."
+  },
+  {
+   "n": 15,
+   "t": "E os que conduziram a Paulo, levaram-no até Atenas; e tendo recebido ordem para Silas e Timóteo, para que viessem a ele o mais rápido que pudessem ,eles foram embora."
+  },
+  {
+   "n": 16,
+   "t": "E enquanto Paulo os esperava em Atenas, seu espírito se incomodava dentro dele, ao ver a cidade tão dedicada à idolatria."
+  },
+  {
+   "n": 17,
+   "t": "Então ele disputava muito na sinagoga, com os judeus, e com os religiosos; e no mercado a cada dia, com os que vinham até ele ."
+  },
+  {
+   "n": 18,
+   "t": "E alguns dos filósofos epicureus e estoicos discutiam com ele; e uns diziam: O que quer dizer este tagarela?E outros: Parece que ele é pregador de deuses estranhos.Porque ele lhes anunciava o Evangelho de Jesus e a ressurreição."
+  },
+  {
+   "n": 19,
+   "t": "E tomando-o, trouxeram -no ao areópago, dizendo: Podemos nós saber que doutrina nova é esta que tu falas?"
+  },
+  {
+   "n": 20,
+   "t": "Porque tu trazes coisas estranhas aos nossos ouvidos; então queremos saber o que isto quer dizer."
+  },
+  {
+   "n": 21,
+   "t": "(E todos os atenienses e visitantes estrangeiros não se ocupavam de nenhuma outra coisa, a não ser em dizer e ouvir alguma novidade)."
+  },
+  {
+   "n": 22,
+   "t": "E Paulo, estando no meio do areópago, disse: Homens atenienses, eu vejo em tudo como vós sois muito religiosos;"
+  },
+  {
+   "n": 23,
+   "t": "Porque enquanto eu passava pela cidade e via vossos santuários, achei também um altar, em que estava escrito: AO DEUS DESCONHECIDO. Este a quem vós prestais devoção sem conhecer, este é o que eu vos anuncio;"
+  }
+ ],
+ "titulo": "O altar para o Deus que ninguém conhecia",
+ "temas": [
+  "idolatria",
+  "curiosidade",
+  "evangelho",
+  "contexto"
+ ],
+ "pergunta": "Por que Paulo usou a curiosidade dos atenienses como ponto de partida para falar de Jesus?",
+ "entender": "Paulo chegou a Atenas e viu uma cidade cheia de templos e estátuas. O texto diz que seu \"espírito se incomodava\" ao ver tanta idolatria. Os filósofos locais o chamaram de \"tagarela\" e disseram que ele pregava \"deuses estranhos\", pois anunciava a ressurreição de Jesus.\n\nPara dialogar, Paulo foi ao Areópago e notou um altar com a inscrição \"AO DEUS DESCONHECIDO\". Ele usou essa descoberta para mostrar que as pessoas já tentavam adorar a Deus sem conhecê-lo. A estratégia foi começar pelo que eles já tinham (a busca por Deus) para levá-los ao Deus verdadeiro, que se revelou em Cristo, e não em estátuas feitas por mãos humanas.",
+ "ligar": {
+  "texto": "O altar ao Deus Desconhecido mostra que a humanidade tem uma sede espiritual que ídolos não saciam. Paulo aponta que esse Deus, que os atenienses adoravam sem conhecer, é o mesmo que criou o mundo e se deu a conhecer plenamente através da morte e ressurreição de Jesus. O evangelho não é mais um \"deus estranho\", mas o cumprimento da busca humana por sentido e comunhão com o Criador.",
+  "selo": true
+ },
+ "viver": "Às vezes, tentamos preencher nosso vazio interior com coisas visíveis: sucesso, entretenimento ou status. O exemplo de Paulo nos lembra que a verdadeira satisfação vem de conhecer a Deus pessoalmente, não apenas de adorar símbolos. Se você sente uma inquietação que nada parece resolver, considere que pode ser o Espírito Santo chamando você a conhecer Jesus, o Deus que se revelou no amor.",
+ "guarde": "A busca por Deus é real, mas Ele não é um desconhecido; Ele se revelou em Jesus.",
+ "ore": "Senhor, assim como Paulo viu o altar em Atenas, mostra-me os lugares onde eu tenho colocado minha adoração. Ajuda-me a trocar a busca vazia pelo conhecimento real de Ti, revelado em Cristo.",
+ "quiz": {
+  "pergunta": "O que Paulo encontrou em Atenas que usou para iniciar sua pregação?",
+  "opcoes": [
+   "Um altar dedicado ao Deus Desconhecido",
+   "Um templo dedicado a Zeus",
+   "Uma estátua de Apolo"
+  ],
+  "certa": 0,
+  "explicacao": "O texto de Atos 17:23 menciona explicitamente um altar com a inscrição 'AO DEUS DESCONHECIDO', que Paulo usou como pontapé para sua argumentação."
+ },
+ "refs": [
+  "Romanos 1:19-23",
+  "João 1:9",
+  "1 Coríntios 1:21-24"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-30T21:48:28.529Z",
+  "rounds": 1
+ }
+}

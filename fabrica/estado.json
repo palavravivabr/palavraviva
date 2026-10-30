@@ -2366,7 +2366,9 @@
   },
   "44-12-9-17": {
    "execucoes": 1,
-   "ultimo": "gemini: PRAYER_FIDELITY: A oração está dirigida diretamente a Pedro ('Pedro, [...] ajuda-me') em vez de ser dirigida a Deus."
+   "ultimo": "gemini: OVERINTERPRETATION: Cria uma alegoria inventada ao afirmar que o anjo simboliza Cristo abrindo a porta da salvação com base em Apocalipse 3:20. | PRAYER_FIDELITY: A oração é formulada de modo a se dirigir a Pedro em vez de a Deus, agradecendo a ele pelo livramento.",
+   "estado": "pronto",
+   "titulo": "A porta que se abriu sem esforço"
   },
   "44-12-18-25": {
    "execucoes": 0,
@@ -2470,19 +2472,27 @@
   },
   "44-17-1-11": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:citacao_fora_do_texto, viver:citacao_fora_do_texto, abertura_repetida:entender:44-16-11-20",
+   "estado": "pronto",
+   "titulo": "Testando a Palavra em vez de confiar cegamente"
   },
   "44-17-12-23": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "O altar para o Deus que ninguém conhecia"
   },
   "44-17-24-34": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "Deus não mora em templos de pedra"
   },
   "44-18-1-9": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "Paulo, o artesão que plantou uma igreja"
   },
   "44-18-10-19": {
    "execucoes": 0,
@@ -2499,28 +2509,48 @@
   "44-19-11-21": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "44-19-22-31": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "44-19-32-41": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "44-20-1-10": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "44-20-11-19": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "44-20-20-29": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 797,
-   "entrada": 2073867,
-   "saida": 702817
+   "chamadas": 804,
+   "entrada": 2094106,
+   "saida": 708697
   },
   "groq-qwen": {
-   "chamadas": 791,
-   "entrada": 1970236,
-   "saida": 642822
+   "chamadas": 798,
+   "entrada": 1988650,
+   "saida": 648173
   },
   "gemini": {
-   "chamadas": 683,
-   "entrada": 2216690,
-   "saida": 868071
+   "chamadas": 690,
+   "entrada": 2239732,
+   "saida": 874130
   },
   "cloudflare": {
-   "chamadas": 421,
-   "entrada": 1469804,
-   "saida": 156191
+   "chamadas": 426,
+   "entrada": 1487553,
+   "saida": 158046
   },
   "mistral": {
    "chamadas": 0,

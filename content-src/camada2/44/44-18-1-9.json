@@ -1,0 +1,133 @@
+{
+ "id": "44-18-1-9",
+ "ref": "Atos 18:1-9",
+ "book": "44",
+ "chapter": 18,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E depois disto ele partiu de Atenas, e veio a Corinto."
+  },
+  {
+   "n": 2,
+   "t": "E achando a um certo judeu, de nome Áquila, natural de Ponto, que recentemente tinha vindo da Itália, e Priscila, sua mulher (porque Cláudio tinha mandado que todos os judeus saíssem de Roma), veio até eles."
+  },
+  {
+   "n": 3,
+   "t": "E porque era do mesmo ofício, ficou com eles, e trabalhava; porque tinham o ofício de fazerem tendas."
+  },
+  {
+   "n": 4,
+   "t": "E ele disputava na sinagoga a cada sábado; e persuadia a judeus e a gregos."
+  },
+  {
+   "n": 5,
+   "t": "E quando Silas e Timóteo desceram da Macedônia, Paulo foi pressionado pelo Espírito, dando testemunho aos judeus de que o Cristo era Jesus."
+  },
+  {
+   "n": 6,
+   "t": "Mas tendo eles resistido e blasfemado, ele sacudiu as roupas, e lhes disse: Vosso sangue seja sobre vossa cabeça; eu estou limpo; e a partir de agora irei aos gentios."
+  },
+  {
+   "n": 7,
+   "t": "E tendo saído dali, entrou na cada de um, de nome Justo, que servia a Deus, cuja casa era vizinha à sinagoga."
+  },
+  {
+   "n": 8,
+   "t": "E Crispo, o chefe da sinagoga, creu no Senhor com toda a sua casa; e muitos dos coríntios, tendo ouvido, creram e foram batizados."
+  },
+  {
+   "n": 9,
+   "t": "E o Senhor disse em visão de noite a Paulo: Não temas, mas fala, e não te cales."
+  }
+ ],
+ "titulo": "Paulo, o artesão que plantou uma igreja",
+ "temas": [
+  "trabalho",
+  "predicação",
+  "ressurreição",
+  "coragem"
+ ],
+ "pergunta": "O que podemos aprender sobre a pregação do evangelho observando a rotina diária de Paulo em Corinto?",
+ "entender": "Paulo chega a Corinto e encontra Áquila e Priscila, judeus expulsos de Roma por um decreto de Cláudio. Como todos tinham o ofício de fazer tendas, Paulo morou com eles e trabalhou. Essa convivência mostra que o apóstolo sustentava seu ministério com o próprio labor, integrando-se à comunidade local antes de pregar.\n\nSábados, ele debatia na sinagoga, convencendo judeus e gregos. Quando Silas e Timóteo chegaram, Paulo foi pressionado pelo Espírito a testemunhar que Jesus é o Cristo. Diante da resistência e blasfêmia, ele sacudiu as roupas, declarando-se limpo, e voltou-se para os gentios. Crispo, chefe da sinagoga, creu com sua casa, e muitos coríntios foram batizados. Noite adentro, o Senhor lhe disse: \"Não temas, mas fala, e não te cales\".",
+ "ligar": {
+  "texto": "O centro desta narrativa é a confissão de que \"o Cristo era Jesus\" (Atos 18:5). A pregação de Paulo não era apenas filosofia, mas um testemunho específico sobre a pessoa de Cristo. A reação dos ouvintes (crer ou blasfemar) revela que o evangelho divide, pois exige uma resposta pessoal a Jesus. A promessa de Deus a Paulo, dizendo que Ele está com ele, garante a segurança do missionário não pela ausência de oposição, mas pela presença do Senhor que sustenta a obra.",
+  "selo": true
+ },
+ "viver": "Paulo não esperou por um palácio para pregar; ele pregou enquanto fazia tendas. Isso nos lembra que o evangelho não depende de status ou lugar de destaque, mas de fidelidade no dia a dia. Talvez você sinta que sua vida é comum demais para impactar alguém. Mas, como Paulo, você pode ser testemunha de Cristo no ambiente de trabalho, na escola ou em casa, unindo o trabalho honesto com a mensagem da cruz. A coragem de pregar não vem da ausência de medo, mas da confiança na promessa divina.",
+ "guarde": "A coragem de pregar vem da certeza de que Deus está com você, mesmo quando a oposição é forte.",
+ "ore": "Paulo em Corinto, obrigado por mostrar que o trabalho honesto sustenta a missão. Ensina-me a proclamar que Jesus é o Cristo em meu ambiente diário, sem medo da rejeição, confiando na Tua presença e na Tua palavra que diz: não temas, mas fala.",
+ "quiz": {
+  "pergunta": "Por que Paulo foi para a casa de Justo após o debate na sinagoga?",
+  "opcoes": [
+   "Porque Justo era seu primo",
+   "Porque a sinagoga estava lotada",
+   "Porque os judeus resistiram e blasfemaram"
+  ],
+  "certa": 2,
+  "explicacao": "O texto afirma que, após a resistência e blasfêmia dos judeus, Paulo sacudiu as roupas e foi aos gentios, entrando na casa de Justo, vizinha à sinagoga."
+ },
+ "refs": [
+  "1 Coríntios 4:10-12",
+  "Atos 13:46-48",
+  "1 Tessalonicenses 2:9"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-30T21:52:15.364Z",
+  "rounds": 1
+ }
+}
