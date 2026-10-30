@@ -1,0 +1,209 @@
+// Palavra Viva - ui-extra.js - VERSÃO DISCRETA
+// Corrige: botoes verdes berrantes + erro doragn1.mp3 + alerta travando tela
+// Mantem seu audio antigo funcionando, so deixa a barra discreta igual ao app
+
+(function(){
+  // Esconde barra colorida antiga se existir
+  var antiga = document.getElementById('pv-barra-audio');
+  if(antiga) antiga.remove();
+  var styleOld = document.getElementById('pv-style-colorida');
+  if(styleOld) styleOld.remove();
+
+  const VOZES = {
+    dora: { id: 'dora', nome: 'Dora', tipo: 'gravada', pasta: 'assets/biblia-voz/dora' },
+    alex: { id: 'alex', nome: 'Alex', tipo: 'gravada', pasta: 'assets/biblia-voz/alex' },
+    celular: { id: 'celular', nome: 'Voz do celular', tipo: 'tts' }
+  };
+  const CLIMAS = {
+    padrao: { id: 'padrao', nome: 'Padrao', arquivo: 'assets/audio/padrao.mp3' },
+    alvorada: { id: 'alvorada', nome: 'Alvorada', arquivo: 'assets/audio/alvorada.mp3' },
+    quietude: { id: 'quietude', nome: 'Quietude', arquivo: 'assets/audio/quietude.mp3' }
+  };
+
+  let estado = {
+    voz: localStorage.getItem('pv_voz') || 'dora',
+    vel: parseFloat(localStorage.getItem('pv_vel') || '1'),
+    climaOn: (localStorage.getItem('pv_clima_ligado') !== 'false'),
+    climaVol: parseFloat(localStorage.getItem('pv_clima_vol') || '0.2'),
+    climaTrilha: localStorage.getItem('pv_clima_trilha') || 'padrao',
+    tocando: false
+  };
+
+  let audioClima = null;
+  let audioGravado = null;
+
+  function init(){
+    criarBarraDiscreta();
+    criarClima();
+  }
+
+  function criarClima(){
+    if(!audioClima){
+      audioClima = new Audio();
+      audioClima.loop = true;
+    }
+    audioClima.volume = estado.climaVol;
+    var climaCfg = CLIMAS[estado.climaTrilha] || CLIMAS.padrao;
+    if(audioClima.src.indexOf(climaCfg.arquivo) === -1){
+      audioClima.src = climaCfg.arquivo;
+    }
+    if(estado.climaOn){
+      audioClima.play().catch(function(){});
+    }
+  }
+
+  function criarBarraDiscreta(){
+    if(document.getElementById('pv-barra-discreta')) return;
+    var css = document.createElement('style');
+    css.id = 'pv-style-discreta';
+    css.textContent = `
+      #pv-barra-discreta{
+        position:fixed; left:0; right:0; bottom:0;
+        background:#fdf6e3; 
+        border-top:1px solid #e8debe;
+        padding:6px 10px;
+        display:flex; gap:8px; justify-content:space-between; align-items:center;
+        z-index:9999; font-family: -apple-system, system-ui, serif;
+        box-shadow: 0 -1px 4px rgba(90,74,47,0.08);
+      }
+      #pv-barra-discreta button{
+        border:1px solid #d8ccb0; 
+        background:#efe8d0; 
+        color:#5a4a2f;
+        border-radius:6px; 
+        padding:6px 10px; 
+        font-size:13px; 
+        font-weight:500;
+      }
+      #pv-barra-discreta button:active{ background:#e8debe; }
+      #pv-sheet-discreta{
+        position:fixed; left:0; right:0; bottom:38px;
+        background:#fdf6e3; color:#5a4a2f;
+        padding:14px; border-radius:12px 12px 0 0;
+        border:1px solid #e8debe; border-bottom:0;
+        display:none; max-height:68vh; overflow:auto; z-index:9998;
+        font-family: -apple-system, system-ui, serif;
+        box-shadow: 0 -2px 12px rgba(90,74,47,0.12);
+      }
+      #pv-sheet-discreta h3{ margin:10px 0 6px; font-size:13px; color:#5a4a2f; font-weight:700 }
+      #pv-sheet-discreta p{ font-size:12px; opacity:0.8; margin:4px 0 8px }
+      .pv-opt{ display:inline-block; margin:4px; padding:6px 10px; border-radius:16px; background:#efe8d0; border:1px solid #d8ccb0; font-size:12px; color:#5a4a2f }
+      .pv-opt.ativo{ background:#5a4a2f; color:#fdf6e3; border-color:#5a4a2f }
+    `;
+    document.head.appendChild(css);
+
+    var barra = document.createElement('div');
+    barra.id = 'pv-barra-discreta';
+    barra.innerHTML = '<button id="pvBtnOuvir">Ouvir capitulo</button><button id="pvBtnClima">Clima: '+(estado.climaOn?'Ligado':'Desligado')+'</button><div id="pv-sheet-discreta"></div>';
+    document.body.appendChild(barra);
+    document.getElementById('pvBtnOuvir').onclick = abrirNarracao;
+    document.getElementById('pvBtnClima').onclick = abrirClima;
+  }
+
+  function abrirNarracao(){
+    var sheet = document.getElementById('pv-sheet-discreta');
+    sheet.style.display = 'block';
+    var html = '<h3>Narracao</h3><div>';
+    Object.values(VOZES).forEach(function(v){
+      html += '<span class="pv-opt '+(estado.voz===v.id?'ativo':'')+'" data-voz="'+v.id+'">'+v.nome+'</span>';
+    });
+    html += '</div><h3>Velocidade</h3><div>';
+    [0.75,1,1.25,1.5].forEach(function(vel){
+      var label = vel===1?'1x Normal':vel+'x';
+      html += '<span class="pv-opt '+(estado.vel===vel?'ativo':'')+'" data-vel="'+vel+'">'+label+'</span>';
+    });
+    html += '</div><br><button id="pvOuvirAgora" style="width:100%;padding:10px;border-radius:8px;border:1px solid #d8ccb0;background:#efe8d0;color:#5a4a2f;font-weight:600">'+(estado.tocando?'Parar':'Ouvir agora')+'</button><br><br><button id="pvFechar" style="width:100%;padding:8px;border-radius:8px;border:1px solid #e8debe;background:transparent;color:#5a4a2f">Fechar</button>';
+    sheet.innerHTML = html;
+    sheet.querySelectorAll('[data-voz]').forEach(function(el){
+      el.onclick = function(){ estado.voz = el.dataset.voz; localStorage.setItem('pv_voz', estado.voz); abrirNarracao(); };
+    });
+    sheet.querySelectorAll('[data-vel]').forEach(function(el){
+      el.onclick = function(){ estado.vel = parseFloat(el.dataset.vel); localStorage.setItem('pv_vel', estado.vel); abrirNarracao(); };
+    });
+    sheet.querySelector('#pvOuvirAgora').onclick = toggleNarracao;
+    sheet.querySelector('#pvFechar').onclick = function(){ sheet.style.display='none'; };
+  }
+
+  function abrirClima(){
+    var sheet = document.getElementById('pv-sheet-discreta');
+    sheet.style.display = 'block';
+    var html = '<h3>Clima de Leitura</h3><p>Musica baixinho pra refletir, como voce criou. Fica em 20%.</p><div><span class="pv-opt '+(estado.climaOn?'ativo':'')+'" id="cOn">Ligado</span><span class="pv-opt '+(!estado.climaOn?'ativo':'')+'" id="cOff">Desligado</span></div><h3>Volume</h3><input type="range" id="cVol" min="0" max="1" step="0.05" value="'+estado.climaVol+'" style="width:100%"><h3>Trilha</h3><div>';
+    Object.values(CLIMAS).forEach(function(c){
+      html += '<span class="pv-opt '+(estado.climaTrilha===c.id?'ativo':'')+'" data-clima="'+c.id+'">'+c.nome+'</span>';
+    });
+    html += '</div><br><button id="pvFechar" style="width:100%;padding:8px;border-radius:8px;border:1px solid #e8debe;background:transparent;color:#5a4a2f">Fechar</button>';
+    sheet.innerHTML = html;
+    sheet.querySelector('#cOn').onclick = function(){ estado.climaOn=true; localStorage.setItem('pv_clima_ligado','true'); criarClima(); atualizarBotaoClima(); abrirClima(); };
+    sheet.querySelector('#cOff').onclick = function(){ estado.climaOn=false; localStorage.setItem('pv_clima_ligado','false'); if(audioClima) audioClima.pause(); atualizarBotaoClima(); abrirClima(); };
+    sheet.querySelector('#cVol').oninput = function(e){ estado.climaVol=parseFloat(e.target.value); localStorage.setItem('pv_clima_vol', estado.climaVol); if(audioClima) audioClima.volume=estado.climaVol; };
+    sheet.querySelectorAll('[data-clima]').forEach(function(el){
+      el.onclick = function(){ estado.climaTrilha=el.dataset.clima; localStorage.setItem('pv_clima_trilha', estado.climaTrilha); criarClima(); abrirClima(); };
+    });
+    sheet.querySelector('#pvFechar').onclick = function(){ sheet.style.display='none'; };
+  }
+
+  function atualizarBotaoClima(){
+    var btn = document.getElementById('pvBtnClima');
+    if(btn) btn.textContent = 'Clima: '+(estado.climaOn?'Ligado':'Desligado');
+  }
+
+  function toggleNarracao(){
+    if(estado.tocando){ pararNarracao(); } else { iniciarNarracao(); }
+  }
+
+  function iniciarNarracao(){
+    // ducking: baixa clima pra 15%
+    if(audioClima && estado.climaOn){ audioClima.volume = 0.15; }
+
+    var v = VOZES[estado.voz];
+    if(v.tipo==='tts'){
+      falarTTS();
+      return;
+    }
+    // CORRECAO DO CAMINHO: garante / entre pasta e arquivo
+    var livro = (window.livroAtual || window.LIVRO_ATUAL || 'gn').toLowerCase();
+    var cap = window.capituloAtual || window.CAP_ATUAL || 1;
+    // tenta 2 padroes: gn1.mp3 e lc8.mp3
+    var src = v.pasta + '/' + livro + cap + '.mp3';
+    if(!audioGravado) audioGravado = new Audio();
+    audioGravado.src = src;
+    audioGravado.playbackRate = estado.vel;
+    audioGravado.play().then(function(){
+      estado.tocando=true;
+      var b=document.getElementById('pvBtnOuvir'); if(b) b.textContent='Parar';
+      var s=document.getElementById('pvOuvirAgora'); if(s) s.textContent='Parar';
+    }).catch(function(){
+      // NAO MOSTRA ALERTA, so cai pro TTS automaticamente
+      console.log('Gravado nao achou '+src+', usando TTS');
+      falarTTS();
+    });
+    audioGravado.onended = function(){ pararNarracao(); };
+  }
+
+  function falarTTS(){
+    var texto = '';
+    var art = document.querySelector('article') || document.querySelector('.texto-biblico') || document.querySelector('main');
+    if(art) texto = art.innerText;
+    else texto = document.body.innerText.slice(0,4000);
+    texto = texto.replace(/\n+/g,' ').slice(0,3800);
+    speechSynthesis.cancel();
+    var utter = new SpeechSynthesisUtterance(texto);
+    utter.lang='pt-BR'; utter.rate=estado.vel;
+    utter.onend = function(){ pararNarracao(); };
+    speechSynthesis.speak(utter);
+    estado.tocando=true;
+    var b=document.getElementById('pvBtnOuvir'); if(b) b.textContent='Parar';
+  }
+
+  function pararNarracao(){
+    if(audioGravado){ try{ audioGravado.pause(); }catch(e){} }
+    speechSynthesis.cancel();
+    estado.tocando=false;
+    var b=document.getElementById('pvBtnOuvir'); if(b) b.textContent='Ouvir capitulo';
+    if(audioClima && estado.climaOn){ audioClima.volume = estado.climaVol; }
+    var sheet=document.getElementById('pv-sheet-discreta'); if(sheet) sheet.style.display='none';
+  }
+
+  if(document.readyState==='loading'){ document.addEventListener('DOMContentLoaded', init); } else { init(); }
+  window.PV_Audio = { estado: estado };
+})();
