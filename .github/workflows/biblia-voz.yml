@@ -1,0 +1,89 @@
+name: biblia-voz
+# Gera audio dos capitulos (vozes neurais gratuitas). Roda ao enviar este arquivo e manualmente.
+on:
+  workflow_dispatch:
+    inputs:
+      livros:
+        description: 'Livros (numeros separados por virgula; 40-43 = evangelhos, 40-66 = Novo Testamento)'
+        default: '40,41,42,43'
+      vozes:
+        description: 'Vozes: jeff,faber,cadu,dora,alex'
+        default: 'jeff,dora'
+  push:
+    paths: ['.github/workflows/biblia-voz.yml']
+permissions:
+  contents: write
+  actions: write
+jobs:
+  prep:
+    runs-on: ubuntu-latest
+    outputs:
+      matriz: ${{ steps.m.outputs.matriz }}
+    steps:
+      - id: m
+        run: |
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import json,os
+          livros='${{ github.event.inputs.livros || '40,41,42,43' }}'.split(',')
+          vozes='${{ github.event.inputs.vozes || 'jeff,dora' }}'.split(',')
+          inc=[{'voz':v.strip(),'livro':l.strip(),'engine':'kokoro' if v.strip() in('dora','alex','santa') else 'piper'} for v in vozes for l in livros]
+          print('matriz='+json.dumps({'include':inc}))
+          PY
+  gerar:
+    needs: prep
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    strategy:
+      fail-fast: false
+      max-parallel: 4
+      matrix: ${{ fromJSON(needs.prep.outputs.matriz) }}
+    steps:
+      - uses: actions/checkout@v4
+      - name: Dependencias
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg espeak-ng
+          if [ "${{ matrix.engine }}" = "piper" ]; then
+            pip install -q piper-tts==1.2.0
+            mkdir -p models
+            case "${{ matrix.voz }}" in edresson) Q=low;; *) Q=medium;; esac
+            B=https://huggingface.co/rhasspy/piper-voices/resolve/main/pt/pt_BR/${{ matrix.voz }}/$Q/pt_BR-${{ matrix.voz }}-$Q
+            curl -sSL -o models/pt_BR-${{ matrix.voz }}-$Q.onnx $B.onnx
+            curl -sSL -o models/pt_BR-${{ matrix.voz }}-$Q.onnx.json $B.onnx.json
+          else
+            pip install -q torch --index-url https://download.pytorch.org/whl/cpu
+            pip install -q kokoro soundfile numpy
+          fi
+      - name: Gerar
+        run: python3 scripts/biblia-voz.py ${{ matrix.voz }} ${{ matrix.livro }}
+      - name: Enviar
+        run: |
+          git config user.name "palavraviva-bot"; git config user.email "bot@users.noreply.github.com"
+          git add assets/biblia-voz
+          git diff --cached --quiet && exit 0
+          git commit -q -m "audio: ${{ matrix.voz }} livro ${{ matrix.livro }}"
+          for i in 1 2 3 4 5 6; do git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0; sleep $((RANDOM%15+5)); done
+          exit 1
+  indice:
+    needs: gerar
+    if: always()
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Indice
+        run: |
+          git pull -q origin main
+          python3 - <<'PY'
+          import os,json,re
+          N={'jeff':('Jeff','masculina'),'faber':('Faber','masculina'),'cadu':('Cadu','masculina'),'dora':('Dora','feminina'),'alex':('Alex','masculina'),'santa':('Santa','masculina')}
+          idx={'voices':{}}
+          for v in sorted(os.listdir('assets/biblia-voz')) if os.path.isdir('assets/biblia-voz') else []:
+              p='assets/biblia-voz/'+v
+              if not os.path.isdir(p) or v not in N: continue
+              ch=sorted(f[:-4] for f in os.listdir(p) if f.endswith('.mp3'))
+              idx['voices'][v]={'nome':N[v][0],'genero':N[v][1],'ch':ch}
+          json.dump(idx,open('assets/biblia-voz/index.json','w'),separators=(',',':'))
+          PY
+          git config user.name "palavraviva-bot"; git config user.email "bot@users.noreply.github.com"
+          git add assets/biblia-voz/index.json
+          git diff --cached --quiet || { git commit -q -m "audio: indice"; for i in 1 2 3 4 5; do git pull -q --rebase origin main && git push -q origin HEAD:main && break; sleep 10; done; }
+          GH_TOKEN=${{ github.token }} gh workflow run pages.yml --ref main || true
