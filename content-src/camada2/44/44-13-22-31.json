@@ -1,0 +1,137 @@
+{
+ "id": "44-13-22-31",
+ "ref": "Atos 13:22-31",
+ "book": "44",
+ "chapter": 13,
+ "verses": [
+  {
+   "n": 22,
+   "t": "E tirando a este, levantou-lhes por rei a Davi, ao qual também deu testemunho, e disse: Eu achei a Davi, filho de Jessé, um homem conforme o meu coração, que fará toda a minha vontade."
+  },
+  {
+   "n": 23,
+   "t": "Da descendência deste, conforme a promessa, Deus levantou a Jesus por Salvador de Israel;"
+  },
+  {
+   "n": 24,
+   "t": "Tendo João primeiro, antes de sua vinda, pregado o batismo de arrependimento a todo o povo de Israel."
+  },
+  {
+   "n": 25,
+   "t": "Mas quando João cumpriu sua carreira, disse: Quem vós pensais que eu sou? Eu não sou o Cristo ,mas eis que após mim vem aquele, cujas sandálias dos pés eu não sou digno de desatar."
+  },
+  {
+   "n": 26,
+   "t": "Homens irmãos, filhos da descendência de Abraão, e os que dentre vós temem a Deus, a vós é enviada a palavra desta salvação."
+  },
+  {
+   "n": 27,
+   "t": "Porque os que habitavam em Jerusalém, e seus líderes, não conhecendo a este, ao condenarem -no ,cumpriram as vozes dos profetas, que são lidas todos os sábados."
+  },
+  {
+   "n": 28,
+   "t": "E mesmo achando nenhum motivo para morte, pediram a Pilatos que fosse morto."
+  },
+  {
+   "n": 29,
+   "t": "E tendo eles cumprido todas as coisas que estavam escritas sobre ele, tirando -o do madeiro, puseram -no na sepultura."
+  },
+  {
+   "n": 30,
+   "t": "Mas Deus o ressuscitou dos mortos."
+  },
+  {
+   "n": 31,
+   "t": "O qual foi visto durante muitos dias pelos que haviam subido com ele da Galileia, que são suas testemunhas para com o povo."
+  }
+ ],
+ "titulo": "Do trono de Davi ao madeiro",
+ "temas": [
+  "salvação",
+  "promessa",
+  "ressurreição",
+  "testemunho"
+ ],
+ "pergunta": "Por que a morte de Jesus foi vista como fracasso pelos líderes, mas como vitória por Deus?",
+ "entender": "Em Antioquia da Pisídia, Paulo narra a história de Israel para mostrar que tudo aponta para Jesus. Ele lembra que Deus escolheu Davi, um homem conforme seu coração, e prometeu levantar da descendência dele um Salvador. Essa promessa se cumpriu em Jesus, que veio depois do batismo de arrependimento pregado por João.\n\nPaulo explica que os líderes em Jerusalém não reconheceram Jesus e o condenaram, cumprindo assim as profecias. Mesmo sem encontrar motivo para a morte, pediram a Pilatos que o matasse. Ao tirá-lo do madeiro e sepultá-lo, eles acharam que o caso estava encerrado. Mas Deus interveio e o ressuscitou dos mortos.\n\nA ressurreição não foi um evento isolado, pois Jesus foi visto por muitos dias pelos que tinham subido com ele da Galileia. Essas pessoas se tornaram testemunhas para o povo. A mensagem de salvação é enviada a todos, incluindo os que temem a Deus, mostrando que a história de Israel culmina na obra de Cristo.",
+ "ligar": {
+  "texto": "Este texto conecta diretamente a promessa feita a Davi com a pessoa de Jesus. Paulo mostra que Jesus não é apenas um profeta ou um rei político, mas o Salvador prometido. A morte de Jesus, vista pelos homens como um fim, é revelada por Deus como o meio de cumprir a salvação. A ressurreição é a prova de que Jesus é o Filho de Deus e a base da nossa fé. O evangelho é a boa notícia de que, através da cruz e da ressurreição, a promessa de salvação foi cumprida para todos os que crêem.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, julgamos as situações pela aparência, como os líderes de Jerusalém que viram apenas um crime e não a obra de Deus. Ao lermos as Escrituras, precisamos buscar o sentido profundo que Deus revela. A ressurreição de Jesus nos convida a confiar no poder de Deus mesmo quando as circunstâncias parecem indicar derrota. Assim como os testemunhas viram Jesus vivo, nós podemos confiar na fidelidade de Deus em nossas vidas, sabendo que Ele cumpre suas promessas no tempo certo.",
+ "guarde": "Deus transformou a morte de Jesus em vitória, provando que sua promessa é fiel.",
+ "ore": "Deus fiel, que levantou Jesus dos mortos, ensina-me a confiar na tua promessa mesmo quando as circunstâncias parecem indicar o fim. Ajuda-me a ver a tua mão na história e a ser testemunha da salvação que recebi, assim como os que viram o Senhor vivo.",
+ "quiz": {
+  "pergunta": "Quem foi visto por muitos dias após a ressurreição, conforme os versículos 30 e 31?",
+  "opcoes": [
+   "Jesus",
+   "João Batista",
+   "Davi"
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma claramente que 'o qual foi visto durante muitos dias' refere-se a Jesus, que foi ressuscitado dos mortos. João Batista e Davi não ressuscitaram nesse contexto."
+ },
+ "refs": [
+  "2 Samuel 7:12-16",
+  "Lucas 24:13-35",
+  "Atos 2:22-32"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.7-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-30T07:12:05.746Z",
+  "rounds": 2
+ }
+}

@@ -1,0 +1,141 @@
+{
+ "id": "44-13-32-42",
+ "ref": "Atos 13:32-42",
+ "book": "44",
+ "chapter": 13,
+ "verses": [
+  {
+   "n": 32,
+   "t": "E nós vos anunciamos o Evangelho da promessa que foi feita aos pais; ao qual Deus já nos cumpriu a nós, filhos deles, ressuscitando a Jesus."
+  },
+  {
+   "n": 33,
+   "t": "Assim como está escrito no salmo segundo: Tu és meu Filho, hoje eu te gerei."
+  },
+  {
+   "n": 34,
+   "t": "E quanto a que o ressuscitasse dos mortos, para nunca mais voltar à degradação, assim disse: Eu vos darei as fiéis beneficências de Davi."
+  },
+  {
+   "n": 35,
+   "t": "Por isso que também em outro salmo ele diz: Não permitirás que teu Santo veja degradação."
+  },
+  {
+   "n": 36,
+   "t": "Porque, na verdade, tendo Davi servido ao conselho de Deus, morreu, foi posto junto a seus pais, e viu degradação."
+  },
+  {
+   "n": 37,
+   "t": "Mas aquele a quem Deus ressuscitou nenhuma degradação viu."
+  },
+  {
+   "n": 38,
+   "t": "Seja-vos pois conhecido, homens irmãos, que por este vos é anunciado o perdão dos pecados."
+  },
+  {
+   "n": 39,
+   "t": "E de tudo o que pela lei de Moisés não pudestes ser justificados, neste é justificado todo aquele que crê."
+  },
+  {
+   "n": 40,
+   "t": "Então vede, para que não venha sobre vós o que está escrito nos livros dos profetas:"
+  },
+  {
+   "n": 41,
+   "t": "Vós desprezadores, vede e espantai-vos, e desaparecei-vos; porque eu opero obra em vossos dias, obra na qual não crereis, se alguém vos contar."
+  },
+  {
+   "n": 42,
+   "t": "E tendo os judeus saído da sinagoga,os gentios rogaram -lhes que no sábado seguinte eles lhes falassem estas palavras."
+  }
+ ],
+ "titulo": "A promessa que venceu a morte",
+ "temas": [
+  "ressurreição",
+  "perdão",
+  "promessa",
+  "fé"
+ ],
+ "pergunta": "O que significa que Jesus não viu a degradação, enquanto Davi a viu?",
+ "entender": "Paulo está na sinagoga de Antioquia da Pisídia, explicando aos judeus que a promessa feita aos patriarcas se cumpriu em Jesus. Ele destaca que, embora Davi tenha servido a Deus, ele morreu e viu a degradação, como todos os humanos. Mas Jesus é diferente: Deus o ressuscitou, e essa ressurreição é a prova de que a promessa foi cumprida.\n\nPaulo cita os Salmos para mostrar que Deus não permitiria que seu Santo visse a corrupção. Isso aponta para a vitória sobre a morte. A mensagem central é clara: por meio de Jesus, é anunciado o perdão dos pecados. A lei de Moisés não podia justificar, mas a fé em Cristo justifica a todos que creem. É um convite urgente para não desprezar essa obra de Deus nos dias atuais.",
+ "ligar": {
+  "texto": "Este texto é o coração do evangelho: Jesus é o Filho de Deus que venceu a morte. A ressurreição não é apenas um evento passado, mas a garantia do perdão. Paulo contrasta a morte de Davi com a vida de Jesus para mostrar que só em Cristo temos a vitória definitiva sobre o pecado e a morte. A justificação pela fé, e não pelas obras da lei, é o único caminho para estar em paz com Deus.",
+  "selo": true
+ },
+ "viver": "Às vezes, tentamos nos justificar com nossos próprios esforços, pensando que podemos \"comprar\" o favor de Deus com boas ações. Mas o texto nos lembra que a lei não podia justificar ninguém. A aplicação prática é parar de tentar merecer o perdão e simplesmente crer. Assim como os gentios pediram para ouvir mais no sábado seguinte, devemos nos aproximar de Cristo com humildade, reconhecendo que nossa salvação vem apenas pela graça, mediante a fé na ressurreição de Jesus.",
+ "guarde": "A ressurreição de Jesus é a prova de que o perdão dos pecados é real e acessível a quem crê.",
+ "ore": "Paulo, ao pregar em Antioquia, lembrou que Jesus venceu a morte. Pai, ajuda-me a confiar nessa vitória. Que eu não busque justificação em mim mesmo, mas receba o perdão que só vem pela fé em Cristo, o Ressuscitado.",
+ "quiz": {
+  "pergunta": "Segundo Atos 13:36-37, qual a diferença entre o destino de Davi e o de Jesus descrito por Paulo?",
+  "opcoes": [
+   "Davi viu a degradação, mas Jesus não a viu.",
+   "Davi foi ressuscitado, mas Jesus morreu para sempre.",
+   "Ambos viram a degradação, mas Jesus foi perdoado."
+  ],
+  "certa": 0,
+  "explicacao": "Paulo argumenta que Davi, apesar de ser um homem de Deus, morreu e viu a decomposição. Já Jesus, ao ser ressuscitado, não viu a degradação, provando sua vitória sobre a morte."
+ },
+ "refs": [
+  "Salmos 16:10",
+  "Romanos 4:25",
+  "1 Coríntios 15:17"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.7-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-30T07:11:42.816Z",
+  "rounds": 1
+ }
+}

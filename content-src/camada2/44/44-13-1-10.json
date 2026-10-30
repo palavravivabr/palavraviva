@@ -1,0 +1,136 @@
+{
+ "id": "44-13-1-10",
+ "ref": "Atos 13:1-10",
+ "book": "44",
+ "chapter": 13,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E havia em Antioquia, na igreja que estava ali , alguns profetas e mestres: Barnabé e Simeão, chamado Níger, e Lúcio cireneu, e Manaem, que tinha sido criado na infância junto com Herodes o Tetrarca, e Saulo."
+  },
+  {
+   "n": 2,
+   "t": "E tendo eles prestado serviço ao Senhor, e jejuado, o Espirito Santo disse: Separai-me a Barnabé e a Saulo, para a obra para a qual eu os tenho chamado."
+  },
+  {
+   "n": 3,
+   "t": "Então jejuando, e orando, e pondo as mãos sobre eles, os despediram."
+  },
+  {
+   "n": 4,
+   "t": "Portanto estes, enviados pelo Espírito Santo, desceram a Selêucia, e dali navegaram para o Chipre."
+  },
+  {
+   "n": 5,
+   "t": "E tendo chegado a Salamina, anunciavam a palavra de Deus nas sinagogas dos judeus; e também tinham a João como trabalhador para os auxiliar ."
+  },
+  {
+   "n": 6,
+   "t": "E tendo eles atravessado a Ilha até Pafo, acharam a um certo mago, falso profeta, judeu, cujo nome era Barjesus."
+  },
+  {
+   "n": 7,
+   "t": "O qual estava com o procônsul Sérgio Paulo, homem prudente. Este, tendo chamado a si a Barnabé, e a Saulo, procurava muito ouvir a palavra de Deus."
+  },
+  {
+   "n": 8,
+   "t": "Mas resistia-lhes Elimas, o mago (que assim significa seu nome), procurando afastar o procônsul da fé."
+  },
+  {
+   "n": 9,
+   "t": "Mas Saulo, que também se chama Paulo, cheio do Espírito Santo, e olhando fixamente para ele, disse:"
+  },
+  {
+   "n": 10,
+   "t": "Ó filho do diabo, cheio de toda enganação e toda malícia, inimigo de toda justiça, não cessarás de perverter os corretos caminhos do Senhor?"
+  }
+ ],
+ "titulo": "O Espírito Santo escolhe para a missão",
+ "temas": [
+  "chamado",
+  "missão",
+  "espírito santo"
+ ],
+ "pergunta": "Você sente que Deus está preparando você para algo específico?",
+ "entender": "Em Antioquia, a igreja local tinha líderes como Barnabé e Saulo. Enquanto jejuavam e oravam, o Espírito Santo separou esses dois para uma obra específica. Eles não escolheram o destino: foram enviados por Deus, desceram a Selêucia e navegaram para a ilha de Chipre.\n\nEm Pafo, encontraram o mago Elimas, que tentava afastar o procônsul Sérgio Paulo da fé. Saulo, cheio do Espírito Santo, confrontou a mentira do falso profeta, mostrando que a verdade de Deus não pode ser parada por enganações humanas.",
+ "ligar": {
+  "texto": "Este trecho mostra o poder do Espírito Santo guiando a igreja para proclamar Jesus. A oposição de Elimas destaca a gravidade de rejeitar a verdade. O evangelho é a única luz que liberta das trevas da mentira, e Paulo pregou essa mensagem com coragem, apontando para a justiça de Deus em Cristo.",
+  "selo": true
+ },
+ "viver": "Às vezes tentamos controlar nossa vida, planejando tudo sozinho. Mas Deus chama pessoas comuns para missões específicas. Assim como Barnabé e Saulo jejuaram e oraram antes de partir, devemos buscar a direção do Espírito Santo. Não tenha medo de onde Deus está te enviando. Ele usa sua obediência para alcançar pessoas que precisam ouvir a verdade.",
+ "guarde": "Deus separa pessoas comuns para obras extraordinárias quando elas se submetem à vontade do Espírito.",
+ "ore": "Espírito Santo, em Antioquia você separou Saulo e Barnabé. Ajude-me a jejuar e orar para ouvir sua voz. Dê-me coragem para pregar a verdade, mesmo quando houver oposição, e guie meus passos no caminho que você preparou para mim.",
+ "quiz": {
+  "pergunta": "Quem foi o falso profeta em Chipre?",
+  "opcoes": [
+   "Elimas",
+   "Barnabé",
+   "Sérgio Paulo"
+  ],
+  "certa": 0,
+  "explicacao": "O texto identifica Barjesus, chamado Elimas, como o mago e falso profeta que resistia a Paulo e Barnabé."
+ },
+ "refs": [
+  "Atos 9:15",
+  "Atos 16:6",
+  "2 Timóteo 1:9"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.7-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-30T07:05:44.844Z",
+  "rounds": 1
+ }
+}

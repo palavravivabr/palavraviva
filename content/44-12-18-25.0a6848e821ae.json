@@ -1,0 +1,131 @@
+{
+ "id": "44-12-18-25",
+ "ref": "Atos 12:18-25",
+ "book": "44",
+ "chapter": 12,
+ "verses": [
+  {
+   "n": 18,
+   "t": "E vindo o dia, havia não pouca perturbação entre os soldados, sobre o que, pois, tinha acontecido com Pedro."
+  },
+  {
+   "n": 19,
+   "t": "E quando Herodes o buscou, e não o achou, tendo investigado aos guardas, mandou que eles fossem levados para serem mortos . E partindo da Judeia para Cesareia, ficou ali ."
+  },
+  {
+   "n": 20,
+   "t": "E Herodes estava extremamente irritado com os de Tiro e de Sidom; porém eles, vindo em concordância até ele, e persuadindo a Blasto, que era o camareiro do rei, pediram paz, porque a terra deles dependia dos alimentos da terra do rei Herodes ."
+  },
+  {
+   "n": 21,
+   "t": "E num dia marcado, Herodes vestiu roupas reais, e sentando no tribunal, fez-lhes um discurso."
+  },
+  {
+   "n": 22,
+   "t": "E o povo exclamava: Voz de deus, e não de homem!"
+  },
+  {
+   "n": 23,
+   "t": "E no mesmo instante um anjo do Senhor o feriu, porque ele não deu a glória a Deus; e tendo sido comido por vermes, deixou de respirar."
+  },
+  {
+   "n": 24,
+   "t": "E a palavra de Deus crescia, e se multiplicava."
+  },
+  {
+   "n": 25,
+   "t": "E Barnabé e Saulo, tendo cumprido aquele serviço, voltaram a Jerusalém, tomando também consigo a João, o que tinha por sobrenome Marcos."
+  }
+ ],
+ "titulo": "O rei que morreu comido por vermes",
+ "temas": [
+  "glória",
+  "humildade",
+  "juízo",
+  "soberania",
+  "evangelho"
+ ],
+ "pergunta": "O que acontece quando uma pessoa aceita adoração que pertence apenas a Deus?",
+ "entender": "Após a fuga milagrosa de Pedro, Herodes Agripa I viaja para Cesareia. Lá, delegados de Tiro e Sidônia buscam sua paz, pois dependiam dos suprimentos da terra do rei. Herodes, que antes estava irritado com eles, decide recebê-los com grande pompa. O texto diz que ele vestiu \"roupas reais\" e sentou-se no tribunal para fazer um discurso. A multidão, possivelmente por medo ou exaltação política, exclamou: \"Voz de deus, e não de homem!\".\n\nA reação divina foi imediata. O texto afirma que, \"no mesmo instante\", um anjo do Senhor o feriu, pois ele \"não deu a glória a Deus\". Herodes morreu \"comido por vermes\". Este evento cria um contraste forte: enquanto a autoridade humana de Herodes desmorona em desgraça, o versículo 24 declara que \"a palavra de Deus crescia, e se multiplicava\". A igreja não foi destruída; pelo contrário, continuou sua missão, e Barnabé e Saulo voltaram a Jerusalém após cumprir seu serviço.",
+ "ligar": {
+  "texto": "Este trecho aponta para a divindade de Jesus ao mostrar a reação de Deus à usurpação de glória. Herodes quis ser tratado como deus e foi julgado. Em contraste, Jesus é o único que aceita a glória divina porque Ele é verdadeiramente Deus (João 1.1). A morte de Herodes serve de alerta: a glória não é para nós, mas para Deus. O crescimento da Palavra (v. 24) reflete a vitória do evangelho de Cristo, que não depende de palácios ou poder político, mas da autoridade do Rei eterno que ressuscitou dos mortos.",
+  "selo": false
+ },
+ "viver": "Herodes caiu porque aceitou um elogio que não lhe pertencia sem redirecioná-lo a Deus. Na prática, isso nos convida a examinar nossas reações quando somos elogiados ou reconhecidos. Em vez de nos ensoberbecer ou aceitar a adulação, podemos responder com humildade, reconhecendo que todo talento e posição vêm de Deus. Isso nos protege do orgulho espiritual e nos mantém dependentes da graça, sabendo que nossa identidade não está no que as pessoas pensam, mas no que Cristo fez por nós.",
+ "guarde": "A glória pertence a Deus; quem a rouba para si mesmo encontra destruição, mas a Palavra de Deus sempre cresce.",
+ "ore": "Senhor, ao ver o fim de Herodes, que aceitou ser tratado como deus, peço que me livres do orgulho. Quando eu receber elogios ou sucesso, ajuda-me a não me exaltar, mas a apontar para Ti. Que minha vida não busque aplausos humanos, mas a glória do Teu nome. Dá-me o coração de servo, como Pedro, que fugiu para servir, e não para reinar.",
+ "quiz": {
+  "pergunta": "Por que Herodes foi ferido pelo anjo do Senhor?",
+  "opcoes": [
+   "Porque não deu a glória a Deus, aceitando ser tratado como deus.",
+   "Porque ordenou a morte de Pedro.",
+   "Porque foi contra os de Tiro e Sidônia."
+  ],
+  "certa": 0,
+  "explicacao": "O texto é explícito no versículo 23: \"porque ele não deu a glória a Deus\". Embora ele tenha perseguido a igreja antes, a causa direta da sua morte naquele momento foi a arrogância de aceitar a adoração divina."
+ },
+ "refs": [
+  "2 Reis 19:22",
+  "Daniel 4:34-37",
+  "João 1:1",
+  "Atos 5:28-31"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.7-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-30T07:09:41.339Z",
+  "rounds": 2
+ }
+}

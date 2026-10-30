@@ -1,0 +1,140 @@
+{
+ "id": "44-13-11-21",
+ "ref": "Atos 13:11-21",
+ "book": "44",
+ "chapter": 13,
+ "verses": [
+  {
+   "n": 11,
+   "t": "E agora, eis que a mão do Senhor está contra ti, e serás cego, não vendo o sol por algum tempo.E no mesmo instante caiu sobre ele um embaçamento, e trevas; e ele, andando ao redor, procurava alguém que o guiasse pela mão."
+  },
+  {
+   "n": 12,
+   "t": "Então o procônsul, vendo o que tinha acontecido, creu, espantado pela doutrina do Senhor."
+  },
+  {
+   "n": 13,
+   "t": "E tendo partido de Pafo, Paulo e os que estavam com ele foram a Perges, cidade da Panfília. Mas João, separando-se deles, voltou a Jerusalém."
+  },
+  {
+   "n": 14,
+   "t": "E eles, tendo passado de Perges, vieram a Antioquia, cidade da Pisídia; e ao entrarem na sinagoga n um dia de sábado, sentaram-se."
+  },
+  {
+   "n": 15,
+   "t": "E depois da leitura da Lei e dos profetas, os chefes da sinagoga lhes mandaram, dizendo: Homens irmãos, se em vós há alguma palavra de exortação ao povo, dizei."
+  },
+  {
+   "n": 16,
+   "t": "E Paulo, levantando-se e fazendo gesto com a mão, disse: Homens israelitas, e vós os que temeis a Deus, ouvi:"
+  },
+  {
+   "n": 17,
+   "t": "O Deus deste povo de Israel escolheu a nossos pais, e exaltou ao povo, sendo eles estrangeiros na terra do Egito, e com o braço levantando, ele os tirou dela."
+  },
+  {
+   "n": 18,
+   "t": "E pelo tempo de cerca de quarenta anos, ele suportou os costumes deles no deserto."
+  },
+  {
+   "n": 19,
+   "t": "E tendo destruído a sete nações na terra de Canaã, repartiu-lhes as terras por sorte."
+  },
+  {
+   "n": 20,
+   "t": "E depois disto, cerca de quatrocentos e cinquenta anos, ele lhes deu juízes, até o profeta Samuel."
+  },
+  {
+   "n": 21,
+   "t": "E depois disto, pediram a um Rei, e ele lhes deu a Saul, filho de Quis, homem da tribo de Benjamim, durante quarenta anos."
+  }
+ ],
+ "titulo": "O Deus que guiou Israel no deserto",
+ "temas": [
+  "história",
+  "soberania",
+  "fé"
+ ],
+ "pergunta": "Como a história de Israel no Egito prepara o caminho para a vinda de Jesus?",
+ "entender": "Paulo discursa na sinagoga de Antioquia da Pisídia, resgatando a memória de Deus com seu povo. Ele lembra que Israel foi tirado do Egito pelo braço poderoso de Deus, mesmo sendo estrangeiros. Por quarenta anos, Deus suportou os costumes deles no deserto, mostrando paciência e provisão.\n\nEm seguida, Paulo menciona a conquista de Canaã e o período dos juízes, até Samuel. O povo, cansado de instabilidade, pediu um rei. Deus atendeu, dando-lhes Saul, da tribo de Benjamim, por quarenta anos. Essa retrospectiva mostra que a história de Israel não é acidental, mas guiada por Deus até o cumprimento de suas promessas.",
+ "ligar": {
+  "texto": "Paulo constrói uma linha histórica que aponta para o Messias. A saída do Egito e a vida no deserto foram sombras e figuras das coisas futuras (Gálatas 3:24). Assim como Deus tirou Israel da escravidão física, Jesus veio tirar a humanidade da escravidão do pecado. A paciência de Deus no deserto prefigura a paciência de Cristo com nossa incredulidade, preparando o coração para receber o Salvador prometido.",
+  "selo": false
+ },
+ "viver": "Às vezes, olhamos para nossa vida e vemos apenas caos e erros, esquecendo que Deus estava presente em cada etapa. Assim como Paulo relembra a jornada de Israel, você pode olhar para trás e ver a mão de Deus sustentando sua história, mesmo nos momentos de 'deserto'. Confie que Ele não abandonou seu povo no passado e não o abandonará hoje, guiando cada passo com propósito.",
+ "guarde": "A história de Israel é um mapa vivo da fidelidade de Deus em cumprir Suas promessas.",
+ "ore": "Pai, assim como Paulo relembrou a fidelidade de Deus em Israel, ajuda-me a ver Tua mão em minha história. Ensina-me a confiar em Teu guia, mesmo nos desertos, e a olhar para Jesus, o Salvador prometido, com gratidão.",
+ "quiz": {
+  "pergunta": "Quem foi o primeiro rei que Deus deu a Israel, conforme o discurso de Paulo?",
+  "opcoes": [
+   "Samuel, o profeta",
+   "Daví, filho de Jessé",
+   "Saul, filho de Quis"
+  ],
+  "certa": 2,
+  "explicacao": "No versículo 21, Paulo afirma que Deus deu a Saul, filho de Quis, como rei durante quarenta anos. Davi veio depois e Samuel foi profeta."
+ },
+ "refs": [
+  "Êxodo 12:37-42",
+  "1 Samuel 8:5-7",
+  "Gálatas 3:24"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.7-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-30T07:14:08.559Z",
+  "rounds": 2
+ }
+}
