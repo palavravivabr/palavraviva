@@ -1,0 +1,142 @@
+{
+ "id": "44-15-11-21",
+ "ref": "Atos 15:11-21",
+ "book": "44",
+ "chapter": 15,
+ "verses": [
+  {
+   "n": 11,
+   "t": "Mas cremos que, pela graça do Senhor Jesus Cristo, nós somos salvos, assim como também eles."
+  },
+  {
+   "n": 12,
+   "t": "E toda a multidão se calou; e ouviram a Barnabé e a Paulo, que contavam quão grandes sinais e milagres Deus tinha feito por meio deles entre os gentios."
+  },
+  {
+   "n": 13,
+   "t": "E tendo estes se calado, Tiago respondeu, dizendo: Homens irmãos, ouvi-me:"
+  },
+  {
+   "n": 14,
+   "t": "Simão informou como primeiro Deus visitou aos gentios, para tomar deles um povo para seu nome."
+  },
+  {
+   "n": 15,
+   "t": "E com isso concordam as palavras dos profetas, como está escrito:"
+  },
+  {
+   "n": 16,
+   "t": "Depois disto eu voltarei, e reconstruirei o tabernáculo de Davi, que caído está; e reconstruirei de suas ruínas, e voltarei a levantá-lo;"
+  },
+  {
+   "n": 17,
+   "t": "Para que o resto da humanidade busque ao Senhor, e todos os gentios sobre os quais meu nome é invocado, diz o Senhor, que faz todas estas coisas."
+  },
+  {
+   "n": 18,
+   "t": "São conhecidas por Deus desde a antiguidade todas as suas obras."
+  },
+  {
+   "n": 19,
+   "t": "Portanto eu julgo que aqueles que dos gentios se convertem a Deus não devem ser perturbados."
+  },
+  {
+   "n": 20,
+   "t": "Mas que lhes escrevamos para que se abstenham das contaminações dos ídolos, e do pecado sexual, e da carne sufocada, e do sangue."
+  },
+  {
+   "n": 21,
+   "t": "Porque Moisés, desde as gerações antigas, tem em cada cidade quem o pregue nas sinagogas, sendo lido todo sábado."
+  }
+ ],
+ "titulo": "O conselho de Tiago e a liberdade dos gentios",
+ "temas": [
+  "grace",
+  "decisão",
+  "igreja",
+  "livre",
+  "misericórdia"
+ ],
+ "pergunta": "O que a igreja primitiva decidiu sobre a lei para os novos convertidos gentios?",
+ "entender": "Em Jerusalém, os líderes da igreja debatiam se os gentios que creram em Jesus precisavam ser circuncidados e seguir toda a Lei de Moisés. Pedro e Paulo relataram como Deus abençoou os gentios sem impor essas condições. Tiago, que tinha grande autoridade, conduziu a discussão final.\n\nTiago citou um texto profético (Amós 9) mostrando que Deus planejou desde o início incluir os gentios em seu povo. Ele concluiu que não deviam \"perturbar\" os novos crentes com exigências pesadas. Porém, para facilitar a convivência com judeus, pediu que evitassem quatro práticas: contaminação de ídolos, imoralidade sexual, carne sufocada e sangue.\n\nA decisão foi baseada na graça. Tiago reconheceu que a salvação vem pela fé, não por obras da lei. O conselho prático visava a unidade e o testemunho, não a justificação. Isso abriu caminho para o evangelho se espalhar sem barreiras culturais excessivas.",
+ "ligar": {
+  "texto": "Este trecho aponta para Jesus ao afirmar que somos salvos \"pela graça do Senhor Jesus Cristo\". A inclusão dos gentios cumpre a promessa feita a Abraão, de que todas as nações seriam abençoadas através de sua descendência, que é Cristo. A liberdade dos crentes vem de estarem unidos a Jesus, que cumpriu a lei e nos libertou do jugo das obras para a vida.",
+  "selo": true
+ },
+ "viver": "Às vezes, tentamos adicionar regras extras para nos sentirmos mais \"espirituais\" ou para controlar os outros. Este conselho nos ensina a confiar na suficiência da graça de Cristo. Em nosso grupo de fé, podemos perguntar: estamos impondo expectativas que a Bíblia não exige? Devemos focar no amor mútuo e na santidade que vem do Espírito, em vez de legalismo que perturba a consciência dos irmãos.",
+ "guarde": "A graça de Jesus é suficiente para nos salvar e nos unir, sem necessidade de adições humanas à sua obra.",
+ "ore": "Tiago, que guiou a igreja em Jerusalém, ensina-me a discernir o que é essencial e o que é secundário. Ajuda-me a confiar na graça de Jesus, sem tentar acrescentar regras desnecessárias à minha vida ou à dos outros. Que eu viva em liberdade, guiado pelo Espírito, e não sob o jugo da lei.",
+ "quiz": {
+  "pergunta": "Qual foi a decisão principal de Tiago sobre os gentios convertidos?",
+  "opcoes": [
+   "Devem se separar completamente dos judeus",
+   "Não devem ser perturbados com a circuncidação",
+   "Devem seguir toda a Lei de Moisés"
+  ],
+  "certa": 1,
+  "explicacao": "Tiago decidiu que não era necessário impor a circuncidação e a lei inteira, mas apenas algumas orientações práticas para a convivência."
+ },
+ "refs": [
+  "Atos 11:18",
+  "Gálatas 2:15-16",
+  "Amós 9:11-12"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-30T13:09:09.076Z",
+  "rounds": 1
+ }
+}

@@ -2410,19 +2410,27 @@
   },
   "44-14-11-19": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:citacao_longa",
+   "estado": "pronto",
+   "titulo": "Quando o milagre é confundido com idolatria"
   },
   "44-14-20-28": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: PRAYER_FIDELITY: A oração foi dirigida a Paulo e Barnabé em vez de ser dirigida a Deus.",
+   "estado": "pronto",
+   "titulo": "O caminho estreito para o Reino"
   },
   "44-15-1-10": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "O jugo que nem os pais podiam levar"
   },
   "44-15-11-21": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "O conselho de Tiago e a liberdade dos gentios"
   },
   "44-15-22-31": {
    "execucoes": 0,
@@ -2463,24 +2471,24 @@
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 777,
-   "entrada": 2016832,
-   "saida": 685934
+   "chamadas": 784,
+   "entrada": 2037212,
+   "saida": 691999
   },
   "groq-qwen": {
-   "chamadas": 769,
-   "entrada": 1912487,
-   "saida": 624321
+   "chamadas": 777,
+   "entrada": 1933396,
+   "saida": 630879
   },
   "gemini": {
-   "chamadas": 664,
-   "entrada": 2155342,
-   "saida": 842653
+   "chamadas": 673,
+   "entrada": 2184544,
+   "saida": 855128
   },
   "cloudflare": {
-   "chamadas": 411,
-   "entrada": 1434567,
-   "saida": 152481
+   "chamadas": 415,
+   "entrada": 1448884,
+   "saida": 153965
   },
   "mistral": {
    "chamadas": 0,

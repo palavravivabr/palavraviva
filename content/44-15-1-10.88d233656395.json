@@ -1,0 +1,138 @@
+{
+ "id": "44-15-1-10",
+ "ref": "Atos 15:1-10",
+ "book": "44",
+ "chapter": 15,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E alguns que tinham descido da Judeia ensinavam aos irmãos, dizendo : Se vós não vos circuncidardes conforme o costume de Moisés, não podeis ser salvos."
+  },
+  {
+   "n": 2,
+   "t": "Então, havendo não pequena resistência e confronto de Paulo e Barnabé contra eles, ordenaram que Paulo, Barnabé e alguns outros deles subissem aos apóstolos e aos anciãos a Jerusalém sobre esta questão."
+  },
+  {
+   "n": 3,
+   "t": "Então sendo eles preparados para a viagem e despedidos pela igreja, passaram pela Fenícia e Samaria, contando sobre a conversão dos gentios; e davam grande alegria a todos os irmãos."
+  },
+  {
+   "n": 4,
+   "t": "E tendo chegado a Jerusalém, eles foram recebidos pela igreja, e pelos apóstolos e anciãos; e lhes anunciaram quão grandes coisas Deus tinha feito com eles;"
+  },
+  {
+   "n": 5,
+   "t": "Mas que alguns do grupo dos fariseus que tinham crido, levantaram-se, dizendo que era necessário circuncidá-los, e mandar -lhes que guardem a Lei de Moisés."
+  },
+  {
+   "n": 6,
+   "t": "E os apóstolos e anciãos se reuniram para dar atenção a este assunto."
+  },
+  {
+   "n": 7,
+   "t": "E havendo muita discussão, Pedro se levantou, e lhes disse: Homens irmãos, vós sabeis que há muito tempo Deus meu escolheu entre nós, para que por minha boca os gentios ouvissem a palavra do Evangelho, e cressem."
+  },
+  {
+   "n": 8,
+   "t": "E Deus, que conhece os corações, deu-lhes testemunho, dando-lhes o Espírito Santo, assim como também a nós."
+  },
+  {
+   "n": 9,
+   "t": "E nenhuma diferença fez entre nós e eles, purificando seus corações pela fé."
+  },
+  {
+   "n": 10,
+   "t": "Então agora, por que tentais a Deus, pondo um jugo sobre o pescoço dos discípulos; que nem nossos pais, nem nós podemos levar?"
+  }
+ ],
+ "titulo": "O jugo que nem os pais podiam levar",
+ "temas": [
+  "liberdade",
+  "graça",
+  "identidade",
+  "unidade",
+  "fé"
+ ],
+ "pergunta": "Por que Pedro disse que colocar a Lei na vida dos gentios era tentar a Deus?",
+ "entender": "Em Jerusalém, um grupo de fariseus que já haviam crido em Jesus insistia que os gentios precisavam ser circuncidados e guardar toda a Lei de Moisés para serem salvos. Isso gerou um conflito sério na igreja, pois parecia dividir os cristãos em dois grupos: judeus com privilégios e gentios em condição inferior.\n\nPedro se levantou e lembrou que Deus, que conhece os corações, havia dado o Espírito Santo aos gentios da mesma forma que aos judeus. Ele não fez diferença entre eles, purificando seus corações pela fé. Ao insistir na circuncidação, os irmãos estariam colocando um fardo pesado que nem seus antepassados, que conheciam a Lei, conseguiam carregar.\n\nA discussão mostra que a salvação não vem de obras da Lei, mas da graça. A igreja precisava decidir se seguiria as tradições humanas ou a ação clara do Espírito Santo, que unia judeus e gentios em uma só família em Cristo.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para Jesus, pois a questão central era se a salvação vinha da Lei ou pela fé no Evangelho. Pedro relembrou que Deus deu o Espírito Santo aos gentios, confirmando que a obra de Cristo foi suficiente para purificar seus corações. Jesus cumpriu a Lei, e agora, pela graça, Ele nos une a Deus sem necessidade de méritos próprios. A graça de Jesus é igual para todos, removendo as barreiras que separavam pessoas.",
+  "selo": true
+ },
+ "viver": "Às vezes, tentamos acrescentar regras ou comportamentos à nossa fé para sentir que estamos mais perto de Deus. Como Pedro nos lembra, isso é colocar um jugo que nem os pais podiam levar. Nossa segurança não vem do quanto obedecemos, mas de quem é Jesus em nossas vidas. Confie na graça que já te purificou, e deixe que o Espírito Santo guie sua conduta, em vez de tentar se justificar por seus próprios esforços.",
+ "guarde": "Deus não faz diferença entre nós, purificando nossos corações pela fé, não por obras da Lei.",
+ "ore": "Pedro, que se levantou em Jerusalém para defender a verdade, ensina-me a não adicionar cargas desnecessárias à minha fé. Ajuda-me a confiar na graça de Jesus, que purifica meu coração, e a viver livre do peso de tentar me salvar por mim mesmo.",
+ "quiz": {
+  "pergunta": "Qual foi o argumento principal de Pedro contra a exigência da circuncidação?",
+  "opcoes": [
+   "Os gentios não tinham interesse em seguir a Lei de Moisés.",
+   "A circuncidação era uma tradição que Jesus aboliu explicitamente no Sermão da Montanha.",
+   "Deus deu o Espírito Santo aos gentios, mostrando que não fez diferença entre eles."
+  ],
+  "certa": 2,
+  "explicacao": "Pedro argumentou que a evidência do Espírito Santo e a purificação pela fé provavam que Deus aceitava os gentios da mesma forma que os judeus, sem a necessidade da Lei."
+ },
+ "refs": [
+  "Gálatas 2:15-21",
+  "Romanos 3:28",
+  "Efésios 2:14-16"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-30T13:07:10.638Z",
+  "rounds": 1
+ }
+}
