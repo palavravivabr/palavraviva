@@ -2348,15 +2348,21 @@
   },
   "44-11-11-20": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "A porta que Pedro não ousou fechar"
   },
   "44-11-21-30": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: PRAYER_FIDELITY: A oração é dirigida diretamente a Barnabé, uma figura humana, em vez de ser dirigida a Deus.",
+   "estado": "pronto",
+   "titulo": "O nome que nasceu em Antioquia"
   },
   "44-12-1-8": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: PRAYER_FIDELITY: A oração é dirigida a Pedro em vez de a Deus, tratando o apóstolo como receptor da oração e fonte do poder libertador. | CROSS_SECTION_CONSISTENCY: A oração é dirigida a Pedro atribuindo-lhe 'teu poder libertador', contradizendo as seções anteriores que afirmam expressamente que a l",
+   "estado": "pronto",
+   "titulo": "Correntes que caíram na escuridão"
   },
   "44-12-9-17": {
    "execucoes": 0,
@@ -2385,28 +2391,40 @@
   "44-13-43-52": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "44-14-1-10": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "44-14-11-19": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "44-14-20-28": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 756,
-   "entrada": 1956889,
-   "saida": 668167
+   "chamadas": 762,
+   "entrada": 1973411,
+   "saida": 673401
   },
   "groq-qwen": {
-   "chamadas": 749,
-   "entrada": 1856755,
-   "saida": 607680
+   "chamadas": 755,
+   "entrada": 1873565,
+   "saida": 612716
   },
   "gemini": {
-   "chamadas": 641,
-   "entrada": 2080676,
-   "saida": 808641
+   "chamadas": 647,
+   "entrada": 2099946,
+   "saida": 815857
   },
   "cloudflare": {
-   "chamadas": 402,
-   "entrada": 1402954,
-   "saida": 149142
+   "chamadas": 405,
+   "entrada": 1413611,
+   "saida": 150255
   },
   "mistral": {
    "chamadas": 0,

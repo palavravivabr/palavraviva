@@ -1,0 +1,137 @@
+{
+ "id": "44-11-21-30",
+ "ref": "Atos 11:21-30",
+ "book": "44",
+ "chapter": 11,
+ "verses": [
+  {
+   "n": 21,
+   "t": "E a mão do Senhor era com eles, e um grande número creu, e se converteu ao Senhor."
+  },
+  {
+   "n": 22,
+   "t": "E esta notícia sobre eles chegou aos ouvidos da igreja que estava em Jerusalém; e enviaram a Barnabé, para ir até Antioquia."
+  },
+  {
+   "n": 23,
+   "t": "O qual, ao chegar lá ,e tendo visto a graça de Deus, alegrou-se; e exortou a todos, para que com o propósito do coração permanecessem no Senhor."
+  },
+  {
+   "n": 24,
+   "t": "Porque ele era um bom homem, e cheio do Espírito Santo, e de fé; e uma grande multidão foi acrescentada ao Senhor."
+  },
+  {
+   "n": 25,
+   "t": "E Barnabé foi para Tarso, para buscar a Saulo; e achando-o, trouxe-o a Antioquia."
+  },
+  {
+   "n": 26,
+   "t": "E sucedeu que, durante um ano completo eles se congregaram naquela igreja, e ensinavam a uma grande multidão; e em Antioquia os discípulos foram chamados pela primeira vez de cristãos."
+  },
+  {
+   "n": 27,
+   "t": "E naqueles dias desceram de Jerusalém alguns profetas a Antioquia."
+  },
+  {
+   "n": 28,
+   "t": "E levantando-se um deles, por nome Ágabo, declarou pelo Espírito, que estava para haver uma grande fome em todo o mundo; que veio a acontecer no tempo de Cláudio César."
+  },
+  {
+   "n": 29,
+   "t": "E os discípulos determinaram de cada um, conforme o que pudesse, mandar algum socorro para serviço dos irmãos que habitavam na Judeia."
+  },
+  {
+   "n": 30,
+   "t": "O que também fizeram, enviando -o aos anciãos pela mão de Barnabé e de Saulo."
+  }
+ ],
+ "titulo": "O nome que nasceu em Antioquia",
+ "temas": [
+  "comunidade",
+  "gratidão",
+  "identidade",
+  "serviço"
+ ],
+ "pergunta": "Por que os primeiros seguidores de Jesus passaram a ser chamados de cristãos?",
+ "entender": "Em Antioquia, a mensagem de Jesus se espalhou entre judeus e gentios. O texto diz que \"a mão do Senhor era com eles\" e muitos creram. A notícia chegou a Jerusalém, que enviou Barnabé para verificar a situação. Ele se alegrou ao ver a graça de Deus e exortou os novos crentes a permanecerem firmes no Senhor.\n\nBarnabé foi a Tarso buscar Saulo (Paulo), trazendo-o para Antioquia. Juntos, ensinaram por um ano inteiro. Foi ali que \"os discípulos foram chamados pela primeira vez de cristãos\" (At 11.26). O nome não foi escolhido por eles, mas dado por outros, refletindo quem eram: seguidores de Cristo. Mais tarde, diante de uma fome prevista pelo profeta Ágabo, a igreja arrecadou ajuda para os irmãos na Judeia, enviando-a por meio de Barnabé e Saulo.",
+ "ligar": {
+  "texto": "O termo \"cristãos\" é a chave do evangelho aqui: a identidade da comunidade não é baseada em sangue, cultura ou lei, mas na pessoa de Cristo. O nome aponta para Ele como Senhor. A ação concreta de enviar ajuda, liderada por Barnabé e Saulo, demonstra que a fé em Cristo se traduz em cuidado prático com os irmãos necessitados, unindo adoração e serviço.",
+  "selo": true
+ },
+ "viver": "Nossa identidade em Cristo deve moldar como tratamos os outros. Assim como os cristãos de Antioquia agiram juntos diante da fome, podemos nos unir em nossa comunidade para atender necessidades locais. Em vez de apenas falar sobre fé, que nossa vida comprove o nome que carregamos, servindo aos que sofrem ao nosso redor.",
+ "guarde": "Ser cristão é ter a identidade marcada por Cristo e expressá-la no cuidado prático com os irmãos.",
+ "ore": "Senhor, obrigado pelo exemplo de Barnabé e Saulo. Ajuda-me a não ficar isolado, mas a me unir à igreja para servir juntos, compartilhando recursos e amor com quem sofre, assim como fizeram em Antioquia.",
+ "quiz": {
+  "pergunta": "Quem foi enviado por Jerusalém para verificar a situação em Antioquia?",
+  "opcoes": [
+   "Barnabé",
+   "Pedro",
+   "Tiago"
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma claramente em Atos 11.22 que a igreja em Jerusalém enviou Barnabé para ir até Antioquia."
+ },
+ "refs": [
+  "Romanos 12:13",
+  "2 Coríntios 5:17",
+  "Gálatas 2:11-14"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-30T03:59:24.840Z",
+  "rounds": 2
+ }
+}

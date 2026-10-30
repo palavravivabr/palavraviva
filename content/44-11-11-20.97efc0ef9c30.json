@@ -1,0 +1,138 @@
+{
+ "id": "44-11-11-20",
+ "ref": "Atos 11:11-20",
+ "book": "44",
+ "chapter": 11,
+ "verses": [
+  {
+   "n": 11,
+   "t": "E eis que logo três homens, enviados a mim de Cesareia, pararam junto à casa onde eu estava."
+  },
+  {
+   "n": 12,
+   "t": "E o Espírito me disse que eu fosse com eles, sem duvidar; e também estes seis irmãos foram comigo, e entramos na casa daquele homem."
+  },
+  {
+   "n": 13,
+   "t": "E ele nos contou como tinha visto um anjo estar em sua casa, e tinha lhe dito: Envia alguns homens a Jope, e manda chamar a Simão, que tem por sobrenome Pedro;"
+  },
+  {
+   "n": 14,
+   "t": "O qual te falará palavras, em que tu sejas salvo, e também toda a tua casa."
+  },
+  {
+   "n": 15,
+   "t": "E quando comecei a falar, caiu o Espírito Santo sobre eles, assim como também no princípio tinha caído sobre nós."
+  },
+  {
+   "n": 16,
+   "t": "E eu me lembrei da palavra do Senhor, como ele tinha dito: Verdadeiramente João batizou com água, mas vós sereis batizados com o Espírito Santo."
+  },
+  {
+   "n": 17,
+   "t": "Portanto, se Deus deu a eles igual dom, assim como também a nós, que temos crido no Senhor Jesus Cristo; quem era eu, pois, para que pudesse proibir a Deus?"
+  },
+  {
+   "n": 18,
+   "t": "E ao ouvirem estas coisas, se acalmaram, e glorificavam a Deus, dizendo: Portanto também aos gentios Deus deu arrependimento para a vida."
+  },
+  {
+   "n": 19,
+   "t": "E os que foram dispersos por causa da perseguição que aconteceu por causa de Estêvão, passaram até a Fenícia, e Chipre, e Antioquia; não falando a ninguém a palavra, a não ser somente aos judeus."
+  },
+  {
+   "n": 20,
+   "t": "E havia deles alguns homens cipriotas e cirenenses, os quais ao entrarem em Antioquia, falaram aos gregos, anunciando o Evangelho do Senhor Jesus."
+  }
+ ],
+ "titulo": "A porta que Pedro não ousou fechar",
+ "temas": [
+  "inclusão",
+  "espírito santo",
+  "missão",
+  "arrependimento"
+ ],
+ "pergunta": "O que aconteceu quando Pedro percebeu que Deus estava agindo fora dos seus limites?",
+ "entender": "Pedro explica aos líderes em Jerusalém por que batizou Cornélio, um gentio. Ele relata que três homens enviados de Cesareia o encontraram e que o Espírito Santo o guiou para ir com eles, sem duvidar. Ao entrar na casa, Cornélio contou sobre um anjo que o instruiu a chamar Pedro, pois ele traria palavras para a salvação dele e de sua casa.\n\nO ponto central é o que aconteceu durante a pregação: o Espírito Santo caiu sobre os gentios, exatamente como no início sobre os discípulos judeus. Pedro se lembra da palavra do Senhor sobre o batismo com o Espírito e conclui: \"quem era eu, pois, para que pudesse proibir a Deus?\". Essa atitude de humildade diante da ação divina é o coração do relato.\n\nA reação dos irmãos em Jerusalém foi de aceitação: eles se acalmaram e glorificaram a Deus, reconhecendo que \"também aos gentios Deus deu arrependimento para a vida\". O texto termina mostrando o fruto dessa abertura: cristãos dispersos pela perseguição chegam a Antioquia e, pela primeira vez, anunciam o Evangelho aos gregos, não apenas aos judeus.",
+ "ligar": {
+  "texto": "Este trecho aponta claramente para Jesus como o centro da salvação universal. Pedro cita a promessa de Jesus sobre o batismo com o Espírito Santo, mostrando que a inclusão dos gentios cumpre a palavra do Mestre. A salvação oferecida a Cornélio é especificamente \"palavras... em que tu sejas salvo\", apontando para a obra redentora de Cristo. O evangelho anunciado em Antioquia é definido como o \"Evangelho do Senhor Jesus\", confirmando que a expansão da igreja para todos os povos é fruto da graça de Deus em Cristo, quebra barreiras humanas e cumpre o plano divino de abençoar todas as famílias da terra.",
+  "selo": true
+ },
+ "viver": "Pedro precisou ouvir a voz do Espírito e ver a ação de Deus para superar seus preconceitos culturais. Hoje, isso nos desafia a examinar as \"linhas vermelhas\" que traçamos em nossas comunidades ou círculos sociais. Quem está à margem da nossa compreensão de fé? A história de Antioquia mostra que a mensagem de Jesus se espalha quando deixamos de ser guardiões rígidos de regras e nos tornamos testemunhas livres da graça. Que nossa disposição para servir a Deus seja maior que nosso medo de mudar de ideia.",
+ "guarde": "Nenhum ser humano tem autoridade para limitar a mão generosa de Deus que oferece vida.",
+ "ore": "Pedro, obrigado por sua coragem em obedecer ao Espírito mesmo contra suas próprias tradições. Senhor, assim como Ele foi guiado a Cesareia, guia meus passos para onde Tu queres, mesmo que seja fora da minha zona de conforto. Que eu não proíba a Tua ação, mas abra portas para que o Evangelho alcance todos os povos.",
+ "quiz": {
+  "pergunta": "Qual foi a evidência principal que convenceu a igreja em Jerusalém de que Deus aceitava os gentios?",
+  "opcoes": [
+   "Pedro provou que os gentios eram moralmente perfeitos.",
+   "O Espírito Santo caiu sobre eles, igual aos judeus.",
+   "Cornélio era um homem muito rico e influente."
+  ],
+  "certa": 1,
+  "explicacao": "O texto destaca que Pedro se lembrou da promessa do Espírito e, ao ver que os gentios receberam o mesmo dom, concluiu que Deus os havia aceitado (Atos 11:15-18)."
+ },
+ "refs": [
+  "Atos 2:1-4",
+  "João 3:16",
+  "Gálatas 3:28",
+  "Mateus 28:19"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-30T04:00:14.794Z",
+  "rounds": 2
+ }
+}

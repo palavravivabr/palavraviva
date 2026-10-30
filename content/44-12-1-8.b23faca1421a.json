@@ -1,0 +1,129 @@
+{
+ "id": "44-12-1-8",
+ "ref": "Atos 12:1-8",
+ "book": "44",
+ "chapter": 12,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E por aquele mesmo tempo o rei Herodes pôs as mãos para maltratar a alguns da igreja."
+  },
+  {
+   "n": 2,
+   "t": "E matou a Tiago, o irmão de João, pela espada."
+  },
+  {
+   "n": 3,
+   "t": "E vendo que isto agradava aos judeus, ele fez ainda mais, para também prender a Pedro (e eram os dias dos pães sem fermento)."
+  },
+  {
+   "n": 4,
+   "t": "Do qual, também detendo, lançou-o na prisão, entregando -o a quatro quaternos de soldados, que o guardassem; pretendendo tirá-lo para mostrá-lo ao povo depois da Páscoa."
+  },
+  {
+   "n": 5,
+   "t": "Então Pedro era mantido na prisão; mas a igreja fazia fervorosa oração a Deus por ele."
+  },
+  {
+   "n": 6,
+   "t": "E quando Herodes estava para tirá-lo para apresentá-lo ,naquela mesma noite Pedro estava dormindo entre dois soldados, acorrentado com duas correntes; e os guardas diante da porta guardavam a prisão."
+  },
+  {
+   "n": 7,
+   "t": "E eis que veio acima um anjo do Senhor, e uma luz brilhou na prisão; e tocando em Pedro em sua lateral, despertou-o, dizendo; Levanta-te, depressa!E as correntes caíram de suas mãos."
+  },
+  {
+   "n": 8,
+   "t": "E o anjo lhe disse: Arruma-te, e amarra as tuas sandálias.E ele fez assim. E disse-lhe: Põe tua capa sobre ti, e segue-me."
+  }
+ ],
+ "titulo": "Correntes que caíram na escuridão",
+ "temas": [
+  "livramento",
+  "oração",
+  "intercessão",
+  "milagre"
+ ],
+ "pergunta": "O que estava acontecendo na prisão enquanto Pedro dormia acorrentado?",
+ "entender": "Herodes perseguiu a igreja, matou Tiago e prendeu Pedro com a intenção de julgá-lo publicamente depois da Páscoa. A situação era grave: Pedro estava guardado por quatro grupos de soldados. No entanto, o texto destaca que, enquanto Pedro estava detido, a comunidade cristã não ficou passiva. Eles se reuniram e fizeram \"fervorosa oração a Deus por ele\". A resposta divina veio de forma sobrenatural: um anjo apareceu, a luz brilhou na prisão e as correntes caíram das mãos de Pedro. O anjo o instruiu a vestir-se e seguir, indicando que a libertação não era apenas física, mas uma ação direta do Senhor em meio ao perigo mortal.\n\nEste episódio mostra o contraste entre o poder político de Herodes e o poder de Deus. Herodes acreditava ter controle total sobre a vida dos apóstolos, mas a oração da igreja abriu caminho para o livramento. A cena é concreta: Pedro estava dormindo entre soldados, acorrentado com duas correntes, e mesmo assim foi despertado para a liberdade. Isso ensina que a oração da igreja é poderosa e que Deus age mesmo quando as circunstâncias parecem impossíveis e a segurança humana parece intransponível.",
+ "ligar": {
+  "texto": "A libertação de Pedro aponta para a vitória final de Jesus sobre o pecado e a morte. Assim como as correntes caíram, Jesus quebrou as correntes do pecado na cruz e venceu a morte na ressurreição. A oração da igreja é eficaz porque está ligada ao poder de Cristo, que intercede por nós. Este milagre físico prefigura a libertação espiritual definitiva que só Jesus pode oferecer, tirando-nos da prisão do pecado e da condenação.",
+  "selo": false
+ },
+ "viver": "A igreja primitiva não esperou que Pedro encontrasse uma solução humana; eles oraram com fervor. Quando enfrentamos situações que parecem sem saída, como dívidas, doenças ou conflitos, nossa primeira resposta deve ser a oração persistente. Não é uma fórmula mágica, mas uma entrega da situação a Deus. Assim como Pedro foi acordado para a liberdade, a oração nos desperta para confiar na ação de Deus, mesmo quando as \"correntes\" da vida parecem firmes. Busque momentos de oração intensa, pedindo a Deus que atue onde você não consegue agir.",
+ "guarde": "A oração fervorosa da igreja abre portas que o homem não consegue abrir.",
+ "ore": "Deus de Pedro, obrigado por responder à \"fervorosa oração\" da igreja. Ensina-me a confiar no Teu poder libertador, não em soluções humanas. Assim como as correntes caíram de Pedro, quebra as amarras do medo e da dúvida que me prendem. Que eu viva na certeza de que Tu ouves e agues. Amém.",
+ "quiz": {
+  "pergunta": "O que a igreja fez enquanto Pedro estava preso?",
+  "opcoes": [
+   "Fazia fervorosa oração a Deus por ele.",
+   "Planejou um resgate armado.",
+   "Esperou o julgamento para interceder."
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma explicitamente que a igreja fazia fervorosa oração a Deus por ele, sem mencionar planos de resgate armado ou espera passiva."
+ },
+ "refs": [
+  "Atos 4:31",
+  "2 Reis 6:17",
+  "Mateus 18:19-20"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-30T03:58:31.780Z",
+  "rounds": 2
+ }
+}
