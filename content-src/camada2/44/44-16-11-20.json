@@ -1,0 +1,138 @@
+{
+ "id": "44-16-11-20",
+ "ref": "Atos 16:11-20",
+ "book": "44",
+ "chapter": 16,
+ "verses": [
+  {
+   "n": 11,
+   "t": "Então, tendo navegado desde Trôade, viemos correndo caminho direto a Samotrácia, e no dia seguinte a Neápolis."
+  },
+  {
+   "n": 12,
+   "t": "E dali a Filipos, que é a primeira cidade desta parte da Macedônia, e é uma colônia; e estivemos naquela cidade por alguns dias."
+  },
+  {
+   "n": 13,
+   "t": "E no dia de sábado saímos para fora da cidade, onde costumava ser feita oração; e tendo nos sentado, falamos às mulheres que tinham se ajuntado ali ."
+  },
+  {
+   "n": 14,
+   "t": "E uma certa mulher, por nome Lídia, vendedora de púrpura, da cidade de Tiatira, que servia a Deus; ela nos ouviu; o coração da qual o Senhor abriu, para que prestasse atenção ao que Paulo dizia."
+  },
+  {
+   "n": 15,
+   "t": "E quando ela foi batizada, e também sua casa, ela nos rogou, dizendo: Se vós tendes julgado que eu seja fiel ao Senhor, entrai em minha casa e ficai ali.E ela insistiu para conosco."
+  },
+  {
+   "n": 16,
+   "t": "E aconteceu, que ao estarmos nós indo à oração, saiu ao nosso encontro uma moça que tinha espírito de pitonisa; a qual ao fazer adivinhações trazia grande lucro a seus senhores."
+  },
+  {
+   "n": 17,
+   "t": "Esta, seguindo após Paulo e nós, clamava, dizendo: Estes homens são servos do Deus Altíssimo, que nos anunciam o caminho da salvação."
+  },
+  {
+   "n": 18,
+   "t": "E ela fazia isto por muitos dias. Mas Paulo, estando descontente com isto, virou-se, e disse ao espírito: Em nome de Jesus Cristo eu te mando que saias dela.E na mesma hora o espírito saiu."
+  },
+  {
+   "n": 19,
+   "t": "E os senhores dela, vendo que a esperança de lucro deles tinha ido embora, pegaram a Paulo e a Silas, e os levaram à praça, diante dos governantes."
+  },
+  {
+   "n": 20,
+   "t": "E apresentando-os aos magistrados, disseram: Estes homens perturbam nossa cidade, sendo judeus;"
+  }
+ ],
+ "titulo": "Lídia, a mulher cujo coração foi aberto",
+ "temas": [
+  "evangelho",
+  "libertação",
+  "missões",
+  "fé",
+  "gratidão"
+ ],
+ "pergunta": "O que acontece quando Deus abre o coração de alguém para ouvir a verdade?",
+ "entender": "Paulo e Silas chegam a Filipos, a primeira cidade da Macedônia onde o evangelho entra. No sábado, eles saem da cidade para um lugar de oração e se sentam para falar com as mulheres que se reuniam ali. Entre elas estava Lídia, uma vendedora de púrpura de Tiatira, que já servia a Deus.\n\nO texto diz que \"o coração da qual o Senhor abriu, para que prestasse atenção ao que Paulo dizia\". Ela não apenas ouviu, mas creu, foi batizada junto com sua casa e ofereceu sua casa para abrigar os missionários. Poucos dias depois, Paulo liberta uma moça de um espírito de adivinhação, o que causa conflito com os donos dela, que levam Paulo e Silas aos governantes.",
+ "ligar": {
+  "texto": "Este trecho mostra o evangelho em ação: Jesus é o caminho da salvação que Paulo anuncia. A libertação da moça demonstra o poder de Jesus sobre as forças do mal, e a conversão de Lídia mostra que a graça de Deus transforma vidas e famílias, abrindo portas para a missão. É o mesmo Jesus que abriu o coração de Lídia e libertou a moça, oferecendo salvação a todos.",
+  "selo": true
+ },
+ "viver": "Lídia não esperou ter todas as respostas ou um ambiente perfeito para responder a Deus; ela se abriu, creu e agiu imediatamente, oferecendo seu lar. Da mesma forma, nossa resposta a Cristo não depende de sentir segurança total, mas de confiar na Palavra que Ele revelou. Quando o coração é aberto pela graça, o próximo passo natural é compartilhar essa nova vida com os que estão ao nosso redor, assim como Lídia fez ao acolher Paulo e Silas.",
+ "guarde": "O coração aberto a Cristo se torna um lar para a missão.",
+ "ore": "Lídia de Tiatira, que abriu seu coração e sua casa, ensina-me a ser receptivo à Tua voz. Abre meu coração hoje, Senhor, para que eu ouça Tua Palavra com atenção e tenha a coragem de compartilhar o evangelho com quem está ao meu redor.",
+ "quiz": {
+  "pergunta": "Quem abriu o coração de Lídia para que ela prestasse atenção ao que Paulo dizia?",
+  "opcoes": [
+   "O Senhor",
+   "Paulo",
+   "Silas"
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma explicitamente que foi o Senhor quem abriu o coração de Lídia, permitindo que ela atendesse à pregação de Paulo."
+ },
+ "refs": [
+  "Atos 2:41",
+  "Atos 16:31",
+  "João 6:44"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-30T18:58:06.722Z",
+  "rounds": 1
+ }
+}

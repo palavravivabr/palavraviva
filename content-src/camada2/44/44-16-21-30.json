@@ -1,0 +1,135 @@
+{
+ "id": "44-16-21-30",
+ "ref": "Atos 16:21-30",
+ "book": "44",
+ "chapter": 16,
+ "verses": [
+  {
+   "n": 21,
+   "t": "E eles anunciam costumes que não nos é lícito receber, nem fazer; pois somos romanos."
+  },
+  {
+   "n": 22,
+   "t": "E a multidão se levantou juntamente contra eles; e os oficiais, rasgando suas roupas, mandaram que fossem açoitados."
+  },
+  {
+   "n": 23,
+   "t": "E tendo sido lhes dado muitos açoites, os lançaram na prisão, mandando ao carcereiro que os guardasse em segurança."
+  },
+  {
+   "n": 24,
+   "t": "O qual, tendo recebido tal ordem, lançou-os na cela mais interna, e prendeu-lhes os pés no tronco."
+  },
+  {
+   "n": 25,
+   "t": "E perto da meia-noite, Paulo e Silas estavam orando, e cantando hinos a Deus; e os outros presos os escutavam."
+  },
+  {
+   "n": 26,
+   "t": "E de repente houve um terremoto tão grande que os alicerces da prisão se moviam; e logo todas as portas se abriram, e todas as correntes que prendiam a todos se soltaram."
+  },
+  {
+   "n": 27,
+   "t": "E o carcereiro, tendo acordado e visto abertas todas as portas da prisão; puxou a espada, e estava a ponto de se matar, pensando que os presos tinham fugido."
+  },
+  {
+   "n": 28,
+   "t": "Mas Paulo clamou em alta voz, dizendo: Não te faças nenhum mal, porque todos nós estamos aqui."
+  },
+  {
+   "n": 29,
+   "t": "E tendo pedido luzes, saltou para dentro, e termendo muito, ele se prostrou diante de Paulo e Silas."
+  },
+  {
+   "n": 30,
+   "t": "E levando-os para fora, disse: Senhores, o que me é necessário fazer para eu me salvar?"
+  }
+ ],
+ "titulo": "O grito da meia-noite que abriu portas",
+ "temas": [
+  "liberdade",
+  "esperança",
+  "sacrifício"
+ ],
+ "pergunta": "O que você faz quando a situação parece sem saída e o medo toma conta?",
+ "entender": "Paulo e Silas estavam presos em Filipos, açoitados e com os pés presos no tronco. A acusação era de que ensinavam costumes proibidos aos romanos. Mesmo sofrendo injustiça, perto da meia-noite, eles não reclamavam; estavam orando e cantando hinos a Deus. Os outros presos os ouviam.\n\nDe repente, um terremoto forte moveu os alicerces, abriu todas as portas e soltou as correntes. O carcereiro acordou, viu as portas abertas e, achando que os presos haviam fugido, pegou a espada para se matar, pois seria responsabilizado. Então Paulo gritou: \"Não te faças nenhum mal, porque todos nós estamos aqui\".\n\nO carcereiro pediu luz, entrou e se prostrou diante deles, tremendo. Levando-os para fora, fez a pergunta que muda vidas: \"O que me é necessário fazer para eu me salvar?\". A resposta, que vem nos versículos seguintes, é crer no Senhor Jesus Cristo.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para Jesus. O carcereiro, apavorado e buscando salvação, recebe a instrução de crer no Senhor Jesus Cristo. A libertação física do terremoto prepara o terreno para a libertação espiritual: assim como as correntes se romperam, a fé em Cristo quebra as correntes do pecado e da morte. Paulo e Silas, mesmo presos fisicamente, estavam livres interiormente porque estavam em Cristo, mostrando que a verdadeira salvação vem pela graça, mediante a fé.",
+  "selo": true
+ },
+ "viver": "Paulo e Silas cantaram no meio da dor, não porque a prisão era confortável, mas porque sua esperança estava em Deus, não nas circunstâncias. Talvez você esteja em uma \"prisão\" hoje: uma doença, uma dívida ou um luto que parece não ter fim. Em vez de focar na escuridão da meia-noite, tente focar na fidelidade de quem está com você. A libertação real não depende apenas de as portas se abrirem fisicamente, mas de o coração se abrir para a paz que Jesus oferece, mesmo no sofrimento.",
+ "guarde": "A verdadeira liberdade começa quando o coração se volta para Deus, mesmo com o corpo em prisão.",
+ "ore": "Paulo, que cantou na prisão de Filipos, ensina-me a manter minha esperança firme em Cristo, mesmo quando as portas da vida parecem fechadas e o medo me assalta. Que eu possa clamar por luz e direção, confiando que a salvação está em Jesus.",
+ "quiz": {
+  "pergunta": "O que Paulo disse ao carcereiro quando ele estava prestes a se matar?",
+  "opcoes": [
+   "Não te faças nenhum mal, porque todos nós estamos aqui.",
+   "Não temas, pois o terremoto foi um sinal de tua libertação.",
+   "Foge agora, pois Deus abriu as portas para ti."
+  ],
+  "certa": 0,
+  "explicacao": "Paulo usou a voz para impedir o suicídio do carcereiro, garantindo a presença de todos os presos, o que levou o carcereiro a se converter."
+ },
+ "refs": [
+  "Atos 16:31-33",
+  "Filipenses 1:12-14"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-30T18:59:05.518Z",
+  "rounds": 1
+ }
+}

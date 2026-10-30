@@ -1,0 +1,137 @@
+{
+ "id": "44-16-1-10",
+ "ref": "Atos 16:1-10",
+ "book": "44",
+ "chapter": 16,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E ele veio a Derbe e Listra; e eis que estava ali um certo discípulo, de nome Timóteo, filho de uma certa mulher judia crente, mas de pai grego."
+  },
+  {
+   "n": 2,
+   "t": "Do qual era bem testemunhado pelos irmãos que estavam em Listra e Icônio."
+  },
+  {
+   "n": 3,
+   "t": "A este Paulo quis que fosse com ele; e tomando-o, circuncidou-o, por causa dos judeus, que estavam naqueles lugares; porque todos conheciam o pai dele, que era grego."
+  },
+  {
+   "n": 4,
+   "t": "E eles, passando pelas cidades, entregavam-lhes as ordenanças que foram determinadas pelos apóstolos e anciãos em Jerusalém, para que as guardassem."
+  },
+  {
+   "n": 5,
+   "t": "E assim as Igrejas eram firmadas na fé, e cada dia aumentavam em número."
+  },
+  {
+   "n": 6,
+   "t": "E passando pela Frígia, e pela região da Galácia, foi-lhes impedido pelo Espírito Santo de falarem a palavra na Ásia."
+  },
+  {
+   "n": 7,
+   "t": "E quando eles vieram a Mísia, tentaram ir à Bitínia; mas o Espírito não lhes permitiu."
+  },
+  {
+   "n": 8,
+   "t": "E tendo passado por Mísia, desceram a Trôade."
+  },
+  {
+   "n": 9,
+   "t": "E uma visão foi vista por Paulo durante a noite: um homem Macedônio se pôs diante dele ,rogando-lhe, e dizendo: Passa à Macedônia, e ajuda-nos!"
+  },
+  {
+   "n": 10,
+   "t": "E quando ele viu a visão, logo procuramos partir para a Macedônia, concluindo que o Senhor estava nos chamando para anunciarmos o Evangelho a eles."
+  }
+ ],
+ "titulo": "O chamado que cruzou o mar",
+ "temas": [
+  "missão",
+  "direção",
+  "espírito santo",
+  "macedônia"
+ ],
+ "pergunta": "Como você reage quando o plano de Deus parece contradizer sua lógica ou seus desejos?",
+ "entender": "Em Atos 16, Paulo e Silas estão em Trôade, na Ásia Menor. Antes disso, o Espírito Santo tinha impedido que pregassem a Palavra na Ásia e na Bitínia. Eles estavam seguindo um caminho, mas Deus estava direcionando outro. A noite foi decisiva: Paulo teve uma visão de um homem macedônio rogando: \"Passa à Macedônia, e ajuda-nos!\" (Atos 16.9). \n\nEssa cena mostra que a missão cristã não é apenas sobre esforço humano, mas sobre obediência à direção do Espírito. Paulo e seus companheiros concluíram que o Senhor os chamava para anunciar o Evangelho ali. Essa foi a primeira vez que a mensagem de Jesus cruzou o mar Egeu para chegar à Europa, marcando um ponto de virada na história da igreja primitiva. A visão não era apenas um sinal geográfico, mas uma revelação de quem precisava ouvir a boa nova.",
+ "ligar": {
+  "texto": "Este trecho aponta para Jesus ao mostrar que a expansão do Evangelho é guiada por Ele. A visão de Paulo reflete o grande mandamento de Jesus em Mateus 28.19, de fazer discípulos de todas as nações. A Macedônia se tornaria o berço de igrejas que, séculos depois, ainda testificam da graça de Cristo. A obediência de Paulo demonstra que, assim como Jesus enviou os discípulos, o Espírito Santo continua enviando a igreja para proclamar a salvação que só é encontrada em Cristo.",
+  "selo": false
+ },
+ "viver": "Paulo e seus companheiros estavam prontos para partir, mesmo quando o caminho parecia bloqueado. Eles não insistiram em ir para a Ásia ou Bitínia, mas desceram a Trôade e agiram logo após a visão. Isso nos convida a examinar nossa prontidão: estamos dispostos a mudar de rota quando percebemos que Deus nos guia para outro lugar? Em vez de insistir em nossos planos originais, podemos perguntar: onde está o clamor que o Senhor quer que eu atenda hoje? Pode ser um vizinho, um colega ou uma nova área de serviço. A obediência prática começa ao reconhecer a direção e dar o primeiro passo, mesmo que seja contra a nossa expectativa inicial.",
+ "guarde": "Deus abre portas para onde Sua Palavra ainda não chegou, e nós somos os mensageiros.",
+ "ore": "Paulo, que viu a visão em Trôade, ensina-me a ouvir mais do que a falar. Espírito Santo, guia meus passos na Macedônia e em todos os lugares onde eu estiver. Ajuda-me a reconhecer os clamores ao redor e a obedecer com prontidão, anunciando a esperança que só Jesus oferece.",
+ "quiz": {
+  "pergunta": "O que impediu Paulo e Silas de pregar na Ásia e na Bitínia?",
+  "opcoes": [
+   "O Espírito Santo",
+   "A perseguição local",
+   "A falta de recursos financeiros"
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma explicitamente em Atos 16.6-7 que foi-lhes impedido pelo Espírito Santo de falarem a palavra nesses lugares."
+ },
+ "refs": [
+  "Mateus 28:19-20",
+  "Atos 13:4-5",
+  "Romanos 10:14-15"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-30T18:56:50.992Z",
+  "rounds": 2
+ }
+}

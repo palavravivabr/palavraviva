@@ -1,0 +1,137 @@
+{
+ "id": "44-15-32-41",
+ "ref": "Atos 15:32-41",
+ "book": "44",
+ "chapter": 15,
+ "verses": [
+  {
+   "n": 32,
+   "t": "E então Judas e Silas, sendo também profetas, com muitas palavras exortaram e firmaram aos irmãos."
+  },
+  {
+   "n": 33,
+   "t": "E ficando ali por algum tempo, permitiram que voltassem em paz dos irmãos para os apóstolos."
+  },
+  {
+   "n": 34,
+   "t": "Mas a Silas pareceu bem continuar ali."
+  },
+  {
+   "n": 35,
+   "t": "E Paulo e Barnabé ficaram em Antioquia, ensinando e evangelizando, com também muitos outros, a palavra do Senhor."
+  },
+  {
+   "n": 36,
+   "t": "E depois de alguns dias, Paulo disse a Barnabé: Voltemos a visitar a nossos irmãos em cada cidade onde tenhamos anunciado a palavra do Senhor, para ver como estão."
+  },
+  {
+   "n": 37,
+   "t": "E Barnabé aconselhou para que tomassem consigo a João, chamado Marcos."
+  },
+  {
+   "n": 38,
+   "t": "Mas Paulo achou adequado que não tomassem consigo a aquele que desde a Panfília tinha se separado deles, e não tinha ido com eles para aquela obra."
+  },
+  {
+   "n": 39,
+   "t": "Houve então entre eles tal discórdia, que eles se separaram um do outro; e Barnabé, tomando consigo a Marcos, navegou para o Chipre."
+  },
+  {
+   "n": 40,
+   "t": "Mas Paulo, escolhendo a Silas, partiu-se, enviado pelos irmãos para a graça de Deus."
+  },
+  {
+   "n": 41,
+   "t": "E ele passou pela Síria e Cilícia, firmando as igrejas."
+  }
+ ],
+ "titulo": "A separação que multiplicou a missão",
+ "temas": [
+  "cooperação",
+  "discernimento",
+  "perdão",
+  "missão"
+ ],
+ "pergunta": "O que acontece quando líderes de confiança discordam sobre quem levar na equipe?",
+ "entender": "Após o concílio de Jerusalém, Paulo e Barnabé estão em Antioquia. Paulo propõe visitar as igrejas novamente. Barnabé sugere levar João Marcos, mas Paulo se opõe porque Marcos os havia deixado antes, na Panfília. O texto relata que houve \"tal discórdia, que eles se separaram um do outro\". Não foi uma quebra de comunhão na fé, mas uma decisão prática sobre a equipe de trabalho. Barnabé foi para Chipre com Marcos; Paulo escolheu Silas e partiu, enviado pelos irmãos para a graça de Deus.\n\nO desfecho é surpreendente: ambas as rotas frutificaram. Paulo firmou igrejas na Síria e Cilícia, enquanto Barnabé e Marcos continuaram sua jornada. O texto não diz que um estava certo e o outro errado, mas mostra que Deus pode usar caminhos diferentes para avançar o evangelho. A separação não parou a obra, apenas a redistribuiu entre diferentes líderes.",
+ "ligar": {
+  "texto": "Este episódio aponta para a suficiência da graça de Deus. Paulo foi \"enviado pelos irmãos para a graça de Deus\", indicando que a missão não depende da perfeição humana, mas do poder divino. Assim como Jesus enviou discípulos imperfeitos para pregar o Reino, Ele usa pessoas reais, com suas limitações e histórico, para espalhar a boa nova. A unidade da igreja não exige que todos concordem em cada detalhe operacional, mas que todos olhem para Cristo como centro da fé.",
+  "selo": false
+ },
+ "viver": "Talvez você esteja evitando uma colaboração porque alguém errou no passado. Paulo tinha motivos para a prudência, mas Barnabé via potencial. No seu trabalho ou ministério, avalie se está se apegando a uma mágoa antiga ou se está discernindo o momento certo para dar outra chance. Deus pode estar trabalhando naquela pessoa de formas que você ainda não vê. Equilibre a firmeza nos princípios com a misericórdia nas pessoas, confiando que a missão é de Deus, não sua.",
+ "guarde": "Deus pode usar caminhos separados para cumprir o mesmo propósito do Reino.",
+ "ore": "Senhor, ao lembrar da separação entre Paulo e Barnabé em Antioquia, ensina-me o equilíbrio entre prudência e perdão. Ajuda-me a não deixar que erros passados bloqueiem o Teu trabalho hoje. Que eu colabore com outros, mesmo quando vejo as coisas de forma diferente, confiando que Tu cuidas da missão e usas pessoas imperfeitas para a Tua glória.",
+ "quiz": {
+  "pergunta": "Qual foi o motivo da separação entre Paulo e Barnabé?",
+  "opcoes": [
+   "Discordância sobre a doutrina do batismo.",
+   "Divergência sobre levar João Marcos na viagem.",
+   "Desejo de Barnabé de liderar sozinho."
+  ],
+  "certa": 1,
+  "explicacao": "O texto afirma que a discordância ocorreu porque Barnabé quis levar Marcos, enquanto Paulo achou adequado não o levar por ele ter se separado antes."
+ },
+ "refs": [
+  "Atos 13:13",
+  "2 Timóteo 4:11",
+  "Colossenses 4:10"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-30T18:55:53.490Z",
+  "rounds": 2
+ }
+}

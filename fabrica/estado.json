@@ -2366,7 +2366,7 @@
   },
   "44-12-9-17": {
    "execucoes": 1,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: PRAYER_FIDELITY: A oração está dirigida diretamente a Pedro ('Pedro, [...] ajuda-me') em vez de ser dirigida a Deus."
   },
   "44-12-18-25": {
    "execucoes": 0,
@@ -2442,19 +2442,27 @@
   },
   "44-15-32-41": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: REFERENCE_BOUNDARY: Atribui ao trecho a informação de que Marcos era primo de Barnabé, fato que consta apenas em Colossenses 4:10, sem sinalizar a origem fora do texto-alvo. | UNSUPPORTED_CLAIM: Afirma sem base no texto bíblico nem certeza histórica que Marcos escreveu seu evangelho na ilha de Chipr",
+   "estado": "pronto",
+   "titulo": "A separação que multiplicou a missão"
   },
   "44-16-1-10": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: viver:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "O chamado que cruzou o mar"
   },
   "44-16-11-20": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "Lídia, a mulher cujo coração foi aberto"
   },
   "44-16-21-30": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "O grito da meia-noite que abriu portas"
   },
   "44-16-31-40": {
    "execucoes": 0,
@@ -2475,28 +2483,44 @@
   "44-18-1-9": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "44-18-10-19": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "44-18-20-28": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "44-19-1-10": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "44-19-11-21": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 791,
-   "entrada": 2057225,
-   "saida": 698029
+   "chamadas": 797,
+   "entrada": 2073867,
+   "saida": 702817
   },
   "groq-qwen": {
-   "chamadas": 784,
-   "entrada": 1952151,
-   "saida": 637054
+   "chamadas": 791,
+   "entrada": 1970236,
+   "saida": 642822
   },
   "gemini": {
-   "chamadas": 676,
-   "entrada": 2194290,
-   "saida": 858130
+   "chamadas": 683,
+   "entrada": 2216690,
+   "saida": 868071
   },
   "cloudflare": {
-   "chamadas": 417,
-   "entrada": 1455851,
-   "saida": 154707
+   "chamadas": 421,
+   "entrada": 1469804,
+   "saida": 156191
   },
   "mistral": {
    "chamadas": 0,
