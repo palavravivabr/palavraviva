@@ -1,0 +1,138 @@
+{
+ "id": "44-9-23-32",
+ "ref": "Atos 9:23-32",
+ "book": "44",
+ "chapter": 9,
+ "verses": [
+  {
+   "n": 23,
+   "t": "E passados vários dias, os judeus tiveram conselho entre si para o matarem."
+  },
+  {
+   "n": 24,
+   "t": "Mas as ciladas deles foram conhecidas por Saulo; e eles vigiavam as portas, tanto de dia como de noite, para poderem matá-lo."
+  },
+  {
+   "n": 25,
+   "t": "Porém os discípulos, tomando-o de noite, levaram-no abaixo pelo muro em um cesto."
+  },
+  {
+   "n": 26,
+   "t": "E Saulo, tendo vindo a Jerusalém, procurava se juntar aos discípulos; mas todos tinham medo dele, não crendo que fosse discípulo."
+  },
+  {
+   "n": 27,
+   "t": "Mas Barnabás, tomando-o consigo, trouxe -o aos apóstolos, e contou-lhes como no caminho tinha visto ao Senhor, e tinha lhe falado, e como em Damasco tinha falado ousadamente no nome de Jesus."
+  },
+  {
+   "n": 28,
+   "t": "E ele estava junto deles, entrando e saindo em Jerusalém;"
+  },
+  {
+   "n": 29,
+   "t": "E falando ousadamente no nome do Senhor Jesus; falava e discutia também contra os gregos; mas eles procuravam matá-lo."
+  },
+  {
+   "n": 30,
+   "t": "E os irmãos, ao perceberem isto , o levaram até Cesareia, e o enviaram a Tarso."
+  },
+  {
+   "n": 31,
+   "t": "Então as igrejas por toda a Judeia, e Galileia, e Samaria, tinham paz, e eram edificadas; e andando no temor do Senhor, e na consolação do Espírito Santo, se multiplicavam."
+  },
+  {
+   "n": 32,
+   "t": "E aconteceu que, Pedro, passando por todos os lugares , veio também aos santos que habitavam em Lida."
+  }
+ ],
+ "titulo": "O cesto que salvou a missão",
+ "temas": [
+  "proteção",
+  "comunidade",
+  "coragem",
+  "testemunho"
+ ],
+ "pergunta": "O que acontece quando aqueles que deveriam proteger passam a ameaçar a vida de um irmão?",
+ "entender": "Depois da conversão de Saulo, ele pregava em Damasco, mas os judeus locais planejaram matá-lo. O texto diz que os discípulos souberam do perigo e, à noite, o levaram para fora da cidade \"em um cesto\" por cima do muro (Atos 9:25). Essa cena mostra que a igreja primitiva, mesmo com medo, agiu para proteger a vida de Saulo.\n\nAo chegar a Jerusalém, Saulo enfrentou outro desafio: o medo. Os irmãos não acreditavam que ele fosse verdadeiramente um discípulo. Foi Barnabás quem o levou aos apóstolos, contando o que Saulo tinha visto e falado. A partir daí, Saulo começou a falar ousadamente em Jerusalém, até que novos perigos o levaram a ser enviado para Tarso. Enquanto isso, as igrejas em outras regiões viviam em paz e crescimento.",
+ "ligar": {
+  "texto": "Este trecho aponta para Jesus de duas formas. Primeiro, através da transformação de Saulo, que agora vive para o Nome de Jesus, mostrando o poder da graça que muda até o maior perseguidor. Segundo, na figura do cesto, vemos a igreja agindo como corpo de Cristo: quando um membro está em perigo, o corpo inteiro se move para protegê-lo. A paz das igrejas mencionada no versículo 31 é resultado do trabalho do Espírito Santo, que edifica a comunidade ao redor de Cristo, permitindo que a mensagem se espalhe mesmo sob pressão.",
+  "selo": true
+ },
+ "viver": "Às vezes, nossa fé nos isola ou nos torna alvos de rejeição, assim como Saulo foi visto com desconfiança em Jerusalém. A lição é que a fé não é um passeio solo. Precisamos de uma comunidade que creia em nossa transformação e esteja disposta a nos acolher, assim como Barnabás fez. Se você está passando por um momento de dúvida ou rejeição, procure quem possa orar por você e testemunhar sua caminhada. A segurança do cristão não está na ausência de perigo, mas na presença de irmãos que agem com coragem e amor prático.",
+ "guarde": "Nossa segurança vem dos irmãos que agem com coragem e amor, não da ausência de perigos.",
+ "ore": "Barnabás, obrigado por levar Saulo aos apóstolos com confiança. Ensina-me a acolher quem mudou de vida, mesmo quando há receio. Que eu seja parte de uma comunidade que protege a vida dos irmãos e caminha com eles em segurança, confiando no cuidado de Deus.",
+ "quiz": {
+  "pergunta": "Quem levou Saulo aos apóstolos em Jerusalém para que o aceitassem?",
+  "opcoes": [
+   "Pedro",
+   "Barnabás",
+   "Ananias"
+  ],
+  "certa": 1,
+  "explicacao": "O texto afirma em Atos 9:27 que Barnabás, tomando-o consigo, trouxe-o aos apóstolos e contou sua experiência, sendo a ponte de aceitação para Saulo."
+ },
+ "refs": [
+  "Atos 11:22-24",
+  "Atos 15:37",
+  "Gálatas 1:18",
+  "Atos 13:1-3"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-30T01:04:42.597Z",
+  "rounds": 1
+ }
+}

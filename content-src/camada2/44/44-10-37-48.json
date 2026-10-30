@@ -1,0 +1,146 @@
+{
+ "id": "44-10-37-48",
+ "ref": "Atos 10:37-48",
+ "book": "44",
+ "chapter": 10,
+ "verses": [
+  {
+   "n": 37,
+   "t": "Vós sabeis da palavra que veio por toda a Judeia, começando desde a Galileia, depois do batismo que João pregou."
+  },
+  {
+   "n": 38,
+   "t": "E sobre Jesus de Nazaré; como Deus o ungiu com o Espírito Santo, e com poder; o qual percorreu os lugares fazendo o bem, e curando a todos os oprimidos pelo diabo; porque Deus era com ele."
+  },
+  {
+   "n": 39,
+   "t": "E nós somos testemunhas de todas as coisas que ele fez; tanto na terra dos judeus, como em Jerusalém; ao qual mataram, pendurando -o em um madeiro."
+  },
+  {
+   "n": 40,
+   "t": "A este Deus ressuscitou ao terceiro dia, e fez com que fosse manifesto;"
+  },
+  {
+   "n": 41,
+   "t": "Não a todo o povo, mas sim a testemunhas determinadas por Deus com antecedência: a nós, que juntamente com ele comemos e bebemos, depois dele ter ressuscitado dos mortos."
+  },
+  {
+   "n": 42,
+   "t": "E ele nos mandou pregar ao povo, e dar testemunho de que ele é o que foi ordenado por Deus para ser Juiz dos vivos e dos mortos."
+  },
+  {
+   "n": 43,
+   "t": "A este todos os profetas dão testemunho, de que todos os que nele crerem receberão perdão dos pecados por meio do seu nome."
+  },
+  {
+   "n": 44,
+   "t": "E estando Pedro ainda falando estas palavras, o Espírito Santo caiu sobre todos os que ouviam a palavra."
+  },
+  {
+   "n": 45,
+   "t": "E os crentes que eram da circuncisão, tantos quantos tinham vindo com Pedro, ficaram muito admirados de que também sobre os gentios fosse derramado o dom do Espírito Santo."
+  },
+  {
+   "n": 46,
+   "t": "Porque eles os ouviam falar em diversas línguas, e a engrandecer a Deus. Então Pedro respondeu:"
+  },
+  {
+   "n": 47,
+   "t": "Por acaso pode alguém impedir a água, para que não sejam batizados estes, que também, assim como nós, receberam o Espírito Santo?"
+  },
+  {
+   "n": 48,
+   "t": "E mandou que fossem batizados no nome do Senhor. Então lhe pediram que continuasse com eles por alguns dias."
+  }
+ ],
+ "titulo": "O Espírito Santo cruza fronteiras em Cesareia",
+ "temas": [
+  "inclusão",
+  "espírito santo",
+  "testemunho",
+  "batismo",
+  "graça"
+ ],
+ "pergunta": "Por que a chegada do Espírito Santo sobre gentios causou tanto espanto nos judeus?",
+ "entender": "Pedro está na casa de Cornélio, um centurião romano, e conta a história de Jesus para ele e seus convidados. Pedro lembra que Deus ungiu Jesus com poder, que ele fez o bem e que foi morto, mas Deus o ressuscitou ao terceiro dia. Pedro afirma que Jesus foi ordenado por Deus para ser Juiz dos vivos e dos mortos, e que os profetas testemunham quem nele crê recebe perdão dos pecados.\n\nEnquanto Pedro ainda fala, o Espírito Santo cai sobre todos os ouvintes, incluindo os gentios. Eles começam a falar em línguas e engrandecer a Deus. Os judeus que estavam com Pedro ficam admirados, pois esperavam que o Espírito fosse apenas para o povo de Israel. Pedro percebe que não podem impedir o batismo, pois eles já receberam o mesmo dom. Assim, manda que sejam batizados no nome do Senhor, marcando a abertura do evangelho para todas as nações.",
+ "ligar": {
+  "texto": "Este trecho é central para o evangelho porque mostra que a salvação por meio de Jesus não tem limites étnicos ou culturais. Pedro prega que Jesus é o Juiz dos vivos e dos mortos e que nele há perdão dos pecados. A presença do Espírito Santo nos gentios confirma que a graça de Deus alcança todos os que crêem, rompendo as barreiras que separavam os povos. Isso cumpre a promessa de que o evangelho seria anunciado a todas as nações.",
+  "selo": true
+ },
+ "viver": "Talvez você tenha medo de compartilhar sua fé com pessoas muito diferentes de você, pensando que Deus não as abençoaria. A história de Cornélio nos ensina que o Espírito Santo age onde a Palavra é pregada com fidelidade, independentemente da origem das pessoas. Confie no poder de Deus para tocar corações, mesmo quando as diferenças parecem grandes. Não se prenda a barreiras humanas, mas deixe o Espírito Santo guiar sua missão. A graça de Jesus é para todos os que crêem, sem exceção.",
+ "guarde": "O Espírito Santo derramado sobre os gentios provou que a graça de Jesus é para todos os que crêem.",
+ "ore": "Cornélio, obrigado por abrir sua casa e seu coração à Palavra. Ensina-me a receber o evangelho com humildade, sem importar minha origem ou passado. Ajuda-me a ser um canal da tua graça para pessoas diferentes de mim, confiando que o Espírito Santo age onde a fé existe. Que eu não coloque barreiras entre o teu amor e quem tu chamas.",
+ "quiz": {
+  "pergunta": "O que aconteceu quando Pedro estava pregando para Cornélio e seus convidados?",
+  "opcoes": [
+   "O Espírito Santo caiu sobre todos os que ouviam a palavra.",
+   "Pedro foi preso pelos soldados romanos.",
+   "Cornélio pediu para que Pedro saísse da casa."
+  ],
+  "certa": 0,
+  "explicacao": "O texto relata que, enquanto Pedro falava, o Espírito Santo caiu sobre todos os ouvintes, inclusive os gentios, o que causou admiração nos crentes judeus presentes."
+ },
+ "refs": [
+  "Atos 2:17-18",
+  "João 3:16",
+  "Gálatas 3:28"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-30T01:08:51.291Z",
+  "rounds": 1
+ }
+}

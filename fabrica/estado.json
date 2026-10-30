@@ -2306,31 +2306,45 @@
   },
   "44-9-23-32": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: PRAYER_FIDELITY: A oração foi redigida invocando Barnabé ('Barnabé, ao levar Saulo aos apóstolos, ajuda-me') em vez de se dirigir a Deus.",
+   "estado": "pronto",
+   "titulo": "O cesto que salvou a missão"
   },
   "44-9-33-43": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: REFERENCE_BOUNDARY: O ensino cita erroneamente o contexto anterior como Atos 8:30-32, quando na verdade corresponde a Atos 9:30-32. | PRAYER_FIDELITY: A oração inicia-se descrevendo/endereçando a atitude de Pedro em vez de ser direcionada a Deus.",
+   "estado": "pronto",
+   "titulo": "A cama de Enéas e o tecido de Dorcas"
   },
   "44-10-1-12": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: ore:citacao_longa",
+   "estado": "pronto",
+   "titulo": "O anjo que quebrou a barreira do medo"
   },
   "44-10-13-24": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "Quando Deus quebra as barreiras da lei"
   },
   "44-10-25-36": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:ore:44-10-1-12",
+   "estado": "pronto",
+   "titulo": "A visão que derrubou a parede entre os povos"
   },
   "44-10-37-48": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "O Espírito Santo cruza fronteiras em Cesareia"
   },
   "44-11-1-10": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "O lençol que desceu do céu"
   },
   "44-11-11-20": {
    "execucoes": 0,
@@ -2343,28 +2357,56 @@
   "44-12-1-8": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "44-12-9-17": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "44-12-18-25": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "44-13-1-10": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "44-13-11-21": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "44-13-22-31": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "44-13-32-42": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "44-13-43-52": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 749,
-   "entrada": 1936881,
-   "saida": 662024
+   "chamadas": 756,
+   "entrada": 1956889,
+   "saida": 668167
   },
   "groq-qwen": {
-   "chamadas": 741,
-   "entrada": 1836139,
-   "saida": 600853
+   "chamadas": 749,
+   "entrada": 1856755,
+   "saida": 607680
   },
   "gemini": {
-   "chamadas": 630,
-   "entrada": 2044272,
-   "saida": 796608
+   "chamadas": 641,
+   "entrada": 2080676,
+   "saida": 808641
   },
   "cloudflare": {
-   "chamadas": 395,
-   "entrada": 1378089,
-   "saida": 146545
+   "chamadas": 402,
+   "entrada": 1402954,
+   "saida": 149142
   },
   "mistral": {
    "chamadas": 0,

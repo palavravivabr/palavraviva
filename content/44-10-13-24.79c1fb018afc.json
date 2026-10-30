@@ -1,0 +1,146 @@
+{
+ "id": "44-10-13-24",
+ "ref": "Atos 10:13-24",
+ "book": "44",
+ "chapter": 10,
+ "verses": [
+  {
+   "n": 13,
+   "t": "E veio-lhe uma voz, dizendo : Pedro, mata e come."
+  },
+  {
+   "n": 14,
+   "t": "Mas Pedro disse: De maneira nenhuma, Senhor; porque nunca comi coisa alguma ordinária ou impura."
+  },
+  {
+   "n": 15,
+   "t": "E a voz voltou a dizer ,pela segunda vez: O que Deus purificou, não faças tu como se fosse ordinário."
+  },
+  {
+   "n": 16,
+   "t": "E isto aconteceu três vezes; e o objeto voltou a ser recolhido acima ao céu."
+  },
+  {
+   "n": 17,
+   "t": "E enquanto Pedro estava pensando perplexo consigo mesmo o que seria aquela visão que ele tinha visto, eis que os homens que tinham sido enviados por Cornélio, perguntando pela casa de Simão, pararam à porta."
+  },
+  {
+   "n": 18,
+   "t": "E chamando, perguntaram se Simão, que tinha por sobrenome Pedro, estava hospedado ali."
+  },
+  {
+   "n": 19,
+   "t": "E estando Pedro pensando naquela visão, o Espírito lhe disse: Eis que três homens te buscam."
+  },
+  {
+   "n": 20,
+   "t": "Então levanta-te, desce, e vai com eles, sem duvidar; porque eu os enviei."
+  },
+  {
+   "n": 21,
+   "t": "E Pedro, tendo descido aos homens que tinham lhe sido enviados por Cornélio, disse: Eis que eu sou a quem buscais; qual é o motivo pelo qual estais aqui?"
+  },
+  {
+   "n": 22,
+   "t": "E eles disseram: Cornélio, que é centurião, homem justo e temente a Deus, e que tem bom testemunho de toda a nação dos judeus, foi revelado por um santo anjo para te chamar até a casa dele, e ouvir de tuas palavras."
+  },
+  {
+   "n": 23,
+   "t": "Então chamando-os para dentro, recebeu-os em casa. Mas no dia seguinte, Pedro foi com eles; e foram com ele alguns dos irmãos de Jope."
+  },
+  {
+   "n": 24,
+   "t": "E no dia seguinte chegaram a Cesareia. E Cornélio estava esperando por eles, tendo chamado a seus parentes e amigos mais íntimos."
+  }
+ ],
+ "titulo": "Quando Deus quebra as barreiras da lei",
+ "temas": [
+  "inclusão",
+  "visão",
+  "espírito",
+  "mudança",
+  "graça"
+ ],
+ "pergunta": "Por que Pedro resistiu à primeira ordem que recebeu na visão?",
+ "entender": "Pedro estava em Jope, com fome, quando teve uma visão de um lençol descendo do céu com animais impuros. A voz de Deus lhe mandou matar e comer, mas Pedro recusou, lembrando que nunca havia comido nada comum ou impuro. Essa recusa reflete a lei mosaica que separava judeus e gentios, uma barreira que Pedro ainda não superava.\n\nA voz repete a ordem três vezes, dizendo que o que Deus purificou não deve ser tratado como impuro. Enquanto Pedro se pergunta o significado, os mensageiros de Cornélio chegam. O Espírito Santo confirma a direção: desça e vá com eles, sem duvidar. Pedro obedece, levando alguns irmãos para Cesareia, onde encontra um homem temente a Deus, mas não judeu.",
+ "ligar": {
+  "texto": "Este episódio mostra a ação do Espírito Santo quebrando divisões humanas para que o evangelho chegue a todos. Jesus já havia dito que a lei foi cumprida Nele; agora, o Espírito prepara os apóstolos para entender que a graça de Cristo não tem fronteiras étnicas ou religiosas. A purificação não vem de regras alimentares, mas da reconciliação com Deus através da fé em Jesus.",
+  "selo": false
+ },
+ "viver": "Muitas vezes, criamos nossas próprias listas de 'quem merece' a bênção de Deus, baseadas em aparência, status ou conhecimento religioso. A visão de Pedro nos convida a soltar o controle: quem Deus chama, devemos receber. Hoje, observe se você está tratando alguém como 'impuro' ou inacessível por motivos superficiais. O Espírito pode estar te pedindo para dar um passo de fé, estender a mão a quem você considera diferente, confiando que Deus já purificou o coração daquela pessoa.",
+ "guarde": "O que Deus purificou com a graça de Cristo, não devemos tratar como impuro ou inacessível.",
+ "ore": "Espírito que guiou Pedro em Jope, abre meus olhos para ver além das minhas barreiras. Ajuda-me a obedecer ao chamado de ir a quem eu não esperava, confiando que Tua graça é maior que meus preconceitos. Que minha fé se fortaleça ao servir a todos, sem distinção.",
+ "quiz": {
+  "pergunta": "O que a voz de Deus disse a Pedro na segunda vez durante a visão?",
+  "opcoes": [
+   "O que Deus purificou, não faças tu como se fosse ordinário",
+   "Mata e come todos os animais",
+   "Vá imediatamente a Cesareia"
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz explicitamente que a voz repetiu a instrução sobre o que Deus purificou, não mandando ir a Cesareia (que veio depois, por meio do Espírito) nem apenas matar e comer sem a explicação teológica."
+ },
+ "refs": [
+  "Atos 11:1-18",
+  "Gálatas 2:11-14",
+  "Efésios 2:14-16"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-30T01:07:47.858Z",
+  "rounds": 1
+ }
+}

@@ -1,0 +1,142 @@
+{
+ "id": "44-9-33-43",
+ "ref": "Atos 9:33-43",
+ "book": "44",
+ "chapter": 9,
+ "verses": [
+  {
+   "n": 33,
+   "t": "E ali ele achou a um certo homem chamado Enéas, que havia oito anos que jazia numa cama, que era paralítico."
+  },
+  {
+   "n": 34,
+   "t": "E Pedro lhe disse: Enéas, Jesus Cristo te cura; levanta-te, e faz tua cama. E logo ele se levantou."
+  },
+  {
+   "n": 35,
+   "t": "E todos os que habitavam em Lida e Sarona o viram, os quais se converteram ao Senhor."
+  },
+  {
+   "n": 36,
+   "t": "E havia em Jope uma certa discípula, de nome Tabita, que traduzido se diz Dorcas. Esta estava cheia de boas obras e doações que ela fazia aos necessitados ."
+  },
+  {
+   "n": 37,
+   "t": "E aconteceu naqueles dias, que tendo ela ficado doente, morreu; e tendo a lavado, puseram-na no compartimento superior."
+  },
+  {
+   "n": 38,
+   "t": "E como Lida era perto de Jope, os discípulos, ao ouvirem que Pedro estava ali, mandaram-lhe dois homens, rogando -lhe que não demorasse a vir a eles."
+  },
+  {
+   "n": 39,
+   "t": "E Pedro, tendo se levantado, foi com eles; o qual chegou, e o levaram ao compartimento superior, e todas as viúvas o rodearam, chorando, e mostrando -lhe as túnicas e roupas que Dorcas tinha feito quando estava com elas."
+  },
+  {
+   "n": 40,
+   "t": "Mas Pedro, pondo para fora a todas; pôs-se de joelhos, e orou; e virando-se para o corpo, disse: Tabita, levanta-te;E ela abriu seus olhos, e vendo a Pedro, sentou-se."
+  },
+  {
+   "n": 41,
+   "t": "E ele, dando-lhe a mão, levantou-a; e tendo chamado aos santos, e às viúvas, apresentou-a viva."
+  },
+  {
+   "n": 42,
+   "t": "E isto ficou conhecido por toda Jope, e muitos creram no Senhor."
+  },
+  {
+   "n": 43,
+   "t": "E aconteceu que ele ficou muitos dias em Jope, com um certo Simão curtidor."
+  }
+ ],
+ "titulo": "A cama de Enéas e o tecido de Dorcas",
+ "temas": [
+  "cura",
+  "serviço",
+  "ressurreição",
+  "fé",
+  "comunidade"
+ ],
+ "pergunta": "O que Pedro fez antes de curar Enéas e ressuscitar Dorcas que revela a fonte do poder?",
+ "entender": "Em Lida, Pedro encontrou Enéas, um paralítico que jazia em cama há oito anos. A resposta de Pedro foi direta: \"Jesus Cristo te cura\". Ao ouvir, Enéas se levantou imediatamente. Esse milagre não era apenas físico; ele apontava para a autoridade de Cristo sobre a morte e a impotência humana. A notícia se espalhou por Lida e Sarona, levando muitas pessoas a se converterem ao Senhor.\n\nEm Jope, uma discípula chamada Tabita (Dorcas) morreu. Ela era conhecida por suas boas obras e doações. Os discípulos, sabendo que Pedro estava perto, o chamaram urgentemente. Pedro orou, virou-se para o corpo e disse: \"Tabita, levanta-te\". Ela abriu os olhos e sentou-se. Pedro a apresentou viva aos santos e viúvas, que choravam mostrando as roupas que ela tinha feito. Esse evento fortaleceu a fé de toda a cidade.",
+ "ligar": {
+  "texto": "O texto é explicitamente cristocêntrico. A cura de Enéas é atribuída diretamente a Jesus Cristo, que é o único capaz de curar. A ressurreição de Dorcas demonstra o poder de Deus sobre a morte, antecipando a grande ressurreição de Cristo. Em ambos os casos, a resposta da comunidade foi a fé no Senhor. O evangelho aqui não é apenas sobre milagres, mas sobre o reconhecimento de que Jesus é o Senhor que dá vida e cura.",
+  "selo": true
+ },
+ "viver": "Enéas esperou oito anos, mas a cura veio quando Pedro declarou a autoridade de Cristo. Dorcas serviu com as mãos, e seu impacto continuou mesmo após a morte. Talvez você sinta seus esforços por pequenos ou inúteis. Lembre-se: Deus usa o serviço humilde e a fé declarada para realizar o extraordinário. Não espere pela perfeição; entregue seus talentos e sua fé a Jesus, que é a fonte de toda cura e vida.",
+ "guarde": "A cura vem de Jesus Cristo, e Sua autoridade sobre a morte é a base da nossa esperança.",
+ "ore": "Enéas, que jazia em cama, ouviu o nome de Jesus e se levantou. Senhor, assim como a Palavra de Cristo curou o corpo de Enéas, cura agora as áreas paralisadas da minha vida. Dá-me fé para declarar Tua autoridade sobre meus medos e limitações.",
+ "quiz": {
+  "pergunta": "O que Pedro disse a Enéas antes do milagre acontecer?",
+  "opcoes": [
+   "O Senhor te abençoa",
+   "Levanta-te e anda",
+   "Jesus Cristo te cura"
+  ],
+  "certa": 2,
+  "explicacao": "O texto afirma que Pedro disse: 'Enéas, Jesus Cristo te cura; levanta-te, e faz tua cama.' A cura é atribuída a Jesus, não apenas a um comando genérico."
+ },
+ "refs": [
+  "Marcos 2:11",
+  "João 5:1-9",
+  "Atos 20:9-12"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-30T01:05:45.161Z",
+  "rounds": 1
+ }
+}

@@ -1,0 +1,145 @@
+{
+ "id": "44-10-1-12",
+ "ref": "Atos 10:1-12",
+ "book": "44",
+ "chapter": 10,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E havia um certo homem em Cesareia, de nome Cornélio, centurião, do esquadrão chamado Italiano;"
+  },
+  {
+   "n": 2,
+   "t": "Devoto, e temente a Deus, com toda a sua casa; e que fazia muitas doações ao povo, e continuamente orava a Deus."
+  },
+  {
+   "n": 3,
+   "t": "Ele viu claramente em visão, cerca da hora nona do dia, a um anjo de Deus, que vinha a ele, e lhe dizia: Cornélio!"
+  },
+  {
+   "n": 4,
+   "t": "E ele, olhando-lhe atentamente, e muito atemorizado, disse: O que é, Senhor?E disse-lhe: Tuas orações e doações subiram à memória diante de Deus."
+  },
+  {
+   "n": 5,
+   "t": "E agora envia homens a Jope, e manda chamar a Simão, que tem por sobrenome Pedro."
+  },
+  {
+   "n": 6,
+   "t": "Este está hospedado na casa de um Simão curtidor, cuja casa é junto ao mar; este te dirá o que deves fazer."
+  },
+  {
+   "n": 7,
+   "t": "E tendo partido o anjo que falava com Cornélio, ele chamou a dois de seus servos, e a um soldado devoto, dos que permaneciam continuamente com ele."
+  },
+  {
+   "n": 8,
+   "t": "E tendo lhes contado tudo, enviou-os a Jope."
+  },
+  {
+   "n": 9,
+   "t": "E no dia seguinte, enquanto estes iam pelo caminho, e chegando perto da cidade, Pedro subiu ao telhado para orar, quase à hora sexta."
+  },
+  {
+   "n": 10,
+   "t": "E tendo ele fome, quis comer; e enquanto estavam lhe preparando, caiu sobre ele um êxtase."
+  },
+  {
+   "n": 11,
+   "t": "E ele viu o céu aberto, e descia a ele um certo objeto, como um grande lençol, amarrado pelas quatro pontas, e abaixando-se à terra;"
+  },
+  {
+   "n": 12,
+   "t": "Em que havia de todos os animais quadrúpedes da terra, e animais selvagens, e répteis, e aves do céu."
+  }
+ ],
+ "titulo": "O anjo que quebrou a barreira do medo",
+ "temas": [
+  "visão",
+  "oração",
+  "inclusão",
+  "obediência"
+ ],
+ "pergunta": "Por que Deus escolheu um oficial romano para receber a primeira mensagem aos gentios?",
+ "entender": "Em Cesareia, vivia Cornélio, um centurião romano que, apesar de não ser judeu, era temente a Deus e fazia muitas doações. Ele orava continuamente e, numa tarde, viu um anjo que lhe disse: \"Tuas orações e doações subiram à memória diante de Deus\". A mensagem não era apenas um elogio, mas uma ordem: ir a Jope e buscar Pedro.\n\nNo mesmo dia, Pedro subiu ao telhado para orar. Tendo fome, ele entrou em êxtase e viu o céu aberto com um grande lençol descendo, cheio de animais considerados impuros pela lei judaica. Essa visão preparava Pedro para entender que Deus não faz acepção de pessoas, abrindo caminho para o evangelho chegar a todos.",
+ "ligar": {
+  "texto": "Este trecho é o prelúdio da chegada do evangelho aos gentios. Pedro, que ainda via a separação entre judeus e não-judeus, é confrontado por Deus para remover essa barreira. A visão prepara o coração de Pedro para pregar a Jesus a Cornélio, mostrando que a graça de Cristo quebra divisões humanas e culturais, oferecendo salvação a qualquer pessoa que crê, independentemente de sua origem.",
+  "selo": false
+ },
+ "viver": "Cornélio agiu imediatamente: chamou servos e enviou-os a Jope. Nossa fé também precisa de ação. Muitas vezes oramos e esperamos, mas Deus nos chama a dar passos concretos, mesmo quando o caminho parece estranho ou fora do nosso círculo social. Esteja disposto a seguir a direção de Deus, mesmo que isso signifique sair da sua zona de conforto e se aproximar de pessoas diferentes de você.",
+ "guarde": "Deus atende orações sinceras e usa histórias inesperadas para cumprir seu plano de amor.",
+ "ore": "Cornélio, obrigado por sua prontidão ao obedecer ao anjo. Ensina-me a não hesitar quando Deus me chama a agir, mesmo diante do desconhecido. Abre meus olhos para ver pessoas ao meu redor com os mesmos olhos que Tu vês, prontas para receber a graça de Jesus.",
+ "quiz": {
+  "pergunta": "O que a visão de Pedro no telhado simbolizava?",
+  "opcoes": [
+   "Que Deus purificou os gentios e não devemos os considerar impuros.",
+   "Que o céu estava literalmente coberto por um lençol físico.",
+   "Que Pedro deveria mudar sua dieta alimentar imediatamente."
+  ],
+  "certa": 0,
+  "explicacao": "A visão era simbólica. O contexto seguinte (Atos 10:15) explica que 'o que Deus purificou, não faças tu como se fosse ordinário', indicando a inclusão dos gentios."
+ },
+ "refs": [
+  "Atos 10:34-35",
+  "Atos 11:1-18",
+  "Gálatas 2:9-10"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-30T01:03:49.635Z",
+  "rounds": 1
+ }
+}
