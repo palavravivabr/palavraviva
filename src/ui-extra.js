@@ -1,162 +1,239 @@
-/* Controles do topo (tema, compartilhar, tamanho da letra) e aviso de leitura. Arquivo próprio para a página não precisar de script embutido (CSP). */
-(function () {
-  function $(q) { return document.querySelector(q); }
-  var de = document.documentElement, tb = $('#themeTop');
-  var SUN = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 3v2M12 19v2M3 12h2M19 12h2M5.6 5.6 7 7M17 17l1.4 1.4M18.4 5.6 17 7M7 17l-1.4 1.4"/></svg>', MOON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 14.5A8 8 0 0 1 9.5 4 8 8 0 1 0 20 14.5Z"/></svg>';
-  function eff() { var t = de.getAttribute('data-theme'); if (t === 'light' || t === 'dark') return t; return matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'; }
-  function paint() { var d = eff() === 'dark'; tb.innerHTML = d ? MOON : SUN; tb.setAttribute('aria-label', d ? 'Modo escuro. Toque para o modo claro' : 'Modo claro. Toque para o modo escuro'); }
-  tb.addEventListener('click', function () { var b = $('#thm button[data-m="' + (eff() === 'dark' ? 'light' : 'dark') + '"]'); if (b) b.click(); paint(); });
-  new MutationObserver(paint).observe(de, { attributes: true, attributeFilter: ['data-theme'] }); paint();
-  $('#shTop').addEventListener('click', function () { $('#shHomeApp').click(); });
-  var fr = $('#fsRange'), v0 = 1.125;
-  try { var v = parseFloat(localStorage.getItem('pv4-fs') || '1.125'); if (v >= 1 && v <= 1.5) v0 = v; } catch (e) { /* padrão */ }
-  fr.value = v0;
-  fr.addEventListener('input', function () { var v = parseFloat(fr.value); de.style.setProperty('--fs', v + 'rem'); try { localStorage.setItem('pv4-fs', String(v)); } catch (e) { /* sem armazenamento */ } });
-  var re = $('#resumeEb'), rs = $('#resume');
-  function chk() { rs.classList.toggle('nores', re.textContent !== 'Continuar leitura'); }
-  new MutationObserver(chk).observe(re, { childList: true, characterData: true, subtree: true }); chk();
-})();
 
-/* Leitura em voz alta com a tela apagada: um áudio mudo em laço mantém o app vivo em segundo plano
-   (como a música ambiente) e a notificação ganha os botões tocar/pausar/parar (Media Session). */
-(function () {
-  if (!('speechSynthesis' in window)) return;
-  var au = null, timer = null, misses = 0, ativo = false;
-  function mudo() {
-    var n = 8000, b = new ArrayBuffer(44 + n * 2), v = new DataView(b), i;
-    function s(o, t) { for (var k = 0; k < t.length; k++) v.setUint8(o + k, t.charCodeAt(k)); }
-    s(0, 'RIFF'); v.setUint32(4, 36 + n * 2, true); s(8, 'WAVE'); s(12, 'fmt '); v.setUint32(16, 16, true); v.setUint16(20, 1, true); v.setUint16(22, 1, true);
-    v.setUint32(24, 8000, true); v.setUint32(28, 16000, true); v.setUint16(32, 2, true); v.setUint16(34, 16, true); s(36, 'data'); v.setUint32(40, n * 2, true);
-    for (i = 0; i < n; i++) v.setInt16(44 + i * 2, (i % 2) ? 1 : -1, true); /* quase silêncio: não é zero digital */
-    return URL.createObjectURL(new Blob([b], { type: 'audio/wav' }));
-  }
-  function clique(q) { var e = document.querySelector(q); if (e) e.click(); }
-  function estado(st) { try { if (navigator.mediaSession) navigator.mediaSession.playbackState = st; } catch (e) { /* sem Media Session */ } }
-  function meta() {
-    if (!('mediaSession' in navigator) || typeof MediaMetadata === 'undefined') return;
-    var t = document.querySelector('#readTitle'), txt = (t && t.textContent) || 'Leitura bíblica';
-    try {
-      if (navigator.mediaSession.metadata && navigator.mediaSession.metadata.title === txt) return;
-      navigator.mediaSession.metadata = new MediaMetadata({ title: txt, artist: 'Palavra Viva', album: 'Leitura em voz alta', artwork: [{ src: new URL('icons/icon-512.png', location.href).href, sizes: '512x512', type: 'image/png' }] });
-    } catch (e) { /* ok */ }
-  }
-  function acoes() {
-    if (!('mediaSession' in navigator)) return;
-    function set(a, f) { try { navigator.mediaSession.setActionHandler(a, f); } catch (e) { /* ação não suportada */ } }
-    set('play', function () { if (speechSynthesis.paused) clique('#lsPlay'); });
-    set('pause', function () { if (speechSynthesis.speaking && !speechSynthesis.paused) clique('#lsPlay'); });
-    set('stop', function () { clique('#lsStop'); });
-  }
-  function parar() {
-    ativo = false; clearInterval(timer); timer = null; misses = 0;
-    if (au) { au.pause(); try { au.currentTime = 0; } catch (e) { /* ok */ } }
-    estado('none'); try { if (navigator.mediaSession) navigator.mediaSession.metadata = null; } catch (e) { /* ok */ }
-  }
-  function tick() {
-    if (speechSynthesis.speaking || speechSynthesis.pending) {
-      misses = 0;
-      if (speechSynthesis.paused) { if (au && !au.paused) au.pause(); estado('paused'); }
-      else { if (au && au.paused) { var p = au.play(); if (p && p.catch) p.catch(function () { /* sem permissão */ }); } estado('playing'); }
-      meta();
-    } else if (++misses >= 4) parar();
-  }
-  function iniciar() {
-    if (!au) { au = new Audio(); au.loop = true; au.preload = 'auto'; au.src = mudo(); }
-    var p = au.play(); if (p && p.catch) p.catch(function () { /* o clique do usuário libera na próxima */ });
-    if (!ativo) { ativo = true; acoes(); }
-    meta(); estado('playing');
-    if (!timer) timer = setInterval(tick, 1000);
-    misses = 0;
-  }
-  var fala = speechSynthesis.speak.bind(speechSynthesis);
-  speechSynthesis.speak = function (u) { iniciar(); return fala(u); };
-})();
+// Palavra Viva - ui-extra.js CORRIGIDO
+// Objetivo: separar 2 sons - Narração e Clima de Leitura
+// Voz aprovada: Kokoro Alex (masculina) + Dora (feminina) + Voz do celular
 
-/* Leitura gravada: áudios mp3 reais (vozes neurais gratuitas) dos capítulos. Tocam com a tela apagada e passam sozinhos para o próximo capítulo. */
-(function () {
-  function $(q) { return document.querySelector(q); }
-  var box = $('#listen'), play = $('#lsPlay'), stop = $('#lsStop'), info = $('#lsInfo'), tit = $('#readTitle');
-  if (!box || !play || !stop || !tit || typeof Audio === 'undefined') return;
-  var idx = null, au = new Audio(), url = null, on = false, auto = false, tk = 0, sel = null;
-  au.preload = 'auto';
-  function ref() {
-    var m = /^(.+?)\s+(\d+)$/.exec((tit.textContent || '').trim()); if (!m || !window.PVBooks) return null;
-    var bs = PVBooks.all(), i; for (i = 0; i < bs.length; i++) if (bs[i].name === m[1]) return { b: bs[i].id, c: +m[2], nome: bs[i].name };
-    return null;
+(function(){
+  // ---- CONFIG ----
+  const VOZES = {
+    dora: { id: 'dora', nome: 'Dora - Gravada', tipo: 'gravada', arquivo: 'assets/biblia-voz/dora/' },
+    alex: { id: 'alex', nome: 'Alex - Gravada', tipo: 'gravada', arquivo: 'assets/biblia-voz/alex/' }, // Kokoro Alex aprovado
+    celular: { id: 'celular', nome: 'Voz do celular', tipo: 'tts' } // antes era "Voz do aparelho" / "Voz 1 pt_BR"
+  };
+
+  const CLIMAS = {
+    padrao: { id: 'padrao', nome: 'Padrão', arquivo: 'assets/audio/padrao.mp3' },
+    alvorada: { id: 'alvorada', nome: 'Alvorada', arquivo: 'assets/audio/alvorada.mp3' },
+    quietude: { id: 'quietude', nome: 'Quietude', arquivo: 'assets/audio/quietude.mp3' }
+  };
+
+  let estado = {
+    voz: localStorage.getItem('pv_voz') || 'dora',
+    velocidade: parseFloat(localStorage.getItem('pv_vel') || '1'),
+    climaLigado: localStorage.getItem('pv_clima_ligado') === 'true' || true, // seu fundo de paz - vem ligado por padrão baixinho
+    climaVolume: parseFloat(localStorage.getItem('pv_clima_vol') || '0.2'), // 20% bem baixinho como você quer
+    climaTrilha: localStorage.getItem('pv_clima_trilha') || 'padrao',
+    tocandoNaracao: false
+  };
+
+  let audioClima = null;
+  let audioNarracao = null;
+
+  function init(){
+    criarBarraFixa();
+    criarAudioClima();
+    restaurarEstado();
   }
-  function tem(id, r) { var v = idx && idx.voices[id]; return !!(v && r && v.ch.indexOf(r.b + '-' + r.c) >= 0); }
-  function lista(r) { return idx ? Object.keys(idx.voices).filter(function (id) { return tem(id, r); }) : []; }
-  function blob(path) {
-    function rede() { return fetch(path).then(function (r) { if (!r.ok) throw new Error('x'); return r; }); }
-    if (!window.caches) return rede().then(function (r) { return r.blob(); });
-    return caches.open('pv4-media').then(function (c) {
-      return c.match(path).then(function (h) { return h || rede().then(function (r) { c.put(path, r.clone()); return r; }); });
-    }).then(function (r) { return r.blob(); });
+
+  function criarAudioClima(){
+    if(!audioClima){
+      audioClima = new Audio();
+      audioClima.loop = true;
+      audioClima.preload = 'auto';
+    }
+    audioClima.volume = estado.climaVolume;
+    audioClima.src = CLIMAS[estado.climaTrilha]?.arquivo || CLIMAS.padrao.arquivo;
+    if(estado.climaLigado){
+      // tenta tocar baixinho, se navegador bloquear, espera gesto do usuário
+      audioClima.play().catch(()=>{});
+    }
   }
-  function caminho(id, r) { return 'assets/biblia-voz/' + id + '/' + r.b + '-' + r.c + '.mp3'; }
-  function pref() { try { return localStorage.getItem('pv4-rv'); } catch (e) { return null; } }
-  function recorded() { return !!(sel && sel.value); }
-  function rotulo() { play.textContent = on ? (au.paused ? '▶ Continuar' : '❚❚ Pausar') : '▶ Ouvir capítulo'; stop.hidden = !on; }
-  function montar() {
-    if (sel) return;
-    sel = document.createElement('select'); sel.id = 'rvSel'; sel.setAttribute('aria-label', 'Voz da leitura');
-    sel.style.cssText = 'width:100%;margin:0 0 .5rem;padding:.55rem;border-radius:.6rem;font:inherit';
-    box.insertBefore(sel, box.firstChild);
-    sel.addEventListener('change', function () { try { localStorage.setItem('pv4-rv', sel.value); } catch (e) { /* ok */ } if (on) { parar(); if (sel.value) iniciar(); } });
+
+  function criarBarraFixa(){
+    // Remove barra antiga se existir
+    let antiga = document.getElementById('pv-barra-audio');
+    if(antiga) antiga.remove();
+
+    let barra = document.createElement('div');
+    barra.id = 'pv-barra-audio';
+    barra.innerHTML = `
+      <style>
+        #pv-barra-audio{
+          position:fixed; left:0; right:0; bottom:0; 
+          background:#111; color:#fff; 
+          padding:10px 12px; 
+          display:flex; gap:10px; 
+          justify-content:space-between; align-items:center;
+          z-index:9999; font-family:system-ui;
+          box-shadow:0 -2px 10px rgba(0,0,0,.4);
+        }
+        #pv-barra-audio button{
+          border:0; border-radius:20px; padding:10px 14px; font-weight:700;
+        }
+        #btnOuvir{ background:#2e7d32; color:#fff; }
+        #btnClima{ background:#333; color:#fff; }
+        #pv-sheet{ 
+          position:fixed; left:0; right:0; bottom:60px; 
+          background:#1e1e1e; color:#fff; padding:16px; 
+          border-radius:16px 16px 0 0; display:none; max-height:70vh; overflow:auto; z-index:9998;
+        }
+        #pv-sheet h3{ margin:10px 0 6px; font-size:14px; opacity:.9 }
+        .pv-opcao{ display:inline-block; margin:4px; padding:8px 12px; border-radius:20px; background:#2a2a2a; border:1px solid #444; }
+        .pv-opcao.ativo{ background:#2e7d32; border-color:#4caf50; }
+      </style>
+      <button id="btnOuvir">▶ Ouvir capítulo</button>
+      <button id="btnClima">🎵 Clima: ${estado.climaLigado ? 'Ligado' : 'Desligado'}</button>
+      <div id="pv-sheet"></div>
+    `;
+    document.body.appendChild(barra);
+
+    barra.querySelector('#btnOuvir').onclick = abrirSheetNarracao;
+    barra.querySelector('#btnClima').onclick = abrirSheetClima;
   }
-  function atualizar() {
-    var r = ref(), ids = lista(r), antes = sel ? sel.value : null;
-    if (!ids.length) { if (sel) sel.hidden = true; return; }
-    montar(); sel.hidden = false; sel.innerHTML = '';
-    ids.forEach(function (id) { var v = idx.voices[id], o = document.createElement('option'); o.value = id; o.textContent = 'Voz gravada · ' + v.nome + ' (' + v.genero + ')'; sel.appendChild(o); });
-    var o2 = document.createElement('option'); o2.value = ''; o2.textContent = 'Voz do aparelho'; sel.appendChild(o2);
-    var p = antes !== null ? antes : pref();
-    sel.value = (p !== null && (p === '' || ids.indexOf(p) >= 0)) ? p : ids[0];
-    if (box.hidden) box.hidden = false;
-    if (!on && !recorded()) return;
+
+  function abrirSheetNarracao(){
+    let sheet = document.getElementById('pv-sheet');
+    sheet.style.display = 'block';
+    sheet.innerHTML = `
+      <h3>NARRAÇÃO - Quem vai ler pra você</h3>
+      <div id="listaVozes"></div>
+      <h3>Velocidade</h3>
+      <div>
+        <span class="pv-opcao ${estado.velocidade==0.75?'ativo':''}" data-vel="0.75">0.75x</span>
+        <span class="pv-opcao ${estado.velocidade==1?'ativo':''}" data-vel="1">1x Normal</span>
+        <span class="pv-opcao ${estado.velocidade==1.25?'ativo':''}" data-vel="1.25">1.25x</span>
+        <span class="pv-opcao ${estado.velocidade==1.5?'ativo':''}" data-vel="1.5">1.5x</span>
+      </div>
+      <br>
+      <button id="btnOuvirAgora" style="background:#4caf50;color:#fff;width:100%;padding:12px;border-radius:10px;border:0;font-weight:700">${estado.tocandoNaracao ? '⏸ Parar' : '▶ Ouvir agora'}</button>
+      <br><br>
+      <button id="fecharSheet" style="background:#333;color:#fff;width:100%;padding:10px;border-radius:10px;border:0">Fechar</button>
+    `;
+    // vozes
+    let lista = sheet.querySelector('#listaVozes');
+    Object.values(VOZES).forEach(v=>{
+      let el = document.createElement('span');
+      el.className = 'pv-opcao ' + (estado.voz===v.id?'ativo':'');
+      el.textContent = v.nome;
+      el.onclick = ()=>{ estado.voz=v.id; localStorage.setItem('pv_voz', v.id); abrirSheetNarracao(); };
+      lista.appendChild(el);
+    });
+    sheet.querySelectorAll('[data-vel]').forEach(el=>{
+      el.onclick = ()=>{ estado.velocidade=parseFloat(el.dataset.vel); localStorage.setItem('pv_vel', estado.velocidade); abrirSheetNarracao(); }
+    });
+    sheet.querySelector('#btnOuvirAgora').onclick = toggleNarracao;
+    sheet.querySelector('#fecharSheet').onclick = ()=> sheet.style.display='none';
   }
-  function parar() { tk++; on = false; auto = false; au.pause(); try { au.removeAttribute('src'); au.load(); } catch (e) { /* ok */ } rotulo(); try { if (navigator.mediaSession) navigator.mediaSession.playbackState = 'none'; } catch (e) { /* ok */ } }
-  function sessao(r) {
-    if (!('mediaSession' in navigator)) return;
-    try {
-      if (typeof MediaMetadata !== 'undefined') navigator.mediaSession.metadata = new MediaMetadata({ title: r.nome + ' ' + r.c, artist: 'Palavra Viva', album: 'Leitura gravada', artwork: [{ src: new URL('icons/icon-512.png', location.href).href, sizes: '512x512', type: 'image/png' }] });
-      var s = function (a, f) { try { navigator.mediaSession.setActionHandler(a, f); } catch (e) { /* não suportado */ } };
-      s('play', function () { au.play(); }); s('pause', function () { au.pause(); }); s('stop', parar);
-      s('nexttrack', function () { var n = $('#chNext'); if (n && !n.hidden) { auto = true; n.click(); } });
-      s('previoustrack', function () { var n = $('#chPrev'); if (n && !n.hidden) { auto = true; n.click(); } });
-    } catch (e) { /* ok */ }
+
+  function abrirSheetClima(){
+    let sheet = document.getElementById('pv-sheet');
+    sheet.style.display = 'block';
+    sheet.innerHTML = `
+      <h3>CLIMA DE LEITURA - Música baixinho pra refletir</h3>
+      <p style="font-size:13px;opacity:.8">Seu fundo instrumental de paz e calmaria, como você criou. Fica bem baixinho, não atrapalha a leitura.</p>
+      <div>
+        <span class="pv-opcao ${estado.climaLigado?'ativo':''}" id="climaLiga">Ligado</span>
+        <span class="pv-opcao ${!estado.climaLigado?'ativo':''}" id="climaDesliga">Desligado</span>
+      </div>
+      <h3>Volume - deixe bem baixinho</h3>
+      <input type="range" id="volClima" min="0" max="1" step="0.05" value="${estado.climaVolume}" style="width:100%">
+      <h3>Trilha</h3>
+      <div id="listaClimas"></div>
+      <br>
+      <button id="fecharSheet" style="background:#333;color:#fff;width:100%;padding:10px;border-radius:10px;border:0">Fechar</button>
+    `;
+    let lista = sheet.querySelector('#listaClimas');
+    Object.values(CLIMAS).forEach(c=>{
+      let el=document.createElement('span');
+      el.className='pv-opcao '+(estado.climaTrilha===c.id?'ativo':'');
+      el.textContent=c.nome;
+      el.onclick=()=>{ estado.climaTrilha=c.id; localStorage.setItem('pv_clima_trilha', c.id); criarAudioClima(); abrirSheetClima(); };
+      lista.appendChild(el);
+    });
+    sheet.querySelector('#climaLiga').onclick=()=>{ estado.climaLigado=true; localStorage.setItem('pv_clima_ligado','true'); criarAudioClima(); atualizarBotaoClima(); abrirSheetClima(); };
+    sheet.querySelector('#climaDesliga').onclick=()=>{ estado.climaLigado=false; localStorage.setItem('pv_clima_ligado','false'); audioClima.pause(); atualizarBotaoClima(); abrirSheetClima(); };
+    sheet.querySelector('#volClima').oninput=(e)=>{ estado.climaVolume=parseFloat(e.target.value); localStorage.setItem('pv_clima_vol', estado.climaVolume); audioClima.volume=estado.climaVolume; };
+    sheet.querySelector('#fecharSheet').onclick=()=> sheet.style.display='none';
   }
-  function iniciar() {
-    var r = ref(); if (!r || !recorded()) return;
-    try { speechSynthesis.cancel(); } catch (e) { /* ok */ }
-    var t = ++tk, id = sel.value; on = true; auto = true; info.textContent = 'Carregando a voz gravada…'; rotulo();
-    blob(caminho(id, r)).then(function (b) {
-      if (t !== tk) return;
-      if (url) URL.revokeObjectURL(url);
-      url = URL.createObjectURL(b); au.src = url;
-      var p = au.play(); if (p && p.catch) p.catch(function () { info.textContent = 'Toque em Ouvir para liberar o som.'; on = false; rotulo(); });
-      info.textContent = 'Voz gravada: ' + idx.voices[id].nome + ' · texto da Bíblia Livre'; sessao(r); rotulo();
-      if (tem(id, { b: r.b, c: r.c + 1 })) blob(caminho(id, { b: r.b, c: r.c + 1 })).catch(function () { /* sem pré-carga */ });
-    }).catch(function () { if (t !== tk) return; on = false; auto = false; rotulo(); info.textContent = 'Não foi possível carregar o áudio (sem internet?).'; });
+
+  function atualizarBotaoClima(){
+    let btn = document.getElementById('btnClima');
+    if(btn) btn.textContent = `🎵 Clima: ${estado.climaLigado ? 'Ligado' : 'Desligado'}`;
   }
-  au.addEventListener('play', rotulo); au.addEventListener('pause', function () { if (on) rotulo(); });
-  au.addEventListener('ended', function () {
-    var n = $('#chNext'); if (n && !n.hidden) { auto = true; n.click(); } else parar();
-  });
-  /* botões: no modo gravado, assumem o lugar da voz do aparelho */
-  play.addEventListener('click', function (e) {
-    if (!recorded()) return;
-    e.stopImmediatePropagation(); e.preventDefault();
-    if (!on) iniciar(); else if (au.paused) au.play(); else au.pause();
-  }, true);
-  stop.addEventListener('click', function (e) { if (!recorded() || !on) return; e.stopImmediatePropagation(); e.preventDefault(); parar(); }, true);
-  /* trocou de capítulo: reconstrói a lista e, se vinha tocando, continua no próximo */
-  function mudou() {
-    atualizar();
-    if (on && auto) { if (recorded()) iniciar(); else parar(); }
-    else if (on) parar();
+
+  function toggleNarracao(){
+    if(estado.tocandoNaracao){
+      pararNarracao();
+    }else{
+      iniciarNarracao();
+    }
   }
-  new MutationObserver(mudou).observe(tit, { childList: true, characterData: true, subtree: true });
-  new MutationObserver(function () { if (box.hidden && lista(ref()).length) box.hidden = false; }).observe(box, { attributes: true, attributeFilter: ['hidden'] });
-  fetch('assets/biblia-voz/index.json', { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : null; }).then(function (j) { idx = j && j.voices ? j : null; if (idx) atualizar(); }).catch(function () { /* sem gravações ainda */ });
+
+  function iniciarNarracao(){
+    // MIXAGEM INTELIGENTE: quando narração toca, clima abaixa pra 15%
+    if(audioClima && estado.climaLigado){
+      audioClima.volume = 0.15;
+    }
+
+    let voz = VOZES[estado.voz];
+    if(voz.tipo === 'tts'){
+      // Voz do celular - usa síntese do aparelho
+      let texto = document.querySelector('article')?.innerText || document.body.innerText.slice(0,5000);
+      let utter = new SpeechSynthesisUtterance(texto);
+      utter.lang='pt-BR';
+      utter.rate=estado.velocidade;
+      utter.onend = ()=>{ estado.tocandoNaracao=false; restaurarVolumeClima(); };
+      speechSynthesis.cancel();
+      speechSynthesis.speak(utter);
+      audioNarracao = utter;
+    }else{
+      // Voz gravada - toca arquivo do capítulo
+      // Exemplo: assets/biblia-voz/dora/gn1.mp3 - adapte ao seu padrão
+      let livro = window.livroAtual || 'gn';
+      let cap = window.capituloAtual || 1;
+      let src = `${voz.arquivo}${livro}${cap}.mp3`;
+      if(!audioNarracao) audioNarracao = new Audio();
+      audioNarracao.src = src;
+      audioNarracao.playbackRate = estado.velocidade;
+      audioNarracao.play().catch(()=>{ alert('Áudio gravado não encontrado para este capítulo: '+src); restaurarVolumeClima(); });
+      audioNarracao.onended = ()=>{ estado.tocandoNaracao=false; restaurarVolumeClima(); };
+    }
+    estado.tocandoNaracao=true;
+    document.getElementById('btnOuvir').textContent='⏸ Parar';
+  }
+
+  function pararNarracao(){
+    if(audioNarracao){
+      if(audioNarracao instanceof SpeechSynthesisUtterance){
+        speechSynthesis.cancel();
+      }else{
+        audioNarracao.pause();
+      }
+    }
+    estado.tocandoNaracao=false;
+    document.getElementById('btnOuvir').textContent='▶ Ouvir capítulo';
+    restaurarVolumeClima();
+  }
+
+  function restaurarVolumeClima(){
+    if(audioClima && estado.climaLigado){
+      audioClima.volume = estado.climaVolume;
+    }
+    let sheet=document.getElementById('pv-sheet');
+    if(sheet) sheet.style.display='none';
+  }
+
+  function restaurarEstado(){
+    atualizarBotaoClima();
+  }
+
+  // Inicia quando DOM pronto
+  if(document.readyState==='loading'){
+    document.addEventListener('DOMContentLoaded', init);
+  }else{
+    init();
+  }
+
+  // Expõe pra debug
+  window.PV_Audio = { estado, VOZES, CLIMAS, iniciarNarracao, pararNarracao };
 })();
