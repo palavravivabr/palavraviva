@@ -16,3 +16,58 @@
   function chk() { rs.classList.toggle('nores', re.textContent !== 'Continuar leitura'); }
   new MutationObserver(chk).observe(re, { childList: true, characterData: true, subtree: true }); chk();
 })();
+
+/* Leitura em voz alta com a tela apagada: um áudio mudo em laço mantém o app vivo em segundo plano
+   (como a música ambiente) e a notificação ganha os botões tocar/pausar/parar (Media Session). */
+(function () {
+  if (!('speechSynthesis' in window)) return;
+  var au = null, timer = null, misses = 0, ativo = false;
+  function mudo() {
+    var n = 8000, b = new ArrayBuffer(44 + n * 2), v = new DataView(b), i;
+    function s(o, t) { for (var k = 0; k < t.length; k++) v.setUint8(o + k, t.charCodeAt(k)); }
+    s(0, 'RIFF'); v.setUint32(4, 36 + n * 2, true); s(8, 'WAVE'); s(12, 'fmt '); v.setUint32(16, 16, true); v.setUint16(20, 1, true); v.setUint16(22, 1, true);
+    v.setUint32(24, 8000, true); v.setUint32(28, 16000, true); v.setUint16(32, 2, true); v.setUint16(34, 16, true); s(36, 'data'); v.setUint32(40, n * 2, true);
+    for (i = 0; i < n; i++) v.setInt16(44 + i * 2, (i % 2) ? 1 : -1, true); /* quase silêncio: não é zero digital */
+    return URL.createObjectURL(new Blob([b], { type: 'audio/wav' }));
+  }
+  function clique(q) { var e = document.querySelector(q); if (e) e.click(); }
+  function estado(st) { try { if (navigator.mediaSession) navigator.mediaSession.playbackState = st; } catch (e) { /* sem Media Session */ } }
+  function meta() {
+    if (!('mediaSession' in navigator) || typeof MediaMetadata === 'undefined') return;
+    var t = document.querySelector('#readTitle'), txt = (t && t.textContent) || 'Leitura bíblica';
+    try {
+      if (navigator.mediaSession.metadata && navigator.mediaSession.metadata.title === txt) return;
+      navigator.mediaSession.metadata = new MediaMetadata({ title: txt, artist: 'Palavra Viva', album: 'Leitura em voz alta', artwork: [{ src: new URL('icons/icon-512.png', location.href).href, sizes: '512x512', type: 'image/png' }] });
+    } catch (e) { /* ok */ }
+  }
+  function acoes() {
+    if (!('mediaSession' in navigator)) return;
+    function set(a, f) { try { navigator.mediaSession.setActionHandler(a, f); } catch (e) { /* ação não suportada */ } }
+    set('play', function () { if (speechSynthesis.paused) clique('#lsPlay'); });
+    set('pause', function () { if (speechSynthesis.speaking && !speechSynthesis.paused) clique('#lsPlay'); });
+    set('stop', function () { clique('#lsStop'); });
+  }
+  function parar() {
+    ativo = false; clearInterval(timer); timer = null; misses = 0;
+    if (au) { au.pause(); try { au.currentTime = 0; } catch (e) { /* ok */ } }
+    estado('none'); try { if (navigator.mediaSession) navigator.mediaSession.metadata = null; } catch (e) { /* ok */ }
+  }
+  function tick() {
+    if (speechSynthesis.speaking || speechSynthesis.pending) {
+      misses = 0;
+      if (speechSynthesis.paused) { if (au && !au.paused) au.pause(); estado('paused'); }
+      else { if (au && au.paused) { var p = au.play(); if (p && p.catch) p.catch(function () { /* sem permissão */ }); } estado('playing'); }
+      meta();
+    } else if (++misses >= 4) parar();
+  }
+  function iniciar() {
+    if (!au) { au = new Audio(); au.loop = true; au.preload = 'auto'; au.src = mudo(); }
+    var p = au.play(); if (p && p.catch) p.catch(function () { /* o clique do usuário libera na próxima */ });
+    if (!ativo) { ativo = true; acoes(); }
+    meta(); estado('playing');
+    if (!timer) timer = setInterval(tick, 1000);
+    misses = 0;
+  }
+  var fala = speechSynthesis.speak.bind(speechSynthesis);
+  speechSynthesis.speak = function (u) { iniciar(); return fala(u); };
+})();
