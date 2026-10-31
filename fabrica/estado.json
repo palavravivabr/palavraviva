@@ -2588,7 +2588,7 @@
   },
   "44-22-11-20": {
    "execucoes": 1,
-   "ultimo": "automático: entender:citacao_longa, ligar:citacao_fora_do_texto"
+   "ultimo": "erro: gemini: 503 { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\", \"status\": \"UNAVAILABLE\" } } "
   },
   "44-22-21-30": {
    "execucoes": 0,
@@ -2604,7 +2604,7 @@
   },
   "44-23-13-23": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: gemini: 503 { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\", \"status\": \"UNAVAILABLE\" } } "
   },
   "44-23-24-35": {
    "execucoes": 0,
@@ -2634,7 +2634,9 @@
   },
   "44-25-10-18": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: PRAYER_FIDELITY: A oração inicia dirigindo-se ao governador humano Festo ('Festo, que ouviu... ensina-me'), o que é incompatível com o ensino bíblico sobre oração dirigida a Deus. | LANGUAGE_CLARITY: A seção Viver utiliza incorretamente a palavra 'legíveis' em vez de 'legais' na frase 'usando os mei",
+   "estado": "pronto",
+   "titulo": "Paulo e o direito de apelar a César"
   },
   "44-25-19-27": {
    "execucoes": 0,
@@ -2659,28 +2661,36 @@
   "44-27-12-22": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "44-27-23-33": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "44-27-34-44": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 825,
-   "entrada": 2153001,
-   "saida": 727968
+   "chamadas": 832,
+   "entrada": 2171269,
+   "saida": 733827
   },
   "groq-qwen": {
-   "chamadas": 821,
-   "entrada": 2046609,
-   "saida": 667318
+   "chamadas": 827,
+   "entrada": 2063822,
+   "saida": 672501
   },
   "gemini": {
-   "chamadas": 716,
-   "entrada": 2325661,
-   "saida": 893427
+   "chamadas": 723,
+   "entrada": 2348467,
+   "saida": 908338
   },
   "cloudflare": {
-   "chamadas": 447,
-   "entrada": 1562818,
-   "saida": 165837
+   "chamadas": 448,
+   "entrada": 1566459,
+   "saida": 166208
   },
   "mistral": {
    "chamadas": 0,
