@@ -53,7 +53,7 @@ test('termos de uso e privacidade e licença existem e o app aponta para eles', 
   assert.ok(existsSync(join(root, 'assets/termos.html')) && existsSync(join(root, 'LICENSE')));
   assert.ok(app.includes("href: 'assets/termos.html'") && pages.includes('assets'));
   const t = read('assets/termos.html');
-  assert.ok(/Pol[íi]tica de Privacidade/.test(t) && /CC BY 4\.0/.test(t) && /intelig[ê e]ncia artificial/i.test(t));
+  assert.ok(/Pol[íi]tica de Privacidade/.test(t) && /CC BY 4\.0/.test(t) && /intelig[êe]ncia artificial/i.test(t));
 });
 test('página Créditos e colaboradores: seis participantes na ordem, nota de transparência, link no Sobre e CREDITS.md preservado', () => {
   const c = read('assets/creditos.html');
@@ -70,6 +70,6 @@ test('áudio v4 básico: rodapé só com tradução e Ouvir; só a trilha Padrã
   assert.deepEqual(cfg.audio, ['assets/ambiente-leitura.mp3']); assert.deepEqual(cfg.audioNomes, ['Padrão']);
   assert.ok(html.includes('id="audioBar"') && html.includes('id="audbtn"') && html.includes('Som ao abrir o app'));
   assert.ok(!html.includes('lsVoz') && !html.includes('lsRate') && !/Alvorada|Quietude/.test(html + app));
-  assert.ok(ui.includes('▶ Ouvir') && ui.includes('❪❪ Parar') && ui.includes('Só existe trilha Padrão'));
+  assert.ok(ui.includes('▶ Ouvir') && ui.includes('❚❚ Parar') && ui.includes('Só existe trilha Padrão'));
   assert.ok(list('SHELL_FILES').includes('src/audio-ui.js') && list('SHELL_FILES').includes('src/boot.js'));
 });
