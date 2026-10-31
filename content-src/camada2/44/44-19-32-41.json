@@ -1,0 +1,137 @@
+{
+ "id": "44-19-32-41",
+ "ref": "Atos 19:32-41",
+ "book": "44",
+ "chapter": 19,
+ "verses": [
+  {
+   "n": 32,
+   "t": "Então gritavam, alguns de uma maneira , outros de outra; porque a aglomeração estava confusa; e a maioria não sabia por que causa estavam aglomerados."
+  },
+  {
+   "n": 33,
+   "t": "E tiraram da multidão a Alexandre, os judeus o pondo para a frente. E Alexandre, acenando com a mão, queria se defender ao povo."
+  },
+  {
+   "n": 34,
+   "t": "Mas ao saberem que ele era judeu, levantou-se uma voz de todos, clamando por cerca de duas horas: Grande é a Diana dos efésios!"
+  },
+  {
+   "n": 35,
+   "t": "E o escrivão, tendo apaziguado a multidão, disse: Homens efésios, quem não sabe que a cidade dos efésios é a guardadora do templo da grande deusa Diana, e da imagem que desceu do céu?"
+  },
+  {
+   "n": 36,
+   "t": "Portanto, sendo que estas coisas não podem ser contraditas, vós deveis vos acalmar, e nada façais precipitadamente;"
+  },
+  {
+   "n": 37,
+   "t": "Porque vós trouxestes aqui estes homens, que nem são sacrílegos, nem blasfemam de vossa deusa."
+  },
+  {
+   "n": 38,
+   "t": "Então se Demétrio e os artesãos que estão com ele tem algum assunto contra ele, os tribunais estão abertos, e há procônsules; que se acusem uns aos outros."
+  },
+  {
+   "n": 39,
+   "t": "E se procurais alguma outra coisa, será decidido em uma reunião legalizada."
+  },
+  {
+   "n": 40,
+   "t": "Porque corremos perigo de que hoje sejamos acusados de rebelião, tendo causa nenhuma para dar como explicação para este tumulto."
+  },
+  {
+   "n": 41,
+   "t": "E tendo dito isto, despediu o ajuntamento."
+  }
+ ],
+ "titulo": "O tumulto que terminou em silêncio",
+ "temas": [
+  "ordem",
+  "razão",
+  "justiça",
+  "confusão"
+ ],
+ "pergunta": "O que você faz quando a multidão grita e a verdade parece pequena demais?",
+ "entender": "Em Éfeso, a cidade inteira estava em caos. O texto diz que a aglomeração estava \"confusa\" e que a maioria não sabia por que estavam ali. Havia gritos de todos os lados, e até tentaram usar Alexandre, um judeu, para falar, mas a multidão, ao saber de sua origem, passou duas horas apenas gritando \"Grande é a Diana dos efésios!\". Não havia discussão, apenas ruído.\n\nFoi o escrivão, um funcionário público, quem conseguiu acalmar a multidão. Ele não gritou mais alto, mas usou a razão. Lembrou a todos que o templo de Diana era sagrado e que as acusações contra Paulo não eram de sacrilégio. Ele propôs que, se havia uma queixa real, ela deveria ser levada aos tribunais e procônsules, não resolvida por uma revolta. Ao mostrar que não havia base legal para o tumulto, ele dissolveu o ajuntamento.\n\nO texto mostra que a verdade não se impõe por volume, mas por clareza e ordem. A confusão da multidão contrasta com a calma do escrivão, que restaurou a justiça ao lembrar que há canais legais para resolver conflitos.",
+ "ligar": {
+  "texto": "Este episódio nos lembra que o mundo muitas vezes age por impulso e medo, como a multidão de Éfeso. Jesus, porém, é a verdade que traz ordem ao caos interior. Ele não compete com os ídolos, mas os desmascara com a luz do evangelho. Enquanto a multidão gritava por Diana, a mensagem de Paulo apontava para um Deus que reina com justiça e paz. A salvação em Cristo nos liberta do barulho das opiniões populares e nos dá a certeza de que a última palavra é dEle, que é justo e verdadeiro.",
+  "selo": false
+ },
+ "viver": "Quando a pressão social ou o medo da opinião pública tentam nos levar a agir precipitadamente, pare e respire. Assim como o escrivão, busque a clareza antes de reagir. Não é preciso gritar para ser ouvido; muitas vezes, a atitude mais poderosa é a calma racional que busca a justiça através dos meios corretos. Confie que a verdade de Deus não depende do número de apoiadores, mas da sua fidelidade a Ele.",
+ "guarde": "A verdade não precisa de tumulto para ser ouvida; a ordem divina vence o caos.",
+ "ore": "Pai, assim como a multidão em Éfeso estava confusa e barulhenta, muitas vezes meu coração é agitado pelo medo e pela opinião dos outros. Ajuda-me a buscar a Tua paz que excede todo entendimento. Que eu não seja levado pela correnteza das emoções, mas que eu tenha a clareza para agir com justiça e sabedoria, confiando que a Tua verdade permanece firme mesmo quando o mundo grita.",
+ "quiz": {
+  "pergunta": "Quem conseguiu acalmar a multidão em Éfeso e por qual meio?",
+  "opcoes": [
+   "O escrivão, usando a razão e a lei",
+   "Alexandre, gritando mais alto",
+   "Paulo, entrando no teatro"
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz que o escrivão apaziguou a multidão lembrando que os tribunais estavam abertos e que não havia causa para rebelião, usando a lógica e a lei, não a força."
+ },
+ "refs": [
+  "Provérbios 15:1",
+  "Tito 3:1",
+  "Romanos 13:1-4"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-31T03:56:35.816Z",
+  "rounds": 2
+ }
+}

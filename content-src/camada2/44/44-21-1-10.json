@@ -1,0 +1,137 @@
+{
+ "id": "44-21-1-10",
+ "ref": "Atos 21:1-10",
+ "book": "44",
+ "chapter": 21,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E quando aconteceu de termos saído deles, e navegado, percorremos diretamente, e viemos a Cós, e n o dia seguinte a Rodes, e dali a Pátara."
+  },
+  {
+   "n": 2,
+   "t": "E tendo achado um navio que passava para a Fenícia, nós embarcamos nele, e partimos."
+  },
+  {
+   "n": 3,
+   "t": "E tendo Chipre à vista, e deixando-a à esquerda, navegamos para a Síria, e viemos a Tiro; porque o navio tinha de deixar ali sua carga."
+  },
+  {
+   "n": 4,
+   "t": "E nós ficamos ali por sete dias; e achamos aos discípulos, os quais diziam pelo Espírito a Paulo, que não subisse a Jerusalém."
+  },
+  {
+   "n": 5,
+   "t": "E tendo passado ali aqueles dias, nós saímos e seguimos nosso caminho, acompanhando-nos todos com suas mulheres e filhos até fora da cidade; e postos de joelhos na praia, oramos."
+  },
+  {
+   "n": 6,
+   "t": "E saudando-nos uns aos outros, subimos ao navio; e eles voltaram para as casas deles."
+  },
+  {
+   "n": 7,
+   "t": "E nós, acabada a navegação de Tiro, chegamos a Ptolemaida; e tendo saudado aos irmãos, ficamos com eles por um dia."
+  },
+  {
+   "n": 8,
+   "t": "E n o dia seguinte, Paulo e nós que estávamos com ele, saindo dali, viemos a Cesareia; e entrando na casa de Filipe, o evangelista (que era um dos sete), nós ficamos com ele."
+  },
+  {
+   "n": 9,
+   "t": "E este tinha quatro filhas, que profetizavam."
+  },
+  {
+   "n": 10,
+   "t": "E ficando nós ali por muitos dias, desceu da Judeia um profeta, de nome Ágabo;"
+  }
+ ],
+ "titulo": "O aviso que ninguém queria ouvir",
+ "temas": [
+  "obediência",
+  "sofrimento",
+  "missão",
+  "espírito santo"
+ ],
+ "pergunta": "Você aceitaria ir até o fim de uma missão, mesmo sabendo que ela pode custar sua liberdade?",
+ "entender": "Paulo e seus companheiros estão a caminho de Jerusalém, mas o caminho não é tranquilo. Em Tiro, eles passam sete dias com os discípulos locais. O texto diz que esses irmãos \"diziam pelo Espírito a Paulo, que não subisse a Jerusalém\". Era um alerta claro, vindo diretamente de Deus, sobre o perigo que o aguardava na capital. Apesar da súplica e da oração na praia, Paulo continua a viagem.\n\nA viagem prossegue para Ptolemaida e depois para Cesareia, onde se hospedam na casa de Filipe, um dos sete diáconos iniciais e evangelista. Lá, Filipe tinha quatro filhas que profetizavam. É nessa atmosfera de oração e discernimento que Ágabo, um profeta vindo da Judeia, chega. O contexto mostra uma comunidade atenta ao Espírito, mas também dividida entre a vontade de proteger seu líder e a certeza de que a missão é mais importante que a segurança pessoal.",
+ "ligar": {
+  "texto": "Este trecho aponta para Jesus ao mostrar a prioridade da missão. Assim como Jesus disse que não veio para ser servido, mas para servir e dar a vida em resgate por muitos, Paulo está disposto a sofrer e ser preso em Jerusalém. A obediência de Paulo reflete a obediência de Cristo à cruz. O evangelho não é apenas uma mensagem de conforto, mas uma chamada ao sacrifício. A presença do Espírito Santo guiando e advertindo mostra que Deus está ativo na história, preparando o terreno para que a mensagem de Cristo chegue a todos, mesmo através de sofrimento.",
+  "selo": false
+ },
+ "viver": "Muitas vezes evitamos caminhos que nos custam conforto ou segurança, mesmo quando sabemos que são certos. Paulo ouviu avisos claros, mas não desistiu. Isso nos convida a examinar nossas prioridades: estamos seguindo a Deus apenas quando é fácil? O texto nos desafia a discernir a vontade de Deus com oração e comunidade, e a ter coragem de obedecer, mesmo quando o preço for alto. Não se trata de buscar o sofrimento, mas de não deixar o medo nos impedir de cumprir o propósito para o qual fomos chamados.",
+ "guarde": "A missão de Deus é maior que a nossa segurança, e a obediência exige coragem para seguir mesmo diante do perigo.",
+ "ore": "Paulo, ensina-me a discernir a vontade de Deus em Tiro e Cesareia. Que eu tenha coragem de obedecer, mesmo quando o caminho for difícil. Ajuda-me a priorizar a missão acima do meu conforto, confiando que Tu estás comigo.",
+ "quiz": {
+  "pergunta": "O que os discípulos de Tiro disseram a Paulo pelo Espírito?",
+  "opcoes": [
+   "Que deveria pregar em Chipre",
+   "Que deveria voltar para Roma",
+   "Que não subisse a Jerusalém"
+  ],
+  "certa": 2,
+  "explicacao": "O texto afirma explicitamente que os discípulos diziam pelo Espírito a Paulo que não subisse a Jerusalém, alertando-o sobre o perigo."
+ },
+ "refs": [
+  "Atos 20:22-24",
+  "Lucas 9:23",
+  "Atos 9:15"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-31T03:53:32.974Z",
+  "rounds": 1
+ }
+}

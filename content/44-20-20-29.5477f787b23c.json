@@ -1,0 +1,138 @@
+{
+ "id": "44-20-20-29",
+ "ref": "Atos 20:20-29",
+ "book": "44",
+ "chapter": 20,
+ "verses": [
+  {
+   "n": 20,
+   "t": "Como eu, daquilo que vos era proveitoso, nada deixei de anunciar a vós, e ensinar publicamente e pelas casas;"
+  },
+  {
+   "n": 21,
+   "t": "Dando testemunho, tanto a judeus como a gregos, do arrependimento para se converter a Deus, e da fé em nosso Senhor Jesus Cristo."
+  },
+  {
+   "n": 22,
+   "t": "E agora eis que, estando eu atado ao Espírito, estou indo a Jerusalém, não sabendo o que me acontecerá;"
+  },
+  {
+   "n": 23,
+   "t": "A não ser pelo que o Espírito Santo em cada cidade me dá testemunho, dizendo que prisões e aflições me esperam."
+  },
+  {
+   "n": 24,
+   "t": "Mas de nenhuma dessas coisas eu dou importância, nem tenho minha vida por preciosa, para que com alegria eu cumpra minha carreira, e o trabalho que recebi do Senhor Jesus, para dar testemunho do Evangelho da graça de Deus."
+  },
+  {
+   "n": 25,
+   "t": "E agora, eis que eu sei que todos vós, a quem eu passei pregando o Reino de Deus, não vereis mais o meu rosto."
+  },
+  {
+   "n": 26,
+   "t": "Portanto eu vos dou claro testemunho de que eu estou limpo do sangue de todos vós ;"
+  },
+  {
+   "n": 27,
+   "t": "Porque eu não deixei de vos anunciar todo o conselho de Deus;"
+  },
+  {
+   "n": 28,
+   "t": "Portanto prestai atenção por vós mesmos, e por todo o rebanho sobre os quais o Espírito Santo tem vos posto como supervisores, para apascentardes a igreja de Deus, a qual ele adquiriu por meio de seu próprio sangue."
+  },
+  {
+   "n": 29,
+   "t": "Porque isto eu sei, que depois de minha partida, entrarão entre vós lobos cruéis, que não pouparão ao rebanho;"
+  }
+ ],
+ "titulo": "Cuidado com os falsos pastores que surgirão",
+ "temas": [
+  "liderança",
+  "vigilância",
+  "falsos mestres",
+  "espírito"
+ ],
+ "pergunta": "Você está atento aos sinais de quem pode desviar a igreja do caminho de Cristo?",
+ "entender": "Paulo, ao se despedir dos anciãos de Éfeso, recorda que nada deixou de anunciar que fosse útil (v.20) e que pregou \"o arrependimento para se converter a Deus, e da fé em nosso Senhor Jesus Cristo\" (v.21). Ele está partindo para Jerusalém sem saber o que acontecerá, mas confia no testemunho que o Espírito lhe dá em cada cidade, mesmo que prisões e aflições o aguardem (v.22‑23). Apesar dos perigos, Paulo não considera sua vida preciosa; cumpre com alegria a missão que recebeu do Senhor (v.24). Antes de partir, ele adverte que, depois de sua partida, surgirão lobos cruéis que não pouparão o rebanho (v.29) e exorta os líderes a vigiar o povo que o Espírito confiou a eles (v.28). O contexto mostra anos de serviço humilde, lágrimas e tentações, e agora a responsabilidade passa aos anciãos para que continuem a cuidar da igreja.\n\nO sentido principal é a necessidade de vigilância constante na liderança da igreja. Paulo reconhece que a missão continua mesmo quando ele não está mais presente e que falsos mestres podem aparecer para desviar o povo. Ele chama os líderes a permanecerem firmes, a cuidar uns dos outros e a preservar a pureza do evangelho que foi pregado.",
+ "ligar": {
+  "texto": "A mensagem de Paulo sempre aponta para Cristo: ele fala do arrependimento e da fé em Jesus (v.21) e lembra que a igreja foi adquirida pelo sangue de Cristo (v.28). Essa ênfase mostra que a proteção da comunidade depende da obra redentora de Jesus, não da força humana. O Espírito Santo, que ressuscitou Cristo, continua a guiar e guardar os líderes, confirmando que a segurança da igreja está em Cristo e no seu sacrifício.",
+  "selo": true
+ },
+ "viver": "Paulo nos mostra que a liderança da igreja é um serviço de vigilância, não um privilégio. Hoje, quem cuida de grupos, ministérios ou famílias deve observar atentamente quem ensina, testando tudo à luz das Escrituras. Quando surgirem ideias ou doutrinas que afastam do evangelho, é preciso confrontar com mansidão e amor, protegendo o rebanho da influência dos \"lobos cruéis\". Essa postura exige coragem, mas também confiança no Espírito que guia os verdadeiros pastores.",
+ "guarde": "A verdadeira liderança protege o rebanho, não o explora.",
+ "ore": "Paulo, ao deixar Éfeso, peço que o Espírito me dê discernimento para vigiar meu povo e coragem para enfrentar os lobos que possam surgir, permanecendo fiel ao evangelho que Cristo nos confiou.",
+ "quiz": {
+  "pergunta": "O que Paulo advertiu que aconteceria depois de sua partida?",
+  "opcoes": [
+   "A igreja seria destruída por terremotos",
+   "Entrariam lobos cruéis que não poupariam o rebanho",
+   "Todos os crentes seriam perseguidos e mortos"
+  ],
+  "certa": 1,
+  "explicacao": "Em Atos 20:29 Paulo diz claramente que \"entrarão entre vós lobos cruéis, que não pouparão ao rebanho\". Essa advertência refere‑se a falsos mestres, não a desastres naturais ou perseguição geral."
+ },
+ "refs": [
+  "1 Pedro 5:8-9",
+  "2 Timóteo 4:3-4",
+  "João 10:11-13",
+  "Hebreus 13:17"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-31T03:49:06.220Z",
+  "rounds": 2
+ }
+}

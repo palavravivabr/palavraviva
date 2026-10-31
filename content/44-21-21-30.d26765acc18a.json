@@ -1,0 +1,139 @@
+{
+ "id": "44-21-21-30",
+ "ref": "Atos 21:21-30",
+ "book": "44",
+ "chapter": 21,
+ "verses": [
+  {
+   "n": 21,
+   "t": "E foram informados quanto a ti, que a todos os judeus, que estão entre os gentios, que tu ensinas a se afastarem de Moisés, dizendo que não devem circuncidar seus filhos, nem andar segundo os costumes."
+  },
+  {
+   "n": 22,
+   "t": "Então o que se fará? Em todo caso a multidão deve se ajuntar, porque ouvirão que tu já chegaste."
+  },
+  {
+   "n": 23,
+   "t": "Portanto faça isto que te dizemos: temos quatro homens que fizeram voto."
+  },
+  {
+   "n": 24,
+   "t": "Toma contigo a estes, e purifica-te com eles, e paga os gastos deles, para que rapem a cabeça, e todos saibam que não há nada do que foram informados sobre ti, mas sim, que tu mesmo andas guardando a Lei."
+  },
+  {
+   "n": 25,
+   "t": "E quanto aos que creem dentre os gentios, nós já escrevemos, julgando que nada disto guardassem, a não ser somente que se abstenham do que se abstenham das coisas sacrificadas aos ídolos, e do sangue, e da carne sufocada, e do pecado sexual."
+  },
+  {
+   "n": 26,
+   "t": "Então Paulo, tendo tomado consigo a aqueles homens, e purificando-se com eles no dia seguinte, entrou no Templo, anunciando que já estavam cumpridos dos dias da purificação, quando fosse oferecida por eles, cada um sua oferta."
+  },
+  {
+   "n": 27,
+   "t": "E tendo os sete dias quase quase completados, os judeus da Ásia, vendo-o, tumultuaram a todo o povo, e lançaram as mãos sobre ele para o deterem ,"
+  },
+  {
+   "n": 28,
+   "t": "Clamando: Homens israelitas, ajudai -nos ; este é o homem que por todos os lugares ensina a todos contra o nosso povo, e contra a Lei, e contra este lugar; e além disto, ele também pôs gregos dentro do Templo, e contaminou este santo lugar!"
+  },
+  {
+   "n": 29,
+   "t": "(Porque antes eles tinham visto na cidade a Trófimo junto dele, ao qual pensavam que Paulo tinha trazido para dentro do Templo)."
+  },
+  {
+   "n": 30,
+   "t": "E toda a cidade se tumultuou, e houve um ajuntamento do povo; e tendo detido a Paulo, trouxeram-no para fora do Templo; e logo as portas foram fechadas."
+  }
+ ],
+ "titulo": "Paulo no Templo: entre a lei e a graça",
+ "temas": [
+  "misão",
+  "misentendimento",
+  "testemunho",
+  "identidade",
+  "confusão"
+ ],
+ "pergunta": "Como reagimos quando nosso testemunho é mal interpretado por aqueles que conhecemos pouco?",
+ "entender": "Paulo chega a Jerusalém e é alertado pelos anciãos sobre um grave mal-entendido. Dizem que ele ensina os judeus espalhados entre os gentios a se afastarem de Moisés e não circuncidarem seus filhos (Atos 21.21). Para provar que isso não é verdade, eles sugerem que Paulo se una a quatro homens que fizeram um voto no Templo. Assim, todos verão que ele mesmo guarda a Lei, dissipando os boatos.\n\nPaulo aceita o plano e entra no Templo com eles. Mas, quando os dias de purificação se aproximam do fim, judeus da Ásia o veem e incitam a multidão. Eles gritam que ele ensina contra o povo, a Lei e o lugar, e que levou gregos para dentro do Templo, contaminando-o (Atos 21.28). A confusão é tamanha que a cidade inteira se agita, e Paulo é preso e levado para fora.",
+ "ligar": {
+  "texto": "Este episódio mostra a tensão central da missão cristã: como viver a liberdade em Cristo sem gerar ofensa desnecessária. Paulo não nega a Lei, mas mostra que ela aponta para Cristo. A salvação não vem pelo cumprimento de rituais, mas pela fé na obra de Jesus. A reação violenta da multidão reflete a resistência humana à graça, que desafia nossos critérios de pureza e pertencimento. Jesus é o verdadeiro Templo, onde todas as nações se encontram sem barreiras.",
+  "selo": false
+ },
+ "viver": "Às vezes, nossa sinceridade é mal interpretada. Assim como Paulo, podemos ser acusados de coisas que não fizemos, especialmente quando trazemos uma mensagem que desafia tradições. A aplicação aqui não é sobre provar nossa justiça com obras, mas sobre manter a integridade e a clareza do evangelho. Quando houver confusão, confie que Deus vê seu coração. Não se cale, mas também não se deixe levar pela ira alheia. Sua vida deve refletir a paz de Cristo, mesmo sob acusações falsas. A verdadeira pureza vem do Espírito, não de rituais externos.",
+ "guarde": "A verdade do evangelho pode causar confusão temporária, mas a graça de Jesus permanece firme.",
+ "ore": "Paulo, que enfrentou acusações falsas em Jerusalém, ensina-me a manter a calma quando meu testemunho é mal compreendido. Ajuda-me a viver com integridade, mostrando que minha fé em Cristo não é contra a sua palavra, mas o cumprimento dela. Dá-me sabedoria para responder ao mal com bem, e força para continuar anunciando a graça aos que me cercam.",
+ "quiz": {
+  "pergunta": "O que os anciãos sugeriram a Paulo para provar que ele não ensinava contra Moisés?",
+  "opcoes": [
+   "Deixar Jerusalém imediatamente",
+   "Pregar apenas para gentios",
+   "Unir-se a homens com voto no Templo"
+  ],
+  "certa": 2,
+  "explicacao": "Os anciãos aconselharam Paulo a participar da purificação no Templo com quatro homens que tinham feito voto, para demonstrar publicamente que ele respeitava a Lei (Atos 21.23-24)."
+ },
+ "refs": [
+  "Atos 15:19-20",
+  "Gálatas 5:6",
+  "Hebreus 9:11-14",
+  "Colossenses 2:16-17"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-31T03:55:26.399Z",
+  "rounds": 1
+ }
+}

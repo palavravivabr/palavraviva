@@ -1,0 +1,137 @@
+{
+ "id": "44-21-11-20",
+ "ref": "Atos 21:11-20",
+ "book": "44",
+ "chapter": 21,
+ "verses": [
+  {
+   "n": 11,
+   "t": "E ele, tendo vindo a nós, e tomando a cinta de Paulo, e atando-se os pés e as mãos, disse: Isto diz o Espírito Santo: Assim os judeus em Jerusalém atarão ao homem a quem pertence esta cinta, e o entregarão nas mãos dos gentios."
+  },
+  {
+   "n": 12,
+   "t": "E nós, tendo ouvido isto, rogamos a ele, tanto nós como os que eram daquele lugar, que ele não subisse a Jerusalém."
+  },
+  {
+   "n": 13,
+   "t": "Mas Paulo respondeu: O que vós estais fazendo, ao chorarem e afligirem o meu coração? Porque eu estou pronto, não somente para ser atado, mas até mesmo para morrer em Jerusalém, pelo nome do Senhor Jesus."
+  },
+  {
+   "n": 14,
+   "t": "E como ele não deixou ser persuadido, nós nos aquietamos, dizendo: Faça-se a vontade do Senhor."
+  },
+  {
+   "n": 15,
+   "t": "E depois daqueles dias, nós nos arrumamos, e subimos a Jerusalém."
+  },
+  {
+   "n": 16,
+   "t": "E foram também conosco alguns dos discípulos de Cesareia, trazendo consigo a um certo Mnáson, cipriota, discípulo antigo, com o qual íamos nos hospedar."
+  },
+  {
+   "n": 17,
+   "t": "E quando chegamos a Jerusalém, os irmãos nos receberam com muito boa vontade."
+  },
+  {
+   "n": 18,
+   "t": "E n o dia seguinte, Paulo entrou conosco a casa de Tiago, e todos os anciãos vieram ali."
+  },
+  {
+   "n": 19,
+   "t": "E tendo os saudado, ele lhes contou em detalhes o que Deus tinha feito entre os gentios por meio do trabalho dele."
+  },
+  {
+   "n": 20,
+   "t": "E eles, ao ouvirem, glorificaram ao Senhor, e lhe disseram: Tu vês, irmão, quantos milhares de judeus há que creem, e todos são zelosos da lei."
+  }
+ ],
+ "titulo": "A cinta de Paulo e o sacrifício voluntário",
+ "temas": [
+  "sofrimento",
+  "missão",
+  "obediência",
+  "sacrifício"
+ ],
+ "pergunta": "Você já sentiu que Deus estava pedindo algo que custaria caro para você?",
+ "entender": "Em Cesárea, o profeta Ágabo veio até o grupo de Paulo e, com um gesto simbólico, atou a si mesmo os pés e as mãos usando a cinta de Paulo. Ele anunciou que, em Jerusalém, os judeus fariam o mesmo com Paulo e o entregariam aos gentios. Era um aviso claro de prisão e perigo.\n\nAo ouvirem, todos rogaram a Paulo que não subisse. Mas ele respondeu com firmeza: estava pronto não apenas para ser atado, mas até para morrer em Jerusalém pelo nome do Senhor Jesus. Ninguém conseguiu convencê-lo a voltar atrás. A frase final do grupo, \"Faça-se a vontade do Senhor\", mostra que, embora tivessem medo, respeitavam a decisão de Paulo e a soberania de Deus.\n\nAo chegarem, foram recebidos com alegria pelos irmãos. No dia seguinte, Paulo visitou Tiago e os anciãos. Ele contou em detalhes o que Deus tinha feito entre os gentios. A reação dos líderes judeus-cristãos foi glorificar ao Senhor, mas eles também destacaram a preocupação: havia milhares de judeus crentes que eram zelosos da lei e que poderiam rejeitar a mensagem se entendessem errado o ensino de Paulo.",
+ "ligar": {
+  "texto": "Paulo declara estar pronto para morrer \"pelo nome do Senhor Jesus\". Isso mostra que seu compromisso não era com uma religião, mas com a pessoa de Cristo. A coragem de Paulo nasce da confiança de que a obra de Jesus na cruz já venceu a morte. Mesmo diante de sofrimento, ele via o evangelho como prioridade máxima. A reconciliação entre judeus e gentios, que o texto menciona no final, é possível apenas porque Jesus derrubou a barreira de inimizade entre os povos, unindo-os em um só corpo.",
+  "selo": true
+ },
+ "viver": "Paulo sabia o que o esperava, mas escolheu ir mesmo assim. Às vezes, nossa fé é testada não por grandes martírios, mas por decisões diárias que nos custam conforto ou reputação. Pergunte-se: há alguma verdade do evangelho que você está evitando compartilhar ou viver porque teme o que dirão de você? A obediência a Deus não depende da ausência de medo, mas da confiança em que Ele é maior que qualquer consequência. Seja corajoso para servir a Cristo, mesmo quando o caminho parece estreito.",
+ "guarde": "A verdadeira coragem cristã é dizer 'sim' a Deus mesmo quando o preço é alto.",
+ "ore": "Ágabo, que viu o sofrimento de Paulo, ensina-me a não fugir da vontade de Deus. Pai, assim como Paulo estava pronto para morrer pelo nome de Jesus, dá-me coragem para obedecer a Ti, mesmo quando isso custar meu conforto ou minha imagem. Que eu não busque minha segurança em mim mesmo, mas em Ti.",
+ "quiz": {
+  "pergunta": "O que o profeta Ágabo fez com a cinta de Paulo?",
+  "opcoes": [
+   "Quebrou a cinta em duas partes.",
+   "Atou os próprios pés e mãos com ela.",
+   "Deu a cinta a Paulo como presente."
+  ],
+  "certa": 1,
+  "explicacao": "O texto diz que ele tomou a cinta e atou-se os pés e as mãos, simbolizando a prisão que Paulo sofreria."
+ },
+ "refs": [
+  "Atos 20:22-24",
+  "Filipenses 1:20-24",
+  "Mateus 10:32-33"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-31T03:57:29.768Z",
+  "rounds": 1
+ }
+}
