@@ -2666,19 +2666,27 @@
   },
   "44-26-22-32": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:guarde:44-25-1-9, abertura_repetida:entender:44-26-1-11",
+   "estado": "pronto",
+   "titulo": "Paulo e o tribunal que o condenou"
   },
   "44-27-1-11": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:ore:44-17-12-23",
+   "estado": "pronto",
+   "titulo": "O aviso de Paulo e a confiança errada"
   },
   "44-27-12-22": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:citacao_longa",
+   "estado": "pronto",
+   "titulo": "O vento que quase afundou a esperança"
   },
   "44-27-23-33": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "Âncoras lançadas no fundo do mar"
   },
   "44-27-34-44": {
    "execucoes": 0,
@@ -2703,28 +2711,44 @@
   "45-1-12-21": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "45-1-22-32": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "45-2-1-10": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "45-2-11-20": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "45-2-21-29": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 845,
-   "entrada": 2208622,
-   "saida": 745262
+   "chamadas": 852,
+   "entrada": 2228886,
+   "saida": 751426
   },
   "groq-qwen": {
-   "chamadas": 841,
-   "entrada": 2101437,
-   "saida": 684248
+   "chamadas": 848,
+   "entrada": 2120993,
+   "saida": 689976
   },
   "gemini": {
-   "chamadas": 736,
-   "entrada": 2390911,
-   "saida": 928868
+   "chamadas": 743,
+   "entrada": 2413958,
+   "saida": 937063
   },
   "cloudflare": {
-   "chamadas": 455,
-   "entrada": 1591255,
-   "saida": 168805
+   "chamadas": 459,
+   "entrada": 1605536,
+   "saida": 170289
   },
   "mistral": {
    "chamadas": 0,

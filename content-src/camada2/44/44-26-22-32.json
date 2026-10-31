@@ -1,0 +1,141 @@
+{
+ "id": "44-26-22-32",
+ "ref": "Atos 26:22-32",
+ "book": "44",
+ "chapter": 26,
+ "verses": [
+  {
+   "n": 22,
+   "t": "Porém tendo eu obtido socorro de Deus, permaneço até o dia de hoje, dando testemunho tanto a pequenos como a grandes; não dizendo nada além dos que as coisas que os profetas e Moisés tinham dito que estavam para acontecer;"
+  },
+  {
+   "n": 23,
+   "t": "Isto é , que o Cristo sofreria, e sendo o primeiro da ressurreição dos mortos, ia anunciar a luz a este povo e aos gentios."
+  },
+  {
+   "n": 24,
+   "t": "E tendo Paulo dito isto em sua defesa, Festo disse em alta voz: Tu estás louco, Paulo; as muitas escrituras te fizeram enlouquecer!"
+  },
+  {
+   "n": 25,
+   "t": "Mas ele respondeu : Eu não estou louco, excelentíssimo Festo; mas eu declaro palavras de verdade e de um são juízo;"
+  },
+  {
+   "n": 26,
+   "t": "Porque o rei, a quem eu estou falando livremente, ele sabe muito bem destas coisas; porque eu não creio que nenhuma disto lhe seja oculto; por que isto não foi feito num canto."
+  },
+  {
+   "n": 27,
+   "t": "Rei Agripa, tu crês nos profetas? Eu sei que tu crês."
+  },
+  {
+   "n": 28,
+   "t": "E Agripa disse a Paulo: Por pouco tu me convences a me tornar cristão."
+  },
+  {
+   "n": 29,
+   "t": "E Paulo disse: Meu desejo a Deus é que, por pouco ou por muito, não somente tu, mas todos os que estão me ouvindo hoje, tais vos tornásseis assim como eu sou, a não ser por estas correntes."
+  },
+  {
+   "n": 30,
+   "t": "E tendo ele dito isto, o rei se levantou, e também o governador, Berenice, e os que estavam sentados com eles."
+  },
+  {
+   "n": 31,
+   "t": "E reunindo-se à parte, falavam uns aos outros, dizendo: Este homem nada faz que seja digno de morte ou de prisões."
+  },
+  {
+   "n": 32,
+   "t": "E Agripa disse a Festo: Este homem podia ser solto, se ele não tivesse apelado a César."
+  }
+ ],
+ "titulo": "Paulo e o tribunal que o condenou",
+ "temas": [
+  "testemunho",
+  "coragem",
+  "verdade",
+  "cristo"
+ ],
+ "pergunta": "O que fazemos quando a verdade parece loucura para quem nos ouve?",
+ "entender": "Paulo está preso e defende-se diante do rei Agripa e do governador Festo. Ele explica que não inventa nada, mas apenas cumpre o que Moisés e os profetas escreveram: que o Cristo sofreria e ressuscitaria para anunciar luz (Atos 26.22-23). Festo, sem entender bem o assunto, grita: \"Tu estás louco, Paulo\" (v. 24). Paulo responde com calma: não é loucura, é \"palavras de verdade e de um são juízo\" (v. 25).\n\nAgripa, que conhecia as Escrituras, fica impressionado e diz: \"Por pouco tu me convences a me tornar cristão\" (v. 28). Paulo aproveita o momento para orar por todos ali. No final, os juízes concluem que Paulo não cometeu crime digno de morte ou prisão, mas ele não pode ser solto porque apelou a César (v. 32).",
+ "ligar": {
+  "texto": "O centro da defesa de Paulo é Jesus. Ele não defende uma filosofia, mas um fato histórico: Jesus morreu e voltou à vida. A \"luz\" que Cristo anuncia é o evangelho. O texto mostra que a verdade de Cristo pode incomodar quem não a entende (Festo) e tocar o coração de quem a conhece (Agripa). Mesmo preso, Paulo aponta para Jesus como a única solução para a vida humana.",
+  "selo": true
+ },
+ "viver": "Às vezes, falar sobre Jesus em um ambiente hostil pode gerar estranheza ou até acusações de exagero. Assim como Paulo, não precisamos nos justificar com raiva, mas com clareza e amor. Se alguém rir ou questionar sua fé, respire e lembre-se: você não está defendendo suas próprias ideias, mas a vida de Cristo. A coragem de Paulo não veio de sua voz, mas de sua confiança em Deus. Compartilhe o evangelho com simplicidade, mesmo quando o ambiente parecer hostil; o resultado pertence a Deus.",
+ "guarde": "A luz de Cristo brilha mais forte quando as correntes nos prendem.",
+ "ore": "Rei Agripa e Festo ouviram a verdade. Que eu também ouça o Teu chamado. Ajuda-me a declarar quem Jesus é com clareza e amor, mesmo quando houver resistência. Que minhas correntes não me impeçam de apontar para a Tua luz. Amém.",
+ "quiz": {
+  "pergunta": "O que Festo disse a Paulo quando ouviu sua defesa?",
+  "opcoes": [
+   "Que ele estava louco.",
+   "Que ele era um criminoso perigoso.",
+   "Que ele era um sábio filósofo."
+  ],
+  "certa": 0,
+  "explicacao": "No versículo 24, Festo, não entendendo a mensagem espiritual, exclama em alta voz: 'Tu estás louco, Paulo; as muitas escrituras te fizeram enlouquecer!'"
+ },
+ "refs": [
+  "1 Coríntios 1:18-25",
+  "Atos 22:6-16",
+  "2 Coríntios 5:14-17"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-31T18:56:42.386Z",
+  "rounds": 2
+ }
+}

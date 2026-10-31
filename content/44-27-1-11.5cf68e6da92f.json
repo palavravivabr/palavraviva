@@ -1,0 +1,141 @@
+{
+ "id": "44-27-1-11",
+ "ref": "Atos 27:1-11",
+ "book": "44",
+ "chapter": 27,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E quando foi determinado que tínhamos que navegar para a Itália, entregaram a Paulo e alguns outros prisioneiros, a um centurião, por nome Júlio, do esquadrão imperial."
+  },
+  {
+   "n": 2,
+   "t": "E embarcando -nos em um navio adramitino, estando a navegar pelos lugares costeiros da Ásia, nós partimos, estando conosco Aristarco, o macedônio de Tessalônica."
+  },
+  {
+   "n": 3,
+   "t": "E no dia seguinte, chegamos a Sidom; e Júlio, tratando bem a Paulo, permitiu -lhe que fosse aos amigos, para receber cuidado deles ."
+  },
+  {
+   "n": 4,
+   "t": "E tendo partido dali, nós fomos navegando abaixo do Chipre, porque os ventos estavam contrários."
+  },
+  {
+   "n": 5,
+   "t": "E tendo passado ao longo do mar da Cilícia e Panfília, viemos a Mira em Lícia."
+  },
+  {
+   "n": 6,
+   "t": "E o centurião, tendo achado ali um navio de Alexandria, que estava navegando para a Itália, nos fez embarcar nele."
+  },
+  {
+   "n": 7,
+   "t": "E indo navegando lentamente já por muitos dias, chegando com dificuldade em frente a Cnido, o vento, não nos permitindo continuar por ali ,navegamos abaixo de Creta, em frente a Salmone."
+  },
+  {
+   "n": 8,
+   "t": "E tendo com dificuldade percorrido sua costa, chegamos a um certo lugar, chamado Bons Portos, perto do qual estava a cidade de Laseia."
+  },
+  {
+   "n": 9,
+   "t": "E tendo passado muito tempo, e sendo a navegação já perigosa, porque também já tinha passado o jejum, Paulo os exortava,"
+  },
+  {
+   "n": 10,
+   "t": "Dizendo-lhes: Homens, eu vejo que a navegação vai ser com violência e muito dano, não somente de carga e do navio, mas também de nossas vidas."
+  },
+  {
+   "n": 11,
+   "t": "Porém o centurião cria mais no capitão e no dono do navio do que no que Paulo dizia."
+  }
+ ],
+ "titulo": "O aviso de Paulo e a confiança errada",
+ "temas": [
+  "confiança",
+  "perigo",
+  "sabedoria",
+  "deus"
+ ],
+ "pergunta": "Você já ignorou um aviso claro porque preferiu confiar mais na opinião da maioria?",
+ "entender": "Paulo viaja para a Itália preso, mas com a proteção de Deus. No caminho, o vento é contrário e a viagem fica difícil. Quando chegam a um porto chamado Bons Portos, Paulo percebe que o perigo está próximo. Ele avisa a tripulação: a viagem trará violência e dano às vidas deles.\n\nÉ interessante notar a reação do centurião Júlio. Ele respeitava Paulo e até permitia que ele recebesse cuidado de amigos, mas neste momento crítico, Júlio escolheu confiar mais no capitão e no dono do navio do que na palavra de Paulo. O texto mostra que, mesmo entre pessoas de boa vontade, a confiança pode ser mal direcionada quando o perigo se aproxima. A tempestade, chamada Euroaquilão, logo em seguida, confirma o aviso de Paulo.",
+ "ligar": {
+  "texto": "Paulo não tinha controle sobre o mar, mas tinha a certeza de que Deus estava com ele. Sua calma no meio da crise vinha de saber que Deus cumpre seus propósitos, mesmo através de tragédias. Isso nos lembra que Jesus também navegou em um barco e acalmou a tempestade, mostrando autoridade sobre a criação. A confiança de Paulo nos ensina que nossa segurança não está nas circunstâncias ou na opinião humana, mas no Deus que governa todas as coisas, inclusive os ventos e as ondas da nossa vida.",
+  "selo": false
+ },
+ "viver": "Júlio, um homem de posição, hesitou em ouvir o aviso de Paulo porque a maioria confiava nos especialistas da navegação. Hoje, muitas vezes preferimos seguir a opinião de especialistas ou da maioria, mesmo quando sentimos um desconforto espiritual ou ouvimos uma verdade que vai contra a corrente. A aplicação concreta é: quando a Palavra de Deus ou o conselho de um irmão sábio aponta para um caminho diferente do que a cultura ou a maioria sugerem, pare e avalie. Não confie cegamente em quem domina a técnica, mas busque a direção de Deus, que conhece o fim da história.",
+ "guarde": "A segurança real não está no conhecimento técnico dos homens, mas na confiança no Deus que guia a viagem.",
+ "ore": "Júlio, o centurião que escolheu a experiência humana sobre a revelação divina, ensina-me a discernir. Quando a maioria me empurra para um caminho perigoso, dá-me a coragem de confiar em Ti, não nas opiniões humanas. Que eu não ignore Tua voz por medo de parecer estranho ou por confiar demais na minha própria experiência.",
+ "quiz": {
+  "pergunta": "Quem o centurião Júlio preferiu ouvir sobre a navegação?",
+  "opcoes": [
+   "Aristarco, seu companheiro de viagem",
+   "Paulo, por ser um apóstolo",
+   "O capitão e o dono do navio"
+  ],
+  "certa": 2,
+  "explicacao": "O texto afirma explicitamente no versículo 11 que o centurião cria mais no capitão e no dono do navio do que no que Paulo dizia, ignorando o aviso profético."
+ },
+ "refs": [
+  "Mateus 8:23-27",
+  "Atos 28:1-10",
+  "Provérbios 29:20"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-31T18:57:39.937Z",
+  "rounds": 3
+ }
+}

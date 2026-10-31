@@ -1,0 +1,139 @@
+{
+ "id": "44-27-23-33",
+ "ref": "Atos 27:23-33",
+ "book": "44",
+ "chapter": 27,
+ "verses": [
+  {
+   "n": 23,
+   "t": "Porque esta mesma noite esteve comigo um anjo de Deus, a quem eu pertenço e a quem eu sirvo;"
+  },
+  {
+   "n": 24,
+   "t": "Dizendo: Não temas, Paulo; é necessário que tu sejas apresentado a César; e eis que Deus tem te dado a vida a todos quantos navegam contigo."
+  },
+  {
+   "n": 25,
+   "t": "Portanto, homens, tende bom ânimo; porque eu creio em Deus que assim será, conforme o que me foi dito."
+  },
+  {
+   "n": 26,
+   "t": "Mas é necessário que sejamos lançados a uma ilha."
+  },
+  {
+   "n": 27,
+   "t": "E quando veio a décima quarta noite, sendo lançados de um lado para o outro no mar Adriático, por volta da meia noite os marinheiros suspeitaram de que estavam se aproximando de alguma terra firme ."
+  },
+  {
+   "n": 28,
+   "t": "E tendo lançado o prumo, acharam vinte braças; e passando um pouco mais adiante, voltando a lançar o prumo, acharam quinze braças."
+  },
+  {
+   "n": 29,
+   "t": "E temendo de irem de encontro a lugares rochosos, lançaram da popa quatro âncoras, desejando que o dia viesse logo ."
+  },
+  {
+   "n": 30,
+   "t": "E quando os marinheiros estavam procurando fugir do navio, e baixando o barquinho de reserva ao mar, como que queriam largar as âncoras da proa,"
+  },
+  {
+   "n": 31,
+   "t": "Paulo disse ao centurião e aos soldados: Se estes não ficarem no navio, vós não podeis vos salvar."
+  },
+  {
+   "n": 32,
+   "t": "Então os soldados cortaram os cabos do barquinho de reserva, e o deixaram cair."
+  },
+  {
+   "n": 33,
+   "t": "E até enquanto o dia estava vindo, Paulo exortava a todos que comessem alguma coisa, dizendo: Hoje já é o décimo quarto dia, em que estais esperando, continuando sem comer, nada tendo experimentado."
+  }
+ ],
+ "titulo": "Âncoras lançadas no fundo do mar",
+ "temas": [
+  "confiança",
+  "proteção",
+  "esperança"
+ ],
+ "pergunta": "O que você faria se soubesse que Deus tinha um plano específico para o seu destino, mesmo no meio da tempestade?",
+ "entender": "Paulo está preso a caminho de Roma e enfrenta uma tempestade violenta. Ele anuncia que um anjo lhe garantiu que todos os tripulantes sobreviveriam, embora o navio fosse perdido. A confiança de Paulo não é apenas em si mesmo, mas na promessa divina que ele recebeu.\n\nEnquanto os marinheiros tentam fugir em um bote, Paulo os retém, pois a segurança de todos depende de ficarem no navio. Ele exorta todos a comerem, pois após catorze dias sem alimento, o corpo deles precisava de força. A cena mostra que a fé de Paulo traz paz e direção prática, mesmo quando a situação parece sem saída.",
+ "ligar": {
+  "texto": "Este trecho aponta para Jesus, o verdadeiro porto seguro. Assim como Paulo confiou na promessa de Deus para salvar a si e aos outros, Jesus oferece salvação eterna a quem nele crê. Ele é a âncora firme da nossa alma, garantindo que, mesmo quando o navio da nossa vida se quebra, a nossa vida eterna está preservada por Sua graça.",
+  "selo": false
+ },
+ "viver": "Às vezes, tentamos 'fugir' dos problemas como os marinheiros tentaram fugir do navio. Mas a sabedoria de Paulo nos ensina que a segurança vem de permanecer onde Deus nos colocou, confiando no Seu cuidado. Em momentos de crise, em vez de pânico, busque a paz que vem da obediência e da confiança na proteção divina, alimentando-se da Palavra para ter força.",
+ "guarde": "A fé verdadeira mantém a calma e protege a vida de todos ao redor, mesmo quando o cenário parece desastroso.",
+ "ore": "Paulo, ensina-me a confiar em Deus como tu confiaste no mar Adriático. Que eu não busque fugir dos problemas, mas permaneça firme, sabendo que Tu preservas a minha vida e a de quem está comigo.",
+ "quiz": {
+  "pergunta": "O que Paulo disse aos marinheiros que tentavam fugir do navio?",
+  "opcoes": [
+   "Que se não ficassem no navio, eles não se salvariam.",
+   "Que deveriam lançar mais âncoras.",
+   "Que deveriam rezar mais fervorosamente."
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz que Paulo alertou o centurião e os soldados de que a salvação deles dependia de ficarem no navio, o que levou ao corte dos cabos do bote."
+ },
+ "refs": [
+  "Hebreus 6:19",
+  "Marcos 4:39-41"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-31T18:55:40.720Z",
+  "rounds": 1
+ }
+}

@@ -1,0 +1,141 @@
+{
+ "id": "44-27-12-22",
+ "ref": "Atos 27:12-22",
+ "book": "44",
+ "chapter": 27,
+ "verses": [
+  {
+   "n": 12,
+   "t": "E não sendo aquele porto adequado para passar o inverno, a maioria preferiu partir dali, para ver se podiam chegar a Fênix, que é um porto de Creta, voltada para o lado do vento sudoeste e noroeste, para ali passarem o inverno."
+  },
+  {
+   "n": 13,
+   "t": "E ao ventar brandamente ao sul, pareceu-lhes que eles já tinham o que queriam; e levantando a vela, foram por perto da costa de Creta."
+  },
+  {
+   "n": 14,
+   "t": "Mas não muito depois houve contra ela um vento violento, chamado Euroaquilão."
+  },
+  {
+   "n": 15,
+   "t": "E tendo o navio sido tomado por ele, e não podendo navegar contra o vento, nós deixamos sermos levados por ele ."
+  },
+  {
+   "n": 16,
+   "t": "E correndo abaixo de uma pequena ilha, chamada Clauda, com dificuldade conseguimos manter o barquinho de reserva;"
+  },
+  {
+   "n": 17,
+   "t": "O qual, tendo sido levado para cima, usaram de suportes para reforçarem o navio; e temendo irem de encontro aos bancos de areia, eles baixaram as velas e deixaram ir à deriva."
+  },
+  {
+   "n": 18,
+   "t": "E sendo muito afligidos pela tempestade, no dia seguinte jogaram a carga para fora do navio ."
+  },
+  {
+   "n": 19,
+   "t": "E no terceiro dia , com as nossas próprias mãos jogamos fora os instrumentos do navio."
+  },
+  {
+   "n": 20,
+   "t": "E não aparecendo ainda o sol, nem estrelas havia muitos dias, e sendo afligidos por não pouca tempestade, desde então tínhamos perdido toda a esperança de sermos salvos."
+  },
+  {
+   "n": 21,
+   "t": "E havendo muito tempo que não havia o que comer, então Paulo, ficando de pé no meio deles, disse: Homens, vós devíeis ter dado atenção a mim, e não terdes partido de Creta, e assim evitar esta situação ruim e prejuízo."
+  },
+  {
+   "n": 22,
+   "t": "Mas agora eu vos exorto a terdes bom ânimo; porque haverá nenhuma perda de vida de vós, além somente da perda do navio."
+  }
+ ],
+ "titulo": "O vento que quase afundou a esperança",
+ "temas": [
+  "confiança",
+  "tempestade",
+  "expectativa",
+  "segurança"
+ ],
+ "pergunta": "O que você faz quando o plano seguro da sua vida é destruído por forças que você não controla?",
+ "entender": "Paulo e os outros prisioneiros estavam num navio romano que tentava evitar o inverno em Creta. A maioria achou que o porto de Fênix seria melhor, mas o vento mudou. O texto descreve uma tempestade violenta, o Euroaquilão, que tomou o controle do navio. Eles tentaram de tudo: reforçaram a estrutura, jogaram carga ao mar e, por fim, até seus próprios instrumentos. Passaram dias sem ver o sol nem estrelas, e a fome apertava. A situação era tão desesperadora que, como o texto diz, \"tínhamos perdido toda a esperança de sermos salvos\".\n\nÉ importante notar o contraste entre a reação da tripulação e a de Paulo. Enquanto todos se aferravam ao navio e à carga, Paulo, que já havia alertado sobre os perigos da viagem, ficou de pé no meio deles. Ele não ofereceu garantias de conforto, mas uma promessa específica: haveria perda do navio, mas nenhuma perda de vidas. No meio do caos e da escuridão, a voz de Paulo trouxe uma âncora que as velas e os remos não podiam oferecer.",
+ "ligar": {
+  "texto": "Este episódio aponta para Jesus como o verdadeiro porto seguro. Assim como o navio físico foi destruído, muitas vezes nossas certezas humanas também são levadas pela tempestade. Mas Jesus é o único que tem autoridade sobre as tempestades da vida. Ele não promete que não haverá perdas ou sofrimentos, mas garante que, em Cristo, nossa vida eterna está protegida. A segurança que Paulo oferecia vinha de sua confiança em Deus, o mesmo Deus que revelou seu poder supremo na cruz e na ressurreição de Jesus, vencendo a morte definitiva.",
+  "selo": false
+ },
+ "viver": "Talvez você esteja numa \"tempestade\" agora: uma doença, uma crise financeira ou um luto que apagou o sol da sua alegria. O texto nos ensina que a esperança cristã não depende das circunstâncias externas, mas de quem governa sobre elas. Enquanto a tripulação olhava para o mar agitado e para a carga que afundava, Paulo olhava para Deus. Hoje, em vez de focar no que está sendo perdido (o \"navio\"), concentre-se na promessa de que sua vida está nas mãos de Deus. A perda pode ser real e dolorosa, mas ela não é o fim da história, porque Cristo está vivo e cuida de você mesmo no meio da escuridão.",
+ "guarde": "Mesmo quando o navio afunda e a esperança humana morre, a promessa de Deus permanece firme.",
+ "ore": "Paulo, ao se levantar no meio da tempestade, lembrou a todos da promessa de Deus. Ajuda-me a não olhar apenas para o mar agitado da minha vida, mas para Ti. Quando a ansiedade tentar me fazer perder a esperança, lembra-me de que, em Cristo, minha vida está segura, mesmo que eu perca tudo o mais.",
+ "quiz": {
+  "pergunta": "O que Paulo disse aos homens no meio da tempestade em Atos 27:22?",
+  "opcoes": [
+   "Que a tempestade ia passar em poucas horas.",
+   "Que não haveria perda de vidas, apenas a do navio.",
+   "Que Deus ia fazer o navio chegar inteiro a Fênix."
+  ],
+  "certa": 1,
+  "explicacao": "O texto afirma explicitamente que haveria perda do navio, mas nenhuma perda de vidas, o que contrasta com a expectativa de salvamento total do barco."
+ },
+ "refs": [
+  "Mateus 14:24-32",
+  "Marcos 4:35-41",
+  "Salmos 107:23-30"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-31T18:52:45.071Z",
+  "rounds": 1
+ }
+}
