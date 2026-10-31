@@ -65,3 +65,11 @@ test('página Créditos e colaboradores: seis participantes na ordem, nota de tr
   const cr = read('CREDITS.md');
   assert.ok(cr.includes('Bíblia Livre') && cr.includes('CC BY 4.0') && cr.includes('ambiente-leitura.mp3'));
 });
+test('áudio v4 básico: rodapé só com tradução e Ouvir; só a trilha Padrão; submenu em Configurações', () => {
+  const ui = read('src/audio-ui.js'), cfg = JSON.parse(read('config.json'));
+  assert.deepEqual(cfg.audio, ['assets/ambiente-leitura.mp3']); assert.deepEqual(cfg.audioNomes, ['Padrão']);
+  assert.ok(html.includes('id="audioBar"') && html.includes('id="audbtn"') && html.includes('Som ao abrir o app'));
+  assert.ok(!html.includes('lsVoz') && !html.includes('lsRate') && !/Alvorada|Quietude/.test(html + app));
+  assert.ok(ui.includes('▶ Ouvir') && ui.includes('❚❚ Parar') && ui.includes('Só existe trilha Padrão'));
+  assert.ok(list('SHELL_FILES').includes('src/audio-ui.js') && list('SHELL_FILES').includes('src/boot.js'));
+});

@@ -282,17 +282,22 @@
     if (overlay) history.replaceState({ o: kind, d: curState.d }, ''); else history.pushState({ o: kind, d: curState.d + 1 }, '');
     overlay = kind;
   }
-  function hideOverlayUI() { $('#drawerBg').classList.remove('on'); $('#modalBg').hidden = true; clear($('#mBody')); }
+  function hideOverlayUI() {
+    $('#drawerBg').classList.remove('on'); $('#modalBg').hidden = true; clear($('#mBody')); $('#app').classList.remove('sheet-open');
+    try { document.dispatchEvent(new CustomEvent('pv-overlay-fechou')); } catch (x) { /* ok */ }
+  }
   function closeOverlay() { if (overlay) history.back(); }
   function openDrawer() { hideOverlayUI(); openOverlay('drawer'); $('#drawerBg').classList.add('on'); }
-  function modal(nodes) {
+  /* opts.sheet: abre como folha na parte de baixo da tela (usado pelas opções de Narração e de Clima de Leitura) */
+  function modal(nodes, opts) {
     var m = clear($('#mBody')); nodes.forEach(function (n) { m.appendChild(n); });
+    $('#modalBg').classList.toggle('sheet', !!(opts && opts.sheet)); $('#app').classList.toggle('sheet-open', !!(opts && opts.sheet));
     $('#drawerBg').classList.remove('on'); $('#modalBg').hidden = false; openOverlay('modal');
     var f = $('#mClose'); if (f) f.focus();
   }
   function mtag(t, first) { return h('div', { class: 'mtag', style: first ? 'margin-top:30px' : null, text: t }); }
 
-  window.PVApp = { h: h, modal: modal, mtag: mtag, toast: toast, closeOverlay: closeOverlay };
+  window.PVApp = { h: h, modal: modal, mtag: mtag, toast: toast, closeOverlay: closeOverlay, trocarTraducao: function () { versionModal(); }, traducao: function () { try { return activeVersion().sigla; } catch (x) { return ''; } }, temVarias: function () { try { return versionsList().length > 1; } catch (x) { return false; } } };
 
   /* ---------- início ---------- */
   var testament = 'at';
@@ -404,8 +409,9 @@
 
   /* ---------- leitura ---------- */
 
-  /* ---------- leitura em voz alta (voz sintetizada do aparelho, preferindo masculina) ---------- */
-  var TTS = { on: false, i: 0, itens: [], voz: null, tk: 0 };
+  /* ---------- leitura em voz alta com a "Voz do celular" (sintetizada; prefere voz masculina) ----------
+     Este bloco é só o motor. Os botões e as opções (voz e velocidade) ficam em src/audio-ui.js, que chama window.PVDev. */
+  var TTS = { on: false, i: 0, itens: [], voz: null, tk: 0, info: '' };
   function ttsOk() { return 'speechSynthesis' in window && 'SpeechSynthesisUtterance' in window; }
   function vozesPt() {
     return speechSynthesis.getVoices().filter(function (v) { return /^pt/i.test(v.lang); }).sort(function (x, y) { return (/^pt[-_]?br/i.test(y.lang) ? 1 : 0) - (/^pt[-_]?br/i.test(x.lang) ? 1 : 0); });
@@ -421,35 +427,23 @@
     for (i = 0; i < vs.length; i++) if (/pt[-_]?br/i.test(vs[i].lang) && !MULHER.test(vs[i].name + ' ' + vs[i].voiceURI)) return { v: vs[i], grave: true };
     return { v: vs[0], grave: true }; // sem voz masculina identificável: tom mais grave
   }
-  function preencherVozes() {
-    var sel = $('#lsVoz'), rt = $('#lsRate'); if (!sel) return;
-    var vs = vozesPt(); if (!vs.length) { sel.hidden = true; rt.hidden = true; return; }
-    var atual = escolherVoz();
-    sel.innerHTML = '';
-    vs.forEach(function (v, n) {
-      var o = document.createElement('option'); o.value = v.voiceURI;
-      o.textContent = 'Voz ' + (n + 1) + (HOMEM.test(v.name + ' ' + v.voiceURI) ? ' (masculina)' : MULHER.test(v.name + ' ' + v.voiceURI) ? ' (feminina)' : '') + ' · ' + v.lang;
-      if (atual && atual.v.voiceURI === v.voiceURI) o.selected = true; sel.appendChild(o);
-    });
-    sel.hidden = false; rt.hidden = false;
-    try { var r = localStorage.getItem('pv_rate'); if (r) rt.value = r; } catch (x) { /* ok */ }
-    sel.onchange = function () { try { localStorage.setItem('pv_voz', sel.value); } catch (x) { /* ok */ } ttsTrocar(); };
-    rt.onchange = function () { try { localStorage.setItem('pv_rate', rt.value); } catch (x) { /* ok */ } };
+  function ttsVel() { var v = window.PVNarr && window.PVNarr.vel ? window.PVNarr.vel() : 1; return v > 0 ? v : 1; }
+  function ttsAviso() {
+    var pausada = false; try { pausada = TTS.on && speechSynthesis.paused; } catch (x) { /* ok */ }
+    try { document.dispatchEvent(new CustomEvent('pv-narr', { detail: { src: 'dev', on: TTS.on, playing: TTS.on && !pausada, info: TTS.info } })); } catch (x) { /* ok */ }
   }
-  /* troca de voz no meio da leitura: ignora os avisos da voz antiga, para a fala e recomeça no versículo atual com a voz nova */
+  /* troca de velocidade no meio da leitura: para a fala e recomeça no versículo atual */
   function ttsTrocar() {
     if (!TTS.on) return;
-    TTS.voz = escolherVoz(); TTS.tk++;
+    TTS.tk++;
     try { speechSynthesis.cancel(); } catch (x) { /* ok */ }
-    var pl = $('#lsPlay'), inf = $('#lsInfo');
-    if (pl) pl.textContent = '❚❚ Pausar';
-    if (inf && TTS.voz) inf.textContent = 'Voz: ' + TTS.voz.v.name + (TTS.voz.grave ? ' (tom grave)' : '');
-    setTimeout(function () { if (!TTS.on) return; try { speechSynthesis.resume(); } catch (x) { /* ok */ } ttsFalar(); }, 250);
+    setTimeout(function () { if (!TTS.on) return; try { speechSynthesis.resume(); } catch (x) { /* ok */ } ttsFalar(); ttsAviso(); }, 250);
   }
   function ttsStop() {
-    TTS.on = false; TTS.tk++; try { speechSynthesis.cancel(); } catch (x) { /* sem voz */ }
+    var estava = TTS.on;
+    TTS.on = false; TTS.tk++; TTS.info = ''; try { speechSynthesis.cancel(); } catch (x) { /* sem voz */ }
     $$('.v.lendo').forEach(function (e) { e.classList.remove('lendo'); });
-    var p = $('#lsPlay'), st = $('#lsStop'); if (p) { p.textContent = '▶ Ouvir capítulo'; } if (st) st.hidden = true;
+    if (estava) ttsAviso();
   }
   function ttsFalar() {
     if (!TTS.on) return;
@@ -459,34 +453,28 @@
     el.classList.add('lendo'); el.scrollIntoView({ block: 'center', behavior: 'smooth' });
     var tk = TTS.tk;
     var u = new SpeechSynthesisUtterance($('span', el).textContent); // lê só o texto, sem dizer o número do versículo
-    u.lang = 'pt-BR'; u.rate = parseFloat(($('#lsRate') || {}).value) || 0.92; u.pitch = TTS.voz && TTS.voz.grave ? 0.7 : 0.9;
+    u.lang = 'pt-BR'; u.rate = ttsVel(); u.pitch = TTS.voz && TTS.voz.grave ? 0.7 : 0.9;
     if (TTS.voz && TTS.voz.v) { u.voice = TTS.voz.v; u.lang = TTS.voz.v.lang || 'pt-BR'; }
     u.onend = function () { if (tk !== TTS.tk) return; if (TTS.on) { TTS.i++; ttsFalar(); } };
-    u.onerror = function (e) { if (tk !== TTS.tk) return; if (e && (e.error === 'canceled' || e.error === 'interrupted')) return; ttsStop(); toast('Não foi possível ler em voz alta neste aparelho.'); };
+    u.onerror = function (e) { if (tk !== TTS.tk) return; if (e && (e.error === 'canceled' || e.error === 'interrupted')) return; ttsStop(); toast('Não foi possível ler em voz alta neste celular.'); };
     speechSynthesis.speak(u);
   }
-  function bindListen() {
-    var box = $('#listen'); if (!box) return;
-    if (!ttsOk()) { box.hidden = true; return; }
-    box.hidden = false; preencherVozes();
-    var info = $('#lsInfo');
-    $('#lsPlay').onclick = function () {
-      if (TTS.on) {
-        if (speechSynthesis.paused) { speechSynthesis.resume(); $('#lsPlay').textContent = '❚❚ Pausar'; }
-        else { speechSynthesis.pause(); $('#lsPlay').textContent = '▶ Continuar'; }
-        return;
-      }
-      TTS.itens = $$('#rtext .v'); if (!TTS.itens.length) return;
-      TTS.voz = escolherVoz();
-      if (!TTS.voz) { info.textContent = 'Este aparelho não tem voz em português instalada. Em Configurações > Idioma > Saída de texto para fala, instale o português do Brasil.'; return; }
-      info.textContent = 'Voz: ' + TTS.voz.v.name + (TTS.voz.grave ? ' (tom grave)' : '');
-      TTS.tk++; TTS.i = 0; TTS.on = true; $('#lsPlay').textContent = '❚❚ Pausar'; $('#lsStop').hidden = false;
-      try { speechSynthesis.cancel(); } catch (x) { /* ok */ }
-      ttsFalar();
-    };
-    $('#lsStop').onclick = function () { ttsStop(); };
-    if (speechSynthesis.onvoiceschanged !== undefined) speechSynthesis.onvoiceschanged = function () { preencherVozes(); };
+  function ttsStart() {
+    if (!ttsOk()) return false;
+    TTS.itens = $$('#rtext .v'); if (!TTS.itens.length) return false;
+    TTS.voz = escolherVoz();
+    if (!TTS.voz) { TTS.info = 'Este celular não tem voz em português instalada. Em Configurações > Idioma > Saída de texto para fala, instale o português do Brasil.'; ttsAviso(); return false; }
+    TTS.info = ''; TTS.tk++; TTS.i = 0; TTS.on = true;
+    try { speechSynthesis.cancel(); } catch (x) { /* ok */ }
+    ttsFalar(); ttsAviso(); return true;
   }
+  function ttsAlternar() {
+    if (!TTS.on) return ttsStart();
+    try { if (speechSynthesis.paused) speechSynthesis.resume(); else speechSynthesis.pause(); } catch (x) { /* ok */ }
+    ttsAviso(); return true;
+  }
+  window.PVDev = { available: ttsOk, start: ttsStart, toggle: ttsAlternar, stop: ttsStop, restart: ttsTrocar,
+    isOn: function () { return TTS.on; }, isPlaying: function () { try { return TTS.on && !speechSynthesis.paused; } catch (x) { return TTS.on; } }, info: function () { return TTS.info; } };
 
   function verCredit(v) {
     return v.sigla + (v.direitos ? ' · ' + v.direitos : '') + ' · ' + (v.licenca || '') + ' · ';
@@ -507,9 +495,12 @@
     if (v.fonteUrl) nodes.push(h('p', {}, [h('a', { href: v.fonteUrl, rel: 'noopener', target: '_blank', text: 'Ver a página de direitos da fonte' })]));
     modal(nodes);
   }
-  async function versionHave(v) {
+  /* a lista do que já está guardado é lida UMA vez por abertura da janela e repartida entre todas as traduções (antes, cada uma refazia a leitura) */
+  function cacheHave() {
+    return caches.open(CONTENT).then(function (c) { return c.keys(); }).then(function (ks) { return ks.map(function (r) { return relPath(r.url); }); });
+  }
+  function versionHave(v, have) {
     if (v.padrao) return { have: 1, total: 1 };
-    var c = await caches.open(CONTENT), have = (await c.keys()).map(function (r) { return relPath(r.url); });
     var need = (manifest.packages || []).filter(function (p) { return p.version === v.id; });
     return { have: need.filter(function (p) { return have.indexOf(p.path) >= 0; }).length, total: need.length };
   }
@@ -524,6 +515,7 @@
     var nodes = [mtag('Tradução bíblica', true), h('h2', { text: 'Escolha a tradução' }), h('p', { class: 'hint', style: 'text-align:center;margin:0 0 12px', text: 'Seus destaques valem para o mesmo versículo em qualquer tradução.' })];
     var busca = h('input', { type: 'search', class: 'vsearch', placeholder: 'Buscar tradução pelo nome ou sigla', 'aria-label': 'Buscar tradução' });
     var lista = h('div', { class: 'vlist' });
+    var haveP = cacheHave();
     nodes.push(busca, lista);
     function norm(t) { return String(t || '').toLowerCase().normalize('NFD').replace(new RegExp('[' + String.fromCharCode(768) + '-' + String.fromCharCode(879) + ']', 'g'), ''); }
     function item(v) {
@@ -532,10 +524,15 @@
         h('strong', { text: v.nome + ' (' + v.sigla + ')' }),
         h('span', { class: 'vsub', text: (v.edicao ? v.edicao + ' · ' : '') + (v.licenca || '') }),
         h('span', { class: 'vbadge', text: covLabel(v) })]));
-      if (!v.padrao) {
-        var dl = h('button', { class: 'vdl', type: 'button', text: 'Verificando…' });
+      if (v.padrao) {
+        /* a tradução padrão já vem guardada no app: aparece na hora, sem esperar verificação */
+        var ok0 = h('button', { class: 'vdl', type: 'button', text: 'Já disponível sem internet', disabled: 'disabled' }); ok0.style.opacity = '.7'; box.appendChild(ok0);
+      } else {
+        /* sem "Verificando…": o botão fica escondido até a resposta chegar (em segundo plano) e só então mostra o que vale para esta tradução */
+        var dl = h('button', { class: 'vdl', type: 'button' }); dl.hidden = true;
         box.appendChild(dl);
-        versionHave(v).then(function (r) {
+        haveP.then(function (have) {
+          var r = versionHave(v, have); dl.hidden = false;
           if (r.total && r.have === r.total) { dl.textContent = 'Já disponível sem internet'; dl.disabled = true; dl.style.opacity = '.7'; return; }
           dl.textContent = 'Baixar ' + v.sigla + ' para ler sem internet';
           dl.onclick = function () {
@@ -563,7 +560,7 @@
     modal(nodes);
   }
   async function viewRead(s) {
-    ttsStop(); bindListen();
+    ttsStop();
     var b = bookOf(s.b); if (!b) return go({ v: 'home' }, true);
     var ver = activeVersion(), entry = chapterEntry(b, s.c), fallback = false;
     if (!entry && !ver.padrao) { /* esta tradução não tem o capítulo (ex.: só Novo Testamento): mostra a Bíblia Livre, com aviso */
@@ -572,6 +569,7 @@
     }
     if (!entry) return go({ v: 'chap', b: b.id }, true);
     showScreen('read'); $('#readTitle').textContent = b.name + ' ' + s.c;
+    try { document.dispatchEvent(new CustomEvent('pv-leitura')); } catch (x) { /* ok */ } /* avisa a barra de áudio (src/audio-ui.js) que o capítulo mudou */
     drawVerBar(ver, fallback ? activeVersion() : null);
     var box = clear($('#rtext')); clear($('#studyList'));
     box.appendChild(h('p', { class: 'empty', text: 'Carregando…' }));
@@ -905,10 +903,10 @@
     if ('serviceWorker' in navigator) navigator.serviceWorker.addEventListener('message', function (e) { if (e.data && e.data.type === 'ABRIR_PDIA' && window.PVPalavraDia) window.PVPalavraDia.abrirIdx(e.data.idx); });
     lemPintar(); lemAgendar();
   }
-  /* ---------- som de abertura: toca uma vez por abertura do app (não volta ao retornar do segundo plano) ---------- */
+  /* ---------- "Som ao abrir o app": toca uma vez por abertura (não volta ao retornar do segundo plano). É independente do Clima de Leitura. ---------- */
   function aberturaLigada() { return lsGet('pv4-abertura', '1') !== '0'; }
   function aberturaTocar() {
-    if (!aberturaLigada() || ssGet('pv4-abertura-ok')) return;
+    if (!aberturaLigada() || ssGet('pv4-abertura-ok') || window.PV_RECENTE) return;
     ssSet('pv4-abertura-ok', '1');
     var s = document.createElement('script'); s.src = 'assets/abertura-som.js';
     s.onload = function () {
@@ -925,7 +923,7 @@
   }
   function aberturaBind() {
     var sw = $('#abSw'); sw.setAttribute('aria-checked', String(aberturaLigada()));
-    sw.addEventListener('click', function () { var on = !aberturaLigada(); lsSet('pv4-abertura', on ? '1' : '0'); sw.setAttribute('aria-checked', String(on)); toast(on ? 'Som de abertura ligado' : 'Som de abertura desligado'); });
+    sw.addEventListener('click', function () { var on = !aberturaLigada(); lsSet('pv4-abertura', on ? '1' : '0'); sw.setAttribute('aria-checked', String(on)); toast(on ? 'Som ao abrir o app ligado' : 'Som ao abrir o app desligado'); });
   }
   var APP_NAME = 'Palavra Viva – Aprendendo as Escrituras';
   function baseUrl() { return cfg.siteUrl || (location.origin + location.pathname); }
@@ -1074,9 +1072,39 @@
       h('p', { style: 'text-align:center;font-size:12px;color:var(--soft);margin-top:8px', text: 'A chave não aparece na tela: ela é copiada para você colar no aplicativo do seu banco.' })]);
   }
 
-  /* ---------- áudio ambiente: música do projeto se existir; senão, um pad suave sintetizado ---------- */
-  var aud = { on: false, el: null, url: null, ctx: null, master: null, oscs: [] };
-  function volume() { return $('#vol').value / 100; }
+  /* ---------- Clima de Leitura: música instrumental baixinho para refletir enquanto se lê ----------
+     Toca o arquivo do projeto (trilhas em config.json); sem ele, um pad suave sintetizado. Os controles ficam em src/audio-ui.js, que usa window.PVClima.
+     Mixagem: enquanto a Narração toca, o Clima baixa sozinho para 15% (nunca sobe acima do que a pessoa escolheu) e volta ao normal quando ela pausa ou termina. */
+  var CLIMA_VOL_PADRAO = 20, CLIMA_VOL_NARRANDO = 14; /* em % */
+  var aud = { on: false, tocando: false, esperando: false, armado: null, el: null, url: null, ctx: null, master: null, oscs: [], duck: false, fade: 0 };
+  function climaVolUsuario() { var v = parseInt(lsGet('pv4-vol', String(CLIMA_VOL_PADRAO)), 10); return v >= 0 && v <= 100 ? v : CLIMA_VOL_PADRAO; }
+  function volume() { var u = climaVolUsuario(); if (aud.duck) u = Math.min(u, CLIMA_VOL_NARRANDO); return u / 100; } /* volume de saída agora, de 0 a 1 */
+  function climaAviso() { try { document.dispatchEvent(new CustomEvent('pv-clima')); } catch (x) { /* ok */ } }
+  /* aplica o volume de saída; suave = descida/subida gradual (0,6 s) para a mixagem não dar um tranco */
+  function climaAplicar(suave, ms) { ms = ms || 600;
+    var alvo = volume();
+    if (aud.master && aud.ctx) {
+      var g = aud.master.gain, t = aud.ctx.currentTime;
+      try { g.cancelScheduledValues(t); g.setValueAtTime(g.value, t); g.linearRampToValueAtTime(alvo * 0.8, t + (suave ? ms / 1000 : 0.1)); } catch (x) { g.value = alvo * 0.8; }
+    }
+    clearInterval(aud.fade);
+    if (aud.el) {
+      if (!suave) { aud.el.volume = alvo; return; }
+      var de = aud.el.volume, n = 0, passos = Math.max(1, Math.round(ms / 50));
+      aud.fade = setInterval(function () {
+        n++; if (!aud.el) { clearInterval(aud.fade); return; }
+        aud.el.volume = Math.max(0, Math.min(1, de + (alvo - de) * n / passos));
+        if (n >= passos) clearInterval(aud.fade);
+      }, 50);
+    }
+  }
+  var duckT = 0;
+  function climaAbafar(on) {
+    clearTimeout(duckT);
+    if (on) { if (!aud.duck) { aud.duck = true; climaAplicar(true, 800); climaAviso(); } return; } /* narração começa/retoma: desce em 0,8 s */
+    /* pequena espera: na troca automática de capítulo a Narração para e recomeça logo em seguida, e o Clima não precisa subir e descer */
+    duckT = setTimeout(function () { if (aud.duck) { aud.duck = false; climaAplicar(true, 1000); climaAviso(); } }, 500); /* pausa/fim: sobe em 1 s */
+  }
   async function mediaResponse(src) {
     var c = await caches.open(MEDIA), r = await c.match(src);
     if (!r) { r = await fetch(src); if (!r.ok) throw new Error('sem arquivo'); await c.put(src, r.clone()); }
@@ -1096,7 +1124,8 @@
     aud.master.gain.linearRampToValueAtTime(volume() * 0.8, ac.currentTime + 2.5);
     return true;
   }
-  async function startAudio() {
+  /* semGesto: tentativa ao abrir o app, sem toque da pessoa. Se o navegador bloquear, devolve 'bloqueado' (e não cai no pad mudo) para tentar de novo no primeiro toque. */
+  async function startAudio(semGesto) {
     var lista = cfg.audio || [], i = parseInt(lsGet('pv4-trilha', '0'), 10) || 0;
     var tent = [lista[i], lista[0]].filter(function (x, k, a) { return x && a.indexOf(x) === k; });
     for (var k = 0; k < tent.length; k++) {
@@ -1104,11 +1133,17 @@
         var blob = await (await mediaResponse(tent[k])).blob();
         aud.url = URL.createObjectURL(blob); aud.el = new Audio(aud.url); aud.el.loop = true; aud.el.volume = volume();
         await aud.el.play(); return true;
-      } catch (e) { if (aud.el) { aud.el.pause(); aud.el = null; } if (aud.url) { URL.revokeObjectURL(aud.url); aud.url = null; } }
+      } catch (e) {
+        if (aud.el) { aud.el.pause(); aud.el = null; } if (aud.url) { URL.revokeObjectURL(aud.url); aud.url = null; }
+        if (semGesto && e && e.name === 'NotAllowedError') return 'bloqueado';
+      }
     }
-    return startSynth();
+    var sint = startSynth();
+    if (sint && semGesto && aud.ctx && aud.ctx.state === 'suspended') { stopAudio(); return 'bloqueado'; } /* sem toque, o navegador deixa o pad mudo */
+    return sint;
   }
   function stopAudio() {
+    clearInterval(aud.fade);
     if (aud.el) { aud.el.pause(); aud.el = null; }
     if (aud.url) { URL.revokeObjectURL(aud.url); aud.url = null; }
     if (aud.master && aud.ctx) {
@@ -1116,32 +1151,60 @@
       var o = aud.oscs, m = aud.master; aud.oscs = []; aud.master = null;
       setTimeout(function () { o.forEach(function (x) { try { x.stop(); } catch (e) { /* já parou */ } }); try { m.disconnect(); } catch (e) { /* ok */ } }, 1200);
     }
+    aud.tocando = false;
   }
-  function fillTrilhas() {
-    var s = $('#trilha'), l = cfg.audio || [], n = cfg.audioNomes || []; if (!s) return;
-    if (l.length < 2) { s.parentNode.style.display = 'none'; return; }
-    s.textContent = '';
-    l.forEach(function (src, i) { var o = document.createElement('option'); o.value = String(i); o.textContent = n[i] || ('Trilha ' + (i + 1)); s.appendChild(o); });
-    var cur = parseInt(lsGet('pv4-trilha', '0'), 10); s.value = String(cur >= 0 && cur < l.length ? cur : 0);
-    s.parentNode.style.display = 'flex';
+  function climaDesarmar() {
+    if (aud.armado) { ['pointerdown', 'keydown', 'touchend'].forEach(function (ev) { document.removeEventListener(ev, aud.armado, true); }); aud.armado = null; }
+    aud.esperando = false;
   }
-  function bindAudio() {
-    $('#trilha').addEventListener('change', async function () {
-      lsSet('pv4-trilha', $('#trilha').value);
-      if (aud.on) { stopAudio(); if (!(await startAudio())) toast('Este aparelho não tocou o áudio.'); }
-    });
-    $('#sw').addEventListener('click', async function () {
-      var s = $('#sw'), want = s.getAttribute('aria-checked') !== 'true';
-      if (want) { s.disabled = true; var ok = await startAudio(); s.disabled = false; if (!ok) { toast('Este aparelho não tocou o áudio.'); return; } } else stopAudio();
-      aud.on = want; s.setAttribute('aria-checked', String(want)); $('#audState').textContent = want ? 'Tocando baixinho enquanto você lê' : 'Desligada';
-    });
-    $('#vol').value = lsGet('pv4-vol', '40');
-    $('#vol').addEventListener('input', function () {
-      lsSet('pv4-vol', $('#vol').value);
-      if (aud.el) aud.el.volume = volume();
-      if (aud.master && aud.ctx) aud.master.gain.linearRampToValueAtTime(volume() * 0.8, aud.ctx.currentTime + 0.1);
+  /* liga/desliga (com memória: a escolha vale na próxima abertura). Devolve true se ficou como pedido. */
+  async function climaLigar(want) {
+    climaDesarmar();
+    if (want) {
+      if (aud.on && aud.tocando) return true;
+      aud.on = true; climaAviso();
+      var ok = await startAudio();
+      if (!aud.on) { if (ok === true) stopAudio(); return false; } /* a pessoa desligou enquanto carregava */
+      if (!ok) { aud.on = false; aud.tocando = false; lsSet('pv4-clima-on', '0'); climaAviso(); toast('O Clima de Leitura não conseguiu tocar neste celular.'); return false; }
+      aud.tocando = true; lsSet('pv4-clima-on', '1'); climaAviso(); return true;
+    }
+    aud.on = false; stopAudio(); lsSet('pv4-clima-on', '0'); climaAviso(); return true;
+  }
+  /* ao abrir o app: se estava ligado na última vez, liga de novo. O navegador pode exigir um toque antes de tocar som: nesse caso começa no primeiro toque. */
+  function climaRestaurar() {
+    if (lsGet('pv4-clima-on', '0') !== '1' || aud.on) return;
+    aud.on = true; climaAviso();
+    startAudio(true).then(function (r) {
+      if (!aud.on) { if (r === true) stopAudio(); return; } /* a pessoa desligou enquanto carregava */
+      if (r === true) { aud.tocando = true; climaAviso(); return; }
+      if (r !== 'bloqueado') { aud.on = false; climaAviso(); return; }
+      aud.esperando = true; climaAviso();
+      aud.armado = function () {
+        climaDesarmar();
+        if (!aud.on || aud.tocando) return;
+        startAudio().then(function (ok) {
+          if (!aud.on) { if (ok === true) stopAudio(); } /* a pessoa desligou nesse mesmo toque */
+          else if (ok === true) aud.tocando = true;
+          else aud.on = false;
+          climaAviso();
+        });
+      };
+      ['pointerdown', 'keydown', 'touchend'].forEach(function (ev) { document.addEventListener(ev, aud.armado, true); });
     });
   }
+  function climaFaixas() { var l = cfg.audio || [], n = cfg.audioNomes || []; return l.map(function (src, i) { return { i: i, nome: n[i] || ('Trilha ' + (i + 1)) }; }); }
+  function climaTrilha() { var c = parseInt(lsGet('pv4-trilha', '0'), 10), n = (cfg.audio || []).length; return c >= 0 && c < n ? c : 0; }
+  window.PVClima = {
+    estado: function () { return { on: aud.on, tocando: aud.tocando, esperando: aud.esperando, abafado: aud.duck, vol: climaVolUsuario(), trilha: climaTrilha(), faixas: climaFaixas() }; },
+    ligar: climaLigar,
+    volume: function (v) { v = Math.max(0, Math.min(100, Math.round(+v) || 0)); lsSet('pv4-vol', String(v)); climaAplicar(false); climaAviso(); },
+    trilha: async function (i) {
+      lsSet('pv4-trilha', String(i)); climaAviso();
+      if (aud.on && aud.tocando) { stopAudio(); aud.tocando = !!(await startAudio()); if (!aud.tocando) { aud.on = false; lsSet('pv4-clima-on', '0'); toast('O Clima de Leitura não conseguiu tocar neste celular.'); } climaAviso(); }
+    },
+    abafar: climaAbafar,
+    padrao: CLIMA_VOL_PADRAO, narrando: CLIMA_VOL_NARRANDO
+  };
 
   /* ---------- atualização do app (botão "Atualizar", sem skipWaiting automático) ---------- */
   function setupSW() {
@@ -1201,10 +1264,12 @@
   }
   function bindStatic() {
     var splash = $('#splash'), t0 = Date.now();
-    function hideSplash() { if (!splashOn) return; splashOn = false; splash.classList.add('off'); ssSet('pv4-splash', '1'); applyAppearance(); }
+    function marcaAbertura() { ssSet('pv4-splash', '1'); lsSet('pv4-splash-t', String(Date.now())); }
+    function hideSplash() { if (!splashOn) return; splashOn = false; splash.classList.add('off'); marcaAbertura(); applyAppearance(); }
     /* a abertura fica na tela, em verde-escuro, até o app terminar de carregar (mínimo 0,3 s) */
     appReady = function () { setTimeout(hideSplash, Math.max(0, 300 - (Date.now() - t0))); };
-    if (ssGet('pv4-splash')) { splashOn = false; splash.classList.add('off'); applyAppearance(); }
+    /* já abriu há pouco (ex.: voltando de Créditos): abre direto, sem mostrar a abertura outra vez (src/boot.js já escondeu antes da primeira pintura) */
+    if (ssGet('pv4-splash') || window.PV_RECENTE) { splashOn = false; splash.classList.add('off'); marcaAbertura(); applyAppearance(); }
     else { setTimeout(hideSplash, 3500); splash.addEventListener('click', hideSplash); splash.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') hideSplash(); }); }
     /* botões do topo e da barra inferior */
     $('#menuBtn').addEventListener('click', openDrawer);
@@ -1261,7 +1326,7 @@
     matchMedia('(prefers-color-scheme: dark)').addEventListener('change', applyAppearance);
     $('#inst').addEventListener('click', install); $('#shr').addEventListener('click', share);
     $('#shHomeStudy').addEventListener('click', function () { var f = featured(); if (f) shareStudy(f.id); else share(); }); $('#shHomeApp').addEventListener('click', share);
-    $('#dlbtn').addEventListener('click', downloadModal); $('#verbtn').addEventListener('click', versionModal);
+    $('#audbtn').addEventListener('click', function () { if (window.PVAudioMenu) window.PVAudioMenu(); }); $('#dlbtn').addEventListener('click', downloadModal); $('#verbtn').addEventListener('click', versionModal);
     $('#expbtn').addEventListener('click', function () {
       exportAll().then(function (o) {
         var a = h('a', { href: URL.createObjectURL(new Blob([JSON.stringify(o)], { type: 'application/json' })), download: 'palavra-viva-backup.json' });
@@ -1281,13 +1346,12 @@
     $$('[data-d]').forEach(function (b) {
       b.addEventListener('click', function () {
         var d = b.dataset.d;
-        if (d === 'audio') { $('#audioPanel').scrollIntoView({ behavior: 'smooth', block: 'center' }); return; }
+        if (d === 'audio') { if (window.PVAudioMenu) window.PVAudioMenu(); return; }
         if (d === 'cfg') go({ v: 'menu' });
         else if (d === 'dl') downloadModal(); else if (d === 'inst') { if (isStandalone()) { closeOverlay(); toast('O app já está instalado.'); } else if (deferred) { closeOverlay(); install(); } else installHelp(); }
         else if (d === 'shr') { closeOverlay(); share(); } else if (d === 'bless') blessModal(); else if (d === 'contact') contactModal(); else if (d === 'about') aboutModal();
       });
     });
-    bindAudio();
     window.addEventListener('online', function () {
       syncManifest().then(function (m) { if (m && manifest && m.generation !== manifest.generation) { manifest = m; indexManifest(); if (curState.v === 'home') render(curState); } }, function () { /* ok */ });
     });
@@ -1320,7 +1384,7 @@
     /* abre na hora com o que já está guardado no aparelho; a internet só atualiza por trás */
     var stored = null;
     try { var cc = await caches.open(CONTENT), sm = await cc.match('content-manifest.json'); if (sm) stored = await sm.json(); } catch (e) { stored = null; }
-    var cfgDone = loadConfig().then(function () { fillRights(); fillTrilhas(); $('#blessItem').hidden = !cfg.pixKey; });
+    var cfgDone = loadConfig().then(function () { fillRights(); climaAviso(); climaRestaurar(); $('#blessItem').hidden = !cfg.pixKey; });
     function showFirst() {
       indexManifest();
       var s = history.state;

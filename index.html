@@ -6,7 +6,8 @@
 <meta name="referrer" content="no-referrer">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#06201a">
-<style>html,body{margin:0;background:#06201a}#splash{position:absolute;inset:0;z-index:50;background:#06201a;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:34px}#splash .logo{width:min(56vw,230px);height:auto;border-radius:22.5%;display:block}#splash .load{width:min(60vw,230px);height:4px;border-radius:2px;background:rgba(143,224,184,.18)}</style>
+<style>html,body{margin:0;background:#06201a}#splash{position:absolute;inset:0;z-index:50;background:#06201a;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:34px}html.sp-done #splash{display:none}#splash .logo{width:min(56vw,230px);height:auto;border-radius:22.5%;display:block}#splash .load{width:min(60vw,230px);height:4px;border-radius:2px;background:rgba(143,224,184,.18)}</style>
+<script src="src/boot.js"></script>
 <meta name="author" content="Anderson Pereira Cabral">
 <meta name="description" content="Palavra Viva – Aprendendo as Escrituras: Bíblia em português, gratuita e sem internet, com ensino em camadas.">
 <title>Palavra Viva – Aprendendo as Escrituras</title>
@@ -88,16 +89,9 @@
       <span class="tag">Texto bíblico</span>
       <div class="verbar" id="verBar"></div>
       <div class="rdrow">
-        <div class="listen" id="listen" hidden>
-          <button type="button" class="btn" id="lsPlay" aria-label="Ouvir o capítulo">&#9654; Ouvir capítulo</button>
-          <button type="button" class="ghost" id="lsStop" aria-label="Parar" hidden>&#9632; Parar</button>
-          <small id="lsInfo"></small>
-        </div>
-        <button type="button" class="aabtn" id="aaBtn" aria-expanded="false" aria-controls="rdOpts" aria-label="Ajustes de leitura: tamanho da letra, voz e velocidade">Aa</button>
+        <button type="button" class="aabtn" id="aaBtn" aria-expanded="false" aria-controls="rdOpts" aria-label="Tamanho da letra">Aa</button>
       </div>
       <div class="rdopts" id="rdOpts" hidden>
-        <select id="lsVoz" aria-label="Voz de leitura" hidden></select>
-        <select id="lsRate" aria-label="Velocidade da leitura" hidden><option value="0.8">Lenta</option><option value="0.92" selected>Normal</option><option value="1.1">Rápida</option></select>
         <div class="fsrow fsread"><span style="font-size:.85rem" aria-hidden="true">A</span><input type="range" id="fsRead" min="1" max="1.5" step="0.025" aria-label="Tamanho da letra"><span style="font-size:1.4rem" aria-hidden="true">A</span></div>
       </div>
       <div class="text" id="rtext"></div>
@@ -141,7 +135,9 @@
       <div class="srow palrow"><span class="pall"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3a9 9 0 1 0 0 18c1.1 0 1.8-.9 1.5-1.9-.3-1 .3-2.1 1.4-2.1H17a4 4 0 0 0 4-4c0-5-4-10-9-10Z"/><circle cx="7.5" cy="11" r="1"/><circle cx="10" cy="7" r="1"/><circle cx="15" cy="7.5" r="1"/></svg>Cor do aplicativo</span><span class="pal" id="palPop" role="group" aria-label="Cor do aplicativo"><button type="button" data-c="" aria-pressed="false" aria-label="Padrão" title="Padrão" class="def"></button><button type="button" data-c="#8876A8" aria-pressed="false" aria-label="Lilás suave" title="Lilás suave" style="background:#8876A8"></button><button type="button" data-c="#7893B0" aria-pressed="false" aria-label="Azul acinzentado" title="Azul acinzentado" style="background:#7893B0"></button><button type="button" data-c="#819989" aria-pressed="false" aria-label="Verde sálvia" title="Verde sálvia" style="background:#819989"></button><button type="button" data-c="#B58F98" aria-pressed="false" aria-label="Rosa antigo" title="Rosa antigo" style="background:#B58F98"></button><button type="button" data-c="#B09B70" aria-pressed="false" aria-label="Dourado fosco" title="Dourado fosco" style="background:#B09B70"></button><button type="button" data-c="#777777" aria-pressed="false" aria-label="Grafite" title="Grafite" style="background:#777777"></button></span></div>
       <div class="srow"><span style="white-space:nowrap">Lembrete diário</span><span style="display:flex;align-items:center;gap:10px"><input type="time" id="lemHora" value="07:00" aria-label="Horário do lembrete" style="min-height:40px;width:112px;border-radius:12px;border:1px solid var(--line);background:var(--paper);color:var(--text);font:inherit;padding:0 6px"><button class="sw" id="lemSw" type="button" role="switch" aria-checked="false" aria-label="Lembrete diário da Palavra do Dia"><i></i></button></span></div>
       <p class="hint" id="lemInfo"></p>
-      <div class="srow"><span>Som de abertura</span><button class="sw" id="abSw" type="button" role="switch" aria-checked="true" aria-label="Som de abertura do aplicativo"><i></i></button></div>
+      <button class="srow" type="button" id="audbtn"><span>Áudio e vozes</span><small>Voz, velocidade e som ambiente</small></button>
+      <div class="srow"><span>Som ao abrir o app</span><button class="sw" id="abSw" type="button" role="switch" aria-checked="true" aria-label="Som ao abrir o app"><i></i></button></div>
+      <p class="hint" id="abInfo">Um toque curto quando o app abre. Não tem relação com o som ambiente nem com a narração.</p>
       <button class="srow" type="button" id="verbtn"><span>Tradução bíblica</span><small id="verSmall"></small></button>
       <button class="srow" type="button" id="dlbtn"><span>Baixar para ler sem internet</span><small id="dlSmall"></small></button>
       <button class="srow hid" type="button" id="persist"><span>Proteger meus dados no aparelho</span><small id="persistSmall"></small></button>
@@ -157,6 +153,8 @@
 
   <section class="screen" id="s-err" aria-label="Erro"><div class="err" id="errBody"></div></section>
 
+  <div id="audioBar" hidden role="group" aria-label="Áudio da leitura"></div>
+
   <nav class="nav" aria-label="Navegação principal">
     <button type="button" data-tab="home" aria-current="page"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 6c-2-1.5-5-2-8-1.5v13c3-.5 6 0 8 1.5 2-1.5 5-2 8-1.5v-13C17 4 14 4.5 12 6Z"/><path d="M12 6v13"/></svg>Início</button>
     <button type="button" data-tab="ens"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2.1h5c0-.9.4-1.6 1-2.1A6 6 0 0 0 12 3Z"/></svg>Estudos</button>
@@ -171,11 +169,7 @@
     <button class="ditem" type="button" data-d="inst"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><rect x="6" y="3" width="12" height="18" rx="2.5"/><path d="M11 17h2"/></svg>Instalar aplicativo<i>&#8250;</i></button>
     <button class="ditem" type="button" data-d="shr"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M7 17 17 7M9 7h8v8"/></svg>Compartilhar aplicativo<i>&#8250;</i></button>
     <div class="panelx"><div class="eyebrow">Tamanho da letra</div><div class="fsrow"><span style="font-size:.85rem" aria-hidden="true">A</span><input type="range" id="fsRange" min="1" max="1.5" step="0.025" aria-label="Tamanho da letra"><span style="font-size:1.4rem" aria-hidden="true">A</span></div></div>
-    <div class="panelx" id="audioPanel"><div class="eyebrow">Áudio ambiente</div>
-      <div class="arow"><span>Tocar música instrumental discreta enquanto você lê</span><button class="sw" id="sw" type="button" role="switch" aria-checked="false" aria-label="Música ambiente"><i></i></button></div>
-      <div class="vol"><label for="vol">Volume</label><input type="range" id="vol" min="0" max="100" value="40"></div>
-      <div class="vol" style="display:none"><label for="trilha">Fundo musical</label><select id="trilha" style="flex:1;min-width:0;min-height:42px;border-radius:12px;border:1px solid var(--line);background:var(--paper);font:inherit;color:var(--text);padding:0 10px"></select></div>
-      <p id="audState" style="font-size:12px;color:var(--soft);margin-top:6px">Desligada</p></div>
+    <button class="ditem" type="button" data-d="audio"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 10v4M8 7v10M12 4v16M16 8v8M20 11v2"/></svg>Áudio e vozes<i>&#8250;</i></button>
     <div class="drule"></div>
     <button class="ditem" type="button" data-d="bless" id="blessItem"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10Z"/></svg>Abençoe este Projeto<i>&#8250;</i></button>
     <button class="ditem" type="button" data-d="contact"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>Contato e suporte<i>&#8250;</i></button>
@@ -189,5 +183,6 @@
 <script src="src/core.js"></script>
 <script src="app.js"></script>
 <script src="src/ui-extra.js"></script>
+<script src="src/audio-ui.js"></script>
 </body>
 </html>

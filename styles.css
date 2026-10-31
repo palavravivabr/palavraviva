@@ -240,11 +240,6 @@ a.srow{color:inherit;text-decoration:none}
 .ensgroup .list{display:flex;flex-direction:column;gap:8px}
 .lead{font-size:.95rem;color:var(--soft);margin:2px 0 14px}
 
-.listen{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:6px 0 12px}
-.listen .btn{min-height:44px;padding:0 16px}
-.listen .ghost{min-height:44px;padding:0 14px;border-radius:14px;border:1px solid var(--line,rgba(255,255,255,.2));font-weight:700}
-.listen select{min-height:44px;border-radius:12px;padding:0 10px;background:rgba(255,255,255,.07);color:inherit;border:1px solid rgba(255,255,255,.2);max-width:100%}
-.listen small{color:var(--soft);font-size:12px;flex-basis:100%}
 .v.lendo{background:rgba(212,175,90,.18);border-radius:10px}
 
 /* tradução bíblica: barra na leitura, crédito sob o texto e seletor */
@@ -283,12 +278,10 @@ a.srow{color:inherit;text-decoration:none}
 #s-read .pad{gap:8px}
 #s-read .pad>.tag{display:none}
 .rdrow{display:flex;align-items:center;gap:10px}
-.rdrow .listen{flex:1;min-width:0;margin:0}
 .aabtn{min-width:48px;min-height:44px;border-radius:14px;background:var(--card-2);color:var(--text);font:700 15px var(--serif);margin-left:auto}
 .aabtn[aria-expanded="true"]{background:var(--gold-soft);color:var(--tagink)}
 .rdopts{display:flex;flex-wrap:wrap;align-items:center;gap:10px;padding:10px 12px;border-radius:14px;background:var(--card)}
 .rdopts[hidden]{display:none}
-.rdopts select{flex:1;min-width:120px;min-height:44px;border-radius:12px;padding:0 10px;background:var(--paper);color:var(--text);border:1px solid var(--line);font:inherit}
 .rdopts .fsread{flex-basis:100%;margin:0}
 #audioPanel .vol:has(#trilha){flex-direction:column;align-items:stretch;gap:6px}
 .tsearch{flex:none;width:40px;height:40px;border-radius:50%;display:grid;place-items:center;color:inherit;background:rgba(255,255,255,.12)}
@@ -354,3 +347,26 @@ a:focus-visible,[role="button"]:focus-visible,[tabindex]:focus-visible,summary:f
 .nmeta{font-size:11.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--soft)}
 .ntexto{white-space:pre-wrap;word-break:break-word;margin:6px 0 0}
 .nbtn{flex:1;min-height:44px;border-radius:12px;background:var(--card);font-weight:700;font-size:13px;color:var(--accent);padding:0 8px}
+
+/* ---- Áudio: rodapé discreto da leitura (52px) e submenu Áudio e vozes ---- */
+#s-read{padding-bottom:128px}
+.rdrow{justify-content:flex-end}
+#audioBar{position:absolute;left:0;right:0;bottom:calc(64px + env(safe-area-inset-bottom,0px));z-index:19;height:52px;display:flex;align-items:center;justify-content:space-between;padding:0 16px;background:rgba(255,255,255,.95);border-top:1px solid #F1F5F9;box-shadow:0 -1px 6px rgba(0,0,0,.04)}
+#audioBar[hidden]{display:none}
+.ab-ver{font-size:12px;color:#64748B;text-transform:uppercase;letter-spacing:.5px;font-weight:600;min-height:44px;padding:0 4px;display:inline-flex;align-items:center}
+.ab-ver[disabled]{opacity:1}
+.ab-play{font-size:13px;color:#334155;border:1px solid #E2E8F0;border-radius:20px;padding:8px 16px;background:#F8FAFC;font-weight:600;min-height:36px}
+.ab-play.on{background:#1E293B;border-color:#1E293B;color:#fff}
+:root[data-theme="dark"] #audioBar{background:rgba(27,39,38,.95);border-top-color:var(--line);box-shadow:0 -1px 6px rgba(0,0,0,.25)}
+:root[data-theme="dark"] .ab-ver{color:var(--soft)}
+:root[data-theme="dark"] .ab-play{background:var(--paper);border-color:var(--line);color:var(--text)}
+:root[data-theme="dark"] .ab-play.on{background:#1E293B;color:#fff}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) #audioBar{background:rgba(27,39,38,.95);border-top-color:var(--line);box-shadow:0 -1px 6px rgba(0,0,0,.25)}:root:not([data-theme="light"]) .ab-ver{color:var(--soft)}:root:not([data-theme="light"]) .ab-play{background:var(--paper);border-color:var(--line);color:var(--text)}:root:not([data-theme="light"]) .ab-play.on{background:#1E293B;color:#fff}}
+.am-sec{margin:14px 0 4px}
+.am-lab{font-size:10.5px;font-weight:800;letter-spacing:.14em;text-transform:uppercase;color:var(--soft);margin:0 0 8px}
+.am-row{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:52px;padding:0 4px}
+.am-row select{min-height:44px;border-radius:12px;border:1px solid var(--line);background:var(--paper);color:var(--text);font:inherit;padding:0 10px}
+.am-nota{font-size:11px;color:var(--soft);margin:4px 4px 0;line-height:1.35}
+.am-vol{display:flex;align-items:center;gap:12px;padding:0 4px;min-height:48px}
+.am-vol input{flex:1;accent-color:var(--gold)}
+.am-vol output{min-width:42px;text-align:right;font-weight:700;font-variant-numeric:tabular-nums}
