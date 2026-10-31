@@ -1,0 +1,129 @@
+{
+ "id": "44-24-20-27",
+ "ref": "Atos 24:20-27",
+ "book": "44",
+ "chapter": 24,
+ "verses": [
+  {
+   "n": 20,
+   "t": "Ou digam estes mesmos, se eles acharam alguma má ação em mim quando eu estava perante o supremo conselho;"
+  },
+  {
+   "n": 21,
+   "t": "A não ser somente esta palavra com que, quando eu estava entre eles, clamei, que pela ressurreição dos mortos eu estou sendo julgado hoje por vós."
+  },
+  {
+   "n": 22,
+   "t": "Tendo ouvido estas coisas, Félix, que sabia mais detalhadamente sobre o Caminho, adiou-lhes, dizendo: Quando o comandante Lísias descer, eu procurarei saber melhor de vossos assuntos."
+  },
+  {
+   "n": 23,
+   "t": "E ele mandou ao centurião que guardassem a Paulo, e estivesse com alguma liberdade, e impedir a ninguém dos seus amigos lhe prestasse serviço, ou vir até ele."
+  },
+  {
+   "n": 24,
+   "t": "E alguns dias depois, tendo vindo Félix com a mulher dele Drusila, que era judia, mandou chamar a Paulo, e o ouviu sobre a fé em Cristo."
+  },
+  {
+   "n": 25,
+   "t": "E ele, tendo discursado sobre a justiça, o domínio próprio, e o julgamento que está por vir, Félix temeu, e respondeu: Por agora vai; e tendo outra oportunidade, eu te chamarei."
+  },
+  {
+   "n": 26,
+   "t": "Ele também esperava que lhe fosse dado algum dinheiro por Paulo, para que o soltasse; por isso ele também muitas vezes o mandava chamar, e conversava com ele."
+  },
+  {
+   "n": 27,
+   "t": "Mas tendo completado dois anos, Félix teve por sucessor a Pórcio Festo. E Félix, querendo agradar dos judeus, deixou Paulo preso."
+  }
+ ],
+ "titulo": "Quando a verdade deixa o juiz com medo",
+ "temas": [
+  "justiça",
+  "verdade",
+  "decisão",
+  "cristo"
+ ],
+ "pergunta": "O que você faz quando a verdade sobre Deus e o julgamento futuro te deixa desconfortável?",
+ "entender": "Paulo está preso em Cesareia e é levado diante de Félix, o governador romano. Ele defende sua inocência, dizendo que não cometeu crime, mas apenas falou sobre a \"ressurreição dos mortos\" (Atos 24:21). Félix conhecia bem o \"Caminho\" (o cristianismo) e, por isso, adiou a decisão, dizendo que esperaria o comandante Lísias chegar para saber mais (Atos 24:22).\n\nAlguns dias depois, Félix trouxe sua esposa, Drusila, uma judia, para ouvir Paulo. O apóstolo discorreu sobre \"a justiça, o domínio próprio, e o julgamento que está por vir\" (Atos 24:25). Ao ouvir isso, Félix ficou com medo e mandou Paulo embora, prometendo chamá-lo outra vez. Na verdade, ele esperava receber dinheiro de Paulo para soltá-lo (Atos 24:26). Dois anos se passaram e, ao ser substituído por Festo, Félix deixou Paulo preso para agradar aos judeus (Atos 24:27).",
+ "ligar": {
+  "texto": "O texto aponta para Jesus ao falar do \"julgamento que está por vir\". Esse julgamento é a realidade que Cristo trouxe à luz: Ele é o Juiz justo que veio ao mundo, morreu pelos pecados e ressuscitou. Paulo prega que a única resposta a esse futuro julgamento é a fé em Cristo. A reação de Félix mostra o perigo de postergar a decisão diante da verdade: o conforto temporário pode levar à condenação eterna se não houver arrependimento.",
+  "selo": true
+ },
+ "viver": "Félix ouviu a verdade, teve medo, mas escolheu adiar a decisão. Ele tentou resolver o problema espiritual com dinheiro e conveniência política. Talvez você também esteja \"adiando\" uma decisão importante diante de Deus. Não deixe que o medo, o conforto ou as circunstâncias te façam esperar \"outra oportunidade\". A verdade sobre Jesus e o juízo divino exige uma resposta hoje. Não troque a liberdade do evangelho por prisões temporárias ou ganhos mundanos.",
+ "guarde": "Adiar a decisão diante da verdade sobre Deus pode custar a liberdade eterna.",
+ "ore": "Félix, ao ouvir sobre o juízo, teve medo e adiou. Pai, não me deixes adiar a decisão sobre Cristo. Dá-me coragem para responder à verdade hoje, sem buscar atalhos ou conforto mundano. Que eu viva no temor santo de Deus, confiando na graça de Jesus.",
+ "quiz": {
+  "pergunta": "Por que Félix adiou a decisão sobre Paulo?",
+  "opcoes": [
+   "Ele queria ouvir mais testemunhas dos judeus",
+   "Ele estava ocupado com outros casos",
+   "Ele esperava receber dinheiro de Paulo"
+  ],
+  "certa": 2,
+  "explicacao": "O texto diz explicitamente que Félix esperava que lhe fosse dado algum dinheiro por Paulo para que o soltasse (Atos 24:26)."
+ },
+ "refs": [
+  "Atos 28:23-28",
+  "Hebreus 9:27",
+  "Romanos 2:5"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-31T07:06:38.700Z",
+  "rounds": 1
+ }
+}

@@ -1,0 +1,137 @@
+{
+ "id": "44-22-1-10",
+ "ref": "Atos 22:1-10",
+ "book": "44",
+ "chapter": 22,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Homens irmãos, e pais, ouvi agora minha defesa para convosco."
+  },
+  {
+   "n": 2,
+   "t": "E tendo ouvido que ele lhes falava em língua hebraica, fizeram ainda mais silêncio. E ele disse:"
+  },
+  {
+   "n": 3,
+   "t": "Eu verdadeiramente sou um homem judeu, nascido em Tarso da Cilícia, e criado nesta cidade aos pés de Gamaliel, ensinado ao mais correto modo da Lei paterna e zeloso de Deus, assim como todos vós sois hoje."
+  },
+  {
+   "n": 4,
+   "t": "Eu ,que persegui este caminho até a morte, atando tanto a homens como a mulheres, e os entregando a prisões."
+  },
+  {
+   "n": 5,
+   "t": "Assim como também o sumo sacerdote me é testemunha, e todo o conselho dos anciãos; dos quais eu, tendo tomado cartas para os irmãos, fui a Damasco para que os que estivessem ali, eu também os trouxesse amarrados a Jerusalém, para que fossem castigados."
+  },
+  {
+   "n": 6,
+   "t": "Mas aconteceu que, estando eu no caminho, e chegando perto de Damasco, quase ao meio dia, de repente uma grande luz do céu brilhou ao redor de mim."
+  },
+  {
+   "n": 7,
+   "t": "Eu cai ao chão, e ouvi uma voz, que me dizia: Saulo, Saulo, por que me persegues?"
+  },
+  {
+   "n": 8,
+   "t": "E eu respondi: Quem és, Senhor? E ele me disse: Eu sou Jesus, o nazareno, a quem tu persegues."
+  },
+  {
+   "n": 9,
+   "t": "E os que estavam comigo verdadeiramente viram a luz, e ficaram muito atemorizados; mas eles não ouviram a voz daquele que falava comigo."
+  },
+  {
+   "n": 10,
+   "t": "E eu disse: Que farei, Senhor? E o Senhor me disse: Levanta-te, e vai a Damasco, e ali te será dito tudo o que te é ordenado fazer."
+  }
+ ],
+ "titulo": "A luz que mudou a vida de Saulo",
+ "temas": [
+  "perseguição",
+  "conversão",
+  "fé"
+ ],
+ "pergunta": "Você já sentiu que sua própria perseguição poderia ser transformada em encontro com Deus?",
+ "entender": "Neste trecho, Saulo, que se apresenta como \"um homem judeu, nascido em Tarso da Cilícia\" (Atos 22.3), relata a sua missão de perseguir os cristãos. Enquanto viajava para Damasco, \"de repente uma grande luz do céu brilhou ao redor de mim\" (22.6) e ele ouviu a voz que o chamava: \"Saulo, Saulo, por que me persegues?\" (22.7). Ele responde: \"Quem és, Senhor?\" e a voz responde: \"Eu sou Jesus, o nazareno, a quem tu persegues\" (22.8). Os companheiros de viagem viram a luz, mas não ouviram a voz. Saulo então pergunta o que fazer e o Senhor lhe ordena: \"Levanta-te, e vai a Damasco\" (22.10). O relato ocorre durante a defesa de Paulo perante a multidão em Jerusalém, mostrando como sua própria história de perseguição se transforma em testemunho da graça de Deus.\n\nO contexto imediato é a prisão de Paulo em Jerusalém, onde ele tem a oportunidade de contar sua experiência para explicar a mudança radical que sofreu. O texto destaca a intervenção direta de Jesus, que interrompe a missão de perseguição e oferece um novo caminho. Essa narrativa serve como ponte entre o passado violento de Saulo e o futuro apostólico, mostrando que a graça pode alcançar até os mais ardilosos opositores.",
+ "ligar": {
+  "texto": "A voz que Saulo ouviu não foi uma mera luz, mas a própria pessoa de Jesus declarando: \"Eu sou Jesus, o nazareno\" (22.8). Essa revelação demonstra que Cristo não está distante dos que o rejeitam; Ele se faz presente para mudar corações. A resposta de Jesus a Saulo — \"Levanta-te, e vai a Damasco\" — indica que a missão de perseguição se transforma em missão de proclamar o evangelho. Assim, o encontro de Saulo aponta para o coração do evangelho: a graça que perdoa o pecador e o chama a ser testemunha da boa nova.",
+  "selo": true
+ },
+ "viver": "Saulo era conhecido por perseguir cristãos, mas a luz que o atingiu o fez parar e ouvir. Da mesma forma, quando nos deparamos com situações que nos fazem agir contra o próximo, podemos ser surpreendidos por um encontro inesperado com a verdade de Cristo. Se reconhecermos que a mesma graça que mudou Saulo pode nos alcançar hoje, podemos abandonar atitudes de hostilidade e buscar reconciliar relacionamentos quebrados, tornando‑nos portadores da mesma mensagem que transformou sua vida.\n\nPortanto, ao percebermos que até os mais rígidos opositores podem ser tocados, somos convidados a olhar com compaixão para quem nos agride, orando por um coração que se abra à luz de Jesus, assim como Saulo recebeu a sua.",
+ "guarde": "A mesma luz que cegou Saulo pode iluminar o seu coração hoje.",
+ "ore": "Saulo, ao ouvir a voz de Jesus, pediu direção; que eu também reconheça a voz do Senhor e siga o caminho que Ele me indica.",
+ "quiz": {
+  "pergunta": "Quem falou com Saulo na estrada para Damasco?",
+  "opcoes": [
+   "Jesus",
+   "Um anjo",
+   "O sumo sacerdote"
+  ],
+  "certa": 0,
+  "explicacao": "O texto registra que a voz disse: \"Eu sou Jesus, o nazareno\" (Atos 22.8), identificando claramente quem falava."
+ },
+ "refs": [
+  "Atos 9:3-6",
+  "Gálatas 1:12-16",
+  "1 Coríntios 15:9-10",
+  "2 Coríntios 5:17"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-31T06:56:13.941Z",
+  "rounds": 1
+ }
+}

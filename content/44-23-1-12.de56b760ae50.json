@@ -1,0 +1,145 @@
+{
+ "id": "44-23-1-12",
+ "ref": "Atos 23:1-12",
+ "book": "44",
+ "chapter": 23,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E Paulo, olhando fixamente para o supremo conselho, disse: Homens irmãos, com toda boa consciência eu tenho andado diante de Deus até o dia de hoje."
+  },
+  {
+   "n": 2,
+   "t": "Mas o sumo sacerdote Ananias mandou aos que estavam perto dele, que o espancassem na boca."
+  },
+  {
+   "n": 3,
+   "t": "Então Paulo lhe disse: Deus vai te espancar, parede caiada! Estás tu aqui sentado para me julgar conforme a Lei, e contra a Lei mandas me espancarem?"
+  },
+  {
+   "n": 4,
+   "t": "E os que estavam ali disseram: Tu insultas ao sumo sacerdote de Deus?"
+  },
+  {
+   "n": 5,
+   "t": "E Paulo disse: Eu não sabia, irmãos, que ele era o sumo sacerdote; porque está escrito: Não falarás mal do chefe do teu povo."
+  },
+  {
+   "n": 6,
+   "t": "E Paulo, sabendo que uma parte era de saduceus, e outra de fariseus, ele clamou no supremo conselho: Homens irmãos, eu sou fariseu, filho de fariseu; pela esperança e ressurreição dos mortos eu estou sendo julgado."
+  },
+  {
+   "n": 7,
+   "t": "E ele, tendo dito isto, houve uma confusão entre os fariseus e saduceus; e a multidão se dividiu;"
+  },
+  {
+   "n": 8,
+   "t": "Porque os saduceus dizem que não há ressurreição, nem anjo ou espírito; mas os fariseus declaram ambas."
+  },
+  {
+   "n": 9,
+   "t": "E houve uma grande gritaria; e levantando-se os escribas da parte dos fariseus, disputavam, dizendo: Nenhum mal achamos neste homem; e se algum espírito ou anjo falou com ele, não briguemos contra Deus."
+  },
+  {
+   "n": 10,
+   "t": "E havendo grande confusão, o comandante, temendo que Paulo não fosse despedaçado por eles, mandou descer a tropa, e tirá-lo do meio deles, e levá-lo à área fortificada."
+  },
+  {
+   "n": 11,
+   "t": "E n a noite seguinte o Senhor, aparecendo-lhe, disse: Tem bom ânimo, Paulo! Porque assim como deste testemunho de mim em Jerusalém, assim é necessário que tu dês testemunho também em Roma."
+  },
+  {
+   "n": 12,
+   "t": "E tendo vindo o dia, alguns dos judeus fizeram uma conspiração, e prestaram juramento sob pena de maldição, dizendo que não comeriam nem beberiam enquanto não matassem a Paulo."
+  }
+ ],
+ "titulo": "Paulo e a parede caiada no tribunal",
+ "temas": [
+  "justiça",
+  "coragem",
+  "ressurreição",
+  "perseguição"
+ ],
+ "pergunta": "O que Paulo fez quando foi ameaçado de morte pelo próprio povo?",
+ "entender": "Paulo estava diante do Sinédrio, o tribunal supremo dos judeus. Ele declarou sua consciência limpa, mas o sumo sacerdote Ananias mandou espancá-lo. Paulo respondeu com firmeza, chamando-o de \"parede caiada\", pois a lei proibia insultar o chefe do povo. Ao perceber a divisão entre fariseus e saduceus, Paulo invocou a ressurreição dos mortos, tema central de sua defesa.\n\nA confusão foi tanta que o comandante romano teve que intervir para salvá-lo. Naquela noite, Jesus apareceu a Paulo e o animou, prometendo que ele daria testemunho em Roma. Imediatamente depois, mais de quarenta judeus juraram matá-lo. O texto mostra como a verdade sobre a ressurreição divide opiniões, mas também como Deus protege quem é fiel a Ele, mesmo em meio a conspirações e violência.",
+ "ligar": {
+  "texto": "A esperança que Paulo defende é a ressurreição de Jesus. Sem a ressurreição, nossa fé seria vã. Paulo foi julgado por crer que Jesus está vivo. Deus o protegeu não apenas para salvar sua vida, mas para que ele pudesse levar a mensagem de Cristo a Roma. A promessa de Jesus a Paulo é a mesma segurança que temos: Ele está conosco até o fim.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, a verdade que defendemos causa desconforto em quem nos cerca. Assim como Paulo usou a lei para se defender e a ressurreição para se identificar, devemos ter coragem para falar do que realmente importa: que Jesus venceu a morte. Não precisamos ser agressivos, mas também não podemos ter medo de declarar nossa fé. A proteção de Deus nos sustenta quando o mundo se vira contra nós.",
+ "guarde": "Deus protege os que proclamam a ressurreição de Cristo, mesmo contra conspirações humanas.",
+ "ore": "Senhor Jesus, que apareceu a Paulo na prisão, dá-me coragem para declarar a ressurreição. Protege-me dos inimigos que querem calar o evangelho e fortalece minha fé quando a perseguição chegar.",
+ "quiz": {
+  "pergunta": "Quem apareceu a Paulo durante a noite e o animou?",
+  "opcoes": [
+   "O Senhor Jesus",
+   "O anjo Gabriel",
+   "O sumo sacerdote Ananias"
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz que 'o Senhor, aparecendo-lhe, disse: Tem bom ânimo, Paulo!'. Isso se refere a Jesus Cristo."
+ },
+ "refs": [
+  "Atos 4:1-22",
+  "1 Coríntios 15:13-19",
+  "Romanos 8:31-39"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-31T07:03:23.465Z",
+  "rounds": 1
+ }
+}

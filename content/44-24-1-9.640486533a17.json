@@ -1,0 +1,132 @@
+{
+ "id": "44-24-1-9",
+ "ref": "Atos 24:1-9",
+ "book": "44",
+ "chapter": 24,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E cinco dias depois, desceu o sumo sacerdote Ananias, com os anciãos e um certo orador Tértulo; os quais compareceram diante do governador contra Paulo."
+  },
+  {
+   "n": 2,
+   "t": "E sendo chamado, Tértulo começou a acusá -lo , dizendo:"
+  },
+  {
+   "n": 3,
+   "t": "Visto que há muita paz por causa de ti, e que por teu governo muitos bons serviços estão sendo feitos a esta nação, excelentíssimo Félix, totalmente e em todo lugar, com todo agradecimento o reconhecemos."
+  },
+  {
+   "n": 4,
+   "t": "Mas para que eu não gaste muito o teu tempo, rogo -te que tu nos ouças brevemente, conforme a tua clemência."
+  },
+  {
+   "n": 5,
+   "t": "Porque nós temos achado que este homem é uma peste, e levantador de rebeliões entre todos os judeus pelo mundo, e o principal defensor da seita dos nazarenos."
+  },
+  {
+   "n": 6,
+   "t": "O qual também tentou profanar o Templo; ao qual também prendemos, e quisemos julgar conforme a nossa Lei."
+  },
+  {
+   "n": 7,
+   "t": "Mas tendo vindo sobre nós o comandante Lísias, com grande violência, tirou -o das nossas mãos;"
+  },
+  {
+   "n": 8,
+   "t": "investigando-o tu mesmo, poderás entender todas estas coisas das quais o acusamos."
+  },
+  {
+   "n": 9,
+   "t": "E os judeus também concordaram, dizendo serem estas coisas assim."
+  }
+ ],
+ "titulo": "A acusação que tentou calar Paulo",
+ "temas": [
+  "perseguição",
+  "justiça",
+  "testemunho",
+  "verdade"
+ ],
+ "pergunta": "O que você faria se fosse julgado por crimes que não cometeu?",
+ "entender": "Em Atos 24, Paulo está preso em Cesareia. Cinco dias depois, o sumo sacerdote Ananias, anciãos e o orador Tértulo chegam para acusá-lo formalmente diante de Félix, o governador romano. Tértulo usa uma retórica política e religiosa para descredibilizar Paulo. Ele chama Paulo de \"peste\" e \"levantador de rebeliões\", alegando que ele tentou profanar o Templo. A acusação é grave: não apenas religiosa, mas de sedição contra Roma, o que poderia levar à morte.\n\nO texto mostra o contraste entre a retórica vazia dos acusadores e a realidade dos fatos. Tértulo afirma que Lísias, o comandante romano, tirou Paulo das mãos dos judeus com violência, sugerindo que os judeus estavam agindo fora da lei. Paulo, que é inocente das acusações de rebelião e profanação, sabe que a verdade o protegerá. Este momento ilustra como a verdade cristã muitas vezes é distorcida para justificar perseguição, mas a justiça divina e, às vezes, humana, pode intervir.",
+ "ligar": {
+  "texto": "Embora este trecho não cite Jesus diretamente, ele mostra o preço de pregar o evangelho. Paulo é acusado de ser defensor da \"seita dos nazarenos\", título pejorativo para cristãos. Sua prisão não é por ter feito mal, mas por ter anunciado Jesus como o Messias. O evangelho sempre enfrentou oposição porque desafia poderes religiosos e políticos. A coragem de Paulo em permanecer firme, mesmo sob falsas acusações, reflete a fidelidade de Jesus, que também foi julgado injustamente. A verdade de Cristo não se cala diante da pressão.",
+  "selo": false
+ },
+ "viver": "Tértulo usou palavras fortes para destruir a reputação de Paulo. Hoje, podemos enfrentar críticas injustas no trabalho ou na igreja. Em vez de reagir com raiva ou medo, podemos confiar que a verdade de Cristo nos sustenta. Quando nos acusam de ser \"demais\" ou \"diferentes\" por causa da fé, lembre-se de Paulo: a paz que ele busca não vem da aprovação humana, mas da consciência tranquila diante de Deus. Que sua resposta seja a paciência e a verdade, deixando que as ações falem por você.",
+ "guarde": "A verdade de Cristo permanece firme mesmo quando as acusações são falsas e a pressão é grande.",
+ "ore": "Félix, que ouvia as acusações, ensina-me a buscar a verdade em vez de ceder à pressão. Quando me julgarem por causa do evangelho, dá-me a calma de Paulo para responder com dignidade e confiança em Ti.",
+ "quiz": {
+  "pergunta": "Quem era o orador que apresentou as acusações contra Paulo em Atos 24?",
+  "opcoes": [
+   "Tértulo",
+   "Ananias",
+   "Lísias"
+  ],
+  "certa": 0,
+  "explicacao": "O texto identifica Tértulo como o orador que começou a acusar Paulo diante do governador Félix, enquanto Ananias era o sumo sacerdote e Lísias o comandante romano."
+ },
+ "refs": [
+  "Lucas 23:1-7",
+  "João 18:28-38"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-31T07:03:36.981Z",
+  "rounds": 1
+ }
+}

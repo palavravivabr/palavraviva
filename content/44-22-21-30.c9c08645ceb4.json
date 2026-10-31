@@ -1,0 +1,137 @@
+{
+ "id": "44-22-21-30",
+ "ref": "Atos 22:21-30",
+ "book": "44",
+ "chapter": 22,
+ "verses": [
+  {
+   "n": 21,
+   "t": "E ele me disse: Vai, porque eu te enviarei para longe, aos gentios."
+  },
+  {
+   "n": 22,
+   "t": "E eles o ouviram até esta palavra, e em seguida levantaram suas vozes, dizendo: Extermina-o da terra! Porque não é bom que ele viva."
+  },
+  {
+   "n": 23,
+   "t": "E enquanto eles gritavam, tiravam suas capas, e lançavm pó ao ar,"
+  },
+  {
+   "n": 24,
+   "t": "O comandante mandou que o levassem à área fortificada, dizendo que o interrogassem com açoites, para saber por que causa clamavam assim contra ele."
+  },
+  {
+   "n": 25,
+   "t": "E quando estavam o atando com correias, Paulo disse ao centurião que estava ali: É lícito para vós açoitar a um homem romano, sem ter sido condenado?"
+  },
+  {
+   "n": 26,
+   "t": "E o centurião, tendo ouvido isto ,foi e avisou ao comandante, dizendo: Olha o que estás a ponto de fazer, porque este homem é romano."
+  },
+  {
+   "n": 27,
+   "t": "E o comandante, tendo se aproximado, disse-lhe: Dize-me, tu és romano?E ele disse: Sim."
+  },
+  {
+   "n": 28,
+   "t": "E o comandante respondeu: Eu com muita soma de dinheiro obtive esta cidadania romana .E Paulo disse: E eu a tenho desde que nasci."
+  },
+  {
+   "n": 29,
+   "t": "Então logo se afastaram dele aqueles que estavam para interrogá-lo; e até o comandante teve temor, ao entender que Paulo era romano, e que tinha o atado."
+  },
+  {
+   "n": 30,
+   "t": "E no dia seguinte, querendo saber corretamente a causa de por que ele era acusado pelos judeus, ele o soltou das correntes, e mandou vir aos chefes dos sacerdotes e todo o supremo conselho deles; e tendo trazido a Paulo, apresentou -o diante deles."
+  }
+ ],
+ "titulo": "Paulo usa sua cidadania para salvar a vida",
+ "temas": [
+  "justiça",
+  "identidade",
+  "proteção",
+  "coragem"
+ ],
+ "pergunta": "Como uma verdade legal pode nos proteger quando as coisas ficam difíceis?",
+ "entender": "Paulo estava sendo agredido pela multidão que gritava para matá-lo. O comandante romano, Cláudio Lísias, mandou açoitá-lo para descobrir o motivo da revolta. Mas, quando Paulo perguntou se era lícito açoitar um cidadão romano sem julgamento, o centurião parou tudo e avisou o comandante. A lei romana protegia os cidadãos de punições arbitrárias.\n\nPaulo não usou sua cidadania para se exibir, mas para interromper a violência injusta. Ao afirmar que tinha a cidadania \"desde que nasci\", ele mostrou que sua identidade era inegável. O comandante, temendo as consequências, soltou Paulo e o levou ao Sinédrio no dia seguinte. A lei humana serviu como um escudo temporário para que Paulo pudesse continuar sua missão.\n\nEsse episódio mostra que Deus usa até as estruturas humanas para proteger seus servos. Paulo estava sob proteção divina, mas a ferramenta imediata foi a lei romana. Ele não lutou com violência, mas com a verdade de quem ele era.",
+ "ligar": {
+  "texto": "Assim como Paulo tinha uma identidade segura em Roma, nós temos uma identidade segura em Cristo. Ele nos comprou com seu sangue e nos fez cidadãos do Reino de Deus. Essa nova vida não nos isenta de problemas, mas nos dá segurança e propósito. O evangelho nos mostra que nossa verdadeira proteção vem de saber quem somos em Jesus, não do que o mundo pensa de nós.",
+  "selo": false
+ },
+ "viver": "Muitas vezes, nossa identidade é definida pelo que os outros dizem de nós. Quando somos criticados ou perseguidos, é fácil nos definir pela acusação. Mas Paulo nos ensina a nos firmar no que Deus diz sobre nós. Se você está enfrentando injustiça ou pressão, lembre-se: você é filho de Deus. Essa verdade é sua proteção e sua força para agir com sabedoria, sem violência, confiando que Deus cuida de você.",
+ "guarde": "Sua identidade em Cristo é mais forte que qualquer acusação humana.",
+ "ore": "Senhor, em Jerusalém, Paulo usou sua cidadania para se proteger. Ajuda-me a lembrar que minha identidade em Ti é minha maior segurança. Quando o mundo me acusar, que eu me firme na verdade de que sou Teu filho, agindo com sabedoria e confiança em Teu cuidado.",
+ "quiz": {
+  "pergunta": "Por que o comandante romano parou de açoitar Paulo?",
+  "opcoes": [
+   "Paulo ameaçou matá-lo.",
+   "O comandante sentiu pena dele.",
+   "Paulo era cidadão romano."
+  ],
+  "certa": 2,
+  "explicacao": "A lei romana proibia açoitamento de cidadãos sem julgamento. Paulo invocou esse direito, fazendo o comandante temer as consequências legais de sua ação."
+ },
+ "refs": [
+  "Atos 16:37-38",
+  "Gálatas 2:20",
+  "Filipenses 1:29"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-31T07:00:35.652Z",
+  "rounds": 1
+ }
+}

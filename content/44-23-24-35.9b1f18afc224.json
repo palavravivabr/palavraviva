@@ -1,0 +1,146 @@
+{
+ "id": "44-23-24-35",
+ "ref": "Atos 23:24-35",
+ "book": "44",
+ "chapter": 23,
+ "verses": [
+  {
+   "n": 24,
+   "t": "E preparem animais para cavalgarem, para que pondo neles a Paulo, levem -no a salvo ao governador Félix."
+  },
+  {
+   "n": 25,
+   "t": "E ele lhe escreveu uma carta, que continha este aspecto:"
+  },
+  {
+   "n": 26,
+   "t": "Cláudio Lísias, a Félix, excelentíssimo governador, saudações."
+  },
+  {
+   "n": 27,
+   "t": "Este homem foi preso pelos judeus, e estando já a ponte de o matarem, eu vim com a tropa e o tomei, ao ser informado que ele era romano."
+  },
+  {
+   "n": 28,
+   "t": "E eu, querendo saber a causa por que o acusavam, levei-o ao supremo conselho deles."
+  },
+  {
+   "n": 29,
+   "t": "O qual eu achei que acusavam de algumas questões da Lei deles; mas que nenhum crime digno de morte ou de prisão havia contra ele."
+  },
+  {
+   "n": 30,
+   "t": "E tendo sido avisado de que os judeus estavam para pôr uma cilada contra este homem, logo eu o enviei a ti, mandando também aos acusadores que diante de ti digam o que tiverem contra ele. Que tu estejas bem."
+  },
+  {
+   "n": 31,
+   "t": "Tendo então os soldados tomado a Paulo, assim como lhes tinha sido ordenado, trouxeram-no durante a noite a Antipátride."
+  },
+  {
+   "n": 32,
+   "t": "E no dia seguinte, deixando irem com ele os cavaleiros, voltaram à área fortificada."
+  },
+  {
+   "n": 33,
+   "t": "Os quais, tendo chegado a Cesareia, e entregado a carta ao governador, apresentaram-lhe também a Paulo."
+  },
+  {
+   "n": 34,
+   "t": "E o governador, tendo lido a carta , perguntou de que província ele era; e ao entender que era da Cilícia,"
+  },
+  {
+   "n": 35,
+   "t": "disse: “Eu te ouvirei quando também chegarem os teus acusadores”. E mandou que o guardassem no palácio de Herodes."
+  }
+ ],
+ "titulo": "A carta que salvou a vida de Paulo",
+ "temas": [
+  "providência",
+  "justiça",
+  "proteção",
+  "testemunho"
+ ],
+ "pergunta": "Você já sentiu que Deus estava cuidando de você através de pessoas que você nem conhecia?",
+ "entender": "Após a agitação no templo, onde judeus juraram matar Paulo, o comandante romano Cláudio Lísias percebeu o perigo real. Ao saber que Paulo era cidadão romano, Lísias decidiu enviá-lo para Cesareia, onde ficaria sob a proteção do governador Félix. Ele escreveu uma carta explicando que a acusação era apenas sobre questões da Lei judaica e que não havia crime digno de morte (Atos 23.29). \n\nEssa carta não era apenas um documento burocrático; era a prova de que a justiça romana estava sendo usada para proteger a vida de um apóstolo. Lísias agiu com prudência, reconhecendo que os judeus preparavam uma cilada. Ao enviar Paulo com uma escolta forte, ele garantiu que o apóstolo chegasse vivo ao tribunal, onde poderia apresentar sua defesa. A ação de Lísias mostra como Deus se serve de autoridades humanas para cumprir Seus planos, mesmo quando essas autoridades agem apenas por dever ou prudência política.",
+ "ligar": {
+  "texto": "Embora este trecho não mencione Jesus diretamente, ele aponta para o evangelho ao mostrar que a mensagem de Cristo sobrevive às tentativas humanas de silenciá-la. Paulo, preso por pregar sobre a ressurreição de Jesus, é protegido para que sua voz continue ecoando. Isso nos lembra que o Reino de Deus não depende da vontade dos homens, mas da soberania de Cristo, que ressuscitou e continua enviando Sua Palavra. A segurança de Paulo em Cesareia é um lembrete de que, mesmo na prisão, o evangelho avança.",
+  "selo": false
+ },
+ "viver": "Lísias não sabia tudo sobre o plano de Deus, mas ele fez a coisa certa ao proteger Paulo. Da mesma forma, muitas vezes não entendemos por que Deus permite certas situações ou usa pessoas específicas em nossa vida. Em vez de nos preocupar apenas com o perigo imediato, podemos confiar em que Deus está orquestrando os bastidores. Quando enfrentarmos acusações injustas ou perigos, lembremos que a proteção final vem do Senhor, que cuida de Seus servos até o fim. A nossa segurança não está nas circunstâncias, mas na fidelidade daquele que nos ama.",
+ "guarde": "Deus usa a justiça dos homens para proteger a missão de Seus servos.",
+ "ore": "Cláudio Lísias, obrigado por tua prudência em proteger Paulo. Ensina-me a confiar na tua soberania quando não entendo os caminhos por que me levas. Que eu reconheça tua mão em cada pessoa que me ajuda, mesmo que ela não saiba o propósito maior. Ajuda-me a descansar na certeza de que tu cuidas de mim, assim como cuidaste do apóstolo em Cesareia, garantindo que tua voz não seja silenciada.",
+ "quiz": {
+  "pergunta": "Qual foi o motivo principal que levou Lísias a enviar Paulo a Cesareia?",
+  "opcoes": [
+   "Permitir que os judeus o julgassem livremente.",
+   "Punir Paulo por perturbar a ordem pública no templo.",
+   "Proteger Paulo de uma cilada mortal planejada pelos judeus."
+  ],
+  "certa": 2,
+  "explicacao": "O texto diz que Lísias foi avisado de que os judeus estavam para pôr uma cilada contra o homem (Atos 23.30), então o enviou ao governador para sua segurança."
+ },
+ "refs": [
+  "Atos 22:25-29",
+  "Atos 24:1-3",
+  "Salmos 121:3-4",
+  "Provérbios 21:30"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-31T07:02:41.762Z",
+  "rounds": 1
+ }
+}

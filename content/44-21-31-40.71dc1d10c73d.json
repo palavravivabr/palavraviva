@@ -1,0 +1,138 @@
+{
+ "id": "44-21-31-40",
+ "ref": "Atos 21:31-40",
+ "book": "44",
+ "chapter": 21,
+ "verses": [
+  {
+   "n": 31,
+   "t": "E eles, procurando matá-lo, a notícia chegou ao comandante e aos soldados, de que toda Jerusalém estava em confusão."
+  },
+  {
+   "n": 32,
+   "t": "O qual, tendo tomado logo consigo soldados e centuriões, correu até eles. E eles, vendo ao comandante e aos soldados, pararam de ferir a Paulo."
+  },
+  {
+   "n": 33,
+   "t": "Então o comandante, tendo se aproximado, prendeu-o, e mandou que ele fosse atado em duas correntes; e perguntou quem ele era, e o que ele tinha feito."
+  },
+  {
+   "n": 34,
+   "t": "E na multidão clamavam uns de uma maneira ,e outros de outra maneira; mas como ele não podia saber com certeza por causa do tumulto, ele mandou que o levassem para a área fortificada."
+  },
+  {
+   "n": 35,
+   "t": "E ele, tendo chegado às escadas, aconteceu que ele foi carregado pelos soldados, por causa da violência da multidão."
+  },
+  {
+   "n": 36,
+   "t": "Porque a multidão do povo o seguia, gritando: Tragam-no para fora!"
+  },
+  {
+   "n": 37,
+   "t": "E Paulo, estando perto de entrar na área fortificada, disse ao comandante: É permitido a mim te falar alguma coisa?E ele disse: Tu sabes grego?"
+  },
+  {
+   "n": 38,
+   "t": "Por acaso não és tu aquele egípcio, que antes destes dias tinha levantando uma rebelião, e levou ao deserto quatro mil homens assassinos?"
+  },
+  {
+   "n": 39,
+   "t": "Mas Paulo lhe disse: Na verdade eu sou um homem judeu de Tarso, cidade não pouca importância da Cilícia; mas eu te rogo para que tu me permitas falar ao povo."
+  },
+  {
+   "n": 40,
+   "t": "E tendo lhe permitido, Paulo pôs-se de pé nas escadas, acenou com a mão ao povo; e tendo havido grande silêncio, falou -lhes em língua hebraica, dizendo:"
+  }
+ ],
+ "titulo": "Paulo pede uma palavra antes do silêncio",
+ "temas": [
+  "coragem",
+  "testemunho",
+  "justiça",
+  "confusão",
+  "identidade"
+ ],
+ "pergunta": "O que você faria se a multidão gritasse contra você, mas você soubesse que a verdade precisa ser ouvida?",
+ "entender": "Em Atos 21, Paulo é arrastado para fora do Templo por uma multidão furiosa que o acusa de contaminar o lugar santo. O comandante romano intervém para impedi-lo de ser morto e o prende. No meio do tumulto, Paulo percebe que o comandante não entende o motivo da confusão. Ele se aproxima e pergunta se pode falar alguma coisa. O soldado, desconfiado, pergunta se ele sabe grego e o confunde com um rebelde egípcio que liderou uma revolta.\n\nPaulo esclarece sua identidade: é um judeu de Tarso, uma cidade importante da Cilícia. Ele não pede proteção para escapar, mas pede a oportunidade de se explicar ao povo. O comandante permite, e Paulo sobe às escadas, acena para que fiquem em silêncio e começa a falar em hebraico. A cena mostra que, mesmo sob ameaça de morte, Paulo prioriza comunicar a verdade com clareza e respeito, usando a língua do seu povo para ser compreendido.",
+ "ligar": {
+  "texto": "Paulo demonstra aqui a mesma urgência que Jesus teve ao pregar o Reino de Deus. Assim como Jesus não recuou diante da oposição, Paulo usa a oportunidade para testemunhar. O evangelho é a resposta à confusão do mundo: não é uma revolta política, mas a revelação de Jesus Cristo. Paulo, preso, ainda aponta para o Messias, mostrando que a fé verdadeira não se silencia diante da pressão, mas busca ser ouvida com amor e verdade, refletindo o coração de Cristo que veio para buscar e salvar.",
+  "selo": false
+ },
+ "viver": "A multidão gritava acusações falsas, mas Paulo pediu silêncio para falar a verdade. Hoje, quando enfrentamos críticas ou mal-entendidos, nossa primeira reação é muitas vezes a defensiva ou o silêncio passivo. Paulo nos ensina a pedir espaço para explicar nossa fé com calma e clareza. Em vez de reagir com raiva ou medo, podemos usar a oportunidade para compartilhar o porquê da nossa esperança. Isso exige coragem, mas traz dignidade ao testemunho e abre portas para que outros ouçam a mensagem do evangelho em meio ao barulho da vida.",
+ "guarde": "A verdade precisa de silêncio para ser ouvida, e coragem para ser falada.",
+ "ore": "Paulo, que pediu para falar ao povo em meio ao tumulto, ensina-me a ter calma quando me acusam injustamente. Ajuda-me a usar as palavras certas para apontar para Jesus, com clareza e amor, mesmo quando a multidão parece estar contra mim. Dá-me sabedoria para discernir o momento de falar e o de ouvir.",
+ "quiz": {
+  "pergunta": "Por que Paulo pediu permissão ao comandante romano para falar ao povo?",
+  "opcoes": [
+   "Para ameaçar o comandante romano.",
+   "Para pedir dinheiro à multidão.",
+   "Para se explicar e esclarecer as acusações falsas contra ele."
+  ],
+  "certa": 2,
+  "explicacao": "Paulo estava sendo acusado injustamente de contaminar o Templo. Ele pediu a palavra para esclarecer a situação e testemunhar a verdade, não para pedir recursos ou ameaçar ninguém."
+ },
+ "refs": [
+  "Atos 22:1-21",
+  "Atos 26:1-23",
+  "2 Timóteo 4:2"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-31T06:59:43.052Z",
+  "rounds": 1
+ }
+}
