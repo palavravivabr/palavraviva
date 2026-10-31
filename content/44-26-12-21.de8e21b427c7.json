@@ -1,0 +1,137 @@
+{
+ "id": "44-26-12-21",
+ "ref": "Atos 26:12-21",
+ "book": "44",
+ "chapter": 26,
+ "verses": [
+  {
+   "n": 12,
+   "t": "Nas quais, indo eu até Damasco, com autoridade e comissão dos chefes dos sacerdotes;"
+  },
+  {
+   "n": 13,
+   "t": "Ao meio dia, vi no caminho, rei, uma luz do céu, que brilhava muito mais que o sol, e que encheu de claridade ao redor de mim e dos que iam comigo."
+  },
+  {
+   "n": 14,
+   "t": "E todos nós, tendo caído ao chão, eu ouvi uma voz que falava a mim, e dizia em língua hebraica: Saulo, Saulo, por que me persegues? Duro é para ti dar coices contra os aguilhões."
+  },
+  {
+   "n": 15,
+   "t": "E eu disse: Quem és, Senhor? E ele disse: Eu sou Jesus, a quem tu persegues."
+  },
+  {
+   "n": 16,
+   "t": "Mas levanta-te, e fica de pé, porque para isto eu apareci a ti, para te predeterminar como trabalhador e testemunha, tanto das coisas que já tens visto, como das coisas que eu ainda aparecerei a ti;"
+  },
+  {
+   "n": 17,
+   "t": "Livrando-te d este povo, e dos gentios, aos quais agora eu te envio."
+  },
+  {
+   "n": 18,
+   "t": "Para abrir os olhos deles, e das trevas converterem à luz, e do poder de Satanás converterem a Deus; para que recebam perdão dos pecados, e herança entre os santificados pela fé em mim."
+  },
+  {
+   "n": 19,
+   "t": "Portanto, rei Agripa, eu não fui desobediente à visão celestial."
+  },
+  {
+   "n": 20,
+   "t": "Mas sim, primeiramente aos que estavam em Damasco e Jerusalém, e por toda a terra da Judeia, e aos gentios anunciei que se arrependessem, e se convertessem a Deus, fazendo obras dignas de arrependimento."
+  },
+  {
+   "n": 21,
+   "t": "Por causa disto os judeus me pegaram no Templo, e procuravam me matar."
+  }
+ ],
+ "titulo": "A luz que mudou o perseguidor em apóstolo",
+ "temas": [
+  "conversão",
+  "misericórdia",
+  "testemunho",
+  "luz"
+ ],
+ "pergunta": "O que acontece quando a luz de Deus encontra alguém que estava decidido a destruir seu povo?",
+ "entender": "Paulo conta a Agripa como foi sua transformação. Ele estava indo para Damasco com ordens para prender cristãos. No caminho, viu uma luz do céu que brilhava mais que o sol e caiu no chão. Foi então que ouviu a voz de Jesus dizendo: \"Saulo, Saulo, por que me persegues?\".\n\nJesus se revelou a ele não como um espírito, mas como o próprio Cristo vivo. O objetivo dessa aparição era claro: transformar Paulo em um trabalhador e testemunha. A missão dele agora era abrir os olhos das pessoas, levando-as das trevas para a luz e do poder de Satanás para Deus, para que recebessem perdão dos pecados pela fé em Jesus.",
+ "ligar": {
+  "texto": "Este é um dos textos mais diretos sobre o poder do evangelho. Jesus aparece a Paulo para mostrar que Ele é o Senhor vivo que perdoa e transforma. A conversão de Paulo prova que a graça de Deus pode alcançar até o coração mais duro. A mensagem central é de perdão: aqueles que estavam em trevas e sob o poder de Satanás são convertidos a Deus para receberem herança entre os santificados pela fé em Cristo.",
+  "selo": true
+ },
+ "viver": "Paulo descobriu que sua vida anterior de perseguição não era o fim, mas o palco para sua maior missão. Assim como ele, talvez você sinta que seus erros ou passado são maiores que a graça de Deus. Mas a luz de Jesus não veio para condenar Paulo, e sim para redimi-lo e usá-lo. Não precisamos esconder nosso passado; podemos entregá-lo a Cristo, que nos dá uma nova identidade e um novo propósito como testemunhas do seu amor.",
+ "guarde": "A luz de Cristo não apenas revela o pecado, mas também revela o caminho para a liberdade e o perdão.",
+ "ore": "Senhor Jesus, assim como Paulo caiu ao chão diante de Ti, eu me apresento em minha fraqueza. Peço que Tu abras meus olhos para ver a luz do Teu evangelho e que me transformes em uma testemunha fiel do Teu perdão, hoje e sempre.",
+ "quiz": {
+  "pergunta": "Qual era o objetivo principal da aparição de Jesus a Paulo no caminho para Damasco?",
+  "opcoes": [
+   "Dar-lhe autoridade para prender cristãos.",
+   "Prepará-lo como trabalhador e testemunha do evangelho.",
+   "Puni-lo por seus erros passados."
+  ],
+  "certa": 1,
+  "explicacao": "O texto diz que Jesus apareceu a Paulo para predeterminá-lo como testemunha das coisas que ele havia visto e das que ainda veria, com o fim de levar as pessoas a Deus."
+ },
+ "refs": [
+  "Atos 9:3-16",
+  "Gálatas 1:15-16",
+  "2 Coríntios 4:6"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-31T15:51:26.753Z",
+  "rounds": 1
+ }
+}

@@ -1,0 +1,133 @@
+{
+ "id": "44-25-19-27",
+ "ref": "Atos 25:19-27",
+ "book": "44",
+ "chapter": 25,
+ "verses": [
+  {
+   "n": 19,
+   "t": "Mas tinham contra ele algumas questões relativas às próprias crenças deles, e de um certo morto Jesus, o qual Paulo afirmava estar vivo."
+  },
+  {
+   "n": 20,
+   "t": "E eu, estando em duvida sobre como interrogar esta causa, disse, perguntando se ele queria ir a Jerusalém, e lá ser julgado sobre estas coisas."
+  },
+  {
+   "n": 21,
+   "t": "Porém Paulo, tendo apelado para ser guardado ao interrogatório do imperador, mandei que o guardassem, até que eu o enviasse a César."
+  },
+  {
+   "n": 22,
+   "t": "E Agripa disse a Festo: Eu também queria ouvir a este homem.E ele disse: E amanhã tu o ouvirás."
+  },
+  {
+   "n": 23,
+   "t": "Então no dia seguinte, tendo vindo Agripa e Berenice, com muita pompa, e entrando no auditório com os comandantes e os homens mais importantes da cidade, trouxeram a Paulo por ordem de Festo."
+  },
+  {
+   "n": 24,
+   "t": "E Festo disse: Rei Agripa, e todos os homens que estais presentes aqui conosco, vós vedes este homem , a quem toda a multidão dos judeus, tanto em Jerusalém como aqui, tem apelado a mim, clamando que ele não deve mais viver."
+  },
+  {
+   "n": 25,
+   "t": "Mas tendo eu achado nada que ele tenha feito que fosse digno de morte, e também tendo ele mesmo apelado ao imperador, eu decidi enviá-lo."
+  },
+  {
+   "n": 26,
+   "t": "Do qual eu não tenho coisa alguma certa para escrever ao meu senhor; por isso que eu o trouxe diante de vós; e principalmente diante de ti, rei Agripa, para que, sendo feita a investigação, eu tenha algo para escrever."
+  },
+  {
+   "n": 27,
+   "t": "Porque não me parece razoável enviar a um prisioneiro, sem também informar as acusações contra ele."
+  }
+ ],
+ "titulo": "O prisioneiro de uma causa espiritual",
+ "temas": [
+  "ressurreição",
+  "justiça",
+  "fé",
+  "testemunho"
+ ],
+ "pergunta": "O que acontece quando uma verdade espiritual chega a um tribunal que só entende de leis humanas?",
+ "entender": "Em Atos 25, o governador Festo apresenta a situação de Paulo ao rei Agripa. A base de toda a confusão não era um crime comum, mas uma questão de fé: os judeus acusavam Paulo por causa de \"um certo morto Jesus, o qual Paulo afirmava estar vivo\" (Atos 25:19). Para Festo, isso era um mistério religioso que ele não sabia como julgar, pois não entendia as crenças judaicas.\n\nDiante desse impasse, Festo sugeriu que Paulo fosse julgado em Jerusalém. Porém, Paulo usou seu direito de apelar diretamente ao imperador romano. Isso obrigou Festo a mantê-lo preso até o envio a César. O governador admite a Agripa que não tem \"coisa alguma certa para escrever\" ao seu superior (Atos 25:26), pois as acusações contra Paulo não são fatos materiais, mas questões de consciência e esperança em Cristo.\n\nO texto mostra o choque entre a lógica humana e a realidade espiritual. Festo vê um problema administrativo; Paulo é preso por uma verdade que transcende a lei: a ressurreição de Jesus. A justiça romana pode prender o corpo, mas não consegue refutar o evangelho com provas físicas, pois o centro da acusação é um Deus que venceu a morte.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para o coração do evangelho: a ressurreição de Jesus. A única razão pela qual Paulo estava preso era a sua firme convicção de que Jesus, depois de morto, está vivo. Não se tratava de uma opinião filosófica, mas da certeza de que Cristo venceu a morte. Enquanto Festo tentava resolver o caso com política e burocracia, Paulo guardava a esperança de que o mesmo Jesus que ressuscitou dos mortos o receberia. A fé de Paulo nos convida a olhar para além dos tribunais terrenos e confiar no Deus vivo que deu sentido à história.",
+  "selo": true
+ },
+ "viver": "Assim como Festo ficou confuso diante de uma questão que não compreendia, nós também podemos nos sentir perdidos quando não entendemos as decisões de Deus ou as diferenças de opinião na igreja. Em vez de tentar resolver tudo com pressa ou transferir a culpa, podemos aprender com a paciência de Paulo. Ele não se desviou da verdade para agradar a todos, mas manteve-se firme na esperança de Cristo. Que essa certeza nos dê paz nos momentos de incerteza, lembrando-nos de que nossa vida não depende de aprovação humana, mas da fidelidade do Cristo vivo.",
+ "guarde": "A verdade que prende Paulo não é um erro, mas a vida de Jesus que o tribunal não consegue refutar.",
+ "ore": "Festo, que não sabia como julgar a fé em Jesus, ensina-me a não ter pressa em condenar. Mostra-me a importância de conhecer a verdade antes de opinar. Ajuda-me a ver as pessoas não como problemas a resolver, mas como almas a amar. Que minha vida reflita a certeza de que Jesus está vivo, e que eu seja paciente na busca pela verdade, confiando em Ti, Senhor.",
+ "quiz": {
+  "pergunta": "Segundo o texto, qual era a principal questão que Festo não sabia como interrogar?",
+  "opcoes": [
+   "Se Paulo havia roubado do templo.",
+   "Se Paulo havia ferido o governador.",
+   "A crença de Paulo em que Jesus estava vivo."
+  ],
+  "certa": 2,
+  "explicacao": "O texto afirma explicitamente em Atos 25:19 que as questões eram relativas às crenças deles e a um certo morto Jesus, o qual Paulo afirmava estar vivo."
+ },
+ "refs": [
+  "Atos 24:21-22",
+  "Atos 26:2-4",
+  "1 Coríntios 15:3-4"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-31T15:49:11.572Z",
+  "rounds": 2
+ }
+}

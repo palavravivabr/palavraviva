@@ -2588,7 +2588,9 @@
   },
   "44-22-11-20": {
    "execucoes": 1,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: PRAYER_FIDELITY: A oração dirige-se inadequadamente à pessoa de Ananias em vez de ser endereçada a Deus.",
+   "estado": "pronto",
+   "titulo": "O nome de Ananias e a cura de Saulo"
   },
   "44-22-21-30": {
    "execucoes": 0,
@@ -2646,15 +2648,21 @@
   },
   "44-25-19-27": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: ligar:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "O prisioneiro de uma causa espiritual"
   },
   "44-26-1-11": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: CONTEXT_FIDELITY: O texto bíblico afirma que Paulo estava sendo julgado por causa da esperança da promessa, e não que ele perseguia os cristãos movido por essa esperança. | NARRATIVE_EVENT_CONSISTENCY: Inverte o fato bíblico ao atribuir a perseguição que Paulo promovia à esperança da promessa, quand",
+   "estado": "pronto",
+   "titulo": "Paulo confessa seu passado de perseguição"
   },
   "44-26-12-21": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "A luz que mudou o perseguidor em apóstolo"
   },
   "44-26-22-32": {
    "execucoes": 0,
@@ -2679,28 +2687,44 @@
   "44-28-1-10": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "44-28-11-21": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "44-28-22-31": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "45-1-1-11": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "45-1-12-21": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 838,
-   "entrada": 2188542,
-   "saida": 738965
+   "chamadas": 845,
+   "entrada": 2208622,
+   "saida": 745262
   },
   "groq-qwen": {
-   "chamadas": 834,
-   "entrada": 2082552,
-   "saida": 678315
+   "chamadas": 841,
+   "entrada": 2101437,
+   "saida": 684248
   },
   "gemini": {
-   "chamadas": 730,
-   "entrada": 2371249,
-   "saida": 923555
+   "chamadas": 736,
+   "entrada": 2390911,
+   "saida": 928868
   },
   "cloudflare": {
-   "chamadas": 451,
-   "entrada": 1577007,
-   "saida": 167321
+   "chamadas": 455,
+   "entrada": 1591255,
+   "saida": 168805
   },
   "mistral": {
    "chamadas": 0,

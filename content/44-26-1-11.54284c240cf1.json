@@ -1,0 +1,141 @@
+{
+ "id": "44-26-1-11",
+ "ref": "Atos 26:1-11",
+ "book": "44",
+ "chapter": 26,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E Agripa disse a Paulo: É permitido a ti falar por ti mesmo.Então Paulo, estendendo a mão, respondeu em sua defesa:"
+  },
+  {
+   "n": 2,
+   "t": "Eu me considero feliz, rei Agripa, de que diante de ti eu esteja hoje fazendo minha defesa de todas as coisas de que sou acusado pelos judeus;"
+  },
+  {
+   "n": 3,
+   "t": "Principalmente por eu saber que tu sabes de todos os costumes e questões que há entre os judeus; por isso eu te rogo que tu me ouças com paciência."
+  },
+  {
+   "n": 4,
+   "t": "Ora, a minha vida é conhecida por todos os judeus, desde a minha juventude, que desde o princípio tem sido entre os de minha nação em Jerusalém;"
+  },
+  {
+   "n": 5,
+   "t": "Eles me conhecem desde o começo, se quiserem testemunhar, de que conforme a mais rigorosa divisão de nossa religião, eu vivi como fariseu."
+  },
+  {
+   "n": 6,
+   "t": "E agora, pela esperança da promessa que por Deus foi dada aos nossos pais, eu estou aqui sendo julgado."
+  },
+  {
+   "n": 7,
+   "t": "À qual nossas doze tribos, servindo continuamente a Deus de dia e de noite, esperam chegar; pela qual esperança, rei Agripa, eu sou acusado pelos judeus."
+  },
+  {
+   "n": 8,
+   "t": "Por que se julga como incrível entre vós que Deus ressuscite aos mortos?"
+  },
+  {
+   "n": 9,
+   "t": "Eu realmente tinha pensado comigo mesmo, que contra o nome de Jesus eu tinha que fazer muitas oposições."
+  },
+  {
+   "n": 10,
+   "t": "O que eu também fiz em Jerusalém; e tendo recebido autoridade dos chefes dos sacerdotes, eu pus em prisões a muitos dos santos; e quando eles eram mortos, eu também dava meu voto contra eles ."
+  },
+  {
+   "n": 11,
+   "t": "E tendo lhes dado punição muitas vezes por todas as sinagogas, eu os forcei a blasfemarem. E estando extremamente enfurecido contra eles, até nas cidades estrangeiras eu os persegui;"
+  }
+ ],
+ "titulo": "Paulo confessa seu passado de perseguição",
+ "temas": [
+  "arrependimento",
+  "verdade",
+  "justiça",
+  "conversão"
+ ],
+ "pergunta": "O que você faria se tivesse que admitir publicamente os erros que mais te envergonham?",
+ "entender": "Paulo está diante do rei Agripa para se defender das acusações dos judeus. Ele começa lembrando que sua vida era conhecida pela nação judaica. Desde jovem, ele viveu conforme a \"mais rigorosa divisão de nossa religião\", agindo como fariseu dedicado. Não havia segredo sobre sua origem ou seu zelo religioso.\n\nNo entanto, Paulo não esconde o lado sombrio de sua história. Ele admite que, movido por essa mesma religiosidade, fez \"muitas oposições\" contra o nome de Jesus. Com autoridade dos chefes dos sacerdotes, ele prendeu santos, votou contra eles quando eram mortos e os forçou a blasfemar. Essa confissão detalhada mostra a intensidade do ódio que ele tinha antes de conhecer Cristo.",
+ "ligar": {
+  "texto": "Este texto aponta para Jesus de forma direta. Paulo fala contra o \"nome de Jesus\" e o perseguiu até em cidades estrangeiras. A transformação de Paulo é o evangelho em ação: o mesmo homem que perseguia a igreja se tornou seu maior defensor. Isso mostra que a graça de Deus é poderosa o suficiente para mudar até o coração mais endurecido e opositor. Jesus não apenas perdoa, mas transforma a identidade de quem O recebe.",
+  "selo": true
+ },
+ "viver": "Às vezes, nossa dedicação religiosa pode nos cegar para a verdade. Paulo nos ensina que a religião sem Cristo pode levar a ações duras e injustas. Hoje, examine sua vida: há áreas onde você se justifica ou critica os outros com base em regras, esquecendo-se do amor e da graça? Admitir nossos erros, como Paulo fez, é o primeiro passo para deixar que Jesus transforme nosso coração e nossas ações.",
+ "guarde": "A verdade sobre o passado de Paulo mostra que a graça de Deus transforma até os maiores opositores.",
+ "ore": "Paulo, que confessou sua perseguição a Jesus, ensina-me a coragem de admitir meus erros. Pai, revela-me áreas onde minha religiosidade me afasta de Ti. Transforma meu coração, para que eu viva pela graça e não por méritos próprios, assim como Paulo foi transformado.",
+ "quiz": {
+  "pergunta": "O que Paulo admite ter feito antes de sua conversão?",
+  "opcoes": [
+   "Perseguiu os santos e votou contra eles",
+   "Escondeu sua fé em Jesus",
+   "Foi perseguido pelos fariseus"
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz explicitamente que Paulo prendeu santos, votou contra eles e os forçou a blasfemar, mostrando sua oposição ativa a Jesus."
+ },
+ "refs": [
+  "Atos 9:1-5",
+  "Filipenses 3:4-8",
+  "1 Timóteo 1:15"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-31T15:46:33.444Z",
+  "rounds": 1
+ }
+}

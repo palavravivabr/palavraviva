@@ -1,0 +1,137 @@
+{
+ "id": "44-22-11-20",
+ "ref": "Atos 22:11-20",
+ "book": "44",
+ "chapter": 22,
+ "verses": [
+  {
+   "n": 11,
+   "t": "E quando eu não conseguia ver, por causa da glória daquela luz, eu fui levado pela mão dos que estavam comigo, e assim cheguei a Damasco."
+  },
+  {
+   "n": 12,
+   "t": "E um certo Ananias, homem devoto conforme a Lei, que tinha bom testemunho de todos os judeus que moravam ali ;"
+  },
+  {
+   "n": 13,
+   "t": "Tendo vindo até mim, e ficando diante de mim ,ele me disse: Irmão Saulo, recupere a vista; E naquela mesma hora eu pude vê-lo."
+  },
+  {
+   "n": 14,
+   "t": "E ele disse: O Deus de nossos pais te predeterminou para que tu conheças a vontade dele, e vejas aquele justo, e tu ouças a voz de sua boca."
+  },
+  {
+   "n": 15,
+   "t": "Porque tu serás testemunha dele para com todos as pessoas, daquilo que tens visto e ouvido."
+  },
+  {
+   "n": 16,
+   "t": "E agora, por que estás parado? Levanta-te, e sê batizado, e lava teus pecados, invocando o nome do Senhor."
+  },
+  {
+   "n": 17,
+   "t": "E aconteceu a mim, tendo eu voltado a Jerusalém, e estando orando no Templo, veio-me um êxtase;"
+  },
+  {
+   "n": 18,
+   "t": "E eu vi aquele que me dizia: Apressa-te, e sai logo de Jerusalém, porque não aceitarão teu testemunho sobre mim."
+  },
+  {
+   "n": 19,
+   "t": "E eu disse: Senhor, eles sabem que eu prendia e açoitava nas sinagogas aqueles que criam em ti."
+  },
+  {
+   "n": 20,
+   "t": "E quando o sangue de Estêvão, tua testemunha, se derramava, eu também estava presente, e consentia em sua morte, e guardava as roupas daqueles que o matavam."
+  }
+ ],
+ "titulo": "O nome de Ananias e a cura de Saulo",
+ "temas": [
+  "obediência",
+  "cura",
+  "testemunho",
+  "misericórdia"
+ ],
+ "pergunta": "Por que Deus escolheu um homem comum, como Ananias, para restaurar o grande perseguidor Saulo?",
+ "entender": "Saulo estava cego em Damasco, levado pelos companheiros. Ali, um homem devoto chamado Ananias, respeitado pela comunidade judaica, foi enviado por Deus. Ao chegar, Ananias tocou em Saulo e disse: \"Irmão Saulo, recupere a vista\". Naquele instante, a cegueira física desapareceu, mas a transformação mais profunda estava no coração: Saulo agora conhecia a vontade de Deus.\n\nAnanias revelou que Deus havia predeterminado Saulo para conhecer a justiça de Cristo e ser testemunha dele. A ordem seguinte foi clara: levantar-se, ser batizado e lavar os pecados invocando o nome do Senhor. Mais tarde, no Templo, Saulo teve uma visão alertando que os judeus rejeitariam seu testemunho, mas ele ainda precisava lembrar que estava presente quando o sangue de Estêvão foi derramado, concordando com sua morte.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para Jesus como o Justo que Saulo deveria conhecer. A cura de Saulo não foi apenas física, mas espiritual: ele foi chamado a testemunhar sobre Cristo. A instrução de lavar os pecados invocando o nome do Senhor mostra que o acesso a Deus vem exclusivamente através de Jesus. A história de Saulo demonstra que a graça de Cristo pode transformar até o mais feroz inimigo em um grande mensageiro do Evangelho.",
+  "selo": true
+ },
+ "viver": "Saulo não esperou sentir-se perdoado ou merecedor para obedecer a Ananias; ele se levantou e foi batizado imediatamente. Isso nos ensina que a resposta à graça de Deus não deve ser adiada. Talvez você sinta que seus erros passados, como o ódio de Saulo contra a igreja, sejam grandes demais para serem perdoados. Mas o mesmo Deus que curou os olhos de Saulo está disposto a curar o seu coração. Não fique parado na culpa; levante-se e busque a Jesus, que oferece limpeza e nova vida.",
+ "guarde": "A graça de Cristo transforma até o maior perseguidor em testemunha fiel.",
+ "ore": "Senhor Deus, assim como Ananias tocou em Saulo por tua ordem, toca no meu coração hoje. Perdoa os pecados que eu reconheço, como a cegueira de Saulo, e me dá coragem para obedecer ao teu chamado. Ensina-me a ser testemunha fiel de Jesus, mesmo diante da rejeição.",
+ "quiz": {
+  "pergunta": "Quem disse a Saulo para se levantar e ser batizado em Damasco?",
+  "opcoes": [
+   "Tiago",
+   "Pedro",
+   "Ananias"
+  ],
+  "certa": 2,
+  "explicacao": "O texto em Atos 22:16 identifica claramente que foi Ananias quem deu a ordem a Saulo após curá-lo, dizendo para lavar os pecados invocando o nome do Senhor."
+ },
+ "refs": [
+  "Atos 9:10-19",
+  "Atos 26:12-18",
+  "Lucas 24:47"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-31T15:47:29.287Z",
+  "rounds": 2
+ }
+}
