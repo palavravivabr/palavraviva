@@ -1,0 +1,141 @@
+{
+ "id": "45-1-1-11",
+ "ref": "Romanos 1:1-11",
+ "book": "45",
+ "chapter": 1,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Paulo, servo de Jesus Cristo, chamado para ser apóstolo, separado para o evangelho de Deus,"
+  },
+  {
+   "n": 2,
+   "t": "que antes havia prometido por meio dos seus profetas nas santas Escrituras,"
+  },
+  {
+   "n": 3,
+   "t": "acerca do seu Filho (que, quanto à carne, nasceu da descendência de Davi,"
+  },
+  {
+   "n": 4,
+   "t": "e declarado Filho de Deus em poder, segundo o Espírito de santidade, pela ressurreição dos mortos): Jesus Cristo, nosso Senhor."
+  },
+  {
+   "n": 5,
+   "t": "Por ele recebemos graça e apostolado, para a obediência da fé entre todas as nações, por causa do seu nome."
+  },
+  {
+   "n": 6,
+   "t": "Entre elas sois também vós, chamados para serdes de Jesus Cristo."
+  },
+  {
+   "n": 7,
+   "t": "A todos que estais em Roma, amados de Deus, e chamados de santos: convosco haja graça e paz da parte de Deus, nosso Pai, e do Senhor Jesus Cristo."
+  },
+  {
+   "n": 8,
+   "t": "Em primeiro lugar, agradeço ao meu Deus por meio de Jesus Cristo, por todos vós, porque a vossa fé é anunciada no mundo todo."
+  },
+  {
+   "n": 9,
+   "t": "Pois Deus, a quem sirvo em meu espírito no evangelho do seu Filho, é minha testemunha de como sem cessar faço menção de vós,"
+  },
+  {
+   "n": 10,
+   "t": "rogando sempre em minhas orações, que agora, de alguma maneira, finalmente, tenha eu a oportunidade de, pela vontade de Deus, vir vos visitar."
+  },
+  {
+   "n": 11,
+   "t": "Pois eu desejo ver-vos, para compartilhar convosco algum dom espiritual, para que sejais fortalecidos;"
+  }
+ ],
+ "titulo": "Paulo: Um homem de dívida e esperança",
+ "temas": [
+  "servidão",
+  "ressurreição",
+  "gratidão",
+  "missão"
+ ],
+ "pergunta": "O que significa dizer que somos 'servos' de Jesus e não apenas seus amigos?",
+ "entender": "Ao começar sua carta, Paulo não usa títulos de glória, mas se apresenta como 'servo de Jesus Cristo'. Para ele, ser servo é a posição mais nobre, pois indica uma entrega total àquele que o libertou. Ele explica que sua missão não foi ideia própria, mas algo 'prometido por meio dos seus profetas', mostrando que a história de Deus tem continuidade e fidelidade.\n\nPaulo destaca duas verdades sobre Jesus: Ele é da linhagem de Davi (humano, verdadeiro descendente do rei) e foi 'declarado Filho de Deus em poder' pela ressurreição. Essa declaração não foi apenas uma honra moral, mas uma confirmação divina de que a morte não o reteve. Por causa dessa vitória, Paulo recebeu a graça de levar a mensagem de fé a todas as nações, inclusive aos romanos.\n\nO tom do texto é de profunda gratidão. Paulo agradece a Deus pela fé dos romanos, que já era 'anunciada no mundo todo'. Ele não esconde seu desejo de visitá-los, mas submete esse desejo à vontade de Deus. Sua oração é constante e sua expectativa é de mútuo fortalecimento espiritual, não de proveito pessoal.",
+ "ligar": {
+  "texto": "Este trecho é o cartão de visita do evangelho. Paulo não anuncia uma nova filosofia, mas um Personagem: Jesus Cristo, que é simultaneamente homem (filho de Davi) e Deus (declarado Filho na ressurreição). A salvação vem 'por ele', através da graça recebida. A morte de Jesus e sua ressurreição são o fundamento de tudo; sem isso, não há apostolado nem esperança. O texto aponta para a cruz e o túmulo vazio como a única base segura para a fé.",
+  "selo": true
+ },
+ "viver": "Paulo diz que é devedor. Talvez você sinta que sua fé é fraca ou que não fez o suficiente para Deus. O texto nos ensina que nossa identidade não vem do que fazemos, mas de quem nos chamou. Ser 'chamado de santos' é um título que Deus nos dá, não uma conquista. Assim como Paulo orava por Roma mesmo sem vê-la, podemos começar a orar por pessoas específicas hoje, confiando que Deus agirá no tempo dEle, e não no nosso. A gratidão de Paulo nos lembra que a fé é uma resposta a um favor recebido, não um esforço para merecê-lo.",
+ "guarde": "Nossa fé não é mérito próprio, mas resposta à graça de um Ressuscitado que nos chama de santos.",
+ "ore": "Paulo, servo que conheceu a graça, ensina-me a ver minha vida como resposta ao seu amor. Ajuda-me a orar com constância pelos que ainda não conheço, confiando que tua vontade é perfeita. Que eu não busque glória, mas apenas ser fiel no serviço que me foi confiado, fortalecido por tua ressurreição.",
+ "quiz": {
+  "pergunta": "Segundo Romanos 1:4, como Jesus foi declarado Filho de Deus?",
+  "opcoes": [
+   "Pelo batismo no rio Jordão.",
+   "Pela sua genealogia de Davi.",
+   "Pela ressurreição dos mortos, em poder."
+  ],
+  "certa": 2,
+  "explicacao": "O texto diz explicitamente que Jesus foi 'declarado Filho de Deus em poder, segundo o Espírito de santidade, pela ressurreição dos mortos'. A linhagem de Davi refere-se à sua carne, não à declaração de poder divino."
+ },
+ "refs": [
+  "Atos 2:36",
+  "Gálatas 1:1",
+  "2 Timóteo 2:8"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-31T21:45:29.838Z",
+  "rounds": 1
+ }
+}

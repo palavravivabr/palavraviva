@@ -1,0 +1,141 @@
+{
+ "id": "45-1-22-32",
+ "ref": "Romanos 1:22-32",
+ "book": "45",
+ "chapter": 1,
+ "verses": [
+  {
+   "n": 22,
+   "t": "Chamando a si mesmos de sábios, tornaram-se tolos,"
+  },
+  {
+   "n": 23,
+   "t": "e trocaram a glória de Deus indestrutível por semelhança de imagem do ser humano destrutível, e de aves, de quadrúpedes, e de répteis."
+  },
+  {
+   "n": 24,
+   "t": "Por isso, Deus os entregou à imundície, nos desejos dos seus corações, para desonrarem os seus corpos entre si."
+  },
+  {
+   "n": 25,
+   "t": "Trocaram a verdade de Deus pela mentira, e adoraram e serviram à criatura mais do que ao Criador, que é bendito eternamente, Amém!"
+  },
+  {
+   "n": 26,
+   "t": "Por isso, Deus os entregou a paixões infames. Pois até suas mulheres trocaram o hábito sexual natural pelo que era contra a natureza;"
+  },
+  {
+   "n": 27,
+   "t": "e também, de semelhante maneira, os machos abandonaram o hábito sexual natural com a mulher, e acenderam sua sensualidade uns com os outros, homens com homens, praticando indecência, e recebendo em si mesmos a devida retribuição pelo seu erro."
+  },
+  {
+   "n": 28,
+   "t": "E como recusaram reconhecer a Deus, o mesmo Deus os entregou a uma mente corrompida, para fazerem coisas impróprias."
+  },
+  {
+   "n": 29,
+   "t": "Assim, estão cheios de toda injustiça, pecado sexual, malícia, ganância, maldade; estão repletos de inveja, homicídio, brigas, engano, malignidade;"
+  },
+  {
+   "n": 30,
+   "t": "são murmuradores, difamadores, e odeiam a Deus; são insolentes, soberbos, presunçosos, inventores de males, e desobedientes aos pais;"
+  },
+  {
+   "n": 31,
+   "t": "não têm entendimento, quebram acordos, são insensíveis, e recusam-se a perdoar ou a mostrar misericórdia."
+  },
+  {
+   "n": 32,
+   "t": "Apesar de conhecerem o juízo de Deus (de que os que fazem tais coisas merecem a morte), não somente as fazem, como também aprovam os que as praticam."
+  }
+ ],
+ "titulo": "O que acontece quando trocamos a verdade",
+ "temas": [
+  "idolatria",
+  "consequências",
+  "verdade",
+  "graça"
+ ],
+ "pergunta": "Por que a busca por sabedoria própria pode nos levar mais longe de Deus?",
+ "entender": "Paulo descreve uma trajetória trágica: pessoas que se chamavam de sábias, mas na prática se tornaram tolas. Elas viraram a glória do Criador, que é eterno e indestrutível, em imagens de coisas que se decompõem, como humanos, aves e animais. Ao fazer isso, trocaram a verdade por mentiras e serviram à criatura em vez do Criador.\n\nO texto mostra que essa troca não é apenas intelectual, mas leva a um colapso moral e social. Deus os 'entregou' a desejos desordenados e a uma mente corrompida, resultando em injustiça, inveja, ódio e outras atitudes que destroem as relações. A conclusão é dura: eles conheciam o juízo de Deus, sabiam que essas coisas merecem a morte, mas continuavam fazendo e até aprovando os que faziam o mesmo.",
+ "ligar": {
+  "texto": "Este trecho aponta para a necessidade de um Juiz justo e de um Salvador. A humanidade, ao rejeitar a Deus, caiu em um ciclo de pecado e consequências destrutivas. Jesus é a resposta para essa condição: Ele é a verdade que não se corrompe. Ao morrer na cruz, Ele pagou a dívida que o texto descreve como merecedora de morte, oferecendo graça a quem se arrepende e crê nEle, restaurando a relação com o Criador.",
+  "selo": false
+ },
+ "viver": "A tentação de trocar a glória de Deus por algo imediato é constante. Hoje, isso pode acontecer quando colocamos nossa segurança em dinheiro, aprovação social ou prazer, achando que estamos sendo 'sábios'. Observe onde seu coração está buscando glória que se desfaz. Se perceber que está servindo a uma 'criatura' em vez do Criador, pare, reconheça a troca que fez e volte a buscar a verdade em Cristo, que é eterno e satisfaz a alma.",
+ "guarde": "Trocamos a glória eterna por imagens efêmeras, e o resultado é uma vida corrompida, mas a graça de Cristo ainda nos chama de volta.",
+ "ore": "Pai, assim como os que trocaram a glória de Deus por ídolos, eu também cedi à tentação de servir a coisas que se decompõem. Perdoa-me por ter rejeitado a verdade e entregado meu coração a desejos que me destruíram. Ajuda-me a abandonar essa troca e a voltar a glorificar apenas a Ti, confiando na reconciliação que Jesus proporcionou.",
+ "quiz": {
+  "pergunta": "O que o texto afirma que as pessoas trocaram a glória de Deus indestrutível?",
+  "opcoes": [
+   "Por semelhança de imagem do ser humano destrutível e de animais",
+   "Por sabedoria filosófica antiga",
+   "Por rituais religiosos complexos"
+  ],
+  "certa": 0,
+  "explicacao": "O versículo 23 diz explicitamente que trocaram a glória de Deus por imagens de seres destrutíveis, incluindo humanos e animais."
+ },
+ "refs": [
+  "Gênesis 3:1-7",
+  "Atos 17:22-31",
+  "Colossenses 1:15-20"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-31T21:47:36.503Z",
+  "rounds": 1
+ }
+}

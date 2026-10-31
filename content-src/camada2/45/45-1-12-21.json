@@ -1,0 +1,138 @@
+{
+ "id": "45-1-12-21",
+ "ref": "Romanos 1:12-21",
+ "book": "45",
+ "chapter": 1,
+ "verses": [
+  {
+   "n": 12,
+   "t": "isto é, para eu ser consolado juntamente convosco pela fé mútua, tanto a vossa, como a minha."
+  },
+  {
+   "n": 13,
+   "t": "Porém, irmãos, não quero que ignoreis que muitas vezes pretendi vir à vossa presença (mas fui impedido até agora), a fim de que eu também tivesse algum fruto entre vós, como também entre os demais gentios."
+  },
+  {
+   "n": 14,
+   "t": "Eu sou devedor, tanto a gregos como a bárbaros, tanto a sábios como a não sábios."
+  },
+  {
+   "n": 15,
+   "t": "Portanto, quanto a mim, pronto estou para anunciar o evangelho também a vós, que estais em Roma."
+  },
+  {
+   "n": 16,
+   "t": "Porque não me envergonho do Evangelho de Cristo, pois é o poder de Deus para a salvação de todo aquele que crê, primeiramente do judeu, e também do grego."
+  },
+  {
+   "n": 17,
+   "t": "Pois no Evangelho se revela a justiça de Deus de fé em fé; como está escrito: O justo viverá pela fé. Habacuque 2:4"
+  },
+  {
+   "n": 18,
+   "t": "Porque a ira de Deus se manifesta do céu contra toda irreverência e injustiça das pessoas que bloqueiam a verdade pela injustiça;"
+  },
+  {
+   "n": 19,
+   "t": "pois o que se pode conhecer de Deus é evidente a eles, porque Deus lhes manifestou."
+  },
+  {
+   "n": 20,
+   "t": "Pois as suas características invisíveis, inclusive o seu eterno poder e divindade, desde a criação do mundo são entendidas e claramente vistas por meio das coisas criadas, para que não tenham desculpa;"
+  },
+  {
+   "n": 21,
+   "t": "Porque, ainda que tenham conhecido Deus, não o glorificaram como Deus, nem foram gratos; em vez disso, perderam o bom senso em seus pensamentos, e seus tolos corações ficaram em trevas."
+  }
+ ],
+ "titulo": "Por que Paulo não tinha vergonha?",
+ "temas": [
+  "evangelho",
+  "verdade",
+  "criação",
+  "fé",
+  "justiça"
+ ],
+ "pergunta": "O que a criação da natureza revela sobre Deus, e por que as pessoas às vezes escolhem ignorar isso?",
+ "entender": "Paulo escreve aos romanos explicando seu desejo de visitá-los para compartilhar a fé mútua. Ele declara uma dívida espiritual para com todos, sejam gregos ou bárbaros, sábios ou não. O motivo de sua urgência é a confiança no Evangelho, que ele define como \"o poder de Deus para a salvação de todo aquele que crê\".\n\nO apóstolo explica que a justiça de Deus se revela através da fé. No entanto, ele também aponta um problema humano: a ira de Deus se manifesta contra aqueles que bloqueiam a verdade. Isso acontece porque as qualidades invisíveis de Deus, como seu eterno poder, são claramente vistas por meio das coisas criadas, deixando as pessoas sem desculpa.\n\nApesar de conhecerem a Deus através da criação, muitos não o glorificaram nem foram gratos. Em vez disso, seus pensamentos perderam o bom senso e seus corações foram obscurecidos. O texto mostra que a ignorância voluntária da verdade leva a um endurecimento espiritual, afastando as pessoas da fonte de vida.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para Jesus, pois o Evangelho que Paulo anuncia é, centralmente, a mensagem sobre a vida, morte e ressurreição de Cristo. A \"justiça de Deus\" mencionada não é algo que a humanidade conquista por obras, mas um dom recebido pela fé. É em Jesus que essa justiça é revelada plenamente, oferecendo salvação a todos que crêem, independentemente de sua origem ou sabedoria. A criação aponta para o Criador, e Jesus é o mediador que nos reconcilia com Ele.",
+  "selo": true
+ },
+ "viver": "Talvez você já tenha sentido que a beleza do mundo ao seu redor fala de algo maior, mas a rotina ou o medo impedem você de responder a isso. O texto nos lembra que Deus não é um mistério oculto, mas se revela de forma clara. Uma aplicação concreta é observar intencionalmente a natureza esta semana, não apenas como paisagem, mas como uma mensagem do Criador. Pergunte-se: estou tratando essa evidência com gratidão e adoração, ou estou distraído demais para perceber o poder de Deus à minha volta? Deixar de ignorar a verdade é o primeiro passo para abrir o coração à fé.",
+ "guarde": "A criação grita a glória de Deus, mas o coração humano muitas vezes escolhe o silêncio.",
+ "ore": "Criador, obrigado por me revelar seu poder através da natureza. Perdoa-me pelas vezes que ignorei essa evidência. Ajuda-me a não bloquear a verdade, mas a te glorificar com gratidão e a crer no Evangelho que traz salvação.",
+ "quiz": {
+  "pergunta": "Segundo Romanos 1.20, como as qualidades invisíveis de Deus podem ser conhecidas?",
+  "opcoes": [
+   "Somente lendo livros antigos",
+   "Por meio das coisas criadas",
+   "Apenas através de sonhos"
+  ],
+  "certa": 1,
+  "explicacao": "O versículo afirma que o poder e a divindade de Deus são entendidos e vistos claramente por meio das coisas criadas, desde a fundação do mundo."
+ },
+ "refs": [
+  "Hebreus 11:6",
+  "João 1:9",
+  "Colossenses 1:16-17"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-31T21:46:39.649Z",
+  "rounds": 1
+ }
+}

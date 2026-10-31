@@ -1,0 +1,140 @@
+{
+ "id": "44-28-11-21",
+ "ref": "Atos 28:11-21",
+ "book": "44",
+ "chapter": 28,
+ "verses": [
+  {
+   "n": 11,
+   "t": "E três meses depois, nós partimos em um navio de Alexandria, que tinha passado o inverno na ilha; o qual tinha como símbolo os gêmeos Castor e Pólux."
+  },
+  {
+   "n": 12,
+   "t": "E chegando a Siracusa, ficamos ali três dias."
+  },
+  {
+   "n": 13,
+   "t": "De onde, tendo indo ao redor da costa, chegamos a Régio; e um dia depois, ventando ao sul, viemos o segundo dia a Putéoli."
+  },
+  {
+   "n": 14,
+   "t": "Onde, tendo achado alguns irmãos, eles nos rogaram que ficássemos com eles por sete dias; e assim viemos a Roma."
+  },
+  {
+   "n": 15,
+   "t": "E os irmãos, ao ouvirem notícias sobre nós, desde lá nos saíram ao encontro até a praça de Ápio, e as três tavernas; e Paulo, tendo os visto, agradeceu a Deus, e tomou coragem."
+  },
+  {
+   "n": 16,
+   "t": "E quando chegamos a Roma, o centurião entregou os prisioneiros ao chefe da guarda, mas a Paulo foi permitido morar por si mesmo à parte, junto com o soldado que o guardava."
+  },
+  {
+   "n": 17,
+   "t": "E aconteceu que, três dias depois, Paulo chamou juntos os chefes dos judeus; e ao se reunirem, disse-lhes: Homens irmãos, tendo eu nada feito contra o povo, ou contra os costumes dos pais, mesmo assim eu vim preso desde Jerusalém, entregue em mãos dos romanos."
+  },
+  {
+   "n": 18,
+   "t": "Os quais, tendo me investigado, queriam me soltar, por não haver em mim nenhum crime de morte."
+  },
+  {
+   "n": 19,
+   "t": "Mas os judeus, dizendo em contrário, eu fui forçado a apelar a César; mas não como que eu tenha que acusar a minha nação."
+  },
+  {
+   "n": 20,
+   "t": "Então por esta causa eu vos chamei até mim, para vos ver e falar; porque pela esperança de Israel eu estou agora preso nesta corrente."
+  },
+  {
+   "n": 21,
+   "t": "Mas eles lhe disseram: Nós nem recebemos cartas da Judeia relacionadas a ti, nem algum dos irmãos, tendo vindo aqui, tem nos informado ou falado de ti algum mal."
+  }
+ ],
+ "titulo": "A visita inesperada de Paulo a Roma",
+ "temas": [
+  "justiça",
+  "testemunho",
+  "esperança"
+ ],
+ "pergunta": "Como a atitude de Paulo diante dos judeus em Roma pode mudar sua confiança em Deus?",
+ "entender": "Paulo chega a Roma como prisioneiro, mas o centurião lhe permite viver livremente. Três dias depois ele convoca os chefes dos judeus e, com calma, explica que não fez nada contra o povo nem contra os costumes dos pais, mas foi preso desde Jerusalém e entregue aos romanos. Ele afirma que está preso \"pela esperança de Israel\" (Atos 28.20). O contexto mostra que, apesar da acusação de traição e da ameaça de ser julgado por César, Paulo mantém sua postura de inocência e de missão, lembrando que sua prisão tem um propósito maior para o povo de Deus.\n\nO trecho revela a estratégia de Paulo de usar cada oportunidade para testemunhar. Ele não foge da reunião; ao contrário, aproveita o encontro para declarar sua integridade e para anunciar que, mesmo preso, sua esperança está firmada em Deus e no futuro de Israel. Os judeus respondem que não receberam notícias da Judeia, mostrando a distância entre a comunidade cristã e as autoridades judaicas da época.",
+ "ligar": {
+  "texto": "Paulo fala que está preso \"pela esperança de Israel\". Essa esperança se cumpre em Jesus, que trouxe a salvação prometida ao povo de Deus. Ao declarar sua inocência e sua missão, Paulo demonstra que a verdade do evangelho resiste às acusações e à injustiça. Sua confiança na esperança de Deus aponta para Cristo, que também sofreu injustamente, mas venceu a morte, garantindo esperança a todos que creem.",
+  "selo": false
+ },
+ "viver": "A atitude de Paulo nos lembra que, mesmo quando somos julgados injustamente, podemos responder com calma e verdade. Em vez de fugir ou retaliar, procure usar o momento para falar da esperança que tem sustentado sua vida. Quando enfrentar críticas ou acusações no trabalho ou na família, lembre‑se de que a sua integridade pode abrir portas para compartilhar o bem que Deus fez em você.",
+ "guarde": "Mesmo preso, a esperança de Deus nos dá coragem para testemunhar a verdade.",
+ "ore": "Paulo, ao estar diante dos judeus em Roma, me ajude a responder com serenidade e a confiar na esperança que Deus me dá, mesmo nas situações difíceis.",
+ "quiz": {
+  "pergunta": "Por que Paulo foi permitido morar livremente ao chegar em Roma?",
+  "opcoes": [
+   "Os judeus intercederam por ele.",
+   "O centurião entregou os prisioneiros ao chefe da guarda e permitiu que Paulo ficasse livre.",
+   "Paulo foi libertado porque foi inocente."
+  ],
+  "certa": 1,
+  "explicacao": "O texto diz que o centurião entregou os prisioneiros ao chefe da guarda, mas a Paulo foi permitido morar por si mesmo (Atos 28.16)."
+ },
+ "refs": [
+  "Atos 16:31-34",
+  "Romanos 8:35-39",
+  "2 Coríntios 4:8-9"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-31T21:39:28.460Z",
+  "rounds": 1
+ }
+}

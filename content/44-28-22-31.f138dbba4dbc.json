@@ -1,0 +1,136 @@
+{
+ "id": "44-28-22-31",
+ "ref": "Atos 28:22-31",
+ "book": "44",
+ "chapter": 28,
+ "verses": [
+  {
+   "n": 22,
+   "t": "Mas nós queríamos ouvir de ti o que tu pensas; porque, quanto a esta seita, conhecemos que em todo lugar há quem fale contra ela."
+  },
+  {
+   "n": 23,
+   "t": "E tendo eles lhe determinado um dia, muitos vieram até onde ele estava morando; aos quais ele declarava e dava testemunho do Reino de Deus; e procurava persuadi-los quanto a Jesus, tanto pela Lei de Moisés, como pelos profetas, desde a manhã até a tarde."
+  },
+  {
+   "n": 24,
+   "t": "E alguns criam nas coisas que ele dizia; mas outros não criam."
+  },
+  {
+   "n": 25,
+   "t": "E estando discordantes entre si, despediram-se, tendo Paulo disto esta palavra: O Espírito Santo corretamente falou a nossos pais por meio de Isaías o profeta,"
+  },
+  {
+   "n": 26,
+   "t": "Dizendo: Vai a este povo, e dize: De fato ouvireis, mas de maneira nenhuma entendereis; e de fato vereis, mas de maneira nenhuma enxergareis."
+  },
+  {
+   "n": 27,
+   "t": "Porque o coração deste povo está insensível, seus ouvidos ouvem com dificuldade, e seus olhos estão fechados; para que em maneira nenhuma vejam com os olhos, nem ouçam com os ouvidos, nem entendam com o coração, e se convertam, e eu os cure."
+  },
+  {
+   "n": 28,
+   "t": "Portanto seja conhecido por vós que a salvação de Deus foi enviada aos gentios; e eles a ouvirão."
+  },
+  {
+   "n": 29,
+   "t": "E havendo ele dito isto, os judeus foram embora, havendo entre eles grande discussão."
+  },
+  {
+   "n": 30,
+   "t": "E Paulo ficou dois anos inteiros em sua própria casa alugada; e recebia a todos quantos vinham a ele;"
+  },
+  {
+   "n": 31,
+   "t": "Pregando o Reino de Deus, e ensinando com ousadia a doutrina do Senhor Jesus Cristo, sem impedimento algum."
+  }
+ ],
+ "titulo": "A mensagem de Paulo na prisão de Roma",
+ "temas": [
+  "evangelho",
+  "fé",
+  "testemunho",
+  "gentios"
+ ],
+ "pergunta": "Como a perseverança de Paulo ao pregar a Deus pode mudar sua atitude diante da indiferença?",
+ "entender": "Paulo, depois de ser enviado a Roma, ficou dois anos em sua própria casa alugada. Mesmo assim, recebia a todos que vinham a ele e pregava o Reino de Deus com ousadia, ensinando a doutrina do Senhor Jesus Cristo sem impedimento algum (Atos 28.30‑31). O contexto mostra que, antes, ele havia sido preso por causa de sua fé e que os judeus, ao saberem de sua presença, tentaram confrontá‑lo, mas Paulo respondeu citando Isaías, mostrando que o coração do povo estava endurecido (v.25‑27). O trecho revela que a salvação havia sido enviada aos gentios e que, apesar das discussões, a mensagem continuava a ser proclamada.\n\nEsse período na prisão não foi de inatividade; ao contrário, foi um tempo de intenso ministério. Paulo usou sua casa como um centro de ensino, recebendo tanto judeus quanto gentios, e explicava que a salvação não era exclusiva do povo de Israel, mas destinada a todas as nações (v.28). A citação de Isaías reforça a ideia de que a falta de entendimento não é falta de oportunidade, mas dura realidade espiritual que precisa ser confrontada com a verdade do evangelho.",
+ "ligar": {
+  "texto": "Ao ensinar a doutrina do Senhor Jesus Cristo, Paulo demonstra que a mensagem de salvação está centrada em Cristo, mesmo que o texto não descreva detalhes de sua morte ou ressurreição. A referência a Isaías (v.25‑27) aponta para a profecia que se cumpre em Jesus, que veio para abrir os olhos dos cegos espirituais. Assim, o convite de Paulo aos que o escutam é, na prática, um convite a crer em Jesus como o Salvador prometido, a quem a salvação foi enviada aos gentios (v.28).",
+  "selo": false
+ },
+ "viver": "A constância de Paulo ao receber visitantes e pregar o evangelho, mesmo preso, nos desafia a usar cada espaço que temos para compartilhar a boa notícia. Seja no trabalho, na escola ou em casa, podemos abrir nossas portas e corações, falando da esperança que temos em Cristo, sem esperar condições perfeitas. Como Paulo, podemos contar com a coragem que vem do Espírito Santo para perseverar, mesmo quando a maioria parece indiferente.\n\nAlém disso, a citação de Isaías nos lembra que nem todos entenderão imediatamente; porém, nossa missão é falar a verdade, confiando que Deus pode tocar corações endurecidos. Não desanime se a resposta não vier de imediato; continue a ser testemunha fiel.",
+ "guarde": "Mesmo na prisão, a palavra de Cristo pode ser anunciada com ousadia e sem impedimento.",
+ "ore": "Paulo, ao abrir sua casa em Roma, ajuda‑me a receber bem quem vem ouvir a mensagem de Jesus, e a pregar com coragem, mesmo quando o coração das pessoas parece fechado.",
+ "quiz": {
+  "pergunta": "Quantos anos Paulo ficou na sua própria casa alugada em Roma?",
+  "opcoes": [
+   "três",
+   "dois",
+   "cinco"
+  ],
+  "certa": 1,
+  "explicacao": "O texto afirma que Paulo ficou dois anos inteiros em sua própria casa alugada (Atos 28.30)."
+ },
+ "refs": [
+  "Romanos 1:16",
+  "1 Coríntios 9:22"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-31T21:42:36.997Z",
+  "rounds": 1
+ }
+}
