@@ -1,0 +1,137 @@
+{
+ "id": "44-24-10-19",
+ "ref": "Atos 24:10-19",
+ "book": "44",
+ "chapter": 24,
+ "verses": [
+  {
+   "n": 10,
+   "t": "Mas Paulo, fazendo gesto ao governador para que falasse, respondeu: Sabendo eu que por muitos anos tu tens sido juiz desta nação, com maior ânimo eu me defendo."
+  },
+  {
+   "n": 11,
+   "t": "Pois tu podes entender que há não mais que doze dias, eu tinha subido a Jerusalém para adorar."
+  },
+  {
+   "n": 12,
+   "t": "E nem me acharam falando com alguém no Templo, nem incitando ao povo, nem nas sinagogas, nem na cidade."
+  },
+  {
+   "n": 13,
+   "t": "E nem podem provar as coisas das quais agora estão me acusando."
+  },
+  {
+   "n": 14,
+   "t": "Mas isto eu te confesso, que conforme o Caminho que eles chamam de seita, assim eu sirvo ao Deus dos meus pais, crendo em tudo que está escrito na Lei e nos profetas;"
+  },
+  {
+   "n": 15,
+   "t": "Tendo esperança em Deus, ao qual estes mesmos também esperam, que vai haver ressurreição dos mortos, tanto dos justos como dos injustos."
+  },
+  {
+   "n": 16,
+   "t": "E nisto eu pratico, em que tanto para com Deus como para com os seres humanos eu sempre tenha uma consciência limpa."
+  },
+  {
+   "n": 17,
+   "t": "E muitos anos depois, vim para fazer doações e ofertas à minha nação."
+  },
+  {
+   "n": 18,
+   "t": "Nisto, tendo eu me purificado, nem com multidões, nem com tumulto, alguns judeus da Ásia me acharam,"
+  },
+  {
+   "n": 19,
+   "t": "Os quais era necessário que estivessem aqui presentes diante de ti, se tivessem alguma coisa contra mim."
+  }
+ ],
+ "titulo": "A esperança da ressurreição na defesa de Paulo",
+ "temas": [
+  "ressurreição",
+  "fé",
+  "consciência",
+  "justiça"
+ ],
+ "pergunta": "Como a esperança na ressurreição muda a forma como Paulo responde às acusações?",
+ "entender": "Paulo, diante do governador Félix, pede licença para falar e afirma que não cometeu nenhum crime religioso. Ele declara que segue \"o caminho que eles chamam de seita\" e que serve ao Deus de seus pais, crendo na Lei e nos profetas. O ponto central da sua defesa é a esperança em Deus que \"vai haver ressurreição dos mortos, tanto dos justos como dos injustos\" (Atos 24:15). Essa esperança lhe dá confiança para afirmar que tem consciência limpa diante de Deus e dos homens. O contexto imediato mostra os judeus acusando‑o de incitar tumultos e profanar o Templo; Félix, porém, ainda não tem clareza e adia o julgamento.\n\nAo declarar sua esperança, Paulo mostra que sua fé não se apoia apenas em normas humanas, mas em uma certeza divina que ultrapassa a vida terrena. Essa certeza o sustenta enquanto responde às acusações, permitindo‑lhe falar com serenidade e integridade.",
+ "ligar": {
+  "texto": "A esperança na ressurreição que Paulo anuncia aponta ao coração do evangelho: Jesus Cristo morreu e ressuscitou, vencendo a morte para todos. Quando Paulo diz que espera \"ressurreição dos mortos, tanto dos justos como dos injustos\", ele está proclamando a obra de Cristo que garante vida eterna. Essa promessa transforma a defesa legal em um testemunho da boa nova, mostrando que a verdadeira justiça vem de Deus, não apenas das leis humanas.",
+  "selo": false
+ },
+ "viver": "A confiança de Paulo na ressurreição o ajudou a manter a integridade mesmo sob acusação injusta. Hoje, quando enfrentamos críticas ou situações que nos colocam em juízo, podemos lembrar que nossa esperança não está nas opiniões alheias, mas na promessa de vida eterna em Cristo. Essa certeza nos permite viver com consciência limpa, servindo a Deus e ao próximo, sem temer julgamentos passageiros. Assim, ao enfrentar pressões ou falsas acusações, mantenha firme a esperança da ressurreição, pois ela nos dá coragem para permanecer honestos e amorosos, sabendo que Deus julgará com justiça perfeita.",
+ "guarde": "A esperança na ressurreição nos dá força para viver com consciência limpa diante de Deus e dos homens.",
+ "ore": "Deus, ao lembrar da esperança que Paulo declarou diante de Félix, concede-me coragem para permanecer fiel e ter consciência limpa, mesmo quando sou injustamente acusado.",
+ "quiz": {
+  "pergunta": "Qual é a esperança que Paulo menciona em sua defesa?",
+  "opcoes": [
+   "Poder político",
+   "Justiça humana",
+   "Ressurreição dos mortos"
+  ],
+  "certa": 2,
+  "explicacao": "Paulo afirma que sua esperança está na ressurreição dos mortos (Atos 24:15); ele não cita justiça humana nem poder político como base de sua esperança."
+ },
+ "refs": [
+  "1 Coríntios 15:20-22",
+  "Romanos 6:4",
+  "Hebreus 11:35"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-31T12:53:32.932Z",
+  "rounds": 2
+ }
+}

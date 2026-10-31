@@ -1,0 +1,140 @@
+{
+ "id": "44-23-13-23",
+ "ref": "Atos 23:13-23",
+ "book": "44",
+ "chapter": 23,
+ "verses": [
+  {
+   "n": 13,
+   "t": "E eram mais de quarenta os que fizeram este juramento."
+  },
+  {
+   "n": 14,
+   "t": "Os quais foram até os chefes dos sacerdotes e os anciãos, e disseram: Fizemos juramento sob pena de maldição, de que nada experimentaremos enquanto não matarmos a Paulo."
+  },
+  {
+   "n": 15,
+   "t": "Agora, pois, vós, com o supremo conselho, informai ao comandante que amanhã ele o traga perante vós, como se fosse para que investigueis mais detalhadamente; e antes que ele chegue, estaremos prontos para o matar."
+  },
+  {
+   "n": 16,
+   "t": "E o filho da irmã de Paulo, tendo ouvido esta cilada, veio e entrou na área fortificada, e avisou a Paulo."
+  },
+  {
+   "n": 17,
+   "t": "E Paulo, tendo chamado a si um dos centuriões, disse: Leva este rapaz ao comandante, porque ele tem algo para lhe avisar."
+  },
+  {
+   "n": 18,
+   "t": "Então ele o tomou, levou ao comandante, e disse: O prisioneiro Paulo, tendo me chamado, rogou -me que eu te trouxesse este rapaz, que tem algo a te dizer."
+  },
+  {
+   "n": 19,
+   "t": "E o comandante, tomando-o pela mão, e indo para um lugar reservado, perguntou -lhe : O que tens para me avisar?"
+  },
+  {
+   "n": 20,
+   "t": "E ele disse: Os judeus combinaram de te pedirem que amanhã tu leves a Paulo ao supremo conselho, como se fosse para que lhe perguntem mais detalhadamente;"
+  },
+  {
+   "n": 21,
+   "t": "Porém tu, não acredites neles; porque mais de quarenta homens deles estão lhe preparando cilada, os quais sob pena de maldição fizeram juramento para não comerem nem beberem enquanto não o tiverem matado; e eles já estão preparados, esperando de ti a promessa."
+  },
+  {
+   "n": 22,
+   "t": "Então o comandante despediu ao rapaz, mandando -lhe : A ninguém digas que tu me revelaste estas coisas."
+  },
+  {
+   "n": 23,
+   "t": "E ele, chamando a si certos dois dos centuriões, disse: Aprontai duzentos soldados para irem até Cesareia; e setenta cavaleiros, e duzentos arqueiros, a partir das terceira hora da noite."
+  }
+ ],
+ "titulo": "O aviso que mudou o destino de Paulo",
+ "temas": [
+  "providência",
+  "perigo",
+  "proteção",
+  "fidelidade"
+ ],
+ "pergunta": "Como Deus protege quem anuncia a verdade em meio a conspirações humanas?",
+ "entender": "Em Jerusalém, mais de quarenta homens fizeram um juramento solene de não comer nem beber até matarem Paulo, que estava preso por causa do seu testemunho. Eles planejaram uma armadilha: pediram ao comandante romano que trouxesse Paulo ao Supremo Conselho sob o pretexto de uma investigação, mas a intenção era assassiná-lo no caminho.\n\nO texto mostra que o filho da irmã de Paulo ouviu sobre a cilada e correu para avisá-lo dentro da fortaleza. Paulo, confiando na informação, enviou o jovem ao comandante Cláudio Lísias. Ao saber dos detalhes, o oficial romano, que não conhecia a fé de Paulo, tomou medidas de segurança imediatas, enviando uma escolta armada para levá-lo a Cesareia, salvando assim sua vida.\n\nEssa passagem revela a soberania de Deus em proteger Seus servos. Embora a conspiração fosse humana e violenta, Deus usou um familiar leal e a autoridade civil para frustrar o plano dos inimigos, permitindo que Paulo continuasse a pregar o evangelho.",
+ "ligar": {
+  "texto": "Paulo era prisioneiro, mas não estava preso no sentido espiritual, pois anunciava a Cristo. A proteção divina sobre ele não era para seu conforto pessoal, mas para que ele pudesse cumprir a missão de levar o nome de Jesus a Roma, como o próprio Senhor havia lhe prometido em uma visão na noite anterior. O evangelho avançava mesmo sob ameaça de morte.",
+  "selo": false
+ },
+ "viver": "Às vezes, sentimos que as conspirações do mundo ou as críticas de quem nos rejeita estão nos isolando. Assim como o sobrinho de Paulo, podemos ter pessoas na nossa vida que nos amam e nos alertam sobre perigos reais, seja no trabalho, na família ou na igreja. Aprender a ouvir esses avisos com discernimento, sem paranoias, é sábio. Confiamos que Deus usa pessoas comuns e circunstâncias inesperadas para nos livrar do mal e nos manter firmes na fé.",
+ "guarde": "Deus usa pessoas comuns e circunstâncias inesperadas para proteger a missão do Seu povo.",
+ "ore": "Pai, assim como Paulo confiou no aviso do seu sobrinho, ensina-me a discernir as vozes de cuidado que Tu envias na minha vida. Protege-me dos planos do inimigo e usa-me para levar a Tua paz, mesmo em meio a conflitos e ameaças.",
+ "quiz": {
+  "pergunta": "Quem alertou o comandante romano sobre o plano de assassinato de Paulo?",
+  "opcoes": [
+   "O filho da irmã de Paulo",
+   "Um anjo do Senhor",
+   "Um dos centuriões romanos"
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz que o filho da irmã de Paulo ouviu a conspiração e foi até a fortaleza avisar Paulo, que então o enviou ao comandante."
+ },
+ "refs": [
+  "Salmos 91:11",
+  "2 Timóteo 4:16-18"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-31T12:56:21.425Z",
+  "rounds": 1
+ }
+}

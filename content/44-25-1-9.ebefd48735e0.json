@@ -1,0 +1,132 @@
+{
+ "id": "44-25-1-9",
+ "ref": "Atos 25:1-9",
+ "book": "44",
+ "chapter": 25,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Então Festo, tendo entrado na província, subiu dali três dias depois de Cesareia a Jerusalém."
+  },
+  {
+   "n": 2,
+   "t": "E o sumo sacerdote e os líderes dos judeus compareceram diante dele contra Paulo, e lhe rogaram;"
+  },
+  {
+   "n": 3,
+   "t": "Pedindo favor contra ele, para que o fizesse vir a Jerusalém, preparando cilada para o matarem no caminho."
+  },
+  {
+   "n": 4,
+   "t": "Mas Festo respondeu que Paulo estava guardado em Cesareia, e que ele logo estava indo para lá ."
+  },
+  {
+   "n": 5,
+   "t": "Ele disse: Então aqueles dentre vós que podem, desçam com igo , e se houver alguma coisa errada neste homem, acusem-no."
+  },
+  {
+   "n": 6,
+   "t": "E ele, tendo ficado entre eles mais de dez dias, desceu a Cesareia; e tendo se sentado no tribunal no dia seguinte, mandou que trouxessem a Paulo."
+  },
+  {
+   "n": 7,
+   "t": "E tendo ele vindo, os judeus que haviam descido de Jerusalém o rodearam, trazendo contra Paulo muitas e graves acusações, que não podiam provar."
+  },
+  {
+   "n": 8,
+   "t": "Ele, disse em sua defesa: Eu não pequei nem contra a Lei dos judeus, nem contra o Templo, nem contra César, em coisa alguma."
+  },
+  {
+   "n": 9,
+   "t": "Mas Festo, querendo agradar aos judeus, respondendo a Paulo, disse: Tu queres subir a Jerusalém e ser julgado sobre estas coisas diante de mim?"
+  }
+ ],
+ "titulo": "A cilada preparada contra Paulo",
+ "temas": [
+  "perseguição",
+  "justiça",
+  "testemunho",
+  "coragem"
+ ],
+ "pergunta": "O que você faria se soubessem que seus inimigos prepararam uma armadilha para te matar no caminho?",
+ "entender": "Festo, o novo governador romano, subiu a Jerusalém e foi recebido pelos líderes judeus. Eles não vieram apenas para apresentar uma queixa legítima. O texto revela que pediram favor para levar Paulo de volta à cidade, \"preparando cilada para o matarem no caminho\" (Atos 25:3). Havia uma conspiração mortal por trás das acusações religiosas.\n\nAo descer a Cesareia, os judeus trouxeram \"muitas e graves acusações\" que não podiam provar (Atos 25:7). Paulo respondeu com clareza: não havia pecado contra a Lei, o Templo ou César. Festo, querendo agradar aos judeus, sugeriu que Paulo fosse julgado em Jerusalém, mas Paulo se recusou, apelando a César. O trecho mostra o conflito entre a pressão política e a busca pela verdade.",
+ "ligar": {
+  "texto": "Paulo estava preso não por crimes comuns, mas por pregar que Jesus, o morto, ressuscitou. A resistência dos líderes judeus à mensagem de Cristo é o motor desta história. A justiça de Roma, apesar de suas falhas e do comportamento político de Festo, oferece a Paulo a plataforma para levar o evangelho até o coração do império. A fidelidade de Paulo à verdade de Cristo, mesmo sob ameaça de morte, aponta para a supremacia do Senhor sobre qualquer tribunal humano.",
+  "selo": false
+ },
+ "viver": "Festo quis agradar à multidão, mas Paulo colocou a verdade acima da aprovação. Às vezes, nossa fé é testada quando precisamos dizer a verdade em ambientes hostis ou quando queremos evitar conflitos. Assim como Paulo, devemos confiar que a justiça de Deus prevalece, mesmo quando os poderosos tentam distorcer os fatos. Não deixe o medo de ser rejeitado fazer você silenciar a verdade do evangelho.",
+ "guarde": "A verdade de Cristo não depende da aprovação dos homens, mas da fidelidade de quem a proclama.",
+ "ore": "Festo, ao ouvir as acusações falsas contra Paulo, mostrou-se indeciso. Senhor, dá-me a coragem de Paulo para manter a verdade do Teu evangelho, mesmo quando houver pressão para me calar ou ceder. Ajuda-me a confiar na Tua justiça e não no julgamento dos homens.",
+ "quiz": {
+  "pergunta": "Qual era a verdadeira intenção dos líderes judeus ao pedir a Festo que trouxesse Paulo a Jerusalém?",
+  "opcoes": [
+   "Preparar uma cilada para matarem-no no caminho",
+   "Discutir diferenças teológicas sobre a Lei",
+   "Pedir que Paulo fosse libertado imediatamente"
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma explicitamente que eles pediram favor para levá-lo a Jerusalém, \"preparando cilada para o matarem no caminho\" (Atos 25:3)."
+ },
+ "refs": [
+  "Atos 23:12-22",
+  "Filipenses 1:12-13"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-31T12:57:30.243Z",
+  "rounds": 1
+ }
+}
