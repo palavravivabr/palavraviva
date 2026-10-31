@@ -30,7 +30,6 @@
     for (i = 0; i < n; i++) v.setInt16(44 + i * 2, (i % 2) ? 1 : -1, true); /* quase silêncio: não é zero digital */
     return URL.createObjectURL(new Blob([b], { type: 'audio/wav' }));
   }
-  function clique(q) { var e = document.querySelector(q); if (e) e.click(); }
   function estado(st) { try { if (navigator.mediaSession) navigator.mediaSession.playbackState = st; } catch (e) { /* sem Media Session */ } }
   function meta() {
     if (!('mediaSession' in navigator) || typeof MediaMetadata === 'undefined') return;
@@ -43,9 +42,9 @@
   function acoes() {
     if (!('mediaSession' in navigator)) return;
     function set(a, f) { try { navigator.mediaSession.setActionHandler(a, f); } catch (e) { /* ação não suportada */ } }
-    set('play', function () { if (speechSynthesis.paused) clique('#lsPlay'); });
-    set('pause', function () { if (speechSynthesis.speaking && !speechSynthesis.paused) clique('#lsPlay'); });
-    set('stop', function () { clique('#lsStop'); });
+    set('play', function () { if (speechSynthesis.paused && window.PVDev) window.PVDev.toggle(); });
+    set('pause', function () { if (speechSynthesis.speaking && !speechSynthesis.paused && window.PVDev) window.PVDev.toggle(); });
+    set('stop', function () { if (window.PVDev) window.PVDev.stop(); });
   }
   function parar() {
     ativo = false; clearInterval(timer); timer = null; misses = 0;
@@ -72,13 +71,15 @@
   speechSynthesis.speak = function (u) { iniciar(); return fala(u); };
 })();
 
-/* Leitura gravada: áudios mp3 reais (vozes neurais gratuitas) dos capítulos. Tocam com a tela apagada e passam sozinhos para o próximo capítulo. */
+/* Leitura gravada: áudios mp3 reais (vozes neurais gratuitas: Dora, Faber…) dos capítulos. Tocam com a tela apagada e passam sozinhos para o próximo capítulo.
+   Este bloco é só o motor (window.PVRec). Os botões e as opções de voz e velocidade ficam em src/audio-ui.js. */
 (function () {
   function $(q) { return document.querySelector(q); }
-  var box = $('#listen'), play = $('#lsPlay'), stop = $('#lsStop'), info = $('#lsInfo'), tit = $('#readTitle');
-  if (!box || !play || !stop || !tit || typeof Audio === 'undefined') return;
-  var idx = null, au = new Audio(), url = null, on = false, auto = false, tk = 0, sel = null;
+  var tit = $('#readTitle');
+  if (!tit || typeof Audio === 'undefined') return;
+  var idx = null, au = new Audio(), url = null, on = false, auto = false, tk = 0, vozId = null, info = '';
   au.preload = 'auto';
+  var ORDEM = ['dora', 'faber'];
   function ref() {
     var m = /^(.+?)\s+(\d+)$/.exec((tit.textContent || '').trim()); if (!m || !window.PVBooks) return null;
     var bs = PVBooks.all(), i; for (i = 0; i < bs.length; i++) if (bs[i].name === m[1]) return { b: bs[i].id, c: +m[2], nome: bs[i].name };
@@ -94,28 +95,16 @@
     }).then(function (r) { return r.blob(); });
   }
   function caminho(id, r) { return 'assets/biblia-voz/' + id + '/' + r.b + '-' + r.c + '.mp3'; }
-  function pref() { try { return localStorage.getItem('pv4-rv'); } catch (e) { return null; } }
-  function recorded() { return !!(sel && sel.value); }
-  function rotulo() { play.textContent = on ? (au.paused ? '▶ Continuar' : '❚❚ Pausar') : '▶ Ouvir capítulo'; stop.hidden = !on; }
-  function montar() {
-    if (sel) return;
-    sel = document.createElement('select'); sel.id = 'rvSel'; sel.setAttribute('aria-label', 'Voz da leitura');
-    sel.style.cssText = 'width:100%;margin:0 0 .5rem;padding:.55rem;border-radius:.6rem;font:inherit';
-    box.insertBefore(sel, box.firstChild);
-    sel.addEventListener('change', function () { try { localStorage.setItem('pv4-rv', sel.value); } catch (e) { /* ok */ } if (on) { parar(); if (sel.value) iniciar(); } });
+  function vel() { var v = window.PVNarr && window.PVNarr.vel ? window.PVNarr.vel() : 1; return v > 0 ? v : 1; }
+  /* velocidade real do áudio, sem mudar o tom da voz. Trocar o arquivo (src) zera a velocidade, por isso também vale como padrão. */
+  function aplicaVel() { var v = vel(); au.defaultPlaybackRate = v; au.playbackRate = v; try { au.preservesPitch = true; au.webkitPreservesPitch = true; } catch (e) { /* ok */ } }
+  function aviso() { try { document.dispatchEvent(new CustomEvent('pv-narr', { detail: { src: 'rec', on: on, playing: on && !au.paused, info: info } })); } catch (e) { /* ok */ } }
+  function parar() {
+    var estava = on;
+    tk++; on = false; auto = false; info = ''; au.pause(); try { au.removeAttribute('src'); au.load(); } catch (e) { /* ok */ }
+    try { if (navigator.mediaSession) navigator.mediaSession.playbackState = 'none'; } catch (e) { /* ok */ }
+    if (estava) aviso();
   }
-  function atualizar() {
-    var r = ref(), ids = lista(r), antes = sel ? sel.value : null;
-    if (!ids.length) { if (sel) sel.hidden = true; return; }
-    montar(); sel.hidden = false; sel.innerHTML = '';
-    ids.forEach(function (id) { var v = idx.voices[id], o = document.createElement('option'); o.value = id; o.textContent = 'Voz gravada · ' + v.nome + ' (' + v.genero + ')'; sel.appendChild(o); });
-    var o2 = document.createElement('option'); o2.value = ''; o2.textContent = 'Voz do aparelho'; sel.appendChild(o2);
-    var p = antes !== null ? antes : pref();
-    sel.value = (p !== null && (p === '' || ids.indexOf(p) >= 0)) ? p : ids[0];
-    if (box.hidden) box.hidden = false;
-    if (!on && !recorded()) return;
-  }
-  function parar() { tk++; on = false; auto = false; au.pause(); try { au.removeAttribute('src'); au.load(); } catch (e) { /* ok */ } rotulo(); try { if (navigator.mediaSession) navigator.mediaSession.playbackState = 'none'; } catch (e) { /* ok */ } }
   function sessao(r) {
     if (!('mediaSession' in navigator)) return;
     try {
@@ -126,37 +115,44 @@
       s('previoustrack', function () { var n = $('#chPrev'); if (n && !n.hidden) { auto = true; n.click(); } });
     } catch (e) { /* ok */ }
   }
-  function iniciar() {
-    var r = ref(); if (!r || !recorded()) return;
+  function iniciar(id) {
+    var r = ref(); if (!r || !id || !tem(id, r)) return false;
     try { speechSynthesis.cancel(); } catch (e) { /* ok */ }
-    var t = ++tk, id = sel.value; on = true; auto = true; info.textContent = 'Carregando a voz gravada…'; rotulo();
+    vozId = id; var t = ++tk; on = true; auto = true; info = 'Carregando a voz gravada…'; aviso();
     blob(caminho(id, r)).then(function (b) {
       if (t !== tk) return;
       if (url) URL.revokeObjectURL(url);
-      url = URL.createObjectURL(b); au.src = url;
-      var p = au.play(); if (p && p.catch) p.catch(function () { info.textContent = 'Toque em Ouvir para liberar o som.'; on = false; rotulo(); });
-      info.textContent = 'Voz gravada: ' + idx.voices[id].nome + ' · texto da Bíblia Livre'; sessao(r); rotulo();
+      url = URL.createObjectURL(b); au.src = url; aplicaVel();
+      var p = au.play(); if (p && p.catch) p.catch(function () { if (t !== tk) return; info = 'Toque em Ouvir para liberar o som.'; on = false; aviso(); });
+      info = 'Voz gravada: ' + idx.voices[id].nome + ' · texto da Bíblia Livre'; sessao(r); aviso();
       if (tem(id, { b: r.b, c: r.c + 1 })) blob(caminho(id, { b: r.b, c: r.c + 1 })).catch(function () { /* sem pré-carga */ });
-    }).catch(function () { if (t !== tk) return; on = false; auto = false; rotulo(); info.textContent = 'Não foi possível carregar o áudio (sem internet?).'; });
+    }).catch(function () { if (t !== tk) return; on = false; auto = false; info = 'Não foi possível carregar o áudio (sem internet?).'; aviso(); });
+    return true;
   }
-  au.addEventListener('play', rotulo); au.addEventListener('pause', function () { if (on) rotulo(); });
+  au.addEventListener('play', aviso); au.addEventListener('pause', function () { if (on) aviso(); });
+  au.addEventListener('loadedmetadata', aplicaVel);
   au.addEventListener('ended', function () {
     var n = $('#chNext'); if (n && !n.hidden) { auto = true; n.click(); } else parar();
   });
-  /* botões: no modo gravado, assumem o lugar da voz do aparelho */
-  play.addEventListener('click', function (e) {
-    if (!recorded()) return;
-    e.stopImmediatePropagation(); e.preventDefault();
-    if (!on) iniciar(); else if (au.paused) au.play(); else au.pause();
-  }, true);
-  stop.addEventListener('click', function (e) { if (!recorded() || !on) return; e.stopImmediatePropagation(); e.preventDefault(); parar(); }, true);
-  /* trocou de capítulo: reconstrói a lista e, se vinha tocando, continua no próximo */
+  /* trocou de capítulo: se vinha tocando, continua no próximo com a mesma voz */
   function mudou() {
-    atualizar();
-    if (on && auto) { if (recorded()) iniciar(); else parar(); }
+    if (on && auto) { if (vozId && tem(vozId, ref())) iniciar(vozId); else parar(); }
     else if (on) parar();
   }
   new MutationObserver(mudou).observe(tit, { childList: true, characterData: true, subtree: true });
-  new MutationObserver(function () { if (box.hidden && lista(ref()).length) box.hidden = false; }).observe(box, { attributes: true, attributeFilter: ['hidden'] });
-  fetch('assets/biblia-voz/index.json', { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : null; }).then(function (j) { idx = j && j.voices ? j : null; if (idx) atualizar(); }).catch(function () { /* sem gravações ainda */ });
+  fetch('assets/biblia-voz/index.json', { cache: 'no-store' }).then(function (r) { return r.ok ? r.json() : null; }).then(function (j) {
+    idx = j && j.voices ? j : null;
+    if (idx) { try { document.dispatchEvent(new CustomEvent('pv-leitura')); } catch (e) { /* ok */ } }
+  }).catch(function () { /* sem gravações ainda */ });
+  window.PVRec = {
+    voices: function () {
+      var r = ref(), ids = lista(r);
+      ids.sort(function (a, b) { var x = ORDEM.indexOf(a), y = ORDEM.indexOf(b); return (x < 0 ? 99 : x) - (y < 0 ? 99 : y) || (a < b ? -1 : 1); });
+      return ids.map(function (id) { return { id: id, nome: idx.voices[id].nome, genero: idx.voices[id].genero }; });
+    },
+    all: function () { return idx ? Object.keys(idx.voices) : []; },
+    start: iniciar, stop: parar, setVel: aplicaVel,
+    toggle: function () { if (!on) return false; if (au.paused) { var p = au.play(); if (p && p.catch) p.catch(function () { /* ok */ }); } else au.pause(); aviso(); return true; },
+    isOn: function () { return on; }, isPlaying: function () { return on && !au.paused; }, info: function () { return info; }, voz: function () { return vozId; }
+  };
 })();
