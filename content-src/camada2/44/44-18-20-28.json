@@ -1,0 +1,133 @@
+{
+ "id": "44-18-20-28",
+ "ref": "Atos 18:20-28",
+ "book": "44",
+ "chapter": 18,
+ "verses": [
+  {
+   "n": 20,
+   "t": "E eles, pedindo -lhe que continuasse com eles por mais algum tempo, ele não concordou."
+  },
+  {
+   "n": 21,
+   "t": "Porém despediu-se deles, dizendo: De toda maneira tenho que estar na festa que vem em Jerusalém; mas outra vez, se Deus quiser, voltarei a vós.E ele saiu de Éfeso."
+  },
+  {
+   "n": 22,
+   "t": "E tendo vindo a Cesareia, subiu e, saudando à igreja, desceu a Antioquia."
+  },
+  {
+   "n": 23,
+   "t": "E passando ali algum tempo, ele partiu, passando em sequência pela região da Galácia e Frígia, firmando a todos os discípulos."
+  },
+  {
+   "n": 24,
+   "t": "E chegou a Éfeso um certo judeu, de nome Apolo, natural de Alexandria, homem eloquente, bem capacitado nas Escrituras."
+  },
+  {
+   "n": 25,
+   "t": "Este era instruído no caminho do Senhor; e fervoroso de espírito, falava e ensinava corretamente as coisas do Senhor; ainda que soubesse somente o batismo de João."
+  },
+  {
+   "n": 26,
+   "t": "E este começou a falar ousadamente na sinagoga; e Áquila e Priscila, ao o ouvirem, tomaram-no consigo, e explicaram mais detalhadamente o caminho de Deus."
+  },
+  {
+   "n": 27,
+   "t": "E ele, querendo passar a Acaia, os irmãos o exortaram, e escreveram aos discípulos que o recebessem; o qual, tendo chegado, auxiliou muito aos que tinham crido pela graça."
+  },
+  {
+   "n": 28,
+   "t": "Porque vigorosamente ele provava publicamente os erros dos judeus, mostrando pelas Escrituras que Jesus era o Cristo."
+  }
+ ],
+ "titulo": "O professor que precisou de ajuda",
+ "temas": [
+  "humildade",
+  "ensino",
+  "complementaridade",
+  "evangelho"
+ ],
+ "pergunta": "Por que alguém tão inteligente e eloquente precisou que outros lhe explicassem o caminho de Deus?",
+ "entender": "Apolo chegou a Éfeso sendo um homem impressionante: natural de Alexandria, eloquente e bem capacitado nas Escrituras. Ele ensinava corretamente as coisas do Senhor e falava com ousadia na sinagoga. No entanto, havia uma lacuna fundamental em seu conhecimento: ele só conhecia o batismo de João. Isso significava que sua compreensão de Jesus estava incompleta, focada apenas no precursor e não na plenitude da obra de Cristo.\n\nQuando Áquila e Priscila ouviram Apolo, eles não o ignoraram nem o criticaram publicamente. Pelo contrário, tomaram-no consigo e explicaram mais detalhadamente o caminho de Deus. Essa atitude revela a maturidade da comunidade cristã primitiva: eles valorizavam o ensino correto, mas reconheciam a necessidade de completá-lo com a verdade completa sobre Jesus. A humildade de Apolo em aceitar essa correção e a gentileza de seus irmãos mostram que o crescimento na fé muitas vezes depende de estarmos dispostos a aprender com os outros.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para a centralidade de Jesus no evangelho. Apolo conhecia as Escrituras, mas sem compreender plenamente quem Jesus era, seu ensino era parcial. Ao aceitar a explicação de Áquila e Priscila, ele passou a demonstrar vigorosamente, pelas Escrituras, que Jesus era o Cristo. Isso nos lembra que o conhecimento bíblico só é verdadeiro quando nos leva a Cristo. O evangelho não é apenas um conjunto de regras ou uma filosofia moral, mas a pessoa e a obra de Jesus, que cumpre toda a profecia e lei.",
+  "selo": true
+ },
+ "viver": "Talvez você se sinta seguro em sua fé porque conhece bem a Bíblia ou tem facilidade para falar sobre Deus. Mas e se houver pontos importantes sobre Jesus que você ainda não compreendeu totalmente? Aprenda com a atitude de Apolo: tenha a humildade de pedir ajuda a irmãos mais experientes e a coragem de corrigir o que está incompleto. A fé não é uma competição de erudição, mas uma jornada de compreensão cada vez mais profunda do amor de Cristo, onde todos podem contribuir para o crescimento do outro.",
+ "guarde": "A verdadeira sabedoria cristã é reconhecer que precisamos uns dos outros para compreender plenamente a Cristo.",
+ "ore": "Apolo, que era eloquente mas precisava de explicação, ensina-me a humildade. Senhor, abre meus olhos para ver a plenitude de Jesus nas Escrituras. Que eu não tenha medo de aprender com outros irmãos e de ser corrigido, para que meu testemunho seja completo e verdadeiro, apontando sempre para Ti.",
+ "quiz": {
+  "pergunta": "O que Apolo sabia sobre Jesus antes de falar com Áquila e Priscila?",
+  "opcoes": [
+   "Só conhecia o batismo de João",
+   "Conhecia toda a obra de Jesus",
+   "Não conhecia nada sobre Jesus"
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz que ele 'sabia somente o batismo de João', indicando que sua compreensão de Cristo estava limitada e incompleta até receber a explicação dos irmãos."
+ },
+ "refs": [
+  "Atos 20:20-21",
+  "Colossenses 1:27-28",
+  "1 Coríntios 1:10"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-31T01:05:43.633Z",
+  "rounds": 1
+ }
+}

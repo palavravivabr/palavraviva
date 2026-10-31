@@ -1,0 +1,135 @@
+{
+ "id": "44-18-10-19",
+ "ref": "Atos 18:10-19",
+ "book": "44",
+ "chapter": 18,
+ "verses": [
+  {
+   "n": 10,
+   "t": "Porque eu estou contigo, e ninguém porá mão em ti para te fazer mal, porque eu tenho muito povo nesta cidade."
+  },
+  {
+   "n": 11,
+   "t": "E ele ficou ali por um ano e seis meses, ensinando entre eles a palavra de Deus."
+  },
+  {
+   "n": 12,
+   "t": "Mas sendo Gálio o procônsul da Acaia, os judeus se levantaram em concordância contra Paulo, e o trouxeram ao tribunal,"
+  },
+  {
+   "n": 13,
+   "t": "Dizendo: Este persuade as pessoas a servirem a Deus contra a Lei."
+  },
+  {
+   "n": 14,
+   "t": "E Paulo, querendo abrir a boca, Gálio disse aos judeus: Se houvesse algum mau ato ou crime grande, ó judeus, com razão eu vos suportaria;"
+  },
+  {
+   "n": 15,
+   "t": "Mas se a questão é de palavra s , e de nomes, e da Lei que há entre vós, vede -o vós mesmos; porque destas coisas eu não quero ser juiz."
+  },
+  {
+   "n": 16,
+   "t": "E ele os tirou do tribunal."
+  },
+  {
+   "n": 17,
+   "t": "Mas todos os gregos, tomando a Sóstenes, o chefe da sinagoga, feriram -no diante do tribunal; e a nada destas coisas Gálio dava importância."
+  },
+  {
+   "n": 18,
+   "t": "E Paulo, ficando ali ainda muitos dias, ele se despediu dos irmãos, e dali navegou para a Síria, e juntos com ele estavam Priscila e Áquila; tendo rapado a cabeça em Cencreia, porque ele tinha feito voto."
+  },
+  {
+   "n": 19,
+   "t": "E chegou a Éfeso, e os deixou ali; mas ele, entrando na sinagoga, disputava com os judeus."
+  }
+ ],
+ "titulo": "Quando a lei tenta calar a palavra",
+ "temas": [
+  "justiça",
+  "liberdade",
+  "testemunho"
+ ],
+ "pergunta": "Como reagir quando a autoridade humana tenta impedir a mensagem de Deus?",
+ "entender": "Paulo estava em Corinto quando recebeu a promessa de que \"eu estou contigo, e ninguém porá mão em ti para te fazer mal\" (Atos 18.10). Ele ficou ali por um ano e seis meses, ensinando a palavra de Deus (18.11). Quando os judeus acusaram‑o de ensinar contra a Lei, o procônsul Gálio respondeu que questões de palavra e nomes não eram para ele julgar, e tirou os acusadores do tribunal (18.14‑16). Mesmo com a agressão dos gregos contra o chefe da sinagoga, Gálio não deu importância (18.17). Depois, Paulo partiu para a Síria, passando por Cencréia onde fez voto, e chegou a Éfeso, onde continuou a pregar na sinagoga (18.18‑19). O relato mostra a tensão entre a autoridade civil e a missão cristã, e a proteção divina sobre o apóstolo enquanto ele persiste em anunciar a palavra.\n\nO contexto imediato inclui a visão que o Senhor deu a Paulo para não temer (Atos 18.9‑10) e a posterior partida de Éfeso para cumprir a festa em Jerusalém (Atos 18.20‑22). Essa sequência evidencia que, apesar das pressões externas, a missão de proclamar o evangelho continua, sustentada pela confiança de que Deus está presente e protege aqueles que obedecem.",
+ "ligar": {
+  "texto": "A defesa de Paulo ao dizer que a questão era de \"palavra\" e não de crime aponta para a supremacia da mensagem de Cristo sobre qualquer lei humana. Quando a autoridade tenta silenciar o evangelho, o exemplo de Paulo nos lembra que a verdade de Jesus transcende julgamentos terrenais. O próprio Deus assegura a Paulo que está com ele, ecoando a promessa de que Cristo está presente onde a sua palavra é proclamada (Mateus 28.20). Assim, a coragem de Paulo ao permanecer na sinagoga, apesar das hostilidades, antecipa a missão de levar o evangelho a todos, confiando na proteção divina.",
+  "selo": false
+ },
+ "viver": "A atitude de Gálio, que se recusou a julgar questões de doutrina, nos convida a reconhecer os limites da nossa própria autoridade. Quando enfrentamos críticas ou tentativas de silenciamento por causa da nossa fé, podemos responder com respeito, lembrando que a verdade do evangelho não depende da aprovação humana. Assim como Paulo continuou a ensinar apesar das pressões, somos chamados a permanecer firmes na proclamação da palavra, confiando que Deus cuida de nós e que a verdade encontrará seu caminho.\n\nEm situações onde a lei ou a opinião pública parecem conflitar com a mensagem de Cristo, procure discernir se a questão é realmente de justiça ou apenas de tradição. Mantenha a postura de respeito, mas não deixe que isso impeça a proclamação do amor e da graça de Jesus.",
+ "guarde": "Mesmo quando a autoridade tenta calar a palavra, Deus está ao nosso lado.",
+ "ore": "Paulo, ao chegar a Éfeso, eu peço que eu tenha a mesma coragem de pregar a palavra, mesmo quando houver oposição, confiando que Deus está comigo como esteve com ele.",
+ "quiz": {
+  "pergunta": "Qual foi a atitude de Gálio diante das acusações contra Paulo?",
+  "opcoes": [
+   "Ele retirou os acusadores do tribunal e não julgou a questão de palavra.",
+   "Ele condenou Paulo por violar a Lei.",
+   "Ele pediu que Paulo deixasse a cidade."
+  ],
+  "certa": 0,
+  "explicacao": "Gálio deixou claro que a disputa era sobre palavras e nomes, não sobre crime, e tirou os judeus do tribunal (Atos 18.15‑16)."
+ },
+ "refs": [
+  "Mateus 28:20",
+  "1 Coríntios 9:22"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-31T01:04:27.409Z",
+  "rounds": 1
+ }
+}

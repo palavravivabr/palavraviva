@@ -1,0 +1,137 @@
+{
+ "id": "44-20-1-10",
+ "ref": "Atos 20:1-10",
+ "book": "44",
+ "chapter": 20,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E tendo acabado o tumulto, Paulo chamou a si os discípulos e, abraçando-os, saiu para ir à Macedônia."
+  },
+  {
+   "n": 2,
+   "t": "E tendo passado por aquelas regiões, e exortando-os com muitas palavras, ele veio à Grécia."
+  },
+  {
+   "n": 3,
+   "t": "E ficando ali por três meses, e havendo contra ele uma cilada posta pelos judeus quando ele estava a ponto de navegar para a Síria, ele decidiu voltar pela Macedônia."
+  },
+  {
+   "n": 4,
+   "t": "E o acompanhou até a Ásia Sópater, de Bereia; e dos tessalonicenses, Aristarco e Segundo, e Gaio de Derbe, e Timóteo; e dos da Ásia, Tíquico e Trófimo."
+  },
+  {
+   "n": 5,
+   "t": "Estes, indo adiante, nos esperaram em Trôade."
+  },
+  {
+   "n": 6,
+   "t": "E depois dos dias dos pães não fermentados, nós navegamos de Filipos, e em cinco dias viemos até eles, onde ficamos por sete dias."
+  },
+  {
+   "n": 7,
+   "t": "E no primeiro dia da semana, tendo os discípulos se reunido para partir o pão, Paulo discutia com eles, estando para partir no dia seguinte; e ele estendeu a discussão até a meia noite."
+  },
+  {
+   "n": 8,
+   "t": "E havia muitas luminárias no compartimento onde estavam reunidos."
+  },
+  {
+   "n": 9,
+   "t": "E estando um certo rapaz, de nome Êutico, sentado em uma janela, tendo sido tomado por um sono profundo, e ,estando Paulo ainda falando por muito tempo , Êutico ,derrubado pelo sono, caiu desde o terceiro andar abaixo; e foi levantado morto."
+  },
+  {
+   "n": 10,
+   "t": "Mas Paulo, tendo descido, debruçou sobre ele e, abraçando -o ,disse: Não fiqueis perturbados, porque sua alma ainda está nele."
+  }
+ ],
+ "titulo": "A janela aberta e o amigo que caiu",
+ "temas": [
+  "perseverança",
+  "comunidade",
+  "consolo",
+  "missão"
+ ],
+ "pergunta": "O que fazemos quando a fadiga ameaça a nossa dedicação ao próximo?",
+ "entender": "Paulo está prestes a deixar a Macedônia para voltar à Ásia, mas antes ele se reúne com os discípulos em Trôade. O texto descreve uma reunião no primeiro dia da semana, onde eles se reuniram para partir o pão. Paulo falou por muito tempo, estendendo a discussão até a meia-noite. A cena é íntima e real: havia muitas luminárias no compartimento, e a atmosfera era de comunhão profunda.\n\nDurante esse tempo, um rapaz chamado Êutico, que estava sentado numa janela, adormeceu profundamente. A fadiga venceu a atenção, e ele caiu do terceiro andar, sendo levantado morto. Foi um momento de terror para a comunidade. Paulo desceu, debruçou-se sobre o jovem e o abraçou, dizendo: \"Não fiqueis perturbados, porque sua alma ainda está nele\". Esse episódio mostra a fragilidade humana mesmo nos momentos de maior intensidade espiritual.\n\nO texto não termina na morte, mas na ação de Paulo. Ele não fugiu do corpo, nem ignorou a dor. Ele agiu com calma e autoridade, trazendo consolo àqueles que estavam aterrorizados. A narrativa destaca que a presença de Paulo trouxe vida literal e, principalmente, paz espiritual ao grupo.",
+ "ligar": {
+  "texto": "Embora este trecho não mencione Jesus diretamente, ele ecoa o poder de vida que Cristo exerce sobre a morte. Paulo, cheio do Espírito, age com a mesma autoridade que Jesus tinha sobre a morte, como vimos em Lucas 7. O evangelho nos lembra que a morte não tem a última palavra para quem está em Cristo. A comunidade que se reúne para partir o pão está unida por essa esperança. A ressurreição de Jesus é o fundamento que permite que Paulo console os outros e que a igreja continue firme, mesmo diante do luto e da fadiga. A vida que Paulo trouxe a Êutico é um prenúncio da vida eterna que Jesus oferece a todos os crentes.",
+  "selo": false
+ },
+ "viver": "Às vezes, nossa dedicação à obra de Deus nos leva à exaustão física e emocional. Êutico adormeceu não por falta de amor, mas por cansaço. Isso nos ensina a cuidar da nossa saúde e a sermos realistas com nossos limites. No entanto, o texto também nos convida a não desistir da comunhão. Mesmo cansados, devemos nos reunir para partir o pão e ouvir a Palavra. Quando a fadiga vier, não devemos agir sozinhos. Devemos buscar o consolo da comunidade e a intercessão de irmãos que, como Paulo, podem trazer vida e paz aos nossos momentos de crise. Cuidar de si é parte do serviço a Deus.",
+ "guarde": "A fadiga pode vencer o corpo, mas a presença de Deus e da comunidade traz vida e paz.",
+ "ore": "Êutico, que caiu da janela por cansaço, ensina-me a cuidar do meu corpo para servir melhor. Pai, ajuda-me a equilibrar a dedicação à tua obra com o descanso necessário. Que eu não negligencie minha saúde em nome da missão. Dá-me a sabedoria para reconhecer meus limites e a coragem para buscar ajuda quando estiver exausto. Que minha vida reflita a força que vem de ti, não da minha própria força.",
+ "quiz": {
+  "pergunta": "O que Paulo disse a Êutico quando o abraçou?",
+  "opcoes": [
+   "Que ele deveria ter dormido menos",
+   "Que sua alma ainda estava nele",
+   "Que ele estava morto para sempre"
+  ],
+  "certa": 1,
+  "explicacao": "O texto afirma explicitamente que Paulo disse: \"Não fiqueis perturbados, porque sua alma ainda está nele\". Isso indica que, naquele momento, o corpo ainda tinha sinais de vida ou que a alma não havia partido, o que permitiu a ressurreição."
+ },
+ "refs": [
+  "Lucas 7:11-17",
+  "Atos 9:36-42",
+  "1 Coríntios 15:54"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-31T01:10:46.419Z",
+  "rounds": 1
+ }
+}

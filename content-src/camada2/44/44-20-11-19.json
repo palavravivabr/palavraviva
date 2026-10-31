@@ -1,0 +1,133 @@
+{
+ "id": "44-20-11-19",
+ "ref": "Atos 20:11-19",
+ "book": "44",
+ "chapter": 20,
+ "verses": [
+  {
+   "n": 11,
+   "t": "E voltou a subir, e tendo partido e experimentado o pão, ele falou longamente até o nascer do dia; e assim ele partiu."
+  },
+  {
+   "n": 12,
+   "t": "E trouxeram o rapaz vivo, e ficaram não pouco consolados."
+  },
+  {
+   "n": 13,
+   "t": "E nós, tendo ido adiante ao navio, navegamos até Assôs, onde estaríamos para receber a Paulo, porque assim ele tinha ordenado; e ele ia a pé."
+  },
+  {
+   "n": 14,
+   "t": "E quando ele se encontrou conosco em Assôs, nós o tomamos, e fomos a Mitilene."
+  },
+  {
+   "n": 15,
+   "t": "E navegando dali, chegamos no dia seguinte em frente a Quios; e no outro dia aportamos em Samos; e ficando em Trogílio, no dia seguinte viemos a Mileto."
+  },
+  {
+   "n": 16,
+   "t": "Porque Paulo tinha decidido navegar desviando-se de Éfeso, para não lhe haver de gastar tempo na Ásia; porque ele se apressava para estar em Jerusalém do dia de Pentecostes, caso lhe fosse possível."
+  },
+  {
+   "n": 17,
+   "t": "Mas ele enviou mensagem desde Mileto até Éfeso, chamando aos anciãos da igreja."
+  },
+  {
+   "n": 18,
+   "t": "E quando vieram a Paulo ,ele lhes disse: Vós sabeis que desde o primeiro dia que entrei na Ásia, o modo como eu estive todo aquele tempo convosco;"
+  },
+  {
+   "n": 19,
+   "t": "Servindo ao Senhor com toda humildade, muitas lágrimas, e tentações, que sobrevieram a mim pelas ciladas dos judeus;"
+  }
+ ],
+ "titulo": "Paulo chama os anciãos antes de partir",
+ "temas": [
+  "serviço",
+  "humildade",
+  "testemunho",
+  "responsabilidade"
+ ],
+ "pergunta": "O que fazemos com a verdade quando o tempo está acabando?",
+ "entender": "Depois de ressuscitar o jovem Êutico, Paulo não parou para descansar. Ele comeu, falou até o nascer do dia e seguiu viagem. Ao chegar a Mileto, decidiu não entrar em Éfeso para não perder tempo, pois se apressava para chegar a Jerusalém no dia de Pentecostes. Mesmo assim, ele enviou uma mensagem chamando os anciãos da igreja de Éfeso para encontrá-lo em Mileto.\n\nAo vê-los, Paulo lembra como serviu o Senhor na Ásia. Ele descreve seu ministério como feito \"com toda humildade, muitas lágrimas, e tentações\". Essas palavras mostram que o serviço a Deus não é sempre confortável; muitas vezes envolve sofrimento e oposição. Paulo não se gloriava em suas conquistas, mas em como foi fiel mesmo diante das \"ciladas dos judeus\".\n\nEste trecho nos mostra o coração de um líder que se preocupava com a maturidade espiritual dos irmãos antes de partir. Ele queria garantir que eles estivessem firmes na fé, pois sabia que enfrentariam falsos mestres depois que ele fosse embora.",
+ "ligar": {
+  "texto": "A vida de Paulo é um reflexo de Jesus. Assim como Cristo serviu com humildade e morreu por nós, Paulo entregou sua vida para pregar o evangelho. A urgência dele não era apenas logística, mas espiritual: ele queria que os anciãos conhecessem a Cristo profundamente antes que ele partisse. O evangelho é a mensagem central que sustentou suas lágrimas e seu esforço, apontando sempre para a salvação em Jesus.",
+  "selo": true
+ },
+ "viver": "Paulo priorizou a fé acima do conforto. Talvez você sinta que não tem tempo para aprofundar sua relação com Deus ou ajudar outros a crescer. Este texto nos desafia a olhar para o que é eterno. Não espere estar perfeito para servir; comece com humildade, como Paulo fez. Dedique tempo de qualidade para estudar a Bíblia e compartilhar o amor de Cristo, sabendo que cada momento é precioso e pode tocar vidas para sempre.",
+ "guarde": "Sirva a Deus com humildade e lágrimas, entregando tudo a Cristo, mesmo quando o tempo é curto.",
+ "ore": "Paulo em Mileto, obrigado por sua fidelidade. Ensina-me a priorizar a verdade do evangelho acima do conforto. Dá-me humildade para servir e coragem para persistir, mesmo quando houver oposição ou pouco tempo. Ajuda-me a cuidar da minha vida espiritual e de quem me cerca com amor e urgência.",
+ "quiz": {
+  "pergunta": "Por que Paulo decidiu não entrar em Éfeso?",
+  "opcoes": [
+   "Porque a viagem estava muito cara",
+   "Porque tinha medo da oposição local",
+   "Para não gastar tempo e chegar a Jerusalém no Pentecostes"
+  ],
+  "certa": 2,
+  "explicacao": "O texto diz explicitamente que ele se apressava para estar em Jerusalém no dia de Pentecostes, caso lhe fosse possível, evitando gastar tempo na Ásia."
+ },
+ "refs": [
+  "Atos 20:20-21",
+  "Filipenses 2:5-8",
+  "2 Timóteo 4:2"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-31T01:11:49.614Z",
+  "rounds": 2
+ }
+}

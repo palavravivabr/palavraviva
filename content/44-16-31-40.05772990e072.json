@@ -1,0 +1,138 @@
+{
+ "id": "44-16-31-40",
+ "ref": "Atos 16:31-40",
+ "book": "44",
+ "chapter": 16,
+ "verses": [
+  {
+   "n": 31,
+   "t": "E eles lhe disseram: Crê no Senhor Jesus Cristo, e serás salvo, tu e a tua casa."
+  },
+  {
+   "n": 32,
+   "t": "E lhe falaram da palavra do Senhor, e a todos os que estavam em sua casa."
+  },
+  {
+   "n": 33,
+   "t": "E ele, tomando-os consigo, naquela mesma hora da noite, lavou -lhes as feridas dos açoites, e logo foi batizado, ele e todos os seus."
+  },
+  {
+   "n": 34,
+   "t": "E tendo os levado a sua casa, pôs comida diante deles à mesa; e alegrou-se muito, tendo crido em Deus com toda a sua casa."
+  },
+  {
+   "n": 35,
+   "t": "E sendo já de dia, os magistrados mandaram aos guardas, dizendo: Solta aqueles homens."
+  },
+  {
+   "n": 36,
+   "t": "E o carcereiro anunciou estas palavras a Paulo, dizendo : Os magistrados têm mandado vos soltar; portanto agora saí, e ide em paz."
+  },
+  {
+   "n": 37,
+   "t": "Mas Paulo lhes disse: Eles nos açoitaram publicamente, e sem sermos sentenciados, sendo nós homens romanos, lançaram-nos na prisão, e agora nos lançam fora às escondidas? Assim não! Mas que eles mesmos venham e nos tirem."
+  },
+  {
+   "n": 38,
+   "t": "E os guardas voltaram para dizer aos magistrados estas palavras; e eles temeram ao ouvirem que eram romanos."
+  },
+  {
+   "n": 39,
+   "t": "E tendo vindo, rogaram-lhes; e tirando-os, pediram -lhes que saíssem da cidade."
+  },
+  {
+   "n": 40,
+   "t": "E eles, tendo saído da prisão, entraram na casa de Lídia; e vendo aos irmãos, consolaram-lhes; e saíram."
+  }
+ ],
+ "titulo": "A porta da fé que abre a liberdade",
+ "temas": [
+  "fé",
+  "salvação",
+  "testemunho",
+  "cuidado"
+ ],
+ "pergunta": "Como a fé de um carcereiro pode mudar toda uma família?",
+ "entender": "Neste trecho, o carcereiro de Filipos pergunta a Paulo e Silas o que deve fazer para ser salvo. Paulo responde: \"Crê no Senhor Jesus Cristo, e serás salvo\" (Atos 16:31). O homem aceita, batiza a sua família (v.33‑34) e recebe alimento e apoio dos apóstolos. No dia seguinte, os magistrados ordenam que os guardas soltem os prisioneiros, mas ao saber que Paulo e Silas eram cidadãos romanos, temem e pedem que sejam libertados (v.38‑39). Ao saírem da prisão, os apóstolos vão à casa de Lídia para consolar os irmãos (v.40). O relato mostra que, mesmo encarcerados, Paulo e Silas proclamam o evangelho, gerando conversão e mudança de atitude tanto do carcereiro quanto dos oficiais.\n\nO contexto anterior descreve Paulo e Silas sendo açoitados e lançados na prisão sem julgamento (v.25‑27). A resposta de fé ocorre numa noite de prisão, demonstrando que a mensagem de Cristo atravessa situações de medo e opressão, trazendo cuidado prático e esperança espiritual.",
+ "ligar": {
+  "texto": "A frase central \"Crê no Senhor Jesus Cristo, e serás salvo\" aponta diretamente para Cristo como o único caminho de salvação. O carcereiro, ao crer, experimenta a graça que transforma vidas, inclusive a de sua família, mostrando que a libertação física da prisão aponta para a libertação espiritual que Jesus oferece a todo aquele que crê. Assim, o evangelho proclamado na prisão tem poder de mudar corações, até dos que detêm autoridade, como os magistrados que temeram ao descobrir a cidadania romana dos apóstolos.",
+  "selo": true
+ },
+ "viver": "O carcereiro nos ensina que, mesmo quando nos sentimos presos por circunstâncias difíceis, podemos abrir a porta da fé ao ouvir e aceitar a mensagem de Jesus. Assim como ele recebeu cuidado e, em seguida, compartilhou a boa nova com sua família, somos chamados a acolher quem nos cerca, oferecendo apoio prático e espiritual. Quando alguém nos pergunta como ser salvo, podemos, com simplicidade, apontar para Cristo e viver como testemunhas vivas da sua graça.\n\nAlém disso, a reação dos magistrados mostra que a verdade de Cristo pode impactar até aqueles que exercem poder. Ao reconhecer que os apóstolos eram cidadãos romanos, temeram e libertaram‑nos, lembrando‑nos que viver de acordo com a fé pode mudar atitudes e abrir portas inesperadas na vida cotidiana.",
+ "guarde": "Um simples crer em Jesus pode transformar prisão em liberdade para toda a família.",
+ "ore": "Carcereiro de Filipos, ajuda‑me a responder com fé a quem me perguntar o caminho da salvação, mesmo quando eu me sentir preso por medo ou dificuldade.",
+ "quiz": {
+  "pergunta": "Qual foi a resposta que Paulo deu ao carcereiro quando ele perguntou como se salvar?",
+  "opcoes": [
+   "Aceite o culto aos deuses romanos.",
+   "Crê no Senhor Jesus Cristo, e serás salvo",
+   "Arrependa‑se e faça boas obras."
+  ],
+  "certa": 1,
+  "explicacao": "A resposta correta está em Atos 16:31, onde Paulo declara que a salvação vem pela fé em Jesus Cristo, não por obras ou cultos pagãos."
+ },
+ "refs": [
+  "João 3:16",
+  "Romanos 10:9-10",
+  "Atos 2:38",
+  "Efésios 2:8-9"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-31T01:04:41.037Z",
+  "rounds": 4
+ }
+}

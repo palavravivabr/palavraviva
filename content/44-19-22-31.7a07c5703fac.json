@@ -1,0 +1,137 @@
+{
+ "id": "44-19-22-31",
+ "ref": "Atos 19:22-31",
+ "book": "44",
+ "chapter": 19,
+ "verses": [
+  {
+   "n": 22,
+   "t": "E ele, tendo enviado à Macedônia dois daqueles que o serviam, Timóteo e Erasto, ele ficou por algum tempo na Ásia."
+  },
+  {
+   "n": 23,
+   "t": "Mas naquele tempo aconteceu um não pequeno alvoroço quanto ao Caminho ."
+  },
+  {
+   "n": 24,
+   "t": "Porque um certo artífice de prata, de nome Demétrio, que fazia objetos de prata para o templo de Diana , e dava não pouco lucro aos artesãos."
+  },
+  {
+   "n": 25,
+   "t": "Aos quais, tendo os reunido com os trabalhadores de semelhantes coisas, disse: Homens, vós sabeis que deste ofício temos nossa prosperidade."
+  },
+  {
+   "n": 26,
+   "t": "E vós estais vendo e ouvindo que este Paulo, não somente em Éfeso, mas até quase em toda a Ásia, tem persuadido e apartado uma grande multidão, dizendo que não são deuses os que são feitos com as mãos."
+  },
+  {
+   "n": 27,
+   "t": "E não somente há perigo de que isto torne nosso ofício em desprezo, mas também que até o tempo da grande deusa Diana seja considerado inútil, e que a grandiosidade dela, a quem toda a Ásia e o mundo venera, venha a ser destruída."
+  },
+  {
+   "n": 28,
+   "t": "E eles, ao ouvirem estas coisas ,encheram-se de ira, e clamaram, dizendo: Grande é a Diana dos efésios!"
+  },
+  {
+   "n": 29,
+   "t": "E toda a cidade se encheu de tumulto, e em concordância eles invadiram ao teatro, tomando consigo Gaio e Aristarco, macedônios, companheiros de Paulo na viagem."
+  },
+  {
+   "n": 30,
+   "t": "E Paulo, querendo comparecer diante do povo, os discípulos não o permitiram."
+  },
+  {
+   "n": 31,
+   "t": "E também alguns dos líderes da Ásia, que eram amigos dele, enviaram-lhe aviso , rogando -lhe para que não se apresentasse no teatro."
+  }
+ ],
+ "titulo": "Quando o medo de perder dinheiro vira tumulto",
+ "temas": [
+  "prosperidade",
+  "perseguição",
+  "idolatria",
+  "segurança"
+ ],
+ "pergunta": "O que você faria se a mensagem de Jesus ameaçasse sua fonte de renda?",
+ "entender": "Em Éfeso, Paulo pregava que os ídolos feitos por mãos humanas não eram deuses. Isso abalou a economia local, pois muitos artesãos lucravam vendendo objetos para o templo de Diana. Demétrio, um prateiro, reuniu seus colegas e alertou: \"deste ofício temos nossa prosperidade\". Ele argumentou que a pregação de Paulo estava fazendo com que o ofício deles fosse \"em desprezo\" e que a grandiosidade da deusa Diana seria destruída.\n\nA reação não foi um debate teológico, mas um tumulto violento. A cidade se encheu de ira e a multidão invadiu o teatro, gritando \"Grande é a Diana dos efésios\". Eles até tentaram agarrar Gaio e Aristarco, companheiros de Paulo. O texto mostra que a resistência à Palavra de Deus muitas vezes não nasce de dúvida intelectual, mas de um interesse econômico e social que se sente ameaçado. A segurança que as pessoas depositavam em Diana era, na verdade, uma ilusão que impedia o reconhecimento do verdadeiro Deus.",
+ "ligar": {
+  "texto": "O evangelho de Jesus confronta todas as \"deidades\" que nos dão falsa segurança, sejam elas financeiras, sociais ou religiosas. Assim como Paulo expôs que os ídolos de prata eram inúteis, Cristo revela que só Ele é o Senhor. A perseguição sofrida por Paulo em Éfeso ecoa o que Jesus previu: quem O segue não será aceito facilmente por todos, pois a luz da verdade incomoda os interesses das trevas. A firmeza de Paulo em continuar ensinando, apesar do tumulto, aponta para a suficiência de Cristo, que é maior que qualquer poder político ou econômico.",
+  "selo": false
+ },
+ "viver": "Nossa prosperidade muitas vezes depende de coisas que, em última análise, são frágeis. Assim como os artesãos de Éfoso temiam perder seu lucro, podemos sentir medo de seguir a Cristo se isso significar mudar de emprego, perder status ou confrontar colegas. O texto nos desafia a examinar onde está nossa verdadeira segurança. Se nossa fé depende de que nada mude em nossa vida material, ela ainda está presa a um \"ídolo\". Confie em Deus, que provê, mesmo quando o caminho exige renúncia e coragem.",
+ "guarde": "A segurança verdadeira não está nos lucros deste mundo, mas no Deus que é maior que todos os ídolos.",
+ "ore": "Pai, em Éfeso, o medo de perder a prosperidade impediu muitos de ouvir a verdade. Perdoa-me por vezes colocar minha segurança financeira acima de Ti. Ajuda-me a confiar no Teu cuidado, mesmo quando seguir Teus caminhos exigir que eu perca algo. Que minha fé não dependa de circunstâncias, mas da fidelidade de Jesus.",
+ "quiz": {
+  "pergunta": "Qual era a principal preocupação de Demétrio e dos artesãos com a pregação de Paulo?",
+  "opcoes": [
+   "Que a multidão começasse a atacar o templo de Diana de forma física.",
+   "Que Paulo estivesse ensinando uma nova doutrina sobre a natureza de Deus.",
+   "Que seus lucros com a venda de objetos para o templo de Diana fossem prejudicados."
+  ],
+  "certa": 2,
+  "explicacao": "O texto destaca que Demétrio reuniu os artesãos porque a pregação de Paulo dizia que os ídolos não eram deuses, o que ameaçava diretamente a fonte de renda deles."
+ },
+ "refs": [
+  "Atos 16:22-34",
+  "1 Coríntios 10:14",
+  "Tiago 4:4"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-31T01:07:45.449Z",
+  "rounds": 1
+ }
+}

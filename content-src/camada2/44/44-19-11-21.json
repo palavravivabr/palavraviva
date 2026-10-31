@@ -1,0 +1,141 @@
+{
+ "id": "44-19-11-21",
+ "ref": "Atos 19:11-21",
+ "book": "44",
+ "chapter": 19,
+ "verses": [
+  {
+   "n": 11,
+   "t": "E Deus fazia milagres extraordinários pelas mãos de Paulo,"
+  },
+  {
+   "n": 12,
+   "t": "De tal maneira que até os lenços e aventais de seu corpo eram levados aos enfermos, e as doenças os deixavam, e os espíritos malignos saíam deles."
+  },
+  {
+   "n": 13,
+   "t": "E alguns exorcistas dos judeus, itinerantes, tentaram invocar o nome do Senhor Jesus sobre os que tinham espíritos malignos, dizendo: Nós vos repreendemos por Jesus, a quem Paulo prega."
+  },
+  {
+   "n": 14,
+   "t": "E eram sete filhos de Ceva, judeu, chefe dos sacerdotes, os que faziam isto."
+  },
+  {
+   "n": 15,
+   "t": "Mas o espírito maligno respondeu: Eu conheço Jesus, e sei quem é Paulo; mas vós, quem sois?"
+  },
+  {
+   "n": 16,
+   "t": "E o homem em quem estava o espírito maligno saltou sobre eles, e dominando-os, foi mais forte do que eles; de tal maneira que eles fugiram nus e feridos daquela casa."
+  },
+  {
+   "n": 17,
+   "t": "E isto se fez conhecido a todos que habitavam em Éfeso, tanto a judeus como a gregos; e caiu temor sobre todos eles; e assim foi engrandecido o nome do Senhor Jesus."
+  },
+  {
+   "n": 18,
+   "t": "E muitos dos que criam vinham, confessando e declararando as suas atitudes."
+  },
+  {
+   "n": 19,
+   "t": "Também muitos dos que praticavam ocultismo trouxeram seus livros, e os queimaram na presença de todos; e calcularam o preço deles, e acharam que custavam cinquenta mil moedas de prata."
+  },
+  {
+   "n": 20,
+   "t": "Assim a palavra do Senhor crescia e prevalecia poderosamente."
+  },
+  {
+   "n": 21,
+   "t": "E quando se cumpriram estas coisas, Paulo propôs em espírito que, passando pela Macedônia e Acaia, ir até Jerusalém, dizendo: Depois de eu estar lá, também tenho que ver Roma."
+  }
+ ],
+ "titulo": "O nome de Jesus que expõe falsos poderes",
+ "temas": [
+  "poder",
+  "verdade",
+  "arrependimento",
+  "temor"
+ ],
+ "pergunta": "O que acontece quando tentamos usar o nome de Jesus sem conhecer quem Ele é?",
+ "entender": "Em Éfeso, Deus operava milagres extraordinários através de Paulo. A fé era tão viva que até lenços e aventais que tocaram o corpo de Paulo eram levados aos enfermos, e as doenças saíam. Isso gerou um temor profundo na cidade, onde tanto judeus como gregos reconheciam o poder real de Deus.\n\nNesse cenário, alguns exorcistas judeus itinerantes, filhos de Ceva, tentaram imitar o que viam. Eles invocavam o nome de Jesus sobre pessoas possuídas, dizendo: \"Nós vos repreendemos por Jesus, a quem Paulo prega\". Mas o espírito maligno respondeu: \"Eu conheço Jesus, e sei quem é Paulo; mas vós, quem sois?\". O homem possuído atacou os sete jovens, que fugiram nus e feridos.\n\nO episódio mostra que o poder espiritual não é uma fórmula mágica. O nome de Jesus é um título de autoridade e relacionamento, não uma senha para manipulação. Quando a intenção é errada, o poder de Deus não se deixa instrumentalizar. O resultado foi o crescimento da palavra do Senhor e a queima de livros de ocultismo, demonstrando que a verdade expõe e vence as trevas.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para a supremacia de Cristo. Jesus não é apenas um nome poderoso, mas o Senhor vivo que conhece os corações. A falha dos exorcistas revela que a salvação e o poder de Deus vêm pela fé genuína nEle, não por rituais vazios. O evangelho é a verdade que liberta, e o nome de Jesus é a garantia dessa libertação para quem crê de verdade.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, buscamos atalhos espirituais ou tentamos usar a fé como uma ferramenta para controlar situações, sem nos entregar verdadeiramente a Cristo. Assim como os filhos de Ceva foram expostos, nossa vida é revelada quando não há um relacionamento real com Jesus. A aplicação concreta é examinar nossa motivação: estamos buscando a Deus para nos servir ou para nos transformar? Queiramos nos aproximar dEle com sinceridade, abandonando práticas que misturam a fé com métodos humanos, e confiando apenas na autoridade do nome de Jesus.",
+ "guarde": "O nome de Jesus é autoridade para quem crê, mas expõe a falsidade de quem o usa como fórmula.",
+ "ore": "Senhor Jesus, em Éfeso, teu nome foi engrandecido e a verdade venceu as trevas. Ajuda-me a não tratar a fé como um ritual, mas a te conhecer pessoalmente. Que eu abandone tudo que não te glória e viva em comunhão real contigo, confiando apenas no teu poder.",
+ "quiz": {
+  "pergunta": "Por que os exorcistas filhos de Ceva foram feridos e humilhados?",
+  "opcoes": [
+   "Porque não conheciam Jesus pessoalmente e tentaram usar seu nome como uma fórmula mágica.",
+   "Porque Paulo os repreendeu publicamente na sinagoga.",
+   "Porque os espíritos malignos eram mais fortes que o nome de Jesus."
+  ],
+  "certa": 0,
+  "explicacao": "O texto mostra que o espírito respondeu \"mas vós, quem sois?\", indicando que a falta de relacionamento real com Cristo invalidou a tentativa de usar seu nome para fins próprios."
+ },
+ "refs": [
+  "Atos 16:16-18",
+  "Marcos 16:17",
+  "João 14:13"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-31T01:06:53.069Z",
+  "rounds": 1
+ }
+}

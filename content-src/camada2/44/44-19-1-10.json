@@ -1,0 +1,137 @@
+{
+ "id": "44-19-1-10",
+ "ref": "Atos 19:1-10",
+ "book": "44",
+ "chapter": 19,
+ "verses": [
+  {
+   "n": 1,
+   "t": "E enquanto Apolo estava em Corinto, aconteceu que, tendo Paulo passado por todas as regiões altas, ele veio a Éfeso; e achando ali alguns discípulos,"
+  },
+  {
+   "n": 2,
+   "t": "Disse-lhes: Vós já recebestes o Espírito Santo desde que crestes? E eles lhe disseram: Nós nem tínhamos ouvido falar que havia Espírito Santo."
+  },
+  {
+   "n": 3,
+   "t": "E ele lhes disse: Em que vós fostes batizados? E eles disseram: No batismo de João."
+  },
+  {
+   "n": 4,
+   "t": "Então Paulo disse: João verdadeiramente batizou com o batismo do arrependimento, dizendo ao povo que cressem naquele que viria após ele, isto é, em Jesus Cristo."
+  },
+  {
+   "n": 5,
+   "t": "Ao ouvirem isto , eles foram batizados no nome do Senhor Jesus."
+  },
+  {
+   "n": 6,
+   "t": "E Paulo, impondo-lhes as mãos, veio sobre eles o Espírito Santo; e falavam em línguas, e profetizavam."
+  },
+  {
+   "n": 7,
+   "t": "E todos os homens eram cerca de doze."
+  },
+  {
+   "n": 8,
+   "t": "E ele, entrando na sinagoga, falava ousadamente durante três meses, disputando e persuadindo as coisas do Reino de Deus."
+  },
+  {
+   "n": 9,
+   "t": "Mas quando alguns se endureceram, e não creram, e falando mal do Caminho diante da multidão, ele se desviou deles; e separou aos discípulos, disputando a cada dia na escola de um certo Tirano."
+  },
+  {
+   "n": 10,
+   "t": "E isto aconteceu durante dois anos; de tal maneira que todos os que habitavam na Ásia tinham ouvido a palavra do Senhor Jesus, tanto judeus como gregos."
+  }
+ ],
+ "titulo": "A fé incompleta que Paulo encontrou em Éfeso",
+ "temas": [
+  "batismo",
+  "espírito santo",
+  "arrependimento",
+  "missão"
+ ],
+ "pergunta": "O que falta na sua relação com Deus que você ainda não percebeu?",
+ "entender": "Paulo chega a Éfeso e encontra alguns discípulos que conheciam apenas o batismo de João. Ao perguntar se haviam recebido o Espírito Santo, eles responderam que nem tinham ouvido falar disso. A fé deles estava incompleta; conheciam a mensagem de arrependimento, mas não a pessoa de Jesus nem o poder do Espírito.\n\nPaulo explica que João batizava para o arrependimento, apontando para aquele que viria depois. Ao ouvirem isso, foram batizados no nome do Senhor Jesus. Então, ao Paulo lhes impor as mãos, o Espírito Santo veio sobre eles. Esse encontro mostra que a fé verdadeira envolve conhecer a Cristo e receber o poder de Deus para viver.\n\nApós essa conversão de doze homens, Paulo prega ousadamente na sinagoga por três meses. Quando alguns se endurecem, ele se separa e ensina na escola de Tirano por dois anos, até que todos na Ásia ouçam a palavra do Senhor. A mensagem se espalhou porque havia uma base sólida em Cristo.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para Jesus como o centro da fé cristã. A fé dos discípulos de Éfeso estava presa no passado (João), mas Paulo a direciona para o presente e o futuro (Jesus). O evangelho é a boa notícia de que Jesus é o Messias prometido, e que através dele recebemos o Espírito Santo, que nos capacita para a vida e para a missão. A salvação não é apenas um ato de arrependimento inicial, mas uma relação viva com Cristo.",
+  "selo": true
+ },
+ "viver": "Talvez você já tenha aceitado verdades religiosas sem conhecer pessoalmente a Jesus. Assim como os discípulos de Éfeso, você pode estar vivendo uma fé baseada apenas em regras ou no passado, sem o poder transformador do Espírito. Pare e verifique: você conhece a Cristo? Você tem recebido o poder do Espírito para viver e testemunhar? Não se contente com uma fé incompleta; busque a Cristo até o fim.",
+ "guarde": "Uma fé que não conhece Jesus é como uma casa sem fundação; busque a Cristo até o fim.",
+ "ore": "Paulo em Éfeso, ensina-me a ter uma fé completa em Jesus. Ajuda-me a não me contentar com verdades parciais, mas a conhecer a profundidade do amor de Cristo e a força do Espírito Santo em minha vida diária.",
+ "quiz": {
+  "pergunta": "O que os discípulos em Éfeso não conheciam antes de Paulo chegar?",
+  "opcoes": [
+   "O Espírito Santo",
+   "A lei de Moisés",
+   "O batismo de João"
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz explicitamente que eles 'nem tinham ouvido falar que havia Espírito Santo', indicando que essa era a lacuna em sua compreensão da fé."
+ },
+ "refs": [
+  "Atos 2:38",
+  "Atos 8:12-17",
+  "João 1:31-33"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-10-31T01:04:49.182Z",
+  "rounds": 1
+ }
+}
