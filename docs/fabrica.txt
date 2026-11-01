@@ -1,73 +1,74 @@
-Fábrica de ensinos — execução de 2026-11-01T10:01:08.016Z
-Fila: 3058 trechos; prontos: 467; limite desta execução: 150 ensinos / 170 min; 3 em paralelo.
+Fábrica de ensinos — execução de 2026-11-01T13:07:23.828Z
+Fila: 3058 trechos; prontos: 470; limite desta execução: 150 ensinos / 170 min; 3 em paralelo.
 > Romanos 4:1-8 (45-4-1-8)
   [45-4-1-8] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
-> Romanos 6:1-12 (45-6-1-12)
-  [45-6-1-12] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
-> Romanos 6:13-23 (45-6-13-23)
-  [45-6-13-23] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
-  [45-4-1-8] rodada 1: verificação automática recusou: entender:citacao_fora_do_texto, viver:citacao_fora_do_texto
-  [45-6-1-12] rodada 1: verificação automática recusou: entender:citacao_fora_do_texto, viver:citacao_fora_do_texto
-  [45-6-13-23] rodada 1: verificação automática recusou: entender:menos_de_2_paragrafos
-  [45-4-1-8] rodada 2: verificação automática recusou: entender:citacao_fora_do_texto, viver:citacao_fora_do_texto
-  [45-6-1-12] rodada 2: verificação automática recusou: entender:menos_de_2_paragrafos
-  LIMITE DIÁRIO [45-4-1-8]: groq-gpt: limite diário atingido ({"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199098, Requested 3928. Please try again in 21m47.232s. Need more tokens? Up — troca de modelo, se houver outro permitido.
-  [45-4-1-8] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
-  [45-4-1-8] rodada 1: verificação automática recusou: entender:citacao_fora_do_texto, ligar:citacao_fora_do_texto, abertura_repetida:entender:45-4-18-25
-  [45-6-13-23] rodada 2: gemini recusou: APPLICATION_FIDELITY: A aplicação reduz a santificação e a justiça descritas em Romanos 6 a escolhas de dieta, como preferir alimentos saudáveis a lanches, desviando do sentido do texto. | CROSS_SECTION_CONSISTENCY: O teste atribui ao versículo 21 uma afirmação que pertence ao versículo 20, tornando a resposta indicada e sua explicação incorretas.
-  LIMITE DIÁRIO [45-6-13-23]: groq-gpt: limite diário atingido ({"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199098, Requested 3928. Please try again in 21m47.232s. Need more tokens? Up — troca de modelo, se houver outro permitido.
-  [45-6-13-23] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
-  [45-6-1-12] rodada 3: gemini recusou: PRAYER_FIDELITY: A oração é endereçada a Paulo ('Paulo, ao falar do batismo, me lembra... ajuda-me'), em vez de ser dirigida a Deus.
-  LIMITE DIÁRIO [45-6-1-12]: groq-gpt: limite diário atingido ({"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 199098, Requested 3928. Please try again in 21m47.232s. Need more tokens? Up — troca de modelo, se houver outro permitido.
-  [45-6-1-12] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
-  PRONTO [45-6-13-23]: "Servos de quem você realmente obedece?" (aprovado pelos dois auditores em 1 rodada(s))
-> Romanos 7:1-8 (45-7-1-8)
-  [45-7-1-8] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
-  PRONTO [45-6-1-12]: "Mortos para o pecado: a liberdade real" (aprovado pelos dois auditores em 1 rodada(s))
 > Romanos 7:9-17 (45-7-9-17)
-  [45-7-9-17] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
-  [45-4-1-8] rodada 2: verificação automática recusou: entender:citacao_fora_do_texto, abertura_repetida:viver:41-10-32-42
-  [45-4-1-8] rodada 3: gemini recusou: PRAYER_FIDELITY: A oração é iniciada e dirigida a Abraão em vez de ser dirigida a Deus, o que contraria o ensino bíblico sobre a oração.
-  PRONTO [45-7-1-8]: "A morte que liberta da Lei" (aprovado pelos dois auditores em 1 rodada(s))
+  [45-7-9-17] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
 > Romanos 7:18-25 (45-7-18-25)
-  [45-7-18-25] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
-  LIMITE DIÁRIO [45-4-1-8]: groq-qwen: limite diário atingido ({"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 196420, Requested 3734. Please try again in 1m6.527999999s. Need more tokens?  — troca de modelo, se houver outro permitido.
-  [45-4-1-8] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
-  ERRO [45-4-1-8]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+  [45-7-18-25] gerador groq-gpt (openai); auditores gemini (google) e cloudflare (meta)
+  [45-4-1-8] rodada 1: verificação automática recusou: entender:citacao_fora_do_texto
+  [45-7-9-17] rodada 1: verificação automática recusou: entender:citacao_longa, ore:citacao_longa
+  [45-7-9-17] rodada 2: verificação automática recusou: entender:citacao_longa
+  [45-4-1-8] rodada 2: gemini recusou: PRAYER_FIDELITY: A oração está dirigida a Abraão em vez de ser dirigida a Deus, em desacordo com o padrão bíblico de oração.
+  [45-7-9-17] rodada 3: verificação automática recusou: entender:citacao_longa, ore:citacao_longa
+  [45-4-1-8] rodada 3: verificação automática recusou: entender:citacao_fora_do_texto
+  LIMITE DIÁRIO [45-7-9-17]: groq-gpt: limite diário atingido ({"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 197857, Requested 3450. Please try again in 9m24.624s. Need more tokens? Upg — troca de modelo, se houver outro permitido.
+  [45-7-9-17] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  PRONTO [45-7-18-25]: "A luta interior entre a lei e o pecado" (aprovado pelos dois auditores em 1 rodada(s))
 > Romanos 8:1-10 (45-8-1-10)
+  [45-8-1-10] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  LIMITE DIÁRIO [45-4-1-8]: groq-gpt: limite diário atingido ({"error":{"message":"Rate limit reached for model `openai/gpt-oss-120b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 197857, Requested 3450. Please try again in 9m24.624s. Need more tokens? Upg — troca de modelo, se houver outro permitido.
+  [45-4-1-8] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  [45-4-1-8] rodada 1: verificação automática recusou: entender:citacao_fora_do_texto
+  PRONTO [45-7-9-17]: "Por que a lei revelou meu pecado" (aprovado pelos dois auditores em 1 rodada(s))
+> Romanos 8:11-21 (45-8-11-21)
+  [45-8-11-21] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  [45-4-1-8] rodada 2: gemini recusou: PRAYER_FIDELITY: A oração inicia-se dirigindo um pedido a Abraão ('Abraão, meu ancestral na fé, ensina-me a descansar'), o que é incompatível com o ensino bíblico sobre a oração direcionada exclusivamente a Deus.
+  [45-8-11-21] rodada 1: verificação automática recusou: quiz:explicacao_invalida
+  [45-8-1-10] rodada 1: verificação automática recusou: abertura_repetida:viver:43-4-12-22
+  PRONTO [45-4-1-8]: "A justiça que não depende do seu esforço" (aprovado pelos dois auditores em 3 rodada(s))
+> Romanos 8:22-29 (45-8-22-29)
+  [45-8-22-29] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  PRONTO [45-8-11-21]: "A esperança que transforma até a criação" (aprovado pelos dois auditores em 2 rodada(s))
+> Romanos 8:30-39 (45-8-30-39)
+  [45-8-30-39] gerador groq-qwen (alibaba); auditores gemini (google) e cloudflare (meta)
+  LIMITE DIÁRIO [45-8-1-10]: groq-qwen: limite diário atingido ({"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 197796, Requested 4031. Please try again in 13m9.264s. Need more tokens? Upgra — troca de modelo, se houver outro permitido.
   [45-8-1-10] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
   ERRO [45-8-1-10]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-> Romanos 8:11-21 (45-8-11-21)
-  [45-8-11-21] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
-  LIMITE DIÁRIO [45-7-9-17]: groq-qwen: limite diário atingido ({"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 196420, Requested 3734. Please try again in 1m6.527999999s. Need more tokens?  — troca de modelo, se houver outro permitido.
-  [45-7-9-17] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
-  ERRO [45-8-11-21]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-> Romanos 8:22-29 (45-8-22-29)
-  [45-8-22-29] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
-  ERRO [45-7-9-17]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-> Romanos 8:30-39 (45-8-30-39)
-  [45-8-30-39] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
-  ERRO [45-8-22-29]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 > Romanos 9:1-14 (45-9-1-14)
   [45-9-1-14] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
-  ERRO [45-8-30-39]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+  ERRO [45-9-1-14]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 > Romanos 9:15-21 (45-9-15-21)
   [45-9-15-21] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
-  LIMITE DIÁRIO [45-7-18-25]: groq-qwen: limite diário atingido ({"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 196420, Requested 3734. Please try again in 1m6.527999999s. Need more tokens?  — troca de modelo, se houver outro permitido.
-  [45-7-18-25] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
-  ERRO [45-9-1-14]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+  LIMITE DIÁRIO [45-8-22-29]: groq-qwen: limite diário atingido ({"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 197796, Requested 4031. Please try again in 13m9.264s. Need more tokens? Upgra — troca de modelo, se houver outro permitido.
+  [45-8-22-29] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
+  ERRO [45-9-15-21]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 > Romanos 9:22-33 (45-9-22-33)
   [45-9-22-33] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
-  ERRO [45-9-15-21]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-Oito erros seguidos; parando para não gastar à toa.
-  ERRO [45-7-18-25]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
-Oito erros seguidos; parando para não gastar à toa.
+  ERRO [45-8-22-29]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+> Romanos 10:1-12 (45-10-1-12)
+  [45-10-1-12] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
   ERRO [45-9-22-33]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+> Romanos 10:13-21 (45-10-13-21)
+  [45-10-13-21] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
+  ERRO [45-10-1-12]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+> Romanos 11:1-12 (45-11-1-12)
+  [45-11-1-12] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
+  LIMITE DIÁRIO [45-8-30-39]: groq-qwen: limite diário atingido ({"error":{"message":"Rate limit reached for model `qwen/qwen3.8-27b` in organization `org_01m535g0sceq0b006bt85qgd22` service tier `on_demand` on tokens per day (TPD): Limit 200000, Used 197796, Requested 4031. Please try again in 13m9.264s. Need more tokens? Upgra — troca de modelo, se houver outro permitido.
+  [45-8-30-39] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
+  ERRO [45-10-13-21]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+> Romanos 11:13-24 (45-11-13-24)
+  [45-11-13-24] gerador mistral (mistral); auditores gemini (google) e cloudflare (meta)
+  ERRO [45-11-1-12]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
 Oito erros seguidos; parando para não gastar à toa.
-Resumo: 3 novos ensinos, 0 não aprovados, 2 travados ignorados. Total pronto: 470 de 3058 trechos.
+  ERRO [45-8-30-39]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+Oito erros seguidos; parando para não gastar à toa.
+  ERRO [45-11-13-24]: mistral: 429 {"object":"error","message":"Rate limit exceeded","type":"rate_limited","param":null,"code":"1300","raw_status_code":429}
+Oito erros seguidos; parando para não gastar à toa.
+Resumo: 4 novos ensinos, 0 não aprovados, 2 travados ignorados. Total pronto: 474 de 3058 trechos.
 
-groq-gpt (openai/gpt-oss-120b): 7 chamadas, 19019 tokens entrada, 5867 saída [LIMITE DIÁRIO ATINGIDO]
-groq-qwen (qwen/qwen3.8-27b): 6 chamadas, 15066 tokens entrada, 4422 saída [LIMITE DIÁRIO ATINGIDO]
+groq-gpt (openai/gpt-oss-120b): 7 chamadas, 18862 tokens entrada, 6121 saída [LIMITE DIÁRIO ATINGIDO]
+groq-qwen (qwen/qwen3.8-27b): 7 chamadas, 18657 tokens entrada, 5776 saída [LIMITE DIÁRIO ATINGIDO]
 mistral (mistral-medium-latest): 0 chamadas, 0 tokens entrada, 0 saída
-gemini (gemini-3.5-flash): 6 chamadas, 18703 tokens entrada, 10699 saída
-cloudflare (@cf/meta/llama-3.3-70b-instruct-fp8-fast): 3 chamadas, 10220 tokens entrada, 1113 saída
+gemini (gemini-3.5-flash): 6 chamadas, 18935 tokens entrada, 9682 saída
+cloudflare (@cf/meta/llama-3.3-70b-instruct-fp8-fast): 4 chamadas, 13739 tokens entrada, 1484 saída

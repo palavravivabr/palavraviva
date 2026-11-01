@@ -1,0 +1,135 @@
+{
+ "id": "45-7-9-17",
+ "ref": "Romanos 7:9-17",
+ "book": "45",
+ "chapter": 7,
+ "verses": [
+  {
+   "n": 9,
+   "t": "Antes eu vivia sem a Lei; mas quando veio o mandamento, o pecado reviveu, e eu morri;"
+  },
+  {
+   "n": 10,
+   "t": "e descobri que o mandamento, que era para a vida, resultou-me para a morte."
+  },
+  {
+   "n": 11,
+   "t": "Pois o pecado, aproveitando o mandamento, me enganou, e por ele me matou."
+  },
+  {
+   "n": 12,
+   "t": "Portanto, a Lei é santa, e o mandamento é santo, justo, e bom."
+  },
+  {
+   "n": 13,
+   "t": "Então o que é bom se tornou para mim morte? De maneira nenhuma! Mas foi o pecado, para que se mostrasse como pecado, que operou a morte em mim por meio do bem, a fim de que, por meio do mandamento, o pecado se tornasse excessivamente pecaminoso."
+  },
+  {
+   "n": 14,
+   "t": "Pois sabemos que a Lei é espiritual; mas eu sou carnal, vendido como servo do pecado."
+  },
+  {
+   "n": 15,
+   "t": "Porque não entendo o que faço, pois o que quero, isso não faço; mas o que eu odeio, isso faço."
+  },
+  {
+   "n": 16,
+   "t": "E se faço o que não quero, consinto que a Lei é boa;"
+  },
+  {
+   "n": 17,
+   "t": "De maneira que agora não sou mais eu que faço aquilo, mas sim, o pecado que habita em mim."
+  }
+ ],
+ "titulo": "Por que a lei revelou meu pecado",
+ "temas": [
+  "lei",
+  "pecado",
+  "consciência",
+  "fraqueza",
+  "verdade"
+ ],
+ "pergunta": "Você já sentiu que conhecer as regras apenas fez você perceber melhor onde falha?",
+ "entender": "Paulo explica uma descoberta dolorosa: antes da Lei, ele vivia sem um padrão claro, mas quando o mandamento chegou, o pecado \"reviveu\" e ele morreu. A Lei, que deveria dar vida, tornou-se a ferramenta pelo qual o pecado o enganou e matou. Isso mostra que a Lei não é má; ela é santa e boa, mas ela expõe a doença, não a cura.\n\nO apóstolo contrasta a natureza espiritual da Lei com a sua própria condição carnal. Ele se vê \"vendido como servo do pecado\". A tragédia descrita nos versículos 15 a 17 é a guerra interna: ele quer fazer o bem, mas faz o mal que odeia. A conclusão de Paulo é que não é ele quem age, mas o pecado que habita nele. A Lei cumpriu seu papel de espelho, mostrando a profundidade da escravidão humana.",
+ "ligar": {
+  "texto": "Este trecho prepara o terreno para a grande necessidade que o evangelho resolve. Se a Lei apenas revela o pecado e nos condena, sem poder nos libertar, precisamos de um Salvador. Jesus cumpriu a Lei perfeitamente e, ao morrer na cruz, pagou o preço do pecado que Paulo descreve aqui. Ele nos tira da condição de \"servos do pecado\" e nos dá o Espírito Santo, que nos capacita a fazer o bem que antes não conseguíamos.",
+  "selo": false
+ },
+ "viver": "Quando você tenta mudar um hábito ruim apenas pela força de vontade, provavelmente se frustra. Este texto nos ensina a parar de nos culpar pela incapacidade e a reconhecer a gravidade da situação. Em vez de tentar \"ser mais forte\" sozinhos, ore pedindo a Cristo para quebrar o poder do pecado em você. Confie que a mudança real vem da obra de Deus em nós, e não apenas do nosso esforço para seguir regras.",
+ "guarde": "A Lei mostra a doença; só o Médico pode curar e libertar.",
+ "ore": "Pai, assim como Paulo descobriu que a Lei expõe o pecado, ajuda-me a reconhecer minha fraqueza. Não quero mais lutar sozinho contra o pecado que habita em mim. Envia o Teu Espírito para me libertar e me capacitar a viver em novidade de vida.",
+ "quiz": {
+  "pergunta": "Segundo Paulo em Romanos 7:12, qual é a natureza da Lei?",
+  "opcoes": [
+   "Pecado e fonte de morte.",
+   "Santa, justa e boa.",
+   "Espiritual, mas inútil para o homem carnal."
+  ],
+  "certa": 1,
+  "explicacao": "O texto afirma explicitamente que a Lei é santa e boa; o problema não é a Lei, mas o pecado que a usa para enganar."
+ },
+ "refs": [
+  "Romanos 8:1-4",
+  "Gálatas 3:24",
+  "Jeremias 31:31-34",
+  "Gênesis 3:19"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-01T12:59:25.667Z",
+  "rounds": 1
+ }
+}

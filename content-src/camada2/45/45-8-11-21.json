@@ -1,0 +1,141 @@
+{
+ "id": "45-8-11-21",
+ "ref": "Romanos 8:11-21",
+ "book": "45",
+ "chapter": 8,
+ "verses": [
+  {
+   "n": 11,
+   "t": "E se o Espírito daquele que dos mortos ressuscitou a Jesus habita em vós, aquele que dos mortos ressuscitou a Cristo também dará vida aos vossos corpos mortais por meio do seu Espírito, que habita em vós."
+  },
+  {
+   "n": 12,
+   "t": "Por isso, irmãos, somos devedores, não à carne, para vivermos segundo a carne;"
+  },
+  {
+   "n": 13,
+   "t": "porque, se viverdes segundo a carne, morrereis; mas se, pelo Espírito, fizerdes morrer as ações do corpo, vivereis."
+  },
+  {
+   "n": 14,
+   "t": "Pois todos quantos são guiados pelo Espírito de Deus são filhos de Deus."
+  },
+  {
+   "n": 15,
+   "t": "Pois não recebestes o espírito de escravidão, para voltardes ao medo; mas recebestes o Espírito de adoção como filhos, pelo qual clamamos: Aba, Pai!"
+  },
+  {
+   "n": 16,
+   "t": "O próprio Espírito dá testemunho com o nosso espírito de que somos filhos de Deus."
+  },
+  {
+   "n": 17,
+   "t": "E, se somos filhos, logo somos também herdeiros; herdeiros de Deus, e coerdeiros de Cristo; se sofremos com ele, é para que também com ele sejamos glorificados."
+  },
+  {
+   "n": 18,
+   "t": "Pois considero que as aflições deste tempo presente nem se comparam com a glória que nos será revelada."
+  },
+  {
+   "n": 19,
+   "t": "Pois a criação espera ansiosamente a revelação dos filhos de Deus;"
+  },
+  {
+   "n": 20,
+   "t": "porque a criação ficou sujeita à futilidade (não por vontade própria, mas sim por causa daquele que a sujeitou),"
+  },
+  {
+   "n": 21,
+   "t": "na esperança de que também a mesma criação seja liberta da escravidão da degradação para a liberdade da glória dos filhos de Deus."
+  }
+ ],
+ "titulo": "A esperança que transforma até a criação",
+ "temas": [
+  "esperança",
+  "espírito santo",
+  "filhos de deus",
+  "glória futura"
+ ],
+ "pergunta": "Você sabia que até a natureza espera algo que só acontecerá quando Jesus voltar?",
+ "entender": "Paulo explica que, como o Espírito de Deus habita em nós, o mesmo poder que ressuscitou Jesus dará vida aos nossos corpos. Não vivemos mais como escravos do medo, mas como filhos adotados, podendo chamar a Deus de \"Aba, Pai\". Essa identidade nos torna herdeiros de Deus.\n\nO texto mostra que as aflições atuais são pequenas comparadas à glória futura. A criação inteira está \"sujeita à futilidade\" e espera ansiosamente ser liberta dessa degradação, junto com os filhos de Deus. Há uma expectativa coletiva, que inclui a natureza e o nosso próprio corpo, de uma redenção completa.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para a ressurreição de Jesus como garantia da nossa. É o Espírito de Cristo que nos garante essa vida futura. A salvação não é apenas espiritual, mas envolve a redenção total do nosso corpo e da criação, cumprindo a promessa de que Cristo reinará sobre todas as coisas, restaurando a ordem original de Deus.",
+  "selo": true
+ },
+ "viver": "Muitas vezes olhamos para o sofrimento presente e perdemos a perspectiva. Paulo nos convida a comparar as aflições atuais com a glória futura. Em vez de se apegar ao medo ou à injustiça do momento, pratique a gratidão pela adoção como filhos de Deus. Lembre-se de que você não está sozinho: a própria criação geme junto com você, aguardando a mesma libertação que Cristo trouxe.",
+ "guarde": "As aflições presentes são pequenas diante da glória que será revelada em nós.",
+ "ore": "Espírito de Jesus, que habita em mim, ensina-me a ver as lutas atuais à luz da glória futura. Ajuda-me a viver como filho adotado, sem medo, mas com a esperança firme de que tu restaurarás tudo.",
+ "quiz": {
+  "pergunta": "Segundo Romanos 8:20-21, por que a criação está sujeita à futilidade?",
+  "opcoes": [
+   "Porque os seres humanos a maltrataram recentemente.",
+   "Por causa daquele que a sujeitou, na esperança de ser liberta.",
+   "Porque a criação pecou diretamente contra Deus."
+  ],
+  "certa": 1,
+  "explicacao": "O texto afirma que a criação não se sujeitou por vontade própria, mas por causa daquele que a sujeitou, e isso ocorre na esperança de ser liberta da degradação."
+ },
+ "refs": [
+  "Romanos 8:22-23",
+  "Colossenses 1:15-20",
+  "1 Coríntios 15:51-54"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-01T13:03:53.797Z",
+  "rounds": 2
+ }
+}

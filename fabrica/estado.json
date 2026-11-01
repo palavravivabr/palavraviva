@@ -2768,7 +2768,9 @@
   },
   "45-4-1-8": {
    "execucoes": 1,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: PRAYER_FIDELITY: A oração inicia-se dirigindo um pedido a Abraão ('Abraão, meu ancestral na fé, ensina-me a descansar'), o que é incompatível com o ensino bíblico sobre a oração direcionada exclusivamente a Deus.",
+   "estado": "pronto",
+   "titulo": "A justiça que não depende do seu esforço"
   },
   "45-4-9-17": {
    "execucoes": 0,
@@ -2814,11 +2816,15 @@
   },
   "45-7-9-17": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:citacao_longa, ore:citacao_longa",
+   "estado": "pronto",
+   "titulo": "Por que a lei revelou meu pecado"
   },
   "45-7-18-25": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "A luta interior entre a lei e o pecado"
   },
   "45-8-1-10": {
    "execucoes": 0,
@@ -2826,7 +2832,9 @@
   },
   "45-8-11-21": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: quiz:explicacao_invalida",
+   "estado": "pronto",
+   "titulo": "A esperança que transforma até a criação"
   },
   "45-8-22-29": {
    "execucoes": 0,
@@ -2847,28 +2855,44 @@
   "45-9-22-33": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "45-10-1-12": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "45-10-13-21": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "45-11-1-12": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "45-11-13-24": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 887,
-   "entrada": 2323552,
-   "saida": 780161
+   "chamadas": 894,
+   "entrada": 2342414,
+   "saida": 786282
   },
   "groq-qwen": {
-   "chamadas": 884,
-   "entrada": 2214166,
-   "saida": 718495
+   "chamadas": 891,
+   "entrada": 2232823,
+   "saida": 724271
   },
   "gemini": {
-   "chamadas": 777,
-   "entrada": 2522152,
-   "saida": 978793
+   "chamadas": 783,
+   "entrada": 2541087,
+   "saida": 988475
   },
   "cloudflare": {
-   "chamadas": 479,
-   "entrada": 1674545,
-   "saida": 177709
+   "chamadas": 483,
+   "entrada": 1688284,
+   "saida": 179193
   },
   "mistral": {
    "chamadas": 0,

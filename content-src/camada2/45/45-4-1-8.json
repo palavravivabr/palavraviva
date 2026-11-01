@@ -1,0 +1,130 @@
+{
+ "id": "45-4-1-8",
+ "ref": "Romanos 4:1-8",
+ "book": "45",
+ "chapter": 4,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Então, que diremos que Abraão, nosso ancestral segundo a carne, obteve?"
+  },
+  {
+   "n": 2,
+   "t": "Pois se Abraão foi justificado pelas obras, ele tem do que se orgulhar, mas não diante de Deus."
+  },
+  {
+   "n": 3,
+   "t": "Pois o que diz a Escritura? Abraão creu em Deus, e isso lhe foi lhe imputado como justiça. Gênesis 15:6"
+  },
+  {
+   "n": 4,
+   "t": "Ora, ao que trabalha, seu pagamento não é considerado um favor, mas sim, uma dívida."
+  },
+  {
+   "n": 5,
+   "t": "Porém, ao que não tem obra, mas crê naquele que torna justo o ímpio, sua fé lhe é reputada como justiça."
+  },
+  {
+   "n": 6,
+   "t": "Desta maneira, também Davi afirma que bendito é aquele a quem Deus atribui justiça independentemente das obras:"
+  },
+  {
+   "n": 7,
+   "t": "Benditos são os que têm as transgressões perdoadas, e seus pecados são cobertos."
+  },
+  {
+   "n": 8,
+   "t": "Bendito é o homem a quem o Senhor não atribui pecado."
+  }
+ ],
+ "titulo": "A justiça que não depende do seu esforço",
+ "temas": [
+  "fé",
+  "graça",
+  "justiça",
+  "perdão"
+ ],
+ "pergunta": "Se você trabalhasse para ganhar um presente, ainda seria um presente? O que isso diz sobre a salvação?",
+ "entender": "Paulo volta no tempo para olhar para Abraão, o pai da nação judaica. A pergunta central é: o que Abraão ganhou? Se ele fosse justificado por suas obras, teria motivo para se orgulhar diante dos homens, mas não diante de Deus. A Escritura revela que \"Abraão creu em Deus, e isso lhe foi lhe imputado como justiça\". Ou seja, Deus o considerou justo não pelo que ele fez, mas pelo que ele creu.\n\nPaulo usa uma analogia simples: quem trabalha recebe seu salário como uma dívida, não como um favor. Mas quem não tem obras e apenas crê naquele que justifica o ímpio, tem sua fé contada como justiça. Davi confirma isso ao dizer que é bendito aquele a quem Deus perdoa as transgressões e não imputa pecado. A ideia central é que a justiça diante de Deus é um dom recebido pela fé, não um pagamento por esforço humano.",
+ "ligar": {
+  "texto": "Este texto aponta para Jesus porque a promessa feita a Abraão de que em sua semente todas as nações seriam abençoadas (Gênesis 12:3) cumpriu-se em Cristo. Jesus é o descendente que traz a justiça de Deus a todos os que creem. Assim como Abraão foi justificado pela fé antes da Lei, nós também somos justificados pela fé em Cristo, que morreu para nos reconciliar com Deus. A graça que justificou Abraão é a mesma graça que se manifestou plenamente na cruz, oferecendo perdão e nova vida a quem confessa Jesus como Senhor.",
+  "selo": false
+ },
+ "viver": "Muitas vezes medimos nosso valor espiritual pelo quanto rezamos, frequentamos ou ajudamos. Mas Romanos 4 nos convida a olhar para dentro e perguntar: estou confiando na minha performance ou na fidelidade de Deus? Quando você se sente insuficiente, lembre-se de que a justiça de Deus não é uma moeda que você compra com esforço, mas um presente que você aceita com as mãos abertas. Solte a necessidade de provar que merece o amor de Deus e descanse na certeza de que Ele o justifica pela fé, tal como fez com Abraão, um homem comum que confiou na palavra de Deus.",
+ "guarde": "Sua fé é sua justiça, não suas obras, pois a graça de Deus não é um pagamento, mas um presente.",
+ "ore": "Pai, inspirado na história de Abraão, ensina-me a descansar. Como ele creu em Ti e isso lhe foi imputado como justiça, ajuda-me a parar de buscar aprovação por minhas ações. Que eu aceite a Tua justiça pela fé em Cristo, reconhecendo que sou justificado não pelo que faço, mas pelo que Tu fazes por mim. Dá-me a paz de saber que meus pecados são cobertos e não me são imputados, assim como Davi declarou. Amém.",
+ "quiz": {
+  "pergunta": "Segundo Romanos 4, por que Abraão foi considerado justo diante de Deus?",
+  "opcoes": [
+   "Porque creu em Deus, e isso lhe foi imputado como justiça.",
+   "Porque obedeceu perfeitamente à Lei de Deus.",
+   "Porque realizou grandes obras de caridade."
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma claramente que a fé de Abraão lhe foi contada como justiça, contrastando com a ideia de justificação pelas obras, que geraria orgulho."
+ },
+ "refs": [
+  "Gênesis 15:6",
+  "Salmos 32:1-2",
+  "Gálatas 3:6",
+  "Romanos 5:1"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-01T13:02:55.246Z",
+  "rounds": 3
+ }
+}
