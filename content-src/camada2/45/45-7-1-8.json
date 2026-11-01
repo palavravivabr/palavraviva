@@ -1,0 +1,129 @@
+{
+ "id": "45-7-1-8",
+ "ref": "Romanos 7:1-8",
+ "book": "45",
+ "chapter": 7,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Não sabeis vós, irmãos (pois estou falando com os que entendem a Lei), que a Lei domina o ser humano por todo o tempo que vive?"
+  },
+  {
+   "n": 2,
+   "t": "Pois a mulher casada está, pela Lei, ligada ao marido enquanto o ele viver; porém, depois do marido morrer, ela está livre da Lei do marido."
+  },
+  {
+   "n": 3,
+   "t": "Ou seja, enquanto o marido viver, ela será chamada de adúltera, se for de outro homem; mas depois de morto o marido, ela está livre da Lei, de maneira que não será adúltera se for de outro homem."
+  },
+  {
+   "n": 4,
+   "t": "Assim, meus irmãos, também vós estais mortos para a Lei por meio do corpo de Cristo, para que sejais de outro, daquele que foi ressuscitado dos mortos, a fim de frutificarmos para Deus."
+  },
+  {
+   "n": 5,
+   "t": "Pois, quando estávamos na carne, as paixões dos pecados, que eram pela Lei, operavam nos membros do nosso corpo, a fim de frutificarem para a morte."
+  },
+  {
+   "n": 6,
+   "t": "Mas agora estamos livres da Lei, estando mortos para aquilo em que estávamos presos, para que sirvamos em novidade de espírito, e não na velhice da norma escrita."
+  },
+  {
+   "n": 7,
+   "t": "Que diremos, pois? É a Lei pecado? De maneira nenhuma! Todavia, eu não teria conhecido o pecado, se não fosse pela Lei; porque não conheceria a cobiça, se a Lei não dissesse: Não cobiçarás. Êxodo 20:17; Deuteronômio 5:21"
+  },
+  {
+   "n": 8,
+   "t": "Mas o pecado, aproveitando-se do mandamento, operou em mim toda variedade de cobiça. Pois sem a Lei o pecado estaria morto."
+  }
+ ],
+ "titulo": "A morte que liberta da Lei",
+ "temas": [
+  "lei",
+  "liberdade",
+  "morte",
+  "cristo"
+ ],
+ "pergunta": "Por que Paulo compara a relação com a Lei ao casamento?",
+ "entender": "Paulo usa a analogia de uma viúva para explicar nossa relação com a Lei. Assim como a mulher casada está ligada ao marido enquanto ele vive, nós estávamos presos à Lei enquanto éramos escravos do pecado. O texto afirma que \"estais mortos para a Lei por meio do corpo de Cristo\". Essa morte não é física, mas espiritual: nosso velho eu, que tentava se justificar pelas obras, morreu com Cristo.\n\nAgora, estamos livres para servir a Deus em \"novidade de espírito\", não mais sob a velha norma escrita que apenas nos mostrava a cobiça. A Lei não é pecado, mas o pecado usa o mandamento para despertar nossa transgressão. Sem a Lei, não teríamos consciência do pecado, mas com ela, o pecado se aproveita para nos enganar.",
+ "ligar": {
+  "texto": "O centro desta passagem é o corpo de Cristo. Foi através da morte e ressurreição de Jesus que fomos libertos da sentença da Lei. Não somos livres porque a Lei deixou de ser boa, mas porque Cristo cumpriu o que ela exigia e pagou o preço da nossa desobediência. Agora, nossa ligação é com o Ressuscitado, não com um código que nos condena, mas com uma Pessoa que nos dá vida nova.",
+  "selo": true
+ },
+ "viver": "Muitas vezes, ainda tentamos nos justificar diante de Deus listando nossas boas ações, como se a Lei fosse nosso salvador. Pare de medir sua aceitação em Deus pelo seu desempenho diário. Lembre-se: você morreu para a Lei. Isso significa que o medo do fracasso e a necessidade de provar seu valor através de regras externas devem perder força. Sua identidade agora está ancorada no fato de que você está \"de outro\", ou seja, de Cristo, que foi ressuscitado. Sirva a Deus não por obrigação da norma, mas pela alegria de quem foi libertado para amar.",
+ "guarde": "Não somos livres porque a Lei foi abolida, mas porque morremos com Cristo para ela.",
+ "ore": "Jesus, Tu que morreste para que eu não mais servisse à Lei, mas a Ti. Ajuda-me a abandonar a tentativa de me justificar por minhas obras e a descansar na liberdade que me deste através do Teu corpo entregue na cruz. Que eu viva em novidade de espírito, agradecendo pela morte do meu velho eu.",
+ "quiz": {
+  "pergunta": "O que significa estar \"mortos para a Lei\"?",
+  "opcoes": [
+   "Estarmos livres da condenação e da escravidão da Lei por meio de Cristo.",
+   "Que a Lei deixou de existir ou ser válida.",
+   "Que podemos pecar sem consequências."
+  ],
+  "certa": 0,
+  "explicacao": "A morte é uma metáfora para a quebra do vínculo legal que nos condenava. Não é que a Lei seja má, mas que nossa relação de escravidão com ela acabou em Cristo."
+ },
+ "refs": [
+  "Gálatas 5:1",
+  "Colossenses 2:14",
+  "Romanos 6:6"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-01T09:57:47.482Z",
+  "rounds": 1
+ }
+}

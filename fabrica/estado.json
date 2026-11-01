@@ -2768,7 +2768,7 @@
   },
   "45-4-1-8": {
    "execucoes": 1,
-   "ultimo": "gemini: PRAYER_FIDELITY: A oração é inicialmente dirigida ao patriarca Abraão ('Abraão, que creu e foi justificado, ensina-me...'), o que é incompatível com a doutrina bíblica da oração dirigida exclusivamente a Deus."
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   },
   "45-4-9-17": {
    "execucoes": 0,
@@ -2796,15 +2796,21 @@
   },
   "45-6-1-12": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: PRAYER_FIDELITY: A oração é endereçada a Paulo ('Paulo, ao falar do batismo, me lembra... ajuda-me'), em vez de ser dirigida a Deus.",
+   "estado": "pronto",
+   "titulo": "Mortos para o pecado: a liberdade real"
   },
   "45-6-13-23": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: APPLICATION_FIDELITY: A aplicação reduz a santificação e a justiça descritas em Romanos 6 a escolhas de dieta, como preferir alimentos saudáveis a lanches, desviando do sentido do texto. | CROSS_SECTION_CONSISTENCY: O teste atribui ao versículo 21 uma afirmação que pertence ao versículo 20, tornando",
+   "estado": "pronto",
+   "titulo": "Servos de quem você realmente obedece?"
   },
   "45-7-1-8": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "A morte que liberta da Lei"
   },
   "45-7-9-17": {
    "execucoes": 0,
@@ -2825,28 +2831,44 @@
   "45-8-22-29": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "45-8-30-39": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "45-9-1-14": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "45-9-15-21": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "45-9-22-33": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 880,
-   "entrada": 2304533,
-   "saida": 774294
+   "chamadas": 887,
+   "entrada": 2323552,
+   "saida": 780161
   },
   "groq-qwen": {
-   "chamadas": 878,
-   "entrada": 2199100,
-   "saida": 714073
+   "chamadas": 884,
+   "entrada": 2214166,
+   "saida": 718495
   },
   "gemini": {
-   "chamadas": 771,
-   "entrada": 2503449,
-   "saida": 968094
+   "chamadas": 777,
+   "entrada": 2522152,
+   "saida": 978793
   },
   "cloudflare": {
-   "chamadas": 476,
-   "entrada": 1664325,
-   "saida": 176596
+   "chamadas": 479,
+   "entrada": 1674545,
+   "saida": 177709
   },
   "mistral": {
    "chamadas": 0,
