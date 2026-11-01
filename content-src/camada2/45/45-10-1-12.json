@@ -1,0 +1,146 @@
+{
+ "id": "45-10-1-12",
+ "ref": "Romanos 10:1-12",
+ "book": "45",
+ "chapter": 10,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Irmãos, o bom desejo do meu coração, e a oração que faço a Deus por Israel, é que sejam salvos."
+  },
+  {
+   "n": 2,
+   "t": "Pois lhes dou testemunho de que eles têm zelo por Deus, mas não com entendimento."
+  },
+  {
+   "n": 3,
+   "t": "Pois, como ignoraram a justiça de Deus, e procuraram estabelecer a sua própria justiça, eles não se sujeitaram à justiça de Deus."
+  },
+  {
+   "n": 4,
+   "t": "Porque o fim da Lei é Cristo, para justiça de todo aquele que crê."
+  },
+  {
+   "n": 5,
+   "t": "Pois Moisés descreve a justiça que é pela Lei: “A pessoa que praticar estas coisas viverá por elas”. Levítico 18:5"
+  },
+  {
+   "n": 6,
+   "t": "Mas a justiça que é pela fé assim diz: “Não digas em teu coração: ‘Quem subirá ao céu?’ Deuteronômio 30:12 (Isto é, trazer Cristo abaixo),"
+  },
+  {
+   "n": 7,
+   "t": "ou: ‘Quem descerá ao abismo?’” Deuteronômio 30:13 (Isto é, trazer Cristo dentre os mortos)."
+  },
+  {
+   "n": 8,
+   "t": "Porém, o que diz? “A palavra está perto de ti, na tua boca, e no teu coração”. Deuteronômio 30:14 Esta é a palavra da fé, que pregamos."
+  },
+  {
+   "n": 9,
+   "t": "Pois, se com a tua boca declarares que Jesus é Senhor, e em teu coração creres que Deus o ressuscitou dos mortos, serás salvo."
+  },
+  {
+   "n": 10,
+   "t": "Pois com o coração se crê para a justiça, e com a boca se confessa para a salvação."
+  },
+  {
+   "n": 11,
+   "t": "Porque a Escritura diz: “Todo aquele que nele crê não será envergonhado.” Isaías 28:16"
+  },
+  {
+   "n": 12,
+   "t": "Pois não há diferença entre judeu e grego, porque um mesmo é o Senhor de todos, rico para todos os que o invocam."
+  }
+ ],
+ "titulo": "A justiça que você não pode alcançar",
+ "temas": [
+  "fé",
+  "justiça",
+  "lei",
+  "cristo",
+  "salvação"
+ ],
+ "pergunta": "Por que tentar ser bom o suficiente nunca nos leva a Deus?",
+ "entender": "Paulo começa dizendo que tem um desejo profundo: que o povo de Israel seja salvo. Ele reconhece que eles têm um grande amor por Deus, mas falta a eles o entendimento correto. O problema, segundo o texto, é que eles ignoraram a justiça que Deus oferece e tentaram criar a sua própria justiça através das regras. Ao tentar se justificar sozinhos, eles não se sujeitaram ao caminho que Deus preparou.\n\nAí entra a chave: \"o fim da Lei é Cristo\". Isso significa que a Lei não era um fim em si mesma, mas um guia que apontava para Jesus. Moisés dizia que a vida vinha de praticar as regras, mas a justiça pela fé diz algo diferente. A palavra está perto de você, na sua boca e no seu coração. Não é preciso subir ao céu ou descer ao abismo para trazer Deus; Ele já está acessível através da fé em Jesus.\n\nPaulo conclui que a salvação vem quando declaramos com a boca que Jesus é Senhor e cremos no coração que Deus o ressuscitou. Não há diferença entre judeu e grego, pois o Senhor é rico para todos os que o invocam.",
+ "ligar": {
+  "texto": "Este trecho é o coração do evangelho. Ele mostra que a Lei de Deus não foi feita para ser cumprida por esforço humano, mas para revelar nossa incapacidade e apontar para Cristo. Jesus é o \"fim da Lei\" porque Ele cumpriu tudo o que a Lei exigia e pagou o preço do pecado. A salvação não depende de quão bom você é, mas de crer que Jesus morreu e ressuscitou por você. É uma troca: trocamos a tentativa de nos salvar pela confiança no trabalho perfeito de Cristo.",
+  "selo": true
+ },
+ "viver": "Pare de medir seu valor pela quantidade de boas ações que realiza. O texto nos convida a soltar a ansiedade de ter que \"provar\" seu amor a Deus com obras. Em vez disso, pratique a confissão simples: reconheça no coração que só Jesus pode salvar e declare isso com a boca. Quando a dúvida bater, lembre-se de que a palavra da fé está perto de você, acessível e gratuita. Sua segurança não está no seu desempenho, mas na fidelidade de Deus em ressuscitar Jesus.",
+ "guarde": "A justiça não vem das suas mãos, mas da cruz de Cristo, acessível apenas pela fé.",
+ "ore": "Pai, assim como Paulo orou por Israel, eu oro por mim mesmo. Perdoa minha tentativa de me justificar com minhas obras. Dá-me entendimento para crer que a justiça de Deus vem apenas por meio de Jesus, que morreu e ressuscitou. Ajuda-me a declarar com a boca e crer no coração que Ele é o Senhor.",
+ "quiz": {
+  "pergunta": "O que Paulo descreve como o 'fim da Lei'?",
+  "opcoes": [
+   "O templo em Jerusalém",
+   "A prática das regras",
+   "Cristo"
+  ],
+  "certa": 2,
+  "explicacao": "No versículo 4, Paulo afirma claramente que 'o fim da Lei é Cristo', indicando que a Lei apontava para Ele e que a justiça vem pela fé nEle."
+ },
+ "refs": [
+  "Gálatas 3:24",
+  "2 Coríntios 5:21",
+  "Atos 16:31"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-01T18:54:25.035Z",
+  "rounds": 2
+ }
+}

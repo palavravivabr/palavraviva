@@ -1,0 +1,133 @@
+{
+ "id": "45-10-13-21",
+ "ref": "Romanos 10:13-21",
+ "book": "45",
+ "chapter": 10,
+ "verses": [
+  {
+   "n": 13,
+   "t": "Pois: “Todo aquele que invocar o nome do Senhor será salvo.” Joel 2:32"
+  },
+  {
+   "n": 14,
+   "t": "Mas como invocarão aquele em quem não creram? E como crerão naquele de quem não ouviram? E como ouvirão, sem haver quem pregue?"
+  },
+  {
+   "n": 15,
+   "t": "E como pregarão, se não forem enviados? Como está escrito: “Como são agradáveis os pés dos que anunciam o evangelho da paz, dos que anunciam as boas novas!” Isaías 52:7"
+  },
+  {
+   "n": 16,
+   "t": "Mas nem todos obedeceram ao evangelho, pois Isaías diz: “Senhor, quem creu na nossa pregação?” Isaías 53:1"
+  },
+  {
+   "n": 17,
+   "t": "Portanto, a fé vem pelo ouvir, e o ouvir pela palavra de Deus."
+  },
+  {
+   "n": 18,
+   "t": "Mas pergunto: por acaso não ouviram? Sim, certamente. Pois: “Sua voz saiu por toda a terra, e suas palavras até os confins do mundo.” Salmos 19:4"
+  },
+  {
+   "n": 19,
+   "t": "Mas pergunto: por acaso Israel não entendeu? Primeiramente Moisés disse: “Eu vos provocarei ciúmes com os que não são do povo; com uma nação insensata vos provocarei à ira.” Deuteronômio 32:31"
+  },
+  {
+   "n": 20,
+   "t": "E Isaías ousou dizer: “Fui achado pelos que não me buscavam; fui revelado aos que por mim não perguntavam.” Isaías 65:1"
+  },
+  {
+   "n": 21,
+   "t": "Mas sobre Israel diz: “Todo o dia estendi as minhas mãos a um povo rebelde e hostil.” Isaías 65:2"
+  }
+ ],
+ "titulo": "Como a fé chega até você",
+ "temas": [
+  "pregação",
+  "fé",
+  "evangelho",
+  "israel"
+ ],
+ "pergunta": "Você já se perguntou de onde veio a sua fé em Jesus?",
+ "entender": "Paulo faz uma série de perguntas lógicas: como alguém pode invocar a Deus se não criou? Como pode crer se nunca ouviu falar? Como pode ouvir se ninguém pregou? A resposta é simples e direta: a fé nasce do ouvir a palavra de Deus. Não é algo que inventamos sozinhos, mas uma resposta a uma mensagem recebida.\n\nO apóstolo recorda que essa mensagem chegou a todos os lugares, mas nem todos aceitaram. Ele cita o profeta Isaías para mostrar que, desde o Antigo Testamento, Deus sabia que muitos rejeitariam a verdade. Mesmo assim, Deus continuou estendendo as mãos, oferecendo salvação a um povo que, muitas vezes, se mostrava rebelde e hostil.\n\nIsso nos ajuda a entender que a salvação depende da iniciativa de Deus e da pregação do evangelho. Se você crê, é porque alguém te contou. E se você não aceita, o texto mostra que essa rejeição tem uma história antiga, ligada à dureza do coração humano diante da graça.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para Jesus como o único meio de salvação. A 'palavra de Deus' que gera fé aqui é o evangelho de Cristo. Paulo destaca que a salvação é para todos os que invocam o nome do Senhor, removendo barreiras étnicas. A rejeição de Israel não impede o plano de Deus, pois Jesus é o centro da história da redenção, oferecido a judeus e gentios por igual.",
+  "selo": true
+ },
+ "viver": "Pense em quem te apresentou a Jesus. Pode ser um amigo, um pastor ou até um livro. Dê graças a Deus por essa pessoa, pois foi através dela que a semente da fé caiu na sua vida. Além disso, o texto nos convida a não dar a pregação por garantida. Assim como Paulo se sentiu enviado, nós também somos chamados a compartilhar as 'boas novas'. Não espere ter todas as respostas para agir; apenas conte com simplicidade o que você ouviu e crê, pois é pelo ouvir que a fé se fortalece.",
+ "guarde": "A fé não é inventada por nós; ela nasce quando ouvimos a palavra de Deus.",
+ "ore": "Pai, obrigado porque a fé em mim não veio do acaso. Reconheço que ouvi a Tua palavra através de pessoas que Te amam. Ajuda-me a não dar isso como certo. Dá-me coragem para compartilhar as boas novas com quem está ao meu redor, confiando que o Espírito Santo trabalha no coração deles através da minha pregação.",
+ "quiz": {
+  "pergunta": "Segundo Paulo, de onde vem a fé?",
+  "opcoes": [
+   "Do ouvir a palavra de Deus",
+   "De esforços próprios",
+   "De tradições familiares"
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma explicitamente que 'a fé vem pelo ouvir, e o ouvir pela palavra de Deus', estabelecendo a pregação como fonte da fé."
+ },
+ "refs": [
+  "Romanos 1:16",
+  "1 Coríntios 15:3-4",
+  "Atos 16:31"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-01T18:57:07.712Z",
+  "rounds": 1
+ }
+}

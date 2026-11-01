@@ -2828,7 +2828,9 @@
   },
   "45-8-1-10": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: quiz:explicacao_invalida, viver:citacao_fora_do_texto, abertura_repetida:viver:41-4-22-31, abertura_repetida:entender:45-5-1-11",
+   "estado": "pronto",
+   "titulo": "A sentença final que já foi anulada"
   },
   "45-8-11-21": {
    "execucoes": 0,
@@ -2860,15 +2862,21 @@
   },
   "45-9-22-33": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: DOCTRINAL_OVERREACH: A oração afirma taxativamente que Deus prepara 'vasos da ira', impondo a visão de dupla predestinação ativa em um tema em que cristãos históricos divergem. | LANGUAGE_CLARITY: O título contém um erro crasso de digitação ao grafar 'Vas da ira' em vez de 'Vasos da ira'.",
+   "estado": "pronto",
+   "titulo": "Vasos da ira: o que revelam sobre a graça de Deus"
   },
   "45-10-1-12": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: PERSON_ENTITY_CONSISTENCY: No trecho 'ENTENDER', afirma-se erroneamente que não há diferença entre 'ricos e pobres', confundindo a expressão 'rico para todos' com uma distinção de grupos sociais não mencionada no versículo 12 (que trata de judeu e grego).",
+   "estado": "pronto",
+   "titulo": "A justiça que você não pode alcançar"
   },
   "45-10-13-21": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "Como a fé chega até você"
   },
   "45-11-1-12": {
    "execucoes": 0,
@@ -2889,28 +2897,44 @@
   "45-12-12-21": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "45-13-1-14": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "45-14-1-12": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "45-14-13-23": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "45-15-1-13": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 901,
-   "entrada": 2361387,
-   "saida": 791974
+   "chamadas": 908,
+   "entrada": 2381014,
+   "saida": 798249
   },
   "groq-qwen": {
-   "chamadas": 898,
-   "entrada": 2250901,
-   "saida": 730008
+   "chamadas": 905,
+   "entrada": 2269961,
+   "saida": 735685
   },
   "gemini": {
-   "chamadas": 787,
-   "entrada": 2553641,
-   "saida": 996011
+   "chamadas": 793,
+   "entrada": 2573417,
+   "saida": 1004056
   },
   "cloudflare": {
-   "chamadas": 486,
-   "entrada": 1698434,
-   "saida": 180306
+   "chamadas": 490,
+   "entrada": 1712510,
+   "saida": 181790
   },
   "mistral": {
    "chamadas": 0,
