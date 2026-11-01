@@ -2762,7 +2762,9 @@
   },
   "45-3-22-31": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:menos_de_2_paragrafos",
+   "estado": "pronto",
+   "titulo": "O preço pago para nos reconciliar com Deus"
   },
   "45-4-1-8": {
    "execucoes": 0,
@@ -2770,7 +2772,9 @@
   },
   "45-4-9-17": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: PRAYER_FIDELITY: A oração é direcionada ao patriarca Abraão em vez de ser dirigida a Deus, o que é incompatível com o ensino bíblico sobre a oração.",
+   "estado": "pronto",
+   "titulo": "Por que a circuncisão não salva ninguém"
   },
   "45-4-18-25": {
    "execucoes": 0,
@@ -2799,28 +2803,36 @@
   "45-7-9-17": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "45-7-18-25": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "45-8-1-10": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 866,
-   "entrada": 2267241,
-   "saida": 762958
+   "chamadas": 872,
+   "entrada": 2282889,
+   "saida": 767612
   },
   "groq-qwen": {
-   "chamadas": 863,
-   "entrada": 2159330,
-   "saida": 702063
+   "chamadas": 870,
+   "entrada": 2177631,
+   "saida": 707385
   },
   "gemini": {
-   "chamadas": 761,
-   "entrada": 2471865,
-   "saida": 953620
+   "chamadas": 765,
+   "entrada": 2484581,
+   "saida": 959567
   },
   "cloudflare": {
-   "chamadas": 471,
-   "entrada": 1647426,
-   "saida": 174741
+   "chamadas": 473,
+   "entrada": 1654042,
+   "saida": 175483
   },
   "mistral": {
    "chamadas": 0,
