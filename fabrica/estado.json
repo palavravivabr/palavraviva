@@ -2767,8 +2767,8 @@
    "titulo": "O preço pago para nos reconciliar com Deus"
   },
   "45-4-1-8": {
-   "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "execucoes": 1,
+   "ultimo": "gemini: PRAYER_FIDELITY: A oração é inicialmente dirigida ao patriarca Abraão ('Abraão, que creu e foi justificado, ensina-me...'), o que é incompatível com a doutrina bíblica da oração dirigida exclusivamente a Deus."
   },
   "45-4-9-17": {
    "execucoes": 0,
@@ -2778,15 +2778,21 @@
   },
   "45-4-18-25": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: PERSON_ENTITY_CONSISTENCY: A oração confunde Abraão com Deus ao atribuir a Abraão o poder divino e o ato de ter ressuscitado Jesus. | PRAYER_FIDELITY: A oração é dirigida a Abraão em vez de ser dirigida a Deus, rogando a ele e tratando-o como quem ressuscitou a Jesus.",
+   "estado": "pronto",
+   "titulo": "A fé que venceu a morte biológica"
   },
   "45-5-1-11": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:citacao_longa",
+   "estado": "pronto",
+   "titulo": "A paz que nasce da justificação pela fé"
   },
   "45-5-12-21": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "O contraste entre a morte e a vida"
   },
   "45-6-1-12": {
    "execucoes": 0,
@@ -2811,28 +2817,36 @@
   "45-8-1-10": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "45-8-11-21": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "45-8-22-29": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 872,
-   "entrada": 2282889,
-   "saida": 767612
+   "chamadas": 880,
+   "entrada": 2304533,
+   "saida": 774294
   },
   "groq-qwen": {
-   "chamadas": 870,
-   "entrada": 2177631,
-   "saida": 707385
+   "chamadas": 878,
+   "entrada": 2199100,
+   "saida": 714073
   },
   "gemini": {
-   "chamadas": 765,
-   "entrada": 2484581,
-   "saida": 959567
+   "chamadas": 771,
+   "entrada": 2503449,
+   "saida": 968094
   },
   "cloudflare": {
-   "chamadas": 473,
-   "entrada": 1654042,
-   "saida": 175483
+   "chamadas": 476,
+   "entrada": 1664325,
+   "saida": 176596
   },
   "mistral": {
    "chamadas": 0,

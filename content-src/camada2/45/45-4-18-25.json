@@ -1,0 +1,130 @@
+{
+ "id": "45-4-18-25",
+ "ref": "Romanos 4:18-25",
+ "book": "45",
+ "chapter": 4,
+ "verses": [
+  {
+   "n": 18,
+   "t": "Com esperança, Abraão creu, contra as expectativas, que se tornaria pai de muitas nações, conforme o que lhe fora dito: “Assim será a tua descendência”. Gênesis 15:5"
+  },
+  {
+   "n": 19,
+   "t": "Ele não fraquejou na fé, não dando atenção ao seu próprio corpo já praticamente morto (pois já era de quase cem anos), nem ao estado de morte do ventre de Sara;"
+  },
+  {
+   "n": 20,
+   "t": "nem duvidou da promessa de Deus; pelo contrário, fortaleceu-se na fé, dando glória a Deus;"
+  },
+  {
+   "n": 21,
+   "t": "e teve plena certeza de que aquele que havia prometido também era poderoso para cumprir."
+  },
+  {
+   "n": 22,
+   "t": "Por esse motivo que também isso lhe foi imputado como justiça."
+  },
+  {
+   "n": 23,
+   "t": "Ora, não só por causa dele está escrito que lhe foi imputado;"
+  },
+  {
+   "n": 24,
+   "t": "mas também por nós, a quem será imputado, aos que creem naquele que ressuscitou dos mortos a Jesus, nosso Senhor,"
+  },
+  {
+   "n": 25,
+   "t": "que foi entregue por nossos pecados, e ressuscitou para a nossa justificação."
+  }
+ ],
+ "titulo": "A fé que venceu a morte biológica",
+ "temas": [
+  "fé",
+  "esperança",
+  "promessa",
+  "justificação",
+  "ressurreição"
+ ],
+ "pergunta": "O que acontece quando confiamos em Deus mesmo diante de evidências impossíveis?",
+ "entender": "Paulo usa o exemplo de Abraão para explicar como a justiça vem pela fé. Abraão acreditou que seria pai de muitas nações, mesmo tendo quase cem anos e sua esposa, Sara, sendo estéril. O texto destaca que ele \"não fraquejou na fé\" e não deu atenção às limitações do seu corpo ou ao estado de morte do ventre de Sara.\n\nEm vez de duvidar, Abraão fortaleceu-se na fé, dando glória a Deus e tendo \"plena certeza de que aquele que havia prometido também era poderoso para cumprir\". Essa confiança foi contada como justiça para ele. Paulo argumenta que isso não foi escrito apenas para Abraão, mas para nós, que cremos naquele que ressuscitou Jesus dos mortos. A fé de Abraão nos conecta à obra de Cristo.",
+ "ligar": {
+  "texto": "O texto conecta a fé de Abraão diretamente à ressurreição de Jesus. A justiça que foi imputada a Abraão é a mesma que nos é imputada quando cremos naquele que ressuscitou Jesus. Jesus foi entregue pelos nossos pecados e ressuscitou para a nossa justificação. Assim como Deus cumpriu a promessa a Abraão contra todas as probabilidades, Ele cumpriu a promessa de salvação através da morte e ressurreição de Cristo, garantindo a vida eterna para quem crê.",
+  "selo": true
+ },
+ "viver": "Pense nas situações da sua vida que parecem biologicamente ou logicamente impossíveis de resolver: uma doença crônica, um relacionamento rompido ou uma crise financeira. Abraão não ignorou a realidade do seu corpo velho, mas escolheu focar no poder de Deus. Hoje, em vez de paralisar diante das \"evidências\" que mostram a impossibilidade, pratique a fé ativa: ore com certeza de que Deus é poderoso para cumprir o que prometeu, mesmo quando o cenário parece fechado.",
+ "guarde": "Deus é poderoso para cumprir o que prometeu, mesmo quando a lógica humana diz que é impossível.",
+ "ore": "Pai, assim como Abraão, ensina-me a não fraquejar na fé. Ajuda-me a não dar atenção às minhas limitações, mas a fortalecer-me na certeza de que Tu és poderoso para cumprir as Tuas promessas em minha vida, assim como ressuscitaste Jesus.",
+ "quiz": {
+  "pergunta": "Por que a fé de Abraão lhe foi imputada como justiça?",
+  "opcoes": [
+   "Porque ele creu na promessa de Deus, tendo plena certeza de que Deus era poderoso para cumprir.",
+   "Porque ele obedeceu a todas as leis da circuncisão rigorosamente.",
+   "Porque ele realizou grandes sacrifícios materiais em adoração a Deus."
+  ],
+  "certa": 0,
+  "explicacao": "O texto enfatiza que a justiça veio pela fé e confiança no poder de Deus para cumprir a promessa, não por obras ou rituais religiosos."
+ },
+ "refs": [
+  "Gênesis 15:6",
+  "Hebreus 11:11-12",
+  "Gálatas 3:6-9"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-01T07:21:40.508Z",
+  "rounds": 2
+ }
+}
