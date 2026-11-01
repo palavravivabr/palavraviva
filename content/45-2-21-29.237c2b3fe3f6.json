@@ -1,0 +1,134 @@
+{
+ "id": "45-2-21-29",
+ "ref": "Romanos 2:21-29",
+ "book": "45",
+ "chapter": 2,
+ "verses": [
+  {
+   "n": 21,
+   "t": "tu, pois, que ensinas ao outro, não ensinas a ti mesmo? Tu que pregas que não se deve furtar, furtas?"
+  },
+  {
+   "n": 22,
+   "t": "Tu que dizes que não se deve adulterar, adulteras? Tu que odeias os ídolos, profanas templos?"
+  },
+  {
+   "n": 23,
+   "t": "Tu, que te orgulhas da Lei, pela transgressão da Lei desonras a Deus;"
+  },
+  {
+   "n": 24,
+   "t": "porque, como está escrito: “O nome de Deus é blasfemado entre os gentios por vossa causa”. Isaías 52:5; Ezequiel 36:22"
+  },
+  {
+   "n": 25,
+   "t": "Pois a circuncisão tem proveito de fato se guardares a Lei; porém, se tu és transgressor da Lei, a tua circuncisão se torna incircuncisão."
+  },
+  {
+   "n": 26,
+   "t": "Ora, se o incircunciso obedecer às exigências da Lei, por acaso não será a sua incircuncisão considerada como circuncisão?"
+  },
+  {
+   "n": 27,
+   "t": "E se o que de natureza é incircunciso cumprir a Lei, ele julgará a ti, que mesmo com a norma escrita e a circuncisão és transgressor da Lei."
+  },
+  {
+   "n": 28,
+   "t": "Pois judeu não é o de aparência externa, nem circuncisão é a na carne,"
+  },
+  {
+   "n": 29,
+   "t": "mas é judeu o que é no interior, e circuncisão é a de coração, no espírito, e não em uma norma escrita. Esse é elogiado não pelas pessoas, mas sim, por Deus."
+  }
+ ],
+ "titulo": "O que realmente define quem somos diante de Deus",
+ "temas": [
+  "coração",
+  "identidade",
+  "lei",
+  "verdade",
+  "transformação"
+ ],
+ "pergunta": "Você já sentiu que sua religião era mais sobre aparência do que sobre transformação real?",
+ "entender": "Paulo confronta uma atitude comum: ensinar o que não se pratica. Ele pergunta se aquele que ensina a não furtar, por acaso furtar? A crítica não é apenas à hipocrisia, mas ao orgulho de possuir a Lei. Quando alguém se orgulha da Lei, mas a transgride, desonra a Deus, pois os outros passam a ver a fé de Deus pela conduta de seus seguidores.\n\nO ponto central é a redefinição de identidade. A circuncisão física ou o conhecimento intelectual não têm valor se não houver obediência. Paulo explica que o verdadeiro judeu não é definido pela aparência externa, mas por uma realidade interior. A circuncisão do coração, feita pelo Espírito, é o que conta para Deus, não a aprovação dos homens.",
+ "ligar": {
+  "texto": "Este texto aponta para a necessidade de uma transformação que nós não podemos fazer sozinhos. A Lei revela nossa incapacidade de nos justificar por nós mesmos. Jesus é a resposta definitiva: Ele cumpriu a Lei perfeitamente e, por meio da cruz, removeu a necessidade de nos orgulharmos de obras. O evangelho nos liberta da máscara, pois nossa identidade não depende do nosso desempenho, mas da transformação interior que o Espírito de Cristo opera em nós.",
+  "selo": false
+ },
+ "viver": "A vergonha de ser visto falhando é muitas vezes maior do que a vergonha de continuar pecando. Identifique uma área onde você se sente 'especialista' e, ao mesmo tempo, inseguro. Em vez de esconder essa contradição ou usar o conhecimento para se proteger, traga essa vulnerabilidade a Deus. A honestidade diante de Deus é o começo da liberdade; a máscara, por mais bem feita que seja, apenas afasta a graça que cura.",
+ "guarde": "Deus não valoriza a aparência externa, mas a transformação real que acontece no coração.",
+ "ore": "Senhor, em Romanos 2, Tu me mostras que meu conhecimento sem prática é vaidade. Remove de mim o orgulho de ensinar o que não faço. Não quero mais me justificar diante dos homens com aparências externas. Transforma meu coração no espírito, para que minha vida reflita a verdade que conheço, e que eu seja aprovado por Ti, e não por mim mesmo.",
+ "quiz": {
+  "pergunta": "Segundo o texto, o que acontece com a circuncisão física se a pessoa transgredir a Lei?",
+  "opcoes": [
+   "Ganha mais valor espiritual.",
+   "Torna-se uma maldição eterna.",
+   "Ela se torna incircuncisão."
+  ],
+  "certa": 2,
+  "explicacao": "O versículo 25 afirma explicitamente que, se a pessoa é transgressora da Lei, a sua circuncisão se torna incircuncisão, perdendo seu valor simbólico."
+ },
+ "refs": [
+  "Jeremias 31:33",
+  "Mateus 23:27",
+  "Ezequiel 36:26"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-01T01:19:27.912Z",
+  "rounds": 3
+ }
+}

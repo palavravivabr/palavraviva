@@ -1,0 +1,137 @@
+{
+ "id": "45-3-1-10",
+ "ref": "Romanos 3:1-10",
+ "book": "45",
+ "chapter": 3,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Qual, pois, é a vantagem do judeu? Ou qual é a utilidade da circuncisão?"
+  },
+  {
+   "n": 2,
+   "t": "Muita, em toda maneira. Pois, em primeiro lugar, as palavras de Deus lhes foram confiadas."
+  },
+  {
+   "n": 3,
+   "t": "Então, quê? Se alguns foram infiéis, a infidelidade deles anulará a fidelidade de Deus?"
+  },
+  {
+   "n": 4,
+   "t": "De maneira nenhuma! Antes seja Deus verdadeiro, e todo ser humano mentiroso, como está escrito: “Para que sejas justificado em tuas palavras, e prevaleças quando julgares”. Salmos 51:4"
+  },
+  {
+   "n": 5,
+   "t": "E, se a nossa injustiça evidencia a justiça de Deus, que diremos? Acaso Deus é injusto em impor a sua ira? (Falo na lógica humana)."
+  },
+  {
+   "n": 6,
+   "t": "De maneira nenhuma! De outro modo, como Deus julgará o mundo?"
+  },
+  {
+   "n": 7,
+   "t": "Pois se, através da minha mentira, a verdade de Deus foi mais abundante para a sua glória, por que ainda sou também julgado como pecador?"
+  },
+  {
+   "n": 8,
+   "t": "E por que não dizer : “Façamos o mal, para que venha o bem”, como alguns nos caluniam, afirmando que nós dizemos isto? (A condenação destes é justa)."
+  },
+  {
+   "n": 9,
+   "t": "Então, quê? Somos nós melhores? Não, de maneira nenhuma. Pois já delatamos que todos, tanto judeus como gregos, estão debaixo do pecado,"
+  },
+  {
+   "n": 10,
+   "t": "como está escrito: Não há justo, nem um sequer."
+  }
+ ],
+ "titulo": "Quem é o verdadeiro vencedor no julgamento?",
+ "temas": [
+  "justiça",
+  "pecado",
+  "fidelidade",
+  "deus"
+ ],
+ "pergunta": "O que acontece com a nossa imagem de Deus quando percebemos que também somos falhos como todos os outros?",
+ "entender": "Paulo enfrenta uma objeção comum: se o povo de Deus pecou, isso anula a fidelidade de Deus? Ele responde que de maneira nenhuma. Antes, seja Deus verdadeiro, e todo ser humano mentiroso. Mesmo que a nossa injustiça sirva para mostrar a justiça divina, isso não torna Deus injusto por julgar o mundo.\n\nAqui, Paulo derruba qualquer privilégio especial. Ele afirma que tanto judeus quanto gregos estão debaixo do pecado. Não há ninguém melhor que o outro quando se trata de moralidade. Como está escrito: Não há justo, nem um sequer. Essa declaração é dura, mas necessária, pois prepara o terreno para a solução que Deus oferecerá.",
+ "ligar": {
+  "texto": "Este texto aponta para a necessidade de um Salvador. Se todos estão debaixo do pecado e ninguém é justo por si mesmo, a única esperança é a graça de Deus. Jesus é o justo que se fez pecado por nós, para que nele fôssemos feitos justiça de Deus. A fidelidade de Deus se cumpre não na condenação eterna, mas na provisão de um caminho de volta através da cruz.",
+  "selo": false
+ },
+ "viver": "Pare de comparar sua vida religiosa com a dos outros para se sentir superior. O texto deixa claro que ninguém é melhor que ninguém. Em vez disso, reconheça sua dependência total de Deus. Quando você admite sua falha, abre espaço para a graça. Não use sua sinceridade como moeda de troca, mas como base para pedir perdão e confiar na fidelidade de Deus, que permanece verdadeiro mesmo quando nós falhamos.",
+ "guarde": "A fidelidade de Deus não depende da nossa perfeição, mas da Sua verdade inabalável.",
+ "ore": "Deus fiel, Tu és verdadeiro mesmo quando eu falho. Ensina-me a parar de me justificar diante dos homens e a descansar na Tua justiça. Ajuda-me a aceitar que não há justo, nem um sequer, e a confiar apenas na Tua fidelidade.",
+ "quiz": {
+  "pergunta": "Segundo Romanos 3:9-10, como Paulo descreve a condição moral de todos os seres humanos?",
+  "opcoes": [
+   "Estão debaixo do pecado; não há justo, nem um sequer.",
+   "Os judeus são melhores que os gregos.",
+   "Alguns são justos se buscarem a Deus."
+  ],
+  "certa": 0,
+  "explicacao": "Paulo explicita que tanto judeus quanto gregos estão debaixo do pecado e cita o Salmo para afirmar que não há ninguém justo por mérito próprio."
+ },
+ "refs": [
+  "Salmos 14:1-3",
+  "Romanos 5:6-8",
+  "Salmos 51:4"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-01T01:18:35.744Z",
+  "rounds": 2
+ }
+}

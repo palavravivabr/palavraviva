@@ -1,0 +1,141 @@
+{
+ "id": "45-3-11-21",
+ "ref": "Romanos 3:11-21",
+ "book": "45",
+ "chapter": 3,
+ "verses": [
+  {
+   "n": 11,
+   "t": "Ninguém há que entenda, ninguém há que busque a Deus."
+  },
+  {
+   "n": 12,
+   "t": "Todos se desviaram, e juntamente se tornaram inúteis. “Não há quem faça o bem, não há um sequer”. Salmos 14:1-3; 53:1-3; Eclesiastes 7:20"
+  },
+  {
+   "n": 13,
+   "t": "“Suas gargantas são sepulcro aberto; com suas línguas enganam”; Salmos 5:9 “veneno de serpentes está sob seus lábios”. Salmos 140:3"
+  },
+  {
+   "n": 14,
+   "t": "“Suas bocas estão cheias de maldição e amargura”. Salmos 10:7"
+  },
+  {
+   "n": 15,
+   "t": "“Seus pés são velozes para derramar sangue."
+  },
+  {
+   "n": 16,
+   "t": "Destruição e miséria há em seus caminhos,"
+  },
+  {
+   "n": 17,
+   "t": "e não conheceram o caminho da paz”. Isaías 59:7-8"
+  },
+  {
+   "n": 18,
+   "t": "“Diante dos seus olhos não há temor a Deus”. Salmos 36:1"
+  },
+  {
+   "n": 19,
+   "t": "Ora, sabemos que tudo o que a Lei diz, diz aos que estão na Lei, para que toda boca se cale, e todo o mundo seja condenável perante Deus."
+  },
+  {
+   "n": 20,
+   "t": "Assim, ninguém será justificado diante dele pelas obras da Lei, porque o que vem pela Lei é o conhecimento do pecado."
+  },
+  {
+   "n": 21,
+   "t": "Mas agora, independentemente da Lei, a justiça de Deus se manifestou, tendo testemunho da Lei e dos Profetas;"
+  }
+ ],
+ "titulo": "Diante do espelho da Lei",
+ "temas": [
+  "pecado",
+  "lei",
+  "justiça",
+  "misericórdia"
+ ],
+ "pergunta": "Por que a Lei de Deus não nos salva, mas nos mostra o caminho para a salvação?",
+ "entender": "Paulo usa trechos dos Salmos e de Isaías para pintar um retrato honesto da condição humana. Ele afirma que \"ninguém há que busque a Deus\" e que \"não há quem faça o bem, não há um sequer\". Não se trata de dizer que as pessoas são incapazes de atos gentis, mas de mostrar que, diante do padrão perfeito de Deus, todos falham. A imagem de \"gargantas são sepulcro aberto\" e \"veneno de serpentes\" destaca a corrupção interna que leva a palavras e ações que ferem o próximo e afastam de Deus.\n\nO objetivo disso não é humilhar, mas revelar a verdade. Paulo explica que a Lei existe para que \"toda boca se cale\" e o mundo reconheça sua culpabilidade. Ela funciona como um diagnóstico preciso: mostra a doença, mas não fornece a cura. Por isso, \"ninguém será justificado diante dele pelas obras da Lei\". A Lei nos ensina o que é o pecado, mas não nos dá poder para vencê-lo. É um espelho que mostra a sujeira, mas não a remove.",
+ "ligar": {
+  "texto": "É exatamente nesse impasse que a graça entra. O texto termina dizendo que \"a justiça de Deus se manifestou\", independentemente da Lei. Isso aponta diretamente para Jesus Cristo, que cumpriu perfeitamente a Lei que nós não conseguimos cumprir. Ele morre no lugar do pecador, oferecendo a justiça que a Lei exige. A Lei nos condena, mas Cristo nos liberta. A salvação não vem de tentar ser melhor, mas de aceitar o presente gratuito da redenção que Jesus realizou na cruz.",
+  "selo": false
+ },
+ "viver": "Muitas vezes, tentamos compensar nossas falhas com boas ações, achando que assim seremos aceitos por Deus. Este texto nos convida a parar de nos justificar e a olhar para Cristo. Quando você perceber que não consegue ser perfeito, não desista de Deus. Em vez disso, entregue sua imperfeição a Jesus, que já pagou o preço pelo seu pecado. A paz não vem do esforço, mas da confiança no sacrifício de Cristo.",
+ "guarde": "A Lei mostra o pecado, mas só a graça de Cristo remove a culpa.",
+ "ore": "Pai, obrigado por revelar minha necessidade de Ti. Perdoa minha tentativa de me justificar por mim mesmo. Ajuda-me a confiar inteiramente na justiça que vem por meio da fé em Jesus Cristo, e não nas minhas obras.",
+ "quiz": {
+  "pergunta": "Qual é a função principal da Lei, segundo Romanos 3:20?",
+  "opcoes": [
+   "Dar conhecimento do pecado",
+   "Justificar os que a cumprem",
+   "Substituir a necessidade de fé"
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma explicitamente que \"o que vem pela Lei é o conhecimento do pecado\", servindo para mostrar a culpa, não para perdoá-la."
+ },
+ "refs": [
+  "Romanos 5:12-21",
+  "Gálatas 3:24",
+  "Salmos 14:1-3"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-01T01:13:27.996Z",
+  "rounds": 1
+ }
+}

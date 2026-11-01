@@ -2744,15 +2744,21 @@
   },
   "45-2-21-29": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: LANGUAGE_CLARITY: No enunciado da pergunta do teste, a palavra 'transgrider' é um erro gramatical para o verbo 'transgredir'.",
+   "estado": "pronto",
+   "titulo": "O que realmente define quem somos diante de Deus"
   },
   "45-3-1-10": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: PRAYER_FIDELITY: A oração é inadequadamente dirigida ao apóstolo Paulo no trecho inicial em vez de ser dirigida unicamente a Deus.",
+   "estado": "pronto",
+   "titulo": "Quem é o verdadeiro vencedor no julgamento?"
   },
   "45-3-11-21": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:menos_de_2_paragrafos",
+   "estado": "pronto",
+   "titulo": "Diante do espelho da Lei"
   },
   "45-3-22-31": {
    "execucoes": 0,
@@ -2781,28 +2787,40 @@
   "45-6-1-12": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "45-6-13-23": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "45-7-1-8": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "45-7-9-17": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 858,
-   "entrada": 2244991,
-   "saida": 756528
+   "chamadas": 866,
+   "entrada": 2267241,
+   "saida": 762958
   },
   "groq-qwen": {
-   "chamadas": 855,
-   "entrada": 2137754,
-   "saida": 695936
+   "chamadas": 863,
+   "entrada": 2159330,
+   "saida": 702063
   },
   "gemini": {
-   "chamadas": 754,
-   "entrada": 2450106,
-   "saida": 943909
+   "chamadas": 761,
+   "entrada": 2471865,
+   "saida": 953620
   },
   "cloudflare": {
-   "chamadas": 468,
-   "entrada": 1637306,
-   "saida": 173628
+   "chamadas": 471,
+   "entrada": 1647426,
+   "saida": 174741
   },
   "mistral": {
    "chamadas": 0,
