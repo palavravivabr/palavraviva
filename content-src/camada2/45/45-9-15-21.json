@@ -1,0 +1,125 @@
+{
+ "id": "45-9-15-21",
+ "ref": "Romanos 9:15-21",
+ "book": "45",
+ "chapter": 9,
+ "verses": [
+  {
+   "n": 15,
+   "t": "Pois ele diz a Moisés: “Terei misericórdia de quem eu tiver misericórdia, e me compadecerei de quem eu me compadecer”. Êxodo 33:19"
+  },
+  {
+   "n": 16,
+   "t": "Portanto, não depende daquele que quer, nem daquele que se esforça, mas sim, de Deus, que se compadece."
+  },
+  {
+   "n": 17,
+   "t": "Pois a Escritura diz a Faraó: “Para isto mesmo te levantei: para mostrar em ti o meu poder, e para que o meu nome seja anunciado em toda a terra”. Êxodo 9:16"
+  },
+  {
+   "n": 18,
+   "t": "Portanto, ele tem misericórdia de quem quer, e endurece a quem quer."
+  },
+  {
+   "n": 19,
+   "t": "Tu, então, me dirás: “Por que ele ainda se queixa? Pois quem resiste à sua vontade?”"
+  },
+  {
+   "n": 20,
+   "t": "Mas antes, quem és tu, ó, humano, para questionares a Deus? Por acaso a coisa formada dirá ao que a formou: “Por que me fizeste assim?” Isaías 29:16; 45-9"
+  },
+  {
+   "n": 21,
+   "t": "Ou não tem o oleiro poder sobre o barro, para da mesma massa fazer um vaso para honra, e outro para desonra?"
+  }
+ ],
+ "titulo": "O poder do Oleiro sobre o Barro",
+ "temas": [
+  "soberania",
+  "misericórdia",
+  "humildade",
+  "justiça"
+ ],
+ "pergunta": "Por que questionamos as escolhas de Deus quando Ele é o Criador?",
+ "entender": "Em Romanos 9, Paulo responde à acusação de que Deus seria injusto ao escolher alguns e não outros. Ele lembra que a misericórdia de Deus não depende do esforço humano, mas da Sua vontade. O texto cita Faraó, que foi endurecido para mostrar o poder de Deus, e usa a imagem do oleiro e do barro (Romanos 9:21) para ilustrar que o Criador tem autoridade sobre a criação.\n\nPaulo antecipa a objeção: \"Por que ele ainda se queixa?\" (Romanos 9:19). A resposta é uma pergunta retórica: \"Quem és tu, ó, humano, para questionares a Deus?\". A lógica é que a criatura não tem o direito de julgar as decisões do Criador sobre o material que Ele formou.",
+ "ligar": {
+  "texto": "Este trecho aponta para Jesus ao mostrar que a salvação é iniciativa de Deus. Assim como o oleiro forma vasos distintos, Deus escolhe pessoas para a glória. Em Jesus, vemos a misericórdia divina concretizada: Ele veio para salvar os que eram irremediáveis, demonstrando que a escolha divina não se baseia em mérito humano, mas na graça soberana que revela a glória de Deus.",
+  "selo": false
+ },
+ "viver": "A imagem do oleiro nos convida a descansar na soberania de Deus. Quando enfrentamos situações que não entendemos ou quando nossa vontade não é feita, podemos confiar que Ele tem um propósito maior. Em vez de questionar Seus métodos, devemos responder com humildade, reconhecendo que Ele nos conhece e nos amou antes de fundar o mundo. Isso traz paz mesmo quando não temos todas as respostas.",
+ "guarde": "O oleiro tem poder sobre o barro; confie no propósito do Criador.",
+ "ore": "Deus, Tu és o Oleiro e eu sou o barro. Ajuda-me a aceitar Tua soberania e a descansar na Tua misericórdia, mesmo quando não entendo Teus caminhos. Dá-me humildade para não questionar, mas adorar.",
+ "quiz": {
+  "pergunta": "Qual imagem Paulo usa para ilustrar a autoridade de Deus sobre a criação?",
+  "opcoes": [
+   "Rei e súdito",
+   "Pai e filho",
+   "Oleiro e barro"
+  ],
+  "certa": 2,
+  "explicacao": "Em Romanos 9:21, Paulo pergunta se o oleiro não tem poder sobre o barro para fazer vasos de honra e desonra."
+ },
+ "refs": [
+  "João 3:3-6",
+  "Efésios 2:8-9",
+  "Isaías 45:9"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-01T15:50:51.799Z",
+  "rounds": 1
+ }
+}

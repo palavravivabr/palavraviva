@@ -1,0 +1,137 @@
+{
+ "id": "45-8-30-39",
+ "ref": "Romanos 8:30-39",
+ "book": "45",
+ "chapter": 8,
+ "verses": [
+  {
+   "n": 30,
+   "t": "E aos que predestinou, a esses também chamou; e aos que chamou, a esses também justificou; e aos que justificou, a esses também glorificou."
+  },
+  {
+   "n": 31,
+   "t": "Então, que diremos acerca dessas coisas? Se Deus é por nós, quem será contra nós?"
+  },
+  {
+   "n": 32,
+   "t": "Aquele que nem mesmo ao seu próprio Filho poupou, como não nos dará também com ele todas as coisas?"
+  },
+  {
+   "n": 33,
+   "t": "Quem fará acusação contra os escolhidos de Deus? Deus é quem justifica."
+  },
+  {
+   "n": 34,
+   "t": "Quem os condenará? Cristo é o que morreu; além disto é o que também ressuscitou; o que também está à direita de Deus, e que intercede por nós."
+  },
+  {
+   "n": 35,
+   "t": "Quem nos separará do amor de Cristo? A aflição, a angústia, a perseguição, a fome, a nudez, o perigo, ou a espada?"
+  },
+  {
+   "n": 36,
+   "t": "Como está escrito: “Pois por causa de ti somos entreges à morte o dia todo; somos contados como ovelhas para o matadouro”. Salmos 44:22"
+  },
+  {
+   "n": 37,
+   "t": "Mas em todas estas coisas somos mais que vencedores, por meio daquele que nos amou."
+  },
+  {
+   "n": 38,
+   "t": "Pois tenho certeza que nem a morte, nem a vida, nem anjos, nem principados, nem poderes, nem o presente, nem o futuro,"
+  },
+  {
+   "n": 39,
+   "t": "nem altura, nem profundeza, nem qualquer outra criatura poderá nos separar do amor de Deus, que está em Cristo Jesus, nosso Senhor."
+  }
+ ],
+ "titulo": "A segurança inabalável do amor de Deus",
+ "temas": [
+  "segurança",
+  "amor",
+  "vitória",
+  "intercessão"
+ ],
+ "pergunta": "Existe algo na sua vida que você acha capaz de separá-lo do amor de Deus?",
+ "entender": "Paulo encerra Romanos 8 com uma certeza absoluta: a relação de Deus com seus filhos é permanente. Ele descreve uma cadeia de ações divinas que vai da predestinação à glorificação, mostrando que a salvação é garantida pela fidelidade de Deus, não pelo nosso esforço constante.\n\nO apóstolo responde a uma pergunta retórica: \"Se Deus é por nós, quem será contra nós?\" Ele lista adversidades reais, como aflição e perigo, mas afirma que somos \"mais que vencedores\" por meio de Cristo. Isso não significa ausência de sofrimento, mas a garantia de que o resultado final é a vitória.\n\nO foco central é a imensidão desse amor. Paulo declara que nem a morte, nem a vida, nem qualquer força da criação tem poder para romper esse vínculo. A segurança do crente não repousa em sentimentos passageiros, mas na pessoa de Jesus, que está à direita do Pai intercedendo por nós.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para Jesus como a garantia da nossa salvação. Ele é o Filho que Deus não poupou, aquele que morreu e ressuscitou, e o Intercessor que está à direita do Pai. O evangelho é a certeza de que, por causa da obra de Cristo, fomos justificados e protegidos. O amor mencionado não é abstrato, mas concreto, manifestado na cruz, garantindo que nada nos separe dEle.",
+  "selo": true
+ },
+ "viver": "Considere uma situação difícil que você está enfrentando agora, seja uma doença, uma perda financeira ou um conflito familiar. Em vez de ver isso como um sinal de que Deus se afastou, veja-o como o cenário onde a sua vitória se manifesta. Paulo afirma que em todas essas coisas somos mais que vencedores. Ao orar, lembre-se de que Cristo está intercedendo por você à direita do Pai. Essa verdade transforma a perspectiva da crise, permitindo que você encontre paz e força mesmo quando as circunstâncias parecem esmagadoras.",
+ "guarde": "Nem a morte, nem a vida, nem qualquer criatura pode nos separar do amor de Deus em Cristo Jesus.",
+ "ore": "Jesus, que estás à direita do Pai, obrigado pela Tua intercessão. Quando o medo ou a culpa tentam me afastar de Ti, me dá a certeza de que sou mais que vencedor. Ajuda-me a confiar na Tua fidelidade, pois sei que nada pode separar-me do Teu amor.",
+ "quiz": {
+  "pergunta": "Segundo Romanos 8:39, o que NÃO pode nos separar do amor de Deus?",
+  "opcoes": [
+   "Nenhuma criatura",
+   "A nossa falta de fé",
+   "As circunstâncias difíceis"
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma explicitamente que \"nenhuma outra criatura\" tem esse poder. A falta de fé ou as circunstâncias são mencionadas como desafios, mas a garantia final é que nada na criação rompe o vínculo com Deus."
+ },
+ "refs": [
+  "Salmos 44:22",
+  "Romanos 5:8",
+  "Hebreus 7:25"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-01T15:47:53.692Z",
+  "rounds": 2
+ }
+}

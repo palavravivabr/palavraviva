@@ -1,0 +1,129 @@
+{
+ "id": "45-8-22-29",
+ "ref": "Romanos 8:22-29",
+ "book": "45",
+ "chapter": 8,
+ "verses": [
+  {
+   "n": 22,
+   "t": "Pois sabemos que toda a criação geme e sofre dores como as de parto até agora."
+  },
+  {
+   "n": 23,
+   "t": "E não somente isso , mas também nós, que temos os primeiros frutos do Espírito, gememos em nós mesmos, esperando a adoção , isto é , a redenção do nosso corpo."
+  },
+  {
+   "n": 24,
+   "t": "Pois fomos salvos na esperança. Ora, a esperança que se vê não é esperança; afinal, por que alguém ainda espera o que já vê?"
+  },
+  {
+   "n": 25,
+   "t": "Mas, se esperamos o que não vemos, com paciência esperamos."
+  },
+  {
+   "n": 26,
+   "t": "E da mesma maneira também o Espírito ajuda em nossas fraquezas. Pois não sabemos orar como se deve, mas o próprio Espírito intercede por nós com gemidos inexprimíveis."
+  },
+  {
+   "n": 27,
+   "t": "E aquele que examina os corações sabe qual é a intenção do Espírito, pois ele intercede pelos santos, segundo a vontade de Deus."
+  },
+  {
+   "n": 28,
+   "t": "E sabemos que todas as coisas juntamente contribuem para o bem daqueles que amam a Deus, dos que são chamados segundo o seu propósito."
+  },
+  {
+   "n": 29,
+   "t": "Pois aos que desde antes conheceu, também os predestinou para serem conformes à imagem do seu Filho, para que ele seja o primogênito entre muitos irmãos."
+  }
+ ],
+ "titulo": "Por que a criação ainda geme?",
+ "temas": [
+  "esperança",
+  "sofrimento",
+  "espírito santo",
+  "propósito"
+ ],
+ "pergunta": "Você já sentiu que o mundo ao seu redor parece sofrer junto com você?",
+ "entender": "Paulo descreve uma realidade profunda: não somos os únicos que sofrem. Ele diz que \"toda a criação geme e sofre dores como as de parto\". Isso significa que a natureza, desde a queda, está em um estado de tensão, esperando ser libertada. Nós, que já temos um gosto do Espírito Santo, também gememos, mas com uma expectativa diferente: a adoção e a redenção do nosso corpo.\n\nA esperança cristã é única porque se baseia no que ainda não vemos. Paulo explica que \"a esperança que se vê não é esperança\". Esperar o invisível exige paciência. Nesses momentos de fraqueza, onde não sabemos como orar corretamente, o próprio Espírito Santo intercede por nós, alinhando nossa vontade à de Deus.\n\nO texto culmina em uma promessa poderosa: todas as coisas contribuem para o bem daqueles que amam a Deus. Não porque a dor é boa em si, mas porque Deus está trabalhando tudo para nos conformar à imagem do seu Filho, Jesus. Somos predestinados para sermos semelhantes a Ele e termos Ele como primogênito entre muitos irmãos.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para Jesus como o centro da nossa esperança. Ele é o \"primogênito\" mencionado, aquele que ressuscitou primeiro e garante nossa futura ressurreição. A \"adoção\" e a \"redenção do corpo\" que esperamos são possíveis apenas porque Jesus, o Filho de Deus, vive. O Espírito Santo, que intercede por nós, é o mesmo que foi derramado após a ressurreição de Cristo. Assim, nossa luta atual tem sentido porque está conectada à vitória final de Jesus.",
+  "selo": true
+ },
+ "viver": "Quando a dor parecer sem sentido ou a oração vier vazia, lembre-se de que o Espírito Santo está orando por você em você. Não tente forçar palavras perfeitas; apenas apresente sua fraqueza a Deus, confiando que Ele entende sua intenção. Aproveite este tempo de espera para observar como Deus trabalha em detalhes pequenos, sabendo que Ele está moldando seu caráter à imagem de Cristo, mesmo no meio do sofrimento.",
+ "guarde": "Deus usa até a dor para nos moldar à imagem do seu Filho.",
+ "ore": "Pai, assim como a criação geme, eu trago minhas dores a Ti. Obrigado por enviar o Espírito para interceder por mim quando não sei o que dizer. Ajuda-me a esperar com paciência a redenção do meu corpo, confiando que Tu estás trabalhando tudo para o meu bem, conformando-me à imagem de Jesus.",
+ "quiz": {
+  "pergunta": "Segundo o texto, o que o Espírito Santo faz quando não sabemos orar como devemos?",
+  "opcoes": [
+   "Ensina-nos a memorizar orações antigas.",
+   "Silencia nossas preocupações imediatamente.",
+   "Intercede por nós com gemidos inexprimíveis."
+  ],
+  "certa": 2,
+  "explicacao": "Romanos 8:26 afirma explicitamente que o Espírito intercede por nós com gemidos inexprimíveis, ajudando em nossas fraquezas."
+ },
+ "refs": [
+  "Romanos 8:30",
+  "Gálatas 4:6",
+  "1 Pedro 1:3"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-01T15:47:10.862Z",
+  "rounds": 1
+ }
+}

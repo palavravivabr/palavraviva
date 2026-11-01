@@ -2838,11 +2838,15 @@
   },
   "45-8-22-29": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: PRAYER_FIDELITY: A oração é iniciada invocando 'Romanos 8' como destinatário, o que é teologicamente inadequado para uma oração cristã bíblica. | LANGUAGE_CLARITY: A oração apresenta erro evidente de construção e sintaxe ao usar o nome do capítulo ('Romanos 8') no início da frase como vocativo.",
+   "estado": "pronto",
+   "titulo": "Por que a criação ainda geme?"
   },
   "45-8-30-39": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: viver:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "A segurança inabalável do amor de Deus"
   },
   "45-9-1-14": {
    "execucoes": 0,
@@ -2850,7 +2854,9 @@
   },
   "45-9-15-21": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "O poder do Oleiro sobre o Barro"
   },
   "45-9-22-33": {
    "execucoes": 0,
@@ -2871,28 +2877,40 @@
   "45-11-13-24": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "45-11-25-36": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "45-12-1-11": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "45-12-12-21": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 894,
-   "entrada": 2342414,
-   "saida": 786282
+   "chamadas": 901,
+   "entrada": 2361387,
+   "saida": 791974
   },
   "groq-qwen": {
-   "chamadas": 891,
-   "entrada": 2232823,
-   "saida": 724271
+   "chamadas": 898,
+   "entrada": 2250901,
+   "saida": 730008
   },
   "gemini": {
-   "chamadas": 783,
-   "entrada": 2541087,
-   "saida": 988475
+   "chamadas": 787,
+   "entrada": 2553641,
+   "saida": 996011
   },
   "cloudflare": {
-   "chamadas": 483,
-   "entrada": 1688284,
-   "saida": 179193
+   "chamadas": 486,
+   "entrada": 1698434,
+   "saida": 180306
   },
   "mistral": {
    "chamadas": 0,
