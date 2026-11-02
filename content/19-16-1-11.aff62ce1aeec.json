@@ -1,0 +1,141 @@
+{
+ "id": "19-16-1-11",
+ "ref": "Salmos 16:1-11",
+ "book": "19",
+ "chapter": 16,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Guarda-me, ó Deus; porque eu confio em ti."
+  },
+  {
+   "n": 2,
+   "t": "Tu, minha alma , disseste ao SENHOR: Tu és meu Senhor; minha bondade não chega até ti."
+  },
+  {
+   "n": 3,
+   "t": "Mas aos santos que estão na terra, e a os ilustres, nos quais está todo o meu prazer."
+  },
+  {
+   "n": 4,
+   "t": "As dores se multiplicarão daqueles que se apressam para servir a outros deuses ; eu não oferecerei seus sacrifícios de derramamento de sangue, e não tomarei seus nomes em meus lábios."
+  },
+  {
+   "n": 5,
+   "t": "O SENHOR é a porção da minha herança e o meu cálice; tu sustentas a minha sorte."
+  },
+  {
+   "n": 6,
+   "t": "Em lugares agradáveis foram postos os limites do meu terreno ; sim, eu recebo uma bela propriedade."
+  },
+  {
+   "n": 7,
+   "t": "Eu louvarei ao SENHOR, que me aconselhou; até de noite meus sentimentos me ensinam."
+  },
+  {
+   "n": 8,
+   "t": "Ponho ao SENHOR continuamente diante de mim; porque ele está à minha direita; nunca serei abalado."
+  },
+  {
+   "n": 9,
+   "t": "Por isso meu coração está contente, e minha glória se alegra; certamente minha carne habitará em segurança."
+  },
+  {
+   "n": 10,
+   "t": "Porque tu não deixarás a minha alma no Xeol, nem permitirás que teu Santo veja a degradação."
+  },
+  {
+   "n": 11,
+   "t": "Tu me farás conhecer o caminho da vida; fartura de alegrias há em tua presença; agrados estão em tua mão direita para sempre."
+  }
+ ],
+ "titulo": "O segredo para não ser abalado em qualquer crise",
+ "temas": [
+  "confiança",
+  "esperança",
+  "segurança",
+  "presença de deus"
+ ],
+ "pergunta": "O que realmente garante que você não será abalado pelas crises da vida?",
+ "entender": "Neste salmo, o autor declara uma decisão firme: Deus é a única fonte de satisfação e segurança para ele. Ele diz: \"O SENHOR é a porção da minha herança e o meu cálice\". Isso significa que ele não busca prazer em deuses falsos nem em bens materiais, mas encontra contentamento na presença de Deus. A confiança nele é a base de sua estabilidade.\n\nO salmo contrasta a ansiedade de quem serve a outros deuses com a paz de quem serve ao Senhor. O autor afirma que, por ter Deus à sua direita, nunca será abalado. Há uma promessa de proteção e de um futuro seguro, onde a alma não será deixada no lugar dos mortos. Este salmo é um testemunho de que a verdadeira segurança vem de uma relação pessoal e exclusiva com o Criador.",
+ "ligar": {
+  "texto": "Este salmo aponta para Jesus como a \"porção\" definitiva. Em Cristo, encontramos a herança eterna e a segurança que o salmista descreve. Jesus é o \"Santo\" que não vê a degradação, pois venceu a morte. A paz que o salmista sente ao ter Deus à direita é plenamente realizada em Jesus, que está à direita do Pai e intercede por nós. Ele é o caminho da vida que o salmo anuncia.",
+  "selo": false
+ },
+ "viver": "Pare de buscar satisfação em coisas que se desgastam, como aprovação humana ou bens materiais. Assim como o salmista, declare que a sua herança e alegria vêm de Deus. Quando a ansiedade tentar abalar você, lembre-se de que Ele está à sua direita. Pratique a confiança diária, reconhecendo que a segurança real não está no que você controla, mas em Quem o controla. Isso traz uma paz que não depende das circunstâncias externas.",
+ "guarde": "A paz que não depende das circunstâncias nasce de quem está à sua direita.",
+ "ore": "Guarda-me, ó Deus, pois confio em ti. Tu és a minha porção e o meu cálice. Ajuda-me a não buscar satisfação em coisas passageiras, mas a encontrar alegria plena na tua presença, sabendo que estás à minha direita e me sustentas.",
+ "quiz": {
+  "pergunta": "Segundo o versículo 5, o que o salmista declara ser a sua herança e cálice?",
+  "opcoes": [
+   "O SENHOR",
+   "Os santos da terra",
+   "Os bens materiais"
+  ],
+  "certa": 0,
+  "explicacao": "No versículo 5, o autor afirma que o Senhor é a sua porção da herança e o seu cálice, indicando que sua satisfação vem de Deus, não de pessoas ou coisas."
+ },
+ "refs": [
+  "Atos 2:25-31",
+  "Filipenses 3:8-10",
+  "Colossenses 1:27"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-02T19:07:52.014Z",
+  "rounds": 2
+ }
+}
