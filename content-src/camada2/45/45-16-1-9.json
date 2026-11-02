@@ -1,0 +1,133 @@
+{
+ "id": "45-16-1-9",
+ "ref": "Romanos 16:1-9",
+ "book": "45",
+ "chapter": 16,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Eu vos recomendo a nossa irmã Febe, que é servidora da Igreja que está em Cencreia,"
+  },
+  {
+   "n": 2,
+   "t": "para que a recebais no Senhor, como convém aos santos; e para que a ajudeis em qualquer coisa que necessitar de vós; pois ela tem ajudado a muitos, inclusive a mim mesmo."
+  },
+  {
+   "n": 3,
+   "t": "Saudai a Priscila e a Áquila, meus cooperadores em Cristo Jesus,"
+  },
+  {
+   "n": 4,
+   "t": "que arriscaram seus pescoços por minha vida; a eles não somente eu agradeço, como também todas as igrejas dos gentios."
+  },
+  {
+   "n": 5,
+   "t": "Saudai também a igreja que se reúne na casa deles. Saudai Epêneto, meu amado, que é o primeiro fruto da Acaia para Cristo."
+  },
+  {
+   "n": 6,
+   "t": "Saudai Maria, que trabalhou muito por nós."
+  },
+  {
+   "n": 7,
+   "t": "Saudai Andrônico e Júnia, meus parentes, e meus companheiros na prisão, que são notáveis entre os apóstolos, e também estavam antes de mim em Cristo."
+  },
+  {
+   "n": 8,
+   "t": "Saudai Amplias, meu amado no Senhor."
+  },
+  {
+   "n": 9,
+   "t": "Saudai Urbano, nosso cooperador em Cristo, e Estáquis, meu amado."
+  }
+ ],
+ "titulo": "A Igreja que se movia antes de existir",
+ "temas": [
+  "serviço",
+  "comunidade",
+  "acolhimento",
+  "coragem"
+ ],
+ "pergunta": "Quem seriam essas pessoas desconhecidas para você, mas essenciais para a história do evangelho?",
+ "entender": "Romanos 16 é um capítulo cheio de saudações. Paulo não apenas diz 'olá', ele apresenta pessoas. Febe, por exemplo, é chamada de 'servidora' de uma igreja em Cencreia. Paulo pede que a recebam como convém aos santos e que a ajudem, pois ela já ajudou a muitos. Isso mostra que a igreja primitiva não era um clube fechado, mas uma rede de apoio mútuo.\n\nOutros nomes aparecem com detalhes impressionantes. Priscila e Áquila 'arriscaram seus pescoços' por causa de Paulo. Epêneto é o 'primeiro fruto da Acaia', indicando que foi o primeiro convertido naquela região. Andrônico e Júnia são descritos como 'notáveis entre os apóstolos'. Esses detalhes revelam uma comunidade viva, onde cada membro tinha um papel ativo, desde o trabalho duro até o risco de vida pela fé.\n\nO texto desmonta a ideia de que a igreja é feita apenas de pregadores famosos. É feita de anfitriões, trabalhadores, parentes e prisioneiros que sustentam a missão. A igreja 'que se reúne na casa deles' mostra que a fé acontecia no cotidiano, nas casas, criando laços fortes entre judeus, gentios e pessoas de diferentes origens.",
+ "ligar": {
+  "texto": "Essa lista aponta para Jesus porque mostra o corpo de Cristo em ação. Jesus ensinou que onde dois ou três estão reunidos em seu nome, Ele está no meio. Aqui, vemos esse princípio vivo: pessoas comuns, movidas pelo amor a Cristo, arriscando tudo para espalhar a mensagem. O evangelho não se sustenta sozinho; ele cresce através de mãos que servem, portas que se abrem e vidas que se entregam. A graça que Paulo pregou nos capítulos anteriores é visível nessa prática concreta de cuidado entre irmãos.",
+  "selo": true
+ },
+ "viver": "Febe servia e acolhia. Em nossa rotina, quem é a 'Febe' da sua vida? Talvez seja a vizinha que cuida dos seus filhos enquanto você trabalha, ou o colega que te escuta quando você está triste. O texto nos convida a parar de esperar que a igreja seja apenas um lugar onde você recebe, e começar a ser um canal de ajuda. Identifique uma pessoa da sua comunidade que está precisando de apoio prático e ofereça-se para ajudá-la, assim como Priscila e Áquila abriram suas casas. A fé se torna real quando a transformamos em gestos concretos de amor.",
+ "guarde": "A igreja não é feita de estrelas, mas de pessoas que se arriscam por amor ao próximo.",
+ "ore": "Senhor, assim como Priscila e Áquila arriscaram suas vidas, ensina-me a abrir minha casa e meu tempo para quem precisa. Ajuda-me a ver a Febe e o Epêneto ao meu redor, reconhecendo o valor de cada um no Teu Reino. Que eu não seja apenas um ouvinte, mas um servidor ativo na comunidade que Tu me confiaste.",
+ "quiz": {
+  "pergunta": "Por que Paulo pede que recebam Febe de forma especial?",
+  "opcoes": [
+   "Porque ela é servidora da igreja e já ajudou a muitos, inclusive a Paulo.",
+   "Porque ela era a líder máxima de toda a igreja em Roma.",
+   "Porque ela tinha dinheiro para financiar a viagem de Paulo."
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz que ela é 'servidora' e que 'ela tem ajudado a muitos, inclusive a mim mesmo'. Não há menção a ela ser líder máxima ou a financiamento financeiro."
+ },
+ "refs": [
+  "Atos 18:2-3",
+  "1 Coríntios 16:11",
+  "Gálatas 1:23"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-02T07:39:37.627Z",
+  "rounds": 1
+ }
+}

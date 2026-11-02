@@ -1,0 +1,133 @@
+{
+ "id": "45-15-14-22",
+ "ref": "Romanos 15:14-22",
+ "book": "45",
+ "chapter": 15,
+ "verses": [
+  {
+   "n": 14,
+   "t": "Porém, meus irmãos, convencido estou acerca de vós de que também estais cheios de bondade, plenos de todo conhecimento, e capazes de também aconselhardes uns aos outros."
+  },
+  {
+   "n": 15,
+   "t": "Mas, irmãos, em parte vos escrevi com mais ousadia, como que para vos relembrar, por causa da graça que me foi dada por Deus,"
+  },
+  {
+   "n": 16,
+   "t": "a fim de que eu seja um servidor de Jesus Cristo entre os gentios, ministrando o evangelho de Deus, para que a oferta dos gentios seja agradável, santificada pelo Espírito Santo."
+  },
+  {
+   "n": 17,
+   "t": "Assim eu me orgulho em Jesus Cristo das coisas relacionadas a Deus,"
+  },
+  {
+   "n": 18,
+   "t": "Pois eu não ousaria falar coisa alguma, a não ser o que Cristo fez por meio de mim, para tornar os gentios obedientes, por meio da palavra e da obra,"
+  },
+  {
+   "n": 19,
+   "t": "com poder de sinais e milagres, no poder do Espíritode Deus; de maneira que desde Jerusalém e redondezas até Ilírico, cumpri a pregação do Evangelho de Cristo."
+  },
+  {
+   "n": 20,
+   "t": "E assim quis muito anunciar o Evangelho onde Cristo não houvesse sido pregado, para que eu não construísse sobre fundamento alheio;"
+  },
+  {
+   "n": 21,
+   "t": "ao contrário, como está escrito: “Aqueles a quem dele não foi anunciado o verão; e os que não ouviram entenderão.” Isaías 52:15"
+  },
+  {
+   "n": 22,
+   "t": "Por isso também muitas vezes tenho sido impedido de ir até vós."
+  }
+ ],
+ "titulo": "A missão que define quem somos",
+ "temas": [
+  "missão",
+  "serviço",
+  "evangelho",
+  "gratidão"
+ ],
+ "pergunta": "Por que Paulo se orgulha tanto de servir aos gentios?",
+ "entender": "Nesta parte de Romanos, Paulo escreve aos cristãos de Roma. Ele afirma que eles estão cheios de bondade e conhecimento, mas ele mesmo se considera um \"servidor de Jesus Cristo\" (v. 16). Paulo não fala de si mesmo com arrogância, mas com uma identidade clara: ele existe para ministrar o evangelho de Deus.\n\nEle destaca que sua missão é levar a mensagem a quem nunca ouviu falar de Cristo. Paulo cita Isaías para mostrar que essa é a vontade de Deus: que as nações ouçam e entendam. Ele se orgulha não de suas próprias obras, mas do que Cristo fez por meio dele, trazendo obediência aos gentios por meio de sinais e milagres.\n\nO texto revela que o evangelho não é apenas uma informação, mas uma oferta santa que transforma vidas. Paulo age movido pela graça recebida, sentindo-se impedido de ir a Roma por causa dessa responsabilidade prioritária de plantar a semente onde ela ainda não foi lançada.",
+ "ligar": {
+  "texto": "Paulo deixa claro que seu serviço está centrado em Jesus Cristo. Ele não constrói sobre fundamento alheio, mas aponta para Cristo como o único fundamento. A obediência dos gentios não vem de suas próprias forças, mas do poder do Espírito Santo trabalhando através da palavra de Cristo. Isso nos mostra que o evangelho é a ação de Deus em Cristo, e nós somos apenas canais dessa graça.",
+  "selo": true
+ },
+ "viver": "Ao ler sobre a missão de Paulo, pense em como você pode ser canal do evangelho em seu ambiente. Assim como Paulo buscava lugares onde Cristo não havia sido pregado, identifique uma pessoa em sua vida que ainda não conhece a Jesus de forma pessoal. Não precise ter todas as respostas teológicas, mas tenha a disposição de servir e compartilhar o amor que você já recebeu. A gratidão pela graça deve nos mover a servir, não a nos orgulharmos de nós mesmos.",
+ "guarde": "Meu orgulho não está em minhas obras, mas em o que Cristo fez por meio de mim.",
+ "ore": "Paulo, servo de Jesus, ensina-me a ver minha vida como uma missão. Ajuda-me a me orgulhar apenas do que Cristo faz em mim e por meio de mim, para que eu anuncie o evangelho com humildade e poder.",
+ "quiz": {
+  "pergunta": "O que Paulo diz ser a base de seu orgulho espiritual?",
+  "opcoes": [
+   "A quantidade de milagres que fez",
+   "Seu conhecimento teológico",
+   "O que Cristo fez por meio dele"
+  ],
+  "certa": 2,
+  "explicacao": "No versículo 18, Paulo afirma que não ousaria falar de outra coisa, a não ser o que Cristo fez por meio dele para tornar os gentios obedientes."
+ },
+ "refs": [
+  "1 Coríntios 3:10",
+  "2 Coríntios 4:7",
+  "Isaías 52:15"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-02T07:37:42.430Z",
+  "rounds": 1
+ }
+}

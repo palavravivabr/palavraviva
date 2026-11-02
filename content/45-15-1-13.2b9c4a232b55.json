@@ -1,0 +1,150 @@
+{
+ "id": "45-15-1-13",
+ "ref": "Romanos 15:1-13",
+ "book": "45",
+ "chapter": 15,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Mas nós, que somos fortes, devemos suportar as fraquezas dos fracos, e não agradar a nós mesmos."
+  },
+  {
+   "n": 2,
+   "t": "Portanto, cada um de nós agrade ao próximo no que é bom para a edificação."
+  },
+  {
+   "n": 3,
+   "t": "Pois também Cristo não agradou a si mesmo; mas, como está escrito: “Os insultos dos que te insultavam caíram sobre mim”. Salmos 69:9"
+  },
+  {
+   "n": 4,
+   "t": "Pois todas as coisas que foram escritas com antecedência foram escritas para o nosso ensino; para que, pela paciência e consolação das Escrituras, tenhamos esperança."
+  },
+  {
+   "n": 5,
+   "t": "O Deus da paciência e da consolação vos dê a mesma mentalidade uns para com os outros, segundo Cristo Jesus,"
+  },
+  {
+   "n": 6,
+   "t": "a fim de que, em comum acordo, como uma só boca, glorifiqueis ao Deus e Pai de nosso Senhor Jesus Cristo."
+  },
+  {
+   "n": 7,
+   "t": "Portanto, recebei uns aos outros, assim como também Cristo nos recebeu para a glória de Deus."
+  },
+  {
+   "n": 8,
+   "t": "E digo que Jesus Cristo se tornou servidor da circuncisão por causa da verdade de Deus, para confirmar as promessas feitas aos patriarcas;"
+  },
+  {
+   "n": 9,
+   "t": "e para que os gentios glorifiquem a Deus por causa de sua misericórdia, como está escrito: “Por isso entre os gentios te confessarei, e ao teu nome cantarei.” 2 Samuel 22:50; Salmos 18:49"
+  },
+  {
+   "n": 10,
+   "t": "E outra vez diz: “Alegrai-vos, gentios, com o povo dele.” Deuteronômio 32:43"
+  },
+  {
+   "n": 11,
+   "t": "E outra vez: “Louvai ao Senhor todas as nações, e celebrai-o todos os povos.” Salmos 117:1"
+  },
+  {
+   "n": 12,
+   "t": "E outra vez Isaías diz: “Haverá a raiz de Jessé, e aquele que se levantará para governar as nações; nele os gentios esperarão.” Isaías 11:10"
+  },
+  {
+   "n": 13,
+   "t": "O Deus da esperança vos encha de toda alegria e paz na fé, para que abundeis em esperança no poder do Espírito Santo."
+  }
+ ],
+ "titulo": "A unidade que nasce do serviço",
+ "temas": [
+  "serviço",
+  "unidade",
+  "paciência",
+  "esperança",
+  "evangelho"
+ ],
+ "pergunta": "O que impede que vivamos em paz com aqueles que pensam diferente de nós?",
+ "entender": "Paulo escreve a uma igreja dividida entre judeus e gentios. Ele orienta que os mais fortes suportem as fraquezas dos fracos, sem buscar apenas o próprio prazer, mas edificar o próximo. Para isso, ele aponta para Cristo, que não agradou a si mesmo, mas recebeu os insultos por nós.\n\nO apóstolo lembra que as Escrituras foram escritas para nosso ensino, trazendo paciência e consolação. O objetivo é que todos glorifiquem a Deus em comum acordo, como uma só boca. Isso exige receber uns aos outros assim como Cristo nos recebeu, unindo diferentes origens em um só propósito.\n\nO texto termina com uma bênção: Deus, fonte de paciência e esperança, encha os crentes de alegria e paz na fé, para que abundem em esperança pelo poder do Espírito Santo. A unidade não é uniformidade, mas harmonia no amor e na adoração a Deus.",
+ "ligar": {
+  "texto": "Jesus é o centro deste ensino. Ele se tornou servidor para confirmar as promessas de Deus e para que os gentios glorifiquem a misericórdia divina. Ao suportar as fraquezas e não agradar a si mesmo, Cristo nos recebeu para a glória de Deus. O evangelho une judeus e gentios, mostrando que a salvação é para todos os povos, cumprindo as profecias sobre a raiz de Jessé.",
+  "selo": true
+ },
+ "viver": "Ao lidar com as diferenças na igreja ou no trabalho, lembre-se do exemplo de Cristo: Ele não buscou Sua própria satisfação, mas o bem dos outros. Pratique a paciência ativa, suportando as fraquezas dos outros sem julgar. Busque momentos de adoração conjunta, onde todos possam louvar a Deus, deixando de lado preferências pessoais para glorificá-Lo em unidade.",
+ "guarde": "Suportar as fraquezas dos outros é o caminho para glorificar a Deus em unidade.",
+ "ore": "Jesus, Tu que não agradaste a Ti mesmo, ensina-me a suportar as fraquezas dos que estão ao meu lado. Dá-me paciência e consolação das Escrituras para que eu edifique o próximo, não buscando minha própria glória, mas a de Deus. Que em minha comunidade, nós possamos receber uns aos outros como Cristo nos recebeu, louvando-Te como uma só boca.",
+ "quiz": {
+  "pergunta": "Segundo o texto, para que finalidade as coisas escritas com antecedência foram destinadas?",
+  "opcoes": [
+   "Para nosso ensino",
+   "Para nosso entretenimento",
+   "Para nossa condenação"
+  ],
+  "certa": 0,
+  "explicacao": "O versículo 4 afirma claramente que as escrituras foram feitas para nosso ensino, trazendo paciência e consolação."
+ },
+ "refs": [
+  "Gálatas 2:20",
+  "Colossenses 1:27",
+  "1 Pedro 2:24"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-02T07:36:50.419Z",
+  "rounds": 2
+ }
+}
