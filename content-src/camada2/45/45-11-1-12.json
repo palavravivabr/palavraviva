@@ -1,0 +1,145 @@
+{
+ "id": "45-11-1-12",
+ "ref": "Romanos 11:1-12",
+ "book": "45",
+ "chapter": 11,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Então pergunto: por acaso Deus rejeitou seu povo? De maneira nenhuma! Pois também eu sou israelita, da descendência de Abraão, da tribo de Benjamim."
+  },
+  {
+   "n": 2,
+   "t": "Deus não rejeitou seu povo, o qual desde antes conhecia. Ou não sabeis o que a Escritura diz de Elias? Como ele fala a Deus, contra Israel, dizendo:"
+  },
+  {
+   "n": 3,
+   "t": "“Senhor, mataram os teus profetas, e derrubaram os teus altares; só eu fiquei, e buscam tirar-me a vida.” 1 Reis 19:10,14"
+  },
+  {
+   "n": 4,
+   "t": "Mas o que lhe disse a divina resposta? “Reservei para mim sete mil homens que não dobraram os joelhos a Baal.” 1 Reis 19:18"
+  },
+  {
+   "n": 5,
+   "t": "Portanto, também agora no presente tempo ficou um remanescente, escolhido pela graça."
+  },
+  {
+   "n": 6,
+   "t": "E, se é pela graça, logo não é pelas obras; de outra maneira, a graça já não é graça. E se é pelas obras, logo não é pela graça; de outra maneira a obra já não é obra."
+  },
+  {
+   "n": 7,
+   "t": "Então, quê? O que Israel busca, isso não obteve; mas os escolhidos o obtiveram, e os demais foram endurecidos,"
+  },
+  {
+   "n": 8,
+   "t": "como está escrito: “Deus lhes deu espírito de insensibilidade; olhos que não veem, e ouvidos que não ouvem; até o dia de hoje.” Deuteronômio 29:4; Isaías 29:10"
+  },
+  {
+   "n": 9,
+   "t": "E Davi diz: “A mesa deles se torne em laço e armadilha; em meio de tropeço e retribuição para eles."
+  },
+  {
+   "n": 10,
+   "t": "Seus olhos se escureçam, para que não vejam, e suas costas fiquem constantemente encurvadas.”"
+  },
+  {
+   "n": 11,
+   "t": "Então, pergunto: por acaso tropeçaram para que caíssem? De maneira nenhuma! Mas pela queda deles a salvação veio aos gentios, para lhes provocarem ciúmes."
+  },
+  {
+   "n": 12,
+   "t": "Ora, se a queda deles é o enriquecimento do mundo, e se o prejuízo deles é o enriquecimento dos gentios, quanto mais a sua plenitude!"
+  }
+ ],
+ "titulo": "O remanescente que Deus reservou para si",
+ "temas": [
+  "graça",
+  "remanescente",
+  "soberania",
+  "esperança"
+ ],
+ "pergunta": "Se a maioria parece ter se afastado, por que Deus ainda mantém um grupo escolhido?",
+ "entender": "Paulo faz uma pergunta que muitos cristãos de hoje também se fazem: Deus abandonou o povo que Ele mesmo escolheu? A resposta é imediata: de maneira nenhuma. Para provar isso, ele usa o exemplo de Elias. Quando o profeta estava desanimado, achando que era o único fiel restante, Deus lhe revelou que havia reservado sete mil homens que não se curvaram a Baal.\n\nPaulo aplica isso ao seu tempo: existe um remanescente, mas ele foi escolhido pela graça. Se a salvação dependesse das obras humanas, a graça deixaria de ser graça. O texto mostra que a dureza de coração de muitos não é um acidente, mas parte de um plano divino que, paradoxalmente, serve para levar a salvação aos gentios e despertar ciúmes em Israel, preparando o caminho para a futura plenitude do povo de Deus.",
+ "ligar": {
+  "texto": "Este trecho aponta para Jesus ao mostrar que a salvação não vem de esforço humano, mas da iniciativa de Deus. O 'remanescente' é a comunidade de fé que, em Cristo, recebe a graça. A referência à dureza e ao endurecimento prepara o cenário para a cruz: foi por meio da queda dos líderes religiosos que o evangelho chegou a nós, gentios. Jesus é o centro desse plano, pois Ele é a raiz da oliveira na qual somos enxertados, garantindo que a graça continue fluindo.",
+  "selo": false
+ },
+ "viver": "Muitas vezes, olhamos para a igreja ou para a sociedade e sentimos que a fé está morrendo, que somos poucos ou que ninguém mais importa. Este texto nos lembra que Deus não rejeita seu povo, mesmo quando a maioria parece ter se endurecido. Se você se sente isolado na sua caminhada, saiba que faz parte de um remanescente escolhido pela graça. Não tente se salvar por suas próprias boas ações; confie na fidelidade de Deus, que sempre reserva um lugar para aqueles que não se curvam aos ídolos deste mundo.",
+ "guarde": "A salvação é pela graça, não pelas obras, para que ninguém se glorie.",
+ "ore": "Senhor, assim como Elias achou que estava sozinho, eu também me sinto pequeno diante da grandeza do Teu povo. Mas eu Te adoro porque Tu me conheces desde antes e me reservaste pelo Teu amor. Ensina-me a descansar na graça e não nas minhas forças, confiando que o Teu plano é perfeito e que a salvação veio aos gentios para que todos Te conheçam.",
+ "quiz": {
+  "pergunta": "De acordo com o texto, por que o remanescente existe?",
+  "opcoes": [
+   "Porque foi escolhido pela graça.",
+   "Porque as pessoas trabalharam mais do que as outras.",
+   "Porque Deus deixou de cuidar do povo de Israel."
+  ],
+  "certa": 0,
+  "explicacao": "O versículo 5 afirma explicitamente que ficou um remanescente 'escolhido pela graça', e o versículo 6 reforça que, se fosse pelas obras, a graça não seria mais graça."
+ },
+ "refs": [
+  "1 Reis 19:18",
+  "Romanos 9:11",
+  "Efésios 2:8"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-02T01:15:17.762Z",
+  "rounds": 2
+ }
+}

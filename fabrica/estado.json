@@ -2852,7 +2852,9 @@
   },
   "45-9-1-14": {
    "execucoes": 1,
-   "ultimo": "automático: ore:citacao_longa"
+   "ultimo": "automático: entender:citacao_longa",
+   "estado": "pronto",
+   "titulo": "Deus escolhe antes do nascimento"
   },
   "45-9-15-21": {
    "execucoes": 0,
@@ -2880,65 +2882,95 @@
   },
   "45-11-1-12": {
    "execucoes": 0,
-   "ultimo": "erro: gemini: 503 { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\", \"status\": \"UNAVAILABLE\" } } "
+   "ultimo": "gemini: REFERENCE_BOUNDARY: O ensino afirma na seção Viver que 'este texto nos lembra de que Deus não olha para a multidão, mas para o coração', atribuindo a Romanos 11:1-12 um conceito presente em 1 Samuel 16:7 que não consta do trecho Lido.",
+   "estado": "pronto",
+   "titulo": "O remanescente que Deus reservou para si"
   },
   "45-11-13-24": {
    "execucoes": 0,
-   "ultimo": "erro: gemini: 503 { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\", \"status\": \"UNAVAILABLE\" } } "
+   "ultimo": "erro: gemini: 503 { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\", \"status\": \"UNAVAILABLE\" } } ",
+   "estado": "pronto",
+   "titulo": "Enxertados na Oliveira: Quem é Realmente Parte da Família de Deus?"
   },
   "45-11-25-36": {
    "execucoes": 0,
-   "ultimo": "erro: gemini: 503 { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\", \"status\": \"UNAVAILABLE\" } } "
+   "ultimo": "automático: viver:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "O plano secreto de Deus para Israel"
   },
   "45-12-1-11": {
    "execucoes": 0,
-   "ultimo": "erro: gemini: 503 { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\", \"status\": \"UNAVAILABLE\" } } "
+   "ultimo": "automático: viver:citacao_fora_do_texto, abertura_repetida:viver:43-4-12-22",
+   "estado": "pronto",
+   "titulo": "Sua mente é o campo de batalha"
   },
   "45-12-12-21": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"code\":\"1910\",\"raw_status_code\":403}"
+   "ultimo": "automático: ligar:citacao_fora_do_texto, abertura_repetida:viver:41-11-23-33",
+   "estado": "pronto",
+   "titulo": "Como vencer o mal oferecendo água"
   },
   "45-13-1-14": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"code\":\"1910\",\"raw_status_code\":403}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   },
   "45-14-1-12": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"code\":\"1910\",\"raw_status_code\":403}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   },
   "45-14-13-23": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"code\":\"1910\",\"raw_status_code\":403}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   },
   "45-15-1-13": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"code\":\"1910\",\"raw_status_code\":403}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   },
   "45-15-14-22": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 403 {\"object\":\"error\",\"message\":\"This model is not available in your subscription tier\",\"type\":\"tier_not_allowed\",\"param\":null,\"code\":\"1910\",\"raw_status_code\":403}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "45-15-23-33": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "45-16-1-9": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "45-16-10-18": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "45-16-19-27": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-1-1-6": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 915,
-   "entrada": 2401019,
-   "saida": 803937
+   "chamadas": 923,
+   "entrada": 2423537,
+   "saida": 810890
   },
   "groq-qwen": {
-   "chamadas": 912,
-   "entrada": 2289709,
-   "saida": 741748
+   "chamadas": 920,
+   "entrada": 2311015,
+   "saida": 748007
   },
   "gemini": {
-   "chamadas": 795,
-   "entrada": 2580272,
-   "saida": 1008625
+   "chamadas": 803,
+   "entrada": 2606721,
+   "saida": 1018299
   },
   "cloudflare": {
-   "chamadas": 490,
-   "entrada": 1712510,
-   "saida": 181790
+   "chamadas": 496,
+   "entrada": 1733716,
+   "saida": 184016
   },
   "mistral": {
    "chamadas": 0,

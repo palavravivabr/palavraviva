@@ -1,0 +1,141 @@
+{
+ "id": "45-12-1-11",
+ "ref": "Romanos 12:1-11",
+ "book": "45",
+ "chapter": 12,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Rogo-vos, pois, irmãos, pelas misericórdias de Deus, que apresenteis os vossos corpos como sacrifício vivo, santo e agradável a Deus, que é o vosso culto racional."
+  },
+  {
+   "n": 2,
+   "t": "E não vos conformeis com a presente era; mas transformai-vos pela renovação da vossa mentalidade, para que experimenteis qual seja a boa, agradável, e perfeita vontade de Deus."
+  },
+  {
+   "n": 3,
+   "t": "Pois, pela graça que me foi dada, digo a cada um dentre vós que não se estime mais do que convém se estimar; em vez disso, cada um estime a si mesmo com bom senso, conforme a medida de fé que Deus repartiu a cada um."
+  },
+  {
+   "n": 4,
+   "t": "Porque assim como em um corpo temos muitos membros, e nem todos os membros têm a mesma função,"
+  },
+  {
+   "n": 5,
+   "t": "assim também nós, ainda que muitos, somos um único corpo em Cristo; porém, individualmente, membros uns dos outros."
+  },
+  {
+   "n": 6,
+   "t": "Temos, contudo, diferentes dons, segundo a graça que nos foi dada: se é o de profecia, seja segundo a medida da fé;"
+  },
+  {
+   "n": 7,
+   "t": "se é o de serviço, seja em servir; se é o de ensino, seja em ensinar;"
+  },
+  {
+   "n": 8,
+   "t": "se é o de exortação, seja em exortar; o que reparte, reparta com generosidade; o que lidera, lidere com empenho, o que usa de misericórdia, faça-o com alegria."
+  },
+  {
+   "n": 9,
+   "t": "O amor seja sem hipocrisia. Odiai o mal, e apegai-vos ao bem."
+  },
+  {
+   "n": 10,
+   "t": "Amai-vos cordialmente uns aos outros com amor de irmãos, preferindo honrar uns aos outros."
+  },
+  {
+   "n": 11,
+   "t": "Não sejais vagarosos em mostrardes empenho. Sede fervorosos de espírito. Servi ao Senhor."
+  }
+ ],
+ "titulo": "Sua mente é o campo de batalha",
+ "temas": [
+  "transformação",
+  "mente",
+  "serviço",
+  "comunidade"
+ ],
+ "pergunta": "O que está moldando seus pensamentos hoje: a cultura ao seu redor ou a Palavra de Deus?",
+ "entender": "Paulo muda o foco: depois de explicar a salvação, ele mostra como viver. Ele pede que apresentemos nossos corpos como \"sacrifício vivo\", o que é chamado de \"culto racional\". Não se trata de rituais, mas de entregar a vida inteira a Deus.\n\nO segredo para isso não é apenas força de vontade, mas a \"renovação da mentalidade\". Ao deixarmos Deus transformar nossa forma de pensar, conseguimos discernir Sua vontade. Paulo usa a imagem de um corpo: somos muitos membros diferentes, unidos em Cristo, cada um com um dom específico para servir aos outros com amor e empenho.",
+ "ligar": {
+  "texto": "Esta mudança só é possível por causa de Jesus. Ele é a cabeça do corpo, a Igreja, que nos une. A graça que nos salvou é a mesma que nos capacita a servir. Não somos perfeitos, mas somos novos criaturas. Ao renovar nossa mente com a verdade do evangelho, deixamos de seguir padrões humanos e passamos a refletir o caráter de Cristo em nossas ações diárias.",
+  "selo": true
+ },
+ "viver": "A \"renovação da mentalidade\" começa com o que você consome. Antes de dormir, reveja: o que você assistiu ou leu hoje? Se algo te irritou ou te fez inveja, é sinal de que sua mente ainda está sendo moldada pelo mundo. Nesta semana, substitua uma fonte de distração por tempo com a Bíblia. Ao perceber que seu pensamento mudou, você verá que sua atitude em casa e no trabalho também se transforma, servindo aos outros com mais paciência e amor.",
+ "guarde": "A verdadeira adoração não é o que você faz, mas quem você se torna ao pensar como Deus pensa.",
+ "ore": "Pai, como Paulo nos ensina em Romanos, renova minha mentalidade. Que eu não me conforme com o padrão deste mundo, mas que minha vida seja um sacrifício vivo e agradável a Ti. Ensina-me a usar meus dons para servir meus irmãos com alegria e sem hipocrisia.",
+ "quiz": {
+  "pergunta": "Segundo o texto, o que permite ao crente experimentar a vontade de Deus?",
+  "opcoes": [
+   "Seguir as tradições da igreja.",
+   "A renovação da sua mentalidade.",
+   "Ter uma forte força de vontade."
+  ],
+  "certa": 1,
+  "explicacao": "O versículo 2 afirma explicitamente que a transformação pela renovação da mentalidade é o meio para experimentar a boa, agradável e perfeita vontade de Deus."
+ },
+ "refs": [
+  "2 Coríntios 10:5",
+  "Efésios 4:15-16",
+  "1 Pedro 2:5"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-02T01:16:12.990Z",
+  "rounds": 2
+ }
+}

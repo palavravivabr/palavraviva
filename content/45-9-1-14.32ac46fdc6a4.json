@@ -1,0 +1,154 @@
+{
+ "id": "45-9-1-14",
+ "ref": "Romanos 9:1-14",
+ "book": "45",
+ "chapter": 9,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Digo a verdade em Cristo, não minto, e minha consciência dá testemunho comigo pelo Espírito Santo,"
+  },
+  {
+   "n": 2,
+   "t": "de que tenho grande tristeza e contínuo tormento em meu coração."
+  },
+  {
+   "n": 3,
+   "t": "Porque desejaria eu mesmo ser separado de Cristo em proveito dos meus irmãos, que são meus parentes segundo a carne;"
+  },
+  {
+   "n": 4,
+   "t": "que são israelitas, e a quem pertencem a adoção como filhos, a glória, os pactos, a Lei, o culto, e as promessas;"
+  },
+  {
+   "n": 5,
+   "t": "deles são os patriarcas, e deles, quanto à carne, é Cristo, que é sobre todos, Deus bendito eternamente, Amém!"
+  },
+  {
+   "n": 6,
+   "t": "Não que a palavra de Deus tenha falhado; porque nem todos os que são de Israel são verdadeiros israelitas."
+  },
+  {
+   "n": 7,
+   "t": "Nem por serem descendentes de Abraão são todos filhos, mas: “Em Isaque será chamada a tua descendência”. Gênesis 21:12"
+  },
+  {
+   "n": 8,
+   "t": "Isto é, não são os filhos da carne que são os filhos de Deus; mas sim os filhos da promessa que são contados como descendência."
+  },
+  {
+   "n": 9,
+   "t": "Pois esta é a palavra da promessa: Aproximadamente a este tempo virei, e Sara terá um filho. Gênesis 18:10,14"
+  },
+  {
+   "n": 10,
+   "t": "E não somente isso, mas também Rebeca, quando esteve grávida por intermédio de um só, Isaque, nosso ancestral"
+  },
+  {
+   "n": 11,
+   "t": "(pois, como não eram ainda nascidos, não haviam feito bem ou mal, para que o propósito de Deus, segundo a escolha, continuasse; não pelas obras, mas por causa daquele que chama),"
+  },
+  {
+   "n": 12,
+   "t": "foi dito a ela: O mais velho servirá o mais jovem; Gênesis 25:23"
+  },
+  {
+   "n": 13,
+   "t": "como está escrito: “Amei Jacó, mas odiei Esaú”. Malaquias 1:2-3"
+  },
+  {
+   "n": 14,
+   "t": "Que diremos, então? Que há injustiça da parte de Deus? De maneira nenhuma!"
+  }
+ ],
+ "titulo": "Deus escolhe antes do nascimento",
+ "temas": [
+  "propósito",
+  "graça",
+  "soberania",
+  "promessa"
+ ],
+ "pergunta": "Ser descendente de Abraão garante automaticamente o favor de Deus?",
+ "entender": "Paulo expressa uma dor profunda ao pensar em seus compatriotas israelitas. Ele deseja até ser separado de Cristo por eles, pois reconhece o valor das promessas e da Lei que pertencem a Israel. No entanto, ele afirma que a palavra de Deus não falhou, nem todos os descendentes físicos são verdadeiros filhos espirituais.\n\nO texto usa exemplos bíblicos para ilustrar que a filiação divina não depende da carne, mas da promessa. Isaque foi escolhido em vez de Ismael, e Jacó em vez de Esaú, antes mesmo do nascimento. Isso mostra que o propósito de Deus segundo a escolha não se baseia em obras humanas, mas na iniciativa de Deus que chama.\n\nA intenção de Paulo é defender a justiça de Deus. Se a salvação dependesse apenas de linhagem ou esforço humano, a promessa seria incerta. Mas como Deus age soberanamente para cumprir seu plano, sua fidelidade permanece inabalável, independentemente das ações dos homens.",
+ "ligar": {
+  "texto": "Este trecho aponta para Jesus ao afirmar que Ele é \"quanto à carne, é Cristo\" dos patriarcas. Jesus é o cumprimento final das promessas feitas a Abraão, Isaque e Jacó. A escolha soberana de Deus que se manifesta em Jacó encontra seu ápice na eleição de Jesus, o verdadeiro Filho prometido, que trouxe a salvação não por mérito, mas por graça, garantindo que a promessa de Deus não falhe.",
+  "selo": true
+ },
+ "viver": "Muitas vezes buscamos segurança em nossa origem familiar, religiosa ou em nossos feitos. Este texto nos lembra que nossa posição diante de Deus não vem do que fazemos, mas de quem nos chama. Isso libera a ansiedade de ter que \"merecer\" o amor divino. A aplicação prática é descansar na fidelidade de Deus: assim como Ele cumpriu a promessa com Sara e Rebeca, Ele cumpre a promessa em você, independentemente de suas falhas ou sucessos recentes.",
+ "guarde": "A filiação divina vem da promessa e da escolha de Deus, não da carne ou das obras.",
+ "ore": "Pai, que a dor de Paulo por seus irmãos me ensine a amar com verdade. Que eu confie na tua soberania que escolheu Jacó antes do nascimento, e que eu descanse na certeza de que tua palavra não falha em mim.",
+ "quiz": {
+  "pergunta": "Segundo Romanos 9:11, o propósito de Deus segundo a escolha se baseia em quê?",
+  "opcoes": [
+   "Naquele que chama, não pelas obras",
+   "Nas boas ações dos pais",
+   "Na linhagem física de Abraão"
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma explicitamente que a escolha não é pelas obras, mas por causa daquele que chama, destacando a iniciativa soberana de Deus antes do nascimento."
+ },
+ "refs": [
+  "Gênesis 21:12",
+  "Gênesis 25:23",
+  "Malaquias 1:2-3",
+  "Gênesis 18:10"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-02T01:11:53.185Z",
+  "rounds": 1
+ }
+}
