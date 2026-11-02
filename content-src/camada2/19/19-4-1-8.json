@@ -1,0 +1,130 @@
+{
+ "id": "19-4-1-8",
+ "ref": "Salmos 4:1-8",
+ "book": "19",
+ "chapter": 4,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Quando eu clamar, ouve-me, ó Deus de minha justiça; na angústia tu me alivias; tem misericórdia de mim, e ouve a minha oração."
+  },
+  {
+   "n": 2,
+   "t": "Filhos dos homens, até quando tornareis minha glória em infâmia, e amareis as coisas vãs? Até quando buscareis a mentira? (Selá)"
+  },
+  {
+   "n": 3,
+   "t": "Sabei pois, que o SENHOR separou para si aquele que é fiel; o SENHOR ouvirá, quando a ele eu clamar."
+  },
+  {
+   "n": 4,
+   "t": "Quando estiverdes perturbados, não pequeis; meditai em vosso coração sobre a vossa cama, e fazei silêncio. (Selá)"
+  },
+  {
+   "n": 5,
+   "t": "Sacrificai sacrifícios de justiça, e confiai no SENHOR."
+  },
+  {
+   "n": 6,
+   "t": "Muitos dizem: Quem nos mostrará o bem?Levanta sobre nós, SENHOR, a luz de teu rosto."
+  },
+  {
+   "n": 7,
+   "t": "Tu me deste alegria em meu coração, maior do que quando o trigo e o vinho deles se multiplicaram."
+  },
+  {
+   "n": 8,
+   "t": "Eu deitarei, e dormirei em paz; porque só tu, SENHOR, me fazes descansar seguro."
+  }
+ ],
+ "titulo": "A paz que o mundo não pode dar",
+ "temas": [
+  "ansiedade",
+  "confiança",
+  "paz",
+  "oração",
+  "sono"
+ ],
+ "pergunta": "O que você faz quando a preocupação não te deixa dormir?",
+ "entender": "David escreve este salmo em um momento de angústia, pedindo que Deus ouça seu clamor. Ele reconhece que, muitas vezes, as pessoas buscam em coisas vazias e na mentira uma satisfação que só Deus pode dar. O salmista nos convida a meditar sobre as atitudes do coração e a confiar no Senhor, mesmo quando a mente está perturbada.\n\nA promessa central aqui é de segurança. David afirma que Deus separou para si aquele que é fiel e que ouve quando ele clama. A alegria que Deus dá é superior à prosperidade material, representada pelo trigo e pelo vinho. O resultado dessa confiança é uma paz profunda que permite dormir com segurança, algo que o mundo agitado não consegue oferecer.",
+ "ligar": {
+  "texto": "Jesus é a encarnação dessa paz. Ele nos convida a vir a Ele para encontrar descanso para as nossas almas. Assim como David, Jesus orou com intensidade e confiou no Pai, especialmente na noite antes da cruz, quando a angústia era máxima. Em Cristo, a 'luz do rosto' de Deus brilha sobre nós, removendo a condenação e nos dando a segurança de filhos amados. A paz que Jesus oferece não depende das circunstâncias, mas da certeza de que Ele venceu o mal e nos guarda.",
+  "selo": false
+ },
+ "viver": "Quando a ansiedade apertar o peito e impedir o sono, pare de tentar resolver tudo com a sua própria força. Em vez disso, pratique o que o salmo sugere: medite no seu coração sobre a fidelidade de Deus. Antes de dormir, liste mentalmente três coisas pelas quais você é grato e entregue uma preocupação específica a Ele, lembrando que Ele ouve. Não se force a ser perfeito, mas escolha confiar. A paz vem não quando o problema desaparece, mas quando você reconhece que Deus está no controle e que Ele cuida de você enquanto você descansa.",
+ "guarde": "Só o Senhor me faz descansar seguro, mesmo quando o mundo está em desordem.",
+ "ore": "Pai, quando a angústia me cerca, eu clamo a Ti. Ensina-me a meditar na minha cama sobre a Tua fidelidade, em vez de buscar conforto em coisas vãs. Dá-me a alegria que vem do Teu rosto, maior que qualquer sucesso terreno, para que eu durma em paz, confiando no Teu cuidado.",
+ "quiz": {
+  "pergunta": "Segundo o salmo, o que David diz que Deus faz por ele que permite o sono tranquilo?",
+  "opcoes": [
+   "Ele multiplica seu trigo e vinho",
+   "Ele o faz descansar seguro",
+   "Ele remove todas as suas preocupações imediatamente"
+  ],
+  "certa": 1,
+  "explicacao": "O texto afirma explicitamente no último versículo que o salmista dormirá em paz porque só o Senhor o faz descansar seguro, não necessariamente removendo o problema, mas dando a certeza do cuidado divino."
+ },
+ "refs": [
+  "Mateus 11:28-30",
+  "Filipenses 4:6-7",
+  "Isaías 26:3"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-02T10:18:08.230Z",
+  "rounds": 1
+ }
+}

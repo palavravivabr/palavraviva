@@ -1,0 +1,133 @@
+{
+ "id": "45-16-19-27",
+ "ref": "Romanos 16:19-27",
+ "book": "45",
+ "chapter": 16,
+ "verses": [
+  {
+   "n": 19,
+   "t": "Pois a vossa obediência chegou ao conhecimento de todos. Por isso eu me alegro por vossa causa; quero, porém, que sejais sábios no bem, e inocentes quanto ao mal."
+  },
+  {
+   "n": 20,
+   "t": "E o Deus de paz esmagará Satanás em pedaços debaixo dos vossos pés. A graça de nosso Senhor Jesus Cristo seja convosco. Amém!"
+  },
+  {
+   "n": 21,
+   "t": "Saúdam-vos o meu cooperador Timóteo, e os meus parentes Lúcio, Jáson, e Sosípatro."
+  },
+  {
+   "n": 22,
+   "t": "Eu, Tércio, que escrevi esta carta, vos saúdo no Senhor."
+  },
+  {
+   "n": 23,
+   "t": "Gaio, hospedeiro meu e toda a igreja, vos saúda. Erasto, tesoureiro da cidade, vos saúda, e também o irmão Quarto."
+  },
+  {
+   "n": 24,
+   "t": "A graça de nosso Senhor Jesus Cristo seja com todos vós, Amém!"
+  },
+  {
+   "n": 25,
+   "t": "Ora, para aquele que tem o poder de vos manter firmes segundo o meu Evangelho e a pregação de Jesus Cristo, conforme a revelação do mistério, que foi encoberto desde o princípio dos tempos;"
+  },
+  {
+   "n": 26,
+   "t": "Mas agora se manifestou, e se tornou conhecido pelas Escrituras dos profetas, segundo o mandado do Deus eterno, para a obediência da fé entre todas as nações;"
+  },
+  {
+   "n": 27,
+   "t": "Ao único Deus sábio seja a glória, por meio de Jesus Cristo, para todo o sempre! Amém! Escrita de Corinto aos Romanos, e enviada por Febe, servidora da igreja de Cencreia."
+  }
+ ],
+ "titulo": "A vitória de Deus sobre o mal e a graça que nos sustenta",
+ "temas": [
+  "paz",
+  "graça",
+  "obediência",
+  "mistério"
+ ],
+ "pergunta": "Você já sente a certeza de que Deus já venceu Satanás?",
+ "entender": "Paulo encerra a carta lembrando que a obediência dos crentes já era conhecida (v.19) e pede que sejam \"sábios no bem\" e \"inocentes quanto ao mal\". Em seguida, declara que \"o Deus de paz esmagará Satanás em pedaços debaixo dos vossos pés\" (v.20) e repete a bênção da graça de Jesus Cristo (v.20‑24). Nos últimos versículos, ele fala do poder que mantém firmes os crentes \"segundo o meu Evangelho e a pregação de Jesus Cristo\" (v.25) e explica que esse evangelho era um mistério oculto, agora revelado nas Escrituras dos profetas para que todas as nações obedeçam (v.26‑27). O trecho finaliza louvando ao Deus sábio por meio de Jesus Cristo.\n\nO contexto imediato (v.16‑18) adverte contra divisões e falsos mestres, preparando o leitor para a conclusão de que a verdadeira paz e vitória vêm da graça de Cristo, não de esforços humanos.",
+ "ligar": {
+  "texto": "O texto menciona explicitamente a graça de \"nosso Senhor Jesus Cristo\" (v.20, 24, 25). Essa graça é o dom que nos garante a vitória anunciada: \"o Deus de paz esmagará Satanás\". A vitória sobre o inimigo só é possível porque Cristo, na cruz, derrotou o poder do pecado e da morte, trazendo paz ao crente. Assim, a confiança de Paulo de que Deus esmagará Satanás se apoia no triunfo de Cristo, revelado nas Escrituras como cumprimento do mistério profético.",
+  "selo": true
+ },
+ "viver": "A promessa de que Deus esmagará Satanás nos chama a viver com confiança, sabendo que a batalha já foi vencida por Cristo. Quando surgirem tentações ou conflitos, lembre‑se de que a paz de Deus já está sob os seus pés; então escolha agir com sabedoria e inocência, confiando na graça que lhe foi dada. Essa atitude transforma situações cotidianas – no trabalho, na família ou na comunidade – em testemunho da vitória que já temos em Cristo.",
+ "guarde": "A paz de Deus já venceu o inimigo; viva na confiança dessa vitória.",
+ "ore": "Timóteo e os irmãos saudaram a igreja; Senhor, fortalece-me com a graça de Jesus para permanecer firme contra todo engano.",
+ "quiz": {
+  "pergunta": "O que Paulo afirma que Deus fará sob os pés dos crentes?",
+  "opcoes": [
+   "Concederá riquezas eternas",
+   "Removerá todo sofrimento",
+   "Esmagará Satanás em pedaços"
+  ],
+  "certa": 2,
+  "explicacao": "Em Romanos 16:20 Paulo declara que \"o Deus de paz esmagará Satanás em pedaços debaixo dos vossos pés\", indicando a vitória definitiva sobre o inimigo."
+ },
+ "refs": [
+  "1 Coríntios 15:57",
+  "Efésios 6:12",
+  "Hebreus 2:14-15"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-02T10:13:51.831Z",
+  "rounds": 2
+ }
+}

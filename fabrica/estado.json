@@ -2954,35 +2954,51 @@
   },
   "45-16-10-18": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: CHRISTOLOGICAL_FORCE: O ensino afirma erroneamente que o texto não menciona Jesus diretamente, contrariando os versículos 10, 16 e 18, que mencionam Cristo e expressamente o 'Senhor Jesus Cristo'. | PRAYER_FIDELITY: A oração é endereçada a Apeles (um cristão saudado na carta) em vez de ser dirigida ",
+   "estado": "pronto",
+   "titulo": "Como manter a igreja livre de divisões"
   },
   "45-16-19-27": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:citacao_longa, ligar:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "A vitória de Deus sobre o mal e a graça que nos sustenta"
   },
   "19-1-1-6": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: SPEAKER_AUDIENCE_CONSISTENCY: O Salmo 1 é um poema sapiencial anônimo, e o texto não traz Davi discursando ao povo de Israel como afirma o ensino.",
+   "estado": "pronto",
+   "titulo": "A raiz invisível da sua produtividade"
   },
   "19-2-1-12": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "Quem é o Rei que as nações temem?"
   },
   "19-3-1-8": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "Dormir em paz quando o medo grita"
   },
   "19-4-1-8": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "A paz que o mundo não pode dar"
   },
   "19-5-1-12": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:curto:155, entender:menos_de_2_paragrafos",
+   "estado": "pronto",
+   "titulo": "O clamor matinal diante da santidade divina"
   },
   "19-6-1-10": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "O grito honesto que Deus ouve"
   },
   "19-7-1-9": {
    "execucoes": 0,
@@ -2999,28 +3015,48 @@
   "19-9-1-10": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-9-11-20": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-10-1-9": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-10-10-18": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-11-1-7": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-12-1-8": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 937,
-   "entrada": 2462668,
-   "saida": 822848
+   "chamadas": 944,
+   "entrada": 2480686,
+   "saida": 829021
   },
   "groq-qwen": {
-   "chamadas": 934,
-   "entrada": 2348517,
-   "saida": 759747
+   "chamadas": 941,
+   "entrada": 2364490,
+   "saida": 765598
   },
   "gemini": {
-   "chamadas": 813,
-   "entrada": 2638883,
-   "saida": 1029320
+   "chamadas": 823,
+   "entrada": 2669642,
+   "saida": 1040325
   },
   "cloudflare": {
-   "chamadas": 503,
-   "entrada": 1758135,
-   "saida": 186613
+   "chamadas": 511,
+   "entrada": 1784670,
+   "saida": 189581
   },
   "mistral": {
    "chamadas": 0,

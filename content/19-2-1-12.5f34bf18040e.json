@@ -1,0 +1,145 @@
+{
+ "id": "19-2-1-12",
+ "ref": "Salmos 2:1-12",
+ "book": "19",
+ "chapter": 2,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Por que as nações se rebelam, e os povos planejam em vão?"
+  },
+  {
+   "n": 2,
+   "t": "Os reis da terra se levantam, e os governantes tomam conselhos reunidos contra o SENHOR, e contra seu Ungido, dizendo :"
+  },
+  {
+   "n": 3,
+   "t": "Rompamos as correntes deles, e lancemos fora de nós as cordas deles."
+  },
+  {
+   "n": 4,
+   "t": "Aquele que está sentado nos céus rirá; o Senhor zombará deles."
+  },
+  {
+   "n": 5,
+   "t": "Então ele lhes falará em sua ira; em seu furor ele os assombrará, dizendo :"
+  },
+  {
+   "n": 6,
+   "t": "E eu ungi a meu Rei sobre Sião, o monte de minha santidade."
+  },
+  {
+   "n": 7,
+   "t": "E eu declararei o decreto do SENHOR: Ele me disse: Tu és meu Filho; eu hoje te gerei."
+  },
+  {
+   "n": 8,
+   "t": "Pede-me, e eu te darei as nações por herança, e por tua propriedade os confins da terra."
+  },
+  {
+   "n": 9,
+   "t": "Com cetro de ferro tu as quebrarás; como vaso de oleiro tu as despedaçarás;"
+  },
+  {
+   "n": 10,
+   "t": "Portanto agora, reis, sede prudentes; vós, juízes da terra, deixai serdes instruídos."
+  },
+  {
+   "n": 11,
+   "t": "Servi ao SENHOR com temor; e alegrai-vos com tremor."
+  },
+  {
+   "n": 12,
+   "t": "Beijai ao Filho, para que ele não se ire, e pereçais no caminho; porque em breve a ira dele se acenderá. Bem-aventurados são todos os que nele confiam."
+  }
+ ],
+ "titulo": "Quem é o Rei que as nações temem?",
+ "temas": [
+  "rei",
+  "juízo",
+  "fé"
+ ],
+ "pergunta": "Você já percebeu quem realmente governa quando os poderosos se rebelam?",
+ "entender": "O salmo 2 descreve uma situação de rebelião: \"Por que as nações se rebelam, e os povos planejam em vão?\" (Sal 2.1). Reis e governantes se juntam contra o Senhor e o seu Ungido, planejando romper as suas correntes. Diante desse levante, Deus, que está nos céus, ri e zomba deles (v.4). Ele declara que já havia escolhido um Filho, \"Tu és meu Filho; eu hoje te gerei\" (v.7), e promete dar-lhe as nações como herança (v.8). O texto termina com um convite aos reis: sejam prudentes, sirvam ao Senhor com temor e alegrem‑se, beijando o Filho para evitar a ira (v.10‑12). O salmo, portanto, mostra a soberania de Deus sobre as potências humanas e a necessidade de reconhecer o Seu Rei.\n\nNo contexto messiânico dos Salmos, o \"Ungido\" (Messias) é apresentado como o Rei estabelecido por Deus. A linguagem de julgamento contra as nações reflete a realidade de que todo poder humano é limitado diante do plano divino. O convite final a \"beijar o Filho\" indica que a submissão ao Cristo traz segurança, enquanto a rejeição leva à ira divina.",
+ "ligar": {
+  "texto": "O Salmo 2 aponta diretamente para Jesus como o Filho de Deus que recebeu todas as nações como herança (v.7‑8). No Novo Testamento, Jesus se apresenta como o Rei prometido (Mateus 21.5) e cumpre a profecia de ser o Ungido que reina sobre os povos. A sua morte e ressurreição dão a todos que crêem a oportunidade de \"beijar\" o Filho, recebendo graça e escapando da ira que virá contra os que rejeitam o seu senhorio. Assim, o salmo prepara o coração para reconhecer Cristo como o Rei soberano que traz salvação e paz.",
+  "selo": true
+ },
+ "viver": "Quando vemos líderes que buscam poder a qualquer custo, lembre‑se de que o verdadeiro Rei já está assentado nos céus. Em vez de seguir a lógica de quem tenta romper as correntes de Deus, escolha servir ao Senhor com temor, reconhecendo sua autoridade em cada decisão diária. Isso significa buscar a vontade divina antes de se envolver em disputas de poder, confiando que Ele tem o controle sobre todas as nações e que, ao honrar o Filho, você recebe proteção e paz interior.",
+ "guarde": "O Rei que governa sobre todas as nações é o Filho de Deus; reconheça‑o e encontre segurança.",
+ "ore": "Senhor, ao observar as ambições dos poderosos, ajuda‑me a reconhecer que Tu já estabeleceste Teu Filho como Rei e a viver sob Seu senhorio, servindo‑Te com temor e alegria.",
+ "quiz": {
+  "pergunta": "Qual é a resposta de Deus ao levante das nações contra o Seu Ungido?",
+  "opcoes": [
+   "Ele enviará um anjo para castigá‑los",
+   "Ele rirá e zombará deles",
+   "Ele ficará em silêncio"
+  ],
+  "certa": 1,
+  "explicacao": "O texto diz que \"Aquele que está sentado nos céus rirá; o Senhor zombará deles\" (v.4), mostrando a confiança de Deus na sua soberania."
+ },
+ "refs": [
+  "Mateus 21:5",
+  "Hebreus 1:5",
+  "Apocalipse 19:15",
+  "Isaías 9:6"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-02T10:13:54.077Z",
+  "rounds": 1
+ }
+}

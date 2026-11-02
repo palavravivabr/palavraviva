@@ -1,0 +1,132 @@
+{
+ "id": "45-16-10-18",
+ "ref": "Romanos 16:10-18",
+ "book": "45",
+ "chapter": 16,
+ "verses": [
+  {
+   "n": 10,
+   "t": "Saudai Apeles, aprovado em Cristo. Saudai os que são da casa de Aristóbulo."
+  },
+  {
+   "n": 11,
+   "t": "Saudai Herodião, meu parente. Saudai os que são da casa de Narciso, que estão no Senhor."
+  },
+  {
+   "n": 12,
+   "t": "Saudai Trifena e Trifosa, que trabalham no Senhor. Saudai a amada Pérside, que trabalhou muito no Senhor."
+  },
+  {
+   "n": 13,
+   "t": "Saudai Rufo, o escolhido no Senhor, e a mãe dele, e minha também."
+  },
+  {
+   "n": 14,
+   "t": "Saudai Asíncrito, Flegonte, Hermas, Pátrobas, Hermes e os irmãos que estão com eles."
+  },
+  {
+   "n": 15,
+   "t": "Saudai Filólogo, Júlia, Nereu e sua irmã, Olimpas, e todos os santos que estão com eles."
+  },
+  {
+   "n": 16,
+   "t": "Saudai-vos uns aos outros com beijo santo. As igrejas de Cristo vos saúdam."
+  },
+  {
+   "n": 17,
+   "t": "E rogo-vos, irmãos, que sejais cuidadosos com os que causam divisões e obstáculos contrários à doutrina que aprendestes; e afastai-vos deles;"
+  },
+  {
+   "n": 18,
+   "t": "pois tais pessoas não servem ao nosso Senhor Jesus Cristo, mas sim, ao próprio ventre; e com palavras suaves e elogios enganam os corações dos ingênuos."
+  }
+ ],
+ "titulo": "Como manter a igreja livre de divisões",
+ "temas": [
+  "unidade",
+  "discernimento",
+  "falsos mestres"
+ ],
+ "pergunta": "Você sabe identificar quem realmente traz paz ou divisão à comunidade?",
+ "entender": "Paulo encerra a sua carta a Roma enviando saudações a diversos irmãos (v.10‑15). Ele menciona que são \"aprovado em Cristo\" (v.10) e que trabalham no Senhor (v.12). Em seguida, faz um alerta: os crentes devem ser cuidadosos com quem cria divisões e \"obstáculos contrários à doutrina que aprendestes\" (v.17) e se afastar desses (v.18). O apóstolo afirma que tais pessoas \"não servem ao nosso Senhor Jesus Cristo\" (v.18), mas ao \"próprio ventre\", usando palavras suaves para enganar os ingênuos. O contexto maior da carta mostra a preocupação de Paulo com a pureza da fé e a necessidade de amor unido, mas sem tolerar quem distorce o evangelho.\n\nAssim, o trecho tem duas dimensões: a prática da saudação demonstra a comunhão e o respeito entre os irmãos, e a advertência protege a comunidade de influências que promovem desunião e falsas doutrinas. O \"beijo santo\" (v.16) simboliza a profunda intimidade cristã que deve ser preservada.",
+ "ligar": {
+  "texto": "O texto menciona explicitamente \"nosso Senhor Jesus Cristo\" (v.18). A advertência contra os que não servem a Ele aponta que a verdadeira unidade só existe quando a fé está fundada em Cristo. O evangelho nos chama a amar uns aos outros (cf. João 13:34‑35) e a proteger a igreja da falsidade que impede a obra de reconciliação que Jesus realizou na cruz.",
+  "selo": true
+ },
+ "viver": "A prática de saudação e de \"beijo santo\" pode ser vivida hoje como um momento de reconhecimento mútuo na sua comunidade: reserve um tempo, ao final de cada culto, para que cada pessoa agradeça a outra por um ato de serviço ou encorajamento. Ao mesmo tempo, mantenha um critério claro de discernimento: compare tudo que ouve com a doutrina de Cristo revelada nas Escrituras. Quando perceber alguém semeando divisão, trate a situação com amor, mas mantenha distância de suas ideias errôneas, evitando que contaminem a fé dos demais.",
+ "guarde": "Unidos em Cristo, vigilantes contra quem semeia divisão.",
+ "ore": "Senhor Deus, dá-me sabedoria para reconhecer e valorizar os irmãos que trabalham no Senhor, e força para afastar-me das palavras suaves que enganam corações ingênuos.",
+ "quiz": {
+  "pergunta": "O que Paulo recomenda fazer em relação às pessoas que criam divisões?",
+  "opcoes": [
+   "Confrontá‑las publicamente",
+   "Ignorá‑las completamente",
+   "Afastar‑se delas"
+  ],
+  "certa": 2,
+  "explicacao": "Paulo instrui: \"afastai‑vos deles\" (v.17), indicando que a separação é a medida correta para proteger a comunidade."
+ },
+ "refs": [
+  "1 Coríntios 5:9-13",
+  "Efésios 4:3-6",
+  "2 Timóteo 3:5"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-02T10:10:26.432Z",
+  "rounds": 2
+ }
+}

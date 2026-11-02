@@ -1,0 +1,121 @@
+{
+ "id": "19-1-1-6",
+ "ref": "Salmos 1:1-6",
+ "book": "19",
+ "chapter": 1,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Bem-aventurado o homem que não anda no conselho dos maus, nem fica parado no caminho dos pecadores, nem se senta junto dos escarnecedores."
+  },
+  {
+   "n": 2,
+   "t": "Mas sim, que tem seu prazer na Lei do SENHOR; e medita em sua Lei de dia e de noite."
+  },
+  {
+   "n": 3,
+   "t": "Porque ele será como uma árvore, plantada junto a ribeiros de águas, que dá fruto a seu devido tempo, e suas folhas não caem; e tudo quanto fizer prosperará."
+  },
+  {
+   "n": 4,
+   "t": "Os maus não são assim; mas são como a palha que o vento dispersa."
+  },
+  {
+   "n": 5,
+   "t": "Por isso os maus não subsistirão no julgamento, nem os pecadores no ajuntamento dos justos."
+  },
+  {
+   "n": 6,
+   "t": "Porque o SENHOR conhece o caminho dos justos; porém o caminho dos maus perecerá."
+  }
+ ],
+ "titulo": "A raiz invisível da sua produtividade",
+ "temas": [
+  "sabedoria",
+  "meditação",
+  "estabilidade",
+  "juízo"
+ ],
+ "pergunta": "O que realmente sustenta a sua vida nos dias difíceis?",
+ "entender": "O Salmo 1 começa com uma declaração surpreendente: a verdadeira felicidade não depende de circunstâncias externas, mas de uma escolha diária. O salmista descreve o 'bem-aventurado' como aquele que não segue o conselho dos maus, nem se mistura com os pecadores. Em vez disso, essa pessoa encontra prazer na Lei do Senhor e medita nela continuamente.\n\nA imagem usada é poderosa: essa pessoa é como uma árvore plantada junto a ribeiros de águas. Ela dá fruto no tempo certo e suas folhas não caem. Isso indica uma vida enraizada, estável e produtiva, mesmo em tempos de seca. Em contraste, os maus são como palha, algo leve e sem valor que o vento dispersa facilmente. O texto finaliza afirmando que Deus conhece o caminho dos justos, garantindo que o caminho dos maus perecerá.",
+ "ligar": {
+  "texto": "Embora o Salmo 1 não mencione Jesus diretamente, ele aponta para a necessidade de uma fonte de vida que sustente o crente. Jesus se apresentou como a Videira verdadeira, da qual nós somos os ramos (João 15). Assim como a árvore precisa da água para dar fruto, nós precisamos estar unidos a Cristo para ter vida espiritual. A Lei que o salmista medita encontra seu cumprimento perfeito em Cristo, que nos ensina o caminho da justiça e da paz. Nossa estabilidade vem não da nossa força, mas de permanecer em Jesus.",
+  "selo": false
+ },
+ "viver": "Pense em como você passa seus dias. O que consome sua atenção? O salmista fala em meditar na Lei de dia e de noite. Isso não significa decorar versículos, mas deixar que a palavra de Deus filtre suas decisões. Hoje, reserve um momento para ler um salmo ou um capítulo de um evangelho. Em vez de apenas ler, pergunte-se: 'O que isso me ensina sobre Deus e sobre minha vida?' Deixe essa verdade enraizar-se em você antes de sair para o trabalho ou para as redes sociais. Sua paz vem dessa conexão, não do controle das circunstâncias.",
+ "guarde": "Sua vida é forte quando suas raízes estão firmes na palavra de Deus.",
+ "ore": "Pai, ajuda-me a deixar de buscar prazer em coisas passageiras. Enraíza-me em Ti, como uma árvore junto à água. Que minha vida dê fruto a seu tempo e que eu encontre paz em Tua Palavra, dia e noite. Amém.",
+ "quiz": {
+  "pergunta": "Quem é comparado à palha que o vento dispersa?",
+  "opcoes": [
+   "Os maus",
+   "Os escarnecedores",
+   "Os pecadores"
+  ],
+  "certa": 0,
+  "explicacao": "O versículo 4 diz explicitamente: 'Os maus não são assim; mas são como a palha que o vento dispersa.' Embora os pecadores e escarnecedores sejam mencionados, a comparação direta com a palha é feita para 'os maus'."
+ },
+ "refs": [
+  "Provérbios 3:18",
+  "Mateus 7:24-25",
+  "João 15:5"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-02T10:16:13.969Z",
+  "rounds": 1
+ }
+}

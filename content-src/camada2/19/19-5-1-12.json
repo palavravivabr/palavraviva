@@ -1,0 +1,145 @@
+{
+ "id": "19-5-1-12",
+ "ref": "Salmos 5:1-12",
+ "book": "19",
+ "chapter": 5,
+ "verses": [
+  {
+   "n": 1,
+   "t": "SENHOR, escuta as minhas palavras; entende aquilo que estou meditando;"
+  },
+  {
+   "n": 2,
+   "t": "Ouve a voz do meu clamor, meu Rei e meu Deus; porque a ti eu oro."
+  },
+  {
+   "n": 3,
+   "t": "SENHOR, pela manhã ouvirás minha voz; pela manhã apresentarei meu clamor a ti, e ficarei esperando."
+  },
+  {
+   "n": 4,
+   "t": "Porque tu não és Deus que tens prazer na maldade; contigo não habitará o mau."
+  },
+  {
+   "n": 5,
+   "t": "Os arrogantes não ficarão de pé diante dos teus olhos; tu odeias todas os praticantes de maldade."
+  },
+  {
+   "n": 6,
+   "t": "Tu destruirás aos que falam mentiras; o SENHOR abomina ao homem sanguinário e enganador."
+  },
+  {
+   "n": 7,
+   "t": "Mas eu, pela grandeza de tua bondade, entrarei em tua casa; adorarei inclinado para o templo de tua santidade em temor a ti."
+  },
+  {
+   "n": 8,
+   "t": "SENHOR, guia-me em tua justiça, por causa dos meus adversários; prepara diante de mim o teu caminho."
+  },
+  {
+   "n": 9,
+   "t": "Porque não há verdade na boca deles; seu interior são meras destruições; a garganta deles é uma sepultura aberta; com suas línguas elogiam falsamente."
+  },
+  {
+   "n": 10,
+   "t": "Declara-os culpados, ó Deus, e que caiam de seus próprios conselhos; expulsa-os por causa da abundância de suas transgressões, porque eles se rebelaram contra ti."
+  },
+  {
+   "n": 11,
+   "t": "Mas se alegrem todos os que confiam em ti; clamai de alegria para sempre; porque tu os proteges; e fiquem contentes em ti aqueles que amam o teu nome."
+  },
+  {
+   "n": 12,
+   "t": "Porque tu, SENHOR, abençoarás ao justo; como com um escudo tu o rodearás com tua bondade."
+  }
+ ],
+ "titulo": "O clamor matinal diante da santidade divina",
+ "temas": [
+  "oração",
+  "santidade",
+  "justiça",
+  "proteção"
+ ],
+ "pergunta": "Por que o salmista destaca a pureza de Deus antes de pedir ajuda contra seus inimigos?",
+ "entender": "Este salmo começa com uma oração pessoal e urgente. O autor pede que o Senhor ouça suas palavras e entenda o que está meditando. Ele se dirige a Deus como Rei e Deus, reconhecendo que a Ele ele ora. Há uma insistência na hora: “pela manhã ouvirás minha voz”. O salmista apresenta seu clamor cedo, esperando a resposta imediata do Senhor antes que o dia comece.\n\nA segunda parte revela por que ele pode confiar. Deus não tem prazer na maldade e odeia os arrogantes e os que falam mentiras. O salmista contrasta a natureza de Deus com a dos seus adversários, que têm “interior são meras destruições”. Por causa da bondade de Deus, o salmista pode entrar na casa do Senhor e adorar em temor, pedindo para ser guiado em justiça.\n\nFinalmente, o salmo termina com uma promessa de proteção. Deus declara culpados os que se rebelam, mas abençoa o justo, rodeando-o com sua bondade como um escudo. A segurança do salmista não vem da força dele, mas da fidelidade de Deus.",
+ "ligar": {
+  "texto": "Jesus é o cumprimento dessa oração. Ele é o Rei justo que ouve o clamor dos seus, mas também o Justo que venceu o pecado. No Novo Testamento, vemos que Jesus é nossa intercessão e proteção. Ele nos ensina a orar com confiança, sabendo que o Pai não tem prazer na maldade, mas é amor. Através de Cristo, temos acesso à presença de Deus, como o salmista deseja. Jesus é o escudo que nos protege das acusações, pois Ele pagou o preço pela nossa redenção.",
+  "selo": false
+ },
+ "viver": "Comece seu dia buscando a Deus antes de qualquer outra coisa. O salmista ora pela manhã porque sabe que Deus ouve. Em vez de começar ansioso com os problemas, dedique minutos para falar com Deus, reconhecendo Sua santidade e bondade. Peça direção para agir com justiça em suas relações, especialmente em conflitos. Confie que, assim como Deus protege o justo com seu escudo, Ele cuidará de você, não por sua perfeição, mas por Sua fidelidade.",
+ "guarde": "Deus ouve o clamor da manhã e protege o justo com seu escudo de bondade.",
+ "ore": "Senhor, pela manhã apresento meu clamor a ti. Ajuda-me a adorar em temor, reconhecendo tua santidade. Guia-me em tua justiça contra os adversários e rodeia-me com tua bondade como um escudo.",
+ "quiz": {
+  "pergunta": "O que o salmista diz sobre a natureza de Deus em relação à maldade?",
+  "opcoes": [
+   "Deus não tem prazer na maldade",
+   "Deus habita com os maus para julgar",
+   "Deus ignora a maldade dos arrogantes"
+  ],
+  "certa": 0,
+  "explicacao": "O versículo 4 afirma claramente: “Porque tu não és Deus que tens prazer na maldade”. Isso contrasta com a ideia de que Deus seria indiferente ou que habitaria com os maus."
+ },
+ "refs": [
+  "Salmos 119:147",
+  "Efésios 6:16",
+  "1 Pedro 5:7"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-02T10:20:17.236Z",
+  "rounds": 2
+ }
+}
