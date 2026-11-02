@@ -244,11 +244,11 @@
 
   /* ---------- navegação (o botão voltar do Android funciona dentro do app) ---------- */
   var curState = { v: 'home', d: 0 }, overlay = null;
-  var SCREENS = ['home', 'chap', 'read', 'study', 'ens', 'search', 'marks', 'plano', 'menu', 'err'];
+  var SCREENS = ['home', 'chap', 'read', 'study', 'ens', 'search', 'marks', 'plano', 'menu', 'bible', 'err'];
   function showScreen(v) {
     SCREENS.forEach(function (x) { var s = $('#s-' + x); if (s) s.classList.toggle('on', x === v); });
     var el = $('#s-' + v); if (el) el.scrollTop = 0;
-    $$('.nav button[data-tab]').forEach(function (b) { if (b.dataset.tab === v) b.setAttribute('aria-current', 'page'); else b.removeAttribute('aria-current'); });
+    $$('.nav button[data-tab]').forEach(function (b) { if (b.dataset.tab === (v === 'bible' ? 'home' : v)) b.setAttribute('aria-current', 'page'); else b.removeAttribute('aria-current'); });
   }
   function go(state, replace) {
     var s = {}; Object.keys(state).forEach(function (k) { s[k] = state[k]; });
@@ -267,7 +267,7 @@
     curState = s;
     try {
       if (s.v === 'chap') viewChap(s); else if (s.v === 'read') viewRead(s); else if (s.v === 'study') viewStudy(s);
-      else if (s.v === 'ens') viewEnsinos(); else if (s.v === 'search') viewSearch(); else if (s.v === 'marks') viewMarks(); else if (s.v === 'plano') viewPlano(); else if (s.v === 'menu') viewMenu(); else viewHome();
+      else if (s.v === 'ens') viewEnsinos(); else if (s.v === 'search') viewSearch(); else if (s.v === 'marks') viewMarks(); else if (s.v === 'plano') viewPlano(); else if (s.v === 'bible') viewBible(); else if (s.v === 'menu') viewMenu(); else viewHome();
     } catch (e) { fail(e); }
   }
   function fail(e) {
@@ -316,24 +316,20 @@
         [h('b', { text: b.abbr }), h('span', { text: b.name })]));
     });
   }
+  function viewBible() { showScreen('bible'); drawBooks(); }
   async function viewHome() {
     showScreen('home');
     $('#testbar').hidden = manifest.production !== false;
     drawBooks();
     var last = await kvGet('onde-parei'), first = firstAvailable(), r = $('#resume');
-    if (last && bookOf(last.book)) { r.hidden = false; $('#resumeEb').textContent = 'Continuar leitura'; $('#resumeTxt').textContent = last.label; r.onclick = function () { go({ v: 'read', b: last.book, c: last.chapter }); }; }
+    if (last && bookOf(last.book)) { r.hidden = false; $('#resumeEb').textContent = 'Continuar leitura'; $('#resumeTxt').textContent = last.label; r.onclick = function () { go({ v: 'read', b: last.book, c: last.chapter, verse: last.verse }); }; }
     else if (first) { var fb = bookOf(first.book); r.hidden = false; $('#resumeEb').textContent = 'Começar a leitura'; $('#resumeTxt').textContent = fb.name + ' ' + first.chapter; r.onclick = function () { go({ v: 'read', b: first.book, c: first.chapter }); }; }
     else r.hidden = true;
-    planoCard();
+    homeResumeBar(last && bookOf(last.book) ? last : null);
+    planoCard(); homeBuild();
     var f = featured(); $('#cardStudy').hidden = !f; $('#railSec').hidden = false;
     var np = (manifest.passages || []).length; $('#cardEns').hidden = !np; $('#ensBanner').hidden = !np; if (np) $('#ensBannerTxt').textContent = 'Aprenda a Palavra: ' + np + (np === 1 ? ' ensino pronto' : ' ensinos prontos');
     if (np) { $('#ensTitle').textContent = 'Aprenda a Palavra'; $('#ensSmall').textContent = np + (np === 1 ? ' ensino pronto' : ' ensinos prontos') + ' · toque para ver'; }
-    if (f) {
-      try {
-        var p = await loadPackage(pkgBy[f.path]);
-        if (p.pergunta) { $('#qEyebrow').textContent = 'Para pensar antes de ler'; $('#qTitle').textContent = p.pergunta; $('#qText').textContent = 'Uma pergunta para abrir o coração antes de ler ' + f.ref + '.'; }
-      } catch (e) { /* sem rede e sem cache: fica o texto padrão */ }
-    }
   }
   /* ---------- plano de leitura: Evangelhos em 30 dias (o progresso fica só neste aparelho e entra no backup) ---------- */
   var PLANO = { id: 'ev30', nome: 'Evangelhos em 30 dias', livros: [['40', 28], ['41', 16], ['42', 24], ['43', 21]], porDia: 3 };
@@ -392,7 +388,7 @@
     }
     body.appendChild(h('button', { class: 'plink', type: 'button', text: 'Reiniciar o plano', onclick: function () { if (window.confirm('Apagar o progresso deste plano e começar de novo?')) kvSet('plano', null).then(viewPlano); } }));
   }
-  function actRead() { kvGet('onde-parei').then(function (last) { var f = firstAvailable(); if (last && bookOf(last.book)) go({ v: 'read', b: last.book, c: last.chapter }); else if (f) go({ v: 'read', b: f.book, c: f.chapter }); else toast('Ainda não há texto bíblico neste aparelho.'); }); }
+  function actRead() { kvGet('onde-parei').then(function (last) { var f = firstAvailable(); if (last && bookOf(last.book)) go({ v: 'read', b: last.book, c: last.chapter, verse: last.verse }); else if (f) go({ v: 'read', b: f.book, c: f.chapter }); else toast('Ainda não há texto bíblico neste aparelho.'); }); }
   function actStudy() { var f = featured(); if (f) go({ v: 'study', id: f.id }); else toast('Ainda não há ensino publicado neste aparelho.'); }
 
   /* ---------- capítulos ---------- */
@@ -586,20 +582,17 @@
       return;
     }
     if (curState !== s) return; // o usuário já foi para outra tela
-    kvSet('onde-parei', { book: b.id, chapter: s.c, label: b.name + ' ' + s.c });
+    kvSet('onde-parei', s.verse ? { book: b.id, chapter: s.c, verse: s.verse, label: b.name + ' ' + s.c + ':' + s.verse } : { book: b.id, chapter: s.c, label: b.name + ' ' + s.c });
     var marks = await hlAll();
     clear(box);
     if (pkg.titulo) box.appendChild(h('p', { class: 'ptitulo', text: pkg.titulo }));
-    if (!lsGet('pv4-dica-marca', '')) box.appendChild(h('div', { class: 'dica' }, [h('span', { text: 'Dica: toque num versículo para destacá-lo. Seus destaques ficam em Minha Palavra. Deslize para os lados para trocar de capítulo.' }), h('button', { type: 'button', text: 'Entendi', onclick: function (e) { lsSet('pv4-dica-marca', '1'); var d = e.currentTarget.parentNode; d.parentNode.removeChild(d); } })]));
+    if (!lsGet('pv4-dica-marca', '')) box.appendChild(h('div', { class: 'dica' }, [h('span', { text: 'Dica: toque num versículo para destacar, copiar, compartilhar ou anotar. Tudo fica guardado em Minha Palavra. Deslize para os lados para trocar de capítulo.' }), h('button', { type: 'button', text: 'Entendi', onclick: function (e) { lsSet('pv4-dica-marca', '1'); var d = e.currentTarget.parentNode; d.parentNode.removeChild(d); } })]));
     pkg.verses.forEach(function (v) {
       var key = b.id + ':' + s.c + ':' + v.n;
       var vl = v.ate ? v.n + '-' + v.ate : String(v.n);
-      var btn = h('button', { class: 'v', type: 'button', 'data-n': String(v.n), 'aria-pressed': marks[key] ? 'true' : 'false', 'aria-label': 'Versículo ' + vl + '. Toque para destacar.' },
+      var btn = h('button', { class: 'v', type: 'button', 'data-n': String(v.n), 'aria-pressed': marks[key] ? 'true' : 'false', 'aria-label': 'Versículo ' + vl + '. Toque para abrir as opções.' },
         [h('sup', { text: vl }), h('span', { text: v.t })]);
-      btn.addEventListener('click', function () {
-        var on = btn.getAttribute('aria-pressed') !== 'true';
-        btn.setAttribute('aria-pressed', on ? 'true' : 'false'); hlSet(key, on); toast(on ? 'Versículo destacado' : 'Destaque removido');
-      });
+      btn.addEventListener('click', function () { versoMenu(b, s.c, v, key, btn, ver); });
       box.appendChild(btn);
     });
     passagesOf(b.id, s.c).forEach(function (p) {
@@ -615,6 +608,16 @@
       }, { threshold: 0.6 });
       ob.observe(fim);
     });
+    if ('IntersectionObserver' in window) {
+      var fim2 = $('.row2'), t1 = Date.now();
+      if (fim2) {
+        var ob2 = new IntersectionObserver(function (es) {
+          if (!es[0].isIntersecting) return; ob2.disconnect();
+          setTimeout(function () { if (curState === s) lidoMarcar(b.id, s.c); }, Math.max(0, 6000 - (Date.now() - t1)));
+        }, { threshold: 0.6 });
+        ob2.observe(fim2);
+      }
+    }
     if (s.verse) { var t = $('.v[data-n="' + s.verse + '"]', box); if (t) { t.scrollIntoView({ block: 'center' }); t.classList.add('flash'); } }
   }
 
@@ -781,28 +784,206 @@
     draw(); box.appendChild(more);
   }
 
-  /* ---------- minha palavra (destaques) ---------- */
+  /* ---------- Jornada: registro dos capítulos lidos (guardado só neste aparelho, em kv "historico"; entra no backup) ---------- */
+  function lidoMarcar(book, cap) {
+    return kvGet('historico').then(function (hist) { return kvSet('historico', core.registrarLeitura(hist, book, cap, Date.now())); });
+  }
+
+  /* ---------- menu do versículo (toque no versículo durante a leitura) ---------- */
+  function shareCardVerso(ref, frase) {
+    var texto = '“' + frase + '” (' + ref + ')', url = baseUrl();
+    makeCard(frase, ref).then(function (blob) {
+      var f = new File([blob], 'cartao-biblico.png', { type: 'image/png' });
+      if (navigator.canShare && navigator.canShare({ files: [f] })) navigator.share({ files: [f], title: ref, text: texto + ' ' + url }).catch(function () { /* cancelado */ });
+      else send({ title: ref, text: texto, url: url }, 'Texto copiado');
+    }, function () { send({ title: ref, text: texto, url: url }, 'Texto copiado'); });
+  }
+  function versoMenu(b, cap, v, key, btn, ver) {
+    var vl = v.ate ? v.n + '-' + v.ate : String(v.n), ref = b.name + ' ' + cap + ':' + vl;
+    var credito = (ver && ver.sigla ? ' ' + ver.sigla + ' · ' : ' ') + APP_NAME;
+    var texto = core.textoVerso(b.name, cap, vl, v.t) + credito;
+    var on = btn.getAttribute('aria-pressed') === 'true';
+    kvSet('onde-parei', { book: b.id, chapter: cap, verse: v.n, label: ref });
+    function acao(rot, fn) { return h('button', { class: 'vmact', type: 'button', text: rot, onclick: fn }); }
+    modal([
+      mtag(ref, true),
+      h('p', { class: 'vmtxt', text: v.t }),
+      h('div', { class: 'vmenu' }, [
+        acao(on ? 'Remover destaque' : 'Destacar', function () { var novo = !on; btn.setAttribute('aria-pressed', novo ? 'true' : 'false'); hlSet(key, novo); closeOverlay(); toast(novo ? 'Versículo destacado' : 'Destaque removido'); }),
+        acao('Copiar', function () { copy(texto, 'Versículo copiado'); closeOverlay(); }),
+        acao('Compartilhar', function () { send({ title: ref, text: texto + ':', url: baseUrl() }); }),
+        acao('Compartilhar cartão', function () { shareCardVerso(ref, v.t); }),
+        acao('Anotar', function () { notasAbrir({ ref: ref, vk: key }); })
+      ])
+    ]);
+  }
+
+  /* ---------- Minha Palavra: Jornada, Destaques e Notas ---------- */
+  var marksTab = 'jornada';
+  function aposNota() { if (curState && curState.v === 'marks' && marksTab === 'notas') viewMarks(); }
   async function viewMarks() {
     showScreen('marks');
-    var body = clear($('#marksBody'));
+    var body = clear($('#marksBody')), tab = marksTab;
+    var abas = [['jornada', 'Jornada'], ['destaques', 'Destaques'], ['notas', 'Notas']];
+    body.appendChild(h('div', { class: 'mseg', role: 'tablist', 'aria-label': 'Minha Palavra' }, abas.map(function (a) {
+      return h('button', { type: 'button', role: 'tab', 'aria-selected': String(tab === a[0]), text: a[1], onclick: function () { if (marksTab !== a[0]) { marksTab = a[0]; viewMarks(); } } });
+    })));
+    var area = h('div', { class: 'marksarea' }); body.appendChild(area);
+    try {
+      if (tab === 'destaques') await marksDestaques(area); else if (tab === 'notas') await marksNotas(area); else await marksJornada(area);
+    } catch (e) { area.appendChild(h('p', { class: 'empty', text: 'Não foi possível carregar esta lista neste aparelho.' })); }
+  }
+  function marksBusca(rotulo) { return h('input', { class: 'msearch', type: 'search', placeholder: rotulo, 'aria-label': rotulo, autocomplete: 'off' }); }
+
+  async function marksDestaques(area) {
     var keys = Object.keys(await hlAll());
     if (!keys.length) {
-      body.appendChild(h('div', { class: 'empty' }, [h('p', { text: 'Você ainda não destacou nenhum versículo. Toque em um versículo durante a leitura para guardá-lo aqui.' }), h('button', { class: 'btn', type: 'button', text: 'Ir ler', onclick: actRead })]));
+      area.appendChild(h('div', { class: 'empty' }, [h('p', { text: 'Você ainda não destacou nenhum versículo. Toque em um versículo durante a leitura e escolha Destacar para guardá-lo aqui.' }), h('button', { class: 'btn', type: 'button', text: 'Ir ler', onclick: actRead })]));
       return;
     }
     var order = {}; catalog().forEach(function (b, i) { order[b.id] = i; });
     var items = keys.map(function (k) { var p = k.split(':'); return { b: p[0], c: parseInt(p[1], 10), v: parseInt(p[2], 10) }; })
       .filter(function (x) { return bookOf(x.b); })
       .sort(function (a, b) { return (order[a.b] - order[b.b]) || (a.c - b.c) || (a.v - b.v); });
-    body.appendChild(h('p', { class: 'count', text: items.length + (items.length === 1 ? ' versículo destacado' : ' versículos destacados') }));
-    var list = h('div', { class: 'list' }); body.appendChild(list);
+    var busca = marksBusca('Buscar nos destaques'), conta = h('p', { class: 'count' }), list = h('div', { class: 'list' }), rows = [];
+    area.appendChild(busca); area.appendChild(conta); area.appendChild(list);
     for (var i = 0; i < items.length; i++) {
       var it = items[i], bk = bookOf(it.b), text = '';
-      try { var e = chapterEntry(bk, it.c); if (!e) { var bk0 = bookOf(it.b, 'blivre'); e = bk0 && chapterEntry(bk0, it.c); } if (e) { var pkg = await loadPackage(e, true); var vv = pkg.verses.filter(function (x) { return x.n === it.v; })[0]; if (vv) text = vv.t; } } catch (x) { /* sem o texto neste aparelho */ }
-      (function (it, bk, text) {
-        list.appendChild(h('button', { class: 'hit', type: 'button', onclick: function () { go({ v: 'read', b: it.b, c: it.c, verse: it.v }); } }, [h('strong', { text: bk.name + ' ' + it.c + ':' + it.v }), text ? h('span', { text: text }) : null]));
+      try { var e = chapterEntry(bk, it.c); if (!e) { var bk0 = bookOf(it.b, 'blivre'); e = bk0 && chapterEntry(bk0, it.c); } if (e) { var pkg = await loadPackage(e, true); var vv = pkg.verses.filter(function (x) { return x.n === it.v; })[0]; if (vv) text = vv.t; } } catch (x) { /* sem o texto neste aparelho: mostra só a referência */ }
+      var node = (function (it, bk, text) {
+        return h('button', { class: 'hit', type: 'button', onclick: function () { go({ v: 'read', b: it.b, c: it.c, verse: it.v }); } }, [h('strong', { text: bk.name + ' ' + it.c + ':' + it.v }), text ? h('span', { text: text }) : null]);
       })(it, bk, text);
+      rows.push({ node: node, hay: core.normalize(bk.name + ' ' + it.c + ':' + it.v + ' ' + text) });
+      list.appendChild(node);
     }
+    function filtra() {
+      var t = core.normalize(busca.value).trim(), n = 0;
+      rows.forEach(function (r) { var ok = !t || r.hay.indexOf(t) >= 0; r.node.hidden = !ok; if (ok) n++; });
+      conta.textContent = t ? n + (n === 1 ? ' resultado' : ' resultados') : items.length + (items.length === 1 ? ' versículo destacado' : ' versículos destacados');
+    }
+    busca.addEventListener('input', filtra); filtra();
+  }
+
+  async function marksNotas(area) {
+    area.appendChild(h('button', { class: 'btn', type: 'button', text: 'Nova anotação', onclick: function () { notasAbrir(); } }));
+    var l = await notasLer();
+    if (!l.length) { area.appendChild(h('p', { class: 'empty', text: 'Você ainda não tem anotações. Toque em um versículo durante a leitura e escolha Anotar, ou use o botão acima.' })); return; }
+    var busca = marksBusca('Buscar nas anotações'), list = h('div', { class: 'nlist' }), rows = [];
+    area.appendChild(busca); area.appendChild(list);
+    l.forEach(function (n) {
+      var d = new Date(n.editado || n.criado || 0).toLocaleDateString('pt-BR');
+      var node = h('div', { class: 'nitem' }, [
+        h('div', { class: 'nmeta', text: d + (n.ref ? ' · ' + n.ref : '') }),
+        h('p', { class: 'ntexto', text: n.texto }),
+        h('div', { class: 'row' }, [
+          n.estudo && metaOf(n.estudo) ? h('button', { class: 'nbtn', type: 'button', text: 'Abrir estudo', onclick: function () { go({ v: 'study', id: n.estudo }); } }) : null,
+          n.vk ? h('button', { class: 'nbtn', type: 'button', text: 'Ler versículo', onclick: function () { var q = n.vk.split(':'); go({ v: 'read', b: q[0], c: parseInt(q[1], 10), verse: parseInt(q[2], 10) }); } }) : null,
+          h('button', { class: 'nbtn', type: 'button', text: 'Editar', onclick: function () { notasAbrir({ edit: n }); } }),
+          h('button', { class: 'nbtn', type: 'button', text: 'Excluir', onclick: function () { if (window.confirm('Excluir esta anotação?')) notaApagar(n.id).then(function () { viewMarks(); }); } })])]);
+      rows.push({ node: node, hay: core.normalize((n.ref || '') + ' ' + n.texto) });
+      list.appendChild(node);
+    });
+    busca.addEventListener('input', function () {
+      var t = core.normalize(busca.value).trim();
+      rows.forEach(function (r) { r.node.hidden = !!t && r.hay.indexOf(t) < 0; });
+    });
+  }
+
+  async function marksJornada(area) {
+    var hist = (await kvGet('historico')) || {}, last = await kvGet('onde-parei'), pl = await planoGet();
+    var livros = catalog().map(function (b) { return { id: b.id, chapters: b.chapters }; });
+    var lidos = hist.lidos || {}, dias = hist.dias || {}, hoje = core.diaStr(Date.now());
+    var nCap = core.capitulosLidos(lidos, livros), nLiv = core.livrosConcluidos(lidos, livros), seq = core.diasSeguidos(dias, hoje);
+    if (last && bookOf(last.book)) {
+      area.appendChild(h('button', { class: 'resume', type: 'button', style: 'margin:0;width:100%', onclick: function () { go({ v: 'read', b: last.book, c: last.chapter, verse: last.verse }); } },
+        [h('span', { class: 't' }, [h('span', { class: 'eyebrow', text: 'Continuar leitura' }), h('strong', { text: last.label })]), h('span', { class: 'ler', text: 'Ler' })]));
+    }
+    function metrica(valor, rotulo, fn) {
+      return h(fn ? 'button' : 'div', fn ? { class: 'jm', type: 'button', onclick: fn } : { class: 'jm' }, [h('b', { text: String(valor) }), h('small', { text: rotulo })]);
+    }
+    var plano = null;
+    if (pl) { var lp = planoLista(), nf = lp.filter(function (it) { return planoFeito(pl, it); }).length; plano = metrica(nf + ' de ' + lp.length, PLANO.nome, function () { go({ v: 'plano' }); }); }
+    else plano = metrica('Não iniciado', PLANO.nome, function () { go({ v: 'plano' }); });
+    area.appendChild(h('div', { class: 'jgrid' }, [
+      metrica(nCap, nCap === 1 ? 'Capítulo lido' : 'Capítulos lidos'),
+      metrica(nLiv, nLiv === 1 ? 'Livro concluído' : 'Livros concluídos'),
+      metrica(seq, seq === 1 ? 'Dia seguido' : 'Dias seguidos'),
+      plano]));
+    var u = core.ultimosDias(dias, hoje, 7), lidosSemana = u.filter(function (x) { return x.lido; }).length, ini = ['D', 'S', 'T', 'Q', 'Q', 'S', 'S'];
+    area.appendChild(h('div', { class: 'jcard' }, [
+      h('div', { class: 'eyebrow', text: 'Últimos 7 dias' }),
+      h('div', { class: 'jdias', role: 'img', 'aria-label': 'Você leu em ' + lidosSemana + ' dos últimos 7 dias' }, u.map(function (x) { return h('i', { class: x.lido ? 'd' : '', text: ini[x.sem] }); })),
+      h('p', { class: 'hint', text: nCap ? 'Seu ritmo é só seu, sem comparação com ninguém.' : 'Seu progresso passa a ser guardado agora: leia um capítulo até o fim e ele aparece aqui.' })]));
+    var rec = core.recentes(lidos, 5).filter(function (x) { return bookOf(x.b); });
+    if (rec.length) {
+      area.appendChild(h('div', { class: 'eyebrow', style: 'margin:14px 0 8px', text: 'Lidos recentemente' }));
+      var lista = h('div', { class: 'list' }); area.appendChild(lista);
+      rec.forEach(function (x) {
+        lista.appendChild(h('button', { class: 'hit', type: 'button', onclick: function () { go({ v: 'read', b: x.b, c: x.c }); } }, [h('strong', { text: bookOf(x.b).name + ' ' + x.c }), h('span', { text: new Date(x.ts).toLocaleDateString('pt-BR') })]));
+      });
+    }
+    if (!nCap && !(last && bookOf(last.book))) area.appendChild(h('button', { class: 'btn', type: 'button', style: 'margin-top:12px', text: 'Ir ler', onclick: actRead }));
+  }
+
+  /* ---------- Home (lote B1): carrossel automático, Palavra do Dia em destaque e Ler a Bíblia ---------- */
+  var carAuto = true; /* some pelo resto da sessão depois que a pessoa toca ou desliza */
+  function homeResumeBar(l) {
+    var w = $('.rbar'), bar = $('#resumeBar'), sub = $('#resumeSub'); if (!w) return;
+    if (!l) { w.hidden = true; sub.textContent = ''; return; }
+    var b = bookOf(l.book), total = b ? (b.total || b.chapters.length) : 0;
+    if (!total) { w.hidden = true; sub.textContent = ''; return; }
+    w.hidden = false; bar.style.width = Math.max(4, Math.min(100, Math.round(l.chapter / total * 100))) + '%';
+    sub.textContent = 'Capítulo ' + l.chapter + ' de ' + total;
+  }
+  function slideEl(s) {
+    return h('div', { class: 'slide', style: '--img:url(' + s.img + ')' }, [
+      h('span', { class: 'eb', text: s.eb }), h('h1', { text: s.t }), s.p ? h('p', { text: s.p }) : null,
+      h('button', { class: 'cta', type: 'button', text: s.cta + ' →', onclick: s.go })]);
+  }
+  async function homeBuild() {
+    var imgs = ['assets/hero-bible.jpg', 'assets/hero-dawn.jpg', 'assets/hero-reading.jpg'];
+    var hist = (await kvGet('historico')) || {}, pl = await planoGet();
+    var ps = manifest.passages || [], dia = Math.floor(Date.now() / 864e5);
+    function estudo(k) {
+      if (!ps.length) return null;
+      var m = ps[(dia * 3 + k) % ps.length]; /* três estudos por dia, em fila: nenhum se repete até passar por todos */
+      return { eb: 'Estudo bíblico · ' + m.ref, t: m.titulo || ('Entender ' + m.ref), cta: 'Estudar agora', img: imgs[k % 3], go: function () { go({ v: 'study', id: m.id }); } };
+    }
+    var nCap = Object.keys(hist.lidos || {}).length, seq = core.diasSeguidos(hist.dias, core.diaStr(Date.now()));
+    var jor = nCap
+      ? { eb: 'Sua jornada', t: nCap + (nCap === 1 ? ' capítulo lido' : ' capítulos lidos'), p: seq ? seq + (seq === 1 ? ' dia seguido' : ' dias seguidos') + ' de leitura' : 'Continue no seu ritmo', cta: 'Ver minha jornada', img: imgs[2], go: function () { marksTab = 'jornada'; go({ v: 'marks' }); } }
+      : { eb: 'Sua jornada', t: 'Comece hoje, um capítulo de cada vez', p: 'O que você ler fica registrado aqui', cta: 'Ler agora', img: imgs[2], go: actRead };
+    var lp = planoLista(), d = pl ? planoDia(lp, pl) : null, tot = Math.ceil(lp.length / PLANO.porDia);
+    var pla = { eb: 'Plano de leitura', t: PLANO.nome, p: !pl ? 'Três capítulos por dia, no seu ritmo' : d.fim ? 'Plano concluído. Parabéns!' : 'Dia ' + d.dia + ' de ' + tot, cta: !pl ? 'Começar' : d.fim ? 'Ver plano' : 'Continuar plano', img: imgs[1], go: function () { go({ v: 'plano' }); } };
+    var lista = [estudo(0), jor, pla, estudo(1), estudo(2)].filter(Boolean);
+    var sl = clear($('#slides')), dots = clear($('#hdots'));
+    lista.forEach(function (s, i) { sl.appendChild(slideEl(s)); dots.appendChild(h('i', { class: i ? '' : 'on' })); });
+    sl.scrollLeft = 0;
+    /* Palavra do Dia: sempre visível, com foto, versículo e um só botão */
+    var P = window.PVPalavraDia, card = $('#pdCard');
+    if (!P || !P.doDia) { card.hidden = true; return; }
+    var e = P.doDia();
+    $('#pdPh').style.backgroundImage = 'url(' + ['assets/hero-dawn.jpg', 'assets/hero-reading.jpg', 'assets/hero-bible.jpg', 'assets/abencoe.jpg'][P.indiceDoDia(new Date(), P.dados.length) % 4] + ')';
+    $('#pdTxt').textContent = '“' + e.texto + '”'; $('#pdRef').textContent = e.ref; card.hidden = false;
+    $('#pdOpen').onclick = function () { P.abrirIdx(P.dados.indexOf(e)); };
+    $('#pdShare').onclick = function () {
+      var txt = P.textoParaCompartilhar(e, baseUrl());
+      if (navigator.share) navigator.share({ title: 'Palavra do Dia', text: txt }).catch(function () { /* cancelado */ }); else copy(txt, 'Mensagem copiada');
+    };
+  }
+  function homeInit() {
+    var sl = $('#slides'), dots = $('#hdots');
+    function cur() { return sl.clientWidth ? Math.round(sl.scrollLeft / sl.clientWidth) : 0; }
+    sl.addEventListener('scroll', function () { var i = cur(); [].forEach.call(dots.children, function (d, k) { d.classList.toggle('on', k === i); }); });
+    function parar() { carAuto = false; }
+    ['pointerdown', 'touchstart', 'wheel', 'keydown'].forEach(function (ev) { sl.addEventListener(ev, parar, { passive: true }); });
+    if (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) carAuto = false;
+    setInterval(function () {
+      var n = sl.children.length;
+      if (!carAuto || document.hidden || curState.v !== 'home' || overlay || splashOn || n < 2 || !sl.clientWidth) return;
+      sl.scrollTo({ left: ((cur() + 1) % n) * sl.clientWidth, behavior: 'smooth' });
+    }, 6000);
+    $('#bigRead').addEventListener('click', function () { go({ v: 'bible' }); });
   }
 
   /* ---------- configurações ---------- */
@@ -1229,13 +1410,13 @@
   function notasLer() { return tx('notes', 'readonly', function (s) { return s.getAll(); }).then(function (l) { return (l || []).filter(function (n) { return n && n.id; }).sort(function (a, b) { return (b.editado || 0) - (a.editado || 0); }); }).catch(function () { return []; }); }
   function notaGravar(n) { return tx('notes', 'readwrite', function (s) { return s.put(n, n.id); }); }
   function notaApagar(id) { return tx('notes', 'readwrite', function (s) { return s.delete(id); }); }
-  function notasAbrir() {
-    var est = curState && curState.v === 'study' ? metaOf(curState.id) : null, edit = null;
+  function notasAbrir(opts) {
+    var est = curState && curState.v === 'study' ? metaOf(curState.id) : null, edit = (opts && opts.edit) || null, pre = opts && opts.ref ? { ref: opts.ref, vk: opts.vk } : null;
     var ta = h('textarea', { class: 'ntxt', maxlength: '5000', rows: '5', placeholder: 'Escreva aqui a sua anotação…', 'aria-label': 'Anotação' });
     var lig = h('p', { class: 'nlig' }), lista = h('div', { class: 'nlist' });
     var salvar = h('button', { class: 'big', type: 'button', text: 'Salvar anotação' });
-    function liga() { var e = edit ? (edit.estudo ? { id: edit.estudo, ref: edit.ref } : null) : (est ? { id: est.id, ref: est.ref } : null); lig.textContent = e ? 'Ligada ao estudo: ' + e.ref : ''; lig.hidden = !e; return e; }
-    function zera() { edit = null; ta.value = ''; salvar.textContent = 'Salvar anotação'; liga(); }
+    function liga() { var e = edit ? (edit.estudo ? { id: edit.estudo, ref: edit.ref } : (edit.vk ? { vk: edit.vk, ref: edit.ref } : null)) : (pre || (est ? { id: est.id, ref: est.ref } : null)); lig.textContent = e ? (e.vk ? 'Ligada ao versículo: ' : 'Ligada ao estudo: ') + e.ref : ''; lig.hidden = !e; return e; }
+    function zera() { edit = null; pre = null; ta.value = ''; salvar.textContent = 'Salvar anotação'; liga(); }
     function pintar() {
       notasLer().then(function (l) {
         clear(lista);
@@ -1247,8 +1428,9 @@
             h('p', { class: 'ntexto', text: n.texto }),
             h('div', { class: 'row' }, [
               n.estudo && metaOf(n.estudo) ? h('button', { class: 'nbtn', type: 'button', text: 'Abrir estudo', onclick: function () { go({ v: 'study', id: n.estudo }); } }) : null,
+              n.vk ? h('button', { class: 'nbtn', type: 'button', text: 'Ler versículo', onclick: function () { var q = n.vk.split(':'); go({ v: 'read', b: q[0], c: parseInt(q[1], 10), verse: parseInt(q[2], 10) }); } }) : null,
               h('button', { class: 'nbtn', type: 'button', text: 'Editar', onclick: function () { edit = n; ta.value = n.texto; liga(); salvar.textContent = 'Salvar alterações'; ta.focus(); } }),
-              h('button', { class: 'nbtn', type: 'button', text: 'Excluir', onclick: function () { if (window.confirm('Excluir esta anotação?')) notaApagar(n.id).then(function () { if (edit && edit.id === n.id) zera(); pintar(); }); } })])]));
+              h('button', { class: 'nbtn', type: 'button', text: 'Excluir', onclick: function () { if (window.confirm('Excluir esta anotação?')) notaApagar(n.id).then(function () { if (edit && edit.id === n.id) zera(); pintar(); aposNota(); }); } })])]));
         });
       });
     }
@@ -1256,10 +1438,12 @@
       var t = ta.value.trim(); if (!t) { toast('Escreva algo antes de salvar.'); return; }
       var e = liga(), agora = Date.now();
       var n = edit ? { id: edit.id, texto: t, estudo: edit.estudo || null, ref: edit.ref || null, criado: edit.criado || agora, editado: agora }
-        : { id: 'n' + agora + Math.random().toString(36).slice(2, 6), texto: t, estudo: e ? e.id : null, ref: e ? e.ref : null, criado: agora, editado: agora };
-      notaGravar(n).then(function () { toast('Anotação salva'); zera(); pintar(); }, function () { toast('Não foi possível salvar neste aparelho.'); });
+        : { id: 'n' + agora + Math.random().toString(36).slice(2, 6), texto: t, estudo: e && e.id ? e.id : null, ref: e ? e.ref : null, vk: e && e.vk ? e.vk : null, criado: agora, editado: agora };
+      if (edit && edit.vk) n.vk = edit.vk;
+      notaGravar(n).then(function () { toast('Anotação salva'); zera(); pintar(); aposNota(); }, function () { toast('Não foi possível salvar neste aparelho.'); });
     });
     modal([mtag('Meu caderno', true), h('h2', { text: 'Anotações' }), lig, ta, salvar, lista]);
+    if (edit) { ta.value = edit.texto; salvar.textContent = 'Salvar alterações'; }
     liga(); pintar();
   }
   function bindStatic() {
@@ -1280,7 +1464,7 @@
     $$('.nav button').forEach(function (b) { b.addEventListener('click', function () { var t = b.dataset.tab; if (t === 'drawer') openDrawer(); else if (curState.v === t) $('#s-' + t).scrollTo({ top: 0, behavior: 'smooth' }); else go({ v: t }); }); });
     (function () { var ab = $('#aaBtn'), ro = $('#rdOpts'); ab.addEventListener('click', function () { ro.hidden = !ro.hidden; ab.setAttribute('aria-expanded', String(!ro.hidden)); }); })();
     /* busca a um toque em todas as telas de leitura e estudo */
-    ['chap', 'read', 'study', 'ens', 'marks'].forEach(function (n) {
+    ['chap', 'read', 'study', 'ens', 'marks', 'bible'].forEach(function (n) {
       var tb = $('#s-' + n + ' .topbar'); if (!tb) return;
       var sb = h('button', { class: 'tsearch', type: 'button', 'aria-label': 'Buscar livro ou palavra', onclick: function () { go({ v: 'search' }); } });
       sb.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>'; /* SVG fixo do próprio app */
@@ -1309,11 +1493,7 @@
       $('#app').insertBefore(sec, $('#s-menu'));
     })();
     $$('[data-back]').forEach(function (b) { b.addEventListener('click', back); });
-    var sl = $('#slides'), dots = $$('#dots i');
-    function cur() { return Math.round(sl.scrollLeft / sl.clientWidth); }
-    sl.addEventListener('scroll', function () { var i = cur(); dots.forEach(function (d, k) { d.classList.toggle('on', k === i); }); });
-    $('#prev').addEventListener('click', function () { sl.scrollTo({ left: Math.max(0, cur() - 1) * sl.clientWidth, behavior: 'smooth' }); });
-    $('#next').addEventListener('click', function () { sl.scrollTo({ left: Math.min(dots.length - 1, cur() + 1) * sl.clientWidth, behavior: 'smooth' }); });
+    homeInit();
     $$('[data-act]').forEach(function (b) { b.addEventListener('click', function () { var a = b.dataset.act; if (a === 'read') actRead(); else if (a === 'study') actStudy(); else if (a === 'ensinos') go({ v: 'ens' }); else go({ v: 'marks' }); }); });
     $$('.tt button').forEach(function (c) { c.addEventListener('click', function () { testament = c.dataset.t; $$('.tt button').forEach(function (x) { x.setAttribute('aria-pressed', String(x === c)); }); drawBooks(); }); });
     $('#goSearch').addEventListener('click', function () { go({ v: 'search' }); });
