@@ -216,5 +216,50 @@
     return ((manifest && manifest.packages) || []).filter(function (p) { return !have.has(p.path); });
   }
 
-  return { searchPrepare: searchPrepare, searchRun: searchRun, highlightRanges: highlightRanges, parseQuery: parseQuery, normalize: normalize, findMatch: findMatch, parseRef: parseRef, stampText: stampText, missingPackages: missingPackages, PREFIX: PREFIX, sha256Hex: sha256Hex, verifyPackage: verifyPackage, planUpdate: planUpdate, cleanupPlan: cleanupPlan, visibleTabs: visibleTabs };
+
+  /* ---------- Jornada de leitura (lote A): lógica pura sobre os registros guardados no aparelho ---------- */
+  function two(n) { return (n < 10 ? '0' : '') + n; }
+  /* 'AAAA-MM-DD' no fuso do aparelho */
+  function diaStr(ts) { const d = new Date(ts); return d.getFullYear() + '-' + two(d.getMonth() + 1) + '-' + two(d.getDate()); }
+  function somaDias(str, n) { const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(str); const d = new Date(+m[1], +m[2] - 1, +m[3] + n); return d.getFullYear() + '-' + two(d.getMonth() + 1) + '-' + two(d.getDate()); }
+  /* dias seguidos de leitura; hoje sem leitura ainda não zera a contagem (conta a partir de ontem) */
+  function diasSeguidos(dias, hoje) {
+    const d = dias || {}; let cur = d[hoje] ? hoje : somaDias(hoje, -1), n = 0;
+    while (d[cur]) { n++; cur = somaDias(cur, -1); }
+    return n;
+  }
+  /* últimos n dias, do mais antigo ao de hoje: [{dia, lido, sem}] (sem = dia da semana 0..6) */
+  function ultimosDias(dias, hoje, n) {
+    const out = [], d = dias || {};
+    for (let i = n - 1; i >= 0; i--) { const s = somaDias(hoje, -i), m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(s); out.push({ dia: s, lido: !!d[s], sem: new Date(+m[1], +m[2] - 1, +m[3]).getDay() }); }
+    return out;
+  }
+  /* livros: [{id, chapters:[números disponíveis]}]; lidos: {"livro:cap": ts} */
+  function capitulosLidos(lidos, livros) {
+    const l = lidos || {}; let n = 0;
+    (livros || []).forEach(function (b) { (b.chapters || []).forEach(function (c) { if (l[b.id + ':' + c]) n++; }); });
+    return n;
+  }
+  function livrosConcluidos(lidos, livros) {
+    const l = lidos || {};
+    return (livros || []).filter(function (b) { return b.chapters && b.chapters.length && b.chapters.every(function (c) { return l[b.id + ':' + c]; }); }).length;
+  }
+  /* registra um capítulo lido (ts em ms); devolve um novo histórico sem alterar o recebido */
+  function registrarLeitura(h, livro, cap, ts) {
+    const base = h && typeof h === 'object' ? h : {};
+    const lidos = Object.assign({}, base.lidos), dias = Object.assign({}, base.dias), dia = diaStr(ts);
+    lidos[livro + ':' + cap] = ts; dias[dia] = (dias[dia] || 0) + 1;
+    return { lidos: lidos, dias: dias };
+  }
+  /* últimos capítulos lidos, do mais recente: [{b, c, ts}] */
+  function recentes(lidos, n) {
+    return Object.keys(lidos || {}).map(function (k) { const p = k.split(':'); return { b: p[0], c: parseInt(p[1], 10), ts: lidos[k] }; })
+      .filter(function (x) { return x.b && x.c > 0 && x.ts; }).sort(function (a, b) { return b.ts - a.ts; }).slice(0, n);
+  }
+  /* referência do versículo para guardar ("43:3:16") e texto para copiar/compartilhar */
+  function chaveVerso(livro, cap, verso) { return livro + ':' + cap + ':' + verso; }
+  function textoVerso(nome, cap, verso, texto) { return '“' + String(texto).trim() + '” (' + nome + ' ' + cap + ':' + verso + ')'; }
+
+  return { searchPrepare: searchPrepare, searchRun: searchRun, highlightRanges: highlightRanges, parseQuery: parseQuery, normalize: normalize, findMatch: findMatch, parseRef: parseRef, stampText: stampText, missingPackages: missingPackages, PREFIX: PREFIX, sha256Hex: sha256Hex, verifyPackage: verifyPackage, planUpdate: planUpdate, cleanupPlan: cleanupPlan, visibleTabs: visibleTabs,
+    diaStr: diaStr, somaDias: somaDias, diasSeguidos: diasSeguidos, ultimosDias: ultimosDias, capitulosLidos: capitulosLidos, livrosConcluidos: livrosConcluidos, registrarLeitura: registrarLeitura, recentes: recentes, chaveVerso: chaveVerso, textoVerso: textoVerso };
 });
