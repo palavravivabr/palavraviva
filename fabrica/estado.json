@@ -2920,7 +2920,9 @@
   },
   "45-14-13-23": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: viver:citacao_longa, abertura_repetida:viver:41-9-41-50",
+   "estado": "pronto",
+   "titulo": "Quando a liberdade vira tropeço para o irmão"
   },
   "45-15-1-13": {
    "execucoes": 0,
@@ -2949,28 +2951,32 @@
   "19-1-1-6": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-2-1-12": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 923,
-   "entrada": 2423537,
-   "saida": 810890
+   "chamadas": 930,
+   "entrada": 2442899,
+   "saida": 816337
   },
   "groq-qwen": {
-   "chamadas": 920,
-   "entrada": 2311015,
-   "saida": 748007
+   "chamadas": 926,
+   "entrada": 2327741,
+   "saida": 753127
   },
   "gemini": {
-   "chamadas": 803,
-   "entrada": 2606721,
-   "saida": 1018299
+   "chamadas": 806,
+   "entrada": 2616177,
+   "saida": 1021760
   },
   "cloudflare": {
-   "chamadas": 496,
-   "entrada": 1733716,
-   "saida": 184016
+   "chamadas": 497,
+   "entrada": 1737141,
+   "saida": 184387
   },
   "mistral": {
    "chamadas": 0,

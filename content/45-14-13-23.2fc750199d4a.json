@@ -1,0 +1,141 @@
+{
+ "id": "45-14-13-23",
+ "ref": "Romanos 14:13-23",
+ "book": "45",
+ "chapter": 14,
+ "verses": [
+  {
+   "n": 13,
+   "t": "Portanto, não julguemos mais uns aos outros; em vez disso, tomai a decisão de nunca pôr alguma pedra de obstáculo ou de tropeço diante do seu irmão."
+  },
+  {
+   "n": 14,
+   "t": "Eu sei, e tenho certeza no Senhor Jesus, que nada é impuro por si mesmo; a não ser para quem o considera impuro: aquilo para ele se torna impuro."
+  },
+  {
+   "n": 15,
+   "t": "Mas, se por causa do que comes o teu irmão se entristece, tu já não estás andando segundo o amor. Não destruas por tua comida aquele por quem Cristo morreu."
+  },
+  {
+   "n": 16,
+   "t": "Não seja insultado o vosso bem,"
+  },
+  {
+   "n": 17,
+   "t": "porque o reino de Deus não é comida nem bebida, mas sim justiça, paz, e alegria no Espírito Santo."
+  },
+  {
+   "n": 18,
+   "t": "Pois quem nessas coisas serve a Cristo é agradável a Deus e aprovado pelas pessoas."
+  },
+  {
+   "n": 19,
+   "t": "Sigamos, pois, as coisas que resultam em paz e edificação de uns aos outros."
+  },
+  {
+   "n": 20,
+   "t": "Não destruas a obra de Deus por causa da comida. É verdade que todas as coisas são limpas, porém mau é ao ser humano comer causando ofensa."
+  },
+  {
+   "n": 21,
+   "t": "Não é bom comer carne, nem beber vinho, nem qualquer coisa que faça o teu irmão tropeçar, ou se ofender, ou enfraquecer."
+  },
+  {
+   "n": 22,
+   "t": "A convicção que tu tens, tenha-a para ti mesmo diante de Deus. Feliz é quem não se culpa naquilo que aprova."
+  },
+  {
+   "n": 23,
+   "t": "Mas aquele que tem dúvida, se comer, é culpado, porque não foi pela fé; e tudo que não é pela fé é pecado."
+  }
+ ],
+ "titulo": "Quando a liberdade vira tropeço para o irmão",
+ "temas": [
+  "liberdade",
+  "amor",
+  "consciência",
+  "paz"
+ ],
+ "pergunta": "Como minha liberdade em questões secundárias pode ajudar ou ferir um irmão mais fraco na fé?",
+ "entender": "Paulo escreve aos romanos para resolver conflitos internos na igreja sobre práticas religiosas, como o que comer. Ele lembra que \"nada é impuro por si mesmo\", mas que a consciência de cada pessoa é importante. O foco não é a regra em si, mas o impacto que nossas ações têm nos outros.\n\nO apóstolo insiste que o reino de Deus não gira em torno de comida ou bebida, mas de \"justiça, paz, e alegria no Espírito Santo\". Ele adverte contra destruir, com nossos hábitos, aquele por quem Cristo morreu. A liberdade cristã deve ser guiada pelo amor e pela edificação mútua, não pela imposição de opiniões pessoais.\n\nQuem tem convicção forte deve guardá-la consigo mesmo diante de Deus. Já quem age com dúvida, mesmo em coisas neutras, peca, pois não age pela fé. O texto nos convida a buscar a paz e a edificação, evitando ser pedra de tropeço para o irmão.",
+ "ligar": {
+  "texto": "Este trecho aponta diretamente para Jesus ao afirmar que não devemos destruir \"aquele por quem Cristo morreu\". O amor que Cristo demonstrou na cruz é o padrão para como tratamos os irmãos. A liberdade em Cristo não é licença para ferir, mas oportunidade de mostrar o mesmo cuidado sacrificial que Jesus teve por nós. O evangelho nos une em Cristo, acima de preferências pessoais.",
+  "selo": true
+ },
+ "viver": "Nossa liberdade não pode ser uma pedra de tropeço para quem tem a fé mais frágil. Se sua escolha alimentar ou de estilo de vida faz um irmão se sentir culpado ou dividido, o amor pede que você restrinja sua liberdade temporariamente. Não se trata de hipocrisia, mas de proteger a edificação do outro. Priorize a paz e a unidade do corpo de Cristo acima do seu direito pessoal, refletindo o cuidado que Jesus teve por cada um de nós ao morrer na cruz.",
+ "guarde": "A verdadeira liberdade cristã é a que serve ao amor e edifica o irmão, sem ser pedra de tropeço.",
+ "ore": "Pai, ensina-me a não julgar, mas a amar. Guarda minha consciência limpa diante de Ti e me dá sensibilidade para não ferir meus irmãos com minha liberdade. Que minha vida reflita a paz e a alegria do Teu Espírito, honrando a Cristo que morreu por todos nós.",
+ "quiz": {
+  "pergunta": "Segundo Romanos 14:17, o que o reino de Deus NÃO é?",
+  "opcoes": [
+   "Alegria no Espírito",
+   "Justiça e paz",
+   "Comida nem bebida"
+  ],
+  "certa": 2,
+  "explicacao": "O versículo 17 afirma explicitamente que o reino de Deus \"não é comida nem bebida\", mas sim justiça, paz e alegria no Espírito Santo."
+ },
+ "refs": [
+  "1 Coríntios 8:9-13",
+  "Gálatas 5:22-23",
+  "Colossenses 2:16-23"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-02T04:06:49.072Z",
+  "rounds": 2
+ }
+}
