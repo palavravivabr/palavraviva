@@ -1,0 +1,133 @@
+{
+ "id": "19-7-1-9",
+ "ref": "Salmos 7:1-9",
+ "book": "19",
+ "chapter": 7,
+ "verses": [
+  {
+   "n": 1,
+   "t": "SENHOR, meu Deus, em ti confio; salva-me de todos os que me perseguem, e livra-me."
+  },
+  {
+   "n": 2,
+   "t": "Para que não rasguem minha alma como um leão, sendo despedaçada sem haver quem a livre."
+  },
+  {
+   "n": 3,
+   "t": "SENHOR, meu Deus, se eu fiz isto: se há perversidade em minhas mãos;"
+  },
+  {
+   "n": 4,
+   "t": "Se eu paguei com mal ao que tinha paz comigo (mas fiz escapar ao que me oprimia sem causa);"
+  },
+  {
+   "n": 5,
+   "t": "Então que o inimigo persiga a minha alma, e a alcance; e pise em terra a minha vida; e faça habitar minha honra no pó. (Selá)"
+  },
+  {
+   "n": 6,
+   "t": "Levanta-te, SENHOR, em tua ira; exalta-te pelos furores de meus opressores; e desperta para comigo; tu mandaste o juízo."
+  },
+  {
+   "n": 7,
+   "t": "Então o ajuntamento de povos te rodeará; portanto volta a te elevar a ti mesmo sobre ele."
+  },
+  {
+   "n": 8,
+   "t": "O SENHOR julgará aos povos; julga-me, SENHOR, conforme a minha justiça, e conforme a sinceridade que há em mim."
+  },
+  {
+   "n": 9,
+   "t": "Que tenha fim a maldade dos maus; mas firma ao justo, tu, ó justo Deus, que provas os corações e os sentimentos."
+  }
+ ],
+ "titulo": "Por que o salmista se examinou antes de pedir ajuda?",
+ "temas": [
+  "juízo",
+  "inocência",
+  "confiança",
+  "justiça"
+ ],
+ "pergunta": "Você já tentou provar sua inocência para Deus em vez de confiar na justiça dEle?",
+ "entender": "O salmista está cercado por perseguidores que ameaçam sua vida. Ele compara essa perseguição a um leão que despedaça sua presa. No entanto, antes de apenas pedir socorro, ele faz algo inesperado: ele se examina. Ele pergunta a si mesmo se cometeu alguma injustiça, se pagou o mal com o mal. Ele quer ter certeza de que sua alma não tem manchas que justifique o juízo.\n\nEle apela para que Deus se levante em sua ira contra os opressores, mas pede que o julgue conforme sua justiça e sinceridade. O salmista não confia em sua própria força, mas na capacidade de Deus de distinguir o justo do mau. Ele sabe que Deus prova os corações e os sentimentos, vendo o que está oculto aos olhos humanos. A segurança dele vem do fato de que o Juiz é justo e conhece a verdade.",
+ "ligar": {
+  "texto": "Este texto aponta para Jesus, que é o Juiz justo que virá julgar o mundo, mas que também se ofereceu como vítima inocente. Assim como o salmista confia na sinceridade de seu coração, nós confiamos na justiça perfeita de Cristo. Ele foi julgado em nosso lugar para que, mesmo quando não podemos provar nossa inocência, sejamos vistos como justos diante de Deus por causa da fé nEle. Jesus é o único que pode satisfazer a justiça de Deus e, ao mesmo tempo, nos dar paz.",
+  "selo": false
+ },
+ "viver": "Quando somos ofendidos, nossa tendência natural é reagir com raiva ou acusar o outro. O salmista nos convida a pausar e olhar para dentro. Antes de buscar vingança ou justiça humana, pergunte a si mesmo: há algo em mim que precisa ser corrigido? Essa introspecção não é para nos destruir com culpa, mas para alinhar nosso coração com a verdade. Ao buscar a justiça de Deus em vez da nossa própria satisfação, encontramos uma paz que não depende das circunstâncias externas, mas da certeza de que Ele vê tudo.",
+ "guarde": "Deus não julga pelas aparências, mas prova os corações e os sentimentos.",
+ "ore": "Senhor, que provas os corações, examina-me hoje. Mostra-me se há perversidade em minhas mãos ou se estou agindo com injustiça. Ensina-me a confiar na Tua justiça e a descansar em Ti, mesmo quando meus inimigos me perseguem como um leão.",
+ "quiz": {
+  "pergunta": "O que o salmista faz antes de pedir a Deus que o livre dos perseguidores?",
+  "opcoes": [
+   "Ele ameaça os perseguidores diretamente.",
+   "Ele promete oferecer um sacrifício.",
+   "Ele examina se cometeu alguma injustiça."
+  ],
+  "certa": 2,
+  "explicacao": "Nos versículos 3 a 5, o salmista verifica suas próprias ações para garantir que está diante de Deus com sinceridade, antes de pedir o juízo divino sobre seus inimigos."
+ },
+ "refs": [
+  "Salmos 37:1-5",
+  "Romanos 12:19",
+  "Provérbios 17:17"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-02T13:18:26.190Z",
+  "rounds": 2
+ }
+}

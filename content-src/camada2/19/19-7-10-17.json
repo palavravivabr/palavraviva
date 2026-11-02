@@ -1,0 +1,130 @@
+{
+ "id": "19-7-10-17",
+ "ref": "Salmos 7:10-17",
+ "book": "19",
+ "chapter": 7,
+ "verses": [
+  {
+   "n": 10,
+   "t": "Meu escudo pertence a Deus, que salva os corretos de coração."
+  },
+  {
+   "n": 11,
+   "t": "Deus é um justo juiz; e um Deus que se ira todos os dias."
+  },
+  {
+   "n": 12,
+   "t": "Ele afia a espada para aquele que não se arrepende; ele já armou e preparou seu arco."
+  },
+  {
+   "n": 13,
+   "t": "E para ele já preparou armas mortais; suas flechas utilizará contra os perseguidores."
+  },
+  {
+   "n": 14,
+   "t": "Eis que o injusto está com dores de perversidade; e está em trabalho de parto, e gerará mentiras."
+  },
+  {
+   "n": 15,
+   "t": "Ele cavou um poço e o fez fundo; mas caiu na cova que ele próprio fez."
+  },
+  {
+   "n": 16,
+   "t": "Seu trabalho se voltará contra sua própria cabeça; e sua violência descerá sobre o topo de sua cabeça."
+  },
+  {
+   "n": 17,
+   "t": "Eu louvarei ao SENHOR conforme sua justiça; cantarei ao nome do SENHOR, o Altíssimo."
+  }
+ ],
+ "titulo": "Quando a justiça de Deus se revela",
+ "temas": [
+  "justiça",
+  "juízo",
+  "arrepender",
+  "confiança"
+ ],
+ "pergunta": "Você confia que Deus defenderá os que são corretos de coração?",
+ "entender": "Nos versículos 10 a 17 do Salmo 7 o salmista declara que o seu escudo está em Deus, que salva os \"corretos de coração\" (v.10). Ele descreve Deus como juiz justo que se ira diariamente contra o mal (v.11) e que prepara armas mortais contra os que não se arrependem (vv.12‑13). O texto mostra a justiça divina como ação ativa: o injusto que arma armadilhas acaba preso na própria cilada (vv.14‑16). Por fim, o salmista responde com louvor, cantando ao Senhor Altíssimo (v.17).\n\nO Salmo foi escrito em um contexto de perseguição pessoal do autor, que clamava a Deus por proteção contra inimigos que o acusavam falsamente. O salmo inteiro pede que o Senhor julgue com justiça (cf. 7:8‑9) e termina confiando na vindicação divina. Assim, esses versículos encerram a oração de confiança, mostrando que o juízo de Deus volta contra o próprio agressor.",
+ "ligar": {
+  "texto": "Embora o salmo não mencione Jesus, ele aponta para o caráter de Deus como justo juiz que protege os inocentes e pune o mal. Esse mesmo juízo se cumpre em Cristo, que é a justiça de Deus (2 Coríntios 5:21) e quem, ao morrer na cruz, levou sobre si a punição que o pecado merece (Romanos 3:26). Assim, a confiança do salmista no escudo de Deus encontra seu cumprimento supremo em Jesus, o único que garante a salvação dos que confiam nele.",
+  "selo": false
+ },
+ "viver": "O salmo nos lembra que a justiça de Deus não deixa impunes os que praticam o mal. Quando enfrentamos injustiça ou falsas acusações, podemos escolher confiar no Senhor como nosso escudo, em vez de buscar vingança. Essa confiança nos leva a responder com louvor, como o salmista, ao invés de nos deixarmos consumir pela amargura. Na prática, isso significa perdoar quem nos prejudicou, manter a integridade e continuar a louvar a Deus, mesmo nas dificuldades.",
+ "guarde": "Deus protege os que são corretos de coração e faz o mal recair sobre quem o pratica.",
+ "ore": "Deus, meu escudo, fortalece minha confiança em Ti quando enfrento injustiças, para que eu louve ao Senhor como o salmista.",
+ "quiz": {
+  "pergunta": "O que o salmista afirma que Deus faz com os que não se arrependem?",
+  "opcoes": [
+   "Os protege da punição",
+   "Os perdoa imediatamente",
+   "Prepara armas mortais contra eles"
+  ],
+  "certa": 2,
+  "explicacao": "Nos versículos 12‑13 o salmista diz que Deus afia a espada e prepara armas mortais para quem não se arrepende, mostrando a justiça ativa de Deus contra o mal."
+ },
+ "refs": [
+  "2 Coríntios 5:21",
+  "Romanos 3:26",
+  "Salmos 37:28",
+  "Provérbios 21:15"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.8-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-02T13:11:47.766Z",
+  "rounds": 1
+ }
+}

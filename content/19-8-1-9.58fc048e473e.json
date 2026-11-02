@@ -1,0 +1,133 @@
+{
+ "id": "19-8-1-9",
+ "ref": "Salmos 8:1-9",
+ "book": "19",
+ "chapter": 8,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Ah DEUS, nosso Senhor, quão glorioso é o teu nome sobre toda a terra! Pois tu puseste tua majestade acima dos céus."
+  },
+  {
+   "n": 2,
+   "t": "Da boca das crianças, e dos que mamam, tu fundaste força, por causa de teus adversários, para fazer cessar ao inimigo e ao vingador."
+  },
+  {
+   "n": 3,
+   "t": "Quando eu vejo teus céus, obra de teus dedos; a lua e as estrelas, que tu preparaste;"
+  },
+  {
+   "n": 4,
+   "t": "O que é o homem, para que tu te lembres dele? E o que é o filho do homem, para que o visites?"
+  },
+  {
+   "n": 5,
+   "t": "E tu o fizeste um pouco menor que os anjos; e com glória e honra tu o coroaste."
+  },
+  {
+   "n": 6,
+   "t": "Tu o fazes ter controle sobre as obras de tuas mãos; tudo puseste debaixo de seus pés."
+  },
+  {
+   "n": 7,
+   "t": "Ovelhas e bois, todos eles, e também os animais do campo;"
+  },
+  {
+   "n": 8,
+   "t": "As aves dos céus, e os peixes do mar; e os que passam pelos caminhos dos mares."
+  },
+  {
+   "n": 9,
+   "t": "Ó DEUS, nosso Senhor! Quão glorioso é o teu nome sobre toda a terra!"
+  }
+ ],
+ "titulo": "A grandeza de Deus refletida na criação humana",
+ "temas": [
+  "criação",
+  "humildade",
+  "glória"
+ ],
+ "pergunta": "Você já se perguntou por que Deus se lembra tão bem do ser humano?",
+ "entender": "O salmista começa exaltando o nome de Deus: \"Ah DEUS, nosso Senhor, quão glorioso é o teu nome sobre toda a terra!\" (Salmos 8.1). Ele observa que, apesar da imensidão dos céus, Deus se interessa pelos pequeninos, \"Da boca das crianças, e dos que mamam\" (8.2). Ao contemplar o céu estrelado, ele se pergunta: \"O que é o homem, para que tu te lembres dele?\" (8.4). O texto revela que, embora o ser humano seja pequeno, Deus o fez \"um pouco menor que os anjos\" e lhe deu \"glória e honra\" (8.5), colocando‑o sobre toda a criação (8.6‑8). O salmo termina repetindo o louvor: \"Ó DEUS, nosso Senhor! Quão glorioso é o teu nome sobre toda a terra!\" (8.9).\n\nEsse canto nasce num contexto de louvor ao Criador, típico dos Salmos, onde o poeta reconhece a soberania divina e, ao mesmo tempo, destaca a dignidade conferida ao homem. O contraste entre a vastidão do universo e a atenção de Deus ao ser humano sublinha a graça que nos eleva acima da natureza, sem negar nossa dependência.",
+ "ligar": {
+  "texto": "O Salmo 8 mostra que, apesar da nossa pequenez, Deus nos deu honra e domínio sobre a criação. Essa dignidade não vem de nós, mas do próprio Deus, que nos fez à sua imagem (Gênesis 1.27). Jesus, ao viver como homem, cumpriu esse propósito: Ele é o \"filho do homem\" que Deus enviou para revelar ao mundo o seu amor e para restaurar a relação quebrada (Filipenses 2.6‑8). Ao obedecer ao Pai e morrer na cruz, Ele abriu caminho para que possamos realmente exercer a autoridade que Deus nos deu, mas agora sob o senhorio de Cristo. Assim, o louvor ao Criador nos leva a reconhecer que a verdadeira glória do ser humano se realiza em Cristo, que nos representa diante de Deus.",
+  "selo": false
+ },
+ "viver": "Ao observar a natureza, lembre‑se de que Deus ainda se importa com você, mesmo nas pequenas coisas da vida. Quando sentir que suas responsabilidades são grandes, recorde que o mesmo Deus que colocou as estrelas no céu confiou ao ser humano o cuidado das ovelhas, dos bois e dos peixes. Use essa confiança para servir com humildade, reconhecendo que seu valor vem da honra que Deus já lhe deu, não das opiniões alheias. Assim, cada tarefa cotidiana pode ser um ato de adoração ao Criador que lhe concedeu domínio sobre a criação.\n\nPratique hoje agradecer a Deus por algo simples que você costuma ignorar – o canto de um pássaro, o brilho da lua, ou o sorriso de uma criança. Esse reconhecimento renova a consciência de que, mesmo pequeno, você faz parte do grande plano divino.",
+ "guarde": "Deus nos fez menor que os anjos, mas nos deu glória e honra para cuidar da criação.",
+ "ore": "Deus, nosso Senhor, ao ver a vastidão dos céus, ajuda-me a lembrar que, apesar da minha pequenez, Tu me concedeste honra e responsabilidade sobre o que criaste.",
+ "quiz": {
+  "pergunta": "O que o salmista pergunta sobre o homem no Salmo 8?",
+  "opcoes": [
+   "Como o homem pode dominar o céu",
+   "Por que Deus se lembra dele?",
+   "Quando o homem será maior que os anjos"
+  ],
+  "certa": 1,
+  "explicacao": "O salmista se pergunta: \"O que é o homem, para que tu te lembres dele?\" (Salmos 8.4), mostrando surpresa diante do cuidado de Deus pelo ser humano."
+ },
+ "refs": [
+  "Gênesis 1:26-28",
+  "Filipenses 2:6-8",
+  "Hebreus 2:6-9",
+  "Mateus 6:26"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-02T13:24:23.965Z",
+  "rounds": 1
+ }
+}
