@@ -28,7 +28,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Palavra Viva">
 <link rel="stylesheet" href="styles.css">
-<style>.sharebtn{margin-top:12px;width:100%}.sharehome,#ensBanner,#ensSmall,.vers,.slides .slide:nth-child(n+2),.ctrl,.hid,.set .btnrow,#instHint,.resume.nores{display:none!important}.slide{min-height:230px}.menubtn.r1{left:auto;right:16px}.menubtn.r2{left:auto;right:68px}.fsrow{display:flex;align-items:center;gap:12px}.fsrow input{flex:1;accent-color:var(--accent,#1f4d43)}details.adv{background:var(--card);border-radius:18px;box-shadow:var(--shadow);padding:0 16px}details.adv>summary{min-height:58px;display:flex;align-items:center;justify-content:space-between;cursor:pointer;list-style:none;font-weight:600}details.adv>summary::-webkit-details-marker{display:none}details.adv>summary::after{content:"\203A";font-size:20px;transition:transform .2s}details.adv[open]>summary::after{transform:rotate(90deg)}details.adv .in{display:flex;flex-direction:column;gap:10px;padding:0 0 14px}details.adv .srow{box-shadow:none;border:1px solid rgba(128,128,128,.25)}.vnote{text-align:center;margin-top:14px}</style>
+<style>.sharebtn{margin-top:12px;width:100%}.sharehome,#ensBanner,#ensSmall,.vers,.hid,.set .btnrow,#instHint,.resume.nores,#railSec,#planoCard{display:none!important}.menubtn.r1{left:auto;right:16px}.menubtn.r2{left:auto;right:68px}.fsrow{display:flex;align-items:center;gap:12px}.fsrow input{flex:1;accent-color:var(--accent,#1f4d43)}details.adv{background:var(--card);border-radius:18px;box-shadow:var(--shadow);padding:0 16px}details.adv>summary{min-height:58px;display:flex;align-items:center;justify-content:space-between;cursor:pointer;list-style:none;font-weight:600}details.adv>summary::-webkit-details-marker{display:none}details.adv>summary::after{content:"\203A";font-size:20px;transition:transform .2s}details.adv[open]>summary::after{transform:rotate(90deg)}details.adv .in{display:flex;flex-direction:column;gap:10px;padding:0 0 14px}details.adv .srow{box-shadow:none;border:1px solid rgba(128,128,128,.25)}.vnote{text-align:center;margin-top:14px}</style>
 </head>
 <body>
 <noscript><p style="padding:20px;font-family:sans-serif">O aplicativo Palavra Viva precisa do JavaScript ligado para funcionar.</p></noscript>
@@ -44,17 +44,18 @@
     <div class="hero">
       <button class="menubtn" id="menuBtn" type="button" aria-label="Abrir menu"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></svg></button>
       <button class="menubtn r1" id="shTop" type="button" aria-label="Compartilhar o app"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="2.6"/><circle cx="6" cy="12" r="2.6"/><circle cx="18" cy="19" r="2.6"/><path d="m8.3 10.8 7.4-4.4M8.3 13.2l7.4 4.4"/></svg></button><button class="menubtn r2" id="themeTop" type="button" aria-label="Alternar tema claro e escuro"></button>
-      <div class="slides" id="slides">
-        <div class="slide" style="--img:url(assets/hero-bible.jpg)"><span class="eb">Leia a Bíblia</span><h1>Comece pela Palavra.</h1><p>Abra a Bíblia e encontre direção para o seu dia.</p><button class="cta" type="button" data-act="read">Ler agora &#8594;</button></div>
-        <div class="slide" style="--img:url(assets/hero-dawn.jpg)"><span class="eb" id="qEyebrow">Para pensar antes de ler</span><h1 id="qTitle">O que a Palavra tem a dizer ao seu dia?</h1><p id="qText">Uma pergunta para abrir o coração antes da leitura.</p><button class="cta" type="button" data-act="study" id="qBtn">Começar agora &#8594;</button></div>
-        <div class="slide" style="--img:url(assets/hero-reading.jpg)"><span class="eb">Minha Palavra</span><h1>Guarde o que Deus falou com você.</h1><p>Seus destaques ficam só no seu aparelho.</p><button class="cta" type="button" data-act="marks">Ver destaques &#8594;</button></div>
-      </div>
-      <div class="ctrl"><button id="prev" type="button" aria-label="Anterior"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m15 6-6 6 6 6"/></svg></button><div class="dots" id="dots"><i class="on"></i><i></i><i></i></div><button id="next" type="button" aria-label="Próximo"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="m9 6 6 6-6 6"/></svg></button></div>
+      <div class="slides" id="slides" aria-live="off"></div>
+      <div class="hdots" id="hdots" aria-hidden="true"></div>
     </div>
+    <section class="pdc" id="pdCard" hidden aria-label="Palavra do dia">
+      <button type="button" class="pdc-main" id="pdOpen" aria-label="Abrir a Palavra do Dia"><span class="pdc-ph" id="pdPh"><span class="pdc-tag">Palavra do dia</span></span><span class="pdc-q" id="pdTxt"></span></button>
+      <div class="pdc-ft"><span class="pdc-ref" id="pdRef"></span><button type="button" class="pdc-sh" id="pdShare"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="18" cy="5" r="2.6"/><circle cx="6" cy="12" r="2.6"/><circle cx="18" cy="19" r="2.6"/><path d="m8.3 10.8 7.4-4.4M8.3 13.2l7.4 4.4"/></svg>Compartilhar</button></div>
+    </section>
+    <button type="button" class="bigread" id="bigRead"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 6c-2-1.5-5-2-8-1.5v13c3-.5 6 0 8 1.5 2-1.5 5-2 8-1.5v-13C17 4 14 4.5 12 6Z"/><path d="M12 6v13"/></svg>Ler a Bíblia</button>
     <div class="testbar" id="testbar" role="note" hidden>Modo teste: texto e ensino são exemplos fictícios. O conteúdo real chega em pacotes revisados.</div>
     <button class="resume" type="button" id="ensBanner" data-act="ensinos" hidden><span class="t"><span class="eyebrow">Ensinos prontos</span><strong id="ensBannerTxt"></strong></span><span class="ler">Abrir</span></button>
     <button class="resume plano" type="button" id="planoCard" hidden><span class="pring sm" aria-hidden="true"><b id="planoDiaN"></b></span><span class="t"><span class="eyebrow">Plano de leitura</span><strong id="planoTxt"></strong></span><span class="ler" id="planoAcao">Abrir</span></button>
-    <button class="resume" type="button" id="resume" hidden><span class="t"><span class="eyebrow" id="resumeEb">Continuar leitura</span><strong id="resumeTxt"></strong></span><span class="ler">Ler</span></button>
+    <button class="resume" type="button" id="resume" hidden><span class="t"><span class="eyebrow" id="resumeEb">Continuar leitura</span><strong id="resumeTxt"></strong><small class="rsub" id="resumeSub"></small><span class="rbar" aria-hidden="true"><i id="resumeBar"></i></span></span><span class="ler">Ler</span></button>
     <div class="sec" id="railSec">
       <span class="eyebrow">Estudos</span>
       <div class="sechead"><h2>Estudos bíblicos</h2><span>Deslize &#8594;</span></div>
@@ -65,6 +66,10 @@
       </div>
     </div>
     <div class="sharehome"><button class="btn" type="button" id="shHomeStudy">Compartilhar este estudo</button><button class="btn alt" type="button" id="shHomeApp">Compartilhar o app</button></div>
+  </section>
+
+  <section class="screen" id="s-bible" aria-label="Bíblia">
+    <div class="topbar"><button class="back" type="button" data-back><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M19 12H5M11 6l-6 6 6 6"/></svg>Voltar</button><h2>Bíblia</h2></div>
     <div class="bible">
       <span class="eyebrow">Bíblia</span>
       <h2>Escolha onde continuar</h2>
