@@ -1,0 +1,135 @@
+{
+ "id": "19-10-1-9",
+ "ref": "Salmos 10:1-9",
+ "book": "19",
+ "chapter": 10,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Por que, SENHOR, tu estás longe? Por que tu te escondes em tempos de angústia?"
+  },
+  {
+   "n": 2,
+   "t": "Com arrogância o perverso persegue furiosamente ao miserável; sejam presos nas ciladas que planejaram."
+  },
+  {
+   "n": 3,
+   "t": "Pois o perverso se orgulha do desejo de sua alma; ele bendiz ao ganancioso, e blasfema do SENHOR."
+  },
+  {
+   "n": 4,
+   "t": "Pela arrogância de seu rosto o perverso não se importa; Deus não existe em todos as seus pensamentos."
+  },
+  {
+   "n": 5,
+   "t": "Em todo tempo seus caminhos atormentam; teus juízos estão longe do rosto dele, em grande altura; ele sopra furiosamente todos os seus adversários."
+  },
+  {
+   "n": 6,
+   "t": "Ele diz em seu coração: Eu nunca serei abalado; porque de geração após geração nunca sofrerei mal algum."
+  },
+  {
+   "n": 7,
+   "t": "Sua boca está cheia de maldição, e de enganos, e de falsidade; debaixo de sua língua há sofrimento e maldade."
+  },
+  {
+   "n": 8,
+   "t": "Eles se sentam postos para as ciladas das aldeias; nos esconderijos ele mata ao inocente; seus olhos observam secretamente ao contra o pobre."
+  },
+  {
+   "n": 9,
+   "t": "Ele arma ciladas no esconderijo, como o leão em seu covil; arma ciladas para roubar ao miserável; rouba ao miserável, trazendo-o em sua rede."
+  }
+ ],
+ "titulo": "Por que o mal parece vencer?",
+ "temas": [
+  "injustiça",
+  "sofrimento",
+  "arrogância",
+  "justiça",
+  "esperança"
+ ],
+ "pergunta": "O que você sente quando vê alguém injusto parecendo estar sempre seguro e impune?",
+ "entender": "O salmo abre com uma pergunta dolorida: \"Por que, SENHOR, tu estás longe?\". O autor descreve um cenário de opressão onde o perverso persegue o miserável com arrogância. Ele planeja ciladas, usa a linguagem para enganar e mata o inocente nos esconderijos.\n\nO texto detalha a mentalidade de quem vive assim: ele se orgulha do desejo da sua alma e blasfema do SENHOR. Em sua cabeça, Deus não existe e seus caminhos estão livres de juízo. Ele se sente seguro, dizendo em seu coração que nunca será abalado nem sofrerá mal algum.\n\nA imagem é de um predador: como um leão em seu covil, ele arma armadilhas para roubar o desesperado. Embora a dor da vítima seja real e o silêncio de Deus pareça absoluto, o salmo expõe a fragilidade dessa arrogância. O perverso acredita que seus juízos estão longe, mas o texto revela a perversidade profunda de quem ignora a existência do Criador.",
+ "ligar": {
+  "texto": "Jesus entra nessa cena de dor. Ele não se escondia em tempos de angústia, mas se aproximava dos miseráveis e dos oprimidos. Em sua vida e morte, Jesus revelou a justiça de Deus que julga o pecado e a misericórdia que restaura a vítima. A cruz mostra que Deus não esquece os que sofrem; Ele mesmo sofreu a injustiça suprema para nos libertar do poder do mal e nos dar esperança de uma justiça final perfeita.",
+  "selo": false
+ },
+ "viver": "Ao ler sobre a arrogância do perverso que se sente acima de qualquer consequência, podemos reconhecer a tentação de desanimar diante da injustiça. Em vez de tentar tomar a justiça em suas próprias mãos ou cair na amargura, confie que Deus vê cada detalhe. A aplicação prática é orar pelos que sofrem e manter a integridade pessoal, mesmo quando parecer que o mal triunfa. Nossa segurança não está na ausência de problemas, mas na certeza de que Deus não é indiferente ao sofrimento do inocente.",
+ "guarde": "A arrogância do perverso é uma cegueira temporária; a justiça de Deus é certa, mesmo quando parece distante.",
+ "ore": "Senhor, ao ver a dor dos oprimidos e a arrogância dos opressores, fortalece minha fé em Tua justiça. Ensina-me a não desanimar quando o mal parece vencer, mas a confiar que Tu não esqueces os miseráveis. Dá-me coragem para agir com justiça e compaixão no meu dia a dia, sabendo que Tu julgas com retidão.",
+ "quiz": {
+  "pergunta": "O que o perverso diz em seu coração, segundo o versículo 6?",
+  "opcoes": [
+   "Eu nunca serei abalado",
+   "Deus me perdoará",
+   "A vida é muito curta"
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma explicitamente que ele diz em seu coração: \"Eu nunca serei abalado\", demonstrando sua falsa segurança e arrogância."
+ },
+ "refs": [
+  "Salmos 22:1-2",
+  "Provérbios 14:34",
+  "Mateus 5:5",
+  "Romanos 3:1-2"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-02T16:10:48.463Z",
+  "rounds": 2
+ }
+}

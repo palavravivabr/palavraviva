@@ -1,0 +1,125 @@
+{
+ "id": "19-11-1-7",
+ "ref": "Salmos 11:1-7",
+ "book": "19",
+ "chapter": 11,
+ "verses": [
+  {
+   "n": 1,
+   "t": "No SENHOR eu confio; como, pois, tu dizeis à minha alma: Fugi para vossa montanha, como um pássaro?"
+  },
+  {
+   "n": 2,
+   "t": "Porque eis que os maus estão armando o arco; eles estão pondo suas flechas na corda, para atirarem às escuras com elas aos corretos de coração."
+  },
+  {
+   "n": 3,
+   "t": "Se os fundamentos são destruídos, o que o justo pode fazer?"
+  },
+  {
+   "n": 4,
+   "t": "O SENHOR está em seu santo Templo, o trono do SENHOR está nos céus; seus olhos observam com atenção; suas pálpebras provam aos filhos dos homens."
+  },
+  {
+   "n": 5,
+   "t": "O SENHOR prova ao justo; mas sua alma odeia ao perverso e ao que ama a violência."
+  },
+  {
+   "n": 6,
+   "t": "Sobre os perversos choverá laços, fogo e enxofre; e o pagamento para seu cálice será vento tempestuoso."
+  },
+  {
+   "n": 7,
+   "t": "Porque o SENHOR é justo, e ama as justiças; seu rosto presta atenção ao que é correto."
+  }
+ ],
+ "titulo": "Quando o mundo ameaça, onde está a segurança?",
+ "temas": [
+  "confiança",
+  "justiça",
+  "deus"
+ ],
+ "pergunta": "Você já sentiu que o mal ao seu redor poderia destruir tudo que é certo?",
+ "entender": "O salmista declara sua confiança no Senhor: \"No SENHOR eu confio\" (Sl 11.1). Ele descreve a situação de perigo, com os ímpios preparando armas e flechas para atacar os que são retos de coração. Mesmo assim, ele lembra que o Senhor está no seu santo Templo, que Seu trono está nos céus e que \"Seus olhos observam com atenção\" (Sl 11.4). Essa imagem mostra que Deus não está distante; Ele vigia e julga com justiça. Quando os fundamentos parecem cair, o salmista pergunta: \"O que o justo pode fazer?\" (Sl 11.3), mas responde que o Senhor prova o justo e odeia o perverso (Sl 11.5). O texto termina afirmando que o Senhor é justo, ama a justiça e presta atenção ao que é correto (Sl 11.7). O salmo, portanto, expressa a confiança de que, apesar das ameaças humanas, Deus permanece soberano e protetor.\n\nNo contexto do Antigo Testamento, os salmos frequentemente contrastam a fraqueza humana com a força divina. O salmista usa imagens de batalha para ilustrar a realidade de perseguição que o povo de Deus enfrentava, mas também enfatiza que a justiça de Deus jamais falha. O sentido geral é encorajar o crente a depositar sua esperança no Senhor, que vê tudo e age com justiça, mesmo quando tudo parece desmoronar ao nosso redor.",
+ "ligar": {
+  "texto": "Embora o salmo não mencione Jesus diretamente, ele aponta para o único justo que pode proteger e salvar a humanidade: Cristo. O Senhor que está no seu santo Templo e cujos olhos observam tudo é o mesmo Deus que enviou Seu Filho para ser a justiça plena (cf. João 1.14). Assim como o salmista confia que Deus julga os perversos, o evangelho revela que Jesus cumpriu esse juízo ao morrer pelos pecadores, oferecendo justiça a todos que nele crêem. Portanto, a confiança no Deus que vê e protege se completa em Cristo, que é a encarnação da justiça divina.",
+  "selo": false
+ },
+ "viver": "Confie no Senhor quando tudo parece incerto. Mesmo que você veja pessoas más preparando armadilhas ao seu redor, lembre‑se que Deus está atento a cada detalhe da sua vida. Essa certeza pode mudar a forma como você reage às dificuldades: ao invés de ceder ao medo, você pode buscar a presença de Deus em oração, sabendo que Ele protege os que são retos de coração.\n\nEssa confiança prática se manifesta em decisões diárias, como escolher permanecer íntegro no trabalho, mesmo que colegas tentem encorajar atalhos desonestos. Ao lembrar que \"o Senhor prova ao justo\" (Sl 11.5), você pode escolher a justiça, confiando que Deus observará e recompensará sua fidelidade.",
+ "guarde": "Deus vê tudo; confie Nele quando o mundo parece desmoronar.",
+ "ore": "Senhor, ao ver as armadilhas ao meu redor, ajude-me a confiar que Tu estás atento e a permanecer justo como o salmista.",
+ "quiz": {
+  "pergunta": "O que o salmista afirma que o Senhor faz em relação aos justos?",
+  "opcoes": [
+   "Ele prova o justo",
+   "Ele ignora o justo",
+   "Ele castiga o justo"
+  ],
+  "certa": 0,
+  "explicacao": "O salmo declara que \"O SENHOR prova ao justo\" (Sl 11.5), mostrando que Deus observa e testa os que são retos, ao contrário de ignorá‑los ou castigá‑los."
+ },
+ "refs": [
+  "Salmos 1:6",
+  "Provérbios 21:12",
+  "João 5:24",
+  "1 Pedro 1:17"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-02T16:02:42.552Z",
+  "rounds": 1
+ }
+}

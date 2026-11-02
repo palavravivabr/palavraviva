@@ -3032,19 +3032,27 @@
   },
   "19-10-1-9": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:entender:19-3-1-8",
+   "estado": "pronto",
+   "titulo": "Por que o mal parece vencer?"
   },
   "19-10-10-18": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: ligar:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "O Deus que vê o que os olhos não alcançam"
   },
   "19-11-1-7": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "Quando o mundo ameaça, onde está a segurança?"
   },
   "19-12-1-8": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:citacao_fora_do_texto, ligar:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "Quando a palavra humana falha, o que resta?"
   },
   "19-13-1-6": {
    "execucoes": 0,
@@ -3089,24 +3097,24 @@
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 952,
-   "entrada": 2501395,
-   "saida": 836333
+   "chamadas": 959,
+   "entrada": 2518963,
+   "saida": 842520
   },
   "groq-qwen": {
-   "chamadas": 948,
-   "entrada": 2382491,
-   "saida": 771422
+   "chamadas": 956,
+   "entrada": 2401291,
+   "saida": 778298
   },
   "gemini": {
-   "chamadas": 830,
-   "entrada": 2691418,
-   "saida": 1050442
+   "chamadas": 835,
+   "entrada": 2707060,
+   "saida": 1058657
   },
   "cloudflare": {
-   "chamadas": 516,
-   "entrada": 1801447,
-   "saida": 191436
+   "chamadas": 520,
+   "entrada": 1815085,
+   "saida": 192920
   },
   "mistral": {
    "chamadas": 0,
