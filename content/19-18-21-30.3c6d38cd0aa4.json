@@ -1,0 +1,137 @@
+{
+ "id": "19-18-21-30",
+ "ref": "Salmos 18:21-30",
+ "book": "19",
+ "chapter": 18,
+ "verses": [
+  {
+   "n": 21,
+   "t": "Porque eu guardei os caminhos do SENHOR; nem me afastei do meu Deus praticando o mal."
+  },
+  {
+   "n": 22,
+   "t": "Porque todos os juízos dele estavam diante de mim; e não rejeitei seus estatutos para mim."
+  },
+  {
+   "n": 23,
+   "t": "Mas eu fui fiel com ele; e tomei cuidado contra minha maldade."
+  },
+  {
+   "n": 24,
+   "t": "Assim o SENHOR me recompensou conforme a minha justiça; conforme a pureza de minhas mãos perante seus olhos."
+  },
+  {
+   "n": 25,
+   "t": "Com o bondoso tu te mostras bondoso; e com o homem fiel tu te mostras fiel."
+  },
+  {
+   "n": 26,
+   "t": "Com o puro tu te mostras puro; mas com o perverso tu te mostras agressivo."
+  },
+  {
+   "n": 27,
+   "t": "Porque tu livras ao povo aflito, e humilhas aos olhos que se exaltam."
+  },
+  {
+   "n": 28,
+   "t": "Porque tu acendes minha lâmpada; o SENHOR meu Deus ilumina as minhas trevas."
+  },
+  {
+   "n": 29,
+   "t": "Porque contigo eu marcho contra um exército; e com meu Deus eu salto um muro."
+  },
+  {
+   "n": 30,
+   "t": "O caminho de Deus é perfeito; a palavra do SENHOR é refinada; ele é escudo para todos os que nele confiam."
+  }
+ ],
+ "titulo": "Deus se mostra como você é",
+ "temas": [
+  "justiça",
+  "luz",
+  "confiança",
+  "pureza"
+ ],
+ "pergunta": "Por que o salmista diz que Deus se mostra 'agressivo' com o perverso?",
+ "entender": "Neste trecho, Davi reflete sobre como sua vida prática moldou sua relação com Deus. Ele afirma que guardou os caminhos do Senhor e não rejeitou seus estatutos. Para ele, essa fidelidade não era um mérito humano, mas a resposta correta a um Deus que o livrou e o recompensou conforme a pureza de suas mãos.\n\nO versículo 26 traz uma verdade surpreendente: Deus se adapta à natureza de quem o busca. Com o bondoso, Ele é bondoso; com o fiel, fiel; e com o puro, puro. Mas com o perverso, Ele se mostra severo. Isso mostra que a santidade de Deus não é indiferente ao pecado, mas também que Ele é acessível a quem vive em obediência.\n\nFinalmente, Davi declara que Deus acende sua lâmpada e ilumina suas trevas. Isso significa que, em meio às crises, a orientação divina não vem por acaso, mas por causa da confiança mútua. O caminho de Deus é perfeito e Ele é escudo para todos os que nele confiam.",
+ "ligar": {
+  "texto": "Aqui vemos um retrato da justiça de Deus que aponta para Jesus. O texto fala de Deus se mostrando fiel ao fiel, mas Jesus é o único que é ao mesmo tempo o Juiz justo e o Salvador gracioso. Ele cumpriu a lei perfeitamente, tornando-se o 'caminho perfeito' que nos leva ao Pai. A 'lâmpada' que ilumina as trevas é a luz do mundo, Jesus, que nos guia quando não vemos o caminho. Confessar a fidelidade de Deus em Cristo é a base da nossa segurança.",
+  "selo": false
+ },
+ "viver": "Pare de tentar agradar a Deus apenas com listas de regras. O texto mostra que a pureza vem de uma relação próxima: 'fui fiel com ele'. Pergunte-se: minha obediência nasce do medo de ser punido ou do amor por quem me livrou? Quando você se sente perdido ('nas trevas'), não tente resolver tudo sozinho. Busque a Palavra e a oração, pois é Deus quem acende a lâmpada e ilumina o próximo passo. A confiança em Deus não é sentir-se seguro por suas forças, mas saber que Ele é escudo.",
+ "guarde": "Deus ilumina suas trevas quando você confia Nele, mostrando-se fiel àqueles que são fiéis a Ele.",
+ "ore": "Senhor, que acende minha lâmpada, ajuda-me a andar em fidelidade. Ensina-me a ver o caminho perfeito que Tu preparaste. Que minha pureza nas mãos seja fruto do Teu amor, não apenas da minha força. Sê meu escudo nos dias de aflição.",
+ "quiz": {
+  "pergunta": "O que o salmista diz que Deus faz com o perverso no versículo 26?",
+  "opcoes": [
+   "Mostra-se bondoso",
+   "Mostra-se indiferente",
+   "Mostra-se agressivo"
+  ],
+  "certa": 2,
+  "explicacao": "O texto contrasta a atitude de Deus com o puro e com o perverso. Com o perverso, o salmista usa a palavra 'agressivo' para indicar a severidade divina diante da maldade."
+ },
+ "refs": [
+  "Provérbios 13:6",
+  "Salmos 119:105",
+  "Provérbios 18:10"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-02T21:56:33.122Z",
+  "rounds": 1
+ }
+}

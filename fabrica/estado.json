@@ -3078,15 +3078,21 @@
   },
   "19-17-1-9": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "Deus vê o que ninguém mais vê"
   },
   "19-17-10-15": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: pergunta:vazio",
+   "estado": "pronto",
+   "titulo": "Quando os inimigos cercam: a resposta do salmista"
   },
   "19-18-1-10": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "Quando a terra tremeu por causa do seu clamor"
   },
   "19-18-11-20": {
    "execucoes": 0,
@@ -3094,7 +3100,9 @@
   },
   "19-18-21-30": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "Deus se mostra como você é"
   },
   "19-18-31-40": {
    "execucoes": 0,
@@ -3111,28 +3119,44 @@
   "19-20-1-9": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-21-1-13": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-22-1-10": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-22-11-21": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-22-22-31": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 966,
-   "entrada": 2536660,
-   "saida": 849031
+   "chamadas": 973,
+   "entrada": 2554513,
+   "saida": 855357
   },
   "groq-qwen": {
-   "chamadas": 963,
-   "entrada": 2418370,
-   "saida": 783642
+   "chamadas": 971,
+   "entrada": 2437152,
+   "saida": 789931
   },
   "gemini": {
-   "chamadas": 838,
-   "entrada": 2715909,
-   "saida": 1062544
+   "chamadas": 843,
+   "entrada": 2731234,
+   "saida": 1066212
   },
   "cloudflare": {
-   "chamadas": 523,
-   "entrada": 1824647,
-   "saida": 194033
+   "chamadas": 527,
+   "entrada": 1837948,
+   "saida": 195517
   },
   "mistral": {
    "chamadas": 0,

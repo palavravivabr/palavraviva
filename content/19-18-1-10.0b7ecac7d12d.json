@@ -1,0 +1,137 @@
+{
+ "id": "19-18-1-10",
+ "ref": "Salmos 18:1-10",
+ "book": "19",
+ "chapter": 18,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Eu te amarei, SENHOR, tu és minha força."
+  },
+  {
+   "n": 2,
+   "t": "O SENHOR é minha rocha, e minha fortaleza, e meu libertador, meu Deus, meu rochedo, em quem confio; é meu escudo, e a força da minha salvação, meu alto refúgio."
+  },
+  {
+   "n": 3,
+   "t": "Eu clamei ao SENHOR digno de louvor; e fiquei livre de meus inimigos."
+  },
+  {
+   "n": 4,
+   "t": "Cordas de morte me cercaram; e riachos de maldade me encheram de medo."
+  },
+  {
+   "n": 5,
+   "t": "Cordas do Xeol me envolveram; laços de morte me afrontaram."
+  },
+  {
+   "n": 6,
+   "t": "Em minha angústia, clamei ao SENHOR, e roguei a meu Deus; desde o seu Templo ele ouviu a minha voz; e o meu clamor diante de seu rosto chegou aos ouvidos dele."
+  },
+  {
+   "n": 7,
+   "t": "Então a terra de abalou e tremeu; e os fundamentos dos montes de moveram e foram abalados, porque ele se irritou."
+  },
+  {
+   "n": 8,
+   "t": "Fumaça subiu de seu nariz, e fogo consumidor saiu de sua boca; carvões foram acesos por ele."
+  },
+  {
+   "n": 9,
+   "t": "Ele moveu os céus, e desceu; e as trevas estavam debaixo de seus pés."
+  },
+  {
+   "n": 10,
+   "t": "Ele montou sobre um querubim, e fez seu voo; e voou veloz sobre as assas do vento."
+  }
+ ],
+ "titulo": "Quando a terra tremeu por causa do seu clamor",
+ "temas": [
+  "proteção",
+  "clamor",
+  "poder de deus",
+  "salvação"
+ ],
+ "pergunta": "O que você faz quando se sente cercado por forças que parecem maiores que você?",
+ "entender": "O Salmo 18 começa com uma declaração de amor e confiança total. O salmista não lista apenas atributos de Deus, mas descreve uma experiência de resgate. Ele usa imagens de fortaleza, rocha e escudo para mostrar que Deus é a base segura em meio ao perigo. Não é uma lista de características abstratas, mas um relato de alguém que foi salvo.\n\nO texto descreve uma situação de extrema perseguição: \"cordas de morte\" e \"riachos de maldade\" cercam o salmista. Ele está em angústia profunda, quase sufocado. Porém, a reação dele não é desistir, mas clamar. O versículo 6 diz: \"desde o seu Templo ele ouviu a minha voz\". A resposta de Deus é tão poderosa que a terra treme e os fundamentos dos montes se movem. Deus age com força para libertar o seu servo.",
+ "ligar": {
+  "texto": "Este salmo aponta para Jesus, que é a verdadeira Rocha e Fortaleza. Assim como o salmista foi libertado de seus inimigos, Jesus nos liberta do maior inimigo de todos: o pecado e a morte. A imagem de Deus descendo dos céus para salvar ecoa a encarnação de Cristo, que desceu da glória para nos resgatar. A morte que cercava o salmista foi vencida na cruz, onde a justiça de Deus se manifestou, mas a misericórdia nos salvou.",
+  "selo": false
+ },
+ "viver": "Quando a ansiedade ou o medo parecerem te envolver como aquelas \"cordas de morte\", pare de tentar se salvar sozinho. O texto mostra que a resposta à angústia não é a força própria, mas o clamor. Tente identificar um ponto específico de medo ou pressão em sua vida hoje. Em vez de apenas se preocupar, transforme essa preocupação em uma oração dirigida a Deus, reconhecendo que Ele é seu refúgio. A paz não vem da ausência de problemas, mas da presença dEle que ouve seu clamor.",
+ "guarde": "Deus ouve seu clamor e age com poder para libertá-lo, mesmo quando a terra treme.",
+ "ore": "Pai, assim como o salmista, eu clamo a Ti em minha angústia. Tu és minha rocha e fortaleza. Quando as cordas do medo me cercam, lembro que Tu ouves do Teu Templo. Liberta-me, Senhor, e fortalece minha confiança em Ti, pois Tu és digno de louvor.",
+ "quiz": {
+  "pergunta": "Segundo o texto, o que aconteceu quando o salmista clamou ao Senhor na sua angústia?",
+  "opcoes": [
+   "Seus inimigos pediram desculpas imediatamente.",
+   "O salmista fugiu para um lugar seguro.",
+   "A terra se abalou e os fundamentos dos montes se moveram."
+  ],
+  "certa": 2,
+  "explicacao": "O versículo 7 descreve explicitamente a reação cósmica à intervenção de Deus: a terra tremeu e os montes se moveram, indicando o poder divino em ação."
+ },
+ "refs": [
+  "2 Samuel 22:1-10",
+  "Salmos 91:1-2",
+  "Isaías 40:17-18"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-02T21:52:37.697Z",
+  "rounds": 1
+ }
+}
