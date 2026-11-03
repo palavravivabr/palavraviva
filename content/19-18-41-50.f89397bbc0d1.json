@@ -1,0 +1,137 @@
+{
+ "id": "19-18-41-50",
+ "ref": "Salmos 18:41-50",
+ "book": "19",
+ "chapter": 18,
+ "verses": [
+  {
+   "n": 41,
+   "t": "Eles clamaram, mas não havia quem os livrasse; clamaram até ao SENHOR, mas ele não lhes respondeu."
+  },
+  {
+   "n": 42,
+   "t": "Então eu os reduzi a pó, como a poeira ao vento; eu os joguei fora como a lama das ruas."
+  },
+  {
+   "n": 43,
+   "t": "Tu me livraste das brigas do povo; tu me puseste como cabeça das nações; o povo que eu não conhecia me serviu."
+  },
+  {
+   "n": 44,
+   "t": "Ao me ouvirem, logo me obedeceram; estrangeiros se sujeitaram a mim."
+  },
+  {
+   "n": 45,
+   "t": "Estrangeiros se enfraqueceram; e tremeram de medo desde suas extremidades."
+  },
+  {
+   "n": 46,
+   "t": "O SENHOR vive, e bendito seja minha rocha; e exaltado seja o Deus de minha salvação;"
+  },
+  {
+   "n": 47,
+   "t": "O Deus que dá minha vingança, e sujeita aos povos debaixo de mim;"
+  },
+  {
+   "n": 48,
+   "t": "Aquele que me livra dos meus inimigos; tu também me exaltas sobre aqueles que se levantam contra mim; tu me livras do homem violento."
+  },
+  {
+   "n": 49,
+   "t": "Por isso, SENHOR, eu te louvarei entre as nações, e cantarei ao teu Nome;"
+  },
+  {
+   "n": 50,
+   "t": "Que faz grandes as salvações de seu Rei, e pratica a bondade para com o seu ungido, com Davi, e sua semente, para sempre."
+  }
+ ],
+ "titulo": "O Deus que exalta o Ungido",
+ "temas": [
+  "libertação",
+  "soberania",
+  "louvor",
+  "realeza"
+ ],
+ "pergunta": "Por que Davi afirma que o Senhor faz grandes as salvações do seu Rei?",
+ "entender": "Neste trecho, Davi descreve como Deus interveio para livrá-lo de seus inimigos. Ele observa que os adversários clamaram, mas não houve quem os livrasse, enquanto Deus agiu decisivamente a seu favor. A vitória não veio por força humana, mas pela ação divina que reduziu os oponentes a pó.\n\nDavi reconhece que foi posto como cabeça das nações e que estrangeiros se sujeitaram a ele. Ele elogia o Senhor como sua rocha e o Deus de sua salvação, que dá vingança e o exalta sobre aqueles que se levantaram contra ele.\n\nO salmo termina com uma declaração profética: Deus faz grandes as salvações do seu Rei e pratica bondade para com o seu ungido, referindo-se a Davi e sua descendência. Isso aponta para a fidelidade de Deus a Sua aliança.",
+ "ligar": {
+  "texto": "Embora Davi seja o personagem central, o final do salmo aponta para a linhagem davídica. A promessa de bondade para com o ungido se cumpre plenamente em Jesus, o verdadeiro Filho de Davi. Jesus é o Rei que venceu o pecado e a morte, livrando-nos de todos os inimigos espirituais. Ao louvarmos a Deus, reconhecemos que Ele exalta o seu Cristo, que nos deu a vitória definitiva.",
+  "selo": false
+ },
+ "viver": "Ao ler que Deus exalta o seu ungido, pense em como você pode confiar na soberania de Deus em situações onde parece que a injustiça prevalece. Assim como Davi reconheceu a mão de Deus em sua libertação, você pode descansar na certeza de que o Senhor governa a história. Entregue suas lutas a Ele, sabendo que Ele é o Deus que pratica a bondade para com o seu povo e cumpre suas promessas.",
+ "guarde": "Deus exalta o seu Cristo e cumpre suas promessas com fidelidade eterna.",
+ "ore": "Senhor, que faz grandes as salvações do seu Rei, eu te louvo. Assim como Davi reconheceu tua mão em sua libertação, eu confio em tua soberania. Exalta o nome de Jesus, meu verdadeiro Rei, e guia meu coração para adorar a ti.",
+ "quiz": {
+  "pergunta": "Para quem Davi diz que Deus pratica a bondade no versículo 50?",
+  "opcoes": [
+   "Para todos os estrangeiros que se sujeitaram a ele",
+   "Para o seu ungido, Davi, e sua semente",
+   "Para os inimigos que clamaram ao Senhor"
+  ],
+  "certa": 1,
+  "explicacao": "O texto final afirma explicitamente a bondade de Deus para com o seu ungido, Davi, e sua descendência, estabelecendo a base da aliança davídica."
+ },
+ "refs": [
+  "2 Samuel 7:16",
+  "Lucas 1:32-33",
+  "Atos 2:30"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-03T04:01:43.429Z",
+  "rounds": 1
+ }
+}

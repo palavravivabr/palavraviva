@@ -1,0 +1,137 @@
+{
+ "id": "19-24-1-10",
+ "ref": "Salmos 24:1-10",
+ "book": "19",
+ "chapter": 24,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Ao SENHOR pertence a terra, e sua plenitude; o mundo, e os que nele habitam."
+  },
+  {
+   "n": 2,
+   "t": "Porque ele a fundou sobre os mares; e sobre os rios ele a firmou."
+  },
+  {
+   "n": 3,
+   "t": "Quem subirá ao monte do SENHOR? E quem ficará de pé no lugar de sua santidade?"
+  },
+  {
+   "n": 4,
+   "t": "Aquele que é limpo de mãos, e puro de coração, que não entrega sua alma para as coisas vãs, nem jura enganosamente."
+  },
+  {
+   "n": 5,
+   "t": "Este receberá a bênção do SENHOR, e a justiça do Deus de sua salvação."
+  },
+  {
+   "n": 6,
+   "t": "Esta é a geração dos que o buscam, dos que procuram a tua face: a geração de Jacó. (Selá)"
+  },
+  {
+   "n": 7,
+   "t": "Levantai, portas, vossas cabeças; e levantai-vos vós, entradas eternas; para que entre o Rei da Glória."
+  },
+  {
+   "n": 8,
+   "t": "Quem é o Rei da Glória? O SENHOR forte e poderoso, o SENHOR poderoso na guerra."
+  },
+  {
+   "n": 9,
+   "t": "Levantai, portas, vossas cabeças; e levantai-vos vós, entradas eternas; para que entre o Rei da Glória."
+  },
+  {
+   "n": 10,
+   "t": "Quem é este Rei da Glória? O SENHOR dos exércitos; ele é o Rei da Glória! (Selá)"
+  }
+ ],
+ "titulo": "As portas eternas se abrem para quem?",
+ "temas": [
+  "soberania",
+  "santidade",
+  "realeza",
+  "acesso"
+ ],
+ "pergunta": "O que realmente nos dá o direito de nos aproximar do trono de Deus?",
+ "entender": "O salmo começa com uma afirmação de poder absoluto: a terra e tudo o que existe nela pertencem ao SENHOR. Ele é o fundamento do mundo, firme sobre os mares e rios. Não há nada fora do domínio dEle.\n\nDepois, o texto muda o foco para a pergunta: quem pode subir ao monte do SENHOR? A resposta não é baseada em força ou status, mas em integridade: mãos limpas, coração puro e rejeição às coisas vãs e às mentiras. É a geração que busca a face de Deus.\n\nFinalmente, o salmo vira um hino de vitória. As portas eternas são chamadas a se erguer para a entrada do Rei da Glória. Ele é descrito como forte, poderoso na guerra e Senhor dos exércitos. É uma celebração da majestade de Deus entrando em cena.",
+ "ligar": {
+  "texto": "Este salmo aponta para Jesus de duas formas claras. Primeiro, Jesus é o 'Rei da Glória' que entra no santuário através de sua própria vida, morte e ressurreição, abrindo o caminho para nós. Segundo, ele revela que ninguém pode subir ao monte do Senhor por mérito próprio. A pureza que o salmo exige é dada a nós através da graça de Cristo. Em Jesus, as portas eternas se abrem não porque somos perfeitos, mas porque Ele é o Rei justo que nos justifica.",
+  "selo": false
+ },
+ "viver": "A pergunta 'quem subirá ao monte do SENHOR?' nos convida a examinar nossa sinceridade. Hoje, isso significa parar de tentar impressionar Deus com rituais vazios ou de esconder pecados para parecer melhor. Pratique a honestidade radical: traga suas lutas reais para a oração, sem máscaras. Reconheça que sua segurança não vem de sua performance, mas da busca fiel pela face de Deus. Deixe as 'coisas vãs' e as mentiras pequenas saírem de sua vida, confiando que a justiça de Deus é um presente, não um prêmio por esforço.",
+ "guarde": "As portas eternas se abrem para o Rei da Glória, e nós entramos por meio dEle, com corações sinceros.",
+ "ore": "Rei da Glória, eu reconheço que a terra é Tua e que eu não tenho mérito para subir ao Teu monte. Abre minhas mãos e meu coração para que eu possa Te buscar com pureza, abandonando as vaidades e as mentiras, confiando na Tua justiça e na obra de Jesus, que nos deu acesso a Ti.",
+ "quiz": {
+  "pergunta": "Quem é identificado como o 'Rei da Glória' na parte final do Salmo 24?",
+  "opcoes": [
+   "O anjo que guarda as portas do templo.",
+   "O rei Davi, que liderava as tropas de Israel.",
+   "O SENHOR forte e poderoso, o SENHOR dos exércitos."
+  ],
+  "certa": 2,
+  "explicacao": "O texto identifica explicitamente o Rei da Glória como o SENHOR (YHWH), descrevendo-o como forte, poderoso na guerra e Senhor dos exércitos, não como um rei humano ou um anjo."
+ },
+ "refs": [
+  "João 14:6",
+  "Hebreus 4:16",
+  "Isaías 6:1-8"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-03T04:06:29.354Z",
+  "rounds": 2
+ }
+}

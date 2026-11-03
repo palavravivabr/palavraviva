@@ -3097,7 +3097,7 @@
    "titulo": "Quando a terra tremeu por causa do seu clamor"
   },
   "19-18-11-20": {
-   "execucoes": 1,
+   "execucoes": 2,
    "ultimo": "automático: entender:citacao_fora_do_texto"
   },
   "19-18-21-30": {
@@ -3114,7 +3114,9 @@
   },
   "19-18-41-50": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: CONTEXT_FIDELITY: O ensino distorce o contexto do versículo 41 ao afirmar que quem clamou sem resposta foi o povo do salmista, e não os seus inimigos. | NARRATIVE_EVENT_CONSISTENCY: O texto troca os fatos narrados ao afirmar que o povo de Davi clamou sem resposta, quando a passagem se refere aos ini",
+   "estado": "pronto",
+   "titulo": "O Deus que exalta o Ungido"
   },
   "19-19-1-14": {
    "execucoes": 0,
@@ -3136,11 +3138,15 @@
   },
   "19-22-1-10": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: CROSS_SECTION_CONSISTENCY: A resposta marcada como correta no teste ('A) Deus') está errada, pois Deus foi quem tirou o salmista do ventre, e não o elemento que foi tirado do ventre.",
+   "estado": "pronto",
+   "titulo": "Quando o clamor parece silenciado"
   },
   "19-22-11-21": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "O Grito do Justo na Cruz"
   },
   "19-22-22-31": {
    "execucoes": 0,
@@ -3152,7 +3158,9 @@
   },
   "19-24-1-10": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:viver:43-4-12-22",
+   "estado": "pronto",
+   "titulo": "As portas eternas se abrem para quem?"
   },
   "19-25-1-11": {
    "execucoes": 0,
@@ -3169,28 +3177,44 @@
   "19-27-1-14": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-28-1-9": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-29-1-11": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-30-1-12": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-31-1-12": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 981,
-   "entrada": 2575602,
-   "saida": 862489
+   "chamadas": 988,
+   "entrada": 2594762,
+   "saida": 869121
   },
   "groq-qwen": {
-   "chamadas": 979,
-   "entrada": 2457160,
-   "saida": 796206
+   "chamadas": 986,
+   "entrada": 2474351,
+   "saida": 801963
   },
   "gemini": {
-   "chamadas": 849,
-   "entrada": 2749704,
-   "saida": 1071835
+   "chamadas": 855,
+   "entrada": 2768742,
+   "saida": 1076869
   },
   "cloudflare": {
-   "chamadas": 532,
-   "entrada": 1854487,
-   "saida": 197372
+   "chamadas": 536,
+   "entrada": 1867892,
+   "saida": 198856
   },
   "mistral": {
    "chamadas": 0,

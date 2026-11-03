@@ -1,0 +1,142 @@
+{
+ "id": "19-22-11-21",
+ "ref": "Salmos 22:11-21",
+ "book": "19",
+ "chapter": 22,
+ "verses": [
+  {
+   "n": 11,
+   "t": "Não fiques longe de mim, porque a minha angústia está perto; pois não há quem me ajude."
+  },
+  {
+   "n": 12,
+   "t": "Muitos touros me cercaram; fortes de Basã me rodearam."
+  },
+  {
+   "n": 13,
+   "t": "Abriram contra mim suas bocas, como leão que despedaça e ruge."
+  },
+  {
+   "n": 14,
+   "t": "Eu me derramei como água, e todos os meus ossos se soltaram uns dos outros; meu coração é como cera, e se derreteu por entre meus órgãos."
+  },
+  {
+   "n": 15,
+   "t": "Minha força se secou como um caco de barro, e minha língua está grudada no céu da boca; e tu me pões no pó da morte;"
+  },
+  {
+   "n": 16,
+   "t": "Porque cães ficaram ao meu redor; uma multidão de malfeitores me cercou; perfuraram minhas mãos e meus pés."
+  },
+  {
+   "n": 17,
+   "t": "Eu poderia contar todos os meus ossos; eles estão me olhando, e prestando atenção em mim."
+  },
+  {
+   "n": 18,
+   "t": "Eles repartem entre si minhas roupas; e sobre minha vestimenta eles lançam sortes."
+  },
+  {
+   "n": 19,
+   "t": "Porém tu, SENHOR, não fiques longe; força minha, apressa-te para me socorrer."
+  },
+  {
+   "n": 20,
+   "t": "Livra minha alma da espada; e minha vida da violência do cão."
+  },
+  {
+   "n": 21,
+   "t": "Salva-me da boca do leão; e responde-me dos chifres dos touros selvagens."
+  }
+ ],
+ "titulo": "O Grito do Justo na Cruz",
+ "temas": [
+  "sofrimento",
+  "abandono",
+  "salvação",
+  "fé",
+  "cristo"
+ ],
+ "pergunta": "O que fazemos quando a dor parece maior que a voz de Deus?",
+ "entender": "Este salmo descreve uma angústia física e emocional extrema. O salmista sente que Deus está distante: \"Não fiques longe de mim, porque a minha angústia está perto\". Ele usa imagens violentas de animais, como touros e leões, para mostrar o quão cercado e indefeso se sente. Seu corpo parece desmoronar, como cera derretida, e sua força se seca. \n\nÉ crucial notar que, no versículo 16, ele diz que \"perfuraram minhas mãos e meus pés\". Isso é historicamente raro em orações de sofrimento comum, o que sugere uma profecia específica. O salmista não nega a dor, mas a leva diante de Deus, pedindo socorro contra a violência dos \"cães\" e \"malfeitores\" que o cercam.",
+ "ligar": {
+  "texto": "Este texto aponta diretamente para a crucificação de Jesus. As mãos e pés perfurados, a divisão das roupas por sorteio e o sentimento de abandono físico e espiritual são detalhes que se cumprem na morte de Cristo. Jesus orou palavras semelhantes, sentindo o peso do pecado do mundo. A conexão mostra que Deus não está distante da dor, mas entrou nela através de Seu Filho para nos resgatar.",
+  "selo": true
+ },
+ "viver": "Quando a dor parecer insuportável e a oração parecer inútil, lembre-se de que Jesus também clamou. Não fuja da realidade, mas leve sua angústia a Deus com a mesma honestidade do salmista. A fé não elimina a dor, mas garante que, no meio dela, há um Salvador que já venceu a morte. Confie no processo de Deus, mesmo quando a resposta não vem imediatamente.",
+ "guarde": "Deus não ignora o grito do aflito; Ele o ouve e age em seu tempo.",
+ "ore": "Jesus, Tu que sentiste o abandono na cruz, ensina-me a clamar com honestidade. Quando minha força secar, lembra-me de que Tu já vences a morte. Socorre minha alma e fortalece minha fé no Teu amor eterno.",
+ "quiz": {
+  "pergunta": "Qual detalhe físico específico o salmista menciona no versículo 16?",
+  "opcoes": [
+   "Mãos e pés perfurados",
+   "Coroa de espinhos",
+   "Choro contínuo"
+  ],
+  "certa": 0,
+  "explicacao": "O versículo 16 diz explicitamente: \"perfuraram minhas mãos e meus pés\", o que é uma referência profética à crucificação, diferente das outras opções."
+ },
+ "refs": [
+  "Mateus 27:35",
+  "Marcos 15:24",
+  "Isaías 53:5"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-03T04:00:31.185Z",
+  "rounds": 1
+ }
+}

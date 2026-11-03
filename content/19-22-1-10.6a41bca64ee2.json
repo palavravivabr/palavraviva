@@ -1,0 +1,137 @@
+{
+ "id": "19-22-1-10",
+ "ref": "Salmos 22:1-10",
+ "book": "19",
+ "chapter": 22,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Deus meu, Deus meu, por que me desamparaste? Longe estás de meu livramento e das palavras de meu gemido."
+  },
+  {
+   "n": 2,
+   "t": "Deus meu, eu clamo de dia, e tu não me respondes; também clamo de noite, e não tenho sossego."
+  },
+  {
+   "n": 3,
+   "t": "Porém tu és Santo, que habitas nos louvores de Israel."
+  },
+  {
+   "n": 4,
+   "t": "Nossos pais confiaram em ti; eles confiaram, e tu os livraste."
+  },
+  {
+   "n": 5,
+   "t": "Eles clamaram a ti, e escaparam do perigo ; eles confiaram em ti, e não foram envergonhados."
+  },
+  {
+   "n": 6,
+   "t": "Mas eu sou um verme, e não um homem; sou humilhado pelos homens, e desprezado pelo povo."
+  },
+  {
+   "n": 7,
+   "t": "Todos os que me veem zombam de mim; abrem os lábios e sacodem a cabeça, dizendo :"
+  },
+  {
+   "n": 8,
+   "t": "Ele confiou no “SENHOR”; agora que ele o salve e o liberte; pois se agrada nele."
+  },
+  {
+   "n": 9,
+   "t": "Tu és o que me tiraste do ventre; e o que me deu segurança, estando eu junto aos seios de minha mãe."
+  },
+  {
+   "n": 10,
+   "t": "Eu fui lançado sobre ti desde que saí d o útero; desde o ventre de minha mãe tu és meu Deus."
+  }
+ ],
+ "titulo": "Quando o clamor parece silenciado",
+ "temas": [
+  "sofrimento",
+  "confiança",
+  "esperança"
+ ],
+ "pergunta": "Já sentiu que Deus está longe quando você clama por ajuda?",
+ "entender": "O salmista abre com um lamento intenso: \"Deus meu, Deus meu, por que me desamparaste?\" (Salmos 22:1). Ele descreve a sensação de abandono, de clamar dia e noite sem resposta, e ainda assim lembra que Deus é santo e habita nos louvores de Israel (v.3‑4). O texto traz a memória dos antepassados que confiaram em Deus e foram libertados (v.5). Em seguida, o autor se vê como um verme, humilhado e ridicularizado pelos que o cercam (v.6‑8), mas reafirma que Deus o tirou do ventre e o sustenta desde a concepção (v.9‑10). O Salmo 22 inicia assim um drama de dor que, no seu desenvolvimento, conduz à confiança na fidelidade divina.\n\nEsse lamento não é um abandono total; está inserido na tradição de Israel que, mesmo em crise, recorda as obras salvadoras de Deus. O salmista usa sua própria experiência para ecoar a história de seus pais, reforçando que, embora se sinta rejeitado, Deus o conhece desde o ventre e jamais o esquece. O contraste entre o sofrimento presente e a lembrança da ação passada prepara o coração para a esperança que será revelada nos versículos seguintes do salmo.",
+ "ligar": {
+  "texto": "O clamor do salmista ecoa o grito de Jesus na cruz, onde Ele também exclamou: \"Deus meu, Deus meu, por que me desamparaste?\" (Mateus 27:46). Assim como o salmista lembra que Deus o tirou do ventre, Jesus cumpriu a promessa de ser sustentado desde a concepção (Lucas 1:31‑35). Essa conexão mostra que o sofrimento humano aponta para o sofrimento redentor de Cristo, que, embora pareça abandonado, cumpre a obra de salvação e abre caminho para a esperança anunciada nos últimos versículos do Salmo 22.",
+  "selo": false
+ },
+ "viver": "Ao sentir que Deus está distante, lembre‑se de que o próprio Salmo 22 afirma que Ele nos conhece desde o ventre. Essa certeza pode mudar a forma como encaramos a dor: não como abandono, mas como um momento em que Deus nos chama a confiar na sua fidelidade passada. Quando a vida parece cheia de zombarias e desprezo, procure expressar seu clamor em oração sincera, reconhecendo que Deus ouve mesmo quando o silêncio parece dominar. Compartilhar esse sentimento com alguém de confiança também traz encorajamento, pois, como os pais do salmista, outros podem lembrar das intervenções de Deus em sua própria história.\n\nAssim, ao viver a realidade de ser conhecido por Deus desde antes do nascimento, você pode enfrentar o desprezo e a angústia com a certeza de que não está sozinho, mas sustentado por Aquele que o tirou do ventre.",
+ "guarde": "Deus conhece e sustenta você desde o ventre, mesmo quando parece distante.",
+ "ore": "Salmo 22, ao clamar: Senhor, sinto-me abandonado e ridicularizado; lembra-me que Tu me tiraste do ventre e que ainda estás comigo.",
+ "quiz": {
+  "pergunta": "O que o salmista afirma ter sido tirado do ventre?",
+  "opcoes": [
+   "eu",
+   "um animal",
+   "um inimigo"
+  ],
+  "certa": 0,
+  "explicacao": "No versículo 9 o salmista diz: \"Tu és o que me tiraste do ventre\", reconhecendo que ele próprio foi tirado do ventre por Deus."
+ },
+ "refs": [
+  "Mateus 27:46",
+  "Lucas 1:31-35",
+  "Isaías 53:3",
+  "Hebreus 5:7"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-03T03:58:33.008Z",
+  "rounds": 2
+ }
+}
