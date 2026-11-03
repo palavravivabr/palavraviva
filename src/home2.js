@@ -38,7 +38,6 @@
     var st = document.createElement('style');
     st.textContent = '.slides:empty{min-height:208px;background:#1d3b33;border-radius:0 0 30px 30px}' +
       '.pdc-date{position:absolute;right:14px;top:12px;font-size:12px;font-weight:700;padding:4px 11px;border-radius:10px;background:rgba(10,18,17,.62);color:#fff}' +
-      '#menuBtn{display:none!important}' + /* duplicava a aba Menu da navegação inferior */
       '.big.copiado{background:var(--accent)!important;color:#fff!important}' +
       '.resume .t{flex:1;min-width:0}' +
       '.rthumb{flex:none;width:44px;height:52px;border-radius:10px;background:linear-gradient(rgba(10,18,17,.12),rgba(10,18,17,.12)),url(assets/hero-bible.jpg) center/cover,#1d3b33}';
