@@ -1,0 +1,141 @@
+{
+ "id": "19-33-1-11",
+ "ref": "Salmos 33:1-11",
+ "book": "19",
+ "chapter": 33,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Cantai ao SENHOR, vós que sois justos; aos corretos convém louvar."
+  },
+  {
+   "n": 2,
+   "t": "Louvai ao SENHOR com harpa; cantai a ele com alaúde e instrumento de dez cordas."
+  },
+  {
+   "n": 3,
+   "t": "Cantai-lhe uma canção nova; tocai instrumento bem com alegria."
+  },
+  {
+   "n": 4,
+   "t": "Porque a palavra do SENHOR é correta; e todas suas obras são fiéis."
+  },
+  {
+   "n": 5,
+   "t": "Ele ama a justiça e o juízo; a terra está cheia da bondade do SENHOR."
+  },
+  {
+   "n": 6,
+   "t": "Pala palavra do SENHOR foram feitos os céus; e todo o seu exército foi feito pelo sopro de sua boca."
+  },
+  {
+   "n": 7,
+   "t": "Ele junta as águas do mar como se estivessem empilhadas; aos abismos ele põe como depósitos de tesouros."
+  },
+  {
+   "n": 8,
+   "t": "Toda a terra, tenha temor ao SENHOR; todos os moradores do mundo prestem reverência a ele."
+  },
+  {
+   "n": 9,
+   "t": "Porque ele falou, e logo se fez; ele mandou, e logo apareceu."
+  },
+  {
+   "n": 10,
+   "t": "O SENHOR desfez a intenção das nações; ele destruiu os planos dos povos."
+  },
+  {
+   "n": 11,
+   "t": "O conselho do SENHOR permanece para sempre; as intenções de seu coração continuam de geração após geração."
+  }
+ ],
+ "titulo": "Quando os planos humanos falham, o conselho de Deus permanece",
+ "temas": [
+  "soberania",
+  "criação",
+  "confiança",
+  "adoração"
+ ],
+ "pergunta": "Por que o salmista diz que o Senhor desfez a intenção das nações?",
+ "entender": "Este salmo é um convite para louvar a Deus com alegria e instrumentos musicais. O motivo é claro: a palavra do Senhor é correta e todas as suas obras são fiéis. O texto destaca que a terra está cheia da bondade de Deus, pois ele ama a justiça e o juízo.\n\nA passagem descreve o poder criador de Deus: os céus foram feitos pela sua palavra e o exército celestial pelo sopro de sua boca. Ele controla as águas do mar como se empilhasse tesouros. Diante dessa grandeza, toda a terra deve temer e reverenciar o Senhor, pois ele falou e tudo se fez.\n\nFinalmente, o salmo contrasta a fragilidade dos planos humanos com a eternidade do propósito divino. O Senhor desfez a intenção das nações, mas o conselho dele permanece para sempre, de geração em geração. Isso traz segurança, pois o que Deus planeja não muda.",
+ "ligar": {
+  "texto": "A palavra que criou o universo é a mesma que se fez carne em Jesus. João 1.1-3 afirma que todas as coisas foram feitas por meio dele. Jesus é a manifestação visível da bondade e da justiça de Deus. Quando ele falou na cruz, 'está consumado', demonstrou o poder da palavra que vence a morte. A fidelidade das obras de Deus é vista no evangelho: ele cumpriu o plano de salvação, desfazendo os planos do pecado e estabelecendo um reino que não passará.",
+  "selo": false
+ },
+ "viver": "Observe como o salmo termina: o conselho do Senhor permanece, mas os planos dos povos são destruídos. Quando você sentir o peso de tentar controlar o futuro ou de ver seus projetos desmoronarem, pare e reconheça essa realidade. Em vez de insistir em suas próprias estratégias, entregue suas intenções a Deus na oração. Confie que, mesmo quando tudo ao redor parece instável, a vontade dele é firme e ele age com fidelidade, sustentando o que você não pode garantir por conta própria.",
+ "guarde": "O conselho do Senhor permanece para sempre, mesmo quando os planos dos homens ruem.",
+ "ore": "Criador dos céus pela tua palavra, ensina-me a confiar na fidelidade das tuas obras. Ajuda-me a desistir de controlar o que não posso mudar, pois o teu conselho permanece para sempre. Enche minha terra da tua bondade e faz meu coração temer a ti com reverência.",
+ "quiz": {
+  "pergunta": "Segundo Salmos 33.9, o que aconteceu quando Deus falou?",
+  "opcoes": [
+   "Precisou de ajuda humana",
+   "Levou muito tempo para acontecer",
+   "Logo se fez"
+  ],
+  "certa": 2,
+  "explicacao": "O versículo 9 afirma explicitamente: 'Porque ele falou, e logo se fez'. Isso destaca a imediatidade e o poder absoluto da palavra de Deus na criação e na ação divina."
+ },
+ "refs": [
+  "João 1:1-3",
+  "Hebreus 11:3",
+  "Isaías 40:26"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-03T22:00:35.217Z",
+  "rounds": 2
+ }
+}

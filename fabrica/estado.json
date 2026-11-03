@@ -3188,7 +3188,9 @@
   },
   "19-27-1-14": {
    "execucoes": 2,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:viver:19-17-10-15, abertura_repetida:entender:19-5-1-12",
+   "estado": "pronto",
+   "titulo": "O desejo profundo que transforma o medo em adoração"
   },
   "19-28-1-9": {
    "execucoes": 0,
@@ -3210,7 +3212,9 @@
   },
   "19-31-1-12": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "Quando a rocha parece distante, onde buscar refúgio?"
   },
   "19-31-13-24": {
    "execucoes": 0,
@@ -3220,11 +3224,15 @@
   },
   "19-32-1-11": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: refs:quantidade",
+   "estado": "pronto",
+   "titulo": "O peso que some quando você fala"
   },
   "19-33-1-11": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:viver:41-9-41-50",
+   "estado": "pronto",
+   "titulo": "Quando os planos humanos falham, o conselho de Deus permanece"
   },
   "19-33-12-22": {
    "execucoes": 0,
@@ -3249,28 +3257,44 @@
   "19-35-20-28": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-36-1-12": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-37-1-10": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-37-11-20": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-37-21-30": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 1025,
-   "entrada": 2691932,
-   "saida": 901022
+   "chamadas": 1031,
+   "entrada": 2707962,
+   "saida": 906291
   },
   "groq-qwen": {
-   "chamadas": 1021,
-   "entrada": 2569191,
-   "saida": 831526
+   "chamadas": 1028,
+   "entrada": 2586624,
+   "saida": 837102
   },
   "gemini": {
-   "chamadas": 870,
-   "entrada": 2816244,
-   "saida": 1094096
+   "chamadas": 874,
+   "entrada": 2828842,
+   "saida": 1095760
   },
   "cloudflare": {
-   "chamadas": 546,
-   "entrada": 1901708,
-   "saida": 202566
+   "chamadas": 550,
+   "entrada": 1915373,
+   "saida": 204050
   },
   "mistral": {
    "chamadas": 0,
