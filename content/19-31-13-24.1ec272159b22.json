@@ -1,0 +1,145 @@
+{
+ "id": "19-31-13-24",
+ "ref": "Salmos 31:13-24",
+ "book": "19",
+ "chapter": 31,
+ "verses": [
+  {
+   "n": 13,
+   "t": "Porque ouvi a murmuração de muitos, temor há ao redor; juntamente tramam contra mim, planejam como matar minha alma."
+  },
+  {
+   "n": 14,
+   "t": "Mas eu confio em ti, SENHOR, eu te chamo de meu Deus."
+  },
+  {
+   "n": 15,
+   "t": "Meus tempos estão em tuas mãos; livra-me da mão dos meus inimigos e daqueles que me perseguem."
+  },
+  {
+   "n": 16,
+   "t": "Faz brilhar o teu rosto sobre teu servo; salva-me por tua bondade."
+  },
+  {
+   "n": 17,
+   "t": "SENHOR, não me deixes envergonhado, pois eu clamo a ti; que os perversos se envergonhem e se calem no Xeol."
+  },
+  {
+   "n": 18,
+   "t": "Emudeçam os lábios mentirosos, que falam coisas duras contra o justo, com arrogância e desprezo."
+  },
+  {
+   "n": 19,
+   "t": "Como é grade a tua bondade, que guardaste para aqueles que te temem! Tu trabalhaste para os que confiam em ti, na presença dos filhos dos homens."
+  },
+  {
+   "n": 20,
+   "t": "No esconderijo de tua presença tu os escondes das arrogâncias dos homens; em tua tenda tu os encobres da rivalidade das línguas."
+  },
+  {
+   "n": 21,
+   "t": "Bendito seja o SENHOR, pois ele fez maravilhosa sua bondade para comigo, como uma cidade segura."
+  },
+  {
+   "n": 22,
+   "t": "Eu dizia em minha aflição: Estou cortado de diante de teus olhos.Porém tu ouviste a voz de minhas súplicas quando clamei a ti."
+  },
+  {
+   "n": 23,
+   "t": "Amai ao SENHOR, todos vós santos dele; o SENHOR guarda aos fiéis, e retribui abundantemente ao que usa de arrogância."
+  },
+  {
+   "n": 24,
+   "t": "Sede fortes, e ele fortalecerá vosso coração, todos vós que esperais no SENHOR."
+  }
+ ],
+ "titulo": "O refúgio para quem se sente exposto",
+ "temas": [
+  "confiança",
+  "proteção",
+  "esperança",
+  "ansiedade"
+ ],
+ "pergunta": "O que você faz quando sente que as pessoas ao seu redor estão contra você?",
+ "entender": "Davi escreveu este salmo em um momento de extrema vulnerabilidade. Ele estava cercado por inimigos que tramavam contra sua vida e sofria com a murmuração de muitas pessoas. A sensação era de isolamento e pânico, como se sua alma estivesse sendo devorada pelo temor ao redor.\n\nMesmo assim, Davi escolhe confiar. Ele declara: \"eu te chamo de meu Deus\" e entrega seus tempos nas mãos do Senhor. O salmo contrasta a arrogância dos inimigos, que falam com desprezo, com a bondade de Deus, que esconde os que O temem. Deus não apenas protege, mas dá segurança, comparada a uma cidade fortificada, para aqueles que esperam Nele.",
+ "ligar": {
+  "texto": "Este salmo aponta para Jesus, a verdadeira cidade segura. No Novo Testamento, Jesus nos convida a vir a Ele para acharmos descanso para as nossas almas cansadas. Assim como Davi encontrou proteção na presença de Deus, nós encontramos refúgio em Cristo. Ele é o lugar onde a nossa ansiedade é trocada pela paz que excede todo entendimento, pois Ele mesmo venceu a morte e nos garante a vida eterna, mesmo quando o mundo nos hostiliza.",
+  "selo": false
+ },
+ "viver": "Davi admitiu que em sua aflição achou que estava cortado dos olhos de Deus. Talvez você tenha tido essa sensação de abandono em algum momento. A prática concreta é identificar uma área onde você se sente exposto ou criticado e, em vez de reagir com defensividade, pausar para lembrar que Deus ouve sua súplica. Escreva em um papel suas principais ansiedades e, ao final do dia, releia a promessa de que Deus esconde Seus filhos da rivalidade das línguas, renovando sua força.",
+ "guarde": "Deus esconde os que confiam Nele da arrogância dos homens e fortalece o coração de quem espera.",
+ "ore": "SENHOR, Davi encontrou em Ti uma cidade segura no meio do medo. Hoje, quando a murmuração ao redor tentar me paralisar, lembra-me que meus tempos estão em tuas mãos. Esconde-me na tua presença, afasta de mim o temor e fortalece meu coração para esperar em ti, não nas circunstâncias. Amém.",
+ "quiz": {
+  "pergunta": "O que Davi diz que Deus faz por aqueles que confiam Nele, na presença dos homens?",
+  "opcoes": [
+   "Trabalhou por eles e os escondeu.",
+   "Deus os pune imediatamente.",
+   "Deus os torna invisíveis fisicamente."
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma que Deus trabalhou para os que confiam e os esconde em sua tenda, protegendo-os da rivalidade das línguas e da arrogância dos homens."
+ },
+ "refs": [
+  "Salmos 46:1",
+  "Isaías 26:4",
+  "Mateus 11:28"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-03T19:06:55.066Z",
+  "rounds": 4
+ }
+}

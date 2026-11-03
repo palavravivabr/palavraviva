@@ -3188,7 +3188,7 @@
   },
   "19-27-1-14": {
    "execucoes": 2,
-   "ultimo": "automático: viver:citacao_fora_do_texto"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   },
   "19-28-1-9": {
    "execucoes": 0,
@@ -3214,7 +3214,9 @@
   },
   "19-31-13-24": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:menos_de_2_paragrafos",
+   "estado": "pronto",
+   "titulo": "O refúgio para quem se sente exposto"
   },
   "19-32-1-11": {
    "execucoes": 0,
@@ -3251,24 +3253,24 @@
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 1018,
-   "entrada": 2672661,
-   "saida": 895036
+   "chamadas": 1025,
+   "entrada": 2691932,
+   "saida": 901022
   },
   "groq-qwen": {
-   "chamadas": 1014,
-   "entrada": 2549550,
-   "saida": 825778
+   "chamadas": 1021,
+   "entrada": 2569191,
+   "saida": 831526
   },
   "gemini": {
-   "chamadas": 868,
-   "entrada": 2809801,
-   "saida": 1092092
+   "chamadas": 870,
+   "entrada": 2816244,
+   "saida": 1094096
   },
   "cloudflare": {
-   "chamadas": 545,
-   "entrada": 1898270,
-   "saida": 202195
+   "chamadas": 546,
+   "entrada": 1901708,
+   "saida": 202566
   },
   "mistral": {
    "chamadas": 0,
