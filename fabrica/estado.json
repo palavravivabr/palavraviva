@@ -3192,11 +3192,11 @@
   },
   "19-28-1-9": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: gemini: 503 { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\", \"status\": \"UNAVAILABLE\" } } "
   },
   "19-29-1-11": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: gemini: 503 { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\", \"status\": \"UNAVAILABLE\" } } "
   },
   "19-30-1-12": {
    "execucoes": 0,
@@ -3229,14 +3229,14 @@
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 995,
-   "entrada": 2611756,
-   "saida": 875714
+   "chamadas": 1003,
+   "entrada": 2633059,
+   "saida": 881857
   },
   "groq-qwen": {
-   "chamadas": 994,
-   "entrada": 2495492,
-   "saida": 808459
+   "chamadas": 1001,
+   "entrada": 2514482,
+   "saida": 814112
   },
   "gemini": {
    "chamadas": 861,
