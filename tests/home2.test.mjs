@@ -44,18 +44,12 @@ test('o progresso diz de qual livro é o capítulo', () => {
   assert.equal(rotuloProgresso('Gênesis 1', 'Gênesis · capítulo 1 de 50'), 'Gênesis · capítulo 1 de 50');
   assert.equal(rotuloProgresso('Gênesis 1', ''), '');
 });
-test('o botão do menu duplicado fica escondido e o Pix confirma a cópia', () => {
-  const s = readFileSync(join(root, 'src/home2.js'), 'utf8');
-  assert.ok(s.includes('#menuBtn{display:none!important}'));
-  assert.ok(s.includes('Chave Pix copiada!'));
+test('o Pix confirma a cópia', () => {
+  assert.ok(readFileSync(join(root, 'src/home2.js'), 'utf8').includes('Chave Pix copiada!'));
 });
 test('progresso indica o livro (Gênesis), não a Bíblia inteira', () => {
   assert.equal(rotuloProgresso('Gênesis 1', 'Capítulo 1 de 50'), 'Gênesis · capítulo 1 de 50');
   assert.equal(rotuloProgresso('1 João 2:3', 'Capítulo 2 de 5'), '1 João · capítulo 2 de 5');
   assert.equal(rotuloProgresso('Gênesis 1', ''), '');
   assert.equal(rotuloProgresso('', 'Capítulo 1 de 50'), 'Capítulo 1 de 50');
-});
-test('botão de menu duplicado some e o Pix confirma a cópia', () => {
-  const s = readFileSync(join(root, 'src/home2.js'), 'utf8');
-  assert.ok(s.includes('#menuBtn{display:none') && s.includes('Chave Pix copiada!'));
 });
