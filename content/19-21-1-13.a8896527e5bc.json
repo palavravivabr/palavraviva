@@ -1,0 +1,149 @@
+{
+ "id": "19-21-1-13",
+ "ref": "Salmos 21:1-13",
+ "book": "19",
+ "chapter": 21,
+ "verses": [
+  {
+   "n": 1,
+   "t": "SENHOR, em tua força o rei se alegra; e como ele fica contente com tua salvação!"
+  },
+  {
+   "n": 2,
+   "t": "Tu lhe deste o desejo de seu coração; e tu não negaste o pedido de seus lábios. (Selá)"
+  },
+  {
+   "n": 3,
+   "t": "Porque tu foste até ele com bênçãos de bens; tu puseste na cabeça dele uma coroa de ouro fino."
+  },
+  {
+   "n": 4,
+   "t": "Ele te pediu vida, e tu lhe deste; muitos dias, para todo o sempre."
+  },
+  {
+   "n": 5,
+   "t": "Grande é a honra dele por tua salvação; honra e majestade tu lhe concedeste."
+  },
+  {
+   "n": 6,
+   "t": "Porque tu o pões em bênçãos para sempre; tu fazes abundante a alegria dele com tua face."
+  },
+  {
+   "n": 7,
+   "t": "Porque o rei confia no SENHOR; e ele nunca se abalará com a bondade do Altíssimo."
+  },
+  {
+   "n": 8,
+   "t": "Tua mão alcançará a todos o os teus inimigos; tua mão direita encontrará aos que te odeiam."
+  },
+  {
+   "n": 9,
+   "t": "Tu os porás como que num forno de fogo no tempo em que se encontrarem em tua presença; o SENHOR em sua ira os devorará; e fogo os consumirá."
+  },
+  {
+   "n": 10,
+   "t": "Tu destruirás o fruto deles de sobre a terra; e também a semente deles dos filhos dos homens."
+  },
+  {
+   "n": 11,
+   "t": "Porque eles quiseram o mal contra ti; planejaram uma cilada, mas não tiveram sucesso."
+  },
+  {
+   "n": 12,
+   "t": "Porque tu os porás em fuga; com tuas flechas nas cordas tu lhes apontarás no rosto."
+  },
+  {
+   "n": 13,
+   "t": "Exalta-te, SENHOR, em tua força; cantaremos e louvaremos o teu poder."
+  }
+ ],
+ "titulo": "A confiança que não se abala com o vento",
+ "temas": [
+  "confiança",
+  "provisão",
+  "proteção",
+  "louvor"
+ ],
+ "pergunta": "O que sustenta a alegria de quem sabe que Deus é seu refúgio?",
+ "entender": "Este salmo celebra a segurança de um rei que encontra sua força não em exércitos, mas no SENHOR. O texto destaca que Deus atende pedidos, concede vida longa e honra, mas o ponto central é a confiança: \"o rei confia no SENHOR; e ele nunca se abalará\". Essa estabilidade não vem de circunstâncias favoráveis, mas da bondade do Altíssimo.\n\nHá também uma dimensão de justiça divina. Os versos 8 a 12 descrevem como Deus trata os inimigos que planejam o mal, mostrando que o mal não vence. A resposta final é de louvor: \"Exalta-te, SENHOR, em tua força\". O salmo convida a celebrar o poder de Deus que protege e julga.",
+ "ligar": {
+  "texto": "Jesus é o verdadeiro Rei que confia plenamente no Pai. Ele não buscou salvação em si mesmo, mas na obediência ao Pai, mesmo na cruz. Sua ressurreição é a prova definitiva de que Ele \"nunca se abala\". Em Cristo, a salvação prometida ao rei do salmo se cumpre para todos os que creem, oferecendo segurança eterna.",
+  "selo": false
+ },
+ "viver": "Ao olhar para a sua própria rotina, identifique uma área onde você tenta controlar os resultados por seus próprios meios. O salmo mostra que a estabilidade do rei vinha de confiar no Senhor, não de sua própria capacidade. Experimente, nesta semana, entregar uma preocupação específica a Deus e observar como a paz dEle sustenta você, mesmo quando as circunstâncias parecem instáveis.",
+ "guarde": "Minha segurança não está nas circunstâncias, mas na bondade do Altíssimo em quem confio.",
+ "ore": "Pai, como o rei do salmo, colo minha confiança em Ti. Ajuda-me a não me abalar diante dos problemas, pois sei que Tua mão me sustenta e me protege. Que eu possa louvar Teu poder em todas as áreas da minha vida.",
+ "quiz": {
+  "pergunta": "Qual é a base da segurança do rei mencionada no salmo?",
+  "opcoes": [
+   "Sua riqueza financeira",
+   "Seu exército poderoso",
+   "Confiança no SENHOR"
+  ],
+  "certa": 2,
+  "explicacao": "O versículo 7 afirma explicitamente que o rei confia no SENHOR e por isso não se abalará, indicando que a fonte de sua estabilidade é a relação com Deus."
+ },
+ "refs": [
+  "Salmos 91:1",
+  "Provérbios 3:5-6",
+  "Filipenses 4:6-7"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-03T01:15:02.509Z",
+  "rounds": 2
+ }
+}

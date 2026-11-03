@@ -1,0 +1,117 @@
+{
+ "id": "19-15-1-5",
+ "ref": "Salmos 15:1-5",
+ "book": "19",
+ "chapter": 15,
+ "verses": [
+  {
+   "n": 1,
+   "t": "SENHOR, quem morará em tua tenda? Quem habitará no monte de tua santidade?"
+  },
+  {
+   "n": 2,
+   "t": "Aquele que anda sinceramente, e pratica a justiça; e com seu coração fala a verdade;"
+  },
+  {
+   "n": 3,
+   "t": "Aquele que não murmura com sua língua; não faz mal ao seu companheiro, nem aceita insulto contra seu próximo."
+  },
+  {
+   "n": 4,
+   "t": "Em seus olhos despreza à pessoa que é digna de reprovação, mas honra aos que temem ao SENHOR; mantém seu juramento até sob seu próprio prejuízo, e não muda."
+  },
+  {
+   "n": 5,
+   "t": "Tal pessoa não empresta seu dinheiro com juros; nem aceita suborno contra o inocente; quem faz isto, nunca se abalará."
+  }
+ ],
+ "titulo": "Quem pode entrar na tenda de Deus?",
+ "temas": [
+  "justiça",
+  "verdade",
+  "integridade"
+ ],
+ "pergunta": "Você conhece as atitudes que permitem morar na presença de Deus?",
+ "entender": "O Salmo 15 descreve quem tem direito a ficar na presença do Senhor. Primeiro o salmista pergunta: \"SENHOR, quem morará em tua tenda?\" (v.1). Ele então enumera qualidades: andar sinceramente, praticar justiça, falar a verdade, não murmurar, não fazer mal ao próximo, desprezar quem merece reprovação e honrar os que temem ao Senhor (v.2‑4). Por fim, acrescenta que a pessoa não empresta a dinheiro com juros nem aceita suborno contra o inocente (v.5). O texto está inserido em um salmo que celebra a proteção divina para os que vivem em santidade; serve como um padrão de conduta para o povo de Israel, mas seu princípio vale para todos que desejam estar perto de Deus.\n\nEssas características não são meras regras externas, mas reflexo de um coração que ama a Deus. O salmista mostra que a justiça começa no interior (sinceridade, verdade) e se manifesta nas relações: não murmurar, não prejudicar o próximo, não aceitar corrupção. Assim, a tenda do Senhor representa a comunhão íntima com Ele, reservada àqueles que vivem de forma íntegra diante de Deus e dos homens.",
+ "ligar": {
+  "texto": "Embora o salmo não mencione Jesus, ele aponta para o padrão que Cristo cumpre perfeitamente. Jesus viveu em completa sinceridade, praticou justiça e falou a verdade (João 14:6). Ele também rejeitou toda forma de corrupção e mostrou amor ao próximo, pagando o preço da justiça por nós na cruz. Assim, ao buscar viver como descrito em Salmos 15, somos convidados a seguir o exemplo de Cristo, que nos habilita a entrar na presença de Deus por meio da fé nele.",
+  "selo": false
+ },
+ "viver": "A honestidade e a justiça do dia a dia são o primeiro passo para viver perto de Deus. Quando você estiver diante de uma situação em que pode mentir para evitar um problema, lembre‑se de que o salmo pede que \"fala a verdade\". Da mesma forma, ao perceber que alguém está sendo tratado injustamente, recuse participar de fofocas ou de subornos, pois o texto condena quem aceita \"suborno contra o inocente\". Essas pequenas escolhas constroem um caráter que agrada a Deus e abre caminho para uma vida de paz interior.\n\nPratique a integridade nas pequenas coisas – no trabalho, na família, nas amizades – e veja como isso transforma suas relações, trazendo confiança e respeito mútuo, reflexo da presença de Deus em sua vida.",
+ "guarde": "Viver com integridade abre as portas da presença de Deus.",
+ "ore": "Senhor, ajuda‑me a ser sincero em tudo que faço, a não murmurar e a rejeitar qualquer forma de injustiça, para que eu possa habitar em tua tenda.",
+ "quiz": {
+  "pergunta": "Segundo Salmos 15, qual atitude NÃO é mencionada como característica do que habita na tenda de Deus?",
+  "opcoes": [
+   "Não murmurar com a língua",
+   "Orar muitas vezes",
+   "Não aceitar suborno contra o inocente"
+  ],
+  "certa": 1,
+  "explicacao": "O salmo lista sinceridade, justiça, verdade, silêncio contra murmurações e rejeição ao suborno, mas não menciona a frequência de oração como critério."
+ },
+ "refs": [
+  "Mateus 5:6",
+  "Provérbios 12:22",
+  "1 Timóteo 4:12",
+  "Hebreus 13:5"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-03T01:04:37.490Z",
+  "rounds": 1
+ }
+}

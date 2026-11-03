@@ -1,0 +1,137 @@
+{
+ "id": "19-18-31-40",
+ "ref": "Salmos 18:31-40",
+ "book": "19",
+ "chapter": 18,
+ "verses": [
+  {
+   "n": 31,
+   "t": "Porque quem é Deus, a não ser o SENHOR? E quem é rocha, a não ser o nosso Deus?"
+  },
+  {
+   "n": 32,
+   "t": "Deus é o que me veste de força; e o que dá perfeição ao meu caminho."
+  },
+  {
+   "n": 33,
+   "t": "Ele faz meus pés como o das cervas; e me põe em meus lugares altos."
+  },
+  {
+   "n": 34,
+   "t": "Ele ensina minhas mãos para a guerra, de modo que um arco de bronze se quebra em meus braços."
+  },
+  {
+   "n": 35,
+   "t": "Também tu me deste o escudo de tua salvação, e tua mão direita me sustentou; e tua mansidão me engrandeceu."
+  },
+  {
+   "n": 36,
+   "t": "Tu alargaste os meus passos abaixo de mim; e meus pés não vacilaram."
+  },
+  {
+   "n": 37,
+   "t": "Persegui a meus inimigos, e eu os alcancei; e não voltei até os exterminá-los."
+  },
+  {
+   "n": 38,
+   "t": "Eu os perfurei, que não puderam mais se levantar; caíram debaixo dos meus pés."
+  },
+  {
+   "n": 39,
+   "t": "Porque tu me preparaste com força para a batalha; fizeste se curvarem abaixo de mim aqueles que contra mim tinham se levantado."
+  },
+  {
+   "n": 40,
+   "t": "E tu me deste a nuca de meus inimigos; destruí aos que me odiavam."
+  }
+ ],
+ "titulo": "A força divina nas batalhas da vida",
+ "temas": [
+  "força",
+  "confiança",
+  "dependência"
+ ],
+ "pergunta": "Você já sentiu que suas vitórias vêm do poder de Deus e não das suas próprias forças?",
+ "entender": "O salmista celebra o apoio que Deus lhe dá nas lutas. Ele declara que \"Deus é o que me veste de força\" (Salmos 18.32) e que o Senhor lhe dá passos firmes, \"alargaste os meus passos abaixo de mim; e meus pés não vacilaram\" (18.36). O contexto imediato mostra o rei Davi agradecendo a Deus por livrá‑lo de inimigos poderosos, reconhecendo que a vitória não é fruto de seu esforço, mas da intervenção divina. Cada versículo destaca um aspecto da ajuda divina: força, preparo para a batalha, escudo da salvação e a mão direita que sustenta.\n\nEsse cântico nasce de uma experiência real de guerra, mas vai além da batalha física. O salmista usa imagens de guerra para expressar a confiança que tem no Senhor, mostrando que, quando Deus está ao nosso lado, até o arco de bronze se quebra em nossos braços, simbolizando a superação dos limites humanos. O texto revela que a segurança vem de depender de Deus, que é rocha e fortaleza.",
+ "ligar": {
+  "texto": "Embora o salmo não mencione explicitamente Jesus, ele aponta para o papel de Cristo como nossa força e escudo. Em Cristo, somos revestidos de poder divino (Efésios 6.10) e recebemos a salvação que o salmista chama de \"escudo de tua salvação\" (18.35). Assim como o Senhor sustentou Davi, Jesus sustenta o crente, oferecendo vitória sobre o pecado e a morte. A confiança que Davi tem no Deus guerreiro encontra seu cumprimento na obra redentora de Cristo, que nos dá a força para vencer as batalhas espirituais.",
+  "selo": false
+ },
+ "viver": "Quando enfrentamos desafios no trabalho, nos estudos ou nas relações, podemos lembrar que Deus nos \"veste de força\" e nos dá passos firmes. Em vez de confiar apenas nas próprias habilidades, busque a presença de Deus antes de agir, pedindo que Ele prepare seus braços para a luta. Essa atitude transforma a ansiedade em confiança, pois reconhecemos que a vitória vem do apoio divino, não do esforço solitário.\n\nAplicando isso diariamente, reserve momentos de oração para pedir que Deus lhe dê força e clareza, e depois aja com a certeza de que Ele está ao seu lado, sustentando cada passo.",
+ "guarde": "Deus me reveste de força e sustenta meus passos; não vacilarei.",
+ "ore": "Deus, que me vestes de força, fortalece meus braços hoje para enfrentar as dificuldades que surgirem.",
+ "quiz": {
+  "pergunta": "O que o salmista diz que Deus lhe deu para a batalha?",
+  "opcoes": [
+   "coração valente",
+   "coroa de vitória",
+   "escudo da salvação"
+  ],
+  "certa": 2,
+  "explicacao": "No versículo 35 o salmista menciona que Deus lhe deu o \"escudo de tua salvação\", indicando proteção divina na luta."
+ },
+ "refs": [
+  "Efésios 6:10-11",
+  "2 Coríntios 12:9",
+  "Salmos 28:7",
+  "Isaías 41:10"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-03T01:03:24.193Z",
+  "rounds": 1
+ }
+}

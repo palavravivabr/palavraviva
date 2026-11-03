@@ -1,0 +1,154 @@
+{
+ "id": "19-19-1-14",
+ "ref": "Salmos 19:1-14",
+ "book": "19",
+ "chapter": 19,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Os céus declaram a glória de Deus; e o firmamento anuncia a obra de suas mãos."
+  },
+  {
+   "n": 2,
+   "t": "Dia após dia ele fala; e noite após noite ele mostra sabedoria."
+  },
+  {
+   "n": 3,
+   "t": "Não há língua, nem palavras, onde não se ouça a voz deles."
+  },
+  {
+   "n": 4,
+   "t": "Por toda a terra sai sua corda, e suas palavras até o fim do mundo; para o sol ele pôs uma tenda neles."
+  },
+  {
+   "n": 5,
+   "t": "E ele é como o noivo, que sai de sua câmara; e se alegra como um homem valente, para correr seu caminho."
+  },
+  {
+   "n": 6,
+   "t": "Desde uma extremidade dos céus é sua saída, e seu curso até as outras extremidades deles; e nada se esconde de seu calor."
+  },
+  {
+   "n": 7,
+   "t": "A lei do SENHOR é perfeita, e restaura a alma; o testemunho do SENHOR é fiel, e da sabedoria aos simples."
+  },
+  {
+   "n": 8,
+   "t": "Os preceitos do SENHOR são corretos, e alegram ao coração; o mandamento do SENHOR é puro, e ilumina aos olhos."
+  },
+  {
+   "n": 9,
+   "t": "O temor ao SENHOR é limpo, e permanece para sempre; os juízos do SENHOR são verdade; juntamente são justos."
+  },
+  {
+   "n": 10,
+   "t": "São mais desejáveis que ouro, mais do que muito ouro fino; e mais doces que o mel, e o licor de seus favos."
+  },
+  {
+   "n": 11,
+   "t": "Também por eles teu servo é advertido; por guardá-los, há muita recompensa."
+  },
+  {
+   "n": 12,
+   "t": "Quem pode entender seus próprios erros? Limpa-me dos que me são ocultos."
+  },
+  {
+   "n": 13,
+   "t": "Também retém a teu servo de arrogâncias, para que elas não me controlem; então eu serei sincero, e ficarei limpo de grande transgressão."
+  },
+  {
+   "n": 14,
+   "t": "Sejam agradáveis as palavras de minha boca, e o pensamento do meu coração, diante de ti, ó SENHOR, minha rocha e meu Libertador."
+  }
+ ],
+ "titulo": "O céu e a Bíblia: duas vozes de Deus",
+ "temas": [
+  "criação",
+  "palavra de deus",
+  "sabedoria",
+  "adoração",
+  "arrependimento"
+ ],
+ "pergunta": "Como a natureza e as Escrituras se complementam para nos mostrar quem Deus é?",
+ "entender": "O salmista começa olhando para cima. Ele vê os céus anunciando a grandeza de Deus, uma mensagem silenciosa que atravessa o tempo e o espaço. A natureza não fala com palavras humanas, mas sua ordem e beleza mostram a mão do Criador. É uma revelação geral, acessível a todos, que aponta para um Deus poderoso e sábio.\n\nDepois, o foco muda para a Lei do Senhor. Aqui, a revelação é específica e pessoal. O texto descreve a Palavra de Deus como perfeita, fiel e iluminadora. Diferente dos céus, que mostram a glória, as Escrituras mostram o caminho da vida. Elas são mais valiosas que o ouro e mais doces que o mel, pois trazem sabedoria prática e moral.\n\nO salmista conclui pedindo pureza interior. Ele reconhece que, apesar da clareza da Lei, somos cegos para nossos próprios erros. A verdadeira resposta a essas duas revelações é a humilhação diante de Deus, buscando a limpeza do coração e a sinceridade na oração.",
+ "ligar": {
+  "texto": "A Lei do Senhor mencionada no salmo aponta para Jesus. Ele é a plenitude da Lei, a sabedoria perfeita de Deus encarnada. Enquanto a Lei nos mostra o padrão de santidade, Jesus nos mostra como alcançá-lo. Ele cumpriu a Lei em nossa conta e, ao ser crucificado, levou sobre si o peso de nossas transgressões. A 'limpeza' que Davi pede vem em Jesus, que nos purifica de todo pecado. A oração final do salmista, buscando sinceridade diante de Deus, é atendida plenamente na cruz, onde Jesus se tornou nossa rocha e libertador.",
+  "selo": false
+ },
+ "viver": "Pare de tratar a Bíblia apenas como um livro de regras. Assim como você observa o céu para se maravilhar, leia as Escrituras para se encantar com o caráter de Deus. Quando a vida parecer caótica, lembre-se de que a 'tenda' do sol é organizada por Deus. Use a Palavra como uma lente para enxergar sua própria arrogância e erros ocultos. Peça a Deus que ilumine seus olhos, não apenas para ver o que está errado nos outros, mas para reconhecer onde você precisa de graça e limpeza.",
+ "guarde": "A criação mostra o poder de Deus; a Escritura mostra o caminho para Ele.",
+ "ore": "Olhando para os céus, reconheço tua glória. Mas é na tua Palavra que encontro a vida. Ilumina meus olhos, Senhor, para que eu veja meus erros ocultos. Lava-me da arrogância e faz com que minha boca fale verdades que agradem ao teu coração.",
+ "quiz": {
+  "pergunta": "Segundo o salmo, o que a Lei do Senhor faz pela alma?",
+  "opcoes": [
+   "Restaura a alma",
+   "Substitui a criação",
+   "Impõe medo constante"
+  ],
+  "certa": 0,
+  "explicacao": "O versículo 7 afirma explicitamente que a lei do Senhor é perfeita e restaura a alma, trazendo cura e renovação."
+ },
+ "refs": [
+  "Romanos 1:20",
+  "Hebreus 4:12",
+  "João 1:14"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-03T01:07:52.253Z",
+  "rounds": 1
+ }
+}
