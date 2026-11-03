@@ -1,0 +1,141 @@
+{
+ "id": "19-25-1-11",
+ "ref": "Salmos 25:1-11",
+ "book": "19",
+ "chapter": 25,
+ "verses": [
+  {
+   "n": 1,
+   "t": "A ti, SENHOR, levanto minha alma."
+  },
+  {
+   "n": 2,
+   "t": "Meu Deus, eu confio em ti; não me deixes envergonhado, nem que meus inimigos se alegrem por me vencerem ."
+  },
+  {
+   "n": 3,
+   "t": "Certamente todos os que esperam em ti, nenhum será envergonhado; envergonhados serão os que traem sem motivo."
+  },
+  {
+   "n": 4,
+   "t": "Tu me fazes conhecer os teus caminhos; ensina-me teus lugares onde se deve andar."
+  },
+  {
+   "n": 5,
+   "t": "Guia-me em tua verdade, e ensina-me; porque tu és o Deus de minha salvação; eu espero por ti o dia todo."
+  },
+  {
+   "n": 6,
+   "t": "Lembra-te, SENHOR, de tuas misericórdias e de tuas bondades; porque elas são desde a eternidade."
+  },
+  {
+   "n": 7,
+   "t": "Não te lembres dos pecados de minha juventude e das minhas transgressões; mas sim , conforme tua misericórdia, lembra-te de mim por tua bondade, SENHOR."
+  },
+  {
+   "n": 8,
+   "t": "O SENHOR é bom e correto; por isso ele ensinará o caminho aos pecadores."
+  },
+  {
+   "n": 9,
+   "t": "Ele guiará os humildes ao bom juízo; e ensinará aos humildes seu caminho."
+  },
+  {
+   "n": 10,
+   "t": "Todos os caminhos do SENHOR são bondade e verdade, para aqueles que guardam seu pacto e seus testemunhos."
+  },
+  {
+   "n": 11,
+   "t": "Pelo teu nome, SENHOR, perdoa a minha maldade, porque ela é grande."
+  }
+ ],
+ "titulo": "Pedindo direção para quem se sente perdido",
+ "temas": [
+  "confiança",
+  "perdão",
+  "humildade",
+  "direção"
+ ],
+ "pergunta": "O que você faria se soubesse que Deus se lembra das suas falhas, mas escolhe lembrar da sua bondade?",
+ "entender": "Este salmo é um grito sincero de alguém que reconhece sua necessidade de Deus. O salmista começa dizendo: \"A ti, SENHOR, levanto minha alma\". Ele não tenta se salvar sozinho; ele confia em Deus para não ficar envergonhado. É uma oração de alguém que se sente frágil diante dos inimigos e das próprias falhas.\n\nO texto destaca que Deus ensina seus caminhos e guia os humildes. O salmista pede para ser lembrado não pelos seus pecados da juventude, mas pela misericórdia eterna de Deus. Isso mostra que a relação com Deus não é baseada no desempenho perfeito, mas na graça que perdoa e instrui. O caminho de Deus é descrito como bondade e verdade para quem busca sinceramente.",
+ "ligar": {
+  "texto": "Jesus é a resposta definitiva a esse pedido de direção e perdão. Ele disse que veio buscar o que estava perdido e perdoou pecados enormes, como o da mulher pecadora. No evangelho, vemos que Jesus ensina os caminhos da verdade e guia os humildes ao Pai. A oração do salmista encontra seu cumprimento em Cristo, que é a nossa segurança contra a vergonha e a fonte do perdão que o salmista tanto deseja.",
+  "selo": false
+ },
+ "viver": "Experimente começar seu dia lendo este salmo em voz alta, especialmente os versos 4 e 5. Em vez de apenas pedir respostas prontas, peça a Deus que te ensine a andar na verdade dele. Identifique uma área onde você tem agido com orgulho ou medo e entregue-a a Deus, lembrando que Ele se lembra da sua bondade, não apenas das suas falhas. Isso transforma a ansiedade em confiança.",
+ "guarde": "Deus não se lembra dos seus pecados para condená-lo, mas da sua misericórdia para guiá-lo.",
+ "ore": "A ti, SENHOR, levanto minha alma neste momento. Ensina-me teus caminhos e guia-me em tua verdade. Lembra-te da tua bondade e perdoa minha maldade, pois ela é grande. Não me deixes envergonhado, mas mostra-me o caminho que devo andar hoje.",
+ "quiz": {
+  "pergunta": "O que o salmista pede que Deus se lembre no versículo 6?",
+  "opcoes": [
+   "De suas misericórdias e bondades desde a eternidade.",
+   "Dos inimigos que o venceram.",
+   "Dos pecados de sua juventude."
+  ],
+  "certa": 0,
+  "explicacao": "No versículo 6, o salmista pede explicitamente: \"Lembra-te, SENHOR, de tuas misericórdias e de tuas bondades; porque elas são desde a eternidade\"."
+ },
+ "refs": [
+  "Provérbios 3:5-6",
+  "Mateus 11:29",
+  "1 João 1:9"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-03T07:15:28.048Z",
+  "rounds": 1
+ }
+}

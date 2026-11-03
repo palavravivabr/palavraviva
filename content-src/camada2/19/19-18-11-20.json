@@ -1,0 +1,137 @@
+{
+ "id": "19-18-11-20",
+ "ref": "Salmos 18:11-20",
+ "book": "19",
+ "chapter": 18,
+ "verses": [
+  {
+   "n": 11,
+   "t": "Ele pôs as trevas como seu esconderijo; pôs a sua tenda ao redor dele; trevas das águas, nuvens dos céus."
+  },
+  {
+   "n": 12,
+   "t": "Do brilho de sua presença suas nuvens se espalharam, e também a saraiva, e as brasas de fogo."
+  },
+  {
+   "n": 13,
+   "t": "E o SENHOR trovejou nos céus; e o Altíssimo soltou sua voz; saraiva e brasas de fogo caíram ."
+  },
+  {
+   "n": 14,
+   "t": "Ele mandou suas flechas, e os dispersou; e lançou muitos raios, e os perturbou."
+  },
+  {
+   "n": 15,
+   "t": "E as profundezas das águas foram vistas, e os fundamentos do mundo foram descobertos por tua repreensão, SENHOR, pelo sopro do vento do teu nariz."
+  },
+  {
+   "n": 16,
+   "t": "Desde o alto ele enviou, e me tomou; tirou-me de muitas águas."
+  },
+  {
+   "n": 17,
+   "t": "Ele me livrou do meu forte inimigo, e daqueles que me odeiam; porque eles eram mais poderosos do que eu."
+  },
+  {
+   "n": 18,
+   "t": "Eles me confrontaram no dia de minha calamidade; mas o SENHOR ficou junto de mim."
+  },
+  {
+   "n": 19,
+   "t": "Ele me tirou para um lugar amplo; ele me libertou, porque se agradou de mim."
+  },
+  {
+   "n": 20,
+   "t": "O SENHOR me recompensou conforme a minha justiça; conforme a pureza das minhas mãos ele me retribuiu."
+  }
+ ],
+ "titulo": "Quando o Senhor se torna nosso refúgio",
+ "temas": [
+  "confiança",
+  "proteção",
+  "justiça"
+ ],
+ "pergunta": "Você já sentiu que Deus lhe livrou de uma situação impossível?",
+ "entender": "O salmista descreve Deus como um guerreiro que controla as forças da natureza. Ele diz: \"Ele pôs as trevas como seu esconderijo; pôs a sua tenda ao redor dele\" (Salmos 18.11) e continua falando das nuvens, saraiva e brasas que Deus envia como armas. Quando o perigo aparece, o Senhor intervém: \"Desde o alto ele enviou, e me tomou; tirou‑me de muitas águas\" (18.16). O texto mostra que, apesar da força dos inimigos, Deus está ao lado do que confia nele, livrando‑o e recompensando‑o por sua justiça (18.19‑20).\n\nEsse trecho faz parte de um cântico de agradecimento depois de uma grande vitória. O salmista lembra como Deus agiu poderosamente no passado, para que ele possa confiar novamente no futuro. O contexto anterior fala de Deus como o poderoso que controla o céu e a terra, reforçando a ideia de que nada escapa ao seu controle.",
+ "ligar": {
+  "texto": "Embora o texto não mencione Jesus, o modo como Deus age como salvador e protetor aponta para a obra de Cristo, que também nos livra das trevas do pecado. Assim como o Senhor enviou seu poder do alto para resgatar o salmista, Jesus, enviado do céu, nos resgata das águas turbulentas do pecado (cf. João 3:16). A recompensa que o salmista recebe por sua justiça lembra que, por meio da fé em Cristo, recebemos justiça imputada e a promessa de vida eterna.",
+  "selo": false
+ },
+ "viver": "Quando enfrentamos problemas que parecem maiores que nós, podemos lembrar que o mesmo Deus que fez trevas e tempestades para proteger o salmista pode usar até as dificuldades da nossa vida para nos guardar. Ao reconhecer que Ele está presente nos momentos de crise, podemos entregar a Ele nossas “águas” e confiar que Ele nos tirará para um lugar amplo, onde a paz e a segurança são possíveis.",
+ "guarde": "Deus transforma o perigo em proteção quando confiamos nele.",
+ "ore": "Salmo 18:16, Senhor, tu me tiraste das águas turbulentas; ajuda‑me a permanecer firme na tua proteção.",
+ "quiz": {
+  "pergunta": "O que o salmista diz que Deus fez para livrá‑lo?",
+  "opcoes": [
+   "Enviou do alto e tirou‑o das águas",
+   "Fez desaparecer os inimigos",
+   "Concedeu-lhe riquezas"
+  ],
+  "certa": 0,
+  "explicacao": "O versículo 16 afirma que Deus enviou do alto e tirou o salmista de muitas águas, indicando livramento direto da situação perigosa."
+ },
+ "refs": [
+  "Isaías 43:2",
+  "João 3:16",
+  "Salmos 34:19",
+  "Hebreus 2:14"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-03T07:09:24.904Z",
+  "rounds": 1
+ }
+}

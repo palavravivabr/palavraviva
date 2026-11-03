@@ -1,0 +1,142 @@
+{
+ "id": "19-25-12-22",
+ "ref": "Salmos 25:12-22",
+ "book": "19",
+ "chapter": 25,
+ "verses": [
+  {
+   "n": 12,
+   "t": "Qual é o homem que teme ao SENHOR? Ele lhe ensinará o caminho que deve escolher."
+  },
+  {
+   "n": 13,
+   "t": "Sua alma habitará no bem; e sua semente isto é, sua descendência possuirá a terra em herança."
+  },
+  {
+   "n": 14,
+   "t": "O segredo do SENHOR é para os que o temem; e ele lhes faz conhecer seu pacto."
+  },
+  {
+   "n": 15,
+   "t": "Meus olhos estão continuamente voltados para o SENHOR, porque ele tirará meus pés da rede de caça."
+  },
+  {
+   "n": 16,
+   "t": "Olha para mim, e mim, e tem piedade de mim, porque eu estou solitário e miserável."
+  },
+  {
+   "n": 17,
+   "t": "As aflições de meu coração têm se multiplicado; tira-me de minhas angústias."
+  },
+  {
+   "n": 18,
+   "t": "Presta atenção para minha miséria e meu cansativo trabalho; e tira todos os meus pecados."
+  },
+  {
+   "n": 19,
+   "t": "Presta atenção a meus inimigos, porque eles estão se multiplicando; eles me odeiam com ódio violento."
+  },
+  {
+   "n": 20,
+   "t": "Guarda minha alma, e livra-me; não me deixes envergonhado, porque eu confio em ti."
+  },
+  {
+   "n": 21,
+   "t": "Integridade e justiça me guardem, porque eu espero em ti."
+  },
+  {
+   "n": 22,
+   "t": "Ó Deus, resgata Israel de todas as suas angústias."
+  }
+ ],
+ "titulo": "O caminho seguro para quem confia em Deus",
+ "temas": [
+  "confiança",
+  "direção",
+  "sofrimento",
+  "pacto",
+  "resgate"
+ ],
+ "pergunta": "O que o salmista pede a Deus quando se sente preso e sozinho?",
+ "entender": "No Salmo 25, Davi mostra que temer ao Senhor não é ter medo de punição, mas confiar profundamente no Seu caráter. Ele afirma que Deus ensina o caminho certo a quem O respeita (v.12). Essa relação íntima traz a promessa de que a vida estará no bem e a descendência herdará a terra. O texto revela que o 'segredo do SENHOR' pertence a esses que O temem, indicando uma revelação especial sobre o Seu pacto.\n\nA segunda parte é uma oração honesta de dor. Davi se descreve como 'solitário e miserável' (v.16), com o coração cheio de aflições. Ele pede para ser tirado da 'rede de caça' (v.15), uma metáfora forte para armadilhas perigosas. A base da sua confiança não é a força própria, mas a integridade e a justiça de Deus, nas quais ele espera. O salmo termina com uma visão ampla: o resgate de Israel de todas as angústias.",
+ "ligar": {
+  "texto": "Jesus é a resposta final a esse clamor. Ele é o 'caminho' que Davi busca e a expressão perfeita do 'pacto' de Deus. A 'rede de caça' da qual Davi pede libertação aponta para o pecado e a morte, de onde Jesus nos resgatou na cruz. A misericórdia que o salmista pede é cumprida plenamente na graça de Cristo. Em Jesus, a promessa de resgate de 'Israel' se estende a todas as nações, garantindo que quem nele confia não se envergonha, pois Deus o guarda com integridade e justiça.",
+  "selo": false
+ },
+ "viver": "Ao sentir a ansiedade apertar, pare de tentar resolver tudo com sua própria força. Reconheça diante de Deus a sua solidão e fraqueza, assim como Davi fez. A aplicação concreta é a honestidade radical na oração: nomeie suas 'redes de caça' (medos, pecados, situações de risco) e peça a direção específica do Senhor. Confie que Ele não o abandona na armadilha, mas trabalha para tirá-lo dela, guardando sua alma com integridade.",
+ "guarde": "A confiança em Deus nos tira das armadilhas e nos ensina o caminho certo, mesmo na solidão.",
+ "ore": "Deus de Israel, tu que tiras os pés da rede de caça, olha para a minha solidão e miséria. Ensina-me o caminho que devo escolher. Revela-me o teu segredo e guarda minha alma com integridade, pois espero em ti. Resgata-me das minhas angústias.",
+ "quiz": {
+  "pergunta": "Para quem, segundo o texto, o segredo do Senhor é revelado?",
+  "opcoes": [
+   "Para os que o temem.",
+   "Para os que têm muito poder.",
+   "Para os que nunca enfrentam angústias."
+  ],
+  "certa": 0,
+  "explicacao": "O versículo 14 afirma claramente: 'O segredo do SENHOR é para os que o temem'. O texto não associa a revelação ao poder humano ou à ausência de problemas, mas ao temor reverente a Deus."
+ },
+ "refs": [
+  "Provérbios 9:10",
+  "Salmos 32:7",
+  "João 14:6"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-03T07:20:39.575Z",
+  "rounds": 2
+ }
+}

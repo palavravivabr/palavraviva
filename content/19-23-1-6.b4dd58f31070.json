@@ -1,0 +1,121 @@
+{
+ "id": "19-23-1-6",
+ "ref": "Salmos 23:1-6",
+ "book": "19",
+ "chapter": 23,
+ "verses": [
+  {
+   "n": 1,
+   "t": "O SENHOR é meu pastor, nada me faltará."
+  },
+  {
+   "n": 2,
+   "t": "Ele me faz deitar em pastos verdes, e me leva a águas quietas."
+  },
+  {
+   "n": 3,
+   "t": "Ele restaura minha alma, e me guia pelos caminhos da justiça por seu nome."
+  },
+  {
+   "n": 4,
+   "t": "Ainda que eu venha a andar pelo vale da sombra da morte, não temerei mal algum, porque tu estás comigo; tua vara e teu cajado me consolam."
+  },
+  {
+   "n": 5,
+   "t": "Tu preparas uma mesa diante de mim à vista de meus adversários; unges a minha cabeça com azeite, meu cálice transborda."
+  },
+  {
+   "n": 6,
+   "t": "Certamente o bem e a bondade me seguirão todos os dias de minha vida; e habitarei na casa do SENHOR por muitos e muitos dias."
+  }
+ ],
+ "titulo": "Descubra quem cuida de você nos momentos difíceis",
+ "temas": [
+  "confiança",
+  "descanso",
+  "presença"
+ ],
+ "pergunta": "Você já sentiu que, mesmo nas sombras, alguém ainda está ao seu lado?",
+ "entender": "O salmista declara que o Senhor é seu pastor, alguém que provê e protege. Ele afirma que nada lhe faltará porque o Senhor cuida de todas as necessidades (v.1). Em seguida descreve como o Pastor leva o salmista a “pastos verdes” e a “águas quietas”, imagens de paz e sustento (v.2). Quando a alma está cansada, o Pastor a restaura e a conduz pelos caminhos da justiça, não por mérito próprio, mas por seu nome (v.3). Mesmo ao atravessar o “vale da sombra da morte”, o salmista não teme, pois sente a presença consoladora da vara e do cajado do Pastor (v.4). O texto segue mostrando que, apesar dos inimigos, o Senhor prepara uma mesa, unge a cabeça com azeite e faz transbordar o cálice, sinal de abundância e honra (v.5). Por fim, o salmista confia que “o bem e a bondade” o acompanharão todos os dias e que viverá na casa do Senhor por longos períodos (v.6). O salmo, escrito como oração de confiança, reflete a experiência de alguém que conhece a fidelidade de Deus como cuidador constante, mesmo nas situações mais sombrias.\n\nO contexto histórico é o de um pastor de ovelhas que, na cultura antiga, era responsável por guiar, alimentar e proteger o rebanho contra predadores e perigos. O salmista usa essa imagem para expressar a relação íntima entre Deus e seu povo, mostrando que a confiança não depende das circunstâncias externas, mas da certeza de que o Pastor está presente.",
+ "ligar": {
+  "texto": "Embora o Salmo 23 não mencione Jesus pelo nome, ele apresenta o Senhor como Pastor que salva, alimenta e protege. No Novo Testamento, Jesus se identifica como “o Bom Pastor” (João 10:11) e cumpre essa imagem ao dar a vida pelas ovelhas, oferecendo descanso e segurança eternos. Assim, o cuidado descrito aqui aponta para a pessoa de Cristo, que convida todos a seguir‑o e a encontrar paz mesmo nas sombras da morte. A promessa de habitar na casa do Senhor remete à presença permanente de Deus que, em Cristo, se torna acessível a todos que creem.",
+  "selo": false
+ },
+ "viver": "Quando a vida parece um vale escuro, lembre‑se de que o mesmo Deus que conduziu o salmista a pastos verdes está pronto para guiá‑lo hoje. Procure momentos de silêncio, como “águas quietas”, para ouvir Sua direção e sentir a segurança de Sua vara. Se alguém lhe oferecer adversidade, responda com a confiança de quem sabe que Deus já preparou uma mesa de bênção, mesmo diante dos desafios. Essa confiança prática transforma medo em esperança e nos permite viver com gratidão, sabendo que o bem e a bondade nos seguirão todos os dias.\n\nAplicando isso, escolha um pequeno ato de confiança: entregue a um problema específico a Deus em oração, procure um lugar tranquilo para meditar na Sua promessa e, ao final do dia, reconheça as pequenas “bênçãos” que surgiram, reforçando a certeza de que o Pastor está ao seu lado.",
+ "guarde": "O Senhor, meu Pastor, nunca me deixa faltar nada nem temer a escuridão.",
+ "ore": "Senhor, Pastor fiel, ao caminhar pelo vale da sombra da morte, sinto‑te comigo; que Tua vara e Teu cajado me confortem e me guiem a águas de paz.",
+ "quiz": {
+  "pergunta": "O que o salmista afirma que o Senhor faz quando ele está em perigo?",
+  "opcoes": [
+   "Prepara uma mesa diante dele e unge sua cabeça",
+   "O Senhor o leva de volta ao Egito",
+   "Ele o castiga por seus pecados"
+  ],
+  "certa": 0,
+  "explicacao": "No versículo 5 o salmista diz que o Senhor prepara uma mesa, unge sua cabeça com azeite e faz transbordar o cálice, mostrando cuidado e honra mesmo diante dos adversários."
+ },
+ "refs": [
+  "João 10:11",
+  "Hebreus 13:20-21",
+  "Salmos 91:1-2",
+  "Isaías 40:11"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-03T07:10:57.187Z",
+  "rounds": 1
+ }
+}

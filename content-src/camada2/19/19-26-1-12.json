@@ -1,0 +1,145 @@
+{
+ "id": "19-26-1-12",
+ "ref": "Salmos 26:1-12",
+ "book": "19",
+ "chapter": 26,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Faze-me justiça, SENHOR, pois eu ando em minha sinceridade; e eu confio no SENHOR, não me abalarei."
+  },
+  {
+   "n": 2,
+   "t": "Prova-me, SENHOR, e testa-me; examina meus sentimentos e meu coração."
+  },
+  {
+   "n": 3,
+   "t": "Porque tua bondade está diante dos meus olhos; e eu ando em tua verdade."
+  },
+  {
+   "n": 4,
+   "t": "Não me sento com homens vãos, nem converso com desonestos."
+  },
+  {
+   "n": 5,
+   "t": "Eu odeio a reunião dos malfeitores; e não me sento com os perversos."
+  },
+  {
+   "n": 6,
+   "t": "Lavo minhas mãos em inocência, e ando ao redor do teu altar, SENHOR;"
+  },
+  {
+   "n": 7,
+   "t": "Para que eu declare com voz de louvores, e para contar todas as tuas maravilhas."
+  },
+  {
+   "n": 8,
+   "t": "SENHOR, eu amo a morada de tua Casa, e o lugar onde habita a tua glória."
+  },
+  {
+   "n": 9,
+   "t": "Não juntes minha alma com os pecadores, nem minha vida com homens sanguinários;"
+  },
+  {
+   "n": 10,
+   "t": "Nas mãos deles há más intenções; e sua mão direita é cheia de suborno."
+  },
+  {
+   "n": 11,
+   "t": "Mas eu ando em minha sinceridade; livra-me e tem piedade de mim."
+  },
+  {
+   "n": 12,
+   "t": "Meu pé está em um caminho plano; louvarei ao SENHOR nas congregações."
+  }
+ ],
+ "titulo": "O pedido ousado de ser examinado por Deus",
+ "temas": [
+  "sinceridade",
+  "exame",
+  "devoção",
+  "pureza"
+ ],
+ "pergunta": "Você se sente seguro sabendo que Deus vê o que há de mais profundo em você?",
+ "entender": "Neste salmo, Davi pede que o Senhor faça justiça a ele. Ele declara sua confiança em Deus e afirma que não se abalará. Curiosamente, ele convida o próprio Deus a prová-lo: \"Prova-me, SENHOR, e testa-me; examina meus sentimentos e meu coração\". Isso mostra uma confiança extrema, pois só quem está limpo diante de Deus deseja ser examinado por Ele.\n\nDavi descreve sua conduta diária: ele evita a companhia dos perversos e odeia as reuniões dos malfeitores. Ele lava suas mãos em inocência, um gesto simbólico de pureza, e anda ao redor do altar para louvar a Deus. Ele ama a Casa do Senhor e pede que sua alma não seja associada à dos pecadores. O salmo termina com a certeza de que, por andar em sinceridade, seu caminho será plano e ele poderá louvar a Deus nas congregações.",
+ "ligar": {
+  "texto": "Davi busca pureza e justiça, mas reconhece que sua sinceridade é uma resposta à bondade de Deus vista diante dos seus olhos. Jesus é o único que cumpre perfeitamente esse ideal. Ele é santo, sem pecado, e ofereceu sua vida como sacrifício no altar para purificar os que creem nele. Através de Cristo, podemos ter a mesma confiança de Davi, não por nossa própria perfeição, mas pela obra redentora de Jesus, que nos torna justos diante de Deus.",
+  "selo": false
+ },
+ "viver": "Davi não tentou esconder seu interior, mas pediu que Deus o testasse. Que tal fazer o mesmo hoje? Antes de tomar uma decisão importante, pare e pergunte a si mesmo: o que há no meu coração que eu não quero que Deus veja? A sinceridade diante de Deus traz paz, pois nos livra do peso de fingir. Se você encontrar algo errado, arrependa-se; se estiver em paz, siga com a tranquilidade de quem sabe que seu caminho é reto diante do Senhor.",
+ "guarde": "A verdadeira segurança não vem de esconder nossos erros, mas de confiar no Deus que nos conhece por inteiro.",
+ "ore": "Senhor, que examina os corações, eu me entrego ao seu olhar. Lava as impurezas que eu não percebo e ajuda-me a andar em sinceridade. Que eu ame tua casa e busque tua glória acima de tudo, como Davi fez.",
+ "quiz": {
+  "pergunta": "Qual foi o pedido específico que Davi fez a Deus no versículo 2?",
+  "opcoes": [
+   "Que Deus lhe desse riquezas e prosperidade",
+   "Que Deus o provasse e examinasse seu coração",
+   "Que Deus o livrasse dos seus inimigos"
+  ],
+  "certa": 1,
+  "explicacao": "No versículo 2, Davi pede explicitamente: \"Prova-me, SENHOR, e testa-me; examina meus sentimentos e meu coração\", demonstrando confiança na sua inocência."
+ },
+ "refs": [
+  "Salmos 139:23-24",
+  "1 João 1:9",
+  "Hebreus 4:12"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-03T07:22:26.266Z",
+  "rounds": 3
+ }
+}

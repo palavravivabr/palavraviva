@@ -3098,7 +3098,9 @@
   },
   "19-18-11-20": {
    "execucoes": 2,
-   "ultimo": "automático: entender:citacao_fora_do_texto"
+   "ultimo": "automático: entender:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "Quando o Senhor se torna nosso refúgio"
   },
   "19-18-21-30": {
    "execucoes": 0,
@@ -3150,11 +3152,15 @@
   },
   "19-22-22-31": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:menos_de_2_paragrafos, ligar:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "A voz dos humildes que ecoa ao mundo"
   },
   "19-23-1-6": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "Descubra quem cuida de você nos momentos difíceis"
   },
   "19-24-1-10": {
    "execucoes": 0,
@@ -3164,15 +3170,21 @@
   },
   "19-25-1-11": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: viver:citacao_fora_do_texto, quiz.explicacao:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "Pedindo direção para quem se sente perdido"
   },
   "19-25-12-22": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:viver:43-8-25-35",
+   "estado": "pronto",
+   "titulo": "O caminho seguro para quem confia em Deus"
   },
   "19-26-1-12": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: viver:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "O pedido ousado de ser examinado por Deus"
   },
   "19-27-1-14": {
    "execucoes": 0,
@@ -3193,28 +3205,48 @@
   "19-31-1-12": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-31-13-24": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-32-1-11": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-33-1-11": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-33-12-22": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-34-1-11": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 988,
-   "entrada": 2594762,
-   "saida": 869121
+   "chamadas": 995,
+   "entrada": 2611756,
+   "saida": 875714
   },
   "groq-qwen": {
-   "chamadas": 986,
-   "entrada": 2474351,
-   "saida": 801963
+   "chamadas": 994,
+   "entrada": 2495492,
+   "saida": 808459
   },
   "gemini": {
-   "chamadas": 855,
-   "entrada": 2768742,
-   "saida": 1076869
+   "chamadas": 861,
+   "entrada": 2787496,
+   "saida": 1080641
   },
   "cloudflare": {
-   "chamadas": 536,
-   "entrada": 1867892,
-   "saida": 198856
+   "chamadas": 542,
+   "entrada": 1888083,
+   "saida": 201082
   },
   "mistral": {
    "chamadas": 0,
