@@ -1,0 +1,134 @@
+{
+ "id": "19-28-1-9",
+ "ref": "Salmos 28:1-9",
+ "book": "19",
+ "chapter": 28,
+ "verses": [
+  {
+   "n": 1,
+   "t": "A ti, SENHOR, rocha minha, eu clamo; não te silencies para comigo; para que não aconteça de, se tu calares quanto a mim, eu não me torne semelhante aos que descem à cova."
+  },
+  {
+   "n": 2,
+   "t": "Ouve a voz de minhas súplicas, quando eu clamar a ti, ao levantar às minhas mãos ao templo de tua santidade."
+  },
+  {
+   "n": 3,
+   "t": "Não me jogues fora com os perversos, nem com os praticantes da maldade, que falam de paz com sem próximo, porém há o mal no coração deles."
+  },
+  {
+   "n": 4,
+   "t": "Dá-lhes conforme as obras deles, e conforme a maldade de seus atos; dá-lhes conforme a obra das mãos deles, retribui-lhes como eles merecem."
+  },
+  {
+   "n": 5,
+   "t": "Porque eles não dão atenção para os atos do SENHOR, nem para a obra de suas mãos; então ele os derrubará e não os edificará."
+  },
+  {
+   "n": 6,
+   "t": "Bendito seja o SENHOR, porque ele ouviu a voz de minhas súplicas."
+  },
+  {
+   "n": 7,
+   "t": "O SENHOR é a minha força e meu escudo; meu coração confiou nele, e foi socorrido; por isso meu coração salta de alegria; e com meu canto eu o louvarei."
+  },
+  {
+   "n": 8,
+   "t": "O SENHOR é a força deles, e o poder das salvações de seu Ungido."
+  },
+  {
+   "n": 9,
+   "t": "Salva a teu povo, e abençoa a tua herança; e apascenta-os, e levanta-os para sempre."
+  }
+ ],
+ "titulo": "O grito que Deus ouve no silêncio",
+ "temas": [
+  "oração",
+  "ansiedade",
+  "justiça",
+  "confiança",
+  "socorro"
+ ],
+ "pergunta": "O que você faz quando sente que suas orações não estão chegando a lugar nenhum?",
+ "entender": "O salmista começa com um apelo urgente: ele clama ao Senhor, sua rocha, pedindo que Ele não se silencie. O medo central é claro: se Deus calar, ele se tornará igual aos que descem à cova, enfrentando o fim sem esperança. Não é uma teologia abstrata, é um grito de quem sente o perigo iminente.\n\nEle contrasta sua postura com a dos perversos. Enquanto ele levanta as mãos ao templo da santidade, os maus falam de paz, mas escondem maldade. O salmista pede que Deus aja conforme as obras deles, pois eles ignoram o que o Senhor faz. A resposta vem em forma de gratidão: Deus ouviu. Ele é força e escudo, e o coração do salmista salta de alegria.\n\nO texto termina com uma oração coletiva: que Deus salve seu povo, o abençoe e o apascente para sempre. A transição é de um medo paralisante para uma alegria cantada, mostrando que a base dessa mudança não é a ausência de problemas, mas a certeza de que o Senhor ouve e age.",
+ "ligar": {
+  "texto": "O salmista busca em Deus a força contra a maldade humana. Jesus é a resposta definitiva a essa busca. Ele não apenas ouve, mas se fez homem para enfrentar a maldade e a morte em nosso lugar. Ao clamar por socorro, nós encontramos em Cristo o escudo que nos protege do juízo e a força que nos sustenta. A alegria do salmista é um eco da paz que só a cruz de Jesus pode trazer, pois Ele é a salvação do Ungido de Deus.",
+  "selo": false
+ },
+ "viver": "Muitas vezes, a sensação de que Deus cala é mais forte que a realidade. Em vez de parar de orar ou desistir, tente manter a constância. O salmista não parou de clamar até a resposta chegar visivelmente; ele continuou buscando a santidade de Deus. Hoje, escolha uma área de sua vida onde você se sente ignorado ou vulnerável. Escreva suas súplicas em um diário, citando que Deus é sua rocha. Não espere a resolução imediata, mas confie que Ele está ouvindo, mesmo no silêncio. Essa prática ajuda a alinhar sua fé à promessa de que Ele é nosso escudo.",
+ "guarde": "A alegria verdadeira não depende das circunstâncias, mas da certeza de que o Senhor ouviu sua súplica.",
+ "ore": "Senhor, minha rocha, não te silencies para comigo. Quando o medo de ser abandonado vier, lembra-me de que tu és meu escudo. Ouve a voz das minhas súplicas e fortalece meu coração para confiar em ti, mesmo quando não vejo a resposta imediata. Salva-me e apascenta-me com tua bondade.",
+ "quiz": {
+  "pergunta": "Por que o salmista pede que Deus não se silencie com ele?",
+  "opcoes": [
+   "Para que Deus punisse seus inimigos imediatamente.",
+   "Porque queria ser famoso no templo.",
+   "Para não se tornar semelhante aos que descem à cova."
+  ],
+  "certa": 2,
+  "explicacao": "O texto diz explicitamente no versículo 1 que o medo do silêncio de Deus é tornar-se semelhante aos que descem à cova, indicando o perigo do abandono e da morte espiritual."
+ },
+ "refs": [
+  "Salmos 57:1",
+  "Salmos 62:1",
+  "2 Samuel 22:1-3"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-03T13:11:57.326Z",
+  "rounds": 2
+ }
+}
