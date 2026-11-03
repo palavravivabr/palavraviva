@@ -3187,8 +3187,8 @@
    "titulo": "O pedido ousado de ser examinado por Deus"
   },
   "19-27-1-14": {
-   "execucoes": 1,
-   "ultimo": "automático: abertura_repetida:ore:19-6-1-10"
+   "execucoes": 2,
+   "ultimo": "automático: viver:citacao_fora_do_texto"
   },
   "19-28-1-9": {
    "execucoes": 0,
@@ -3198,7 +3198,9 @@
   },
   "19-29-1-11": {
    "execucoes": 0,
-   "ultimo": "erro: gemini: 503 { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\", \"status\": \"UNAVAILABLE\" } } "
+   "ultimo": "erro: gemini: 503 { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\", \"status\": \"UNAVAILABLE\" } } ",
+   "estado": "pronto",
+   "titulo": "O poder da voz que faz tremer a terra"
   },
   "19-30-1-12": {
    "execucoes": 0,
@@ -3241,28 +3243,32 @@
   "19-35-10-19": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-35-20-28": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 1010,
-   "entrada": 2651065,
-   "saida": 887666
+   "chamadas": 1018,
+   "entrada": 2672661,
+   "saida": 895036
   },
   "groq-qwen": {
-   "chamadas": 1008,
-   "entrada": 2532915,
-   "saida": 820147
+   "chamadas": 1014,
+   "entrada": 2549550,
+   "saida": 825778
   },
   "gemini": {
-   "chamadas": 866,
-   "entrada": 2803291,
-   "saida": 1091189
+   "chamadas": 868,
+   "entrada": 2809801,
+   "saida": 1092092
   },
   "cloudflare": {
-   "chamadas": 544,
-   "entrada": 1894899,
-   "saida": 201824
+   "chamadas": 545,
+   "entrada": 1898270,
+   "saida": 202195
   },
   "mistral": {
    "chamadas": 0,
