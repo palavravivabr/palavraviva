@@ -3302,7 +3302,9 @@
   },
   "19-38-1-11": {
    "execucoes": 1,
-   "ultimo": "erro: gemini: 503 { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\", \"status\": \"UNAVAILABLE\" } } "
+   "ultimo": "automático: entender:citacao_longa",
+   "estado": "pronto",
+   "titulo": "Quando a dor revela a culpa interior"
   },
   "19-38-12-22": {
    "execucoes": 0,
@@ -3330,7 +3332,9 @@
   },
   "19-41-1-13": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "Quando o amigo vira inimigo, onde está a esperança?"
   },
   "19-42-1-11": {
    "execucoes": 0,
@@ -3340,7 +3344,9 @@
   },
   "19-43-1-5": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: PERSON_ENTITY_CONSISTENCY: O ensino atribui a autoria do Salmo 43 a Davi, o que não é afirmado nem sustentado pelo texto bíblico. | PRAYER_FIDELITY: A oração é dirigida incorretamente ao salmista Davi ('Davi, ensina-me...') em vez de ser dirigida a Deus.",
+   "estado": "pronto",
+   "titulo": "Quando a alma questiona: a luz que guia"
   },
   "19-44-1-9": {
    "execucoes": 0,
@@ -3350,7 +3356,9 @@
   },
   "19-44-10-17": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:ore:19-18-1-10",
+   "estado": "pronto",
+   "titulo": "Fiel mesmo quando a dor grita"
   },
   "19-44-18-26": {
    "execucoes": 0,
@@ -3379,28 +3387,40 @@
   "19-49-1-10": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-49-11-20": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-50-1-12": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-50-13-23": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 1062,
-   "entrada": 2787585,
-   "saida": 934193
+   "chamadas": 1070,
+   "entrada": 2807862,
+   "saida": 940937
   },
   "groq-qwen": {
-   "chamadas": 1056,
-   "entrada": 2658501,
-   "saida": 860758
+   "chamadas": 1064,
+   "entrada": 2678930,
+   "saida": 866839
   },
   "gemini": {
-   "chamadas": 896,
-   "entrada": 2897895,
-   "saida": 1116480
+   "chamadas": 901,
+   "entrada": 2912707,
+   "saida": 1124652
   },
   "cloudflare": {
-   "chamadas": 567,
-   "entrada": 1972749,
-   "saida": 210357
+   "chamadas": 571,
+   "entrada": 1985604,
+   "saida": 211841
   },
   "mistral": {
    "chamadas": 0,

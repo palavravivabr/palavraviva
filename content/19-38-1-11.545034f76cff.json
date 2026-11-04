@@ -1,0 +1,141 @@
+{
+ "id": "19-38-1-11",
+ "ref": "Salmos 38:1-11",
+ "book": "19",
+ "chapter": 38,
+ "verses": [
+  {
+   "n": 1,
+   "t": "SENHOR, não me repreendas em tua ira, e não me castigues em teu furor."
+  },
+  {
+   "n": 2,
+   "t": "Porque tuas flechas me atingiram, e tua mão pesou sobre mim."
+  },
+  {
+   "n": 3,
+   "t": "Na minha carne nada há que esteja saudável, por causa de tua ira; não há paz em meus ossos por causa do meu pecado."
+  },
+  {
+   "n": 4,
+   "t": "Porque minhas maldades ultrapassam minha cabeça; elas são como carga pesada demais para mim."
+  },
+  {
+   "n": 5,
+   "t": "Minhas feridas fedem, e estão apodrecidas, por eu ter sido tão tolo."
+  },
+  {
+   "n": 6,
+   "t": "Eu estou perturbado e abatido; ando o dia todo em sofrimento."
+  },
+  {
+   "n": 7,
+   "t": "Porque meus lombos ardem muito, e nada há que esteja saudável em minha carne."
+  },
+  {
+   "n": 8,
+   "t": "Estou enfraquecido e despedaçado; eu gemo pelo sofrimento do meu coração."
+  },
+  {
+   "n": 9,
+   "t": "SENHOR, todo o meu sofrimento está diante de ti, e meu gemido não te é oculto."
+  },
+  {
+   "n": 10,
+   "t": "Meu coração dá palpitações, e minha força me deixou; e a luz dos meus olhos já não está comigo."
+  },
+  {
+   "n": 11,
+   "t": "Meus amigos e companheiros observam de longe minha calamidade; e os meus vizinhos ficam afastados."
+  }
+ ],
+ "titulo": "Quando a dor revela a culpa interior",
+ "temas": [
+  "sofrimento",
+  "culpa",
+  "arrependimento"
+ ],
+ "pergunta": "Sua dor física já te fez refletir sobre algo que fez?",
+ "entender": "O salmista clama ao Senhor reconhecendo que sua aflição tem origem no pecado: \"Na minha carne nada há que esteja saudável, por causa de tua ira\" (Salmos 38.3). Ele descreve flechas, feridas e o ardor nos lombos como sinais da disciplina divina, e afirma que \"todo o meu sofrimento está diante de ti\" (38.9). Amigos e vizinhos se afastam, mas ele não esconde o gemido, oferecendo‑o a Deus como pedido de misericórdia.\n\nEsse lamento mostra como o pecado rompe a paz interior e produz sofrimento corporal. O salmo é um lamento pessoal de Davi, rei que sente o peso de suas transgressões e coloca seu sofrimento diante de Deus, buscando alívio e restauração.",
+ "ligar": {
+  "texto": "O texto aponta para a necessidade de alguém que tome sobre si a culpa e a dor que o pecado produz. O evangelho revela que Cristo carregou nossas enfermidades e pecados (cf. Isaías 53), oferecendo perdão que restaura a paz que o salmista tanto deseja. Assim, o clamor de Davi prepara o coração para receber a graça do Redentor.",
+  "selo": false
+ },
+ "viver": "Quando sentir dor física ou emocional, siga o exemplo de Davi: reconheça honestamente que parte da aflição pode ser consequência de algo que fez ou deixou de fazer. Leve essa culpa a Deus em oração, pedindo perdão e restauração. Essa atitude abre caminho para o consolo divino e para uma paz interior que vai além do alívio momentâneo.",
+ "guarde": "A dor pode ser um sinal de que precisamos voltar ao Senhor em arrependimento.",
+ "ore": "Senhor, ao sentir minhas feridas e o peso da culpa, clamo por Tua misericórdia e alívio.",
+ "quiz": {
+  "pergunta": "Por que o salmista diz que não há paz em seus ossos?",
+  "opcoes": [
+   "Por causa do seu pecado",
+   "Por causa da doença física",
+   "Por causa dos inimigos"
+  ],
+  "certa": 0,
+  "explicacao": "Ele afirma que a falta de paz vem \"por causa do meu pecado\", ligando a dor física ao seu estado moral."
+ },
+ "refs": [
+  "Salmos 51:3-4",
+  "1 Pedro 2:24",
+  "Romanos 3:23",
+  "Isaías 53:4-5"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-04T13:10:12.998Z",
+  "rounds": 3
+ }
+}

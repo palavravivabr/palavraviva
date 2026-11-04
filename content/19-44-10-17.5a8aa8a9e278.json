@@ -1,0 +1,129 @@
+{
+ "id": "19-44-10-17",
+ "ref": "Salmos 44:10-17",
+ "book": "19",
+ "chapter": 44,
+ "verses": [
+  {
+   "n": 10,
+   "t": "Tu nos fazes fugir do adversário, e aqueles que nos odeiam saqueiam de nós para si."
+  },
+  {
+   "n": 11,
+   "t": "Tu nos entregas como ovelhas para serem comidas, e nos espalhas entre as nações."
+  },
+  {
+   "n": 12,
+   "t": "Tu vendes a teu povo ao preço de nada, e não aumentas o seu valor."
+  },
+  {
+   "n": 13,
+   "t": "Tu nos pões como humilhação por nossos vizinhos; como escárnio e zombaria pelos que estão ao redor de nós."
+  },
+  {
+   "n": 14,
+   "t": "Tu nos pões como provérbio de escárnio entre as nações; como balançar de cabeça entre os povos;"
+  },
+  {
+   "n": 15,
+   "t": "Minha humilhação está o dia todo diante de mim; e a vergonha cobre o meu rosto,"
+  },
+  {
+   "n": 16,
+   "t": "Pela voz do adversário e do que insulta; por causa do inimigo e do vingador."
+  },
+  {
+   "n": 17,
+   "t": "Tudo isto veio sobre nós; porém não nos esquecemos de ti, nem traímos o teu pacto."
+  }
+ ],
+ "titulo": "Fiel mesmo quando a dor grita",
+ "temas": [
+  "lealdade",
+  "sofrimento",
+  "pacto",
+  "humilhação"
+ ],
+ "pergunta": "Como manter a fé quando tudo parece provar que Deus nos abandonou?",
+ "entender": "Este salmo expressa a dor de um povo que sente ter sido rejeitado por Deus. Eles descrevem uma derrota pública, sendo tratados como \"ovelhas para serem comidas\" e humilhados pelos vizinhos. A linguagem é de desespero, onde a vergonha cobre o rosto do salmista.\n\nO contraste é forte: eles lembram que Deus os salvou no passado, mas agora Ele parece rejeitá-los. O ponto central está no versículo 17: apesar do sofrimento, o povo declara que não se esqueceu de Deus nem traiu o pacto. A fidelidade permanece mesmo quando as circunstâncias parecem provar o contrário.",
+ "ligar": {
+  "texto": "Jesus experimentou o abandono e a humilhação na cruz, sentindo-se rejeitado. Mas, diferente de Israel, Ele cumpriu perfeitamente a vontade do Pai. Sua lealdade na dor garante que nosso sofrimento não é o fim da história, mas parte do processo de redenção que Ele já completou.",
+  "selo": false
+ },
+ "viver": "Quando a vida parecer uma humilhação constante, a tentação é questionar o amor de Deus. Este texto nos convida a separar a sensação de abandono da realidade do pacto. Você pode ter perdido o emprego ou o respeito alheio, mas isso não significa rejeição divina. Mantenha sua lealdade a Ele, confiando no caráter dEle e não nas circunstâncias que não controlamos.",
+ "guarde": "Nossa lealdade a Deus não depende da prosperidade, mas da fidelidade ao pacto mesmo na dor.",
+ "ore": "No lugar de chacais onde me sinto coberto por morte, eu me lembro de que não te esqueci. Mantém meu coração firme no Teu caminho, mesmo quando a vergonha cobre meu rosto e os inimigos zombam.",
+ "quiz": {
+  "pergunta": "O que o povo afirma no versículo 17, apesar do sofrimento?",
+  "opcoes": [
+   "Que Deus estava com raiva e mereciam o castigo.",
+   "Que iriam abandonar a adoração para buscar outros deuses.",
+   "Que não esqueceram a Deus nem traíram o pacto."
+  ],
+  "certa": 2,
+  "explicacao": "O versículo 17 afirma explicitamente que não se esqueceram de Deus nem traíram o pacto, demonstrando que a fidelidade religiosa permaneceu intacta mesmo diante da derrota e da humilhação."
+ },
+ "refs": [
+  "Isaías 53:3-4",
+  "Mateus 26:40",
+  "Lamentações 3:18-20"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-04T13:18:25.842Z",
+  "rounds": 3
+ }
+}

@@ -1,0 +1,117 @@
+{
+ "id": "19-43-1-5",
+ "ref": "Salmos 43:1-5",
+ "book": "19",
+ "chapter": 43,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Faze-me justiça, ó Deus, e defende minha causa contra a nação impiedosa; livra-me do homem enganador e perverso;"
+  },
+  {
+   "n": 2,
+   "t": "Pois tu és o Deus de minha força. Por que tu me rejeitas? Por que ando em sofrimento pela opressão do inimigo?"
+  },
+  {
+   "n": 3,
+   "t": "Envia tua luz e tua verdade, para que elas me guiem, para que me levem ao monte de tua santidade e a tuas habitações;"
+  },
+  {
+   "n": 4,
+   "t": "E eu entre ao altar de Deus, ao Deus da minha maior alegria, e eu te louve com harpa, ó Deus, meu Deus."
+  },
+  {
+   "n": 5,
+   "t": "Por que estás abatida, minha alma? E por que te inquietas em mim? Espera em Deus, porque eu ainda o louvarei; ele é a minha salvação e o meu Deus."
+  }
+ ],
+ "titulo": "Quando a alma questiona: a luz que guia",
+ "temas": [
+  "ansiedade",
+  "esperança",
+  "presença de deus",
+  "louvor"
+ ],
+ "pergunta": "O que você faz quando a tristeza parece mais forte que a sua fé?",
+ "entender": "Este salmo expressa uma angústia profunda. O autor sente-se rejeitado e oprimido por inimigos, questionando por que Deus parece silêncio diante do sofrimento. Não há uma resposta teológica complexa aqui, mas uma confissão honesta de dor. Ele reconhece que Deus é a fonte de sua força, mesmo quando não a sente, e clama por justiça contra a opressão.\n\nNo versículo 5, ocorre a virada do texto. O autor se dirige à sua própria alma, perguntando por que ela está abatida e inquieta. Ele não ignora a dor, mas a confronta com a verdade: espera em Deus. O salmo termina com a certeza de que Deus é sua salvação, transformando o lamento em louvor antecipado.",
+ "ligar": {
+  "texto": "Este salmo aponta para Jesus, que na cruz sentiu o abandono de Deus e a opressão dos inimigos. Assim como o salmista, Jesus confiou em Deus mesmo no sofrimento extremo. A diferença é que Jesus venceu a morte. Ele é a luz e a verdade que nos guia ao monte da santidade. Em Cristo, nossa alma encontra descanso porque Ele já venceu o inimigo e nos garante a salvação definitiva.",
+  "selo": false
+ },
+ "viver": "Identifique hoje uma área onde sua mente está criando perguntas que a fé ainda não consegue responder. Em vez de lutar contra a emoção, escreva a pergunta e, ao lado, anote uma verdade bíblica sobre o caráter de Deus. Faça isso em voz alta, como o salmista fez com sua alma, lembrando que a espera em Deus não é passividade, mas confiança ativa na Sua fidelidade, mesmo no escuro.",
+ "guarde": "Minha alma não precisa estar em paz para esperar em Deus, pois Ele é minha salvação.",
+ "ore": "Ó Deus, ensina-me a falar com minha alma quando ela se inquieta. Ajuda-me a trocar a ansiedade pela espera confiante em Ti, meu Deus e Salvador, pois Tu és minha força e minha luz.",
+ "quiz": {
+  "pergunta": "O que o autor faz com a sua própria alma no versículo 5?",
+  "opcoes": [
+   "A ignora para focar apenas nos problemas externos.",
+   "A repreende por ter duvidado da onipotência de Deus.",
+   "Pergunta por que ela está abatida e a exorta a esperar em Deus."
+  ],
+  "certa": 2,
+  "explicacao": "O texto mostra o autor se dirigindo a si mesmo, confrontando a tristeza com a instrução de esperar em Deus, reconhecendo-O como sua salvação."
+ },
+ "refs": [
+  "Salmos 42:5-11",
+  "Mateus 26:38-39",
+  "Filipenses 4:6-7"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-04T13:16:38.681Z",
+  "rounds": 2
+ }
+}
