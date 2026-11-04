@@ -1,0 +1,137 @@
+{
+ "id": "19-37-11-20",
+ "ref": "Salmos 37:11-20",
+ "book": "19",
+ "chapter": 37,
+ "verses": [
+  {
+   "n": 11,
+   "t": "Mas os mansos herdarão a terra, e se agradarão com muita paz."
+  },
+  {
+   "n": 12,
+   "t": "O perverso trama contra o justo, e range seus dentes contra ele."
+  },
+  {
+   "n": 13,
+   "t": "O Senhor ri dele, porque vê que já vem o dia dele."
+  },
+  {
+   "n": 14,
+   "t": "O perversos pegarão a espada e armarão seu arco, para abaterem ao miserável e necessitado, para matarem os corretos no caminho."
+  },
+  {
+   "n": 15,
+   "t": "Mas sua espada entrará em seus corações, e seus arcos serão quebrados."
+  },
+  {
+   "n": 16,
+   "t": "O pouco que o justo tem é melhor do que a riqueza de muitos perversos."
+  },
+  {
+   "n": 17,
+   "t": "Porque os braços dos perversos serão quebrados, mas o SENHOR sustenta os justos."
+  },
+  {
+   "n": 18,
+   "t": "O SENHOR conhece os dias dos corretos, e a herança deles permanecerá para sempre."
+  },
+  {
+   "n": 19,
+   "t": "Eles não serão envergonhados no tempo mau, e terão fartura nos dias de fome."
+  },
+  {
+   "n": 20,
+   "t": "Mas os perversos perecerão, e os inimigos do SENHOR desaparecerão tal como as melhores partes dos cordeiros; eles de desfarão na fumaça."
+  }
+ ],
+ "titulo": "Por que a mansidão vence a força?",
+ "temas": [
+  "mansidão",
+  "justiça",
+  "esperança",
+  "proteção"
+ ],
+ "pergunta": "O que acontece quando confiamos na proteção de Deus em vez de reagir com violência?",
+ "entender": "Davi observa dois caminhos opostos neste Salmo. De um lado, o perverso que age com violência: ele \"range seus dentes\", pega a espada e arma o arco para abater os fracos. Do outro, o justo que é manso, que não se deixa levar pela ira, mas espera no Senhor.\n\nA surpresa do texto está no resultado final. A força bruta do perverso falha: sua espada entra em seu próprio coração e seus arcos são quebrados. Já o justo, mesmo tendo pouco, é sustentado pelo Senhor. A promessa é concreta: \"os mansos herdarão a terra\" e terão fartura mesmo nos dias de fome. Deus não ignora a opressão; Ele conhece os dias dos corretos e garante que a herança deles permanecerá para sempre.",
+ "ligar": {
+  "texto": "Jesus é a personificação perfeita dessa mansidão. Ele foi o \"miserável e necessitado\" aos olhos do mundo, agredido por aqueles que armaram suas espadas (os soldados romanos) para matá-lo. Mas Jesus não revidou com violência; Ele permitiu que a espada entrasse em seu coração na cruz, pagando o preço de nossos pecados. A \"terra\" que os mansos herdam é a vida eterna, conquistada por Cristo, que venceu a morte e garante a segurança final aos que creem nele.",
+  "selo": false
+ },
+ "viver": "Ao ver a injustiça ou a agressividade de alguém, pare e respire. Em vez de planejar sua vingança ou reagir com raiva, lembre-se de que Deus vê tudo. Entregue a situação a Ele, confiando que Ele é justo. Pratique a mansidão escolhendo responder com calma e bondade, mesmo quando o outro age com maldade, pois você está confiando na proteção do Senhor, que sustenta os justos.",
+ "guarde": "A força do perverso se quebra contra si mesmo, mas a mão de Deus sustenta o justo para sempre.",
+ "ore": "Senhor, quando eu sentir a raiva subir e o desejo de retaliar, lembra-me de que Tu conheces os dias dos corretos. Ensina-me a ser manso, confiando em Tua proteção e sabendo que a vingança é Tua. Guarda meu coração da amargura.",
+ "quiz": {
+  "pergunta": "Qual é o destino final do perverso que usa a violência contra o justo, segundo o Salmo 37?",
+  "opcoes": [
+   "Ele será ignorado por Deus, mas manterá sua riqueza.",
+   "Ele será promovido a uma posição de poder na sociedade.",
+   "Sua espada entrará em seu coração e seus arcos serão quebrados."
+  ],
+  "certa": 2,
+  "explicacao": "O texto afirma claramente que a violência do perverso se volta contra ele: \"sua espada entrará em seus corações, e seus arcos serão quebrados\" (v. 15)."
+ },
+ "refs": [
+  "Mateus 5:5",
+  "Provérbios 21:15",
+  "Isaías 2:4"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-04T04:07:52.215Z",
+  "rounds": 1
+ }
+}

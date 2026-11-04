@@ -1,0 +1,137 @@
+{
+ "id": "19-37-21-30",
+ "ref": "Salmos 37:21-30",
+ "book": "19",
+ "chapter": 37,
+ "verses": [
+  {
+   "n": 21,
+   "t": "O perverso toma emprestado, e paga de volta; mas o justo se compadece e dá."
+  },
+  {
+   "n": 22,
+   "t": "Porque os que são por ele abençoados herdarão a terra; mas os que são por ele amaldiçoados serão removidos."
+  },
+  {
+   "n": 23,
+   "t": "Os passos do homem justo são preparados pelo SENHOR; e ele tem prazer em seu caminho."
+  },
+  {
+   "n": 24,
+   "t": "Quando cai, ele não fica derrubado, pois o SENHOR sustenta a sua mão."
+  },
+  {
+   "n": 25,
+   "t": "Eu já fui jovem, e já envelheci; mas nunca vi o justo desamparado, nem a sua semente a pedir pão."
+  },
+  {
+   "n": 26,
+   "t": "O dia todo ele se compadece, e empresta; e sua semente é abençoada."
+  },
+  {
+   "n": 27,
+   "t": "Afasta-te do mal, e faze o bem; e faça sua habitação eterna."
+  },
+  {
+   "n": 28,
+   "t": "Porque o SENHOR ama o juízo, e não desampara a seus santos: eles estão guardados para sempre; mas a semente dos perversos será removida."
+  },
+  {
+   "n": 29,
+   "t": "Os justos herdarão a terra, e para sempre nela habitarão."
+  },
+  {
+   "n": 30,
+   "t": "A boca do justo fala de sabedoria, e sua língua fala do bom juízo."
+  }
+ ],
+ "titulo": "Por que Deus sustenta a mão do justo?",
+ "temas": [
+  "justiça",
+  "generosidade",
+  "confiança",
+  "herança"
+ ],
+ "pergunta": "O que realmente diferencia a vida de quem age com compaixão da de quem age por interesse?",
+ "entender": "Este trecho dos Salmos contrasta duas atitudes diante do próximo. O perverso usa as relações para lucrar, tomando emprestado e pagando apenas o necessário, enquanto o justo age movido pela compaixão, dando sem calcular o retorno. A promessa é clara: os passos do justo são preparados pelo Senhor, e mesmo quando ele cai, não fica derrubado, pois Deus sustenta sua mão.\n\nDavi, o autor, lembra que viu muitos anos de vida e nunca presenciou um justo desamparado ou sua família pedindo pão. Isso não significa que o justo não sofre, mas que a provisão de Deus é fiel. A instrução prática é direta: afaste-se do mal, faça o bem e estabeleça sua habitação eterna, pois o Senhor ama o juízo e guarda Seus santos para sempre.",
+ "ligar": {
+  "texto": "A figura do justo que se compadece e dá encontra seu cumprimento perfeito em Jesus. Ele não apenas ensinou sobre a generosidade, mas viveu essa compaixão radical, dando Sua própria vida para pagar a dívida que não podia ser quitada por nós. Jesus é o verdadeiro Justo que, mesmo perseguido e 'caído' na cruz, foi sustentado pelo Pai e ressuscitado, garantindo a herança eterna para todos os que creem nEle.",
+  "selo": false
+ },
+ "viver": "Pense em como você trata o dinheiro e as obrigações financeiras. O texto nos lembra que a generosidade não é sobre ter muito, mas sobre o coração que se compadece. Na prática, isso pode significar ajudar um colega de trabalho que está passando por aperto, não por obrigação, mas por empatia. Ao agir assim, você alinha seus passos com o caminho que o Senhor prepara, trocando a ansiedade da escassez pela paz de quem confia na provisão divina.",
+ "guarde": "Mesmo quando você cair, não ficará no chão, porque a mão do Senhor te sustenta com firmeza.",
+ "ore": "Pai, assim como Davi, reconheço que meus passos são preparados por Ti. Afasta-me do mal e do cálculo egoísta. Ensina-me a me compadecer e a dar, confiando que Tu sustentas minha mão quando eu caio e provês para minha família.",
+ "quiz": {
+  "pergunta": "Segundo o Salmo 37, o que acontece quando o justo cai?",
+  "opcoes": [
+   "Ele não fica derrubado",
+   "Ele é abandonado por Deus",
+   "Ele precisa se recuperar sozinho"
+  ],
+  "certa": 0,
+  "explicacao": "O versículo 24 afirma explicitamente que 'Quando cai, ele não fica derrubado, pois o SENHOR sustenta a sua mão', indicando o cuidado divino constante."
+ },
+ "refs": [
+  "Provérbios 19:17",
+  "Mateus 5:7",
+  "Isaías 41:10"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-04T04:07:42.646Z",
+  "rounds": 1
+ }
+}

@@ -3272,7 +3272,9 @@
   },
   "19-36-1-12": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:viver:43-12-41-50",
+   "estado": "pronto",
+   "titulo": "A fonte da vida que sustenta o mundo"
   },
   "19-37-1-10": {
    "execucoes": 0,
@@ -3282,15 +3284,21 @@
   },
   "19-37-11-20": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:menos_de_2_paragrafos",
+   "estado": "pronto",
+   "titulo": "Por que a mansidão vence a força?"
   },
   "19-37-21-30": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:menos_de_2_paragrafos",
+   "estado": "pronto",
+   "titulo": "Por que Deus sustenta a mão do justo?"
   },
   "19-37-31-40": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:marcacao, entender:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "A árvore que parece forte mas seca"
   },
   "19-38-1-11": {
    "execucoes": 0,
@@ -3315,28 +3323,44 @@
   "19-41-1-13": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-42-1-11": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-43-1-5": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-44-1-9": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-44-10-17": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 1040,
-   "entrada": 2731056,
-   "saida": 914529
+   "chamadas": 1046,
+   "entrada": 2746877,
+   "saida": 919930
   },
   "groq-qwen": {
-   "chamadas": 1036,
-   "entrada": 2607024,
-   "saida": 843597
+   "chamadas": 1042,
+   "entrada": 2621997,
+   "saida": 848317
   },
   "gemini": {
-   "chamadas": 881,
-   "entrada": 2850720,
-   "saida": 1098849
+   "chamadas": 885,
+   "entrada": 2863039,
+   "saida": 1101743
   },
   "cloudflare": {
-   "chamadas": 557,
-   "entrada": 1938900,
-   "saida": 206647
+   "chamadas": 561,
+   "entrada": 1952131,
+   "saida": 208131
   },
   "mistral": {
    "chamadas": 0,

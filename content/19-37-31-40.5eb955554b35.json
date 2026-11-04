@@ -1,0 +1,137 @@
+{
+ "id": "19-37-31-40",
+ "ref": "Salmos 37:31-40",
+ "book": "19",
+ "chapter": 37,
+ "verses": [
+  {
+   "n": 31,
+   "t": "A Lei de seu Deus está em seu coração; seus passos não serão abalados."
+  },
+  {
+   "n": 32,
+   "t": "O perverso espia ao justo, e procura matá-lo."
+  },
+  {
+   "n": 33,
+   "t": "Mas o SENHOR não o deixa em suas mãos; nem também o condenará, quando for julgado."
+  },
+  {
+   "n": 34,
+   "t": "Espera no SENHOR, guarda o seu caminho, e ele te exaltará, para herdares a terra; tu verás que os perversos serão removidos."
+  },
+  {
+   "n": 35,
+   "t": "Eu vi ao perverso violento crescer como a árvore verde, natural da terra."
+  },
+  {
+   "n": 36,
+   "t": "Porém ele já foi embora, e eis que ele não existe mais ; eu o procurei, e não foi achado."
+  },
+  {
+   "n": 37,
+   "t": "Olha ao sincero, e vê o correto; porque o fim de tal homem é a paz."
+  },
+  {
+   "n": 38,
+   "t": "Mas os transgressores serão juntamente destruídos; o fim dos perversos será eliminado."
+  },
+  {
+   "n": 39,
+   "t": "Porém a salvação dos justos vem do SENHOR, que é a força deles no tempo de angústia."
+  },
+  {
+   "n": 40,
+   "t": "E o SENHOR os socorrerá, e os livrará; ele os livrará dos perversos, e os salvará, porque nele confiam."
+  }
+ ],
+ "titulo": "A árvore que parece forte mas seca",
+ "temas": [
+  "justiça",
+  "esperança",
+  "proteção",
+  "confiança"
+ ],
+ "pergunta": "Por que o sucesso dos injustos parece durar tanto, e o que acontece com eles no fim?",
+ "entender": "Neste trecho, Davi confronta a dor de ver o mal prosperar. Ele descreve o perverso violento que cresce como uma árvore verde e natural da terra, parecendo sólido e estabelecido. No entanto, o salmista relata uma mudança abrupta: ele foi embora, não existe mais e, quando procurado, não foi achado. A aparência de estabilidade é enganosa e passageira.\n\nEm contraste, o justo tem a Lei de Deus no coração, o que torna seus passos firmes. O texto afirma que o Senhor não entrega o justo às mãos do perverso nem o condena injustamente. A segurança do justo vem do fato de que o SENHOR é sua força no tempo de angústia, socorrendo-o e livrando-o dos perversos porque nele confia.",
+ "ligar": {
+  "texto": "Jesus é o justo por excelência, cuja obediência à Lei do Pai era perfeita. Ele foi espiado e procurado para ser morto pelos perversos, mas o Pai não O deixou em suas mãos para sempre; ressuscitou-O. A salvação que o salmo descreve é cumprida em Cristo, que nos livra da condenação e da destruição, sendo nossa força e refúgio definitivo.",
+  "selo": false
+ },
+ "viver": "Ao ver alguém que fere ou engana parecer ter sucesso, não permita que a inveja ou o medo te afastem da confiança em Deus. Lembre-se da imagem da árvore que seca: o que parece forte hoje pode desaparecer amanhã. Foque em ter a vontade de Deus no seu coração, vivendo com integridade. Essa postura não garante a ausência de problemas, mas garante a presença de Deus como sua força, mesmo quando a angústia vier.",
+ "guarde": "O fim do perverso é a eliminação, mas o fim do sincero é a paz que vem do Senhor.",
+ "ore": "Senhor, assim como a árvore verde que seca, ensina-me a não me assustar com o poder temporário dos que fazem o mal. Coloca Tua Lei no meu coração para que meus passos sejam firmes. Sê minha força no tempo de angústia, pois confio que me livrarás dos perversos.",
+ "quiz": {
+  "pergunta": "O que o texto diz sobre o fim do perverso violento que parecia crescer como árvore verde?",
+  "opcoes": [
+   "Ele foi embora, não existe mais e não foi achado",
+   "Ele continuou forte até o fim dos tempos",
+   "Ele se arrependeu e tornou-se justo"
+  ],
+  "certa": 0,
+  "explicacao": "O versículo 36 afirma explicitamente que o salmista procurou o perverso e não o achou, indicando o fim de sua existência e poder, ao contrário de uma mudança de caráter ou continuidade eterna."
+ },
+ "refs": [
+  "Provérbios 12:10",
+  "Mateus 5:10",
+  "1 Pedro 5:8"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-04T04:08:58.675Z",
+  "rounds": 2
+ }
+}
