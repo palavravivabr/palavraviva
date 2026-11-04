@@ -1,0 +1,133 @@
+{
+ "id": "19-44-18-26",
+ "ref": "Salmos 44:18-26",
+ "book": "19",
+ "chapter": 44,
+ "verses": [
+  {
+   "n": 18,
+   "t": "Nosso coração não se voltou para trás, nem nossos passos de desviaram de teu caminho."
+  },
+  {
+   "n": 19,
+   "t": "Tu tens nos afligido num lugar de chacais, e nos cobriste com sobra de morte."
+  },
+  {
+   "n": 20,
+   "t": "Se tivéssemos esquecido do nome do nosso Deus, e estendido nossas mãos a um outro deus,"
+  },
+  {
+   "n": 21,
+   "t": "por acaso Deus não o descobriria? Pois ele conhece os segredos do coração."
+  },
+  {
+   "n": 22,
+   "t": "Mas por causa de ti somos mortos o dia todo; somos considerados como ovelhas para o matadouro."
+  },
+  {
+   "n": 23,
+   "t": "Desperta; por que estás dormindo, Senhor? Acorda, não nos rejeites para sempre."
+  },
+  {
+   "n": 24,
+   "t": "Por que escondes tua face, e te esqueces de nossa humilhação e de nossa opressão?"
+  },
+  {
+   "n": 25,
+   "t": "Pois nossa alma está abatida ao pó; nosso ventre está junto à terra."
+  },
+  {
+   "n": 26,
+   "t": "Levanta-te para nosso socorro; e resgata-nos por tua bondade."
+  }
+ ],
+ "titulo": "O grito honesto de quem não se esquece de Deus",
+ "temas": [
+  "clamor",
+  "dor",
+  "fidelidade",
+  "resgate"
+ ],
+ "pergunta": "É possível sentir-se abandonado por Deus e, ao mesmo tempo, afirmar que não O esqueceu?",
+ "entender": "Os versos 18 a 26 mostram o povo de Israel em uma crise profunda. Eles garantem a Deus: \"Nosso coração não se voltou para trás\" (v. 18). Ou seja, sua lealdade permanece, mesmo que a realidade seja de aflição e morte. A dor é tão aguda que eles perguntam por que o Senhor parece dormir (v. 23). Não é falta de fé, mas a expressão crua de quem sofre e ainda busca a Deus.\n\nO texto revela que a fé bíblica não é a ausência de dúvidas, mas a insistência na bondade divina. Mesmo sentindo-se abatidos ao pó (v. 25), eles terminam pedindo socorro com base na \"tua bondade\" (v. 26). O salmo valida o grito honesto: podemos chorar, reclamar e sentir que Deus se esqueceu, mas a saída é voltar a confiar no caráter dEle, não nas circunstâncias.",
+ "ligar": {
+  "texto": "Jesus é o exemplo supremo desse clamor. Na cruz, Ele sentiu o peso da separação e da dor, mas não se desviou do caminho do Pai. A bondade que o salmo pede foi demonstrada quando Deus não rejeitou o sofrimento, mas o venceu através da ressurreição. Em Cristo, vemos que o socorro vem não por nossa força, mas pela graça que resgata mesmo os que estão \"abatidos ao pó\".",
+  "selo": false
+ },
+ "viver": "A honestidade do salmo nos convida a parar de fingir que está tudo bem. Se a dor estiver pesando, escreva ou fale com Deus usando suas palavras reais, sem filtros falsos. A aplicação prática é: não deixe o silêncio ou a dor te afastarem da oração. Use o próprio texto como guia: afirme sua lealdade, expresse a dor e termine pedindo resgate pela bondade de Deus, não pela sua capacidade de aguentar.",
+ "guarde": "Minha lealdade a Deus permanece firme, mesmo quando minha dor parece maior que minha fé.",
+ "ore": "Pai, no meio desta aflição, confesso que meu coração não se desviou de Ti. Sinto a dor, mas não a nego. Desperta em mim a esperança e levanta-te para meu socorro. Resgata-me pela tua bondade, não pela minha força, pois sei que Tu não me rejeitas para sempre.",
+ "quiz": {
+  "pergunta": "Qual é a base final do pedido de socorro no versículo 26?",
+  "opcoes": [
+   "A bondade de Deus.",
+   "A força do próprio povo.",
+   "O medo do castigo."
+  ],
+  "certa": 0,
+  "explicacao": "O texto termina pedindo que Deus se levante para socorrer \"por tua bondade\", destacando a graça divina como a única razão esperada para o resgate, e não o mérito humano."
+ },
+ "refs": [
+  "Salmos 22:1",
+  "Lamentações 3:55-57",
+  "Isaías 53:4"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-04T16:05:54.113Z",
+  "rounds": 2
+ }
+}

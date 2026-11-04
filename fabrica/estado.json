@@ -3362,15 +3362,21 @@
   },
   "19-44-18-26": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:entender:19-44-1-9, abertura_repetida:ore:19-44-10-17",
+   "estado": "pronto",
+   "titulo": "O grito honesto de quem não se esquece de Deus"
   },
   "19-45-1-9": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: viver:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "O Rei que foi ungido com alegria"
   },
   "19-45-10-17": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:entender:19-33-1-11",
+   "estado": "pronto",
+   "titulo": "A troca de identidade que o Rei propõe"
   },
   "19-46-1-11": {
    "execucoes": 0,
@@ -3399,28 +3405,40 @@
   "19-50-13-23": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-51-1-10": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-51-11-19": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-52-1-9": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 1070,
-   "entrada": 2807862,
-   "saida": 940937
+   "chamadas": 1076,
+   "entrada": 2823609,
+   "saida": 947028
   },
   "groq-qwen": {
-   "chamadas": 1064,
-   "entrada": 2678930,
-   "saida": 866839
+   "chamadas": 1071,
+   "entrada": 2695665,
+   "saida": 872469
   },
   "gemini": {
-   "chamadas": 901,
-   "entrada": 2912707,
-   "saida": 1124652
+   "chamadas": 905,
+   "entrada": 2925185,
+   "saida": 1130336
   },
   "cloudflare": {
-   "chamadas": 571,
-   "entrada": 1985604,
-   "saida": 211841
+   "chamadas": 574,
+   "entrada": 1995490,
+   "saida": 212954
   },
   "mistral": {
    "chamadas": 0,
