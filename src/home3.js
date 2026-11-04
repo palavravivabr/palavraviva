@@ -1,6 +1,6 @@
 /* Lote B3: nova organização da tela inicial, em arquivo próprio (não mexe no app.js).
    - Palavra do Dia vira um slide do carrossel (o cartão antigo fica oculto; o app continua preenchendo-o e a abertura da mensagem é a mesma);
-   - área "Estudos bíblicos" com capas temáticas desenhadas por código (funcionam sem internet) e "Ver todos";
+   - área "Estudos bíblicos" com capas: foto do mapa assets/capas-map.json quando o estudo tem uma; senão, capa desenhada por código (funciona sem internet) e "Ver todos";
    - botão de menu do topo abre um painel completo (a aba Menu da navegação inferior continua como estava). */
 (function (root, factory) {
   if (typeof module === 'object' && module.exports) module.exports = factory();
@@ -12,6 +12,11 @@
   var TEMAS = [['fe', 'Fé'], ['esperanca', 'Esperança'], ['paz', 'Paz'], ['oracao', 'Oração'], ['perdao', 'Perdão'], ['coragem', 'Coragem']];
   function normTema(t) { return String(t || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim(); }
   function livroDe(ref) { return String(ref || '').replace(/\s+\d+.*$/, '').trim(); }
+  /* foto da capa de um estudo, a partir do mapa {idDoEstudo: "NN"}; sem entrada válida, null (fica a capa desenhada) */
+  function capaFoto(mapa, id) {
+    var n = mapa && Object.prototype.hasOwnProperty.call(mapa, id) ? mapa[id] : null;
+    return (typeof n === 'string' && /^\d{2}$/.test(n)) ? 'assets/capas/' + n + '.jpg' : null;
+  }
   /* três estudos por dia: temas em rodízio; sem estudo para o tema, usa capa neutra com o nome do livro */
   function escolherEstudos(ps, dia, n) {
     ps = Array.isArray(ps) ? ps.filter(function (p) { return p && p.id && p.ref; }) : []; n = n || 3;
@@ -144,11 +149,18 @@
     hd.appendChild(h2); hd.appendChild(ver); var row = el('div', 'estrow'); sec.appendChild(hd); sec.appendChild(row);
     var big = $('#bigRead'); if (big && big.parentNode) big.parentNode.insertBefore(sec, big);
     var dia = Math.floor(Date.now() / 864e5);
-    fetch('content-manifest.json').then(function (r) { return r.ok ? r.json() : null; }).then(function (m) {
+    /* o mapa de fotos é opcional: se faltar (offline sem cache, erro), tudo continua com as capas desenhadas */
+    var lerMapa = fetch('assets/capas-map.json').then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; });
+    Promise.all([fetch('content-manifest.json').then(function (r) { return r.ok ? r.json() : null; }), lerMapa]).then(function (res) {
+      var m = res[0], mapa = res[1];
       var es = escolherEstudos(m && m.passages, dia, 3); if (!es.length) return;
       es.forEach(function (e) {
         var c = el('button', 'estc'); c.type = 'button'; c.setAttribute('aria-label', 'Abrir estudo: ' + e.titulo + ' (' + e.ref + ')');
-        var cv = el('span', 'cv'); cv.style.backgroundImage = 'url("' + capaSvg(e.chave, e.rotulo) + '")'; cv.appendChild(el('b', null, e.rotulo));
+        var foto = capaFoto(mapa, e.id);
+        var cv = el('span', 'cv');
+        /* com foto, o rótulo vira o nome do livro (a foto vem do tema real do estudo, não do tema do rodízio); a capa desenhada fica como reserva por baixo */
+        cv.style.backgroundImage = (foto ? 'url("' + foto + '"),' : '') + 'url("' + capaSvg(e.chave, e.rotulo) + '")';
+        cv.appendChild(el('b', null, foto ? livroDe(e.ref) : e.rotulo));
         c.appendChild(cv); c.appendChild(el('small', null, e.titulo));
         c.addEventListener('click', function () { nav({ v: 'study', id: e.id }); }); row.appendChild(c);
       });
@@ -209,5 +221,5 @@
     }, true);
   }
 
-  return { normTema: normTema, livroDe: livroDe, escolherEstudos: escolherEstudos, capaSvg: capaSvg, TEMAS: TEMAS };
+  return { normTema: normTema, livroDe: livroDe, escolherEstudos: escolherEstudos, capaSvg: capaSvg, capaFoto: capaFoto, TEMAS: TEMAS };
 });
