@@ -3392,7 +3392,9 @@
   },
   "19-48-1-14": {
    "execucoes": 1,
-   "ultimo": "automático: entender:menos_de_2_paragrafos, entender:citacao_fora_do_texto"
+   "ultimo": "automático: abertura_repetida:viver:41-9-41-50",
+   "estado": "pronto",
+   "titulo": "O trono que faz os reis fugirem"
   },
   "19-49-1-10": {
    "execucoes": 0,
@@ -3402,11 +3404,15 @@
   },
   "19-49-11-20": {
    "execucoes": 0,
-   "ultimo": "erro: gemini: 503 { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\", \"status\": \"UNAVAILABLE\" } } "
+   "ultimo": "automático: abertura_repetida:ore:19-18-1-10, abertura_repetida:viver:19-49-1-10",
+   "estado": "pronto",
+   "titulo": "A ilusão das casas perpétuas"
   },
   "19-50-1-12": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: quiz.explicacao:citacao_fora_do_texto, abertura_repetida:entender:19-5-1-12",
+   "estado": "pronto",
+   "titulo": "Deus não tem fome dos seus animais"
   },
   "19-50-13-23": {
    "execucoes": 0,
@@ -3414,7 +3420,9 @@
   },
   "19-51-1-10": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "O grito de Davi que nos ensina a pedir perdão"
   },
   "19-51-11-19": {
    "execucoes": 0,
@@ -3439,28 +3447,40 @@
   "19-55-13-23": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-56-1-13": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-57-1-11": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-58-1-11": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 1084,
-   "entrada": 2844309,
-   "saida": 954181
+   "chamadas": 1091,
+   "entrada": 2862977,
+   "saida": 960499
   },
   "groq-qwen": {
-   "chamadas": 1078,
-   "entrada": 2712570,
-   "saida": 878314
+   "chamadas": 1086,
+   "entrada": 2732850,
+   "saida": 885116
   },
   "gemini": {
-   "chamadas": 909,
-   "entrada": 2937471,
-   "saida": 1133752
+   "chamadas": 915,
+   "entrada": 2956298,
+   "saida": 1138950
   },
   "cloudflare": {
-   "chamadas": 577,
-   "entrada": 2005505,
-   "saida": 214067
+   "chamadas": 581,
+   "entrada": 2018969,
+   "saida": 215551
   },
   "mistral": {
    "chamadas": 0,

@@ -1,0 +1,153 @@
+{
+ "id": "19-48-1-14",
+ "ref": "Salmos 48:1-14",
+ "book": "19",
+ "chapter": 48,
+ "verses": [
+  {
+   "n": 1,
+   "t": "O SENHOR é grande e muito louvável, na cidade de nosso Deus, no monte de sua santidade."
+  },
+  {
+   "n": 2,
+   "t": "Belo de se ver e alegria de toda a terra é o monte de Sião, nas terras do norte; a cidade do grande Rei."
+  },
+  {
+   "n": 3,
+   "t": "Deus está em seus palácios, e é conhecido como alto refúgio."
+  },
+  {
+   "n": 4,
+   "t": "Porque eis que os reis se reuniram; eles juntamente passaram"
+  },
+  {
+   "n": 5,
+   "t": "Eles, quando a viram, ficaram maravilhados; assombraram-se, fugiram apressadamente."
+  },
+  {
+   "n": 6,
+   "t": "Ali o temor os tomou, e sentiram dores como as de parto."
+  },
+  {
+   "n": 7,
+   "t": "Com o vento do oriente tu quebras os navios de Társis."
+  },
+  {
+   "n": 8,
+   "t": "Assim como nós ouvimos, também vimos na cidade do SENHOR dos exércitos, na cidade do nosso Deus; Deus a firmará para sempre. (Selá)"
+  },
+  {
+   "n": 9,
+   "t": "Deus, nós reconhecemos tua bondade no meio de teu templo."
+  },
+  {
+   "n": 10,
+   "t": "Conforme o teu nome, ó Deus, assim é o louvor a ti, até os confins da terra; tua mão direita está cheia de justiça."
+  },
+  {
+   "n": 11,
+   "t": "Alegre-se o monte de Sião, fiquem contentes as filhas de Judá, por causa de teus juízos."
+  },
+  {
+   "n": 12,
+   "t": "Andai ao redor de Sião, e a circundai; contai suas torres."
+  },
+  {
+   "n": 13,
+   "t": "Ponde vosso coração em seus muros de defesa, prestai atenção em seus palácios, para que conteis deles à geração seguinte."
+  },
+  {
+   "n": 14,
+   "t": "Porque este Deus é nosso Deus para todo o sempre; ele nos acompanhará até a morte."
+  }
+ ],
+ "titulo": "O trono que faz os reis fugirem",
+ "temas": [
+  "soberania",
+  "refúgio",
+  "adoração",
+  "segurança"
+ ],
+ "pergunta": "O que realmente impressiona os poderosos do mundo quando confrontam a obra de Deus?",
+ "entender": "O salmista descreve Jerusalém, no monte Sião, não apenas como uma cidade bonita, mas como o trono de Deus. É um lugar onde o \"alto refúgio\" reside. A cena é dramática: reis de nações poderosas se reúnem para atacar, mas ao verem a presença de Deus ali, ficam maravilhados e assombrados. O medo toma conta deles, comparado às dores de parto, e eles fogem apressadamente.\n\nO texto destaca que a força da cidade não vem de suas muralhas físicas, mas de Deus, que a firmou para sempre. O salmista convida o povo a dar a volta ao redor de Sião, contar suas torres e prestar atenção aos muros, não por orgulho humano, mas para lembrar as gerações seguintes da fidelidade divina. A conclusão é que este Deus é nosso Deus para todo o sempre, nos acompanhando até a morte.",
+ "ligar": {
+  "texto": "Jesus é a verdadeira cidade de Deus. Na cruz, Ele venceu os poderes das trevas e a morte, estabelecendo Seu reino. Como o salmo diz que Deus é refúgio, Jesus é o único lugar seguro para nossas almas. Ele não depende de exércitos, mas de Sua justiça. Ao crermos nEle, tornamo-nos parte dessa cidade eterna, onde o temor ao inimigo é substituído pela paz de saber que o Rei dos reis nos protege.",
+  "selo": false
+ },
+ "viver": "Ao invés de focar nas ameaças externas que nos assustam, pratique a atitude de quem 'anda ao redor de Sião'. Identifique hoje um aspecto da sua vida onde você tem colocado sua segurança em coisas frágeis (dinheiro, status, opiniões) e transfira esse olhar para a fidelidade de Deus. Assim como o salmista instrui a contar as torres para a geração seguinte, compartilhe com alguém próximo um testemunho concreto de como Deus agiu em sua vida. Esse ato de lembrar e ensinar fortalece sua fé e edifica a comunidade, mostrando que a proteção divina é real e duradoura.",
+ "guarde": "Deus é o refúgio alto que faz os inimigos fugirem e nos acompanha até a morte.",
+ "ore": "Monte Sião, lugar de Tua santidade, reconheço que Tu és o Rei dos reis. Que o medo que assombra os inimigos seja substituído em mim pela paz de saber que Tu és meu refúgio alto. Ajuda-me a olhar para os muros da Tua proteção e confiar em Teus juízos justos.",
+ "quiz": {
+  "pergunta": "Por que os reis ficaram assombrados e fugiram, segundo o salmo?",
+  "opcoes": [
+   "Porque viram a presença de Deus na cidade",
+   "Porque as muralhas eram muito altas",
+   "Porque os navios de Társis foram destruídos"
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma que eles ficaram maravilhados e assombrados ao verem a cidade do grande Rei, onde Deus está, e não apenas por defesas físicas."
+ },
+ "refs": [
+  "Isaías 2:2-4",
+  "Salmos 46:1",
+  "Filipenses 3:20"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-04T22:01:08.901Z",
+  "rounds": 2
+ }
+}

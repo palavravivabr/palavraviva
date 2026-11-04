@@ -1,0 +1,145 @@
+{
+ "id": "19-50-1-12",
+ "ref": "Salmos 50:1-12",
+ "book": "19",
+ "chapter": 50,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Deus, o SENHOR Deus fala e chama a terra, desde onde o sol nasce até onde ele se põe."
+  },
+  {
+   "n": 2,
+   "t": "Desde Sião, a perfeição da beleza, Deus mostra seu imenso brilho."
+  },
+  {
+   "n": 3,
+   "t": "Nosso Deus virá, e não ficará calado; fogo queimará adiante dele, e ao redor dele haverá grande tormenta."
+  },
+  {
+   "n": 4,
+   "t": "Ele chamará aos céus do alto, e à terra, para julgar a seu povo."
+  },
+  {
+   "n": 5,
+   "t": "Ajuntai-me meus santos, que confirmam meu pacto por meio de sacrifício."
+  },
+  {
+   "n": 6,
+   "t": "E os céus anunciarão sua justiça, pois o próprio Deus é o juiz. (Selá)"
+  },
+  {
+   "n": 7,
+   "t": "Ouve, povo meu, e eu falarei; eu darei testemunho contra ti, Israel; eu sou Deus, o teu Deus."
+  },
+  {
+   "n": 8,
+   "t": "Eu não te repreenderei por causa de teus sacrifícios, porque teus holocaustos estão continuamente perante mim."
+  },
+  {
+   "n": 9,
+   "t": "Não tomarei bezerro de tua casa, nem bodes de teus currais;"
+  },
+  {
+   "n": 10,
+   "t": "Porque todo animal das matas é meu, e também os milhares de animais selvagens das montanhas."
+  },
+  {
+   "n": 11,
+   "t": "Conheço todas as aves das montanhas, e as feras do campo estão comigo."
+  },
+  {
+   "n": 12,
+   "t": "Se eu tivesse fome, não te diria, porque meu é o mundo, e tudo o que nele há."
+  }
+ ],
+ "titulo": "Deus não tem fome dos seus animais",
+ "temas": [
+  "soberania",
+  "adoração",
+  "juízo",
+  "pacto"
+ ],
+ "pergunta": "Por que Deus diz que não precisa dos sacrifícios que o povo oferecia?",
+ "entender": "Este salmo abre com uma cena de grande poder: Deus fala e chama a terra inteira, desde onde o sol nasce até onde ele se põe. Ele aparece vindo de Sião, com fogo e tormenta, para julgar seu povo. Não é um deus distante, mas o Juiz soberano que se faz presente. O texto deixa claro que os céus anunciarão a justiça de Deus, pois Ele é o juiz supremo.\n\nA parte central surpreende: Deus diz a Israel que não os repreenderá por causa dos sacrifícios. Ele explica que não tomará bezerros de sua casa nem bodes de seus currais, porque todo animal das matas e das montanhas já pertence a Ele. Conhece todas as aves e as feras do campo. A lógica é direta: se Ele tivesse fome, não diria, pois \"meu é o mundo, e tudo o que nele há\". A mensagem não é que os rituais eram inúteis, mas que Deus não depende das ofertas materiais de sua criação para ser satisfeito. Ele é o dono de tudo.",
+ "ligar": {
+  "texto": "Este salmo aponta para a insuficiência dos sacrifícios animais para satisfazer a justiça de Deus. Jesus veio para resolver isso. Ele não ofereceu animais, mas a si mesmo, o Filho único, como sacrifício perfeito e definitivo. Enquanto os animais pertenciam a Deus e não podiam remover o pecado, Jesus, sendo Deus e homem, ofereceu sua vida voluntariamente. O texto mostra que Deus não precisa de coisas, mas Jesus nos ensina que Ele deseja o coração e a obediência. A verdadeira adoração não é uma troca comercial, mas uma resposta de gratidão ao Criador que se deu por nós.",
+  "selo": false
+ },
+ "viver": "Muitas vezes, adoramos a Deus como se Ele precisasse do nosso esforço para nos amar ou nos abençoar. Este salmo nos libera dessa pressão. Deus já é dono de tudo; Ele não tem fome do que oferecemos. A adoração verdadeira não é uma transação para \"pagar\" por bênçãos, mas um reconhecimento de quem Ele é. Hoje, tente oferecer seu tempo e atenção a Deus não como um pagamento, mas como uma resposta de amor a um Pai que já provê tudo. Isso tira o peso da performance e traz paz ao coração.",
+ "guarde": "Deus é o dono de todo o mundo e não depende das suas ofertas materiais para ser satisfeito.",
+ "ore": "Pai, que chama a terra desde o nascer do sol, eu reconheço que Tu és o dono de todas as coisas. Ajuda-me a adorar a Ti não com ofertas que já Te pertencem, mas com um coração grato e entregue, pois só em Ti encontro minha verdadeira justiça e paz.",
+ "quiz": {
+  "pergunta": "Por que Deus afirma que não precisa dos sacrifícios de animais de Israel?",
+  "opcoes": [
+   "Porque Ele é o dono de todos os animais e de todo o mundo.",
+   "Porque Ele estava com raiva do povo.",
+   "Porque os animais eram impuros."
+  ],
+  "certa": 0,
+  "explicacao": "O texto afirma que Deus é o dono de todo o mundo e de tudo o que nele há, incluindo os animais. Portanto, Ele não tem fome nem necessidade das ofertas que já lhe pertencem."
+ },
+ "refs": [
+  "Hebreus 10:5",
+  "João 1:29",
+  "1 Pedro 1:18-19"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-04T22:04:01.329Z",
+  "rounds": 2
+ }
+}

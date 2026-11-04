@@ -1,0 +1,137 @@
+{
+ "id": "19-51-1-10",
+ "ref": "Salmos 51:1-10",
+ "book": "19",
+ "chapter": 51,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Tem misericórdia de mim, ó Deus, conforme a tua bondade; desfaz minhas transgressões conforme a abundância de tuas misericórdias."
+  },
+  {
+   "n": 2,
+   "t": "Lava-me bem de minha perversidade, e purifica-me de meu pecado."
+  },
+  {
+   "n": 3,
+   "t": "Porque eu reconheço minhas transgressões, e meu pecado está continuamente diante de mim."
+  },
+  {
+   "n": 4,
+   "t": "Contra ti, somente contra ti pequei, e fiz o mal segundo teus olhos; para que estejas justo no que dizeres, e puro no que julgares."
+  },
+  {
+   "n": 5,
+   "t": "Eis que em perversidade fui formado, e em pecado minha mãe me concebeu."
+  },
+  {
+   "n": 6,
+   "t": "Eis que tu te agradas da verdade interior, e no oculto tu me fazes conhecer sabedoria."
+  },
+  {
+   "n": 7,
+   "t": "Limpa-me do pecado com hissopo, e ficarei limpo; lava-me, e eu serei mais branco que a neve."
+  },
+  {
+   "n": 8,
+   "t": "Faça-me ouvir alegria e contentamento, e meus ossos, que tu quebraste, se alegrarão."
+  },
+  {
+   "n": 9,
+   "t": "Esconde tua face de meus pecados, e desfaz todas as minhas perversidades."
+  },
+  {
+   "n": 10,
+   "t": "Cria em mim um coração puro, ó Deus; e renova um espírito firme em meu interior."
+  }
+ ],
+ "titulo": "O grito de Davi que nos ensina a pedir perdão",
+ "temas": [
+  "arrependimento",
+  "misericórdia",
+  "limpeza",
+  "coração"
+ ],
+ "pergunta": "O que você faria se soubesse que Deus vê exatamente o que você esconde de si mesmo?",
+ "entender": "Este é um dos salmos mais conhecidos da Bíblia, escrito por Davi após o profeta Natã confrontá-lo por seu adultério com Bate-Seba e o assassinato de Urias. Davi não tenta justificar suas ações; ele se prostra diante de Deus e admite sua culpa. Ele pede: \"Tem misericórdia de mim, ó Deus, conforme a tua bondade\". Não é um pedido baseado em seus méritos, mas na natureza bondosa de Deus.\n\nDavi usa imagens fortes: lava, purifica, limpa. Ele reconhece que seu pecado o suja e o separa de Deus. Ao dizer \"contra ti, somente contra ti pequei\", ele admite que ferir Urias e trair sua esposa foi, antes de tudo, uma ofensa direta contra o Criador. Ele pede um \"coração puro\" e um \"espírito firme\", pois sabe que a mudança real vem de dentro, por meio da ação de Deus, e não apenas de regras externas.",
+ "ligar": {
+  "texto": "Este salmo prepara o coração para entender o que Jesus fez na cruz. Davi pede limpeza e um novo coração, algo que a Lei não podia fornecer. Jesus é a resposta a esse clamor: Ele viveu a vida perfeita que Davi não conseguiu, morreu para pagar a pena do pecado e ressuscitou para nos dar um novo coração. A misericórdia que Davi pediu é a mesma que nos é oferecida em Cristo, que nos purifica de todo pecado.",
+  "selo": false
+ },
+ "viver": "Davi não escondeu o tamanho de sua falha; ele a expôs à luz. Hoje, identifique uma área da sua vida onde você tem tentado minimizar um erro ou pecado. Em vez de justificar-se para si mesmo ou para os outros, traga isso a Deus em oração honesta. Peça a Ele que lave essa área e crie em você a disposição para agir com integridade. A verdadeira liberdade começa quando paramos de fingir que o problema não existe.",
+ "guarde": "Deus não se agrada de rituais vazios, mas de um coração quebrantado e sinceramente arrependido.",
+ "ore": "Pai, como Davi, eu confesso minhas transgressões. Lava-me de toda perversidade e cria em mim um coração puro. Ajuda-me a depender da tua misericórdia e não das minhas forças para viver em santidade.",
+ "quiz": {
+  "pergunta": "Por que Davi diz que pecou \"somente contra ti\" (v. 4)?",
+  "opcoes": [
+   "Para reconhecer que toda ofensa a Deus, mesmo quando fere outras pessoas, é primariamente uma ofensa ao Criador.",
+   "Para dizer que seus atos não afetaram outras pessoas.",
+   "Para transferir a culpa para Deus por tê-lo tentado."
+  ],
+  "certa": 0,
+  "explicacao": "Davi reconhece que, ao pecar contra Urias e Bate-Seba, ele desonrou a Deus. A frase destaca a soberania de Deus sobre todas as relações e a gravidade de pecar contra Ele."
+ },
+ "refs": [
+  "1 João 1:9",
+  "Isaías 1:18",
+  "Efésios 2:4-5"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-04T22:03:07.075Z",
+  "rounds": 1
+ }
+}
