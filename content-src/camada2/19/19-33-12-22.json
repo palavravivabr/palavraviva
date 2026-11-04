@@ -1,0 +1,141 @@
+{
+ "id": "19-33-12-22",
+ "ref": "Salmos 33:12-22",
+ "book": "19",
+ "chapter": 33,
+ "verses": [
+  {
+   "n": 12,
+   "t": "Bem-aventurada é a nação em que seu Deus é o SENHOR; o povo que ele escolheu para si por herança."
+  },
+  {
+   "n": 13,
+   "t": "O SENHOR olha desde os céus; ele vê a todos os filhos dos homens."
+  },
+  {
+   "n": 14,
+   "t": "Desde sua firme morada ele observa a todos os moradores da terra."
+  },
+  {
+   "n": 15,
+   "t": "Ele forma o coração de todos eles; ele avalia todas as obras deles."
+  },
+  {
+   "n": 16,
+   "t": "O rei não se salva pela grandeza de seu exército, nem o valente escapa do perigo pela sua muita força."
+  },
+  {
+   "n": 17,
+   "t": "O cavalo é falho como segurança, com sua grande força não livra do perigo."
+  },
+  {
+   "n": 18,
+   "t": "Eis que os olhos do SENHOR estão sobre aqueles que o temem, sobre os que esperam pela sua bondade."
+  },
+  {
+   "n": 19,
+   "t": "Para livrar a alma deles da morte, e para os manter vivos durante a fome."
+  },
+  {
+   "n": 20,
+   "t": "Nossa alma espera no SENHOR; ele é nossa socorro e nosso escudo."
+  },
+  {
+   "n": 21,
+   "t": "Porque nele nosso coração se alegra, porque confiamos no nome de sua santidade."
+  },
+  {
+   "n": 22,
+   "t": "Que tua bondade, SENOR, esteja sobre nós, assim como nós esperamos em ti."
+  }
+ ],
+ "titulo": "A segurança que vem do olhar de Deus",
+ "temas": [
+  "confiança",
+  "proteção",
+  "esperança"
+ ],
+ "pergunta": "Você já percebeu que a verdadeira segurança não vem da força humana, mas do olhar atento de Deus?",
+ "entender": "O salmo 33:12‑22 celebra a bênção de viver sob o cuidado do Senhor. Ele começa afirmando que \"Bem‑aventurada é a nação em que seu Deus é o SENHOR\" (v.12) e descreve como o Senhor observa tudo \"desde os céus\" (v.13‑14). Deus forma o coração das pessoas e avalia suas obras (v.15). O texto contrasta a confiança nas forças humanas – exércitos, cavalo, poder – com a realidade de que \"o rei não se salva pela grandeza de seu exército\" (v.16) e que o cavalo é \"falho como segurança\" (v.17). Em vez disso, o salmista destaca que \"os olhos do SENHOR estão sobre aqueles que o temem\" (v.18) e que Ele é o socorro e escudo dos que esperam nele (v.20‑21). O salmo termina pedindo que a bondade de Deus permaneça sobre o seu povo (v.22). O contexto maior do Salmo 33 louva a soberania de Deus sobre a criação e a história, mostrando que a confiança humana é inútil sem Ele.\n\nO salmo foi escrito em um tempo em que reinos confiavam em exércitos e fortificações para garantir sua segurança. O autor, possivelmente Davi, lembra ao povo que a verdadeira proteção vem da relação com o Deus que tudo vê e governa. Essa mensagem ainda fala ao leitor contemporâneo, que pode estar tentado a depositar confiança em riqueza, poder ou status, mas que encontra segurança duradoura ao colocar sua esperança no Senhor.",
+ "ligar": {
+  "texto": "Embora o salmo não mencione Jesus diretamente, ele aponta para a fonte da verdadeira segurança: Deus, que em Cristo se revelou como o nosso escudo (Efésios 6:16) e a esperança viva (1 Pedro 1:3). O fato de que \"os olhos do SENHOR estão sobre aqueles que o temem\" ecoa a promessa de que Cristo, como Filho de Deus, intercede por nós (Hebreus 7:25) e nos garante proteção eterna. Assim, confiar no Senhor hoje significa confiar naquele que, em Jesus, cumpriu a obra de nos salvar e nos deu acesso à presença segura de Deus.",
+  "selo": false
+ },
+ "viver": "Quando confiamos no Senhor como escudo, deixamos de buscar segurança nas coisas que podem falhar – como dinheiro, status ou força física – e aprendemos a descansar na fidelidade de Deus. Isso nos leva a viver com menos ansiedade diante das crises, sabendo que o \"olhar do SENHOR\" nos acompanha em cada passo. Essa confiança prática nos permite ajudar outros que ainda buscam segurança em soluções humanas, apontando-lhes para a paz que só Deus pode dar.\n\nAo enfrentar situações de medo ou incerteza, lembre‑se de que Deus forma o coração e avalia nossas obras. Peça‑lhe que lhe dê coragem para depender dele, e use essa confiança para ser um testemunho vivo da segurança que vem do Senhor.",
+ "guarde": "Os olhos de Deus estão sobre os que o temem; nele encontramos a verdadeira segurança.",
+ "ore": "Deus, que observas desde os céus, ajuda-me a confiar em Ti como meu escudo, abandonando a falsa segurança das minhas próprias forças.",
+ "quiz": {
+  "pergunta": "O que o salmo diz que não salva o rei?",
+  "opcoes": [
+   "A grandeza do exército",
+   "A bondade de Deus",
+   "A oração do povo"
+  ],
+  "certa": 0,
+  "explicacao": "O versículo 16 afirma que \"o rei não se salva pela grandeza de seu exército\", mostrando que a força humana não garante a salvação."
+ },
+ "refs": [
+  "Efésios 6:16",
+  "1 Pedro 1:3",
+  "Hebreus 7:25",
+  "Salmos 91:1-2"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-04T01:02:26.707Z",
+  "rounds": 1
+ }
+}

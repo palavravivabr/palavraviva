@@ -1,0 +1,142 @@
+{
+ "id": "19-34-12-22",
+ "ref": "Salmos 34:12-22",
+ "book": "19",
+ "chapter": 34,
+ "verses": [
+  {
+   "n": 12,
+   "t": "Quem é o homem que deseja vida, que ama viver por muitos dias, para ver o bem?"
+  },
+  {
+   "n": 13,
+   "t": "Guarda a tua língua do mal, e os teus lábios de falar falsidade."
+  },
+  {
+   "n": 14,
+   "t": "Desvia-te do mal, e faze o bem; busca a paz, e segue-a."
+  },
+  {
+   "n": 15,
+   "t": "Os olhos do SENHOR estão sobre os justos, e seus ouvidos atentos ao seu clamor."
+  },
+  {
+   "n": 16,
+   "t": "A face do SENHOR está contra aqueles que fazem o mal, para tirar da terra a memória deles."
+  },
+  {
+   "n": 17,
+   "t": "Os justos clamam, e o SENHOR os ouve. Ele os livra de todas as suas angústias."
+  },
+  {
+   "n": 18,
+   "t": "O SENHOR está perto daqueles que estão com o coração partido, e sava os aflitos de espírito."
+  },
+  {
+   "n": 19,
+   "t": "Muitas são as adversidades do justo, mas o SENHOR o livra de todas elas."
+  },
+  {
+   "n": 20,
+   "t": "Ele guarda todos os seus ossos; nenhum deles é quebrado."
+  },
+  {
+   "n": 21,
+   "t": "O mal matará o perverso, e os que odeiam o justo serão condenados."
+  },
+  {
+   "n": 22,
+   "t": "O SENHOR resgata a alma de seus servos, e todos os que nele confiam não receberão condenação."
+  }
+ ],
+ "titulo": "O poder silencioso das suas palavras",
+ "temas": [
+  "linguagem",
+  "justiça",
+  "proteção",
+  "oração",
+  "vidade"
+ ],
+ "pergunta": "Como o que você fala pode afetar sua vida e a de quem está ao seu lado?",
+ "entender": "Davi faz uma pergunta direta: quem deseja viver bem e por muitos dias? A resposta não é um ritual mágico, mas uma mudança de comportamento. Ele instrui a guardar a língua do mal e dos lábios da falsidade. Isso significa que a integridade começa no que dizemos. Não se trata apenas de não mentir, mas de evitar qualquer palavra que cause dano ou destruição. \n\nO texto continua dizendo que devemos nos desviar do mal e fazer o bem, buscando a paz. Há um contraste claro: os olhos do Senhor estão sobre os justos, enquanto sua face está contra os que fazem o mal. Mas a mensagem mais tocante é a proximidade de Deus com os que sofrem. Ele ouve o clamor dos justos e está perto dos de coração partido. Mesmo em meio a muitas adversidades, o Senhor livra e protege. A confiança nele garante que, no fim, não há condenação, mas resgate.",
+ "ligar": {
+  "texto": "Este salmo aponta para Jesus, que é a paz que devemos buscar. Ele viveu a integridade perfeita que Davi descreve: nunca falou falsidade e fez o bem até a morte na cruz. Quando Jesus disse que veio buscar e salvar o que estava perdido, Ele assumiu o papel de aquele que resgata a alma dos seus servos. A proteção mencionada no versículo 20, onde nenhum osso é quebrado, cumpriu-se literalmente em Jesus, mas também fala da segurança espiritual que temos Nele. Através dEle, o coração partido encontra consolo, pois Ele é o Deus que ouve o nosso clamor e nos livra das angústias.",
+  "selo": false
+ },
+ "viver": "Hoje, antes de responder a uma provocação ou a uma notícia ruim, pare e pergunte: isso é verdade? Isso faz o bem? Isso busca a paz? Se a resposta for não, escolha o silêncio ou a gentileza. A língua tem poder para destruir, mas também para edificar. Experimente passar um dia sendo intencional com suas palavras, evitando fofocas e julgamentos. Você verá como a atmosfera ao seu redor muda e como sua própria consciência fica mais leve, alinhada com o desejo de viver o bem que Davi menciona.",
+ "guarde": "Deus está perto dos que sofrem e ouve o clamor daqueles que confiam Nele.",
+ "ore": "Senhor, guarda minha língua do mal e dos meus lábios da falsidade. Ensina-me a desviar-me do mal e a fazer o bem. Quando meu coração estiver partido, lembra-me de que estás perto e ouves meu clamor. Ajuda-me a confiar em Ti em todas as adversidades, sabendo que me livras e resgatas minha alma.",
+ "quiz": {
+  "pergunta": "O que Davi diz que devemos fazer com a nossa língua?",
+  "opcoes": [
+   "Guardá-la do mal e da falsidade",
+   "Falar sempre com voz alta",
+   "Contar tudo aos amigos"
+  ],
+  "certa": 0,
+  "explicacao": "O versículo 13 instrui explicitamente a guardar a língua do mal e os lábios de falar falsidade, indicando a necessidade de integridade e cuidado nas palavras."
+ },
+ "refs": [
+  "Tiago 3:9-10",
+  "Provérbios 18:21",
+  "Mateus 5:9"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-04T01:11:37.623Z",
+  "rounds": 1
+ }
+}

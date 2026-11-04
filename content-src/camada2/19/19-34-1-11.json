@@ -1,0 +1,142 @@
+{
+ "id": "19-34-1-11",
+ "ref": "Salmos 34:1-11",
+ "book": "19",
+ "chapter": 34,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Louvarei ao SENHOR em todo tempo; haverá louvor a ele continuamente em minha boca."
+  },
+  {
+   "n": 2,
+   "t": "Minha alma se orgulhará no SENHOR; os humildes ouvirão, e se alegrarão."
+  },
+  {
+   "n": 3,
+   "t": "Engrandecei ao SENHOR comigo, e juntos exaltemos o seu nome."
+  },
+  {
+   "n": 4,
+   "t": "Busquei ao SENHOR. Ele me respondeu, e me livrou de todos os meus temores."
+  },
+  {
+   "n": 5,
+   "t": "Os que olham para ele ficam visivelmente alegres, e seus rostos não são envergonhados."
+  },
+  {
+   "n": 6,
+   "t": "Este miserável clamou, e o SENHOR ouviu; e ele o salvou de todas as suas angústias."
+  },
+  {
+   "n": 7,
+   "t": "O anjo do SENHOR fica ao redor daqueles que o temem, e os livra."
+  },
+  {
+   "n": 8,
+   "t": "Experimentai, e vede que o SENHOR é bom; bem-aventurado é o homem que confia nele."
+  },
+  {
+   "n": 9,
+   "t": "Temei ao SENHOR vós, os seus santos; porque nada falta para aqueles que o temem."
+  },
+  {
+   "n": 10,
+   "t": "Os filhos dos leões passam necessidades e têm fome; mas os que buscam ao SENHOR não têm falta de bem algum."
+  },
+  {
+   "n": 11,
+   "t": "Vinde, filhos, ouvi a mim; eu vos ensinarei o temor ao SENHOR."
+  }
+ ],
+ "titulo": "Como a busca ao Senhor transforma o medo",
+ "temas": [
+  "confiança",
+  "louvor",
+  "temor",
+  "libertação"
+ ],
+ "pergunta": "Você já percebeu que buscar a Deus muda a forma como o medo age em sua vida?",
+ "entender": "O salmista inicia declarando que louvará ao Senhor em todo tempo (v.1) e que sua alma se orgulha no Senhor, trazendo alegria aos humildes (v.2). Ele relata que, ao buscar a Deus, recebeu resposta e foi livrado de todos os temores (v.4). O texto mostra que quem confia no Senhor tem o rosto alegre e não se envergonha (v.5) e que o anjo do Senhor protege aqueles que o temem (v.7). Mais adiante, o salmista convida a experimentar a bondade de Deus, dizendo que o homem que confia nele é bem‑aventurado (v.8‑9) e que quem busca ao Senhor não tem falta de bem algum (v.10). O capítulo termina com um convite para ensinar o temor ao Senhor (v.11). O salmo foi escrito após Davi ser libertado de perigo, celebrando a fidelidade divina e incentivando a comunidade a adotar uma postura de louvor e confiança constante.\n\nNo contexto do Antigo Testamento, o medo era natural diante de inimigos e crises. Davi, lembrando da sua própria experiência de ser salvo, usa o louvor como resposta de gratidão e como meio de fortalecer a fé dos ouvintes. Assim, o salmo combina testemunho pessoal, convite coletivo e a certeza de que Deus cuida daqueles que o temem.",
+ "ligar": {
+  "texto": "Embora o salmo não mencione Jesus, ele revela o princípio do evangelho: a confiança que liberta do medo. Cristo é a realização definitiva dessa confiança, pois Ele veio para nos dar paz e segurança que o medo não pode alcançar. A promessa de que quem busca ao Senhor não tem falta de bem algum aponta para a provisão plena que encontramos em Cristo, que satisfaz todas as necessidades humanas.",
+  "selo": false
+ },
+ "viver": "O salmista nos mostra que buscar a Deus traz alegria visível e livra do medo. Hoje, ao enfrentar uma situação que gera ansiedade, reserve um momento para buscar a Deus em oração simples, pedindo que Ele lhe dê coragem. Ao fazer isso, lembre‑se de que \"Os que buscam ao SENHOR não têm falta de bem algum\" (Salmos 34:10) e experimente a paz que nasce da confiança. Também procure viver de modo que seu coração reflita reverência, evitando atitudes que alimentem o medo e buscando apoio na comunidade de fé quando precisar de encorajamento.",
+ "guarde": "Buscar ao Senhor traz alegria que o medo não pode roubar.",
+ "ore": "Salmo 34, eu clamo: Senhor, ajuda‑me a louvar‑te continuamente e a confiar que me livrarás de toda angústia.",
+ "quiz": {
+  "pergunta": "Qual promessa o salmista faz a quem busca ao Senhor?",
+  "opcoes": [
+   "Serão sempre ricos",
+   "Não terão falta de bem algum",
+   "Nunca sentirão tristeza"
+  ],
+  "certa": 1,
+  "explicacao": "O versículo 10 declara que quem busca ao Senhor não tem falta de bem algum, indicando provisão e segurança."
+ },
+ "refs": [
+  "Mateus 6:33",
+  "Filipenses 4:6-7",
+  "Hebreus 13:5",
+  "Salmos 91:11-12"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-04T01:08:03.309Z",
+  "rounds": 3
+ }
+}
