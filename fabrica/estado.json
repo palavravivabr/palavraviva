@@ -3301,24 +3301,32 @@
    "titulo": "A árvore que parece forte mas seca"
   },
   "19-38-1-11": {
-   "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "execucoes": 1,
+   "ultimo": "automático: abertura_repetida:entender:19-35-1-9"
   },
   "19-38-12-22": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: ligar:citacao_fora_do_texto",
+   "estado": "pronto",
+   "titulo": "Quando a dor parece esmagar, onde está a esperança?"
   },
   "19-39-1-13": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: OVERINTERPRETATION: O texto afirma que a traça destrói o que agrada a Deus, mas o versículo 11 diz que Deus desfaz o que agrada ao homem (o que lhe agrada).",
+   "estado": "pronto",
+   "titulo": "A fragilidade que nos faz depender de Deus"
   },
   "19-40-1-9": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "Quando a esperança vira canção nova"
   },
   "19-40-10-17": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:ore:19-39-1-13",
+   "estado": "pronto",
+   "titulo": "Quando o peso do pecado parece insuportável"
   },
   "19-41-1-13": {
    "execucoes": 0,
@@ -3339,28 +3347,48 @@
   "19-44-10-17": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-44-18-26": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-45-1-9": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-45-10-17": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-46-1-11": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-47-1-9": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 1046,
-   "entrada": 2746877,
-   "saida": 919930
+   "chamadas": 1055,
+   "entrada": 2770587,
+   "saida": 927696
   },
   "groq-qwen": {
-   "chamadas": 1042,
-   "entrada": 2621997,
-   "saida": 848317
+   "chamadas": 1049,
+   "entrada": 2640461,
+   "saida": 854499
   },
   "gemini": {
-   "chamadas": 885,
-   "entrada": 2863039,
-   "saida": 1101743
+   "chamadas": 890,
+   "entrada": 2879109,
+   "saida": 1103956
   },
   "cloudflare": {
-   "chamadas": 561,
-   "entrada": 1952131,
-   "saida": 208131
+   "chamadas": 565,
+   "entrada": 1966048,
+   "saida": 209615
   },
   "mistral": {
    "chamadas": 0,
