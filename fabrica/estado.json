@@ -3302,7 +3302,7 @@
   },
   "19-38-1-11": {
    "execucoes": 1,
-   "ultimo": "automático: abertura_repetida:entender:19-35-1-9"
+   "ultimo": "erro: gemini: 503 { \"error\": { \"code\": 503, \"message\": \"This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.\", \"status\": \"UNAVAILABLE\" } } "
   },
   "19-38-12-22": {
    "execucoes": 0,
@@ -3334,7 +3334,9 @@
   },
   "19-42-1-11": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:citacao_longa",
+   "estado": "pronto",
+   "titulo": "A sede da alma e a esperança na seca"
   },
   "19-43-1-5": {
    "execucoes": 0,
@@ -3342,7 +3344,9 @@
   },
   "19-44-1-9": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:citacao_longa, abertura_repetida:viver:19-7-10-17",
+   "estado": "pronto",
+   "titulo": "Quem realmente venceu as nações?"
   },
   "19-44-10-17": {
    "execucoes": 0,
@@ -3367,28 +3371,36 @@
   "19-47-1-9": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-48-1-14": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-49-1-10": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 1055,
-   "entrada": 2770587,
-   "saida": 927696
+   "chamadas": 1062,
+   "entrada": 2787585,
+   "saida": 934193
   },
   "groq-qwen": {
-   "chamadas": 1049,
-   "entrada": 2640461,
-   "saida": 854499
+   "chamadas": 1056,
+   "entrada": 2658501,
+   "saida": 860758
   },
   "gemini": {
-   "chamadas": 890,
-   "entrada": 2879109,
-   "saida": 1103956
+   "chamadas": 896,
+   "entrada": 2897895,
+   "saida": 1116480
   },
   "cloudflare": {
-   "chamadas": 565,
-   "entrada": 1966048,
-   "saida": 209615
+   "chamadas": 567,
+   "entrada": 1972749,
+   "saida": 210357
   },
   "mistral": {
    "chamadas": 0,
