@@ -1,0 +1,141 @@
+{
+ "id": "19-46-1-11",
+ "ref": "Salmos 46:1-11",
+ "book": "19",
+ "chapter": 46,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Deus é nosso refúgio e força; socorro oportuno nas angústias."
+  },
+  {
+   "n": 2,
+   "t": "Por isso não temeremos, ainda que a terra se mova, e ainda que as montanhas passem ao interior dos mares;"
+  },
+  {
+   "n": 3,
+   "t": "Ainda que suas águas rujam e se perturbem, e as montanhas tremam por sua braveza. (Selá)"
+  },
+  {
+   "n": 4,
+   "t": "Há um rio cujos ribeiros alegram a cidade de Deus, o santuário das habitações do Altíssimo."
+  },
+  {
+   "n": 5,
+   "t": "Deus está no meio dela; ela não será abalada; Deus a ajudará ao romper da manhã."
+  },
+  {
+   "n": 6,
+   "t": "As nações gritarão, os reinos se abalarão; quando ele levantou a sua voz, a terra se dissolveu."
+  },
+  {
+   "n": 7,
+   "t": "O SENHOR dos exércitos está conosco; o Deus de Jacó é nosso alto refúgio. (Selá)"
+  },
+  {
+   "n": 8,
+   "t": "Vinde, observai os feitos do SENHOR, que faz assolações na terra;"
+  },
+  {
+   "n": 9,
+   "t": "Que termina as guerras até o fim da terra; ele quebra o arco e corta a lança; ele queima os carros com fogo."
+  },
+  {
+   "n": 10,
+   "t": "Ficai quietos, e sabei que eu sou Deus; eu serei exaltado entre as nações; serei exaltado sobre a terra."
+  },
+  {
+   "n": 11,
+   "t": "O SENHOR dos exércitos está conosco; o Deus de Jacó é nosso alto refúgio. (Selá)"
+  }
+ ],
+ "titulo": "Quando a terra treme, onde está a nossa paz?",
+ "temas": [
+  "refúgio",
+  "confiança",
+  "paz"
+ ],
+ "pergunta": "Em meio ao caos da natureza, o que nos impede de temer?",
+ "entender": "O salmista declara que \"Deus é nosso refúgio e força; socorro oportuno nas angústias\" (Salmos 46.1). Ele descreve situações extremas – a terra que se move, montanhas que caem no mar, águas que rugem – mas afirma que não precisamos temer porque o Senhor está presente. No versículo 5 lemos que \"Deus está no meio dela; ela não será abalada\", indicando que a presença divina mantém a cidade segura. O salmo repete a certeza de que \"O SENHOR dos exércitos está conosco\" (v.7 e 11), reforçando que o poder de Deus protege seu povo.\n\nO contexto é um cântico de confiança usado nas festas de peregrinação, quando o povo de Israel lembrava que o Templo era o centro da presença de Deus. Mesmo que as nações se agitem e os reinos tremam, a força de Deus permanece firme. O salmo termina com um convite à quietude: \"Ficai quietos, e sabei que eu sou Deus\" (v.10), chamando a confiança serena, não o medo.",
+ "ligar": {
+  "texto": "Embora o texto não mencione Jesus, ele aponta para o verdadeiro refúgio que o cristão encontra em Cristo. Jesus se apresenta como \"a nossa paz\" (João 14.27) e como aquele que, na sua presença, acalma toda tempestade (Marcos 4.39). Assim como o salmista declara que o Senhor está no meio da cidade e a protege, Jesus habita entre nós pelo Espírito, garantindo segurança mesmo quando tudo ao redor parece ruir. A confiança no Deus que livra das calamidades aponta para a salvação que só Ele oferece através de Cristo, que morreu para nos dar paz permanente.",
+  "selo": false
+ },
+ "viver": "Quando as notícias do mundo trazem medo – desastres naturais, crises ou conflitos – lembre‑se de que a segurança não depende das circunstâncias externas, mas da presença de Deus no seu coração. Reserve um tempo para silenciar o ruído ao seu redor, reconheça que o Senhor está contigo, e deixe essa certeza guiar suas decisões, seja ao enfrentar um problema no trabalho ou ao consolar alguém que está angustiado.",
+ "guarde": "Deus é o refúgio que permanece firme quando tudo treme ao nosso redor.",
+ "ore": "Deus, que estás no meio da minha vida, ajuda-me a permanecer quieto e confiante, mesmo quando as circunstâncias parecem desabar.",
+ "quiz": {
+  "pergunta": "Qual afirmação descreve corretamente o que o salmista promete ao povo?",
+  "opcoes": [
+   "Os inimigos serão destruídos imediatamente.",
+   "A terra nunca se moverá novamente.",
+   "Deus está no meio da cidade e ela não será abalada."
+  ],
+  "certa": 2,
+  "explicacao": "O versículo 5 diz que Deus está no meio da cidade e que ela não será abalada, mostrando a proteção divina, enquanto não há promessa de cessar totalmente os terremotos ou de eliminação instantânea dos inimigos."
+ },
+ "refs": [
+  "Isaías 26:4",
+  "Mateus 11:28-30",
+  "Filipenses 4:6-7",
+  "Salmos 91:2"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-04T19:08:02.076Z",
+  "rounds": 1
+ }
+}

@@ -1,0 +1,139 @@
+{
+ "id": "19-49-1-10",
+ "ref": "Salmos 49:1-10",
+ "book": "19",
+ "chapter": 49,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Ouvi isto, vós todos os povos; dai ouvidos, todos os moradores do mundo;"
+  },
+  {
+   "n": 2,
+   "t": "vós, povo, filhos dos homens, tanto os ricos como os pobres."
+  },
+  {
+   "n": 3,
+   "t": "Minha boca falará da sabedoria; e o pensamento do meu coração estará cheio de entendimento."
+  },
+  {
+   "n": 4,
+   "t": "Inclinarei meus ouvidos a uma parábola; ao som da harpa declararei o meu enigma."
+  },
+  {
+   "n": 5,
+   "t": "Por que temeria eu nos dias do mal, quando a maldade dos meus adversários me cercar?"
+  },
+  {
+   "n": 6,
+   "t": "Eles confiam em seus bens, e se orgulham da abundância de suas riquezas."
+  },
+  {
+   "n": 7,
+   "t": "Mas ninguém pode livrar o seu irmão, nem pagar a Deus o seu resgate,"
+  },
+  {
+   "n": 8,
+   "t": "porque a redenção da sua alma é caríssima, e sempre será insuficiente"
+  },
+  {
+   "n": 9,
+   "t": "para viver eternamente, e jamais ver a cova."
+  },
+  {
+   "n": 10,
+   "t": "Pois se vê que os sábios morrem, que o tolo e o bruto igualmente perecem; e deixam suas riquezas a outros."
+  }
+ ],
+ "titulo": "Por que o dinheiro não compra a eternidade",
+ "temas": [
+  "riqueza",
+  "morte",
+  "resgate",
+  "humildade",
+  "eternidade"
+ ],
+ "pergunta": "Se você tivesse que pagar hoje por uma vida eterna, qual seria o valor justo?",
+ "entender": "O salmista chama a atenção de todos, ricos e pobres, para uma verdade dura: a morte não escolhe status social. Ele observa que as pessoas confiam em seus bens e se orgulham da abundância ilimitada, mas isso não serve para escapar do destino final. O texto é direto ao afirmar que ninguém pode pagar a Deus o preço necessário para livrar a alma de outra pessoa.\n\nA expressão \"a redenção da sua alma é caríssima\" indica que o valor é inatingível por qualquer esforço humano. Não importa quanta riqueza alguém acumule; no momento da morte, os sábios e os tolos perecem igualmente, deixando suas posses para outros. A mensagem não é contra a prosperidade, mas contra a ilusão de que o dinheiro garante segurança eterna ou imortalidade. A cova, símbolo da morte, continua sendo o destino de todos, independentemente do patrimônio.\n\nEste salmo serve como um alerta contra a vaidade. Ele nos convida a olhar para além das aparências e reconhecer nossa limitação. A sabedoria verdadeira, aqui, é perceber que nossa vida não está nas nossas mãos, nem pode ser comprada com ouro. É um convite à humildade diante do mistério da existência e da soberania de Deus sobre a vida e a morte.",
+ "ligar": {
+  "texto": "Este salmo aponta para a necessidade de um resgate que o homem não pode pagar. No evangelho, Jesus é apresentado como o Cordeiro que deu sua vida como pagamento pela nossa dívida. Enquanto o salmo diz que a redenção é \"caríssima\" e insuficiente para nós, a cruz de Cristo mostra que Deus mesmo pagou esse preço. Jesus, sendo rico, tornou-se pobre para que nós fôssemos enriquecidos espiritualmente (2 Coríntios 8.9). Ele é o único que pode vencer a morte e oferecer vida eterna, não por mérito nosso, mas por graça. A confiança que o salmo critica nas riquezas substitui-se pela confiança no sacrifício de Cristo.",
+  "selo": false
+ },
+ "viver": "Pense em algo material que você valoriza muito hoje: seu carro, sua casa ou seu saldo bancário. O salmo nos lembra que nada disso nos acompanha além da tumba. Em vez de ansiedade por acumular, experimente a paz de saber que sua segurança não depende do que você tem, mas de quem você serve. Hoje, faça uma oração agradecendo a Deus pela provisão, mas entregue a Ele o controle do seu futuro. Pergunte-se: se eu perdesse tudo amanhã, em quem eu ainda confiaria? Essa reflexão ajuda a arrancar as raízes da ganância e a plantar a fé em Cristo, que é a única herança que permanece.",
+ "guarde": "Nossa riqueza não pode comprar a eternidade; só a graça de Deus pode.",
+ "ore": "Deus, ao ler que a redenção da alma é caríssima, eu reconheço minha incapacidade de me salvar. Ajuda-me a não confiar em meus bens, mas em Jesus, que pagou o preço na cruz. Ensina-me a usar o que tenho com generosidade e a confiar no Teu cuidado, não no meu patrimônio. Amém.",
+ "quiz": {
+  "pergunta": "O que o salmo 49:7-8 declara sobre a capacidade humana de livrar a alma?",
+  "opcoes": [
+   "Os sábios conseguem escapar da morte.",
+   "Muito dinheiro pode comprar a vida eterna.",
+   "Ninguém pode pagar o resgate, pois o preço é caríssimo."
+  ],
+  "certa": 2,
+  "explicacao": "O texto afirma explicitamente que ninguém pode pagar a Deus o resgate porque o preço é caríssimo e sempre insuficiente para viver eternamente."
+ },
+ "refs": [
+  "Mateus 16:26",
+  "Provérbios 11:4",
+  "2 Coríntios 8:9",
+  "Hebreus 9:27"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-04T19:07:26.552Z",
+  "rounds": 1
+ }
+}
