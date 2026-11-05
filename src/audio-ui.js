@@ -17,7 +17,7 @@
   var NOMES = { dora: 'Dora', faber: 'Faber', celular: 'Voz do celular' };
   function vozPref() {
     var v = ls(K_VOZ, '');
-    if (!v) { var o = ls('pv4-rv', null); v = o === null ? 'faber' : (o === '' ? 'celular' : o); } /* migra a escolha antiga */
+    if (!v) { var o = ls('pv4-rv', null); v = o === null ? 'dora' : (o === '' ? 'celular' : o); } /* migra a escolha antiga */
     return v;
   }
   function velAtual() { var v = parseFloat(ls(K_VEL, '1')); return VELS.indexOf(v) >= 0 ? v : 1; }
@@ -102,7 +102,7 @@
       var tem = id === 'celular' ? celularOk() : todas.indexOf(id) >= 0;
       var o0 = h('option', { value: id, text: NOMES[id] + (tem ? '' : ' (em breve)') }); if (!tem && id !== pref) o0.disabled = true; r.voz.appendChild(o0);
     });
-    r.voz.value = pref; if (r.voz.value !== pref) r.voz.value = 'faber';
+    r.voz.value = pref; if (r.voz.value !== pref) r.voz.value = 'dora';
     r.vel.replaceChildren(); VELS.forEach(function (v) { r.vel.appendChild(h('option', { value: String(v), text: v + 'x' })); }); r.vel.value = String(velAtual());
     var C = Clima(), e = C ? C.estado() : { on: false, vol: 20 };
     r.sw.setAttribute('aria-checked', String(e.on)); r.st.textContent = e.on ? 'Ligado' : 'Desligado';
