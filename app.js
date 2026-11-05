@@ -627,6 +627,8 @@
     var body = clear($('#ensBody')), ps = manifest.passages || [];
     if (!ps.length) { body.appendChild(h('p', { class: 'empty', text: 'Os primeiros ensinos ainda estão sendo preparados.' })); return; }
     body.appendChild(h('p', { class: 'lead', text: 'Cada ensino ajuda você a ler, entender, ver Cristo no texto e viver a Palavra. Toque para abrir.' }));
+    var H3 = window.PVHome3;
+    if (H3 && H3.grupoDe) return viewEnsinosGrade(body, ps, H3);
     var order = {}; catalog().forEach(function (b, i) { order[b.id] = i; });
     var by = {};
     ps.forEach(function (p) { (by[p.book] = by[p.book] || []).push(p); });
@@ -638,6 +640,36 @@
       grp.appendChild(list); body.appendChild(grp);
     });
   }
+
+  /* página Estudos em grade: filtros por grupo de livros e cartões com a foto do mapa (ou capa desenhada) */
+  function viewEnsinosGrade(body, ps, H3) {
+    var order = {}; catalog().forEach(function (b, i) { order[b.id] = i; });
+    var lista = ps.slice().sort(function (x, y) { return (order[x.book] - order[y.book]) || (x.chapter - y.chapter) || String(x.id).localeCompare(String(y.id), undefined, { numeric: true }); });
+    var presentes = H3.GRUPOS.filter(function (g) { return lista.some(function (p) { var q = H3.grupoDe(p.book); return q && q.id === g.id; }); });
+    var filtro = 'todos', mapa = null;
+    var chips = h('div', { class: 'ensfil', role: 'group', 'aria-label': 'Filtrar estudos por grupo de livros' });
+    var grid = h('div', { class: 'ensgrid' });
+    body.appendChild(chips); body.appendChild(grid);
+    var pinta = function () {
+      clear(chips); clear(grid);
+      [{ id: 'todos', nome: 'Todos' }].concat(presentes).forEach(function (g) {
+        chips.appendChild(h('button', { class: 'chip' + (filtro === g.id ? ' on' : ''), type: 'button', 'aria-pressed': filtro === g.id ? 'true' : 'false', text: g.nome, onclick: function () { filtro = g.id; pinta(); } }));
+      });
+      lista.filter(function (p) { if (filtro === 'todos') return true; var q = H3.grupoDe(p.book); return q && q.id === filtro; }).forEach(function (p) {
+        var bk = bookOf(p.book), nome = bk ? bk.name : livroNome(p.ref);
+        var foto = H3.capaFoto(mapa, p.id);
+        var cv = h('span', { class: 'cv' });
+        cv.style.backgroundImage = (foto ? 'url("' + foto + '"),' : '') + 'url("' + H3.capaSvg(null, nome) + '")';
+        cv.appendChild(h('b', { text: nome }));
+        var c = h('button', { class: 'estc', type: 'button', 'aria-label': 'Abrir estudo: ' + (p.titulo || p.ref) + ' (' + p.ref + ')', onclick: function () { go({ v: 'study', id: p.id }); } }, [cv, h('small', { text: p.titulo || p.ref })]);
+        grid.appendChild(c);
+      });
+    };
+    pinta();
+    /* o mapa de fotos é opcional: sem ele, ficam as capas desenhadas */
+    fetch('assets/capas-map.json').then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }).then(function (m) { mapa = m; pinta(); });
+  }
+  function livroNome(ref) { return String(ref || '').replace(/\s+\d+.*$/, '').trim(); }
 
   /* ---------- estudo em camadas ---------- */
   async function viewStudy(s) {
