@@ -111,7 +111,7 @@
       '.estc small{font-size:13px;line-height:1.3;font-weight:600;color:var(--text);overflow-wrap:anywhere}' +
       /* página Estudos: filtros por grupo de livros e cartões em grade */
       '.ensfil{display:flex;gap:8px;overflow-x:auto;padding:2px 0 14px;scrollbar-width:none}.ensfil::-webkit-scrollbar{display:none}' +
-      '.ensfil .chip{flex:0 0 auto;min-height:40px;padding:0 14px;border-radius:999px;border:0;background:var(--card);color:var(--text);font-weight:700;font-size:14px;box-shadow:var(--shadow)}' +
+      '.ensfil .chip{flex:0 0 auto;min-height:44px;padding:0 14px;border-radius:999px;border:0;background:var(--card);color:var(--text);font-weight:700;font-size:14px;box-shadow:var(--shadow)}' +
       '.ensfil .chip.on{background:var(--accent);color:#fff}' +
       '.ensgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}' +
       '.ensgrid .estc small{font-size:13px}' +
