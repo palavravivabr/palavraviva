@@ -1,0 +1,142 @@
+{
+ "id": "19-63-1-11",
+ "ref": "Salmos 63:1-11",
+ "book": "19",
+ "chapter": 63,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Deus, tu és meu Deus. Eu te busco ao amanhecer; minha alma tem sede de ti, minha carne muito te deseja, em terra seca, cansativa, sem águas."
+  },
+  {
+   "n": 2,
+   "t": "Para que eu te veja em teu santuário, para ver tua força e tua glória."
+  },
+  {
+   "n": 3,
+   "t": "Porque tua bondade é melhor que a vida; meus lábios te louvarão."
+  },
+  {
+   "n": 4,
+   "t": "Assim te bendirei em minha vida; por teu nome levantarei minhas mãos."
+  },
+  {
+   "n": 5,
+   "t": "Minha alma será saciada, como que de gorduras e muita comida; e minha boca te louvará com lábios alegres,"
+  },
+  {
+   "n": 6,
+   "t": "Quando eu me lembrar de ti em minha cama; nas vigílias da noite meus pensamentos estarão em ti."
+  },
+  {
+   "n": 7,
+   "t": "Porque tu tens sido meu socorro; e à sombra de tuas asas cantarei de alegria."
+  },
+  {
+   "n": 8,
+   "t": "Minha alma está apegada a ti; tua mão direita me sustenta."
+  },
+  {
+   "n": 9,
+   "t": "Porém aqueles que procuram assolar a minha alma irão para as profundezas da terra."
+  },
+  {
+   "n": 10,
+   "t": "Eles serão derrubados pela força da espada; serão repartidos entre raposas."
+  },
+  {
+   "n": 11,
+   "t": "Mas o Rei se alegrará em Deus; todo o que por ele jurar se alegrará, porque a boca dos mentirosos será tapada."
+  }
+ ],
+ "titulo": "A sede que só Deus pode saciar",
+ "temas": [
+  "busca",
+  "fé",
+  "confiança",
+  "adoração"
+ ],
+ "pergunta": "Você já sentiu que sua alma tem sede de algo que só Deus pode dar?",
+ "entender": "O salmista começa declarando sua intimidade com Deus: \"Deus, tu és meu Deus\" (Salmos 63.1). Ele procura a presença divina logo ao amanhecer, descrevendo a sua alma como sedenta e a carne como cansada em terra seca. Essa imagem mostra um desejo profundo por Deus, que vai além de necessidades físicas.\n\nEle fala da alegria de estar no santuário, de louvar a bondade de Deus que é \"melhor que a vida\" (63.3) e de levantar as mãos em adoração. Mesmo nas noites de vigília, seu pensamento permanece em Deus, e ele confia que a mão direita de Deus o sustenta (63.8). O salmo termina com a certeza de que os inimigos serão derrotados e que o Rei se alegrará em Deus (63.11). O contexto é o de um crente que, mesmo em meio a desertos espirituais e perseguições, encontra segurança e prazer na presença de Deus.",
+ "ligar": {
+  "texto": "Embora o salmo não mencione Jesus, ele revela um coração que busca a Deus com sede profunda, algo que o Novo Testamento descreve em Jesus, a fonte da água viva (João 4.13‑14). Assim como o salmista anseia por saciedade espiritual, Cristo oferece a satisfação plena que o mundo não pode dar. A confiança no \"sustento\" da mão direita de Deus aponta para o apoio que Jesus oferece aos que nele confiam, garantindo vida abundante e vitória sobre o mal.",
+  "selo": false
+ },
+ "viver": "Quando a rotina se torna cansativa e parece que a esperança está seca, lembre‑se da busca matinal do salmista. Reserve um momento ao despertar para buscar a presença de Deus, reconhecendo que a verdadeira saciedade vem dEle. Ao fazer isso, você encontrará força para enfrentar as dificuldades do dia, sabendo que a mão direita de Deus o sustenta e que, mesmo que os inimigos apareçam, Deus já tem a vitória garantida.",
+ "guarde": "Deus é a fonte que sacia a sede da nossa alma.",
+ "ore": "Deus, ao ouvir o clamor do meu coração ao amanhecer, conceda-me a sede de Ti que nunca se apaga e sustente-me com Tua mão direita.",
+ "quiz": {
+  "pergunta": "O que o salmista promete fazer quando lembra de Deus à noite?",
+  "opcoes": [
+   "Ele colocará seus pensamentos em Deus",
+   "Ele cantará louvores ao rei",
+   "Ele descansará sem pensar"
+  ],
+  "certa": 0,
+  "explicacao": "No versículo 6 o salmista diz que, nas vigílias da noite, seus pensamentos estarão em Deus, mostrando sua dependência contínua."
+ },
+ "refs": [
+  "João 4:13-14",
+  "Salmos 42:1-2",
+  "Filipenses 4:13",
+  "Hebreus 13:5"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.5-flash",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-05T13:13:34.456Z",
+  "rounds": 1
+ }
+}

@@ -3499,8 +3499,8 @@
    "titulo": "Gritando por socorro em meio ao colapso"
   },
   "19-61-1-8": {
-   "execucoes": 0,
-   "ultimo": "erro: gemini: rede: fetch failed"
+   "execucoes": 1,
+   "ultimo": "gemini: LANGUAGE_CLARITY: Há um erro de digitação na oração, onde foi escrito 'Roca alta' em vez de 'Rocha alta'."
   },
   "19-62-1-12": {
    "execucoes": 0,
@@ -3510,11 +3510,15 @@
   },
   "19-63-1-11": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "A sede que só Deus pode saciar"
   },
   "19-64-1-10": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: entender:menos_de_2_paragrafos, entender:citacao_fora_do_texto, abertura_repetida:entender:19-35-1-9",
+   "estado": "pronto",
+   "titulo": "Quando a língua vira arma contra você"
   },
   "19-65-1-13": {
    "execucoes": 0,
@@ -3522,7 +3526,9 @@
   },
   "19-66-1-10": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:viver:19-17-10-15",
+   "estado": "pronto",
+   "titulo": "O Deus que seca o mar e refina a alma"
   },
   "19-66-11-20": {
    "execucoes": 0,
@@ -3539,28 +3545,48 @@
   "19-68-13-23": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-68-24-35": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-69-1-12": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-69-13-24": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-69-25-36": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-70-1-5": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 1120,
-   "entrada": 2939208,
-   "saida": 985891
+   "chamadas": 1128,
+   "entrada": 2959920,
+   "saida": 992630
   },
   "groq-qwen": {
-   "chamadas": 1116,
-   "entrada": 2808725,
-   "saida": 909542
+   "chamadas": 1123,
+   "entrada": 2826769,
+   "saida": 915567
   },
   "gemini": {
-   "chamadas": 931,
-   "entrada": 3005842,
-   "saida": 1154123
+   "chamadas": 935,
+   "entrada": 3017861,
+   "saida": 1158965
   },
   "cloudflare": {
-   "chamadas": 595,
-   "entrada": 2065448,
-   "saida": 220745
+   "chamadas": 598,
+   "entrada": 2075258,
+   "saida": 221858
   },
   "mistral": {
    "chamadas": 0,

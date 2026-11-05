@@ -1,0 +1,138 @@
+{
+ "id": "19-66-1-10",
+ "ref": "Salmos 66:1-10",
+ "book": "19",
+ "chapter": 66,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Gritai de alegria a Deus toda a terra."
+  },
+  {
+   "n": 2,
+   "t": "Cantai a glória do nome dele; reconhecei a glória de seu louvor."
+  },
+  {
+   "n": 3,
+   "t": "Dizei a Deus: Tu és temível em tuas obras; pela grandeza de tua força os teus inimigos se sujeitarão a ti."
+  },
+  {
+   "n": 4,
+   "t": "Toda a terra te adorará, e cantará a ti; cantarão ao teu nome. (Selá)"
+  },
+  {
+   "n": 5,
+   "t": "Vinde, e vede os atos de Deus; a obra dele é temível aos filhos dos homens."
+  },
+  {
+   "n": 6,
+   "t": "Ele fez o mar ficar seco, passaram o rio a pé; ali nos alegramos nele."
+  },
+  {
+   "n": 7,
+   "t": "Ele governa com seu poder para sempre; seus olhos vigiam as nações; não se exaltem os rebeldes. (Selá)"
+  },
+  {
+   "n": 8,
+   "t": "Vós povos, bendizei a nosso Deus, e fazei ouvir a voz do louvor a ele,"
+  },
+  {
+   "n": 9,
+   "t": "Que conserva nossas almas em vida, e não permite que nossos pés se abalem."
+  },
+  {
+   "n": 10,
+   "t": "Porque tu, Deus, tem nos provado; tu nos refinas como se refina a prata."
+  }
+ ],
+ "titulo": "O Deus que seca o mar e refina a alma",
+ "temas": [
+  "adoração",
+  "sofrimento",
+  "poder",
+  "confiança",
+  "refino"
+ ],
+ "pergunta": "Como reagimos quando a vida parece um rio caudaloso que nos engole?",
+ "entender": "O Salmo 66 começa com um convite universal: \"Gritai de alegria a Deus toda a terra\". Não é uma sugestão opcional, mas uma resposta adequada à grandeza de quem governa a história. O salmista lembra que os inimigos de Deus se sujeitam ao seu poder e que as nações devem adorar aquele cujos olhos vigiam todas as situações.\n\nA passagem traz uma memória concreta: Deus fez o mar ficar seco para que o povo passasse a pé. Isso remete à travessia do Mar Vermelho, um ato de poder que gerou alegria. Mas o texto não para na vitória externa. Ele avança para a experiência íntima: Deus conserva nossas almas em vida e não deixa nossos pés se abalarem.\n\nO versículo 10 revela o propósito por trás das lutas: \"tu nos refinas como se refina a prata\". O fogo do crisol não destrói o metal, mas remove as impurezas. Assim, as provações não são castigos aleatórios, mas o trabalho de Deus para purificar nosso caráter e nos deixar prontos para o seu serviço.",
+ "ligar": {
+  "texto": "Jesus é a suprema demonstração desse poder e desse refino. Ele é o Deus que seca os mares da nossa confusão e a morte, permitindo que passemos para a vida eterna. No Getsêmani, Jesus foi refinado no fogo da angústia e da cruz, removendo o pecado do mundo. Ele nos convida a passar por essa mesma provação, não como condenados, mas como filhos amados, para que nosso caráter seja moldado à sua imagem.",
+  "selo": false
+ },
+ "viver": "Ao ler que Deus nos refina como a prata, pense em uma dificuldade atual que está removendo algo de você. Talvez seja a paciência, a confiança ou a autossuficiência. Em vez de ver essa dor como um erro, trate-a como o fogo do crisol. Assim como o metal fica mais puro quando as impurezas saem, sua fé fica mais firme quando você depende de Deus em vez de si mesmo. Não fuja do processo, mas permita que Ele molde seu caráter.",
+ "guarde": "Deus não nos quebra para nos destruir, mas nos refina como a prata para nos tornar mais brilhantes.",
+ "ore": "Deus que fez o mar ficar seco, eu Te peço que segures meus pés hoje. Refina meu coração no fogo das provações, removendo o que não Te agrada, para que eu possa adorar com confiança e alegria.",
+ "quiz": {
+  "pergunta": "Segundo o Salmo 66:10, qual é a comparação usada para descrever como Deus nos trata na provação?",
+  "opcoes": [
+   "Como se refina a prata",
+   "Como se lava a roupa",
+   "Como se corta a madeira"
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz explicitamente: 'tu nos refinas como se refina a prata'. Isso indica um processo de purificação através do fogo, removendo impurezas."
+ },
+ "refs": [
+  "Exodo 14:21-22",
+  "Isaías 48:10",
+  "1 Pedro 1:6-7"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-05T13:25:12.620Z",
+  "rounds": 2
+ }
+}
