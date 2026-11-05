@@ -1,0 +1,133 @@
+{
+ "id": "19-59-1-9",
+ "ref": "Salmos 59:1-9",
+ "book": "19",
+ "chapter": 59,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Livra-me de meus inimigos, ó Deus meu; protege-me dos que se levantam contra mim."
+  },
+  {
+   "n": 2,
+   "t": "Livra-me dos que praticam perversidade, e salva-me dos homens sanguinários;"
+  },
+  {
+   "n": 3,
+   "t": "Porque eis que eles põem ciladas à minha alma; fortes se juntam contra mim; ainda que eu não tenha cometido transgressão nem pecado, ó SENHOR."
+  },
+  {
+   "n": 4,
+   "t": "Eles correm sem eu ter culpa; desperta para me encontrar, e olha."
+  },
+  {
+   "n": 5,
+   "t": "Tu, SENHOR, Deus dos exércitos, Deus de Israel, desperta para julgar a todas estas nações; não tenhas misericórdia de nenhum dos enganadores que praticam perversidade. (Selá)"
+  },
+  {
+   "n": 6,
+   "t": "Eles voltam ao anoitecer, latem como cães, e rodeiam a cidade."
+  },
+  {
+   "n": 7,
+   "t": "Eis que vomitam com as bocas deles, seus lábios são como espadas; porque dizem : Quem ouve?"
+  },
+  {
+   "n": 8,
+   "t": "Porém tu, SENHOR, rirás deles; zombarás de todas as nações."
+  },
+  {
+   "n": 9,
+   "t": "Por causa de sua força, eu te aguardarei; porque Deus é o meu refúgio."
+  }
+ ],
+ "titulo": "Perseguido e inocente: onde Deus está?",
+ "temas": [
+  "perseguição",
+  "justiça",
+  "refúgio",
+  "espera"
+ ],
+ "pergunta": "O que você faz quando sofre injustiça e sente que ninguém vai te defender?",
+ "entender": "David escreve este salmo cercado por inimigos que o traem. Ele clama: \"Livra-me de meus inimigos, ó Deus meu\". O salmista afirma sua inocência diante de acusações falsas, pedindo que Deus julgue os \"enganadores que praticam perversidade\". A imagem é forte: os inimigos \"latem como cães\" e \"vomitam\" palavras contra ele. Não é uma oração de vingança pessoal, mas um apelo à justiça divina, confiando que o Senhor vê a verdade.\n\nO texto mostra que, mesmo em situações de opressão e falsidade, o crente pode entregar o julgamento a Deus. David não age por conta própria para destruir seus adversários; ele espera. No final, a esperança não está na derrota dos inimigos, mas em Deus: \"Por causa de sua força, eu te aguardarei; porque Deus é o meu refúgio\". O foco muda da ameaça externa para a segurança interna que vem do caráter de Deus.",
+ "ligar": {
+  "texto": "Jesus viveu a realidade deste salmo de forma suprema. Ele foi acusado falsamente, traído por amigos e cercado por inimigos que queriam sua morte. No Getsêmani, Ele orou confiando em Deus, assim como David faz aqui. Mas a diferença é que Jesus, sendo inocente, se ofereceu voluntariamente. Ele não apenas esperou por um livramento físico, mas aceitou a cruz para nos livrar do verdadeiro inimigo: o pecado e a morte. A nossa segurança não vem de escapar da dor, mas de saber que Cristo venceu a morte e é nosso refúgio eterno.",
+  "selo": false
+ },
+ "viver": "Identifique uma situação atual em que você se sente injustiçado ou atacado por palavras. Em vez de retribuir ou guardar mágoa, entregue essa situação em oração, pedindo a Deus que julgue e que proteja seu coração. Pratique a \"espera ativa\": confie que Deus é seu refúgio, mesmo que a resposta não seja imediata. Isso transforma a ansiedade em paz, pois você deixa de ser o juiz de si mesmo e passa a descansar na justiça de Deus.",
+ "guarde": "Deus é meu refúgio; por causa de Sua força, eu aguardo nEle, mesmo cercado.",
+ "ore": "Senhor, assim como David, eu clamo contra os que me perseguem com falsidade. Não quero vingança, mas justiça. Guarda minha alma das ciladas e das palavras amargas. Que eu descanse na Tua força, sabendo que Tu és meu refúgio e não me abandonarás. Amém.",
+ "quiz": {
+  "pergunta": "O que David declara ser sua atitude final diante dos inimigos no verso 9?",
+  "opcoes": [
+   "Fugir da cidade para se esconder",
+   "Vingar-se pessoalmente dos inimigos",
+   "Aguardar em Deus, que é seu refúgio"
+  ],
+  "certa": 2,
+  "explicacao": "O verso 9 termina com a decisão de esperar em Deus por causa de sua força, identificando-o como refúgio, e não com ação violenta ou fuga."
+ },
+ "refs": [
+  "Mateus 26:53-54",
+  "Salmos 35:1-4",
+  "1 Pedro 2:23"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-05T07:27:22.496Z",
+  "rounds": 1
+ }
+}

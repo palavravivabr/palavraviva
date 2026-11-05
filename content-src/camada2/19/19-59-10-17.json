@@ -1,0 +1,129 @@
+{
+ "id": "19-59-10-17",
+ "ref": "Salmos 59:10-17",
+ "book": "19",
+ "chapter": 59,
+ "verses": [
+  {
+   "n": 10,
+   "t": "O Deus que tem bondade para comigo me antecederá; Deus me fará ver o fim dos meus inimigos."
+  },
+  {
+   "n": 11,
+   "t": "Não os mates, para que meu povo não se esqueça; faze-os fugir de um lado para o outro pelo teu poder, e abate-os; ó Senhor, escudo nosso;"
+  },
+  {
+   "n": 12,
+   "t": "Por causa do pecado da boca deles e da palavra de seus lábios; e sejam presos em sua arrogância pelas maldições e pelas mentiras que contam."
+  },
+  {
+   "n": 13,
+   "t": "Destrói -os em tua ira; destrói -os para que nunca mais existam; para que saibam que Deus governa em Jacó até os limites da terra. (Selá)"
+  },
+  {
+   "n": 14,
+   "t": "Eles voltam ao anoitecer, latem como cães, e rodeiam a cidade."
+  },
+  {
+   "n": 15,
+   "t": "Andam de um lado para o outro por comida, e rosnam se não estiverem saciados."
+  },
+  {
+   "n": 16,
+   "t": "Mas eu cantarei sobre tua força; e pela manhã com alegria louvarei tua bondade; porque tu tens sido meu alto refúgio e abrigo no dia da minha angústia."
+  },
+  {
+   "n": 17,
+   "t": "Cantarei louvores a ti, que és minha força; porque Deus é o meu refúgio, ó Deus de bondade para comigo."
+  }
+ ],
+ "titulo": "Quando a maldade do inimigo vira louvor",
+ "temas": [
+  "confiança",
+  "justiça",
+  "adoração",
+  "refúgio"
+ ],
+ "pergunta": "Como podemos transformar a dor da perseguição em motivo de louvor a Deus?",
+ "entender": "Neste salmo, Davi está cercado por inimigos que falam mentiras e agem com arrogância. Ele pede a Deus que não mate seus oponentes, mas que os faça fugir e serem humilhados, pois a maldade deles é evidente. A imagem é forte: eles voltam à noite \"latem como cães\" e andam de um lado para o outro. Davi reconhece que a justiça final pertence a Deus, que governa em Jacó até os limites da terra.\n\nMesmo no meio dessa angústia, a resposta de Davi não é vingança, mas adoração. Ele declara que cantará sobre a força de Deus e louvará sua bondade pela manhã. Para Davi, Deus não é apenas um juiz que pune, mas um \"alto refúgio\" e \"abrigo\". A confiança no caráter de Deus transforma a noite escura da perseguição em um dia de alegria e gratidão. O foco muda do inimigo para o Salvador.",
+ "ligar": {
+  "texto": "Jesus é o verdadeiro refúgio que Davi antecipava. Assim como Davi se escondeu em Deus contra os falsos acusadores, Jesus se entregou injustamente para nos resgatar da condenação. Ele venceu o \"latido\" do mal e da morte, subindo ao trono e governando com justiça e amor. Em Cristo, temos a certeza de que a maldade não tem a última palavra. A salvação nos dá a segurança de que, mesmo quando o mundo parece hostil, estamos protegidos pela força daquele que venceu a morte e nos garante um abrigo eterno.",
+  "selo": false
+ },
+ "viver": "Quando a língua dos outros ferir, pare e lembre-se: a justiça não é sua responsabilidade. Davi deixou a punição nas mãos de Deus e escolheu cantar. Hoje, antes de reagir com raiva ou retaliação, pratique o silêncio e a oração. Em vez de focar nas \"mentiras\" que ouviu, foque na \"bondade\" que Deus demonstrou em sua vida. Essa troca de foco não apaga a dor, mas muda a atmosfera do seu coração, permitindo que a paz de Deus proteja sua mente no meio do conflito.",
+ "guarde": "A justiça pertence a Deus; a minha parte é confiar no refúgio e cantar pela manhã.",
+ "ore": "Deus que és meu alto refúgio, eu te entrego o controle sobre aqueles que me ferem. Guarda minha língua de maldições e meu coração de amargura. Ensina-me a confiar na tua justiça, mesmo quando ela parece demorar. Que minha vida seja uma canção de louvor à tua bondade, não apenas nos dias bons, mas também na angústia. Amém.",
+ "quiz": {
+  "pergunta": "O que Davi pede a Deus em relação aos seus inimigos no versículo 11?",
+  "opcoes": [
+   "Que os faça fugir e os abata, sem matá-los.",
+   "Que os cure e os transforme em amigos fiéis.",
+   "Que os mate imediatamente para que não se esqueçam."
+  ],
+  "certa": 0,
+  "explicacao": "O texto diz explicitamente: 'Não os mates... faze-os fugir... e abate-os'. Davi pede que Deus os humilhe e os afaste, mas não que os execute, deixando a justiça final nas mãos divinas."
+ },
+ "refs": [
+  "Salmos 23:1-4",
+  "Isaías 53:7",
+  "Mateus 5:44"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-05T07:29:51.501Z",
+  "rounds": 1
+ }
+}

@@ -1,0 +1,142 @@
+{
+ "id": "19-58-1-11",
+ "ref": "Salmos 58:1-11",
+ "book": "19",
+ "chapter": 58,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Congregação, por acaso falais verdadeiramente o que é justo? Vós, Filhos dos homens, julgais corretamente?"
+  },
+  {
+   "n": 2,
+   "t": "Na verdade vós praticais perversidades em vosso coração; sobre a terra pesais a violência de vossas mãos."
+  },
+  {
+   "n": 3,
+   "t": "Os perversos se desviam desde o ventre da mãe; afastam-se desde o ventre os mentirosos."
+  },
+  {
+   "n": 4,
+   "t": "O veneno deles é semelhante ao veneno de serpente; são como a cobra surda, que tapa seus ouvidos,"
+  },
+  {
+   "n": 5,
+   "t": "Para não ouvirem a voz dos encantadores, do encantador sábio em encantamentos."
+  },
+  {
+   "n": 6,
+   "t": "Deus, quebra os dentes deles em suas bocas; arranca os queixos dos filhos dos leões, SENHOR."
+  },
+  {
+   "n": 7,
+   "t": "Que eles escorram como águas, que vão embora; quando ele armar sua flecha, sejam eles cortados em pedaços."
+  },
+  {
+   "n": 8,
+   "t": "Como a lesma, que se desmancha, que assim saiam embora; como o aborto de mulher, assim também nunca vejam o sol."
+  },
+  {
+   "n": 9,
+   "t": "Antes que vossas panelas sintam os espinhos, tanto vivos, como aquecidos, ele os arrebatará furiosamente."
+  },
+  {
+   "n": 10,
+   "t": "O justo se alegrará ao ver a vingança; e lavará seus pés no sangue do perverso."
+  },
+  {
+   "n": 11,
+   "t": "Então o homem dirá: Certamente há recompensa para o justo; certamente há Deus, que julga na terra."
+  }
+ ],
+ "titulo": "Quando a justiça parece distante, onde encontrar esperança?",
+ "temas": [
+  "justiça",
+  "juízo",
+  "corrupção",
+  "esperança"
+ ],
+ "pergunta": "Você já viu a injustiça crescer e se perguntar onde está Deus?",
+ "entender": "O salmista dirige‑se à comunidade perguntando se realmente praticam o que é justo (v.1). Ele denuncia a perversidade que se enraíza no coração dos poderosos e a violência que espalham (v.2‑5). O texto descreve a ira de Deus contra os ímpios com imagens fortes: “O veneno deles é semelhante ao veneno de serpente” (v.4) e a quebra dos dentes e dos queixos (v.6). A justiça divina é mostrada como inevitável: o perverso será cortado, como “lesma que se desmancha” (v.8). No final, o salmista celebra que o justo se alegrará ao ver a vingança de Deus e reconhece que há recompensa para o reto (v.10‑11).\n\nEste salmo faz parte dos cantos de lamento e confiança, possivelmente escritos por Davi, que expressam frustração diante da corrupção e confiança na intervenção divina. O tom é de condenação ao pecado, mas também de esperança na justiça que Deus trará à terra.",
+ "ligar": {
+  "texto": "Embora o salmo não mencione Jesus diretamente, ele revela o caráter justo de Deus que condena o pecado. O evangelho mostra que Cristo cumpriu esse juízo ao morrer pelos pecadores, pagando a pena que o salmista descreve como “vingança”. Assim, a esperança do salmista de ver a justiça divina aponta para a necessidade de um Salvador que traz reconciliação, não apenas retribuição humana.",
+  "selo": false
+ },
+ "viver": "A imagem do veneno de serpente nos alerta para a toxicidade que pode infiltrar nossos relacionamentos e ambientes. Quando percebemos atitudes corruptas ao nosso redor – no trabalho, na família ou na comunidade – somos chamados a não fechar os ouvidos, mas a buscar a justiça de Deus. Isso pode significar denunciar o que é errado com coragem, apoiar os oprimidos e confiar que Deus, em Seu tempo, trará correção. Vivendo com integridade, refletimos a esperança do salmista de que o justo será vindicado.",
+ "guarde": "Deus julga a injustiça e recompensará o justo no tempo certo.",
+ "ore": "Salmo 58, Senhor, fortalece-me para permanecer firme diante da corrupção e para clamar por tua justiça que quebra o poder dos ímpios.",
+ "quiz": {
+  "pergunta": "O que o salmista descreve como a ação de Deus contra os ímpios?",
+  "opcoes": [
+   "Ele ignora a violência dos poderosos.",
+   "Ele oferece perdão imediato aos pecadores.",
+   "Ele quebra os dentes e arranca os queixos dos filhos dos leões."
+  ],
+  "certa": 2,
+  "explicacao": "Em v.6 o salmista diz que Deus \"quebra os dentes deles\" e \"arranca os queixos dos filhos dos leões\", mostrando o juízo divino sobre os ímpios."
+ },
+ "refs": [
+  "Isaías 61:8",
+  "Mateus 5:10",
+  "Romanos 12:19",
+  "Apocalipse 19:11-16"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-05T07:28:52.754Z",
+  "rounds": 2
+ }
+}
