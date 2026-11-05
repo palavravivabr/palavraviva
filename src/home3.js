@@ -10,6 +10,20 @@
 
   /* ---------- lógica pura (testada) ---------- */
   var TEMAS = [['fe', 'Fé'], ['esperanca', 'Esperança'], ['paz', 'Paz'], ['oracao', 'Oração'], ['perdao', 'Perdão'], ['coragem', 'Coragem']];
+  /* grupos de livros para os filtros da página Estudos (ids 1–66 do cânon, ordem bíblica) */
+  var GRUPOS = [
+    { id: 'lei', nome: 'Lei', ini: 1, fim: 5 },
+    { id: 'hist', nome: 'Históricos', ini: 6, fim: 17 },
+    { id: 'poes', nome: 'Poéticos', ini: 18, fim: 22 },
+    { id: 'prof', nome: 'Profetas', ini: 23, fim: 39 },
+    { id: 'evan', nome: 'Evangelhos e Atos', ini: 40, fim: 44 },
+    { id: 'cart', nome: 'Cartas e Apocalipse', ini: 45, fim: 66 }
+  ];
+  function grupoDe(bookId) {
+    var n = parseInt(bookId, 10);
+    for (var i = 0; i < GRUPOS.length; i++) if (n >= GRUPOS[i].ini && n <= GRUPOS[i].fim) return GRUPOS[i];
+    return null;
+  }
   function normTema(t) { return String(t || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim(); }
   function livroDe(ref) { return String(ref || '').replace(/\s+\d+.*$/, '').trim(); }
   /* foto da capa de um estudo, a partir do mapa {idDoEstudo: "NN"}; sem entrada válida, null (fica a capa desenhada) */
@@ -89,12 +103,18 @@
       '.esthd h2{margin:0;font:700 20px var(--serif);color:var(--text);display:flex;align-items:center;gap:8px}' +
       '.esthd h2 svg{color:var(--accent)}' +
       '.esthd button{min-height:44px;padding:0 6px 0 12px;font-weight:700;font-size:14px;color:var(--accent);background:none;display:flex;align-items:center;gap:2px}' +
-      '.estrow{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}' +
+      '.estrow{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}' +
       '.estc{display:flex;flex-direction:column;gap:6px;text-align:left;background:none;padding:0;min-width:0;color:var(--text)}' +
       '.estc .cv{position:relative;display:block;aspect-ratio:1/1.05;border-radius:16px;background:#1d3b33 center/cover no-repeat;box-shadow:var(--shadow);overflow:hidden}' +
       '.estc .cv::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(0,0,0,0) 45%,rgba(0,0,0,.62))}' +
       '.estc .cv b{position:absolute;left:9px;right:9px;bottom:7px;z-index:1;color:#fff;font:700 15px/1.1 var(--serif);text-shadow:0 1px 5px rgba(0,0,0,.6);overflow-wrap:anywhere}' +
-      '.estc small{font-size:12px;line-height:1.25;font-weight:600;color:var(--text);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}' +
+      '.estc small{font-size:13px;line-height:1.3;font-weight:600;color:var(--text);overflow-wrap:anywhere}' +
+      /* página Estudos: filtros por grupo de livros e cartões em grade */
+      '.ensfil{display:flex;gap:8px;overflow-x:auto;padding:2px 0 14px;scrollbar-width:none}.ensfil::-webkit-scrollbar{display:none}' +
+      '.ensfil .chip{flex:0 0 auto;min-height:40px;padding:0 14px;border-radius:999px;border:0;background:var(--card);color:var(--text);font-weight:700;font-size:14px;box-shadow:var(--shadow)}' +
+      '.ensfil .chip.on{background:var(--accent);color:#fff}' +
+      '.ensgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}' +
+      '.ensgrid .estc small{font-size:13px}' +
       /* painel do menu */
       '#pvMenu{position:absolute;inset:0;z-index:46;visibility:hidden}#pvMenu.on{visibility:visible}' +
       '#pvMenu .pm-bg{position:absolute;inset:0;background:rgba(9,15,20,.55);opacity:0;transition:opacity .22s}#pvMenu.on .pm-bg{opacity:1}' +
@@ -153,7 +173,7 @@
     var lerMapa = fetch('assets/capas-map.json').then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; });
     Promise.all([fetch('content-manifest.json').then(function (r) { return r.ok ? r.json() : null; }), lerMapa]).then(function (res) {
       var m = res[0], mapa = res[1];
-      var es = escolherEstudos(m && m.passages, dia, 3); if (!es.length) return;
+      var es = escolherEstudos(m && m.passages, dia, 2); if (!es.length) return;
       es.forEach(function (e) {
         var c = el('button', 'estc'); c.type = 'button'; c.setAttribute('aria-label', 'Abrir estudo: ' + e.titulo + ' (' + e.ref + ')');
         var foto = capaFoto(mapa, e.id);
@@ -221,5 +241,5 @@
     }, true);
   }
 
-  return { normTema: normTema, livroDe: livroDe, escolherEstudos: escolherEstudos, capaSvg: capaSvg, capaFoto: capaFoto, TEMAS: TEMAS };
+  return { GRUPOS: GRUPOS, grupoDe: grupoDe, normTema: normTema, livroDe: livroDe, escolherEstudos: escolherEstudos, capaSvg: capaSvg, capaFoto: capaFoto, TEMAS: TEMAS };
 });
