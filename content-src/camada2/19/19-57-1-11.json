@@ -1,0 +1,141 @@
+{
+ "id": "19-57-1-11",
+ "ref": "Salmos 57:1-11",
+ "book": "19",
+ "chapter": 57,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Tem misericórdia de mim, ó Deus, tem misericórdia de mim; porque minha alma confia em ti, e eu me refugio sob a sombra de tuas asas, até que os meus problemas passem de mim."
+  },
+  {
+   "n": 2,
+   "t": "Clamarei ao Deus Altíssimo; a Deus, que cumprirá sua obra em mim."
+  },
+  {
+   "n": 3,
+   "t": "Ele enviará desde os céus e me livrará, humilhando ao que procura me demorar. (Selá)Deus enviará sua bondade e sua verdade."
+  },
+  {
+   "n": 4,
+   "t": "Minha alma está no meio dos leões, estou deitado entre brasas ardentes, filhos de homens, cujos dentes são lanças e flechas, e a língua deles são espada afiada."
+  },
+  {
+   "n": 5,
+   "t": "Exalta-te sobre os céus, ó Deus; esteja tua glória sobre toda a terra."
+  },
+  {
+   "n": 6,
+   "t": "Prepararam uma rede de armadilha para os meus passos, minha alma estava abatida; cavaram perante mim uma cova, porém eles mesmos caíram nela. (Selá)"
+  },
+  {
+   "n": 7,
+   "t": "Firme está meu coração, ó Deus; meu coração está firme; eu cantarei, e louvarei com músicas."
+  },
+  {
+   "n": 8,
+   "t": "Desperta-te, ó glória minha! Desperta, lira e harpa; despertarei ao amanhecer."
+  },
+  {
+   "n": 9,
+   "t": "Eu te louvarei entre os povos, Senhor; cantarei louvores a ti entre as nações."
+  },
+  {
+   "n": 10,
+   "t": "Pois tua bondade é grande, alcança até os céus; e a tua fidelidade até as nuvens mais altas."
+  },
+  {
+   "n": 11,
+   "t": "Exalta-te sobre os céus, ó Deus; esteja tua glória sobre toda a terra."
+  }
+ ],
+ "titulo": "Cantando louvores no meio das brumas",
+ "temas": [
+  "confiança",
+  "adoração",
+  "proteção",
+  "socorro"
+ ],
+ "pergunta": "Como é possível cantar e louvar a Deus quando a situação parece ser de total perigo?",
+ "entender": "Este salmo retrata um momento de extrema vulnerabilidade. O salmista se sente cercado por inimigos, comparando-os a leões e a brasas ardentes, onde palavras funcionam como armas afiadas. Mesmo assim, ele inicia pedindo misericórdia e afirmando que sua alma confia em Deus, refugiar-se sob a sombra das asas divinas.\n\nA estrutura do texto move-se do medo para a certeza. Embora reconheça que armadilhas foram preparadas contra seus passos, ele declara que seu coração está firme. Essa firmeza não apaga o perigo, mas o transforma em oportunidade para louvor. O salmista promete despertar a lira e a harpa ao amanhecer, louvando entre as nações porque a bondade de Deus alcança até os céus. A repetição do convite para que Deus se exalte sobre os céus reforça a adoração que transcende a crise.",
+ "ligar": {
+  "texto": "Jesus é o verdadeiro Refúgio. Assim como o salmista se abrigou sob a sombra das asas de Deus, Cristo oferece proteção perfeita contra o pecado e a morte. Ele conheceu a dor de ser cercado por inimigos e caluniado, mas venceu a cruz. A firmeza do coração no salmo encontre sua fonte em Cristo, que, mesmo na agonia, confiou ao Pai. A adoração do salmista aponta para o louvor eterno que os salvos darão a Jesus, o Deus Altíssimo que cumpre sua obra de redenção.",
+  "selo": false
+ },
+ "viver": "Ao ler que os inimigos caíram na própria cova, perceba que Deus lida com a injustiça. Hoje, quando sentir a língua de alguém como uma espada afiada contra você, não retribua com raiva. Em vez disso, escolha a atitude do salmista: declare em voz alta, mesmo que baixinho, que seu coração está firme. Adorar no meio da dor é um ato de coragem que desarma o medo e coloca a situação nas mãos de Deus, esperando que Sua bondade se manifeste.",
+ "guarde": "Mesmo entre brasas ardentes, a confiança em Deus faz o coração ficar firme e a voz se levantar em louvor.",
+ "ore": "Ó Deus Altíssimo, que cumpres tua obra em mim, eu me refugio sob a sombra das tuas asas. Quando meus inimigos preparam armadilhas, ajuda meu coração a permanecer firme. Ensina-me a cantar louvores a ti, não apenas nos dias bons, mas no meio das provações, reconhecendo que tua bondade alcança os céus.",
+ "quiz": {
+  "pergunta": "O que o salmista declara sobre a condição de seu coração no versículo 7?",
+  "opcoes": [
+   "Firme",
+   "Abatido",
+   "Medroso"
+  ],
+  "certa": 0,
+  "explicacao": "No versículo 7, o texto afirma explicitamente: 'Firme está meu coração, ó Deus; meu coração está firme'. Isso contrasta com o abatimento mencionado no versículo 6."
+ },
+ "refs": [
+  "Salmos 61:4",
+  "Salmos 114:7",
+  "Isaías 51:15"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-05T04:03:54.291Z",
+  "rounds": 1
+ }
+}
