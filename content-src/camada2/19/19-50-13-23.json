@@ -1,0 +1,141 @@
+{
+ "id": "19-50-13-23",
+ "ref": "Salmos 50:13-23",
+ "book": "19",
+ "chapter": 50,
+ "verses": [
+  {
+   "n": 13,
+   "t": "Comeria eu carne de touros, ou beberia sangue de bodes?"
+  },
+  {
+   "n": 14,
+   "t": "Oferece a Deus sacrifício de louvor, e paga ao Altíssimo os teus votos."
+  },
+  {
+   "n": 15,
+   "t": "E clama a mim no dia da angústia; e eu te farei livre, e tu me glorificarás."
+  },
+  {
+   "n": 16,
+   "t": "Mas Deus diz ao perverso: Para que tu recitas meus estatutos, e pões meu pacto em tua boca?"
+  },
+  {
+   "n": 17,
+   "t": "Pois tu odeias a repreensão, e lança minhas palavras para detrás de ti."
+  },
+  {
+   "n": 18,
+   "t": "Se vês ao ladrão, tu consentes com ele; e tens tua parte com os adúlteros."
+  },
+  {
+   "n": 19,
+   "t": "Com tua boca pronuncias o mal, e tua língua gera falsidades."
+  },
+  {
+   "n": 20,
+   "t": "Tu te sentas e falas contra teu irmão; contra o filho de tua mãe tu dizes ofensas."
+  },
+  {
+   "n": 21,
+   "t": "Tu fazes estas coisas, e eu fico calado; pensavas que eu seria como tu? Eu te condenarei, e mostrarei teus males diante de teus olhos."
+  },
+  {
+   "n": 22,
+   "t": "Entendei, pois, isto, vós que vos esqueceis de Deus; para que eu não vos faça em pedaços, e não haja quem vos livre."
+  },
+  {
+   "n": 23,
+   "t": "Quem oferece sacrifício de louvor me glorificará, e ao que cuida de seu caminho, eu lhe mostrarei a salvação de Deus."
+  }
+ ],
+ "titulo": "O que realmente agrada ao Altíssimo?",
+ "temas": [
+  "adoração",
+  "coração",
+  "justiça"
+ ],
+ "pergunta": "Você tem oferecido a Deus um louvor que nasce do coração?",
+ "entender": "Nos versículos 13‑23 do Salmo 50 o salmista confronta a hipocrisia religiosa. Ele abre com a pergunta retórica: \"Comeria eu carne de touros, ou beberia sangue de bodes?\" (v.13) e, em seguida, convida a oferecer \"sacrifício de louvor\" (v.14) e a clamar a Ele na angústia (v.15). O texto denuncia quem recita a lei, mas pratica o mal: apoiar ladrões, cometer adultério, mentir e ofender o irmão (v.16‑20). Deus repreende o perverso que pensa que pode permanecer calado enquanto o mal prospera (v.21) e avisa que, se o povo se esquece d’Ele, sofrerá a punição (v.22). O convite final é claro: \"Quem oferece sacrifício de louvor me glorificará\" e ao que cuida do seu caminho Deus mostrará a salvação (v.23). No contexto imediato (v.10‑12) o salmista lembra que toda a criação pertence a Deus, mostrando que sacrifícios animais são desnecessários; o que Ele realmente deseja é um coração que O adore em verdade.\n\nEsse chamado ao louvor sincero revela que a adoração vazia não agrada a Deus. O salmista usa a imagem de um banquete que Deus não precisa para enfatizar que o verdadeiro culto nasce da interioridade, não de rituais externos. Assim, o texto nos leva a examinar nossas motivações e a buscar uma vida que reflita o caráter de Deus.",
+ "ligar": {
+  "texto": "O convite ao \"sacrifício de louvor\" aponta para Cristo, que se entregou como o sacrifício perfeito (Hebreus 10:12). Jesus cumpriu a Lei e, por meio de sua morte, nos deu um caminho de reconciliação. Quando o salmista promete mostrar a salvação ao que cuida do seu caminho (v.23), o cumprimento desse caminho está em Jesus, que nos liberta da necessidade de rituais vazios e nos capacita a viver em gratidão constante.",
+  "selo": false
+ },
+ "viver": "O salmo nos mostra que a adoração vazia pode ser tão inútil quanto um sacrifício de animais. Hoje, ao iniciar o dia, reserve alguns minutos para agradecer a Deus por algo concreto que aconteceu e, em seguida, reconheça honestamente qualquer atitude que não reflita seu compromisso com a justiça. Esse pequeno ato transforma a rotina em um \"sacrifício de louvor\" que agrada a Deus e nos ajuda a viver de forma mais coerente com o seu caráter.",
+ "guarde": "Deus quer um coração que O louve, não rituais sem vida.",
+ "ore": "Deus, ao ler teu convite ao louvor, peço que meu coração se abra para adorar em verdade, deixando de lado rituais vazios que não mudam minha vida.",
+ "quiz": {
+  "pergunta": "Qual atitude o salmista condena no Salmo 50?",
+  "opcoes": [
+   "Fazer jejuns prolongados",
+   "Oferecer sacrifícios de animais",
+   "Recitar a lei enquanto se vive em pecado"
+  ],
+  "certa": 2,
+  "explicacao": "O texto critica quem recita os estatutos de Deus mas persiste em práticas como mentir, apoiar ladrões e ofender o irmão (v.16‑20)."
+ },
+ "refs": [
+  "Hebreus 10:12",
+  "1 Samuel 15:22",
+  "Mateus 22:37-40",
+  "Romanos 12:1"
+ ],
+ "audit": {
+  "generator": {
+   "model": "openai/gpt-oss-120b",
+   "family": "openai"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-05T01:11:07.189Z",
+  "rounds": 3
+ }
+}

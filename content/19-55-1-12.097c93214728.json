@@ -1,0 +1,146 @@
+{
+ "id": "19-55-1-12",
+ "ref": "Salmos 55:1-12",
+ "book": "19",
+ "chapter": 55,
+ "verses": [
+  {
+   "n": 1,
+   "t": "Deus, inclina os teus ouvidos à minha oração; e não te escondas de minha súplica."
+  },
+  {
+   "n": 2,
+   "t": "Presta atenção em mim, e responde-me; clamo por meu sofrimento, e grito,"
+  },
+  {
+   "n": 3,
+   "t": "Por causa da voz do inimigo, e pela opressão do perverso; porque me preparam suas maldades, e com furor eles me odeiam."
+  },
+  {
+   "n": 4,
+   "t": "Meu coração sofre dores em meu interior, e terrores de morte caíram sobre mim."
+  },
+  {
+   "n": 5,
+   "t": "Temor e tremor vêm sobre mim, e o horror me toma por completo."
+  },
+  {
+   "n": 6,
+   "t": "Então eu digo: Ah, quem me dera se eu tivesse asas como uma pomba! Eu voaria, e pousaria."
+  },
+  {
+   "n": 7,
+   "t": "Eis que eu fugiria para longe, e ficaria no deserto. (Selá)"
+  },
+  {
+   "n": 8,
+   "t": "Eu me apressaria para escapar do vento violento e da tempestade."
+  },
+  {
+   "n": 9,
+   "t": "Devora-os, Senhor, divide a língua deles; porque tenho visto violência e briga na cidade."
+  },
+  {
+   "n": 10,
+   "t": "Dia e noite cercam sobre seus muros; perversidade e opressão há dentro dela."
+  },
+  {
+   "n": 11,
+   "t": "Coisas destrutivas estão dentro dela; e a falsidade e o engano não sai de suas praças."
+  },
+  {
+   "n": 12,
+   "t": "Porque não é um inimigo o que me insulta, pois se fosse eu o suportaria; nem é alguém que me odeia o que se engrandece contra mim, pois se fosse eu me esconderia dele."
+  }
+ ],
+ "titulo": "Por que a dor da traição dói mais?",
+ "temas": [
+  "traição",
+  "sofrimento",
+  "oração",
+  "inimigo",
+  "confiança"
+ ],
+ "pergunta": "Já sentiu que a dor maior não vem de quem nos odeia, mas de quem deveria nos amar?",
+ "entender": "Davi começa este salmo com um pedido urgente: que Deus ouça sua súplica e não se esconda dele. Ele está sob ataque, mas não apenas de inimigos externos. O texto revela uma dor profunda: \"Meu coração sofre dores em meu interior\". Davi sente medo, tremor e horror. A situação é tão opressiva que ele imagina ter asas de pomba para fugir do \"vento violento\" e da \"tempestade\" da cidade, onde há violência e engano.\n\nO que torna este salmo particularmente tocante é o final do trecho. Davi percebe que a fonte de sua maior dor não é um estranho, mas alguém próximo. Ele diz: \"Porque não é um inimigo o que me insulta\". A traição de um amigo ou companheiro ferida muito mais do que a perseguição de um adversário declarado. Davi não esconde a complexidade de seus sentimentos: ele ora contra os perversos, mas também reconhece a ferida causada pela quebra de confiança.",
+ "ligar": {
+  "texto": "Este salmo nos lembra que Jesus também sofreu a dor da traição. Ele foi rejeitado não apenas por seus inimigos, mas por seus próprios discípulos e amigos próximos. No entanto, Jesus não respondeu com vingança, mas com perdão e sacrifício. Ele nos ensina que, mesmo quando somos feridos por aqueles em quem confiamos, podemos levar essa dor a Deus. Jesus entende nossa vulnerabilidade e nos oferece um lugar seguro onde nossa alma pode descansar, mesmo no meio da tempestade.",
+  "selo": false
+ },
+ "viver": "Ao ler que Davi queria \"asas como uma pomba\" para escapar, muitas vezes tentamos fugir de nossas dores através do isolamento ou da negação. No entanto, o salmo começa com um clamor a Deus, não com uma fuga. Hoje, identifique uma situação em que você está sendo ferido por alguém próximo. Em vez de tentar resolver tudo sozinho ou cortar o contato imediatamente, leve essa dor específica a Deus em oração. Permita-se sentir a tristeza, mas entregue o controle da situação a Ele, confiando que Ele vê a injustiça e cuida de você.",
+ "guarde": "A dor da traição é real, mas Deus ouve seu grito mesmo quando a cidade parece cheia de engano.",
+ "ore": "Pai, como Davi, eu trago a Ti a dor da traição que sinto no coração. Quando a cidade ao meu redor parece cheia de violência e engano, ajuda-me a não tentar fugir sozinho. Ensina-me a descansar em Tua presença, mesmo quando meus amigos me ferem. Guia meus passos e minha língua, para que eu não reaja com amargura, mas com a confiança de que Tu vês tudo.",
+ "quiz": {
+  "pergunta": "O que Davi deseja fazer para escapar da opressão, segundo o versículo 6?",
+  "opcoes": [
+   "Esconder-se na casa de Deus.",
+   "Confrontar os inimigos com espada.",
+   "Ter asas como uma pomba para voar e fugir."
+  ],
+  "certa": 2,
+  "explicacao": "No versículo 6, Davi expressa o desejo de ter asas como uma pomba para voar e pousar em um lugar de segurança, fugindo da tempestade."
+ },
+ "refs": [
+  "Mateus 26:41-45",
+  "Salmos 41:9",
+  "Provérbios 18:24"
+ ],
+ "audit": {
+  "generator": {
+   "model": "qwen/qwen3.8-27b",
+   "family": "alibaba"
+  },
+  "auditors": [
+   {
+    "model": "gemini-3.1-flash-lite",
+    "family": "google"
+   },
+   {
+    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+    "family": "meta"
+   }
+  ],
+  "gates": {
+   "TARGET_FIDELITY": "P",
+   "CONTEXT_FIDELITY": "P",
+   "REFERENCE_BOUNDARY": "P",
+   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+   "GENRE_COMPATIBILITY": "P",
+   "NARRATIVE_EVENT_CONSISTENCY": "P",
+   "TEMPORAL_SEQUENCE": "P",
+   "PERSON_ENTITY_CONSISTENCY": "P",
+   "QUOTATION_BOUNDARY": "P",
+   "UNSUPPORTED_CLAIM": "P",
+   "OVERINTERPRETATION": "P",
+   "DOCTRINAL_OVERREACH": "P",
+   "CHRISTOLOGICAL_FORCE": "P",
+   "PROMISE_SCOPE": "P",
+   "COVENANT_SCOPE": "P",
+   "COMMAND_SCOPE": "P",
+   "PROPHECY_SCOPE": "P",
+   "MIRACLE_SCOPE": "P",
+   "BLESSING_SCOPE": "P",
+   "JUDGMENT_SCOPE": "P",
+   "PRAYER_FIDELITY": "P",
+   "FASTING_SCOPE": "P",
+   "APPLICATION_FIDELITY": "P",
+   "PASTORAL_SAFETY": "P",
+   "ABUSE_SAFETY": "P",
+   "MEDICAL_SAFETY": "P",
+   "FINANCIAL_SAFETY": "P",
+   "NO_PERSONAL_PROPHECY": "P",
+   "NO_FALSE_DIVINE_SPEECH": "P",
+   "NO_TEMPLATE_LANGUAGE": "P",
+   "NO_LITERAL_REPETITION": "P",
+   "NO_STRUCTURAL_REPETITION": "P",
+   "NO_GENERIC_APPLICATION": "P",
+   "NO_GENERIC_PRAYER": "P",
+   "CROSS_SECTION_CONSISTENCY": "P",
+   "LANGUAGE_CLARITY": "P"
+  },
+  "humanReviewed": false,
+  "contractVersion": "pv-ensino-1",
+  "auditedAt": "2026-11-05T01:15:05.950Z",
+  "rounds": 1
+ }
+}

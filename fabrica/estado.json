@@ -3416,7 +3416,9 @@
   },
   "19-50-13-23": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "gemini: NARRATIVE_EVENT_CONSISTENCY: O ensino inverte o texto ao dizer que o adorador 'será glorificado' (o v. 23 diz 'me glorificará', isto é, glorificará a Deus) e ao dizer que o perverso pensa em ficar calado (no v. 21 é Deus quem ficou calado). | PRAYER_FIDELITY: A oração é dirigida ao próprio livro/cap",
+   "estado": "pronto",
+   "titulo": "O que realmente agrada ao Altíssimo?"
   },
   "19-51-1-10": {
    "execucoes": 0,
@@ -3426,15 +3428,21 @@
   },
   "19-51-11-19": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: abertura_repetida:ore:19-39-1-13",
+   "estado": "pronto",
+   "titulo": "O sacrifício que Deus realmente aceita"
   },
   "19-52-1-9": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "automático: quiz.explicacao:frase_modelo",
+   "estado": "pronto",
+   "titulo": "Onde você planta suas raízes mais profundas?"
   },
   "19-53-1-6": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "Deus olhou para ver se havia alguém"
   },
   "19-54-1-7": {
    "execucoes": 0,
@@ -3442,7 +3450,9 @@
   },
   "19-55-1-12": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "Por que a dor da traição dói mais?"
   },
   "19-55-13-23": {
    "execucoes": 0,
@@ -3459,28 +3469,48 @@
   "19-58-1-11": {
    "execucoes": 0,
    "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-59-1-9": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-59-10-17": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-60-1-12": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-61-1-8": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+  },
+  "19-62-1-12": {
+   "execucoes": 0,
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
   }
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 1091,
-   "entrada": 2862977,
-   "saida": 960499
+   "chamadas": 1098,
+   "entrada": 2881811,
+   "saida": 967112
   },
   "groq-qwen": {
-   "chamadas": 1086,
-   "entrada": 2732850,
-   "saida": 885116
+   "chamadas": 1094,
+   "entrada": 2751713,
+   "saida": 891436
   },
   "gemini": {
-   "chamadas": 915,
-   "entrada": 2956298,
-   "saida": 1138950
+   "chamadas": 921,
+   "entrada": 2974847,
+   "saida": 1143241
   },
   "cloudflare": {
-   "chamadas": 581,
-   "entrada": 2018969,
-   "saida": 215551
+   "chamadas": 586,
+   "entrada": 2035408,
+   "saida": 217406
   },
   "mistral": {
    "chamadas": 0,
