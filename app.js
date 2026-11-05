@@ -53,7 +53,7 @@
   }
 
   /* ---------- aparência ---------- */
-  var splashOn = true, appReady = function () { /* definido em bindStatic */ };
+  var splashOn = false, appReady = function () { /* definido em bindStatic */ };
   /* cor de destaque discreta (independe do claro/escuro): só troca as variáveis de destaque, os fundos seguem neutros */
   var CORES = ['#8876A8', '#7893B0', '#819989', '#B58F98', '#B09B70', '#777777'];
   function mixCor(hex, alvo, p) {
@@ -641,29 +641,45 @@
     });
   }
 
-  /* página Estudos em grade: filtros por grupo de livros e cartões com a foto do mapa (ou capa desenhada) */
+  /* página Estudos em grade: busca, filtro por grupo de livros e exibição progressiva (24 por vez, sem remover nenhum estudo) */
+  var ENS_PASSO = 24;
+  function semAcento(t) { return String(t || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase(); }
   function viewEnsinosGrade(body, ps, H3) {
     var order = {}; catalog().forEach(function (b, i) { order[b.id] = i; });
     var lista = ps.slice().sort(function (x, y) { return (order[x.book] - order[y.book]) || (x.chapter - y.chapter) || String(x.id).localeCompare(String(y.id), undefined, { numeric: true }); });
     var presentes = H3.GRUPOS.filter(function (g) { return lista.some(function (p) { var q = H3.grupoDe(p.book); return q && q.id === g.id; }); });
-    var filtro = 'todos', mapa = null;
+    var filtro = 'todos', busca = '', mostrar = ENS_PASSO, mapa = null;
+    var campo = h('input', { type: 'search', class: 'ensbusca', placeholder: 'Buscar estudo ou livro', 'aria-label': 'Buscar estudo ou livro', autocomplete: 'off' });
     var chips = h('div', { class: 'ensfil', role: 'group', 'aria-label': 'Filtrar estudos por grupo de livros' });
+    var info = h('p', { class: 'ensinfo', 'aria-live': 'polite' });
     var grid = h('div', { class: 'ensgrid' });
-    body.appendChild(chips); body.appendChild(grid);
+    var mais = h('button', { class: 'btn alt ensmais', type: 'button', onclick: function () { mostrar += ENS_PASSO; pinta(); } });
+    body.appendChild(campo); body.appendChild(chips); body.appendChild(info); body.appendChild(grid); body.appendChild(mais);
+    campo.addEventListener('input', function () { busca = semAcento(campo.value).trim(); mostrar = ENS_PASSO; pinta(); });
     var pinta = function () {
       clear(chips); clear(grid);
       [{ id: 'todos', nome: 'Todos' }].concat(presentes).forEach(function (g) {
-        chips.appendChild(h('button', { class: 'chip' + (filtro === g.id ? ' on' : ''), type: 'button', 'aria-pressed': filtro === g.id ? 'true' : 'false', text: g.nome, onclick: function () { filtro = g.id; pinta(); } }));
+        chips.appendChild(h('button', { class: 'chip' + (filtro === g.id ? ' on' : ''), type: 'button', 'aria-pressed': filtro === g.id ? 'true' : 'false', text: g.nome, onclick: function () { filtro = g.id; mostrar = ENS_PASSO; pinta(); } }));
       });
-      lista.filter(function (p) { if (filtro === 'todos') return true; var q = H3.grupoDe(p.book); return q && q.id === filtro; }).forEach(function (p) {
+      var filtrados = lista.filter(function (p) {
+        if (filtro !== 'todos') { var q = H3.grupoDe(p.book); if (!q || q.id !== filtro) return false; }
+        if (!busca) return true;
+        var bk = bookOf(p.book), txt = semAcento((p.titulo || '') + ' ' + (p.ref || '') + ' ' + (bk ? bk.name : ''));
+        return txt.indexOf(busca) !== -1;
+      });
+      var visiveis = filtrados.slice(0, mostrar);
+      info.textContent = filtrados.length ? 'Mostrando ' + visiveis.length + ' de ' + filtrados.length + (filtrados.length === 1 ? ' estudo' : ' estudos') : 'Nenhum estudo encontrado. Tente outra palavra ou outro grupo.';
+      visiveis.forEach(function (p) {
         var bk = bookOf(p.book), nome = bk ? bk.name : livroNome(p.ref);
         var foto = H3.capaFoto(mapa, p.id);
         var cv = h('span', { class: 'cv' });
         cv.style.backgroundImage = (foto ? 'url("' + foto + '"),' : '') + 'url("' + H3.capaSvg(null, nome) + '")';
         cv.appendChild(h('b', { text: nome }));
-        var c = h('button', { class: 'estc', type: 'button', 'aria-label': 'Abrir estudo: ' + (p.titulo || p.ref) + ' (' + p.ref + ')', onclick: function () { go({ v: 'study', id: p.id }); } }, [cv, h('small', { text: p.titulo || p.ref })]);
-        grid.appendChild(c);
+        grid.appendChild(h('button', { class: 'estc', type: 'button', 'aria-label': 'Abrir estudo: ' + (p.titulo || p.ref) + ' (' + p.ref + ')', onclick: function () { go({ v: 'study', id: p.id }); } }, [cv, h('small', { text: p.titulo || p.ref })]));
       });
+      var resta = filtrados.length - visiveis.length;
+      mais.hidden = resta <= 0;
+      mais.textContent = 'Carregar mais estudos (' + Math.min(ENS_PASSO, resta) + ' de ' + resta + ' restantes)';
     };
     pinta();
     /* o mapa de fotos é opcional: sem ele, ficam as capas desenhadas */
@@ -1479,14 +1495,10 @@
     liga(); pintar();
   }
   function bindStatic() {
-    var splash = $('#splash'), t0 = Date.now();
+    /* sem tela de abertura personalizada: o app abre direto na Início (a inicialização do Android/PWA em src/boot.js e o service worker continuam) */
     function marcaAbertura() { ssSet('pv4-splash', '1'); lsSet('pv4-splash-t', String(Date.now())); }
-    function hideSplash() { if (!splashOn) return; splashOn = false; splash.classList.add('off'); marcaAbertura(); applyAppearance(); }
-    /* a abertura fica na tela, em verde-escuro, até o app terminar de carregar (mínimo 0,3 s) */
-    appReady = function () { setTimeout(hideSplash, Math.max(0, 300 - (Date.now() - t0))); };
-    /* já abriu há pouco (ex.: voltando de Créditos): abre direto, sem mostrar a abertura outra vez (src/boot.js já escondeu antes da primeira pintura) */
-    if (ssGet('pv4-splash') || window.PV_RECENTE) { splashOn = false; splash.classList.add('off'); marcaAbertura(); applyAppearance(); }
-    else { setTimeout(hideSplash, 3500); splash.addEventListener('click', hideSplash); splash.addEventListener('keydown', function (e) { if (e.key === 'Enter' || e.key === ' ') hideSplash(); }); }
+    appReady = function () { /* nada a esconder */ };
+    marcaAbertura(); applyAppearance();
     /* botões do topo e da barra inferior */
     $('#menuBtn').addEventListener('click', openDrawer);
     $('#dClose').addEventListener('click', closeOverlay);
