@@ -424,7 +424,7 @@
     if (mq) { /* aberto pelo toque na notificação: espera a abertura do app e mostra o trecho anunciado */
       var tent = 0, ti = setInterval(function () {
         var sp = document.getElementById('splash');
-        if ((sp && sp.classList.contains('off')) || ++tent > 30) { clearInterval(ti); try { history.replaceState(history.state, '', location.pathname); } catch (x) { /* ok */ } abrirIdx(+mq[1]); }
+        if ((!sp || sp.classList.contains('off')) || ++tent > 30) { clearInterval(ti); try { history.replaceState(history.state, '', location.pathname); } catch (x) { /* ok */ } abrirIdx(+mq[1]); }
       }, 300);
     }
     window.addEventListener('popstate', function () { parar(); });

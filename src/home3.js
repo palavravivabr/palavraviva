@@ -115,6 +115,9 @@
       '.ensfil .chip.on{background:var(--accent);color:#fff}' +
       '.ensgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}' +
       '.ensgrid .estc small{font-size:13px}' +
+      '.ensbusca{width:100%;min-height:46px;box-sizing:border-box;border:0;border-radius:14px;padding:0 16px;margin:4px 0 12px;background:var(--card);color:var(--text);font:600 15px var(--sans,system-ui);box-shadow:var(--shadow)}' +
+      '.ensinfo{margin:0 0 12px;font-size:13px;color:var(--muted,var(--text));font-weight:600}' +
+      '.ensmais{width:100%;margin:18px 0 8px}' +
       /* painel do menu */
       '#pvMenu{position:absolute;inset:0;z-index:46;visibility:hidden}#pvMenu.on{visibility:visible}' +
       '#pvMenu .pm-bg{position:absolute;inset:0;background:rgba(9,15,20,.55);opacity:0;transition:opacity .22s}#pvMenu.on .pm-bg{opacity:1}' +
