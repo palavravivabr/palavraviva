@@ -15,7 +15,7 @@
   /* foto da capa de um estudo, a partir do mapa {idDoEstudo: "NN"}; sem entrada válida, null (fica a capa desenhada) */
   function capaFoto(mapa, id) {
     var n = mapa && Object.prototype.hasOwnProperty.call(mapa, id) ? mapa[id] : null;
-    return (typeof n === 'string' && /^\d{2}$/.test(n)) ? 'assets/capas/' + n + '.jpg' : null;
+    return (typeof n === 'string' && /^\d{2}$/.test(n)) ? 'assets/capa-' + n + '.jpg' : null;
   }
   /* três estudos por dia: temas em rodízio; sem estudo para o tema, usa capa neutra com o nome do livro */
   function escolherEstudos(ps, dia, n) {
