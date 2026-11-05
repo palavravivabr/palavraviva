@@ -89,7 +89,7 @@ html,body{height:100%}
 .search input{flex:1;min-width:0;border:0;background:none;font:inherit;color:var(--text);height:46px}
 /* barras internas */
 .topbar{position:sticky;top:0;z-index:10;background:var(--ink);color:#FCF8EE;padding:12px 16px;display:flex;align-items:center;gap:12px;box-shadow:var(--shadow)}
-.back{display:inline-flex;align-items:center;gap:6px;min-height:40px;padding:0 14px 0 10px;border-radius:12px;background:var(--card);color:var(--accent);font-weight:700;font-size:14px;border:1px solid var(--gold)}
+.back{display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:0 14px 0 10px;border-radius:12px;background:var(--card);color:var(--accent);font-weight:700;font-size:14px;border:1px solid var(--gold)}
 .back svg{width:16px;height:16px}
 .topbar h2{font:600 19px var(--serif);flex:1;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .pad{padding:18px 20px;display:flex;flex-direction:column;gap:18px}
@@ -108,7 +108,7 @@ html,body{height:100%}
 .entender strong{display:block;font:700 22px var(--serif)}
 .depth{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;position:sticky;top:64px;z-index:5;background:var(--paper);padding:10px 0}
 .depth::-webkit-scrollbar{display:none}
-.dtab{flex:none;min-height:42px;padding:0 16px;border-radius:21px;font-weight:600;font-size:14px;color:var(--soft);background:var(--card)}
+.dtab{flex:none;min-height:44px;padding:0 16px;border-radius:21px;font-weight:600;font-size:14px;color:var(--soft);background:var(--card)}
 .dtab[aria-selected="true"]{background:var(--ink);color:#F1E2B9}
 .panel{display:none;flex-direction:column;gap:16px}
 .panel.on{display:flex}
@@ -130,14 +130,14 @@ html,body{height:100%}
 .set{display:flex;flex-direction:column;gap:10px;padding:18px 20px}
 .srow{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:58px;padding:0 16px;border-radius:18px;background:var(--card);width:100%;text-align:left;box-shadow:var(--shadow)}
 .seg{display:flex;gap:6px}
-.seg button{min-width:44px;min-height:38px;padding:0 12px;border-radius:12px;background:var(--paper);font-weight:700}
+.seg button{min-width:44px;min-height:44px;padding:0 12px;border-radius:12px;background:var(--paper);font-weight:700}
 .seg button[aria-pressed="true"]{background:var(--ink);color:#F1E2B9}
 .btnrow{display:grid;grid-template-columns:1fr 1fr;gap:10px}
 .btnrow .b1{min-height:50px;border-radius:14px;background:var(--gold);color:var(--gold-ink);font-weight:800}
 .btnrow .b2{min-height:50px;border-radius:14px;background:var(--ink);color:#FCF8EE;font-weight:800}
 /* barra inferior */
 .nav{position:absolute;left:0;right:0;bottom:0;display:grid;grid-template-columns:repeat(4,1fr);background:var(--card);border-top:1px solid var(--line);padding:6px 0 calc(6px + env(safe-area-inset-bottom,0px));z-index:20}
-.nav button{display:flex;flex-direction:column;align-items:center;gap:2px;min-height:52px;justify-content:center;color:var(--soft);font-size:12px;font-weight:600;padding:0 2px;white-space:nowrap}
+.nav button{display:flex;flex-direction:column;align-items:center;gap:2px;min-height:56px;justify-content:center;color:var(--soft);font-size:13px;font-weight:600;padding:0 2px;white-space:nowrap}
 .nav button svg{width:22px;height:22px}
 .nav button[aria-current="page"]{color:var(--accent);font-weight:800}
 /* menu lateral */
@@ -245,7 +245,7 @@ a.srow{color:inherit;text-decoration:none}
 .verbar{display:flex;align-items:center;justify-content:space-between;gap:10px;flex-wrap:wrap;margin:2px 0 8px}
 .verbar .vname{font-size:13px;color:var(--soft);line-height:1.35}
 .verbar .vname b{color:var(--text)}
-.verbar button{font-size:13px;font-weight:700;padding:8px 14px;border-radius:14px;background:var(--card-2);color:var(--text);min-height:40px}
+.verbar button{font-size:13px;font-weight:700;padding:8px 14px;border-radius:14px;background:var(--card-2);color:var(--text);min-height:44px}
 .vaviso{font-size:12.5px;line-height:1.45;padding:10px 12px;border-radius:14px;background:var(--gold-soft);color:var(--tagink);margin:0 0 8px}
 .vcred{font-size:11.5px;line-height:1.5;color:var(--soft);margin:10px 2px 0}
 .vcred button{font-size:11.5px;font-weight:700;text-decoration:underline;color:var(--accent);padding:2px 0}
@@ -287,7 +287,7 @@ a.srow{color:inherit;text-decoration:none}
 .tsearch svg{width:20px;height:20px}
 .dica{display:flex;align-items:center;gap:10px;padding:10px 12px;border-radius:14px;background:var(--gold-soft);color:var(--tagink);font-size:13px;line-height:1.4;margin:0 0 8px}
 .dica span{flex:1}
-.dica button{flex:none;min-height:40px;padding:0 14px;border-radius:14px;background:var(--ink);color:#FCF8EE;font-weight:700;font-size:13px}
+.dica button{flex:none;min-height:44px;padding:0 14px;border-radius:14px;background:var(--ink);color:#FCF8EE;font-weight:700;font-size:13px}
 .phero{display:flex;align-items:center;gap:16px;padding:18px;border-radius:24px;color:#FCF8EE;background:linear-gradient(135deg,var(--ink),#13362E);box-shadow:var(--shadow)}
 .phero .ptxt{flex:1;min-width:0}
 .phero .eyebrow{color:var(--gold)}
@@ -318,7 +318,7 @@ a.srow{color:inherit;text-decoration:none}
 .pler{min-height:44px;text-align:left;display:flex;flex-direction:column;justify-content:center}
 .pler strong{font:700 1.15rem var(--serif)}
 .pler span{font-size:12.5px;color:var(--soft)}
-.pest{align-self:flex-start;min-height:40px;padding:0 4px;font-weight:700;font-size:13px;color:var(--tagink);text-decoration:underline}
+.pest{align-self:flex-start;min-height:44px;padding:0 4px;font-weight:700;font-size:13px;color:var(--tagink);text-decoration:underline}
 .pnota{font-size:.88rem;line-height:1.5;color:var(--soft)}
 .plink{align-self:center;min-height:44px;padding:0 12px;color:var(--soft);font-size:13px;text-decoration:underline}
 #cardPdia::after{background:linear-gradient(180deg,rgba(60,38,6,.05) 20%,rgba(122,76,10,.86) 100%)}

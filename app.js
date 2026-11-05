@@ -876,6 +876,8 @@
     body.appendChild(h('div', { class: 'mseg', role: 'tablist', 'aria-label': 'Minha Palavra' }, abas.map(function (a) {
       return h('button', { type: 'button', role: 'tab', 'aria-selected': String(tab === a[0]), text: a[1], onclick: function () { if (marksTab !== a[0]) { marksTab = a[0]; viewMarks(); } } });
     })));
+    var legenda = { jornada: 'Capítulos que você já leu neste aparelho.', destaques: 'Versículos que você destacou durante a leitura.', notas: 'Suas anotações sobre os versículos.' };
+    body.appendChild(h('p', { class: 'lead', text: legenda[tab] }));
     var area = h('div', { class: 'marksarea' }); body.appendChild(area);
     try {
       if (tab === 'destaques') await marksDestaques(area); else if (tab === 'notas') await marksNotas(area); else await marksJornada(area);
