@@ -138,11 +138,21 @@
   function doDia(data) { return DADOS[indiceDoDia(data, DADOS.length)]; }
   /* roteiro de narração: o que a voz lê, na ordem em que aparece na tela */
   /* como a referência é dita em voz alta: "Salmos 23, versículos 1 ao 3" / "Mateus capítulo 6, versículo 6" */
+  /* números por extenso, para a narração (1 a 150: capítulos e versículos dos Salmos) */
+  var NUM_U = ['zero', 'um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez', 'onze', 'doze', 'treze', 'catorze', 'quinze', 'dezesseis', 'dezessete', 'dezoito', 'dezenove'];
+  var NUM_D = ['', '', 'vinte', 'trinta', 'quarenta', 'cinquenta', 'sessenta', 'setenta', 'oitenta', 'noventa'];
+  var NUM_C = ['', 'cento', 'duzentos', 'trezentos', 'quatrocentos', 'quinhentos', 'seiscentos', 'setecentos', 'oitocentos', 'novecentos'];
+  function numPt(n) {
+    if (n < 20) return NUM_U[n];
+    if (n < 100) return NUM_D[Math.floor(n / 10)] + (n % 10 ? ' e ' + NUM_U[n % 10] : '');
+    if (n === 100) return 'cem';
+    return NUM_C[Math.floor(n / 100)] + (n % 100 ? ' e ' + numPt(n % 100) : '');
+  }
   function refFalada(e) {
     var liv = String(e.ref).replace(/\s+\d+:.*$/, ''), m = /^([123])\s+(.+)$/.exec(liv);
     if (m) liv = (/^(Samuel|Reis|Crônicas)$/.test(m[2]) ? ['', 'Primeiro', 'Segundo'] : ['', 'Primeira', 'Segunda', 'Terceira'])[+m[1]] + ' ' + m[2];
-    var cap = (liv === 'Salmos' ? '' : ' capítulo') + ' ' + e.c;
-    return liv + cap + ', ' + (e.ate > e.v ? 'versículos ' + e.v + ' ao ' + e.ate : 'versículo ' + e.v);
+    var cap = (liv === 'Salmos' ? '' : ' capítulo') + ' ' + numPt(e.c);
+    return liv + cap + ', ' + (e.ate > e.v ? 'versículos ' + numPt(e.v) + ' ao ' + numPt(e.ate) : 'versículo ' + numPt(e.v));
   }
   /* texto curto da notificação diária: trecho do versículo + referência + convite */
   function notificacao(e, idx) {
@@ -151,7 +161,8 @@
     return { titulo: 'Sua Palavra do Dia chegou!', corpo: '“' + t + '” — ' + e.ref + String.fromCharCode(10) + 'Toque para ler a mensagem completa', url: './?pdia=' + idx };
   }
   function roteiro(e) {
-    return ['Palavra do dia.', refFalada(e) + '.', e.texto, 'Reflexão.', e.reflexao, 'Oração.', e.oracao, 'Amém.'].join(' ');
+    /* na narração, "Amém" é dito "Amein"; o texto da tela continua igual */
+    return ['Palavra do dia.', refFalada(e) + '.', e.texto, 'Reflexão.', e.reflexao, 'Oração.', e.oracao, 'Amein.'].join(' ');
   }
 
   var IMGS = ['assets/hero-dawn.jpg', 'assets/hero-reading.jpg', 'assets/hero-bible.jpg'];
