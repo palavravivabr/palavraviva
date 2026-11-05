@@ -3446,7 +3446,9 @@
   },
   "19-54-1-7": {
    "execucoes": 1,
-   "ultimo": "automático: entender:citacao_longa"
+   "ultimo": "automático: abertura_repetida:viver:19-57-1-11",
+   "estado": "pronto",
+   "titulo": "Quando o medo grita mais alto que a fé"
   },
   "19-55-1-12": {
    "execucoes": 0,
@@ -3462,7 +3464,9 @@
   },
   "19-56-1-13": {
    "execucoes": 1,
-   "ultimo": "automático: entender:citacao_longa"
+   "ultimo": "automático: viver:citacao_fora_do_texto, abertura_repetida:entender:19-3-1-8, abertura_repetida:viver:41-6-46-56",
+   "estado": "pronto",
+   "titulo": "Deus conta cada lágrima sua"
   },
   "19-57-1-11": {
    "execucoes": 0,
@@ -3496,11 +3500,13 @@
   },
   "19-61-1-8": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: gemini: rede: fetch failed"
   },
   "19-62-1-12": {
    "execucoes": 0,
-   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}"
+   "ultimo": "erro: mistral: 429 {\"object\":\"error\",\"message\":\"Rate limit exceeded\",\"type\":\"rate_limited\",\"param\":null,\"code\":\"1300\",\"raw_status_code\":429}",
+   "estado": "pronto",
+   "titulo": "Por que sua alma precisa de um lugar seguro"
   },
   "19-63-1-11": {
    "execucoes": 0,
@@ -3537,24 +3543,24 @@
  },
  "uso": {
   "groq-gpt": {
-   "chamadas": 1113,
-   "entrada": 2921258,
-   "saida": 980021
+   "chamadas": 1120,
+   "entrada": 2939208,
+   "saida": 985891
   },
   "groq-qwen": {
-   "chamadas": 1109,
-   "entrada": 2790267,
-   "saida": 903527
+   "chamadas": 1116,
+   "entrada": 2808725,
+   "saida": 909542
   },
   "gemini": {
-   "chamadas": 928,
-   "entrada": 2996758,
-   "saida": 1150675
+   "chamadas": 931,
+   "entrada": 3005842,
+   "saida": 1154123
   },
   "cloudflare": {
-   "chamadas": 592,
-   "entrada": 2055670,
-   "saida": 219632
+   "chamadas": 595,
+   "entrada": 2065448,
+   "saida": 220745
   },
   "mistral": {
    "chamadas": 0,
