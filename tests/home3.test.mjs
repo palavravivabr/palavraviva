@@ -43,3 +43,18 @@ test('sem dicas de uso no carrossel e sem rede nem armazenamento novo', () => {
   assert.ok(!/Toque em um vers[íi]culo para destacar.*carrossel/i.test(s));
   assert.ok(!/indexedDB|localStorage|XMLHttpRequest/.test(s)); assert.ok(!/https?:\/\/(?!www\.w3\.org)/.test(s));
 });
+
+test('grupos de livros cobrem os 66 livros, sem sobra nem repetição', () => {
+  const { grupoDe, GRUPOS } = createRequire(import.meta.url)('../src/home3.js');
+  for (let i = 1; i <= 66; i++) { const g = grupoDe(String(i)); assert.ok(g, 'livro ' + i + ' sem grupo'); }
+  assert.equal(grupoDe('67'), null);
+  assert.equal(grupoDe('19').id, 'poes');   // Salmos
+  assert.equal(grupoDe('40').id, 'evan');   // Mateus
+  assert.equal(GRUPOS.reduce((n, g) => n + (g.fim - g.ini + 1), 0), 66);
+});
+
+test('home mostra dois estudos em destaque, não três', () => {
+  const s = readFileSync(join(root, 'src/home3.js'), 'utf8');
+  assert.ok(/escolherEstudos\(m && m\.passages, dia, 2\)/.test(s));
+  assert.ok(!/escolherEstudos\(m && m\.passages, dia, 3\)/.test(s));
+});
