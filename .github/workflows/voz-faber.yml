@@ -44,6 +44,11 @@
 }
 },
 {
+"name": "Python 3.11 (piper-phonemize não tem pacote para Python 3.12)",
+"uses": "actions/setup-python@v5",
+"with": {"python-version": "3.11"}
+},
+{
 "name": "Instalar Piper",
 "run": "pip install piper-tts==1.2.0\nsudo apt-get update -y && sudo apt-get install -y ffmpeg"
 },

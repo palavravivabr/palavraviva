@@ -8,7 +8,7 @@ on:
         default: '40,41,42,43'
       vozes:
         description: 'Vozes: jeff,faber,cadu,dora,alex'
-        default: 'jeff,dora'
+        default: 'faber'
   push:
     paths: ['.github/workflows/biblia-voz.yml']
 permissions:
@@ -25,7 +25,7 @@ jobs:
           python3 - <<'PY' >> "$GITHUB_OUTPUT"
           import json,os
           livros='${{ github.event.inputs.livros || '40,41,42,43' }}'.split(',')
-          vozes='${{ github.event.inputs.vozes || 'jeff,dora' }}'.split(',')
+          vozes='${{ github.event.inputs.vozes || 'faber' }}'.split(',')
           inc=[{'voz':v.strip(),'livro':l.strip(),'engine':'kokoro' if v.strip() in('dora','alex','santa') else 'piper'} for v in vozes for l in livros]
           print('matriz='+json.dumps({'include':inc}))
           PY
@@ -39,6 +39,11 @@ jobs:
       matrix: ${{ fromJSON(needs.prep.outputs.matriz) }}
     steps:
       - uses: actions/checkout@v4
+      - name: Python 3.11 (piper-phonemize não tem pacote para Python 3.12)
+        if: matrix.engine == 'piper'
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
       - name: Dependencias
         run: |
           sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg espeak-ng
