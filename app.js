@@ -152,6 +152,9 @@
 
   /* ---------- pacotes de conteúdo ---------- */
   var manifest = null, pkgBy = {};
+  /* estudos ocultos enquanto a fabricação está pausada (ficam com capa desenhada). Para mostrar de novo, esvazie a lista. */
+  var ESTUDOS_OCULTOS = ['19-63-1-11', '19-64-1-10', '19-66-1-10'];
+  function semOcultos(m) { if (m && m.passages) m.passages = m.passages.filter(function (p) { return ESTUDOS_OCULTOS.indexOf(p.id) < 0; }); return m; }
   function indexManifest() { pkgBy = {}; (manifest.packages || []).forEach(function (p) { pkgBy[p.path] = p; }); }
   /* ---------- traduções bíblicas (BLIVRE é a padrão; as demais vêm em manifest.versions) ---------- */
   var curVer = lsGet('pv_versao', 'blivre');
@@ -1579,7 +1582,7 @@
       });
     });
     window.addEventListener('online', function () {
-      syncManifest().then(function (m) { if (m && manifest && m.generation !== manifest.generation) { manifest = m; indexManifest(); if (curState.v === 'home') render(curState); } }, function () { /* ok */ });
+      syncManifest().then(function (m) { if (m && manifest && m.generation !== manifest.generation) { manifest = semOcultos(m); indexManifest(); if (curState.v === 'home') render(curState); } }, function () { /* ok */ });
     });
   }
 
@@ -1621,12 +1624,12 @@
     }
     try {
       if (stored && stored.bible) {
-        manifest = stored; showFirst();
+        manifest = semOcultos(stored); showFirst();
         /* a verificação de novidades espera a tela abrir e o aparelho sossegar: não disputa a partida */
-        setTimeout(function () { syncManifest().then(function (m) { if (m && manifest && m.generation !== manifest.generation) { manifest = m; indexManifest(); if (curState && curState.v === 'home') render(curState); } }, function () { /* sem internet: segue com o guardado */ }); }, 4000);
+        setTimeout(function () { syncManifest().then(function (m) { if (m && manifest && m.generation !== manifest.generation) { manifest = semOcultos(m); indexManifest(); if (curState && curState.v === 'home') render(curState); } }, function () { /* sem internet: segue com o guardado */ }); }, 4000);
       } else {
         await cfgDone;
-        manifest = await syncManifest();
+        manifest = semOcultos(await syncManifest());
         if (!manifest) throw new Error('Sem conexão e sem conteúdo guardado. Abra o app uma vez com internet.');
         showFirst();
       }
