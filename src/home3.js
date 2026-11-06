@@ -80,7 +80,8 @@
       mail: '<rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/>',
       shr: '<path d="M7 17 17 7M9 7h8v8"/>',
       inst: '<rect x="6" y="3" width="12" height="18" rx="2.5"/><path d="M11 17h2"/>',
-      x: '<path d="M6 6l12 12M18 6 6 18"/>'
+      x: '<path d="M6 6l12 12M18 6 6 18"/>',
+      aa: '<path d="M3 19l5-13 5 13M5.2 14h5.6"/><path d="M15 19l3-8 3 8M16.2 16.5h3.6"/>'
     };
     var svg = function (k, w) { return '<svg viewBox="0 0 24 24" width="' + (w || 22) + '" height="' + (w || 22) + '" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">' + ICO[k] + '</svg>'; };
     var el = function (tag, cls, txt) { var e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; };
@@ -130,15 +131,26 @@
       '.pm-top i{display:block;font:italic 500 14px var(--serif);color:var(--soft);margin-top:3px}' +
       '.pm-x{flex:none;width:46px;height:46px;border-radius:50%;background:var(--ink);color:#fff;display:grid;place-items:center;border:2px solid var(--gold)}' +
       '.pm-rule{height:2px;background:linear-gradient(90deg,transparent,var(--gold),transparent);margin:2px 0 12px;opacity:.8}' +
-      '.pm-cat{display:flex;align-items:center;gap:10px;margin:14px 0 4px;padding:0 14px;min-height:40px;border-radius:14px;background:var(--ink);color:#f6ecd0;font:800 13px var(--ui);letter-spacing:.12em;text-transform:uppercase}' +
       '.pm-it{display:flex;align-items:center;gap:14px;width:100%;min-height:50px;padding:0 10px 0 14px;background:none;color:var(--text);font:600 16px var(--serif);text-align:left;border-bottom:1px solid var(--line)}' +
       '.pm-it svg{flex:none;color:var(--accent)}' +
+      '.pm-grp{margin:0 0 4px}.pm-corpo[hidden]{display:none}.pm-cat{display:flex;align-items:center;gap:10px;width:100%;min-height:50px;border:0;border-radius:14px;padding:0 14px;margin:6px 0;background:var(--ink);color:#FCF8EE;font:800 14px var(--ui);letter-spacing:.06em;text-transform:uppercase;text-align:left}.pm-cat svg{color:#E3B96F}.pm-cat em{margin-left:auto;font-style:normal;font-size:18px}' +
+      '.pm-faixa{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin:14px 0 8px;padding:10px 6px;border-radius:16px;background:var(--card)}.pm-f{min-height:56px;border:0;background:none;color:var(--text);font:700 11px var(--ui);text-align:center}' +
       '.pm-it span{flex:1}' +
       '.pm-it em{font-style:normal;font-size:22px;color:var(--soft)}' +
       '.pm-ft{margin:18px 4px 0;padding:12px 14px;border-radius:16px;text-align:center;font:italic 600 15px/1.3 var(--serif);color:var(--ink);background:linear-gradient(135deg,#f0d994,#e0b862)}' +
       '.pm-how h3{font:700 22px var(--serif);margin:6px 0 10px;color:var(--text)}' +
       '.pm-how p{font-size:15px;line-height:1.5;margin:0 0 10px;color:var(--text)}' +
       '.pm-how p b{color:var(--accent)}' +
+      '.pm-it small{display:block;font:500 13px/1.3 var(--ui);color:var(--soft);margin-top:2px}' +
+      '.pm-faixa{gap:0!important;grid-template-columns:minmax(0,1.25fr) minmax(0,.8fr) minmax(0,1.25fr) minmax(0,1fr)!important;padding:8px 4px!important}' +
+      '.pm-f{min-height:58px;padding:4px 0;border:0;border-radius:12px;background:none;color:var(--text);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;min-width:0}' +
+      '.pm-f svg{color:var(--accent)}' +
+      '.pm-f span{font:700 11px/1.15 var(--ui);text-align:center;white-space:nowrap}' +
+      '.pm-f:last-child span{white-space:normal;overflow-wrap:normal}' +
+      '.pm-f[aria-expanded="true"]{background:var(--gold-soft)}' +
+      '.pm-fsr{display:flex;align-items:center;gap:10px;margin:8px 0 0;padding:10px 14px;border-radius:16px;background:var(--card)}' +
+      '.pm-fsr[hidden]{display:none}.pm-fsr input{flex:1;min-width:0;accent-color:var(--gold)}' +
+      '.pm-fsr .pa{font-size:14px;color:var(--text)}.pm-fsr .pb{font-size:22px;color:var(--text)}' +
       '@media (prefers-reduced-motion:reduce){#pvMenu .pm-sh,#pvMenu .pm-bg{transition:none}}';
     document.head.appendChild(st);
 
@@ -203,8 +215,8 @@
         ['Bíblia', 'bib', [['Ler a Bíblia', 'bib', function () { nav({ v: 'bible' }); }], ['Buscar livro ou palavra', 'busca', function () { nav({ v: 'search' }); }]]],
         ['Aprender', 'est', [['Estudos bíblicos', 'est', function () { nav({ v: 'ens' }); }], ['Plano de leitura', 'plano', function () { nav({ v: 'plano' }); }]]],
         ['Minha Palavra', 'dest', [['Jornada', 'jor', marcas('Jornada')], ['Destaques', 'dest', marcas('Destaques')], ['Notas', 'nota', marcas('Notas')]]],
-        ['Preferências', 'cfg', [['Áudio e vozes', 'audio', clicar('.ditem[data-d=audio]')], ['Configurações', 'cfg', clicar('.ditem[data-d=cfg]')], ['Como usar o Palavra Viva', 'info', 'how']]],
-        ['O projeto', 'cor', [].concat(bless && !bless.hidden ? [['Abençoe este Projeto', 'cor', clicar('#blessItem')]] : [], [['Contato e suporte', 'mail', clicar('.ditem[data-d=contact]')], ['Compartilhar aplicativo', 'shr', clicar('.ditem[data-d=shr]')], ['Instalar aplicativo', 'inst', clicar('.ditem[data-d=inst]')], ['Sobre', 'info', clicar('.ditem[data-d=about]')]])]
+        ['Preferências', 'cfg', [['Áudio e vozes', 'audio', clicar('.ditem[data-d=audio]')], ['Como usar o Palavra Viva', 'info', 'how']]],
+        ['O projeto', 'cor', [].concat(bless && !bless.hidden ? [['Abençoe este Projeto', 'cor', clicar('#blessItem')]] : [], [['Contato, suporte e parcerias', 'mail', clicar('.ditem[data-d=contact]'), 'Parcerias e colaboração'], ['Sobre', 'info', clicar('.ditem[data-d=about]')]])]
       ];
     };
     var topo = function (sub) {
@@ -225,21 +237,46 @@
     };
     var montar = function () {
       sh.textContent = ''; topo();
+      var abertos = { 'Bíblia': true };
       itens().forEach(function (c) {
-        var cat = el('div', 'pm-cat'); cat.innerHTML = svg(c[1], 20); cat.appendChild(document.createTextNode(c[0])); sh.appendChild(cat);
+        var grupo = el('div', 'pm-grp');
+        var cat = el('button', 'pm-cat'); cat.type = 'button'; cat.setAttribute('aria-expanded', abertos[c[0]] ? 'true' : 'false');
+        cat.innerHTML = svg(c[1], 20); cat.appendChild(document.createTextNode(c[0]));
+        var seta = el('em', null, abertos[c[0]] ? '⌃' : '⌄'); cat.appendChild(seta);
+        var corpo = el('div', 'pm-corpo'); corpo.hidden = !abertos[c[0]];
+        cat.addEventListener('click', function () { var abre = corpo.hidden; corpo.hidden = !abre; cat.setAttribute('aria-expanded', abre ? 'true' : 'false'); seta.textContent = abre ? '⌃' : '⌄'; });
+        grupo.appendChild(cat);
         c[2].forEach(function (i) {
-          var b = el('button', 'pm-it'); b.type = 'button'; b.innerHTML = svg(i[1]) + '<span></span><em>›</em>'; b.querySelector('span').textContent = i[0];
-          b.addEventListener('click', function () { if (i[2] === 'how') { comoUsar(); return; } fechar(); setTimeout(i[2], 60); }); sh.appendChild(b);
+          var b = el('button', 'pm-it'); b.type = 'button'; b.innerHTML = svg(i[1]) + '<span></span><em>›</em>'; var sp = b.querySelector('span'); sp.textContent = i[0]; if (i[3]) sp.appendChild(el('small', null, i[3]));
+          b.addEventListener('click', function () { if (i[2] === 'how') { comoUsar(); return; } fechar(); setTimeout(i[2], 60); }); corpo.appendChild(b);
         });
+        grupo.appendChild(corpo); sh.appendChild(grupo);
       });
+      var faixa = el('div', 'pm-faixa');
+      /* o controle de tamanho usa o mesmo campo (#fsRange) e a mesma lógica da gaveta antiga: nada é duplicado */
+      var fsBox = el('div', 'pm-fsr'); fsBox.hidden = true;
+      var fsIn = el('input'); fsIn.type = 'range'; fsIn.min = '1'; fsIn.max = '1.5'; fsIn.step = '0.025'; fsIn.id = 'pmFs'; fsIn.setAttribute('aria-label', 'Tamanho da letra');
+      fsBox.appendChild(el('span', 'pa', 'A')); fsBox.appendChild(fsIn); fsBox.appendChild(el('span', 'pb', 'A'));
+      fsIn.addEventListener('input', function () { var r = $('#fsRange'); if (!r) return; r.value = fsIn.value; r.dispatchEvent(new Event('input')); });
+      var fsAtual = function () { var r = $('#fsRange'); if (r) fsIn.value = r.value; };
+      [['Configurações', 'cfg', clicar('.ditem[data-d=cfg]')], ['Instalar', 'inst', clicar('.ditem[data-d=inst]')], ['Compartilhar', 'shr', clicar('.ditem[data-d=shr]')], ['Tamanho da letra', 'aa', null]].forEach(function (f) {
+        var x = el('button', 'pm-f'); x.type = 'button'; x.innerHTML = svg(f[1], 22); x.appendChild(el('span', null, f[0]));
+        if (f[2]) { x.addEventListener('click', function () { fechar(); setTimeout(f[2], 60); }); }
+        else {
+          x.setAttribute('aria-expanded', 'false');
+          x.addEventListener('click', function () { var abre = fsBox.hidden; if (abre) fsAtual(); fsBox.hidden = !abre; x.setAttribute('aria-expanded', String(abre)); if (abre) fsIn.focus({ preventScroll: true }); });
+        }
+        faixa.appendChild(x);
+      });
+      sh.appendChild(faixa); sh.appendChild(fsBox);
       sh.appendChild(el('div', 'pm-ft', 'Uma jornada diária com as Escrituras'));
     };
     bg.addEventListener('click', fechar);
     document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && painel.classList.contains('on')) fechar(); });
     var app = $('#app'); if (app) app.appendChild(painel);
-    /* intercepta o botão antes do tratador antigo (que abria a gaveta); a aba Menu de baixo não é afetada */
+    /* hambúrguer e aba Menu de baixo abrem este mesmo painel, antes do tratador antigo (que abria a gaveta) */
     document.addEventListener('click', function (e) {
-      var mb = e.target.closest && e.target.closest('#menuBtn'); if (!mb) return;
+      var mb = e.target.closest && e.target.closest('#menuBtn, .nav button[data-tab="drawer"]'); if (!mb) return;
       e.stopPropagation(); e.preventDefault(); montar(); abrir();
     }, true);
   }
