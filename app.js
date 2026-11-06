@@ -1288,8 +1288,8 @@
   }
   function contactModal() {
     var mail = cfg.contactEmail;
-    modal([mtag('Fale conosco', true), h('h2', { text: 'Contato e suporte' }), h('p', { style: 'text-align:center', text: 'Para dúvidas, sugestões ou suporte, escreva para:' }),
-      h('p', { style: 'text-align:center' }, [h('a', { href: 'mailto:' + mail, text: mail })]),
+    modal([mtag('Fale conosco', true), h('h2', { text: 'Contato, suporte e parcerias' }), h('p', { style: 'text-align:center', text: 'Escolha o assunto e envie sua mensagem:' }),
+      h('div', { style: 'display:grid;gap:10px' }, [['Suporte', 'Ajuda com o app'], ['Parceria', 'Proposta de colaboração'], ['Outros', 'Dúvida ou sugestão']].map(function (x) { return h('a', { href: 'mailto:' + mail + '?subject=' + encodeURIComponent('Palavra Viva – ' + x[1]), style: 'display:block;padding:12px;border-radius:14px;background:var(--card-2);color:var(--text);text-decoration:none;font-weight:700', text: x[0] + ' · ' + x[1] }); })),
       h('button', { class: 'big', type: 'button', text: 'Copiar e-mail', onclick: function () { copy(mail, 'E-mail copiado'); } })]);
   }
   function blessModal() {
