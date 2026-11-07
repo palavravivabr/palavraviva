@@ -1,0 +1,49 @@
+name: Aplicar alterações de áudio e textos
+
+# Roda quando o patch é enviado a patches/. Aplica o patch de código, corrige a tipografia
+# dos textos, regenera os pacotes de conteúdo, valida e registra o resultado no mesmo branch.
+on:
+  push:
+    paths: ['patches/**']
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  aplicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Aplicar patch de código
+        run: |
+          rm -f "src/ui-extra.js (1).txt" "src/ui-extra.js (2).txt" "src/ui-extra.js.txt"
+          git apply --verbose patches/codigo-audio.patch
+
+      - name: Corrigir tipografia dos textos
+        run: |
+          node scripts/normaliza-1.js . --gravar
+          node scripts/normaliza-2.js .
+          rm -f scripts/mudancas.json
+
+      - name: Gerar pacotes de conteúdo e validar
+        run: |
+          node scripts/build-manifest.mjs .
+          node scripts/validate-content.mjs .
+
+      - name: Registrar no branch
+        run: |
+          rm -rf patches
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          if git diff --cached --quiet; then echo 'Nada a registrar.'; exit 0; fi
+          git commit -m 'textos e áudio: patch de código aplicado, tipografia corrigida e pacotes regenerados'
+          git push
