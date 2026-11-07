@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import { createRequire } from 'node:module';
 
 const require = createRequire(import.meta.url);
-const { falaRefs } = require('../src/palavra-dia.js');
+const { falaRefs, roteiro } = require('../src/palavra-dia.js');
 
 test('referência com intervalo: "versículos X ao Y"', () => {
   assert.equal(falaRefs('Efésios 2:3-7'), 'Efésios capítulo dois, versículos três ao sete');
@@ -32,4 +32,22 @@ test('lista de versículos com vírgula', () => {
 
 test('intervalo de dois versículos em referência cruzada', () => {
   assert.equal(falaRefs('Isaías 61:1-2'), 'Isaías capítulo sessenta e um, versículos um e dois');
+});
+
+test('intervalo entre capítulos: "do capítulo X, versículo Y, ao capítulo Z, versículo W"', () => {
+  assert.equal(falaRefs('Mateus 11:28-12:2'), 'Mateus do capítulo onze, versículo vinte e oito, ao capítulo doze, versículo dois');
+});
+
+test('nunca fala "menos" nem deixa números de referência no texto', () => {
+  for (const ref of ['Efésios 3:4-7', 'Efésios 3:3-8', 'Mateus 11:3-7', 'Mateus 11:28-12:2', 'Êxodo 13:2,12']) {
+    const f = falaRefs(ref);
+    assert.ok(!f.includes('menos'), ref);
+    assert.ok(!/\d/.test(f), ref);
+  }
+});
+
+test('o cabeçalho da narração diz o capítulo por extenso, sem dois-pontos nem hífen', () => {
+  const r = roteiro({ ref: 'Mateus 11:28-29', c: 11, v: 28, ate: 29, texto: 't', reflexao: 'r', oracao: 'o' });
+  assert.ok(r.startsWith('Palavra do dia. Mateus capítulo onze, versículos vinte e oito ao vinte e nove. '));
+  assert.ok(!/[:\-–]\d|\d[:\-–]/.test(r.slice(0, 80)));
 });
