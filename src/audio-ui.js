@@ -14,10 +14,11 @@
 
   /* ---------- memória das escolhas (vale já na próxima abertura) ---------- */
   var K_VOZ = 'pv4-narr-voz', K_VEL = 'pv4-narr-vel', VELS = [0.75, 1, 1.25, 1.5];
-  var NOMES = { dora: 'Dora', faber: 'Faber', celular: 'Voz do celular' };
+  var NOMES = { faber: 'Faber', celular: 'Voz do celular' };
   function vozPref() {
     var v = ls(K_VOZ, '');
-    if (!v) { var o = ls('pv4-rv', null); v = o === null ? 'dora' : (o === '' ? 'celular' : o); } /* migra a escolha antiga */
+    if (!v) { var o = ls('pv4-rv', null); v = o === null ? 'faber' : (o === '' ? 'celular' : o); } /* migra a escolha antiga */
+    if (v === 'dora') v = 'faber'; /* a voz Dora foi removida */
     return v;
   }
   function velAtual() { var v = parseFloat(ls(K_VEL, '1')); return VELS.indexOf(v) >= 0 ? v : 1; }
@@ -30,7 +31,7 @@
     var pref = vozPref(), gr = noCap();
     function ok(id) { return id === 'celular' ? celularOk() : gr.indexOf(id) >= 0; }
     if (ok(pref)) return pref;
-    var ordem = ['faber', 'dora', 'celular'], i; /* Faber -> Dora -> voz do celular */
+    var ordem = ['faber', 'celular'], i; /* Faber -> voz do celular */
     for (i = 0; i < ordem.length; i++) if (ok(ordem[i])) return ordem[i];
     return null;
   }
@@ -98,11 +99,11 @@
     var r = refs; if (!r || !r.voz.isConnected) return;
     var todas = (window.PVRec && window.PVRec.all) ? window.PVRec.all() : [], pref = vozPref();
     r.voz.replaceChildren();
-    ['faber', 'dora', 'celular'].forEach(function (id) {
+    ['faber', 'celular'].forEach(function (id) {
       var tem = id === 'celular' ? celularOk() : todas.indexOf(id) >= 0;
       var o0 = h('option', { value: id, text: NOMES[id] + (tem ? '' : ' (em breve)') }); if (!tem && id !== pref) o0.disabled = true; r.voz.appendChild(o0);
     });
-    r.voz.value = pref; if (r.voz.value !== pref) r.voz.value = 'dora';
+    r.voz.value = pref; if (r.voz.value !== pref) r.voz.value = 'faber';
     r.vel.replaceChildren(); VELS.forEach(function (v) { r.vel.appendChild(h('option', { value: String(v), text: v + 'x' })); }); r.vel.value = String(velAtual());
     var C = Clima(), e = C ? C.estado() : { on: false, vol: 20 };
     r.sw.setAttribute('aria-checked', String(e.on)); r.st.textContent = e.on ? 'Ligado' : 'Desligado';

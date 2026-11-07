@@ -79,7 +79,7 @@
   if (!tit || typeof Audio === 'undefined') return;
   var idx = null, au = new Audio(), url = null, on = false, auto = false, tk = 0, vozId = null, info = '';
   au.preload = 'auto';
-  var ORDEM = ['dora', 'faber'];
+  var ORDEM = ['faber'];
   function ref() {
     var m = /^(.+?)\s+(\d+)$/.exec((tit.textContent || '').trim()); if (!m || !window.PVBooks) return null;
     var bs = PVBooks.all(), i; for (i = 0; i < bs.length; i++) if (bs[i].name === m[1]) return { b: bs[i].id, c: +m[2], nome: bs[i].name };
