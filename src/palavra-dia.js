@@ -152,16 +152,25 @@
      "Lucas 5:3-4" -> "Lucas capítulo cinco, versículos três e quatro"; "João 3:16" -> "João capítulo três, versículo dezesseis".
      Sem isso a voz lê "2:3" como horário. Em "Salmos" não se diz "capítulo", como na referência falada. */
   function falaRefs(t) {
-    return String(t).replace(/(\d{1,3}):(\d{1,3}(?:\s*[-–]\s*\d{1,3})?(?:\s*,\s*\d{1,3}(?:\s*[-–]\s*\d{1,3})?)*)/g, function (m, c, lista, off, s) {
+    return String(t).replace(/(\d{1,3}):(\d{1,3})(?:\s*[-–]\s*(\d{1,3})(?::(\d{1,3}))?)?((?:\s*,\s*\d{1,3}(?:\s*[-–]\s*\d{1,3})?)*)/g, function (m, c, v, a, b, resto, off, s) {
+      /* intervalo entre capítulos ("11:28-12:2"): "do capítulo onze, versículo vinte e oito, ao capítulo doze, versículo dois" */
+      if (b !== undefined) {
+        if (resto) return m;
+        return 'do capítulo ' + numPt(parseInt(c, 10)) + ', versículo ' + numPt(parseInt(v, 10)) + ', ao capítulo ' + numPt(parseInt(a, 10)) + ', versículo ' + numPt(parseInt(b, 10));
+      }
       var cap = /Salmos\s*$/.test(s.slice(0, off)) ? '' : 'capítulo ';
-      var partes = lista.split(/\s*,\s*/).map(function (p) {
-        var r = p.split(/\s*[-–]\s*/), ini = parseInt(r[0], 10), fim = r[1] ? parseInt(r[1], 10) : 0;
-        if (fim <= ini) return numPt(ini);
-        return fim === ini + 1 ? numPt(ini) + ' e ' + numPt(fim) : numPt(ini) + ' ao ' + numPt(fim);
+      var itens = [{ ini: parseInt(v, 10), fim: a !== undefined ? parseInt(a, 10) : 0 }];
+      (resto.match(/\d{1,3}(?:\s*[-–]\s*\d{1,3})?/g) || []).forEach(function (p) {
+        var r = p.split(/\s*[-–]\s*/);
+        itens.push({ ini: parseInt(r[0], 10), fim: r[1] ? parseInt(r[1], 10) : 0 });
+      });
+      var partes = itens.map(function (it) {
+        if (it.fim <= it.ini) return numPt(it.ini);
+        return it.fim === it.ini + 1 ? numPt(it.ini) + ' e ' + numPt(it.fim) : numPt(it.ini) + ' ao ' + numPt(it.fim);
       });
       var txt = partes.length === 1 ? partes[0] : partes.slice(0, -1).join(', ') + ' e ' + partes[partes.length - 1];
-      var unico = partes.length === 1 && !/[-–]/.test(lista) && !/,/.test(lista);
-      return cap + numPt(parseInt(c, 10)) + ', ' + (unico ? 'versículo ' : 'versículos ') + txt;
+      var plural = a !== undefined || !!resto;
+      return cap + numPt(parseInt(c, 10)) + ', ' + (plural ? 'versículos ' : 'versículo ') + txt;
     });
   }
   function refFalada(e) {
@@ -177,8 +186,8 @@
     return { titulo: 'Sua Palavra do Dia chegou!', corpo: '“' + t + '” — ' + e.ref + String.fromCharCode(10) + 'Toque para ler a mensagem completa', url: './?pdia=' + idx };
   }
   function roteiro(e) {
-    /* na narração, "Amém" é dito "Amein"; o texto da tela continua igual */
-    return ['Palavra do dia.', refFalada(e) + '.', falaRefs(e.texto), 'Reflexão.', falaRefs(e.reflexao), 'Oração.', falaRefs(e.oracao), 'Amein.'].join(' ');
+    /* o texto da tela e a narração dizem "Amém." (segmento próprio, usado também na legenda) */
+    return ['Palavra do dia.', refFalada(e) + '.', falaRefs(e.texto), 'Reflexão.', falaRefs(e.reflexao), 'Oração.', falaRefs(e.oracao), 'Amém.'].join(' ');
   }
 
   var IMGS = ['assets/hero-dawn.jpg', 'assets/hero-reading.jpg', 'assets/hero-bible.jpg'];
@@ -270,7 +279,7 @@
   }
   /* voz gravada (Piper, voz Jeff): sem o arquivo, usa a voz do aparelho */
   var VOZ_FARBER = true;
-  function arquivoVoz(e) { return 'assets/voz/j-' + e.b + '-' + e.c + '-' + e.v + '.mp3'; }
+  function arquivoVoz(e) { return 'assets/voz/k-' + e.b + '-' + e.c + '-' + e.v + '.mp3'; }
   async function urlVoz(e) {
     var src = arquivoVoz(e), c = await caches.open('pv4-media'), r = await c.match(src);
     if (!r) { r = await fetch(src); if (!r.ok) throw new Error('sem arquivo'); await c.put(src, r.clone()); }
