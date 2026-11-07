@@ -1,0 +1,129 @@
+{
+  "id": "19-3-1-8",
+  "ref": "Salmos 3:1-8",
+  "book": "19",
+  "chapter": 3,
+  "verses": [
+    {
+      "n": 1,
+      "t": "Ah SENHOR, como têm se multiplicado meus adversários! Muitos se levantam contra mim."
+    },
+    {
+      "n": 2,
+      "t": "Muitos dizem de minha alma: Não há salvação para ele em Deus. (Selá)"
+    },
+    {
+      "n": 3,
+      "t": "Porém tu, SENHOR, és escudo para mim; minha glória, e o que levanta minha cabeça."
+    },
+    {
+      "n": 4,
+      "t": "Com minha voz eu clamei ao SENHOR; e ele me ouviu desde o monte de sua santidade. (Selá)"
+    },
+    {
+      "n": 5,
+      "t": "Eu me deitei, e dormi; acordei, porque o SENHOR me sustentava."
+    },
+    {
+      "n": 6,
+      "t": "Eu não temerei ainda que sejam dez mil pessoas que se ponham ao redor de mim."
+    },
+    {
+      "n": 7,
+      "t": "Levanta-te, SENHOR, salva-me, meu Deus; pois feriste os queixos de todos meus inimigos; e quebraste os dentes dos maus."
+    },
+    {
+      "n": 8,
+      "t": "A salvação vem do SENHOR; sobre o teu povo seja tua bênção. (Selá)"
+    }
+  ],
+  "titulo": "Dormir em paz quando o medo grita",
+  "temas": [
+    "ansiedade",
+    "confiança",
+    "descanso",
+    "proteção"
+  ],
+  "pergunta": "O que você costuma fazer quando a preocupação toma conta da sua cabeça à noite?",
+  "entender": "Este salmo começa com um grito de angústia. O salmista sente-se cercado: seus inimigos são muitos e eles zombam dele, dizendo que Deus não o salvará. É a sensação real de estar sozinho contra o mundo, onde a opinião alheia parece mais forte que a fé. A pressão é enorme, e o medo de não dar conta de tudo é palpável.\n\nMas o texto muda de direção. Em vez de focar no tamanho dos inimigos, o salmista fixa o olhar no tamanho de Deus. Ele chama o Senhor de escudo e glória. O resultado prático é surpreendente: depois de clamar, ele se deita e dorme. Não porque a ameaça desapareceu, mas porque encontrou sustentação. A paz não vem da ausência de problemas, mas da presença de Deus.",
+  "ligar": {
+    "texto": "Jesus é a resposta definitiva a esse clamor. Ele disse que veio para dar vida em abundância e paz. No Getsêmani, mesmo diante da dor extrema, Ele confiou ao Pai. Sua morte e ressurreição quebraram o poder da morte e do medo que nos cercam. Assim como o salmista encontrou descanso em Deus, nós encontramos em Cristo a segurança de que, mesmo cercados, não estamos sozinhos.",
+    "selo": false
+  },
+  "viver": "Tente praticar o que o salmista fez: antes de dormir, liste mentalmente suas maiores preocupações e entregue cada uma ao Senhor com uma oração curta. Em vez de revirar a cama pensando em soluções, repita em seu coração: \"O Senhor me sustenta\". Se a ansiedade voltar, lembre-se de que a paz do salmista não veio da eliminação imediata dos problemas, mas da confiança de que Deus está no controle. Permita-se descansar na certeza de que Ele cuida de você enquanto você dorme.",
+  "guarde": "A paz não depende da ausência de tempestades, mas da confiança de que Deus sustenta.",
+  "ore": "Senhor, como o salmista, eu clamo a Ti quando muitos se levantam contra mim. Ensina-me a confiar em Ti como meu escudo. Que eu possa me deitar e dormir em paz, sabendo que Tu me sustentas, mesmo quando o medo tenta me dominar.",
+  "quiz": {
+    "pergunta": "Por que o salmista conseguiu dormir e acordar em paz?",
+    "opcoes": [
+      "Porque confiou que o Senhor o sustentava.",
+      "Porque seus inimigos desistiram de atacá-lo.",
+      "Porque ele tomou remédios para dormir."
+    ],
+    "certa": 0,
+    "explicacao": "O texto afirma claramente que ele acordou porque o Senhor o sustentava, indicando que a paz veio da confiança em Deus, não da resolução externa dos conflitos."
+  },
+  "refs": [
+    "João 14:27",
+    "Filipenses 4:6-7",
+    "Isaías 26:3"
+  ],
+  "audit": {
+    "generator": {
+      "model": "qwen/qwen3.8-27b",
+      "family": "alibaba"
+    },
+    "auditors": [
+      {
+        "model": "gemini-3.8-flash",
+        "family": "google"
+      },
+      {
+        "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "family": "meta"
+      }
+    ],
+    "gates": {
+      "TARGET_FIDELITY": "P",
+      "CONTEXT_FIDELITY": "P",
+      "REFERENCE_BOUNDARY": "P",
+      "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+      "GENRE_COMPATIBILITY": "P",
+      "NARRATIVE_EVENT_CONSISTENCY": "P",
+      "TEMPORAL_SEQUENCE": "P",
+      "PERSON_ENTITY_CONSISTENCY": "P",
+      "QUOTATION_BOUNDARY": "P",
+      "UNSUPPORTED_CLAIM": "P",
+      "OVERINTERPRETATION": "P",
+      "DOCTRINAL_OVERREACH": "P",
+      "CHRISTOLOGICAL_FORCE": "P",
+      "PROMISE_SCOPE": "P",
+      "COVENANT_SCOPE": "P",
+      "COMMAND_SCOPE": "P",
+      "PROPHECY_SCOPE": "P",
+      "MIRACLE_SCOPE": "P",
+      "BLESSING_SCOPE": "P",
+      "JUDGMENT_SCOPE": "P",
+      "PRAYER_FIDELITY": "P",
+      "FASTING_SCOPE": "P",
+      "APPLICATION_FIDELITY": "P",
+      "PASTORAL_SAFETY": "P",
+      "ABUSE_SAFETY": "P",
+      "MEDICAL_SAFETY": "P",
+      "FINANCIAL_SAFETY": "P",
+      "NO_PERSONAL_PROPHECY": "P",
+      "NO_FALSE_DIVINE_SPEECH": "P",
+      "NO_TEMPLATE_LANGUAGE": "P",
+      "NO_LITERAL_REPETITION": "P",
+      "NO_STRUCTURAL_REPETITION": "P",
+      "NO_GENERIC_APPLICATION": "P",
+      "NO_GENERIC_PRAYER": "P",
+      "CROSS_SECTION_CONSISTENCY": "P",
+      "LANGUAGE_CLARITY": "P"
+    },
+    "humanReviewed": false,
+    "contractVersion": "pv-ensino-1",
+    "auditedAt": "2026-11-02T10:17:45.519Z",
+    "rounds": 1
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "id": "19-64-1-10",
+  "ref": "Salmos 64:1-10",
+  "book": "19",
+  "chapter": 64,
+  "verses": [
+    {
+      "n": 1,
+      "t": "Ouve, Deus, minha voz, em minha meditação de súplica; guarda minha vida do terror do inimigo."
+    },
+    {
+      "n": 2,
+      "t": "Esconde-me do grupo dos malignos, e do ajuntamento dos praticantes de maldade,"
+    },
+    {
+      "n": 3,
+      "t": "Que afiam sua língua como se fosse espada; e armaram palavras amargas como se fossem flechas."
+    },
+    {
+      "n": 4,
+      "t": "Para atirarem no inocente às escondidas; disparam apressadamente contra ele, e não têm medo."
+    },
+    {
+      "n": 5,
+      "t": "Eles são ousados para fazerem coisas más, comentam sobre como esconder armadilhas, e dizem: Quem as verá?"
+    },
+    {
+      "n": 6,
+      "t": "Eles buscam por perversidades; procuram tudo o que pode ser procurado, até o interior de cada homem, e as profundezas do coração."
+    },
+    {
+      "n": 7,
+      "t": "Mas Deus os atingirá com flecha de repente; e logo serão feridos."
+    },
+    {
+      "n": 8,
+      "t": "E a língua deles fará com que tropecem em si mesmos; todo aquele que olhar para eles se afastará."
+    },
+    {
+      "n": 9,
+      "t": "E todos os homens terão medo, e anunciarão a obra de Deus, e observarão cuidadosamente o que ele fez."
+    },
+    {
+      "n": 10,
+      "t": "O justo se alegará no SENHOR, e confiará nele; e todos os corretos de coração o glorificarão."
+    }
+  ],
+  "titulo": "Quando a língua vira arma contra você",
+  "temas": [
+    "proteção",
+    "linguagem",
+    "justiça",
+    "confiança"
+  ],
+  "pergunta": "Você já sentiu que palavras ferem mais do que golpes físicos?",
+  "entender": "Este salmo descreve a dor de quem é alvo de maldades escondidas. O salmista pede a Deus que o guarde do terror dos inimigos e o esconda do grupo dos malignos. Ele usa imagens fortes: a língua desses homens é afiada como espada e suas palavras são comparadas a flechas amargas. Não são apenas opiniões; são ataques deliberados, feitos às escondidas, sem medo de Deus.\n\nO texto revela a natureza cruel da maldade: ela busca perversidades, esconde armadilhas e investiga até o interior do coração humano. Mas a resposta divina é certa. Deus atingirá os malfeitores com a própria língua deles, fazendo com que tropecem em suas próprias palavras. O resultado final não é vingança cega, mas a revelação da obra de Deus, levando os homens a temê-lo e o justo a se alegrar no Senhor.",
+  "ligar": {
+    "texto": "Jesus viveu exatamente o que este salmo descreve. Na cruz, Ele foi alvo de línguas afiadas, acusações falsas e maldades escondidas por religiosos e autoridades. Ele sofreu o terror do inimigo e as flechas amargas da rejeição humana. No entanto, Jesus não se vingou. Ele entregou-se à justiça de Deus. Sua morte e ressurreição mostram que a última palavra não é da maldade, mas da graça. Através de Cristo, o justo pode confiar plenamente, pois a obra de Deus na cruz já venceu a armadilha do pecado.",
+    "selo": false
+  },
+  "viver": "Ao perceber que a língua dos outros pode ser uma arma, não reaja com a mesma moeda. O salmo nos ensina que a maldade busca esconder-se, mas Deus vê tudo. Em vez de guardar rancor ou planejar retaliações, entregue essa dor a Deus. Quando alguém te ferir com palavras, lembre-se de que Deus conhece as profundezas do seu coração e defende o inocente. Pratique a confiança: ore pedindo proteção não apenas da situação, mas da sua paz interior, sabendo que a justiça final pertence a Ele, não a você.",
+  "guarde": "A língua do mal tropeça em si mesma, mas a confiança no Senhor permanece firme.",
+  "ore": "Deus, que conheces as profundezas do meu coração, guarda-me do terror dos inimigos. Esconde-me das armadilhas da maldade e das flechas amargas da língua humana. Que a minha confiança esteja em Ti, e que eu possa me alegrar na Tua obra, mesmo quando as palavras dos outros tentam me ferir. Amém.",
+  "quiz": {
+    "pergunta": "O que o salmo diz que Deus fará com a língua dos malfeitores?",
+    "opcoes": [
+      "Silenciará todos os que falam contra o justo",
+      "Transformará a língua deles em ouro",
+      "Fará com que tropecem em si mesmos"
+    ],
+    "certa": 2,
+    "explicacao": "O versículo 8 afirma explicitamente que a língua deles fará com que tropecem em si mesmos, indicando que as próprias palavras malignas se voltarão contra os seus autores."
+  },
+  "refs": [
+    "Provérbios 18:21",
+    "Salmos 56:5-6",
+    "Mateus 5:44"
+  ],
+  "audit": {
+    "generator": {
+      "model": "qwen/qwen3.8-27b",
+      "family": "alibaba"
+    },
+    "auditors": [
+      {
+        "model": "gemini-3.5-flash",
+        "family": "google"
+      },
+      {
+        "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "family": "meta"
+      }
+    ],
+    "gates": {
+      "TARGET_FIDELITY": "P",
+      "CONTEXT_FIDELITY": "P",
+      "REFERENCE_BOUNDARY": "P",
+      "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+      "GENRE_COMPATIBILITY": "P",
+      "NARRATIVE_EVENT_CONSISTENCY": "P",
+      "TEMPORAL_SEQUENCE": "P",
+      "PERSON_ENTITY_CONSISTENCY": "P",
+      "QUOTATION_BOUNDARY": "P",
+      "UNSUPPORTED_CLAIM": "P",
+      "OVERINTERPRETATION": "P",
+      "DOCTRINAL_OVERREACH": "P",
+      "CHRISTOLOGICAL_FORCE": "P",
+      "PROMISE_SCOPE": "P",
+      "COVENANT_SCOPE": "P",
+      "COMMAND_SCOPE": "P",
+      "PROPHECY_SCOPE": "P",
+      "MIRACLE_SCOPE": "P",
+      "BLESSING_SCOPE": "P",
+      "JUDGMENT_SCOPE": "P",
+      "PRAYER_FIDELITY": "P",
+      "FASTING_SCOPE": "P",
+      "APPLICATION_FIDELITY": "P",
+      "PASTORAL_SAFETY": "P",
+      "ABUSE_SAFETY": "P",
+      "MEDICAL_SAFETY": "P",
+      "FINANCIAL_SAFETY": "P",
+      "NO_PERSONAL_PROPHECY": "P",
+      "NO_FALSE_DIVINE_SPEECH": "P",
+      "NO_TEMPLATE_LANGUAGE": "P",
+      "NO_LITERAL_REPETITION": "P",
+      "NO_STRUCTURAL_REPETITION": "P",
+      "NO_GENERIC_APPLICATION": "P",
+      "NO_GENERIC_PRAYER": "P",
+      "CROSS_SECTION_CONSISTENCY": "P",
+      "LANGUAGE_CLARITY": "P"
+    },
+    "humanReviewed": false,
+    "contractVersion": "pv-ensino-1",
+    "auditedAt": "2026-11-05T13:20:13.989Z",
+    "rounds": 1
+  }
+}

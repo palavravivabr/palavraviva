@@ -1,0 +1,134 @@
+{
+  "id": "19-40-1-9",
+  "ref": "Salmos 40:1-9",
+  "book": "19",
+  "chapter": 40,
+  "verses": [
+    {
+      "n": 1,
+      "t": "Esperei com esperança no SENHOR, e ele se inclinou a mim, e ouviu o meu clamor."
+    },
+    {
+      "n": 2,
+      "t": "Ele me tirou de uma cova de tormento, de um lamaceiro de barro; e pôs os meus pés sobre uma rocha; ele firmou meus passos."
+    },
+    {
+      "n": 3,
+      "t": "E pôs em minha boca uma canção nova, um louvor para nosso Deus: muitos o verão, e temerão, e confiarão no SENHOR."
+    },
+    {
+      "n": 4,
+      "t": "Bem-aventurado é o homem que põe no SENHOR sua confiança; e não dá atenção aos arrogantes e aos que caminham em direção à mentira."
+    },
+    {
+      "n": 5,
+      "t": "Tu, SENHOR meu Deus, multiplicaste para conosco tuas maravilhas e teus planos; eles não podem ser contados em ordem diante de ti; se eu tentasse contá-los e falá-los, eles são muito mais do que incontáveis."
+    },
+    {
+      "n": 6,
+      "t": "Tu não te agradaste de sacrifício e oferta; porém tu me furaste as orelhas; tu não pediste nem holocausto nem oferta de expiação do pecado."
+    },
+    {
+      "n": 7,
+      "t": "Então eu disse: Eis que venho; no rolo do livro está escrito sobre mim."
+    },
+    {
+      "n": 8,
+      "t": "Meu Deus, eu desejo fazer a tua vontade; e tua Lei está no meio dos meus sentimentos."
+    },
+    {
+      "n": 9,
+      "t": "Eu anuncio a justiça na grande congregação; eis que não retenho meus lábios; tu, SENHOR sabes disso."
+    }
+  ],
+  "titulo": "Quando a esperança vira canção nova",
+  "temas": [
+    "esperança",
+    "confiança",
+    "adoração",
+    "obediência"
+  ],
+  "pergunta": "Você já sentiu que Deus transformou seu clamor em louvor?",
+  "entender": "O salmista começa declarando que esperou no Senhor e foi ouvido: “Esperei com esperança no SENHOR, e ele se inclinou a mim, e ouviu o meu clamor.” (Salmos 40.1). Ele relata como Deus o tirou de uma situação de aflição, colocando seus pés sobre uma rocha firme, e então lhe deu uma “canção nova, um louvor para nosso Deus”. O texto segue exaltando a bem‑aventurança daquele que confia no Senhor, destacando que Deus não se agrada de sacrifícios externos, mas de um coração que deseja fazer a Sua vontade. O salmista termina anunciando a justiça que proclama diante da congregação, reconhecendo que o Senhor conhece tudo o que diz.\n\nNo contexto, o Salmo 40 faz parte de um cântico de gratidão que expressa a experiência pessoal de libertação e a resposta de fé. O autor lembra das maravilhas de Deus (v.5) e sublinha que a verdadeira adoração não depende de rituais, mas da entrega interior (v.6‑8). Essa perspectiva reflete a tradição dos salmos de confiança, onde o sofrimento passado serve de base para louvor presente.",
+  "ligar": {
+    "texto": "A entrega do salmista ao fazer da sua vida “uma canção nova” ecoa a promessa de que, por meio de Cristo, somos transformados de clamor em louvor eterno. Jesus cumpriu o papel de libertador que o salmista descreve ao tirá‑lo da “cova de tormento”, oferecendo vida nova (cf. João 5.24). Sua morte e ressurreição permitem que cada crente experimente a firmeza da “rocha” que sustenta a fé e proclame a justiça que vem da graça, não de sacrifícios humanos. Assim, o convite à confiança e ao desejo de fazer a vontade de Deus aponta para o caminho que Jesus abriu para a salvação.",
+    "selo": false
+  },
+  "viver": "Ao perceber que Deus já nos tirou de situações difíceis, podemos escolher transformar nosso sofrimento em adoração. Em vez de buscar aprovação em rituais, procure fazer da sua vida um “louvor” que reflita gratidão. Quando alguém ao seu redor estiver passando por um momento de dor, compartilhe a esperança que você recebeu, mostrando que a confiança no Senhor traz firmeza para os passos e abre espaço para uma canção de agradecimento.\n\nEsse ato simples de reconhecer a ajuda divina e expressá‑la em palavras de louvor pode inspirar outros a buscar a mesma confiança, criando uma corrente de fé que fortalece a comunidade.",
+  "guarde": "Deus ouve o clamor, nos levanta da aflição e nos dá uma canção nova.",
+  "ore": "Salmo 40, eu clamo ao Senhor que me ouviu na aflição, que me tirou da cova e me conceda um coração pronto para cantar nova canção de louvor, vivendo na confiança que só Ele oferece.",
+  "quiz": {
+    "pergunta": "O que Deus não se agradou segundo o salmo?",
+    "opcoes": [
+      "sacrifícios e ofertas",
+      "promessas humanas",
+      "orações silenciosas"
+    ],
+    "certa": 0,
+    "explicacao": "O versículo 6 deixa claro que Deus não se agrada de sacrifício e oferta, mas de um coração que deseja fazer a Sua vontade."
+  },
+  "refs": [
+    "Isaías 61:1-3",
+    "Hebreus 10:12",
+    "1 Pedro 2:5",
+    "Filipenses 4:13"
+  ],
+  "audit": {
+    "generator": {
+      "model": "openai/gpt-oss-120b",
+      "family": "openai"
+    },
+    "auditors": [
+      {
+        "model": "gemini-3.1-flash-lite",
+        "family": "google"
+      },
+      {
+        "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "family": "meta"
+      }
+    ],
+    "gates": {
+      "TARGET_FIDELITY": "P",
+      "CONTEXT_FIDELITY": "P",
+      "REFERENCE_BOUNDARY": "P",
+      "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+      "GENRE_COMPATIBILITY": "P",
+      "NARRATIVE_EVENT_CONSISTENCY": "P",
+      "TEMPORAL_SEQUENCE": "P",
+      "PERSON_ENTITY_CONSISTENCY": "P",
+      "QUOTATION_BOUNDARY": "P",
+      "UNSUPPORTED_CLAIM": "P",
+      "OVERINTERPRETATION": "P",
+      "DOCTRINAL_OVERREACH": "P",
+      "CHRISTOLOGICAL_FORCE": "P",
+      "PROMISE_SCOPE": "P",
+      "COVENANT_SCOPE": "P",
+      "COMMAND_SCOPE": "P",
+      "PROPHECY_SCOPE": "P",
+      "MIRACLE_SCOPE": "P",
+      "BLESSING_SCOPE": "P",
+      "JUDGMENT_SCOPE": "P",
+      "PRAYER_FIDELITY": "P",
+      "FASTING_SCOPE": "P",
+      "APPLICATION_FIDELITY": "P",
+      "PASTORAL_SAFETY": "P",
+      "ABUSE_SAFETY": "P",
+      "MEDICAL_SAFETY": "P",
+      "FINANCIAL_SAFETY": "P",
+      "NO_PERSONAL_PROPHECY": "P",
+      "NO_FALSE_DIVINE_SPEECH": "P",
+      "NO_TEMPLATE_LANGUAGE": "P",
+      "NO_LITERAL_REPETITION": "P",
+      "NO_STRUCTURAL_REPETITION": "P",
+      "NO_GENERIC_APPLICATION": "P",
+      "NO_GENERIC_PRAYER": "P",
+      "CROSS_SECTION_CONSISTENCY": "P",
+      "LANGUAGE_CLARITY": "P"
+    },
+    "humanReviewed": false,
+    "contractVersion": "pv-ensino-1",
+    "auditedAt": "2026-11-04T07:22:46.810Z",
+    "rounds": 1
+  }
+}

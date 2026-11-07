@@ -1,0 +1,141 @@
+{
+  "id": "44-27-34-44",
+  "ref": "Atos 27:34-44",
+  "book": "44",
+  "chapter": 27,
+  "verses": [
+    {
+      "n": 34,
+      "t": "Portanto eu vos exorto para que comais alguma coisa, pois é bom para vossa saúde; porque nenhum cabelo cairá de vossa cabeça."
+    },
+    {
+      "n": 35,
+      "t": "E tendo dito isto, e tomando o pão, ele agradeceu a Deus na presença de todos; e partindo -o, começou a comer."
+    },
+    {
+      "n": 36,
+      "t": "E todos, tendo ficado mais encorajados, também pegaram algo para comer."
+    },
+    {
+      "n": 37,
+      "t": "E éramos todos no navio duzentas e setenta e seis almas."
+    },
+    {
+      "n": 38,
+      "t": "E estando saciados de comer, eles tiraram peso do navio, lançando o trigo ao mar."
+    },
+    {
+      "n": 39,
+      "t": "E tendo vindo o dia, não reconheciam a terra; mas enxergaram uma enseada que tinha praia, na qual planejaram, se pudessem, levar o navio."
+    },
+    {
+      "n": 40,
+      "t": "E tendo levantado as âncoras, deixaram -no ir ao mar, soltando também as amarras dos lemes, e levantando a vela maior ao vento, foram de levando -o à praia."
+    },
+    {
+      "n": 41,
+      "t": "Mas tendo caído em um lugar onde dois mares se encontram, encalharam ali o navio; e fixa a proa, ficou imóvel, mas a popa estava se destruindo com a força das ondas."
+    },
+    {
+      "n": 42,
+      "t": "Então o conselho dos soldados foi de que matassem aos presos, para que nenhum deles fugisse a nado."
+    },
+    {
+      "n": 43,
+      "t": "Mas o centurião, querendo salvar a Paulo, impediu a intenção deles; e mandou que aqueles que pudessem nadar fossem os primeiros a se lançassem ao mar e chegassem à terra firme."
+    },
+    {
+      "n": 44,
+      "t": "E depois os demais, uns em tábuas, e outros em pedaços do navio. E assim aconteceu, que todos se salvaram em terra."
+    }
+  ],
+  "titulo": "Todos se salvaram: a esperança no naufrágio",
+  "temas": [
+    "esperança",
+    "segurança",
+    "providência",
+    "fé em meio à crise"
+  ],
+  "pergunta": "O que você faria se soubesse que, por mais difícil que seja a travessia, nenhum cabelo cairá da sua cabeça?",
+  "entender": "Paulo estava preso a caminho de Roma quando o navio enfrentou uma tempestade violenta. Após 14 dias sem comer, ele se levantou para encorajar os 276 passageiros. Não foi uma promessa vazia; ele garantiu que Deus preservaria a vida de todos, dizendo que nenhum cabelo cairia de suas cabeças. \n\nAo tomar o pão e agradecer a Deus, Paulo agiu com naturalidade, mostrando sua confiança. Esse ato simples deu coragem aos demais para comerem. A cena é poderosa porque mostra que a fé não elimina a tempestade, mas garante a chegada ao porto. O texto culmina com a proa do navio cravada na areia, mas com a popa sendo destruída, e ainda assim, todos chegaram à terra firme vivos. \n\nÉ um retrato de como a Palavra de Deus funciona em meio ao caos: ela não muda a física do mar, mas muda o coração dos que estão no barco, transformando pânico em ação e medo em esperança firme.",
+  "ligar": {
+    "texto": "Este episódio espelha a segurança que temos em Cristo. Assim como Paulo confiava na promessa de Deus em meio ao naufrágio, o crente tem a garantia de que a salvação é segura. Jesus é o porto seguro que nos leva através das tempestades da vida. A fidelidade de Deus em preservar a vida física daqueles na viagem para Roma prefigura a fidelidade dEle em preservar nossas almas até a eternidade. A promessa de que 'nenhum cabelo cairá' ecoa a certeza de que, em Cristo, nada nos separa do amor de Deus (Romanos 8:38-39), e nossa jornada tem um destino certo.",
+    "selo": false
+  },
+  "viver": "Imagine que você está passando por uma crise financeira, de saúde ou familiar. A tentação é paralisar de medo, como os soldados que queriam matar os presos para que ninguém fugisse. Paulo nos ensina a agir com calma e confiança. Em vez de apenas orar e esperar, ele comeu e incentivou os outros. Hoje, isso significa cuidar das necessidades básicas (comer, dormir, trabalhar) mesmo quando o futuro parece incerto. A fé prática é manter a rotina e a esperança vivas, sabendo que Deus está no controle do resultado final, mesmo quando a popa do nosso 'navio' está se desfazendo.",
+  "guarde": "A fé não apaga a tempestade, mas garante a chegada ao porto com a vida preservada por Deus.",
+  "ore": "Senhor, assim como Paulo no navio em naufrágio, eu confio na Tua promessa de que me levas ao destino. Dá-me coragem para agir com calma em meio às minhas crises, lembrando que nenhum cabelo cairá da minha cabeça sob o Teu cuidado. Ajuda-me a agradecer e a encorajar os que estão comigo no barco, mostrando que a esperança é real.",
+  "quiz": {
+    "pergunta": "Quantas pessoas estavam no navio segundo o texto?",
+    "opcoes": [
+      "275 almas",
+      "276 almas",
+      "Mais de 300 almas"
+    ],
+    "certa": 1,
+    "explicacao": "O versículo 37 afirma explicitamente: 'E éramos todos no navio duzentas e setenta e seis almas.' É um detalhe específico que mostra o cuidado do autor em registrar a totalidade dos salvos."
+  },
+  "refs": [
+    "Mateus 14:25-31",
+    "Marcos 4:35-41",
+    "João 16:33"
+  ],
+  "audit": {
+    "generator": {
+      "model": "qwen/qwen3.8-27b",
+      "family": "alibaba"
+    },
+    "auditors": [
+      {
+        "model": "gemini-3.1-flash-lite",
+        "family": "google"
+      },
+      {
+        "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "family": "meta"
+      }
+    ],
+    "gates": {
+      "TARGET_FIDELITY": "P",
+      "CONTEXT_FIDELITY": "P",
+      "REFERENCE_BOUNDARY": "P",
+      "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+      "GENRE_COMPATIBILITY": "P",
+      "NARRATIVE_EVENT_CONSISTENCY": "P",
+      "TEMPORAL_SEQUENCE": "P",
+      "PERSON_ENTITY_CONSISTENCY": "P",
+      "QUOTATION_BOUNDARY": "P",
+      "UNSUPPORTED_CLAIM": "P",
+      "OVERINTERPRETATION": "P",
+      "DOCTRINAL_OVERREACH": "P",
+      "CHRISTOLOGICAL_FORCE": "P",
+      "PROMISE_SCOPE": "P",
+      "COVENANT_SCOPE": "P",
+      "COMMAND_SCOPE": "P",
+      "PROPHECY_SCOPE": "P",
+      "MIRACLE_SCOPE": "P",
+      "BLESSING_SCOPE": "P",
+      "JUDGMENT_SCOPE": "P",
+      "PRAYER_FIDELITY": "P",
+      "FASTING_SCOPE": "P",
+      "APPLICATION_FIDELITY": "P",
+      "PASTORAL_SAFETY": "P",
+      "ABUSE_SAFETY": "P",
+      "MEDICAL_SAFETY": "P",
+      "FINANCIAL_SAFETY": "P",
+      "NO_PERSONAL_PROPHECY": "P",
+      "NO_FALSE_DIVINE_SPEECH": "P",
+      "NO_TEMPLATE_LANGUAGE": "P",
+      "NO_LITERAL_REPETITION": "P",
+      "NO_STRUCTURAL_REPETITION": "P",
+      "NO_GENERIC_APPLICATION": "P",
+      "NO_GENERIC_PRAYER": "P",
+      "CROSS_SECTION_CONSISTENCY": "P",
+      "LANGUAGE_CLARITY": "P"
+    },
+    "humanReviewed": false,
+    "contractVersion": "pv-ensino-1",
+    "auditedAt": "2026-10-31T21:43:39.547Z",
+    "rounds": 1
+  }
+}

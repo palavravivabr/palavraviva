@@ -438,6 +438,8 @@
     try { speechSynthesis.cancel(); } catch (x) { /* ok */ }
     setTimeout(function () { if (!TTS.on) return; try { speechSynthesis.resume(); } catch (x) { /* ok */ } ttsFalar(); ttsAviso(); }, 250);
   }
+  /* referências cruzadas no texto ("Isaías 61:1-2") são lidas por extenso, sem parecer horário */
+  function falaTexto(t) { try { return window.PVPalavraDia.falaRefs(t); } catch (x) { return t; } }
   function ttsStop() {
     var estava = TTS.on;
     TTS.on = false; TTS.tk++; TTS.info = ''; try { speechSynthesis.cancel(); } catch (x) { /* sem voz */ }
@@ -448,10 +450,10 @@
     if (!TTS.on) return;
     var el = TTS.itens[TTS.i];
     $$('.v.lendo').forEach(function (e) { e.classList.remove('lendo'); });
-    if (!el) { ttsStop(); var nx = $('#chNext'); if (nx && !nx.hidden) { toast('Fim do capítulo'); } return; }
+    if (!el) { var nx = $('#chNext'); if (nx && !nx.hidden) { TTS.continuar = true; ttsStop(); nx.click(); return; } ttsStop(); return; }
     el.classList.add('lendo'); el.scrollIntoView({ block: 'center', behavior: 'smooth' });
     var tk = TTS.tk;
-    var u = new SpeechSynthesisUtterance($('span', el).textContent); // lê só o texto, sem dizer o número do versículo
+    var u = new SpeechSynthesisUtterance(falaTexto($('span', el).textContent)); // lê só o texto, sem dizer o número do versículo; referências cruzadas viram palavras
     u.lang = 'pt-BR'; u.rate = ttsVel(); u.pitch = TTS.voz && TTS.voz.grave ? 0.7 : 0.9;
     if (TTS.voz && TTS.voz.v) { u.voice = TTS.voz.v; u.lang = TTS.voz.v.lang || 'pt-BR'; }
     u.onend = function () { if (tk !== TTS.tk) return; if (TTS.on) { TTS.i++; ttsFalar(); } };
@@ -468,7 +470,7 @@
     ttsFalar(); ttsAviso(); return true;
   }
   function ttsAlternar() {
-    if (!TTS.on) return ttsStart();
+    TTS.continuar = false; if (!TTS.on) return ttsStart();
     try { if (speechSynthesis.paused) speechSynthesis.resume(); else speechSynthesis.pause(); } catch (x) { /* ok */ }
     ttsAviso(); return true;
   }
@@ -569,6 +571,7 @@
     if (!entry) return go({ v: 'chap', b: b.id }, true);
     showScreen('read'); $('#readTitle').textContent = b.name + ' ' + s.c;
     try { document.dispatchEvent(new CustomEvent('pv-leitura')); } catch (x) { /* ok */ } /* avisa a barra de áudio (src/audio-ui.js) que o capítulo mudou */
+    if (TTS.continuar) { TTS.continuar = false; setTimeout(function () { if (!TTS.on) ttsStart(); }, 400); } /* fim do capítulo anterior: a narração segue no próximo */
     drawVerBar(ver, fallback ? activeVersion() : null);
     var box = clear($('#rtext')); clear($('#studyList'));
     box.appendChild(h('p', { class: 'empty', text: 'Carregando…' }));

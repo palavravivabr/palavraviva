@@ -1,0 +1,125 @@
+{
+  "id": "19-14-1-7",
+  "ref": "Salmos 14:1-7",
+  "book": "19",
+  "chapter": 14,
+  "verses": [
+    {
+      "n": 1,
+      "t": "O tolo diz em seu coração: Não há Deus. Eles têm se pervertido, fazem obras abomináveis; não há quem faça o bem."
+    },
+    {
+      "n": 2,
+      "t": "O SENHOR olhou desde os céus para os filhos dos homens, para ver se havia alguém prudente, que buscasse a Deus."
+    },
+    {
+      "n": 3,
+      "t": "Todos se desviaram, juntamente se contaminaram; não há quem faça o bem, nem um sequer."
+    },
+    {
+      "n": 4,
+      "t": "Será que não têm conhecimento todos os que praticam a maldade? Eles devoram a meu povo como se comessem pão, e não clamam ao SENHOR."
+    },
+    {
+      "n": 5,
+      "t": "Ali eles se encherão de medo, porque Deus está com a geração dos justos."
+    },
+    {
+      "n": 6,
+      "t": "Vós envergonhais os planos do humilde, mas o SENHOR é o refúgio dele."
+    },
+    {
+      "n": 7,
+      "t": "Ah, que de Sião venha a salvação de Israel! Quando o SENHOR restaurar o seu povo de seu infortúnio, Jacó jubilará, Israel se alegrará."
+    }
+  ],
+  "titulo": "Quando a humanidade falha e Deus age",
+  "temas": [
+    "pecado",
+    "esperança",
+    "restauração",
+    "justiça"
+  ],
+  "pergunta": "O que o salmista espera que aconteça em Sião?",
+  "entender": "O texto abre com uma declaração chocante: \"O tolo diz em seu coração: Não há Deus\". O salmista descreve uma sociedade que se perverteu, fazendo obras abomináveis. A conclusão é dura: todos se desviaram e se contaminaram, não havendo quem faça o bem por mérito próprio. É um retrato honesto da condição humana sem a intervenção de Deus.\n\nPorém, o salmo não termina na condenação. O olhar de Deus desde os céus revela que Ele não é indiferente. Enquanto os ímpios devoram o povo, o Senhor permanece como refúgio para o humilde. O clímax é uma oração de esperança: que a salvação venha de Sião, trazendo alegria e restauração para Jacó e Israel. A saída não está no esforço humano, mas na ação de Deus.",
+  "ligar": {
+    "texto": "Este salmo aponta para a necessidade de um Salvador. Se todos se desviaram, a humanidade precisa de alguém que traga a justiça que não pode produzir. Jesus é a resposta a esse anseio. Ele é o justo que viveu sem pecado e ofereceu Sua vida para restaurar o povo de Deus. A promessa de que a salvação vem de Sião cumpre-se em Cristo, que trouxe a reconciliação definitiva entre Deus e a humanidade.",
+    "selo": false
+  },
+  "viver": "Ao reconhecer que não há em nós quem faça o bem por mérito, podemos sentir desespero ou orgulho falso. A aplicação concreta é descansar na graça. Em vez de tentar provar seu valor através de obras perfeitas, busque o refúgio no Senhor. Quando a falha parecer insuperável, lembre-se de que a restauração vem dEle. Deixe que a esperança da salvação de Sião transforme sua ansiedade em confiança na obra de Cristo.",
+  "guarde": "A restauração do povo de Deus não depende do esforço humano, mas da iniciativa divina.",
+  "ore": "Olhando desde os céus, Tu vês minha tendência a me desviar. Reconheço que não há em mim quem faça o bem por mérito. Sê o refúgio do meu coração humilde e traz a salvação de Sião para a minha vida, restaurando minha alegria em Ti.",
+  "quiz": {
+    "pergunta": "Onde o salmista espera que a salvação de Israel venha?",
+    "opcoes": [
+      "Da sabedoria dos homens.",
+      "Das obras dos justos.",
+      "De Sião."
+    ],
+    "certa": 2,
+    "explicacao": "O versículo 7 declara explicitamente: \"Ah, que de Sião venha a salvação de Israel!\"."
+  },
+  "refs": [
+    "Romanos 3:10-12",
+    "João 3:16",
+    "Isaías 59:1-2"
+  ],
+  "audit": {
+    "generator": {
+      "model": "qwen/qwen3.8-27b",
+      "family": "alibaba"
+    },
+    "auditors": [
+      {
+        "model": "gemini-3.5-flash",
+        "family": "google"
+      },
+      {
+        "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "family": "meta"
+      }
+    ],
+    "gates": {
+      "TARGET_FIDELITY": "P",
+      "CONTEXT_FIDELITY": "P",
+      "REFERENCE_BOUNDARY": "P",
+      "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+      "GENRE_COMPATIBILITY": "P",
+      "NARRATIVE_EVENT_CONSISTENCY": "P",
+      "TEMPORAL_SEQUENCE": "P",
+      "PERSON_ENTITY_CONSISTENCY": "P",
+      "QUOTATION_BOUNDARY": "P",
+      "UNSUPPORTED_CLAIM": "P",
+      "OVERINTERPRETATION": "P",
+      "DOCTRINAL_OVERREACH": "P",
+      "CHRISTOLOGICAL_FORCE": "P",
+      "PROMISE_SCOPE": "P",
+      "COVENANT_SCOPE": "P",
+      "COMMAND_SCOPE": "P",
+      "PROPHECY_SCOPE": "P",
+      "MIRACLE_SCOPE": "P",
+      "BLESSING_SCOPE": "P",
+      "JUDGMENT_SCOPE": "P",
+      "PRAYER_FIDELITY": "P",
+      "FASTING_SCOPE": "P",
+      "APPLICATION_FIDELITY": "P",
+      "PASTORAL_SAFETY": "P",
+      "ABUSE_SAFETY": "P",
+      "MEDICAL_SAFETY": "P",
+      "FINANCIAL_SAFETY": "P",
+      "NO_PERSONAL_PROPHECY": "P",
+      "NO_FALSE_DIVINE_SPEECH": "P",
+      "NO_TEMPLATE_LANGUAGE": "P",
+      "NO_LITERAL_REPETITION": "P",
+      "NO_STRUCTURAL_REPETITION": "P",
+      "NO_GENERIC_APPLICATION": "P",
+      "NO_GENERIC_PRAYER": "P",
+      "CROSS_SECTION_CONSISTENCY": "P",
+      "LANGUAGE_CLARITY": "P"
+    },
+    "humanReviewed": false,
+    "contractVersion": "pv-ensino-1",
+    "auditedAt": "2026-11-02T19:07:13.417Z",
+    "rounds": 2
+  }
+}

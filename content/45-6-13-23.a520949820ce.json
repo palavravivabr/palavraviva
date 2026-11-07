@@ -1,0 +1,141 @@
+{
+  "id": "45-6-13-23",
+  "ref": "Romanos 6:13-23",
+  "book": "45",
+  "chapter": 6,
+  "verses": [
+    {
+      "n": 13,
+      "t": "Nem apresenteis os membros do vosso corpo ao pecado como instrumentos de injustiça; em vez disso, apresentai-vos a Deus, como vivos dentre os mortos, e vossos membros como instrumentos de justiça para Deus."
+    },
+    {
+      "n": 14,
+      "t": "Pois o pecado não vos dominará, porque não estais sob a Lei, mas sim, sob a graça."
+    },
+    {
+      "n": 15,
+      "t": "Então, quê? Pecaremos, já que não estamos sob a Lei, mas sob a graça? De maneira nenhuma!"
+    },
+    {
+      "n": 16,
+      "t": "Não sabeis vós, que a quem vos apresentardes por servos para obedecer, sois servos daquele a quem obedeceis? Ou do pecado para a morte, ou da obediência para a justiça."
+    },
+    {
+      "n": 17,
+      "t": "Porém, graças a Deus que vós éreis servos do pecado, mas agora, de coração obedeceis à forma de doutrina a que vós fostes entregues;"
+    },
+    {
+      "n": 18,
+      "t": "e, sendo libertos do pecado, vos tornastes servos da justiça."
+    },
+    {
+      "n": 19,
+      "t": "Estou falando na lógica humana, pela fraqueza de vossa carne. Pois, assim como apresentastes os membros do vosso corpo como servos da impureza e da maldade para a maldade, assim também apresentai agora os vossos membros como servos da justiça para a santificação."
+    },
+    {
+      "n": 20,
+      "t": "Porque quando éreis servos do pecado, estáveis livres da justiça."
+    },
+    {
+      "n": 21,
+      "t": "Afinal, que fruto obtivestes das coisas de que agora vos envergonhais? Pois o fim delas é a morte."
+    },
+    {
+      "n": 22,
+      "t": "Mas agora, libertos do pecado, e feitos servos de Deus, tendes o vosso fruto para a santificação, e por fim a vida eterna;"
+    },
+    {
+      "n": 23,
+      "t": "porque o salário do pecado é a morte, mas o dom gratuito de Deus é a vida eterna em Cristo Jesus nosso Senhor."
+    }
+  ],
+  "titulo": "Servos de quem você realmente obedece?",
+  "temas": [
+    "servidão",
+    "liberdade",
+    "justiça",
+    "vida eterna"
+  ],
+  "pergunta": "Se você é livre da lei, isso significa que pode fazer o que quiser? Por que essa ideia é uma armadilha?",
+  "entender": "Paulo faz uma pergunta provocativa: já que não estamos sob a Lei, podemos pecar? A resposta é um enfático \"De maneira nenhuma!\" (Romanos 6:15). Ele explica que somos servos daquele a quem obedecemos. Ou servimos o pecado, que leva à morte, ou a obediência, que leva à justiça. \n\nO apóstolo lembra que, antes, éramos escravos do pecado, mas agora, libertos, tornamo-nos servos da justiça. Ele usa a lógica humana para nos fazer ver: assim como antes apresentávamos nossos membros à impureza, agora devemos apresentá-los à santificação. O contraste é claro: o fruto do passado era a morte, mas o fruto da nova vida é a santificação e, por fim, a vida eterna.",
+  "ligar": {
+    "texto": "Este texto aponta diretamente para Cristo ao contrastar o \"salário do pecado\" com o \"dom gratuito de Deus\". A vida eterna mencionada não é um prêmio por mérito, mas um presente recebido em \"Cristo Jesus nosso Senhor\". É a graça de Jesus que nos liberta da escravidão do pecado, permitindo que sejamos servos de Deus não por obrigação legal, mas por amor e gratidão.",
+    "selo": true
+  },
+  "viver": "Pense em uma área específica da sua rotina onde você ainda age por hábito ou desejo próprio, como se o pecado tivesse controle. Identifique esse \"membro do corpo\" (seja uma palavra, um pensamento ou uma ação). Deliberadamente, apresente essa área a Deus hoje, pedindo a Ele a força para obedecer à justiça. Lembre-se: você não luta sozinho; a graça de Cristo sustenta sua nova identidade como servo da justiça, transformando suas escolhas diárias em atos de adoração.",
+  "guarde": "O salário do pecado é a morte, mas o dom gratuito de Deus é a vida eterna em Cristo Jesus.",
+  "ore": "Jesus, Senhor da minha vida, eu reconheço que antes era escravo do pecado. Obrigado por me libertar e me tornar servo da justiça. Ajuda-me a apresentar meus membros a Ti hoje, não por medo, mas por amor. Que eu viva para a Tua glória.",
+  "quiz": {
+    "pergunta": "Segundo Romanos 6:16, de quem somos servos?",
+    "opcoes": [
+      "De Deus, independentemente da obediência",
+      "Do pecado, se quisermos",
+      "Dele a quem obedece"
+    ],
+    "certa": 2,
+    "explicacao": "O texto afirma claramente que somos servos daquele a quem obedecemos, seja o pecado (levando à morte) ou a obediência (levando à justiça)."
+  },
+  "refs": [
+    "Gálatas 5:1",
+    "1 Pedro 2:24",
+    "Efésios 2:8-9"
+  ],
+  "audit": {
+    "generator": {
+      "model": "qwen/qwen3.8-27b",
+      "family": "alibaba"
+    },
+    "auditors": [
+      {
+        "model": "gemini-3.5-flash",
+        "family": "google"
+      },
+      {
+        "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "family": "meta"
+      }
+    ],
+    "gates": {
+      "TARGET_FIDELITY": "P",
+      "CONTEXT_FIDELITY": "P",
+      "REFERENCE_BOUNDARY": "P",
+      "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+      "GENRE_COMPATIBILITY": "P",
+      "NARRATIVE_EVENT_CONSISTENCY": "P",
+      "TEMPORAL_SEQUENCE": "P",
+      "PERSON_ENTITY_CONSISTENCY": "P",
+      "QUOTATION_BOUNDARY": "P",
+      "UNSUPPORTED_CLAIM": "P",
+      "OVERINTERPRETATION": "P",
+      "DOCTRINAL_OVERREACH": "P",
+      "CHRISTOLOGICAL_FORCE": "P",
+      "PROMISE_SCOPE": "P",
+      "COVENANT_SCOPE": "P",
+      "COMMAND_SCOPE": "P",
+      "PROPHECY_SCOPE": "P",
+      "MIRACLE_SCOPE": "P",
+      "BLESSING_SCOPE": "P",
+      "JUDGMENT_SCOPE": "P",
+      "PRAYER_FIDELITY": "P",
+      "FASTING_SCOPE": "P",
+      "APPLICATION_FIDELITY": "P",
+      "PASTORAL_SAFETY": "P",
+      "ABUSE_SAFETY": "P",
+      "MEDICAL_SAFETY": "P",
+      "FINANCIAL_SAFETY": "P",
+      "NO_PERSONAL_PROPHECY": "P",
+      "NO_FALSE_DIVINE_SPEECH": "P",
+      "NO_TEMPLATE_LANGUAGE": "P",
+      "NO_LITERAL_REPETITION": "P",
+      "NO_STRUCTURAL_REPETITION": "P",
+      "NO_GENERIC_APPLICATION": "P",
+      "NO_GENERIC_PRAYER": "P",
+      "CROSS_SECTION_CONSISTENCY": "P",
+      "LANGUAGE_CLARITY": "P"
+    },
+    "humanReviewed": false,
+    "contractVersion": "pv-ensino-1",
+    "auditedAt": "2026-11-01T09:54:39.020Z",
+    "rounds": 1
+  }
+}

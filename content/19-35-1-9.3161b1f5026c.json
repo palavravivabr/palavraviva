@@ -1,0 +1,131 @@
+{
+  "id": "19-35-1-9",
+  "ref": "Salmos 35:1-9",
+  "book": "19",
+  "chapter": 35,
+  "verses": [
+    {
+      "n": 1,
+      "t": "Disputa, SENHOR contra os meus adversários; luta contra os que lutam contra mim."
+    },
+    {
+      "n": 2,
+      "t": "Pega os teus pequeno e grande escudos, e levanta-te em meu socorro."
+    },
+    {
+      "n": 3,
+      "t": "E tira a lança, e fecha o caminho ao encontro de meus perseguidores; dize à minha alma: Eu sou tua salvação."
+    },
+    {
+      "n": 4,
+      "t": "Envergonhem-se, e sejam humilhados os que buscam matar a minha alma; tornem-se para trás, e sejam envergonhados os que planejam o mal contra mim."
+    },
+    {
+      "n": 5,
+      "t": "Sejam como a palha perante o vento; e que o anjo do SENHOR os remova."
+    },
+    {
+      "n": 6,
+      "t": "Que o caminho deles seja escuro e escorregadio; e o anjo do SENHOR os persiga."
+    },
+    {
+      "n": 7,
+      "t": "Porque sem motivo eles esconderam de mim a cova de sua rede; sem motivo eles cavaram para minha alma."
+    },
+    {
+      "n": 8,
+      "t": "Venha sobre ele a destruição sem que ele saiba de antemão; e sua rede, que ele escondeu, que o prenda; que ele, assolado, caia nela."
+    },
+    {
+      "n": 9,
+      "t": "E minha alma se alegrará no SENHOR; ela se encherá de alegria por sua salvação."
+    }
+  ],
+  "titulo": "Quando a justiça parece distante, onde buscar ajuda?",
+  "temas": [
+    "injustiça",
+    "proteção",
+    "fé"
+  ],
+  "pergunta": "Você já sentiu que as forças contra você são maiores que sua própria força?",
+  "entender": "O salmista clama a Deus pedindo defesa contra os que o perseguem. Ele pede que o Senhor lute \"contra os meus adversários\" (Salmos 35.1) e que use seus escudos para protegê‑lo (v.2). Ele descreve os inimigos como armadilhas ocultas, redes e lanças, desejando que a justiça divina os exponha e os faça cair em suas próprias ciladas (v.7‑8). O salmo continua mostrando a confiança do autor: \"E minha alma se alegrará no SENHOR; ela se encherá de alegria por sua salvação\" (v.9), indicando que, apesar da luta, a esperança está na salvação que vem de Deus.\n\nO contexto do Salmo 35 é um pedido de ajuda em meio a perseguição injusta. Davi, tradicionalmente associado a este salmo, enfrentava inimigos que conspiravam contra sua vida. Ele recorre ao Deus que é seu escudo e protetor, reconhecendo que a justiça humana falha, mas a justiça divina pode reverter a situação. O salmo combina petição, descrição da opressão e confiança na intervenção de Deus.",
+  "ligar": {
+    "texto": "Embora o texto não mencione Jesus diretamente, ele revela o padrão de Deus como defensor dos oprimidos, que se cumpre em Cristo. Jesus, ao enfrentar acusações falsas e perseguição, clamou ao Pai por justiça (Mateus 26.63‑64) e recebeu a vitória da cruz, tornando‑se a salvação que o salmista celebra. Assim, a promessa de que \"minha alma se alegrará no SENHOR\" encontra sua plena realização na obra redentora de Cristo, que nos garante proteção e libertação eternas.",
+    "selo": false
+  },
+  "viver": "Quando você perceber que alguém está tentando lhe fazer mal ou espalhar mentiras, lembre‑se de que Deus já está ao seu lado como escudo. Não responda com violência, mas entregue a situação ao Senhor, confiando que Ele pode virar a trama contra quem trama o mal. Procure apoio em comunidade de fé, compartilhe sua luta em oração e mantenha o coração agradecido pela proteção que já recebeu, mesmo que ainda não veja o fim da batalha.",
+  "guarde": "Deus é o escudo que protege o justo contra as armadilhas do inimigo.",
+  "ore": "Meu clamor sobe a Ti, Senhor, que és meu escudo. Protege-me das armadilhas que os inimigos preparam e faz com que a justiça divina se revele sobre eles. Que eu possa sentir a alegria da tua salvação mesmo em meio à luta.",
+  "quiz": {
+    "pergunta": "O que o salmista pede a Deus nos versículos iniciais?",
+    "opcoes": [
+      "Que lute contra seus adversários",
+      "Que lhe dê riqueza",
+      "Que lhe conceda longos anos de vida"
+    ],
+    "certa": 0,
+    "explicacao": "Nos versículos 1‑2 o salmista solicita que o Senhor dispute e lute contra os que o perseguem, usando escudos como proteção."
+  },
+  "refs": [
+    "Mateus 5:44",
+    "Salmos 46:1"
+  ],
+  "audit": {
+    "generator": {
+      "model": "openai/gpt-oss-120b",
+      "family": "openai"
+    },
+    "auditors": [
+      {
+        "model": "gemini-3.1-flash-lite",
+        "family": "google"
+      },
+      {
+        "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "family": "meta"
+      }
+    ],
+    "gates": {
+      "TARGET_FIDELITY": "P",
+      "CONTEXT_FIDELITY": "P",
+      "REFERENCE_BOUNDARY": "P",
+      "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+      "GENRE_COMPATIBILITY": "P",
+      "NARRATIVE_EVENT_CONSISTENCY": "P",
+      "TEMPORAL_SEQUENCE": "P",
+      "PERSON_ENTITY_CONSISTENCY": "P",
+      "QUOTATION_BOUNDARY": "P",
+      "UNSUPPORTED_CLAIM": "P",
+      "OVERINTERPRETATION": "P",
+      "DOCTRINAL_OVERREACH": "P",
+      "CHRISTOLOGICAL_FORCE": "P",
+      "PROMISE_SCOPE": "P",
+      "COVENANT_SCOPE": "P",
+      "COMMAND_SCOPE": "P",
+      "PROPHECY_SCOPE": "P",
+      "MIRACLE_SCOPE": "P",
+      "BLESSING_SCOPE": "P",
+      "JUDGMENT_SCOPE": "P",
+      "PRAYER_FIDELITY": "P",
+      "FASTING_SCOPE": "P",
+      "APPLICATION_FIDELITY": "P",
+      "PASTORAL_SAFETY": "P",
+      "ABUSE_SAFETY": "P",
+      "MEDICAL_SAFETY": "P",
+      "FINANCIAL_SAFETY": "P",
+      "NO_PERSONAL_PROPHECY": "P",
+      "NO_FALSE_DIVINE_SPEECH": "P",
+      "NO_TEMPLATE_LANGUAGE": "P",
+      "NO_LITERAL_REPETITION": "P",
+      "NO_STRUCTURAL_REPETITION": "P",
+      "NO_GENERIC_APPLICATION": "P",
+      "NO_GENERIC_PRAYER": "P",
+      "CROSS_SECTION_CONSISTENCY": "P",
+      "LANGUAGE_CLARITY": "P"
+    },
+    "humanReviewed": false,
+    "contractVersion": "pv-ensino-1",
+    "auditedAt": "2026-11-04T01:05:02.264Z",
+    "rounds": 1
+  }
+}

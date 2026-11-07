@@ -1,0 +1,130 @@
+{
+  "id": "19-12-1-8",
+  "ref": "Salmos 12:1-8",
+  "book": "19",
+  "chapter": 12,
+  "verses": [
+    {
+      "n": 1,
+      "t": "Salva, SENHOR, porque os bons estão em falta; porque são poucos os fiéis dentre os filhos dos homens."
+    },
+    {
+      "n": 2,
+      "t": "Cada um fala falsidade ao seu próximo, com lábios elogiam falsamente; falam com duas intenções no coração."
+    },
+    {
+      "n": 3,
+      "t": "Que o SENHOR corte a todos os lábios que falam falsos elogios, e toda língua que fala grandes mentiras."
+    },
+    {
+      "n": 4,
+      "t": "Pois dizem: Com nossa língua prevaleceremos; nossos lábios são nossos; que é senhor sobre nós?"
+    },
+    {
+      "n": 5,
+      "t": "O SENHOR diz: Pela opressão aos humildes, pelo gemido dos necessitados, eu agora me levantarei; porei em segurança àquele a quem ele sopra desejando oprimir."
+    },
+    {
+      "n": 6,
+      "t": "As palavras do SENHOR são palavras puras, como prata refinada em forno de barro, purificada sete vezes."
+    },
+    {
+      "n": 7,
+      "t": "Tu, SENHOR, os guardarás; desta geração os livrarás para sempre."
+    },
+    {
+      "n": 8,
+      "t": "Os maus andam cercando, enquanto os mais vis dos filhos dos homens são exaltados."
+    }
+  ],
+  "titulo": "Quando a palavra humana falha, o que resta?",
+  "temas": [
+    "verdade",
+    "opressão",
+    "palavra de deus",
+    "justiça"
+  ],
+  "pergunta": "O que acontece quando as pessoas ao seu redor usam palavras bonitas para esconder mentiras?",
+  "entender": "O salmista clama por socorro porque percebe que a fidelidade está desaparecendo. Ele descreve um cenário onde \"cada um fala falsidade ao seu próximo\", usando lábios que elogiam, mas corações que têm \"duas intenções\". É a hipocrisia social: pessoas que parecem amáveis por fora, mas manipulam e mentem por dentro, dizendo que ninguém tem autoridade sobre a língua delas.\n\nEm meio a esse caos, o texto contrasta a fragilidade da palavra humana com a pureza da Palavra de Deus. As palavras do Senhor são comparadas a \"prata refinada em forno de barro\", purificadas sete vezes. Isso significa que, diferente da língua humana que se corrompe facilmente, a revelação de Deus é estável, verdadeira e inalterável. Deus se levanta para proteger os humildes e os necessitados que estão sendo esmagados por esses falsos líderes.",
+  "ligar": {
+    "texto": "A pureza da Palavra de Deus em Salmos 12 aponta diretamente para Jesus, que é a Palavra encarnada. Em João 1, lemos que a Palavra se fez carne e habitou entre nós, cheia de graça e verdade. Jesus é a expressão exata do caráter de Deus, sem nenhuma mistura de falsidade. Ele confrontou a hipocrisia dos religiosos da época, mostrando que a verdadeira segurança não está nas palavras humanas, mas na obediência a Deus. A promessa de Deus de se levantar pelos oprimidos se cumpriu plenamente em Cristo, que defendeu os marginalizados e ofereceu salvação. Acreditamos que a fé vem pelo ouvir a Palavra, e essa Palavra é Cristo.",
+    "selo": false
+  },
+  "viver": "Em vez de apenas reagir às contradições que você vê nas redes sociais ou no trabalho, pratique a escuta ativa da verdade. Antes de responder a alguém que está sendo agressivo ou manipulativo, respire e lembre-se de que a sua resposta não precisa ser uma batalha de palavras, mas um reflexo da paz de Deus. Escolha ser transparente: se você não sabe algo, diga que não sabe; se errou, reconheça. A integridade, mesmo em um mundo de \"duas intenções\", é uma forma poderosa de testemunhar que a Palavra de Deus é realmente \"prata refinada\". Deixe que sua vida seja um lugar onde as pessoas podem confiar, não por perfeição, mas por consistência e amor.",
+  "guarde": "A palavra de Deus é pura como prata refinada; nela você encontra a segurança que a língua humana não pode oferecer.",
+  "ore": "Pai, ao ler sobre os lábios falsos e as duas intenções, peço que me ajude a não ser enganado nem a enganar. Ensina-me a valorizar a Tua Palavra como prata pura. Que eu viva com integridade, mesmo quando for mais difícil, confiando que Tu te levantas em favor dos humildes e necessitados. Amém.",
+  "quiz": {
+    "pergunta": "Com o que o salmista compara as palavras do Senhor no versículo 6?",
+    "opcoes": [
+      "Prata refinada em forno de barro",
+      "Água limpa em vaso de pedra",
+      "Ouro maciço em caixa forte"
+    ],
+    "certa": 0,
+    "explicacao": "O texto afirma explicitamente que as palavras do Senhor são como prata refinada em forno de barro, purificada sete vezes, simbolizando pureza e teste rigoroso."
+  },
+  "refs": [
+    "Provérbios 25:20",
+    "Isaías 46:11",
+    "Hebreus 4:12",
+    "Mateus 15:18"
+  ],
+  "audit": {
+    "generator": {
+      "model": "qwen/qwen3.8-27b",
+      "family": "alibaba"
+    },
+    "auditors": [
+      {
+        "model": "gemini-3.5-flash",
+        "family": "google"
+      },
+      {
+        "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "family": "meta"
+      }
+    ],
+    "gates": {
+      "TARGET_FIDELITY": "P",
+      "CONTEXT_FIDELITY": "P",
+      "REFERENCE_BOUNDARY": "P",
+      "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+      "GENRE_COMPATIBILITY": "P",
+      "NARRATIVE_EVENT_CONSISTENCY": "P",
+      "TEMPORAL_SEQUENCE": "P",
+      "PERSON_ENTITY_CONSISTENCY": "P",
+      "QUOTATION_BOUNDARY": "P",
+      "UNSUPPORTED_CLAIM": "P",
+      "OVERINTERPRETATION": "P",
+      "DOCTRINAL_OVERREACH": "P",
+      "CHRISTOLOGICAL_FORCE": "P",
+      "PROMISE_SCOPE": "P",
+      "COVENANT_SCOPE": "P",
+      "COMMAND_SCOPE": "P",
+      "PROPHECY_SCOPE": "P",
+      "MIRACLE_SCOPE": "P",
+      "BLESSING_SCOPE": "P",
+      "JUDGMENT_SCOPE": "P",
+      "PRAYER_FIDELITY": "P",
+      "FASTING_SCOPE": "P",
+      "APPLICATION_FIDELITY": "P",
+      "PASTORAL_SAFETY": "P",
+      "ABUSE_SAFETY": "P",
+      "MEDICAL_SAFETY": "P",
+      "FINANCIAL_SAFETY": "P",
+      "NO_PERSONAL_PROPHECY": "P",
+      "NO_FALSE_DIVINE_SPEECH": "P",
+      "NO_TEMPLATE_LANGUAGE": "P",
+      "NO_LITERAL_REPETITION": "P",
+      "NO_STRUCTURAL_REPETITION": "P",
+      "NO_GENERIC_APPLICATION": "P",
+      "NO_GENERIC_PRAYER": "P",
+      "CROSS_SECTION_CONSISTENCY": "P",
+      "LANGUAGE_CLARITY": "P"
+    },
+    "humanReviewed": false,
+    "contractVersion": "pv-ensino-1",
+    "auditedAt": "2026-11-02T16:08:07.003Z",
+    "rounds": 1
+  }
+}

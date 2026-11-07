@@ -1,0 +1,145 @@
+{
+  "id": "45-9-22-33",
+  "ref": "Romanos 9:22-33",
+  "book": "45",
+  "chapter": 9,
+  "verses": [
+    {
+      "n": 22,
+      "t": "E se Deus, querendo mostrar a sua ira, e dar a conhecer o seu poder, suportou com muita paciência os vasos da ira, preparados para a perdição,"
+    },
+    {
+      "n": 23,
+      "t": "a fim de fazer conhecidas as riquezas da sua glória nos vasos da misericórdia, que preparou com antecedência para a glória,"
+    },
+    {
+      "n": 24,
+      "t": "que somos nós, aos quais ele chamou, não somente dentre os judeus, mas também dentre os gentios?"
+    },
+    {
+      "n": 25,
+      "t": "Como também diz em Oseias: “Ao que era Não-Meu-Povo, chamarei de Meu-Povo; e a que não era Não-Amada, chamarei de Amada”. Oseias 2:23"
+    },
+    {
+      "n": 26,
+      "t": "E será que, no lugar onde lhes foi dito: “Vós não sois meu povo, Aí serão chamados filhos do Deus vivo”. Oseias 1:10"
+    },
+    {
+      "n": 27,
+      "t": "Também Isaías clama acerca de Israel: “Ainda que o número dos filhos de Israel seja como a areia do mar, apenas o remanescente será salvo;"
+    },
+    {
+      "n": 28,
+      "t": "porque o Senhor concluirá e executará brevemente a sentença em justiça; pois ele fará uma breve sentença sobre a terra”."
+    },
+    {
+      "n": 29,
+      "t": "E como Isaías predisse: “Se o Senhor dos Exércitos não houvesse nos deixado descendência, nós nos teríamos tornado como Sodoma, e como Gomorra teríamos sido semelhantes”. Isaías 1:9"
+    },
+    {
+      "n": 30,
+      "t": "Então, que diremos? Que os gentios, que não buscavam a justiça, alcançaram a justiça, mas a justiça que é pela fé;"
+    },
+    {
+      "n": 31,
+      "t": "porém, Israel, que buscava a Lei da justiça, não alcançou a Lei da justiça"
+    },
+    {
+      "n": 32,
+      "t": "Por quê? Porque não a buscavam pela fé, mas sim, como que pelas obras da Lei; pois tropeçaram na pedra de tropeço,"
+    },
+    {
+      "n": 33,
+      "t": "como está escrito: “Eis que ponho em Sião uma pedra de tropeço, e uma rocha que causa queda; e todo aquele que nela crer não será envergonhado”."
+    }
+  ],
+  "titulo": "Vasos da ira: o que revelam sobre a graça de Deus",
+  "temas": [
+    "graça",
+    "justiça",
+    "fé",
+    "eleição"
+  ],
+  "pergunta": "Como Deus pode usar até os que rejeitam para mostrar sua glória?",
+  "entender": "Paulo explica que Deus, ao revelar sua ira, \"suportou com muita paciência os vasos da ira\" (Romanos 9.22). Esses vasos são pessoas preparadas para a perdição, mas servem para que se conheçam \"as riquezas da sua glória nos vasos da misericórdia\" (v.23). Ele cita Oseias e Isaías para mostrar que tanto judeus quanto gentios são incluídos no plano divino: os que antes eram \"não‑meu‑povo\" agora são chamados de povo de Deus.\n\nNo contexto imediato, Paulo responde a quem questiona a justiça de Deus (v.19‑21), usando a imagem do oleiro que tem poder sobre o barro, criando vasos para honra ou desonra. Assim, a soberania de Deus não depende da conduta humana; Ele pode usar até os que rejeitam para cumprir seu propósito maior.\n\nO ponto central do trecho é que a justiça não vem das obras da Lei, mas da fé (v.30‑31). Israel buscou a justiça pela Lei e falhou; os gentios, que não buscavam a justiça, a receberam pela fé. A \"pedra de tropeço\" citada em v.33 indica que quem crê não será envergonhado, apontando ao meio pelo qual a salvação se efetiva.",
+  "ligar": {
+    "texto": "A \"pedra de tropeço\" mencionada em Romanos 9.33 remete a Cristo crucificado, que é o fundamento da justiça pela fé (cf. 1 Coríntios 1.23). Assim, a justiça que os gentios recebem pela fé é a fé em Jesus, que morreu pelos pecados e ressuscitou, tornando‑se o meio pelo qual a glória de Deus se revela a todos, judeus e gentios.",
+    "selo": false
+  },
+  "viver": "Ao perceber que Deus pode usar até situações de rejeição para revelar sua misericórdia, somos convidados a confiar na sua soberania, mesmo quando não entendemos o sofrimento ao nosso redor. Quando alguém parece estar “destinado à perdição”, lembre‑se de que Deus pode transformar essa realidade para que sua graça seja conhecida.\n\nNa prática, ore por aqueles que rejeitam o evangelho, pedindo que Deus use até suas resistências para que outros vejam sua misericórdia. Viva reconhecendo que sua salvação depende da fé em Cristo, não de méritos próprios, e compartilhe essa esperança com quem ainda não crê.",
+  "guarde": "Deus pode usar até os que rejeitam para revelar sua glória e misericórdia.",
+  "ore": "Ó Deus, que crias vasos para honra e desonra, ajuda-me a confiar que, mesmo nas rejeições, Tua glória pode ser revelada, e que eu viva firmemente na fé que salva.",
+  "quiz": {
+    "pergunta": "Por que os gentios alcançaram a justiça segundo Romanos 9.30‑31?",
+    "opcoes": [
+      "Pela Lei",
+      "Pelo esforço próprio",
+      "Pela fé"
+    ],
+    "certa": 2,
+    "explicacao": "Paulo afirma que os gentios, que não buscavam a justiça, a alcançaram \"pela fé\" (v.30). Israel não a alcançou porque buscava a justiça pelas obras da Lei (v.31)."
+  },
+  "refs": [
+    "1 Coríntios 1:23",
+    "Isaías 1:9",
+    "Romanos 5:8"
+  ],
+  "audit": {
+    "generator": {
+      "model": "openai/gpt-oss-120b",
+      "family": "openai"
+    },
+    "auditors": [
+      {
+        "model": "gemini-3.5-flash",
+        "family": "google"
+      },
+      {
+        "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "family": "meta"
+      }
+    ],
+    "gates": {
+      "TARGET_FIDELITY": "P",
+      "CONTEXT_FIDELITY": "P",
+      "REFERENCE_BOUNDARY": "P",
+      "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+      "GENRE_COMPATIBILITY": "P",
+      "NARRATIVE_EVENT_CONSISTENCY": "P",
+      "TEMPORAL_SEQUENCE": "P",
+      "PERSON_ENTITY_CONSISTENCY": "P",
+      "QUOTATION_BOUNDARY": "P",
+      "UNSUPPORTED_CLAIM": "P",
+      "OVERINTERPRETATION": "P",
+      "DOCTRINAL_OVERREACH": "P",
+      "CHRISTOLOGICAL_FORCE": "P",
+      "PROMISE_SCOPE": "P",
+      "COVENANT_SCOPE": "P",
+      "COMMAND_SCOPE": "P",
+      "PROPHECY_SCOPE": "P",
+      "MIRACLE_SCOPE": "P",
+      "BLESSING_SCOPE": "P",
+      "JUDGMENT_SCOPE": "P",
+      "PRAYER_FIDELITY": "P",
+      "FASTING_SCOPE": "P",
+      "APPLICATION_FIDELITY": "P",
+      "PASTORAL_SAFETY": "P",
+      "ABUSE_SAFETY": "P",
+      "MEDICAL_SAFETY": "P",
+      "FINANCIAL_SAFETY": "P",
+      "NO_PERSONAL_PROPHECY": "P",
+      "NO_FALSE_DIVINE_SPEECH": "P",
+      "NO_TEMPLATE_LANGUAGE": "P",
+      "NO_LITERAL_REPETITION": "P",
+      "NO_STRUCTURAL_REPETITION": "P",
+      "NO_GENERIC_APPLICATION": "P",
+      "NO_GENERIC_PRAYER": "P",
+      "CROSS_SECTION_CONSISTENCY": "P",
+      "LANGUAGE_CLARITY": "P"
+    },
+    "humanReviewed": false,
+    "contractVersion": "pv-ensino-1",
+    "auditedAt": "2026-11-01T18:49:18.420Z",
+    "rounds": 2
+  }
+}
