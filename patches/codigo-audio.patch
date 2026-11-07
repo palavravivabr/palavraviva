@@ -129,11 +129,12 @@ index 0fa38637..130c2c72 100644
 +++ b/tests/palavra-dia.test.mjs
 @@ -28,8 +28,8 @@ test('o roteiro de narração segue a ordem da tela e termina em Amém', () => {
    assert.ok(r.startsWith('Palavra do dia. Salmos vinte e três, versículos um ao três. '));
-   assert.ok(PD.roteiro({ ref: 'Filipenses 4:6-7', c: 4, v: 6, ate: 7, texto: 't', reflexao: 'r', oracao: 'o' }).includes('Filipenses capítulo quatro, versículos seis ao sete.'));
+   assert.ok(PD.roteiro({ ref: '1 Tessalonicenses 2:3', c: 2, v: 3, ate: 3, texto: 't', reflexao: 'r', oracao: 'o' }).includes('Primeira Tessalonicenses capítulo dois, versículo três.'));
    assert.ok(r.indexOf(e.texto) < r.indexOf(e.reflexao) && r.indexOf(e.reflexao) < r.indexOf(e.oracao));
 -  assert.ok(r.endsWith('Amein.'));
 -  assert.ok(!r.includes('Amém'));
 +  assert.ok(r.endsWith('Amém.'));
 +  assert.ok(!r.includes('Amein'));
+   assert.ok(PD.roteiro({ ref: 'Filipenses 4:6-7', c: 4, v: 6, ate: 7, texto: 't', reflexao: 'r', oracao: 'o' }).includes('Filipenses capítulo quatro, versículos seis ao sete.'));
    assert.ok(PD.roteiro({ ref: 'Mateus 6:6-12', c: 6, v: 6, ate: 12, texto: 't', reflexao: 'r', oracao: 'o' }).includes('Mateus capítulo seis, versículos seis ao doze.'));
    assert.ok(PD.roteiro({ ref: 'Salmos 119:105', c: 119, v: 105, ate: 105, texto: 't', reflexao: 'r', oracao: 'o' }).includes('Salmos cento e dezenove, versículo cento e cinco.'));
