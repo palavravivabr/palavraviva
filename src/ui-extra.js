@@ -131,8 +131,19 @@
   }
   au.addEventListener('play', aviso); au.addEventListener('pause', function () { if (on) aviso(); });
   au.addEventListener('loadedmetadata', aplicaVel);
+  /* último capítulo do livro: segue para o capítulo 1 do livro seguinte, se a voz tiver o áudio dele */
+  function proximoLivro() {
+    var r = ref(); if (!r || !window.PVBooks) return false;
+    var bs = PVBooks.all(), i = -1, k;
+    for (k = 0; k < bs.length; k++) if (String(bs[k].id) === String(r.b)) i = k;
+    if (i < 0 || i + 1 >= bs.length) return false;
+    var nb = bs[i + 1];
+    if (!vozId || !tem(vozId, { b: String(nb.id), c: 1 })) return false;
+    var s = { v: 'read', b: nb.id, c: 1, d: ((history.state && typeof history.state.d === 'number') ? history.state.d : 0) + 1 };
+    try { history.pushState(s, ''); auto = true; window.dispatchEvent(new PopStateEvent('popstate', { state: s })); return true; } catch (e) { return false; }
+  }
   au.addEventListener('ended', function () {
-    var n = $('#chNext'); if (n && !n.hidden) { auto = true; n.click(); } else parar();
+    var n = $('#chNext'); if (n && !n.hidden) { auto = true; n.click(); } else if (!proximoLivro()) parar();
   });
   /* trocou de capítulo: se vinha tocando, continua no próximo com a mesma voz */
   function mudou() {
