@@ -1,0 +1,137 @@
+{
+  "id": "45-12-12-21",
+  "ref": "Romanos 12:12-21",
+  "book": "45",
+  "chapter": 12,
+  "verses": [
+    {
+      "n": 12,
+      "t": "Alegrai-vos na esperança. Sede pacientes na aflição. Perseverai na oração."
+    },
+    {
+      "n": 13,
+      "t": "Compartilhai com os santos em suas necessidades. Buscai ser hospitaleiros."
+    },
+    {
+      "n": 14,
+      "t": "Abençoai os que vos perseguem; abençoai, e não amaldiçoeis."
+    },
+    {
+      "n": 15,
+      "t": "Alegrai-vos com os que se alegram, e chorai com os que choram."
+    },
+    {
+      "n": 16,
+      "t": "Estimai-vos uns aos outros como semelhantes. Não fiqueis pensando com soberba; em vez disso, acompanhai-vos dos humildes. Não sejais sábios em vós mesmos."
+    },
+    {
+      "n": 17,
+      "t": "A ninguém pagueis o mal com o mal; buscai fazer o que é certo diante de todos."
+    },
+    {
+      "n": 18,
+      "t": "No que for possível de vossa parte, tende paz com todos."
+    },
+    {
+      "n": 19,
+      "t": "Não vos vingueis por vós mesmos, amados. Em vez disso, dai lugar à ira divina, porque está escrito: A mim pertence a vingança, eu retribuirei, diz o Senhor. Deuteronômio 32:35"
+    },
+    {
+      "n": 20,
+      "t": "Portanto, se o teu inimigo tiver fome, dá-lhe de comer; se tiver sede, dá-lhe de beber. Pois, quando fizeres isto, estarás amontoando brasas de fogo sobre a cabeça dele."
+    },
+    {
+      "n": 21,
+      "t": "Não sejas vencido pelo mal, mas vence o mal com o bem."
+    }
+  ],
+  "titulo": "Como vencer o mal oferecendo água",
+  "temas": [
+    "vingança",
+    "generosidade",
+    "paz",
+    "perdão"
+  ],
+  "pergunta": "Por que Paulo sugere dar comida a quem nos odeia?",
+  "entender": "Paulo descreve a vida cristã como um conjunto de ações diárias. Ele pede que sejamos pacientes na aflição e perseverantes na oração. Mais do que sentimentos, ele lista atitudes práticas: compartilhar com os necessitados, ser hospitaleiro e estimar uns aos outros com humildade, evitando a soberba.\n\nO ponto central e mais difícil é a relação com quem nos persegue. O texto manda abençoar, não amaldiçoar. Paulo lembra que a vingança pertence a Deus, citando Deuteronômio. Ele não pede que ignoremos a dor, mas que não tomemos a justiça para nós mesmos.\n\nA instrução final é concreta: se o inimigo tiver fome, dê-lhe de comer. Isso não é fraqueza, mas uma forma de 'amontoar brasas de fogo' sobre a cabeça dele, ou seja, provocar uma mudança de consciência. O objetivo final é não ser vencido pelo mal, mas vencê-lo com o bem.",
+  "ligar": {
+    "texto": "Jesus viveu exatamente o que Paulo ensina aqui. Na cruz, Ele não se vingou dos que O mataram, mas orou por eles. Ele sofreu a injustiça sem retribuir com violência, confiando no julgamento do Pai. O evangelho nos mostra que o amor de Deus não é passivo, mas poderoso: Ele venceu o mal através do sacrifício. Assim, somos chamados a refletir esse caráter, tratando o próximo com a mesma graça que recebemos, confiando que Deus é o juiz justo.",
+    "selo": true
+  },
+  "viver": "Dê uma pausa e identifique uma pessoa com quem você tem um ressentimento antigo. Em vez de planejar como revidar ou evitar, pense em um gesto pequeno de gentileza que você pode fazer esta semana. Pode ser um cumprimento sincero ou uma oração silenciosa por essa pessoa. Essa atitude quebra o ciclo da mágoa e libera seu coração para viver em paz, mostrando que você não é escravo do rancor.",
+  "guarde": "Não sejas vencido pelo mal, mas vence o mal com o bem.",
+  "ore": "Pai, ao ler sobre abençoar os que nos perseguem, eu confesso minha tendência à raiva. Ensina-me a confiar em Ti como o único Juiz. Dá-me forças para tratar meu próximo com bondade, mesmo quando é difícil, para que eu não seja vencido pelo mal.",
+  "quiz": {
+    "pergunta": "O que Paulo diz que devemos fazer se o nosso inimigo tiver fome?",
+    "opcoes": [
+      "Pedir ajuda a um juiz",
+      "Ignorar o inimigo",
+      "Dar-lhe de comer"
+    ],
+    "certa": 2,
+    "explicacao": "O texto afirma explicitamente: 'se o teu inimigo tiver fome, dá-lhe de comer'. Essa ação é vista como uma forma de responder ao mal com o bem."
+  },
+  "refs": [
+    "Mateus 5:44",
+    "Provérbios 25:21",
+    "1 Pedro 2:23"
+  ],
+  "audit": {
+    "generator": {
+      "model": "qwen/qwen3.8-27b",
+      "family": "alibaba"
+    },
+    "auditors": [
+      {
+        "model": "gemini-3.1-flash-lite",
+        "family": "google"
+      },
+      {
+        "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "family": "meta"
+      }
+    ],
+    "gates": {
+      "TARGET_FIDELITY": "P",
+      "CONTEXT_FIDELITY": "P",
+      "REFERENCE_BOUNDARY": "P",
+      "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+      "GENRE_COMPATIBILITY": "P",
+      "NARRATIVE_EVENT_CONSISTENCY": "P",
+      "TEMPORAL_SEQUENCE": "P",
+      "PERSON_ENTITY_CONSISTENCY": "P",
+      "QUOTATION_BOUNDARY": "P",
+      "UNSUPPORTED_CLAIM": "P",
+      "OVERINTERPRETATION": "P",
+      "DOCTRINAL_OVERREACH": "P",
+      "CHRISTOLOGICAL_FORCE": "P",
+      "PROMISE_SCOPE": "P",
+      "COVENANT_SCOPE": "P",
+      "COMMAND_SCOPE": "P",
+      "PROPHECY_SCOPE": "P",
+      "MIRACLE_SCOPE": "P",
+      "BLESSING_SCOPE": "P",
+      "JUDGMENT_SCOPE": "P",
+      "PRAYER_FIDELITY": "P",
+      "FASTING_SCOPE": "P",
+      "APPLICATION_FIDELITY": "P",
+      "PASTORAL_SAFETY": "P",
+      "ABUSE_SAFETY": "P",
+      "MEDICAL_SAFETY": "P",
+      "FINANCIAL_SAFETY": "P",
+      "NO_PERSONAL_PROPHECY": "P",
+      "NO_FALSE_DIVINE_SPEECH": "P",
+      "NO_TEMPLATE_LANGUAGE": "P",
+      "NO_LITERAL_REPETITION": "P",
+      "NO_STRUCTURAL_REPETITION": "P",
+      "NO_GENERIC_APPLICATION": "P",
+      "NO_GENERIC_PRAYER": "P",
+      "CROSS_SECTION_CONSISTENCY": "P",
+      "LANGUAGE_CLARITY": "P"
+    },
+    "humanReviewed": false,
+    "contractVersion": "pv-ensino-1",
+    "auditedAt": "2026-11-02T01:17:12.669Z",
+    "rounds": 2
+  }
+}

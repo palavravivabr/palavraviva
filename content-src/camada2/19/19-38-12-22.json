@@ -1,142 +1,142 @@
 {
- "id": "19-38-12-22",
- "ref": "Salmos 38:12-22",
- "book": "19",
- "chapter": 38,
- "verses": [
-  {
-   "n": 12,
-   "t": "Os que procuram matar a minha alma me armam laços; e os que procuram o meu mal falam insultos e todo o dia planejam maldades."
+  "id": "19-38-12-22",
+  "ref": "Salmos 38:12-22",
+  "book": "19",
+  "chapter": 38,
+  "verses": [
+    {
+      "n": 12,
+      "t": "Os que procuram matar a minha alma me armam laços; e os que procuram o meu mal falam insultos e todo o dia planejam maldades."
+    },
+    {
+      "n": 13,
+      "t": "Mas eu estou como o surdo, não ouço; e como o mudo, que não abre sua boca."
+    },
+    {
+      "n": 14,
+      "t": "E eu estou como um homem que não ouve, e cuja boca não pode responder com repreensões."
+    },
+    {
+      "n": 15,
+      "t": "Por isso, SENHOR, eu espero em ti; Senhor, meu Deus, tu me ouvirás."
+    },
+    {
+      "n": 16,
+      "t": "Porque eu dizia: Não se alegrem de mim! Quando meu pé vacilou, eles se engrandeceram contra mim."
+    },
+    {
+      "n": 17,
+      "t": "Porque eu estou prestes a ficar como manco, e minha dor está continuamente perante mim."
+    },
+    {
+      "n": 18,
+      "t": "Por isso eu te conto minha maldade; estou aflito por causa do meu pecado."
+    },
+    {
+      "n": 19,
+      "t": "Porém meus inimigos estão vivos, e se fortalecem; e os que me odeiam por maldade se multiplicam;"
+    },
+    {
+      "n": 20,
+      "t": "Assim como os que retribuem o bem com o mal, eles se opõem a mim, porque eu sigo o bem."
+    },
+    {
+      "n": 21,
+      "t": "Não me desampares, SENHOR, meu Deus, não fiques longe de mim."
+    },
+    {
+      "n": 22,
+      "t": "Apressa-te ao meu socorro, SENHOR, salvação minha."
+    }
+  ],
+  "titulo": "Quando a dor parece esmagar, onde está a esperança?",
+  "temas": [
+    "sofrimento",
+    "esperança",
+    "oração",
+    "confiança"
+  ],
+  "pergunta": "Você já se sentiu cercado por inimigos que parecem multiplicar o seu sofrimento?",
+  "entender": "O salmista descreve um cenário de ataque intenso: “Os que procuram matar a minha alma me armam laços” (Sl 38.12). Ele sente que as palavras dos inimigos são insultos constantes e que sua própria fraqueza o impede de responder. Mesmo assim, volta ao Senhor, declarando: “Por isso, SENHOR, eu espero em ti; Senhor, meu Deus, tu me ouvirás” (Sl 38.15). O capítulo 38 faz parte de um lamento maior, onde Davi relata sua dor física e emocional, mostrando que o sofrimento não é novidade para o povo de Deus.\n\nNesse contexto, o salmista reconhece que sua dor tem origem no pecado (“por isso eu te conto minha maldade; estou aflito por causa do meu pecado” Sl 38.18) e que seus inimigos parecem prosperar. Ele clama por socorro: “Não me desampares, SENHOR, meu Deus, não fiques longe de mim” (Sl 38.21) e suplica: “Apressa‑te ao meu socorro, SENHOR, salvação minha” (Sl 38.22). O salmo revela a realidade de alguém que, embora cercado por maldade, mantém a esperança na fidelidade de Deus.",
+  "ligar": {
+    "texto": "O clamor do salmista por socorro e sua confiança de que Deus ouvirá lembram o pedido de Jesus na cruz, que entregou sua vida por aqueles que o acusavam. Assim como Davi reconhece que sua dor tem raiz no pecado, Jesus mostrou que o sofrimento humano tem solução na graça divina, oferecendo perdão e vida eterna. Essa esperança aponta para o Salvador que, ao morrer e ressuscitar, garante socorro imediato a quem crê.",
+    "selo": false
   },
-  {
-   "n": 13,
-   "t": "Mas eu estou como o surdo, não ouço; e como o mudo, que não abre sua boca."
+  "viver": "Diante de críticas e perseguições, o salmista não se fechou em seu sofrimento, mas buscou a presença de Deus. Hoje, quando você sentir que as palavras dos outros machucam ou que as circunstâncias parecem esmagadoras, reconheça sua própria fraqueza, confesse a Deus e peça que Ele lhe dê força para responder com mansidão, em vez de amargura. Essa atitude transforma a dor em oportunidade de depender mais profundamente da graça que nos sustenta.",
+  "guarde": "Mesmo na aflição, Deus ouve o clamor de quem confia n'Ele.",
+  "ore": "Senhor, ao ouvir as mentiras que me cercam, ajuda‑me a permanecer firme na esperança que só Tu podes dar.",
+  "quiz": {
+    "pergunta": "O que o salmista pede a Deus no versículo 21?",
+    "opcoes": [
+      "Não me desampares",
+      "Que o cure",
+      "Que o liberte dos inimigos"
+    ],
+    "certa": 0,
+    "explicacao": "No versículo 21 o salmista clama: “Não me desampares, SENHOR, meu Deus, não fiques longe de mim”, pedindo a presença constante de Deus, não especificamente cura ou libertação física."
   },
-  {
-   "n": 14,
-   "t": "E eu estou como um homem que não ouve, e cuja boca não pode responder com repreensões."
-  },
-  {
-   "n": 15,
-   "t": "Por isso, SENHOR, eu espero em ti; Senhor, meu Deus, tu me ouvirás."
-  },
-  {
-   "n": 16,
-   "t": "Porque eu dizia: Não se alegrem de mim!Quando meu pé vacilou, eles se engrandeceram contra mim."
-  },
-  {
-   "n": 17,
-   "t": "Porque eu estou prestes a ficar como manco, e minha dor está continuamente perante mim."
-  },
-  {
-   "n": 18,
-   "t": "Por isso eu te conto minha maldade; estou aflito por causa do meu pecado."
-  },
-  {
-   "n": 19,
-   "t": "Porém meus inimigos estão vivos, e se fortalecem; e os que me odeiam por maldade se multiplicam;"
-  },
-  {
-   "n": 20,
-   "t": "Assim como os que retribuem o bem com o mal, eles se opõem a mim, porque eu sigo o bem."
-  },
-  {
-   "n": 21,
-   "t": "Não me desampares, SENHOR, meu Deus, não fiques longe de mim."
-  },
-  {
-   "n": 22,
-   "t": "Apressa-te ao meu socorro, SENHOR, salvação minha."
+  "refs": [
+    "Salmos 34:19",
+    "Isaías 53:4-5",
+    "Mateus 11:28-30",
+    "Hebreus 4:15"
+  ],
+  "audit": {
+    "generator": {
+      "model": "openai/gpt-oss-120b",
+      "family": "openai"
+    },
+    "auditors": [
+      {
+        "model": "gemini-3.1-flash-lite",
+        "family": "google"
+      },
+      {
+        "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "family": "meta"
+      }
+    ],
+    "gates": {
+      "TARGET_FIDELITY": "P",
+      "CONTEXT_FIDELITY": "P",
+      "REFERENCE_BOUNDARY": "P",
+      "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+      "GENRE_COMPATIBILITY": "P",
+      "NARRATIVE_EVENT_CONSISTENCY": "P",
+      "TEMPORAL_SEQUENCE": "P",
+      "PERSON_ENTITY_CONSISTENCY": "P",
+      "QUOTATION_BOUNDARY": "P",
+      "UNSUPPORTED_CLAIM": "P",
+      "OVERINTERPRETATION": "P",
+      "DOCTRINAL_OVERREACH": "P",
+      "CHRISTOLOGICAL_FORCE": "P",
+      "PROMISE_SCOPE": "P",
+      "COVENANT_SCOPE": "P",
+      "COMMAND_SCOPE": "P",
+      "PROPHECY_SCOPE": "P",
+      "MIRACLE_SCOPE": "P",
+      "BLESSING_SCOPE": "P",
+      "JUDGMENT_SCOPE": "P",
+      "PRAYER_FIDELITY": "P",
+      "FASTING_SCOPE": "P",
+      "APPLICATION_FIDELITY": "P",
+      "PASTORAL_SAFETY": "P",
+      "ABUSE_SAFETY": "P",
+      "MEDICAL_SAFETY": "P",
+      "FINANCIAL_SAFETY": "P",
+      "NO_PERSONAL_PROPHECY": "P",
+      "NO_FALSE_DIVINE_SPEECH": "P",
+      "NO_TEMPLATE_LANGUAGE": "P",
+      "NO_LITERAL_REPETITION": "P",
+      "NO_STRUCTURAL_REPETITION": "P",
+      "NO_GENERIC_APPLICATION": "P",
+      "NO_GENERIC_PRAYER": "P",
+      "CROSS_SECTION_CONSISTENCY": "P",
+      "LANGUAGE_CLARITY": "P"
+    },
+    "humanReviewed": false,
+    "contractVersion": "pv-ensino-1",
+    "auditedAt": "2026-11-04T07:22:15.490Z",
+    "rounds": 2
   }
- ],
- "titulo": "Quando a dor parece esmagar, onde está a esperança?",
- "temas": [
-  "sofrimento",
-  "esperança",
-  "oração",
-  "confiança"
- ],
- "pergunta": "Você já se sentiu cercado por inimigos que parecem multiplicar o seu sofrimento?",
- "entender": "O salmista descreve um cenário de ataque intenso: “Os que procuram matar a minha alma me armam laços” (Sl 38.12). Ele sente que as palavras dos inimigos são insultos constantes e que sua própria fraqueza o impede de responder. Mesmo assim, volta ao Senhor, declarando: “Por isso, SENHOR, eu espero em ti; Senhor, meu Deus, tu me ouvirás” (Sl 38.15). O capítulo 38 faz parte de um lamento maior, onde Davi relata sua dor física e emocional, mostrando que o sofrimento não é novidade para o povo de Deus.\n\nNesse contexto, o salmista reconhece que sua dor tem origem no pecado (“por isso eu te conto minha maldade; estou aflito por causa do meu pecado” Sl 38.18) e que seus inimigos parecem prosperar. Ele clama por socorro: “Não me desampares, SENHOR, meu Deus, não fiques longe de mim” (Sl 38.21) e suplica: “Apressa‑te ao meu socorro, SENHOR, salvação minha” (Sl 38.22). O salmo revela a realidade de alguém que, embora cercado por maldade, mantém a esperança na fidelidade de Deus.",
- "ligar": {
-  "texto": "O clamor do salmista por socorro e sua confiança de que Deus ouvirá lembram o pedido de Jesus na cruz, que entregou sua vida por aqueles que o acusavam. Assim como Davi reconhece que sua dor tem raiz no pecado, Jesus mostrou que o sofrimento humano tem solução na graça divina, oferecendo perdão e vida eterna. Essa esperança aponta para o Salvador que, ao morrer e ressuscitar, garante socorro imediato a quem crê.",
-  "selo": false
- },
- "viver": "Diante de críticas e perseguições, o salmista não se fechou em seu sofrimento, mas buscou a presença de Deus. Hoje, quando você sentir que as palavras dos outros machucam ou que as circunstâncias parecem esmagadoras, reconheça sua própria fraqueza, confesse a Deus e peça que Ele lhe dê força para responder com mansidão, em vez de amargura. Essa atitude transforma a dor em oportunidade de depender mais profundamente da graça que nos sustenta.",
- "guarde": "Mesmo na aflição, Deus ouve o clamor de quem confia n'Ele.",
- "ore": "Senhor, ao ouvir as mentiras que me cercam, ajuda‑me a permanecer firme na esperança que só Tu podes dar.",
- "quiz": {
-  "pergunta": "O que o salmista pede a Deus no versículo 21?",
-  "opcoes": [
-   "Não me desampares",
-   "Que o cure",
-   "Que o liberte dos inimigos"
-  ],
-  "certa": 0,
-  "explicacao": "No versículo 21 o salmista clama: “Não me desampares, SENHOR, meu Deus, não fiques longe de mim”, pedindo a presença constante de Deus, não especificamente cura ou libertação física."
- },
- "refs": [
-  "Salmos 34:19",
-  "Isaías 53:4-5",
-  "Mateus 11:28-30",
-  "Hebreus 4:15"
- ],
- "audit": {
-  "generator": {
-   "model": "openai/gpt-oss-120b",
-   "family": "openai"
-  },
-  "auditors": [
-   {
-    "model": "gemini-3.1-flash-lite",
-    "family": "google"
-   },
-   {
-    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
-    "family": "meta"
-   }
-  ],
-  "gates": {
-   "TARGET_FIDELITY": "P",
-   "CONTEXT_FIDELITY": "P",
-   "REFERENCE_BOUNDARY": "P",
-   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
-   "GENRE_COMPATIBILITY": "P",
-   "NARRATIVE_EVENT_CONSISTENCY": "P",
-   "TEMPORAL_SEQUENCE": "P",
-   "PERSON_ENTITY_CONSISTENCY": "P",
-   "QUOTATION_BOUNDARY": "P",
-   "UNSUPPORTED_CLAIM": "P",
-   "OVERINTERPRETATION": "P",
-   "DOCTRINAL_OVERREACH": "P",
-   "CHRISTOLOGICAL_FORCE": "P",
-   "PROMISE_SCOPE": "P",
-   "COVENANT_SCOPE": "P",
-   "COMMAND_SCOPE": "P",
-   "PROPHECY_SCOPE": "P",
-   "MIRACLE_SCOPE": "P",
-   "BLESSING_SCOPE": "P",
-   "JUDGMENT_SCOPE": "P",
-   "PRAYER_FIDELITY": "P",
-   "FASTING_SCOPE": "P",
-   "APPLICATION_FIDELITY": "P",
-   "PASTORAL_SAFETY": "P",
-   "ABUSE_SAFETY": "P",
-   "MEDICAL_SAFETY": "P",
-   "FINANCIAL_SAFETY": "P",
-   "NO_PERSONAL_PROPHECY": "P",
-   "NO_FALSE_DIVINE_SPEECH": "P",
-   "NO_TEMPLATE_LANGUAGE": "P",
-   "NO_LITERAL_REPETITION": "P",
-   "NO_STRUCTURAL_REPETITION": "P",
-   "NO_GENERIC_APPLICATION": "P",
-   "NO_GENERIC_PRAYER": "P",
-   "CROSS_SECTION_CONSISTENCY": "P",
-   "LANGUAGE_CLARITY": "P"
-  },
-  "humanReviewed": false,
-  "contractVersion": "pv-ensino-1",
-  "auditedAt": "2026-11-04T07:22:15.490Z",
-  "rounds": 2
- }
 }

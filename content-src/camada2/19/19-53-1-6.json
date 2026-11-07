@@ -1,120 +1,120 @@
 {
- "id": "19-53-1-6",
- "ref": "Salmos 53:1-6",
- "book": "19",
- "chapter": 53,
- "verses": [
-  {
-   "n": 1,
-   "t": "O tolo diz em seu coração: Não há Deus.Eles se corrompem, e cometem abominável perversidade, ninguém há que faça o bem."
+  "id": "19-53-1-6",
+  "ref": "Salmos 53:1-6",
+  "book": "19",
+  "chapter": 53,
+  "verses": [
+    {
+      "n": 1,
+      "t": "O tolo diz em seu coração: Não há Deus. Eles se corrompem, e cometem abominável perversidade, ninguém há que faça o bem."
+    },
+    {
+      "n": 2,
+      "t": "Deus olhou desde os céus para os filhos dos homens, para ver se havia alguém prudente, que buscasse a Deus."
+    },
+    {
+      "n": 3,
+      "t": "Todos se desviaram, juntamente se fizeram detestáveis; ninguém há que faça o bem, nem um sequer."
+    },
+    {
+      "n": 4,
+      "t": "Será que não tem conhecimento os praticantes de maldade, que devoram a meu povo, como se comessem pão? Eles não clamam a Deus."
+    },
+    {
+      "n": 5,
+      "t": "Ali eles terão grande medo, onde não havia medo; porque Deus espalhou os ossos daquele que te cercava; tu os humilhaste, porque Deus os rejeitou."
+    },
+    {
+      "n": 6,
+      "t": "Ah, que de Sião venha a salvação de Israel! Quando Deus restaurar seu povo de seu infortúnio, Jacó jubilará, Israel se alegrará."
+    }
+  ],
+  "titulo": "Deus olhou para ver se havia alguém",
+  "temas": [
+    "pecado",
+    "salvação",
+    "esperança"
+  ],
+  "pergunta": "Por que o salmista diz que ninguém faz o bem, mas ainda assim há esperança para Israel?",
+  "entender": "Neste salmo, o autor começa com uma verdade dura: o coração humano, sem Deus, se corrompe e nega a existência do Criador. Ele descreve uma humanidade que se desviou completamente, onde \"ninguém há que faça o bem, nem um sequer\". Não é apenas uma lista de erros, mas uma constatação sobre a condição profunda do ser humano diante de Deus.\n\nApesar dessa descrição sombria, o texto não termina em desespero. Deus, desde os céus, observa para ver se havia alguém que O buscasse. O salmo termina com uma promessa de restauração: a salvação virá de Sião e o povo de Deus se alegrará. Isso mostra que, mesmo quando a humanidade parece falhar completamente, Deus tem um plano de redenção para o Seu povo.",
+  "ligar": {
+    "texto": "A afirmação de que \"ninguém há que faça o bem\" ecoa completamente o que Paulo escreveu em Romanos 3, onde ele cita este salmo para provar que todos pecaram. Jesus é a resposta a essa busca de Deus. Ele é o único que fez o bem perfeito, morrendo na cruz pelos nossos pecados. A salvação que o salmo espera de Sião se cumpriu em Cristo, que restaura o que estava quebrado.",
+    "selo": false
   },
-  {
-   "n": 2,
-   "t": "Deus olhou desde os céus para os filhos dos homens, para ver se havia alguém prudente, que buscasse a Deus."
+  "viver": "Às vezes, olhamos para a sociedade e sentimos que a maldade venceu. Mas este salmo nos convida a parar de depender das nossas próprias forças ou das de outros para sermos bons. Reconhecer que, sem Deus, não conseguimos fazer o bem de verdade, nos leva a depender da graça de Jesus. Em vez de se frustrar com a imperfeição alheia ou a sua própria, tente hoje orar pedindo a Deus que transforme seu coração, confiando na salvação que Ele já preparou.",
+  "guarde": "Mesmo quando todos se desviam, Deus olha dos céus e prepara a salvação de Sião.",
+  "ore": "Deus que olhou desde os céus, ajuda-me a ver minha necessidade de Ti. Reconheço que não posso fazer o bem por conta própria. Graça pela salvação que vem de Sião em Jesus, meu Salvador.",
+  "quiz": {
+    "pergunta": "O que o salmista diz que Deus olhou dos céus para ver?",
+    "opcoes": [
+      "Se havia alguém prudente que buscasse a Deus",
+      "Se havia alguém que não tivesse cometido nenhum erro",
+      "Quem estava mais rico do que os outros"
+    ],
+    "certa": 0,
+    "explicacao": "O versículo 2 diz especificamente que Deus olhou \"para ver se havia alguém prudente, que buscasse a Deus\"."
   },
-  {
-   "n": 3,
-   "t": "Todos se desviaram, juntamente se fizeram detestáveis; ninguém há que faça o bem, nem um sequer."
-  },
-  {
-   "n": 4,
-   "t": "Será que não tem conhecimento os praticantes de maldade, que devoram a meu povo, como se comessem pão? Eles não clamam a Deus."
-  },
-  {
-   "n": 5,
-   "t": "Ali eles terão grande medo, onde não havia medo; porque Deus espalhou os ossos daquele que te cercava; tu os humilhaste, porque Deus os rejeitou."
-  },
-  {
-   "n": 6,
-   "t": "Ah, que de Sião venha a salvação de Israel! Quando Deus restaurar seu povo de seu infortúnio, Jacó jubilará, Israel se alegrará."
+  "refs": [
+    "Romanos 3:10-12",
+    "Salmos 14:1-2",
+    "Isaías 55:5"
+  ],
+  "audit": {
+    "generator": {
+      "model": "qwen/qwen3.8-27b",
+      "family": "alibaba"
+    },
+    "auditors": [
+      {
+        "model": "gemini-3.1-flash-lite",
+        "family": "google"
+      },
+      {
+        "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "family": "meta"
+      }
+    ],
+    "gates": {
+      "TARGET_FIDELITY": "P",
+      "CONTEXT_FIDELITY": "P",
+      "REFERENCE_BOUNDARY": "P",
+      "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+      "GENRE_COMPATIBILITY": "P",
+      "NARRATIVE_EVENT_CONSISTENCY": "P",
+      "TEMPORAL_SEQUENCE": "P",
+      "PERSON_ENTITY_CONSISTENCY": "P",
+      "QUOTATION_BOUNDARY": "P",
+      "UNSUPPORTED_CLAIM": "P",
+      "OVERINTERPRETATION": "P",
+      "DOCTRINAL_OVERREACH": "P",
+      "CHRISTOLOGICAL_FORCE": "P",
+      "PROMISE_SCOPE": "P",
+      "COVENANT_SCOPE": "P",
+      "COMMAND_SCOPE": "P",
+      "PROPHECY_SCOPE": "P",
+      "MIRACLE_SCOPE": "P",
+      "BLESSING_SCOPE": "P",
+      "JUDGMENT_SCOPE": "P",
+      "PRAYER_FIDELITY": "P",
+      "FASTING_SCOPE": "P",
+      "APPLICATION_FIDELITY": "P",
+      "PASTORAL_SAFETY": "P",
+      "ABUSE_SAFETY": "P",
+      "MEDICAL_SAFETY": "P",
+      "FINANCIAL_SAFETY": "P",
+      "NO_PERSONAL_PROPHECY": "P",
+      "NO_FALSE_DIVINE_SPEECH": "P",
+      "NO_TEMPLATE_LANGUAGE": "P",
+      "NO_LITERAL_REPETITION": "P",
+      "NO_STRUCTURAL_REPETITION": "P",
+      "NO_GENERIC_APPLICATION": "P",
+      "NO_GENERIC_PRAYER": "P",
+      "CROSS_SECTION_CONSISTENCY": "P",
+      "LANGUAGE_CLARITY": "P"
+    },
+    "humanReviewed": false,
+    "contractVersion": "pv-ensino-1",
+    "auditedAt": "2026-11-05T01:15:09.172Z",
+    "rounds": 1
   }
- ],
- "titulo": "Deus olhou para ver se havia alguém",
- "temas": [
-  "pecado",
-  "salvação",
-  "esperança"
- ],
- "pergunta": "Por que o salmista diz que ninguém faz o bem, mas ainda assim há esperança para Israel?",
- "entender": "Neste salmo, o autor começa com uma verdade dura: o coração humano, sem Deus, se corrompe e nega a existência do Criador. Ele descreve uma humanidade que se desviou completamente, onde \"ninguém há que faça o bem, nem um sequer\". Não é apenas uma lista de erros, mas uma constatação sobre a condição profunda do ser humano diante de Deus.\n\nApesar dessa descrição sombria, o texto não termina em desespero. Deus, desde os céus, observa para ver se havia alguém que O buscasse. O salmo termina com uma promessa de restauração: a salvação virá de Sião e o povo de Deus se alegrará. Isso mostra que, mesmo quando a humanidade parece falhar completamente, Deus tem um plano de redenção para o Seu povo.",
- "ligar": {
-  "texto": "A afirmação de que \"ninguém há que faça o bem\" ecoa completamente o que Paulo escreveu em Romanos 3, onde ele cita este salmo para provar que todos pecaram. Jesus é a resposta a essa busca de Deus. Ele é o único que fez o bem perfeito, morrendo na cruz pelos nossos pecados. A salvação que o salmo espera de Sião se cumpriu em Cristo, que restaura o que estava quebrado.",
-  "selo": false
- },
- "viver": "Às vezes, olhamos para a sociedade e sentimos que a maldade venceu. Mas este salmo nos convida a parar de depender das nossas próprias forças ou das de outros para sermos bons. Reconhecer que, sem Deus, não conseguimos fazer o bem de verdade, nos leva a depender da graça de Jesus. Em vez de se frustrar com a imperfeição alheia ou a sua própria, tente hoje orar pedindo a Deus que transforme seu coração, confiando na salvação que Ele já preparou.",
- "guarde": "Mesmo quando todos se desviam, Deus olha dos céus e prepara a salvação de Sião.",
- "ore": "Deus que olhou desde os céus, ajuda-me a ver minha necessidade de Ti. Reconheço que não posso fazer o bem por conta própria. Graça pela salvação que vem de Sião em Jesus, meu Salvador.",
- "quiz": {
-  "pergunta": "O que o salmista diz que Deus olhou dos céus para ver?",
-  "opcoes": [
-   "Se havia alguém prudente que buscasse a Deus",
-   "Se havia alguém que não tivesse cometido nenhum erro",
-   "Quem estava mais rico do que os outros"
-  ],
-  "certa": 0,
-  "explicacao": "O versículo 2 diz especificamente que Deus olhou \"para ver se havia alguém prudente, que buscasse a Deus\"."
- },
- "refs": [
-  "Romanos 3:10-12",
-  "Salmos 14:1-2",
-  "Isaías 55:5"
- ],
- "audit": {
-  "generator": {
-   "model": "qwen/qwen3.8-27b",
-   "family": "alibaba"
-  },
-  "auditors": [
-   {
-    "model": "gemini-3.1-flash-lite",
-    "family": "google"
-   },
-   {
-    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
-    "family": "meta"
-   }
-  ],
-  "gates": {
-   "TARGET_FIDELITY": "P",
-   "CONTEXT_FIDELITY": "P",
-   "REFERENCE_BOUNDARY": "P",
-   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
-   "GENRE_COMPATIBILITY": "P",
-   "NARRATIVE_EVENT_CONSISTENCY": "P",
-   "TEMPORAL_SEQUENCE": "P",
-   "PERSON_ENTITY_CONSISTENCY": "P",
-   "QUOTATION_BOUNDARY": "P",
-   "UNSUPPORTED_CLAIM": "P",
-   "OVERINTERPRETATION": "P",
-   "DOCTRINAL_OVERREACH": "P",
-   "CHRISTOLOGICAL_FORCE": "P",
-   "PROMISE_SCOPE": "P",
-   "COVENANT_SCOPE": "P",
-   "COMMAND_SCOPE": "P",
-   "PROPHECY_SCOPE": "P",
-   "MIRACLE_SCOPE": "P",
-   "BLESSING_SCOPE": "P",
-   "JUDGMENT_SCOPE": "P",
-   "PRAYER_FIDELITY": "P",
-   "FASTING_SCOPE": "P",
-   "APPLICATION_FIDELITY": "P",
-   "PASTORAL_SAFETY": "P",
-   "ABUSE_SAFETY": "P",
-   "MEDICAL_SAFETY": "P",
-   "FINANCIAL_SAFETY": "P",
-   "NO_PERSONAL_PROPHECY": "P",
-   "NO_FALSE_DIVINE_SPEECH": "P",
-   "NO_TEMPLATE_LANGUAGE": "P",
-   "NO_LITERAL_REPETITION": "P",
-   "NO_STRUCTURAL_REPETITION": "P",
-   "NO_GENERIC_APPLICATION": "P",
-   "NO_GENERIC_PRAYER": "P",
-   "CROSS_SECTION_CONSISTENCY": "P",
-   "LANGUAGE_CLARITY": "P"
-  },
-  "humanReviewed": false,
-  "contractVersion": "pv-ensino-1",
-  "auditedAt": "2026-11-05T01:15:09.172Z",
-  "rounds": 1
- }
 }

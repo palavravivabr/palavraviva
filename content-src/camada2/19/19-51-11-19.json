@@ -1,133 +1,133 @@
 {
- "id": "19-51-11-19",
- "ref": "Salmos 51:11-19",
- "book": "19",
- "chapter": 51,
- "verses": [
-  {
-   "n": 11,
-   "t": "Não me rejeites de tua face, e não tires teu Espírito Santo de mim."
+  "id": "19-51-11-19",
+  "ref": "Salmos 51:11-19",
+  "book": "19",
+  "chapter": 51,
+  "verses": [
+    {
+      "n": 11,
+      "t": "Não me rejeites de tua face, e não tires teu Espírito Santo de mim."
+    },
+    {
+      "n": 12,
+      "t": "Restaura a alegria de tua salvação, e que tu me sustentes com um espírito de boa vontade."
+    },
+    {
+      "n": 13,
+      "t": "Então eu ensinarei aos transgressores os teus caminhos, e os pecadores se converterão a ti."
+    },
+    {
+      "n": 14,
+      "t": "Livra-me das transgressões por derramamento de sangue, ó Deus, Deus de minha salvação; e minha língua louvará alegremente tua justiça."
+    },
+    {
+      "n": 15,
+      "t": "Abre, Senhor, os meus lábios, e minha boca anunciará louvor a ti."
+    },
+    {
+      "n": 16,
+      "t": "Porque tu não te agradas de sacrifícios, pois senão eu te daria; tu não te alegras de holocaustos."
+    },
+    {
+      "n": 17,
+      "t": "Os sacrifícios a Deus são um espírito quebrado em arrependimento; tu não desprezarás um coração quebrado e triste."
+    },
+    {
+      "n": 18,
+      "t": "Faze bem a Sião conforme tua boa vontade; edifica os muros de Jerusalém."
+    },
+    {
+      "n": 19,
+      "t": "Então tu te agradarás dos sacrifícios de justiça, dos holocaustos, e das ofertas queimadas; então oferecerão bezerros sobre teu altar."
+    }
+  ],
+  "titulo": "O sacrifício que Deus realmente aceita",
+  "temas": [
+    "arrependimento",
+    "oração",
+    "coração",
+    "restauração"
+  ],
+  "pergunta": "O que é mais precioso para Deus: um ritual perfeito ou um coração honesto?",
+  "entender": "Davi, após seu pecado, pede que Deus não o rejeite e que restaure a alegria da salvação nele. Ele reconhece que não pode comprar a aprovação divina com rituais vazios. Davi afirma que Deus não se agrada de sacrifícios externos se o coração não estiver alinhado com a vontade dEle.\n\nO versículo 17 é a chave: os verdadeiros sacrifícios são um espírito quebrado em arrependimento. Isso significa que a humildade e a tristeza sincera pelo pecado são o que Deus valoriza. Ele não despreza esse coração triste, mas o aceita como a melhor oferenda.\n\nDavi termina olhando para Sião e Jerusalém, conectando sua restauração pessoal com a bênção da nação. A adoração verdadeira nasce de um coração renovado, que então pode ensinar outros e louvar a justiça de Deus.",
+  "ligar": {
+    "texto": "Jesus é a personificação desse coração quebrado que Deus aceita. No Calvário, Ele não ofereceu animais, mas Sua própria vida em obediência total. Ele cumpriu o que os rituais apontavam e nos ensina que a adoração verdadeira é em espírito e verdade. Quando confessamos nossos pecados, Cristo intercede por nós, restaurando nossa comunhão e nos capacitando a viver em sinceridade, tal como Davi desejava.",
+    "selo": false
   },
-  {
-   "n": 12,
-   "t": "Restaura a alegria de tua salvação, e que tu me sustentes com um espírito de boa vontade."
+  "viver": "Deus não precisa de suas performances religiosas, mas da sua presença honesta. Hoje, pare de tentar impressionar com ações vazias. Escolha um momento de silêncio e examine seu coração com transparência. Se houver algo que você escondeu, traga isso à luz. Peça a Deus que crie um coração puro em você. A oração sincera, mesmo com lágrimas, é mais poderosa que uma rotina mecânica. Deixe Deus restaurar sua alegria como consequência da comunhão genuína, não como um prêmio.",
+  "guarde": "Deus não despreza um coração quebrado e triste, pois valoriza a sinceridade acima dos rituais.",
+  "ore": "Davi, teu clamor me ensina: não tires teu Espírito de mim. Cria em mim um coração puro e renova minha força interior. Ajuda-me a te amar com sinceridade, não apenas por dever. Restaura minha alegria e abre meus lábios para louvar tua justiça.",
+  "quiz": {
+    "pergunta": "Segundo o Salmo 51:17, o que são os verdadeiros sacrifícios a Deus?",
+    "opcoes": [
+      "Um espírito quebrado em arrependimento",
+      "Ofertas financeiras generosas",
+      "Animais imolados no altar"
+    ],
+    "certa": 0,
+    "explicacao": "O texto diz explicitamente que os sacrifícios a Deus são um espírito quebrado em arrependimento, e que Ele não despreza um coração quebrado e triste."
   },
-  {
-   "n": 13,
-   "t": "Então eu ensinarei aos transgressores os teus caminhos, e os pecadores se converterão a ti."
-  },
-  {
-   "n": 14,
-   "t": "Livra-me das transgressões por derramamento de sangue, ó Deus, Deus de minha salvação; e minha língua louvará alegremente tua justiça."
-  },
-  {
-   "n": 15,
-   "t": "Abre, Senhor, os meus lábios, e minha boca anunciará louvor a ti."
-  },
-  {
-   "n": 16,
-   "t": "Porque tu não te agradas de sacrifícios, pois senão eu te daria; tu não te alegras de holocaustos."
-  },
-  {
-   "n": 17,
-   "t": "Os sacrifícios a Deus são um espírito quebrado em arrependimento ; tu não desprezarás um coração quebrado e triste."
-  },
-  {
-   "n": 18,
-   "t": "Faze bem a Sião conforme tua boa vontade; edifica os muros de Jerusalém."
-  },
-  {
-   "n": 19,
-   "t": "Então tu te agradarás dos sacrifícios de justiça, dos holocaustos, e das ofertas queimadas; então oferecerão bezerros sobre teu altar."
+  "refs": [
+    "Isaías 1:11-17",
+    "Hebreus 10:5-9",
+    "João 4:23-24"
+  ],
+  "audit": {
+    "generator": {
+      "model": "qwen/qwen3.8-27b",
+      "family": "alibaba"
+    },
+    "auditors": [
+      {
+        "model": "gemini-3.1-flash-lite",
+        "family": "google"
+      },
+      {
+        "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "family": "meta"
+      }
+    ],
+    "gates": {
+      "TARGET_FIDELITY": "P",
+      "CONTEXT_FIDELITY": "P",
+      "REFERENCE_BOUNDARY": "P",
+      "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+      "GENRE_COMPATIBILITY": "P",
+      "NARRATIVE_EVENT_CONSISTENCY": "P",
+      "TEMPORAL_SEQUENCE": "P",
+      "PERSON_ENTITY_CONSISTENCY": "P",
+      "QUOTATION_BOUNDARY": "P",
+      "UNSUPPORTED_CLAIM": "P",
+      "OVERINTERPRETATION": "P",
+      "DOCTRINAL_OVERREACH": "P",
+      "CHRISTOLOGICAL_FORCE": "P",
+      "PROMISE_SCOPE": "P",
+      "COVENANT_SCOPE": "P",
+      "COMMAND_SCOPE": "P",
+      "PROPHECY_SCOPE": "P",
+      "MIRACLE_SCOPE": "P",
+      "BLESSING_SCOPE": "P",
+      "JUDGMENT_SCOPE": "P",
+      "PRAYER_FIDELITY": "P",
+      "FASTING_SCOPE": "P",
+      "APPLICATION_FIDELITY": "P",
+      "PASTORAL_SAFETY": "P",
+      "ABUSE_SAFETY": "P",
+      "MEDICAL_SAFETY": "P",
+      "FINANCIAL_SAFETY": "P",
+      "NO_PERSONAL_PROPHECY": "P",
+      "NO_FALSE_DIVINE_SPEECH": "P",
+      "NO_TEMPLATE_LANGUAGE": "P",
+      "NO_LITERAL_REPETITION": "P",
+      "NO_STRUCTURAL_REPETITION": "P",
+      "NO_GENERIC_APPLICATION": "P",
+      "NO_GENERIC_PRAYER": "P",
+      "CROSS_SECTION_CONSISTENCY": "P",
+      "LANGUAGE_CLARITY": "P"
+    },
+    "humanReviewed": false,
+    "contractVersion": "pv-ensino-1",
+    "auditedAt": "2026-11-05T01:11:29.813Z",
+    "rounds": 2
   }
- ],
- "titulo": "O sacrifício que Deus realmente aceita",
- "temas": [
-  "arrependimento",
-  "oração",
-  "coração",
-  "restauração"
- ],
- "pergunta": "O que é mais precioso para Deus: um ritual perfeito ou um coração honesto?",
- "entender": "Davi, após seu pecado, pede que Deus não o rejeite e que restaure a alegria da salvação nele. Ele reconhece que não pode comprar a aprovação divina com rituais vazios. Davi afirma que Deus não se agrada de sacrifícios externos se o coração não estiver alinhado com a vontade dEle.\n\nO versículo 17 é a chave: os verdadeiros sacrifícios são um espírito quebrado em arrependimento. Isso significa que a humildade e a tristeza sincera pelo pecado são o que Deus valoriza. Ele não despreza esse coração triste, mas o aceita como a melhor oferenda.\n\nDavi termina olhando para Sião e Jerusalém, conectando sua restauração pessoal com a bênção da nação. A adoração verdadeira nasce de um coração renovado, que então pode ensinar outros e louvar a justiça de Deus.",
- "ligar": {
-  "texto": "Jesus é a personificação desse coração quebrado que Deus aceita. No Calvário, Ele não ofereceu animais, mas Sua própria vida em obediência total. Ele cumpriu o que os rituais apontavam e nos ensina que a adoração verdadeira é em espírito e verdade. Quando confessamos nossos pecados, Cristo intercede por nós, restaurando nossa comunhão e nos capacitando a viver em sinceridade, tal como Davi desejava.",
-  "selo": false
- },
- "viver": "Deus não precisa de suas performances religiosas, mas da sua presença honesta. Hoje, pare de tentar impressionar com ações vazias. Escolha um momento de silêncio e examine seu coração com transparência. Se houver algo que você escondeu, traga isso à luz. Peça a Deus que crie um coração puro em você. A oração sincera, mesmo com lágrimas, é mais poderosa que uma rotina mecânica. Deixe Deus restaurar sua alegria como consequência da comunhão genuína, não como um prêmio.",
- "guarde": "Deus não despreza um coração quebrado e triste, pois valoriza a sinceridade acima dos rituais.",
- "ore": "Davi, teu clamor me ensina: não tires teu Espírito de mim. Cria em mim um coração puro e renova minha força interior. Ajuda-me a te amar com sinceridade, não apenas por dever. Restaura minha alegria e abre meus lábios para louvar tua justiça.",
- "quiz": {
-  "pergunta": "Segundo o Salmo 51:17, o que são os verdadeiros sacrifícios a Deus?",
-  "opcoes": [
-   "Um espírito quebrado em arrependimento",
-   "Ofertas financeiras generosas",
-   "Animais imolados no altar"
-  ],
-  "certa": 0,
-  "explicacao": "O texto diz explicitamente que os sacrifícios a Deus são um espírito quebrado em arrependimento, e que Ele não despreza um coração quebrado e triste."
- },
- "refs": [
-  "Isaías 1:11-17",
-  "Hebreus 10:5-9",
-  "João 4:23-24"
- ],
- "audit": {
-  "generator": {
-   "model": "qwen/qwen3.8-27b",
-   "family": "alibaba"
-  },
-  "auditors": [
-   {
-    "model": "gemini-3.1-flash-lite",
-    "family": "google"
-   },
-   {
-    "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
-    "family": "meta"
-   }
-  ],
-  "gates": {
-   "TARGET_FIDELITY": "P",
-   "CONTEXT_FIDELITY": "P",
-   "REFERENCE_BOUNDARY": "P",
-   "SPEAKER_AUDIENCE_CONSISTENCY": "P",
-   "GENRE_COMPATIBILITY": "P",
-   "NARRATIVE_EVENT_CONSISTENCY": "P",
-   "TEMPORAL_SEQUENCE": "P",
-   "PERSON_ENTITY_CONSISTENCY": "P",
-   "QUOTATION_BOUNDARY": "P",
-   "UNSUPPORTED_CLAIM": "P",
-   "OVERINTERPRETATION": "P",
-   "DOCTRINAL_OVERREACH": "P",
-   "CHRISTOLOGICAL_FORCE": "P",
-   "PROMISE_SCOPE": "P",
-   "COVENANT_SCOPE": "P",
-   "COMMAND_SCOPE": "P",
-   "PROPHECY_SCOPE": "P",
-   "MIRACLE_SCOPE": "P",
-   "BLESSING_SCOPE": "P",
-   "JUDGMENT_SCOPE": "P",
-   "PRAYER_FIDELITY": "P",
-   "FASTING_SCOPE": "P",
-   "APPLICATION_FIDELITY": "P",
-   "PASTORAL_SAFETY": "P",
-   "ABUSE_SAFETY": "P",
-   "MEDICAL_SAFETY": "P",
-   "FINANCIAL_SAFETY": "P",
-   "NO_PERSONAL_PROPHECY": "P",
-   "NO_FALSE_DIVINE_SPEECH": "P",
-   "NO_TEMPLATE_LANGUAGE": "P",
-   "NO_LITERAL_REPETITION": "P",
-   "NO_STRUCTURAL_REPETITION": "P",
-   "NO_GENERIC_APPLICATION": "P",
-   "NO_GENERIC_PRAYER": "P",
-   "CROSS_SECTION_CONSISTENCY": "P",
-   "LANGUAGE_CLARITY": "P"
-  },
-  "humanReviewed": false,
-  "contractVersion": "pv-ensino-1",
-  "auditedAt": "2026-11-05T01:11:29.813Z",
-  "rounds": 2
- }
 }

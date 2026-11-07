@@ -1,0 +1,132 @@
+{
+  "id": "19-17-1-9",
+  "ref": "Salmos 17:1-9",
+  "book": "19",
+  "chapter": 17,
+  "verses": [
+    {
+      "n": 1,
+      "t": "Ouve, SENHOR, a minha justiça; presta atenção ao meu choro, dá ouvidos à minha oração de lábios que não enganam."
+    },
+    {
+      "n": 2,
+      "t": "De diante de teu rosto saia o meu julgamento; teus olhos observarão o que é justo."
+    },
+    {
+      "n": 3,
+      "t": "Tu já provaste o meu coração, tu me visitaste de noite; tu me investigaste, e nada achaste; decidi que minha boca não transgredirá."
+    },
+    {
+      "n": 4,
+      "t": "Quanto às obras dos homens, conforme a palavra de teus lábios eu me guardei dos caminhos do violento;"
+    },
+    {
+      "n": 5,
+      "t": "Guiando meu andar em teus caminhos, para que meus passos não tropecem."
+    },
+    {
+      "n": 6,
+      "t": "Eu clamo a ti, ó Deus, porque tu me respondes; inclina teus ouvidos a mim, escuta a minha palavra."
+    },
+    {
+      "n": 7,
+      "t": "Revela maravilhosamente tuas misericórdias, tu salvas aos que confiam em ti com tua mão direita daqueles se se levantam contra ti."
+    },
+    {
+      "n": 8,
+      "t": "Guarda-me como a pupila do olho; esconde-me debaixo da sombra de tuas asas,"
+    },
+    {
+      "n": 9,
+      "t": "De diante dos perversos que me oprimem; dos meus mortais inimigos que me cercam."
+    }
+  ],
+  "titulo": "Deus vê o que ninguém mais vê",
+  "temas": [
+    "justiça",
+    "proteção",
+    "confiança"
+  ],
+  "pergunta": "Como você se sente quando sabe que alguém está vigilante por você?",
+  "entender": "O salmista começa pedindo que Deus ouça sua oração, pois ele clama por justiça diante de inimigos que o cercam. Ele afirma que Deus já provou seu coração e não encontrou nele a intenção de fazer o mal, mas o desejo de seguir os caminhos divinos. Não é uma autoaprovação vazia; é a confiança de que Deus conhece a verdade do seu interior.\n\nO texto usa imagens fortes: o salmista pede para ser guardado como a \"pupila do olho\" e escondido debaixo da \"sombra de tuas asas\". Isso mostra a delicadeza e a intimidade da proteção que ele busca. Ele não pede poder para se vingar, mas segurança para não ser destruído pelos perversos que o oprimem. É um grito de alguém que se sente vulnerável, mas que deposita toda a sua esperança no olhar de Deus.",
+  "ligar": {
+    "texto": "Jesus é a resposta definitiva a esse clamor por proteção. Ele se ofereceu como o Justo que foi ferido por causa das nossas transgressões, levando sobre si o peso que nos esmagaria. Em Cristo, temos a certeza de que Deus não apenas vê nossa luta, mas já enviou o Seu Filho para nos resgatar da condenação. A \"sombra das asas\" de Deus encontra seu cumprimento mais pleno na cruz, onde Jesus nos protegeu do juízo, e na ressurreição, onde Ele nos garante vida eterna.",
+    "selo": false
+  },
+  "viver": "Quando a ansiedade apertar e você sentir que ninguém entende sua dor, pare e lembre-se de que Deus já provou seu coração. Ele conhece suas intenções. Em vez de tentar controlar a situação ou reagir com medo, pratique a oração honesta: conte a Deus exatamente o que está acontecendo, como o salmista fez. Peça a Ele que seja seu refúgio. Essa atitude muda a postura de vítima para a de filho protegido, trazendo paz mesmo no meio da tempestade.",
+  "guarde": "Deus conhece o fundo do seu coração e é fiel em proteger quem Nele confia.",
+  "ore": "Ó Deus, que provaste meu coração e conheces minhas intenções, eu te peço: guarda-me como a pupila do olho. Esconde-me debaixo da sombra de tuas asas de diante dos que me oprimem. Que eu sinta tua presença constante e tua justiça agindo em minha vida.",
+  "quiz": {
+    "pergunta": "O que o salmista afirma que Deus encontrou ao investigar seu coração?",
+    "opcoes": [
+      "Muitos pecados graves",
+      "Medo dos inimigos",
+      "Nada de errado"
+    ],
+    "certa": 2,
+    "explicacao": "No versículo 3, o salmista diz: \"tu me investigaste, e nada achaste\", referindo-se a que não havia em seu coração a intenção de transgredir ou fazer o mal."
+  },
+  "refs": [
+    "Salmos 91:4",
+    "Provérbios 23:26",
+    "Isaías 57:15"
+  ],
+  "audit": {
+    "generator": {
+      "model": "qwen/qwen3.8-27b",
+      "family": "alibaba"
+    },
+    "auditors": [
+      {
+        "model": "gemini-3.5-flash",
+        "family": "google"
+      },
+      {
+        "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "family": "meta"
+      }
+    ],
+    "gates": {
+      "TARGET_FIDELITY": "P",
+      "CONTEXT_FIDELITY": "P",
+      "REFERENCE_BOUNDARY": "P",
+      "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+      "GENRE_COMPATIBILITY": "P",
+      "NARRATIVE_EVENT_CONSISTENCY": "P",
+      "TEMPORAL_SEQUENCE": "P",
+      "PERSON_ENTITY_CONSISTENCY": "P",
+      "QUOTATION_BOUNDARY": "P",
+      "UNSUPPORTED_CLAIM": "P",
+      "OVERINTERPRETATION": "P",
+      "DOCTRINAL_OVERREACH": "P",
+      "CHRISTOLOGICAL_FORCE": "P",
+      "PROMISE_SCOPE": "P",
+      "COVENANT_SCOPE": "P",
+      "COMMAND_SCOPE": "P",
+      "PROPHECY_SCOPE": "P",
+      "MIRACLE_SCOPE": "P",
+      "BLESSING_SCOPE": "P",
+      "JUDGMENT_SCOPE": "P",
+      "PRAYER_FIDELITY": "P",
+      "FASTING_SCOPE": "P",
+      "APPLICATION_FIDELITY": "P",
+      "PASTORAL_SAFETY": "P",
+      "ABUSE_SAFETY": "P",
+      "MEDICAL_SAFETY": "P",
+      "FINANCIAL_SAFETY": "P",
+      "NO_PERSONAL_PROPHECY": "P",
+      "NO_FALSE_DIVINE_SPEECH": "P",
+      "NO_TEMPLATE_LANGUAGE": "P",
+      "NO_LITERAL_REPETITION": "P",
+      "NO_STRUCTURAL_REPETITION": "P",
+      "NO_GENERIC_APPLICATION": "P",
+      "NO_GENERIC_PRAYER": "P",
+      "CROSS_SECTION_CONSISTENCY": "P",
+      "LANGUAGE_CLARITY": "P"
+    },
+    "humanReviewed": false,
+    "contractVersion": "pv-ensino-1",
+    "auditedAt": "2026-11-02T21:51:10.847Z",
+    "rounds": 1
+  }
+}

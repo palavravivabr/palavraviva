@@ -1,0 +1,142 @@
+{
+  "id": "45-5-1-11",
+  "ref": "Romanos 5:1-11",
+  "book": "45",
+  "chapter": 5,
+  "verses": [
+    {
+      "n": 1,
+      "t": "Portanto, agora que somos justificados pela fé, temos paz com Deus por meio do nosso Senhor Jesus Cristo."
+    },
+    {
+      "n": 2,
+      "t": "Por meio dele também temos acesso pela fé a esta graça, na qual estamos firmes, e nos alegramos na esperança da glória de Deus."
+    },
+    {
+      "n": 3,
+      "t": "E não somente isso, mas também nos alegramos nas tribulações, sabendo que a tribulação produz paciência;"
+    },
+    {
+      "n": 4,
+      "t": "a paciência produz experiência, e a experiência produz esperança."
+    },
+    {
+      "n": 5,
+      "t": "E a esperança não frustra, porque o amor de Deus está derramado em nossos corações pelo Espírito Santo que nos foi dado."
+    },
+    {
+      "n": 6,
+      "t": "Pois quando ainda éramos fracos, Cristo morreu a seu tempo pelos ímpios."
+    },
+    {
+      "n": 7,
+      "t": "Ora, dificilmente alguém morre por um justo, ainda que talvez alguém possa ousar morrer por uma boa pessoa."
+    },
+    {
+      "n": 8,
+      "t": "Mas Deus prova o seu amor por nós através de Cristo haver morrido por nós, quando ainda éramos pecadores."
+    },
+    {
+      "n": 9,
+      "t": "Por isso, muito mais agora, que já somos justificados por seu sangue, seremos por ele salvos da ira."
+    },
+    {
+      "n": 10,
+      "t": "Pois, se quando éramos inimigos, fomos reconciliados com Deus pela morte do seu Filho, muito mais, tendo sido reconciliados, seremos salvos pela sua vida."
+    },
+    {
+      "n": 11,
+      "t": "E não somente isso, mas também nos alegramos em Deus por meio do nosso Senhor Jesus Cristo, por quem agora recebemos a reconciliação."
+    }
+  ],
+  "titulo": "A paz que nasce da justificação pela fé",
+  "temas": [
+    "paz",
+    "justificação",
+    "esperança",
+    "reconciliação",
+    "amor de deus"
+  ],
+  "pergunta": "O que muda na sua relação com Deus quando você entende que a paz não depende dos seus sentimentos, mas da obra de Cristo?",
+  "entender": "Paulo começa esta seção com uma conclusão poderosa: \"Portanto, agora que somos justificados pela fé, temos paz com Deus\". Isso significa que a nossa posição diante de Deus foi mudada. Não somos mais acusados; somos tratados como justos porque cremos em Jesus. Essa paz não é apenas uma sensação interna, mas uma realidade objetiva: a barreira do pecado foi removida.\n\nO apóstolo explica que, por meio de Cristo, temos acesso a essa graça e nos firmamos nela. Ele até diz que nos alegramos nas tribulações, pois elas produzem paciência, experiência e esperança. Essa esperança não frustra porque o amor de Deus foi derramado em nossos corações pelo Espírito Santo. É um amor que sustenta mesmo quando as circunstâncias são difíceis.\n\nA prova mais forte desse amor é que Cristo morreu por nós quando ainda éramos pecadores e inimigos de Deus. Se Ele se deu por nós na nossa pior condição, podemos confiar que seremos salvos da ira e reconciliados plenamente pela Sua vida.",
+  "ligar": {
+    "texto": "Este texto é o coração do evangelho: Jesus Cristo é o único meio pelo qual temos paz com Deus. Ele não apenas nos perdoa, mas nos justifica e nos reconcilia. A morte de Cristo pelos ímpios é a demonstração suprema do amor de Deus. Através da fé nEle, recebemos o Espírito Santo, que garante essa esperança e nos mantém firmes na graça. A salvação é totalmente pela graça, mediante a fé, e não por obras.",
+    "selo": true
+  },
+  "viver": "Muitas vezes, nossa paz depende de como estamos nos sentindo ou de como as coisas estão dando certo. Paulo nos convida a mudar o foco: a paz com Deus é um fato, não uma emoção. Quando a tribulação vier, em vez de questionar o amor de Deus, lembre-se de que a paciência que você está desenvolvendo está produzindo esperança. Confie no caráter de Deus, que provou seu amor quando você ainda era fraco e pecador. Essa confiança transforma a dor em crescimento e a ansiedade em repouso.",
+  "guarde": "A paz com Deus não é um sentimento que vem e vai, mas uma posição garantida pela morte e ressurreição de Cristo.",
+  "ore": "Senhor, obrigado por justificar minha vida pela fé em Jesus. Que eu tenha paz com Deus, não pelos meus méritos, mas pela obra de Cristo na cruz. Enche meu coração com o Teu amor através do Espírito Santo, para que eu possa me alegrar mesmo nas tribulações, confiando na esperança da Tua glória. Amém.",
+  "quiz": {
+    "pergunta": "Segundo Romanos 5:1, o que temos agora que somos justificados pela fé?",
+    "opcoes": [
+      "Imunidade a todas as tribulações",
+      "Certeza de prosperidade material",
+      "Paz com Deus"
+    ],
+    "certa": 2,
+    "explicacao": "O texto afirma explicitamente que \"temos paz com Deus\". Essa paz é a reconciliação e a ausência de condenação, não uma garantia de ausência de problemas ou riqueza."
+  },
+  "refs": [
+    "Efésios 2:13-18",
+    "2 Coríntios 5:17-21",
+    "1 João 4:9-10"
+  ],
+  "audit": {
+    "generator": {
+      "model": "qwen/qwen3.8-27b",
+      "family": "alibaba"
+    },
+    "auditors": [
+      {
+        "model": "gemini-3.8-flash",
+        "family": "google"
+      },
+      {
+        "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "family": "meta"
+      }
+    ],
+    "gates": {
+      "TARGET_FIDELITY": "P",
+      "CONTEXT_FIDELITY": "P",
+      "REFERENCE_BOUNDARY": "P",
+      "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+      "GENRE_COMPATIBILITY": "P",
+      "NARRATIVE_EVENT_CONSISTENCY": "P",
+      "TEMPORAL_SEQUENCE": "P",
+      "PERSON_ENTITY_CONSISTENCY": "P",
+      "QUOTATION_BOUNDARY": "P",
+      "UNSUPPORTED_CLAIM": "P",
+      "OVERINTERPRETATION": "P",
+      "DOCTRINAL_OVERREACH": "P",
+      "CHRISTOLOGICAL_FORCE": "P",
+      "PROMISE_SCOPE": "P",
+      "COVENANT_SCOPE": "P",
+      "COMMAND_SCOPE": "P",
+      "PROPHECY_SCOPE": "P",
+      "MIRACLE_SCOPE": "P",
+      "BLESSING_SCOPE": "P",
+      "JUDGMENT_SCOPE": "P",
+      "PRAYER_FIDELITY": "P",
+      "FASTING_SCOPE": "P",
+      "APPLICATION_FIDELITY": "P",
+      "PASTORAL_SAFETY": "P",
+      "ABUSE_SAFETY": "P",
+      "MEDICAL_SAFETY": "P",
+      "FINANCIAL_SAFETY": "P",
+      "NO_PERSONAL_PROPHECY": "P",
+      "NO_FALSE_DIVINE_SPEECH": "P",
+      "NO_TEMPLATE_LANGUAGE": "P",
+      "NO_LITERAL_REPETITION": "P",
+      "NO_STRUCTURAL_REPETITION": "P",
+      "NO_GENERIC_APPLICATION": "P",
+      "NO_GENERIC_PRAYER": "P",
+      "CROSS_SECTION_CONSISTENCY": "P",
+      "LANGUAGE_CLARITY": "P"
+    },
+    "humanReviewed": false,
+    "contractVersion": "pv-ensino-1",
+    "auditedAt": "2026-11-01T07:08:49.607Z",
+    "rounds": 1
+  }
+}

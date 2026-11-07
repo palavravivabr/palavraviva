@@ -1,0 +1,145 @@
+{
+  "id": "19-60-1-12",
+  "ref": "Salmos 60:1-12",
+  "book": "19",
+  "chapter": 60,
+  "verses": [
+    {
+      "n": 1,
+      "t": "Deus, tu nos rejeitaste, e nos quebraste; tu te encheste de ira. Por favor, restaura-nos!"
+    },
+    {
+      "n": 2,
+      "t": "Tu fizeste a terra tremer, e a abriste; cura suas rachaduras, porque ela está abalada."
+    },
+    {
+      "n": 3,
+      "t": "Mostraste ao teu povo coisas duras; nos fizeste beber vinho perturbador."
+    },
+    {
+      "n": 4,
+      "t": "Deste uma bandeira aos que te temem, para a erguerem por causa da verdade. (Selá)"
+    },
+    {
+      "n": 5,
+      "t": "Para que os teus amados sejam livrados; salva-nos com tua mão direita, e responde-nos."
+    },
+    {
+      "n": 6,
+      "t": "Deus falou em seu santuário: Eu me alegrarei; repartirei a Siquém e medirei o vale de Sucote."
+    },
+    {
+      "n": 7,
+      "t": "Meu é Gileade, e meu é Manassés; e Efraim é a força de minha cabeça; Judá é meu legislador."
+    },
+    {
+      "n": 8,
+      "t": "Moabe é minha bacia de lavar; sobre Edom lançarei minha sandália; gritarei de alegria sobre a Filístia."
+    },
+    {
+      "n": 9,
+      "t": "Quem me levará a uma cidade fortificada? Quem me guiará até Edom?"
+    },
+    {
+      "n": 10,
+      "t": "Não serás tu, ó Deus, que tinha nos rejeitado? Não saías tu, ó Deus, com nossos exércitos?"
+    },
+    {
+      "n": 11,
+      "t": "Dá-nos socorro para a angústia; porque a salvação de origem humana é inútil."
+    },
+    {
+      "n": 12,
+      "t": "Com Deus faremos coisas grandiosas; e ele atropelará nossos adversários."
+    }
+  ],
+  "titulo": "Gritando por socorro em meio ao colapso",
+  "temas": [
+    "crise",
+    "dependência",
+    "restauração",
+    "confiança"
+  ],
+  "pergunta": "O que você faz quando sente que a base da sua vida está desmoronando?",
+  "entender": "Este salmo descreve uma situação de desespero. O salmista sente que Deus o rejeitou e que a terra tremeu, ficando cheia de rachaduras. É uma imagem de caos e abandono. Diante disso, ele faz um pedido direto: \"Por favor, restaura-nos!\". Não é uma oração de conforto, mas um grito de quem está no fundo do poço, reconhecendo que só Deus pode curar as feridas profundas.\n\nA oração, porém, não termina na queixa. O texto lembra que Deus deu uma bandeira aos que O temem, símbolo de proteção e verdade. Nos versículos finais, o salmista admite que a ajuda humana é inútil para salvar, mas declara: \"Com Deus faremos coisas grandiosas\". A confiança muda do medo paralisante para a certeza de que, com Deus, a vitória é possível, mesmo quando tudo parece perdido.",
+  "ligar": {
+    "texto": "O salmo expõe a inutilidade da força humana diante do colapso. Isso aponta para Jesus, que é a rocha firme quando o mundo treme. Ele não apenas promete restauração, mas já a realizou ao vencer a morte, a maior de todas as rachaduras na nossa relação com Deus. Nossa segurança não está em nós mesmos, mas nAquele que sustenta o universo e cuida de cada detalhe da nossa vida, oferecendo-nos a verdadeira bandeira de esperança.",
+    "selo": false
+  },
+  "viver": "Identifique uma área específica da sua vida que parece instável ou \"rachada\" hoje, seja no trabalho, na família ou na saúde. O salmo nos ensina que nossas próprias forças não bastam para consertar o que está abalado. Em vez de tentar resolver tudo sozinho, pare e entregue essa situação concreta a Deus em oração. Reconheça sua limitação e peça que Ele seja a força que estabiliza o que está abalado, confiando que Ele tem o poder de curar o que está quebrado.",
+  "guarde": "A salvação vinda de nós é inútil, mas com Deus faremos coisas grandiosas.",
+  "ore": "Deus, tu que conheces as rachaduras da minha terra, eu te peço: restaura-nos. Quando a vida treme e eu me sinto rejeitado, lembra-me da tua bandeira de verdade. Ensina-me a confiar menos nas minhas forças e mais no teu poder. Com Teu auxílio, eu enfrento meus adversários e espero a tua cura.",
+  "quiz": {
+    "pergunta": "O que o salmista declara sobre a ajuda humana no versículo 11?",
+    "opcoes": [
+      "É inútil",
+      "É suficiente",
+      "É poderosa"
+    ],
+    "certa": 0,
+    "explicacao": "O texto afirma explicitamente que a salvação de origem humana é inútil, destacando a dependência total de Deus para a verdadeira ajuda."
+  },
+  "refs": [
+    "Isaías 40:28-31",
+    "Romanos 11:33-36",
+    "Filipenses 4:6-7"
+  ],
+  "audit": {
+    "generator": {
+      "model": "qwen/qwen3.8-27b",
+      "family": "alibaba"
+    },
+    "auditors": [
+      {
+        "model": "gemini-3.1-flash-lite",
+        "family": "google"
+      },
+      {
+        "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "family": "meta"
+      }
+    ],
+    "gates": {
+      "TARGET_FIDELITY": "P",
+      "CONTEXT_FIDELITY": "P",
+      "REFERENCE_BOUNDARY": "P",
+      "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+      "GENRE_COMPATIBILITY": "P",
+      "NARRATIVE_EVENT_CONSISTENCY": "P",
+      "TEMPORAL_SEQUENCE": "P",
+      "PERSON_ENTITY_CONSISTENCY": "P",
+      "QUOTATION_BOUNDARY": "P",
+      "UNSUPPORTED_CLAIM": "P",
+      "OVERINTERPRETATION": "P",
+      "DOCTRINAL_OVERREACH": "P",
+      "CHRISTOLOGICAL_FORCE": "P",
+      "PROMISE_SCOPE": "P",
+      "COVENANT_SCOPE": "P",
+      "COMMAND_SCOPE": "P",
+      "PROPHECY_SCOPE": "P",
+      "MIRACLE_SCOPE": "P",
+      "BLESSING_SCOPE": "P",
+      "JUDGMENT_SCOPE": "P",
+      "PRAYER_FIDELITY": "P",
+      "FASTING_SCOPE": "P",
+      "APPLICATION_FIDELITY": "P",
+      "PASTORAL_SAFETY": "P",
+      "ABUSE_SAFETY": "P",
+      "MEDICAL_SAFETY": "P",
+      "FINANCIAL_SAFETY": "P",
+      "NO_PERSONAL_PROPHECY": "P",
+      "NO_FALSE_DIVINE_SPEECH": "P",
+      "NO_TEMPLATE_LANGUAGE": "P",
+      "NO_LITERAL_REPETITION": "P",
+      "NO_STRUCTURAL_REPETITION": "P",
+      "NO_GENERIC_APPLICATION": "P",
+      "NO_GENERIC_PRAYER": "P",
+      "CROSS_SECTION_CONSISTENCY": "P",
+      "LANGUAGE_CLARITY": "P"
+    },
+    "humanReviewed": false,
+    "contractVersion": "pv-ensino-1",
+    "auditedAt": "2026-11-05T07:31:52.420Z",
+    "rounds": 2
+  }
+}

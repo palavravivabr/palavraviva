@@ -148,6 +148,22 @@
     if (n === 100) return 'cem';
     return NUM_C[Math.floor(n / 100)] + (n % 100 ? ' e ' + numPt(n % 100) : '');
   }
+  /* referências dentro do texto falado: "Efésios 2:3-7" -> "Efésios capítulo dois, versículos três ao sete";
+     "Lucas 5:3-4" -> "Lucas capítulo cinco, versículos três e quatro"; "João 3:16" -> "João capítulo três, versículo dezesseis".
+     Sem isso a voz lê "2:3" como horário. Em "Salmos" não se diz "capítulo", como na referência falada. */
+  function falaRefs(t) {
+    return String(t).replace(/(\d{1,3}):(\d{1,3}(?:\s*[-–]\s*\d{1,3})?(?:\s*,\s*\d{1,3}(?:\s*[-–]\s*\d{1,3})?)*)/g, function (m, c, lista, off, s) {
+      var cap = /Salmos\s*$/.test(s.slice(0, off)) ? '' : 'capítulo ';
+      var partes = lista.split(/\s*,\s*/).map(function (p) {
+        var r = p.split(/\s*[-–]\s*/), ini = parseInt(r[0], 10), fim = r[1] ? parseInt(r[1], 10) : 0;
+        if (fim <= ini) return numPt(ini);
+        return fim === ini + 1 ? numPt(ini) + ' e ' + numPt(fim) : numPt(ini) + ' ao ' + numPt(fim);
+      });
+      var txt = partes.length === 1 ? partes[0] : partes.slice(0, -1).join(', ') + ' e ' + partes[partes.length - 1];
+      var unico = partes.length === 1 && !/[-–]/.test(lista) && !/,/.test(lista);
+      return cap + numPt(parseInt(c, 10)) + ', ' + (unico ? 'versículo ' : 'versículos ') + txt;
+    });
+  }
   function refFalada(e) {
     var liv = String(e.ref).replace(/\s+\d+:.*$/, ''), m = /^([123])\s+(.+)$/.exec(liv);
     if (m) liv = (/^(Samuel|Reis|Crônicas)$/.test(m[2]) ? ['', 'Primeiro', 'Segundo'] : ['', 'Primeira', 'Segunda', 'Terceira'])[+m[1]] + ' ' + m[2];
@@ -162,7 +178,7 @@
   }
   function roteiro(e) {
     /* na narração, "Amém" é dito "Amein"; o texto da tela continua igual */
-    return ['Palavra do dia.', refFalada(e) + '.', e.texto, 'Reflexão.', e.reflexao, 'Oração.', e.oracao, 'Amein.'].join(' ');
+    return ['Palavra do dia.', refFalada(e) + '.', falaRefs(e.texto), 'Reflexão.', falaRefs(e.reflexao), 'Oração.', falaRefs(e.oracao), 'Amein.'].join(' ');
   }
 
   var IMGS = ['assets/hero-dawn.jpg', 'assets/hero-reading.jpg', 'assets/hero-bible.jpg'];
@@ -444,5 +460,5 @@
   if (typeof document !== 'undefined') {
     if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', montar); else montar();
   }
-  return { dados: DADOS, indiceDoDia: indiceDoDia, doDia: doDia, roteiro: roteiro, notificacao: notificacao, abrirIdx: abrirIdx, textoParaCompartilhar: textoParaCompartilhar };
+  return { dados: DADOS, indiceDoDia: indiceDoDia, doDia: doDia, roteiro: roteiro, falaRefs: falaRefs, notificacao: notificacao, abrirIdx: abrirIdx, textoParaCompartilhar: textoParaCompartilhar };
 });

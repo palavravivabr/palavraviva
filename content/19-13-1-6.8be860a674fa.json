@@ -1,0 +1,122 @@
+{
+  "id": "19-13-1-6",
+  "ref": "Salmos 13:1-6",
+  "book": "19",
+  "chapter": 13,
+  "verses": [
+    {
+      "n": 1,
+      "t": "Até quando, SENHOR, te esquecerás de mim? Para sempre? Até quando tu esconderás de mim o teu rosto?"
+    },
+    {
+      "n": 2,
+      "t": "Até quando refletirei em minha alma, tendo tristeza em meu coração o dia todo? Até quando o meu inimigo se levantará contra mim?"
+    },
+    {
+      "n": 3,
+      "t": "Olha para mim, e ouve-me, SENHOR meu Deus; ilumina os meus olhos, para que eu não adormeça na morte."
+    },
+    {
+      "n": 4,
+      "t": "Para que meu inimigo não diga: Eu o venci; e meus inimigos se alegrem, se eu vier a cair."
+    },
+    {
+      "n": 5,
+      "t": "Mas eu confio em tua bondade; em tua salvação meu coração se alegrará;"
+    },
+    {
+      "n": 6,
+      "t": "Cantarei ao SENHOR, porque ele tem me feito muito bem."
+    }
+  ],
+  "titulo": "Quando a esperança parece distante, o que fazer?",
+  "temas": [
+    "angústia",
+    "confiança",
+    "oração",
+    "louvor"
+  ],
+  "pergunta": "Você já sentiu que Deus está longe e se pergunta até quando esperará por Ele?",
+  "entender": "O salmista expressa sua dor profunda ao clamar: \"Até quando, SENHOR, te esquecerás de mim?\" (Salmos 13.1). Ele descreve a tristeza que pesa o coração o dia inteiro e o medo de que o inimigo triunfe, pedindo que Deus o veja, o ouça e ilumine seus olhos para que não caia na morte (v.3‑4). Essa queixa segue o padrão dos salmos: primeiro o lamento, depois a confiança. No versículo 5, ele declara: \"Mas eu confio em tua bondade; em tua salvação meu coração se alegrará\"; e encerra cantando gratidão porque Deus lhe fez muito bem (v.6). O texto mostra que, mesmo na mais profunda angústia, a resposta de Deus vem na confiança de que Ele é fiel.\n\nO salmo reflete o sentimento de quem se sente abandonado, mas que, ao trazer sua queixa a Deus, encontra espaço para a esperança. O pedido de “olhar para mim” e “ouvir‑me” revela um relacionamento íntimo, onde a honestidade diante de Deus abre caminho para a confiança que culmina em louvor.",
+  "ligar": {
+    "texto": "Embora o salmo não mencione Jesus, o clamor por socorro e a confiança na salvação apontam ao cumprimento em Cristo, que responde ao clamor da humanidade ao morrer e ressuscitar, vencendo o inimigo e a morte. A confiança do salmista na bondade de Deus encontra sua expressão plena na salvação oferecida por Jesus, que garante vida eterna a quem crê.",
+    "selo": false
+  },
+  "viver": "A primeira coisa que o salmista faz é levar sua angústia a Deus, dizendo: \"Olha para mim, e ouve‑me, SENHOR meu Deus\". Hoje, quando a ansiedade parece esmagadora, siga esse exemplo: reserve um momento para falar honestamente com Deus sobre seus medos, pedindo que Ele ilumine seus olhos para não cair na desesperança. Depois, escolha um pequeno ato de gratidão – como registrar uma bênção diária – e cante ou agradeça a Deus, mesmo que a situação ainda não esteja resolvida. Essa prática transforma a dor em esperança viva.\n\nAo fazer isso, você experimenta a mesma confiança que o salmista descreve, reconhecendo que, apesar das circunstâncias, a bondade de Deus permanece e Sua salvação traz alegria ao coração.",
+  "guarde": "Mesmo na dor, confie na bondade de Deus; Ele ouve e ilumina seu caminho.",
+  "ore": "SENHOR, ao sentir meu coração apertado, olha para mim, ouve‑me e ilumina meus olhos, para que eu não adormeça na morte, mas confie na tua bondade.",
+  "quiz": {
+    "pergunta": "O que o salmista declara no versículo 5?",
+    "opcoes": [
+      "Que ele não precisa de Deus",
+      "Confia na bondade e salvação de Deus",
+      "Que Deus o abandonou para sempre"
+    ],
+    "certa": 1,
+    "explicacao": "No versículo 5 o salmista afirma: \"Mas eu confio em tua bondade; em tua salvação meu coração se alegrará\", mostrando sua confiança na fidelidade de Deus."
+  },
+  "refs": [
+    "Salmos 42:11",
+    "Lamentações 3:22-23",
+    "Filipenses 4:6-7",
+    "Hebreus 13:5"
+  ],
+  "audit": {
+    "generator": {
+      "model": "openai/gpt-oss-120b",
+      "family": "openai"
+    },
+    "auditors": [
+      {
+        "model": "gemini-3.8-flash",
+        "family": "google"
+      },
+      {
+        "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "family": "meta"
+      }
+    ],
+    "gates": {
+      "TARGET_FIDELITY": "P",
+      "CONTEXT_FIDELITY": "P",
+      "REFERENCE_BOUNDARY": "P",
+      "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+      "GENRE_COMPATIBILITY": "P",
+      "NARRATIVE_EVENT_CONSISTENCY": "P",
+      "TEMPORAL_SEQUENCE": "P",
+      "PERSON_ENTITY_CONSISTENCY": "P",
+      "QUOTATION_BOUNDARY": "P",
+      "UNSUPPORTED_CLAIM": "P",
+      "OVERINTERPRETATION": "P",
+      "DOCTRINAL_OVERREACH": "P",
+      "CHRISTOLOGICAL_FORCE": "P",
+      "PROMISE_SCOPE": "P",
+      "COVENANT_SCOPE": "P",
+      "COMMAND_SCOPE": "P",
+      "PROPHECY_SCOPE": "P",
+      "MIRACLE_SCOPE": "P",
+      "BLESSING_SCOPE": "P",
+      "JUDGMENT_SCOPE": "P",
+      "PRAYER_FIDELITY": "P",
+      "FASTING_SCOPE": "P",
+      "APPLICATION_FIDELITY": "P",
+      "PASTORAL_SAFETY": "P",
+      "ABUSE_SAFETY": "P",
+      "MEDICAL_SAFETY": "P",
+      "FINANCIAL_SAFETY": "P",
+      "NO_PERSONAL_PROPHECY": "P",
+      "NO_FALSE_DIVINE_SPEECH": "P",
+      "NO_TEMPLATE_LANGUAGE": "P",
+      "NO_LITERAL_REPETITION": "P",
+      "NO_STRUCTURAL_REPETITION": "P",
+      "NO_GENERIC_APPLICATION": "P",
+      "NO_GENERIC_PRAYER": "P",
+      "CROSS_SECTION_CONSISTENCY": "P",
+      "LANGUAGE_CLARITY": "P"
+    },
+    "humanReviewed": false,
+    "contractVersion": "pv-ensino-1",
+    "auditedAt": "2026-11-02T19:02:32.833Z",
+    "rounds": 2
+  }
+}

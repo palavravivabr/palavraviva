@@ -1,0 +1,137 @@
+{
+  "id": "19-22-22-31",
+  "ref": "Salmos 22:22-31",
+  "book": "19",
+  "chapter": 22,
+  "verses": [
+    {
+      "n": 22,
+      "t": "Então eu contarei teu nome a meus irmãos; no meio da congregação eu te louvarei."
+    },
+    {
+      "n": 23,
+      "t": "Vós que temeis ao SENHOR, louvai a ele! E vós, de toda a semente de Jacó, glorificai a ele! Prestai culto a ele, vós de toda a semente de Israel."
+    },
+    {
+      "n": 24,
+      "t": "Porque ele não desprezou nem abominou a aflição do aflito, nem escondeu seu rosto dele; mas sim, quando o aflito clamou, ele o ouviu."
+    },
+    {
+      "n": 25,
+      "t": "Meu louvor será para ti na grande congregação; eu pagarei meus juramentos perante os que o temem."
+    },
+    {
+      "n": 26,
+      "t": "Os humilhados comerão, e ficarão fartos; louvarão ao SENHOR aqueles que o buscam; vosso coração viverá para sempre."
+    },
+    {
+      "n": 27,
+      "t": "Todos os extremos da terra se lembrarão disso, e se converterão ao SENHOR; e todas as gerações das nações adorarão diante de ti."
+    },
+    {
+      "n": 28,
+      "t": "Porque o reino pertence ao SENHOR; e ele governa sobre as nações."
+    },
+    {
+      "n": 29,
+      "t": "Todos os ricos da terra comerão e adorarão, e perante o rosto dele se prostrarão todos os que descem ao pó, e que não podem manter viva sua alma."
+    },
+    {
+      "n": 30,
+      "t": "A descendência o servirá; ela será contada ao Senhor, para a geração seguinte."
+    },
+    {
+      "n": 31,
+      "t": "Chegarão, e anunciarão a justiça dele ao povo que nascer, porque ele assim fez."
+    }
+  ],
+  "titulo": "A voz dos humildes que ecoa ao mundo",
+  "temas": [
+    "adoração",
+    "esperança",
+    "reino"
+  ],
+  "pergunta": "O que acontece quando os humildes são alimentados e louvam ao Senhor?",
+  "entender": "O salmista declara que, apesar da aflição, ele vai contar o nome de Deus aos irmãos e louvar ao Senhor na congregação: \"Então eu contarei teu nome a meus irmãos; no meio da congregação eu te louvarei\" (v.22). Ele convoca todo o povo de Israel a louvar a Deus, lembrando que o Senhor não despreza o aflito e ouve o seu clamor (v.24). O texto avança para uma visão universal: os humilhados serão saciados, todos os extremos da terra se lembrarão de Deus, e as gerações das nações adorarão diante d’Ele (vv.26‑27). Por fim, afirma que o reino pertence ao Senhor, que governa sobre as nações, e que a descendência continuará a servi‑Lo (vv.28‑30).\n\nO contexto imediato (vv.19‑21) mostra o salmista pedindo socorro contra perigos, mas aqui a confiança se volta para a resposta de Deus e para a proclamação pública de Seu nome. Essa mudança de tom revela que, mesmo em meio ao sofrimento, a esperança está em Deus que ouve, sustenta e dignifica os que o buscam, trazendo a promessa de louvor que ultrapassa fronteiras.",
+  "ligar": {
+    "texto": "Embora o Salmo não mencione Jesus explicitamente, ele descreve um futuro em que todas as nações reconhecerão e adorarão ao Senhor. Essa expectativa se cumpre no evangelho, onde Cristo é anunciado como o Rei que governa sobre todas as nações (cf. Isaías 9.6) e cuja mensagem leva todas as pessoas ao louvor a Deus (Mateus 28.19‑20). Assim, o desejo do salmista por adoração universal aponta para a missão de Jesus de reunir povos de todas as tribos sob o reinado de Deus.",
+    "selo": false
+  },
+  "viver": "Quando vemos que Deus se importa com os humilhados e os alimenta, somos chamados a fazer o mesmo. Na prática, isso pode significar apoiar projetos de distribuição de alimentos, visitar quem está passando necessidade ou simplesmente oferecer uma refeição a quem está só. Ao fazer isso, não só obedecemos ao exemplo do salmista, mas também testemunhamos a realidade de um Deus que se importa com o próximo, criando oportunidades para que outros vejam a bondade divina em ação.",
+  "guarde": "Deus ouve o clamor dos humildes e faz seu louvor chegar a todas as nações.",
+  "ore": "Salmo 22, ao proclamar teu nome, ajuda-me a contar teu nome aos meus irmãos e a louvar-te na congregação, lembrando que Tu ouves o aflito.",
+  "quiz": {
+    "pergunta": "Qual promessa o salmista faz em relação aos humilhados?",
+    "opcoes": [
+      "Receberão riquezas materiais",
+      "Serão libertados dos inimigos",
+      "Eles comerão e ficarão fartos"
+    ],
+    "certa": 2,
+    "explicacao": "O versículo 26 declara que \"Os humilhados comerão, e ficarão fartos\", mostrando a promessa de sustento para os que confiam em Deus."
+  },
+  "refs": [
+    "Isaías 2:2-3",
+    "Mateus 28:19-20",
+    "Romanos 15:11",
+    "Salmos 96:3"
+  ],
+  "audit": {
+    "generator": {
+      "model": "openai/gpt-oss-120b",
+      "family": "openai"
+    },
+    "auditors": [
+      {
+        "model": "gemini-3.1-flash-lite",
+        "family": "google"
+      },
+      {
+        "model": "@cf/meta/llama-3.3-70b-instruct-fp8-fast",
+        "family": "meta"
+      }
+    ],
+    "gates": {
+      "TARGET_FIDELITY": "P",
+      "CONTEXT_FIDELITY": "P",
+      "REFERENCE_BOUNDARY": "P",
+      "SPEAKER_AUDIENCE_CONSISTENCY": "P",
+      "GENRE_COMPATIBILITY": "P",
+      "NARRATIVE_EVENT_CONSISTENCY": "P",
+      "TEMPORAL_SEQUENCE": "P",
+      "PERSON_ENTITY_CONSISTENCY": "P",
+      "QUOTATION_BOUNDARY": "P",
+      "UNSUPPORTED_CLAIM": "P",
+      "OVERINTERPRETATION": "P",
+      "DOCTRINAL_OVERREACH": "P",
+      "CHRISTOLOGICAL_FORCE": "P",
+      "PROMISE_SCOPE": "P",
+      "COVENANT_SCOPE": "P",
+      "COMMAND_SCOPE": "P",
+      "PROPHECY_SCOPE": "P",
+      "MIRACLE_SCOPE": "P",
+      "BLESSING_SCOPE": "P",
+      "JUDGMENT_SCOPE": "P",
+      "PRAYER_FIDELITY": "P",
+      "FASTING_SCOPE": "P",
+      "APPLICATION_FIDELITY": "P",
+      "PASTORAL_SAFETY": "P",
+      "ABUSE_SAFETY": "P",
+      "MEDICAL_SAFETY": "P",
+      "FINANCIAL_SAFETY": "P",
+      "NO_PERSONAL_PROPHECY": "P",
+      "NO_FALSE_DIVINE_SPEECH": "P",
+      "NO_TEMPLATE_LANGUAGE": "P",
+      "NO_LITERAL_REPETITION": "P",
+      "NO_STRUCTURAL_REPETITION": "P",
+      "NO_GENERIC_APPLICATION": "P",
+      "NO_GENERIC_PRAYER": "P",
+      "CROSS_SECTION_CONSISTENCY": "P",
+      "LANGUAGE_CLARITY": "P"
+    },
+    "humanReviewed": false,
+    "contractVersion": "pv-ensino-1",
+    "auditedAt": "2026-11-03T07:14:20.826Z",
+    "rounds": 3
+  }
+}
