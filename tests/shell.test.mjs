@@ -47,7 +47,8 @@ test('proprietário, direitos reservados e chave Pix estão configurados', () =>
   assert.equal(c.ownerName, 'Anderson Pereira Cabral');
   assert.ok(/^\d{4}$/.test(c.year));
   assert.ok(/^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/.test(c.pixKey), 'chave Pix aleatória no formato esperado');
-  assert.ok(html.includes('id="rightsHome"') && html.includes('id="rightsMenu"') && html.includes('name="author"'));
+  assert.ok(html.includes('id="rightsMenu"') && html.includes('name="author"'));
+  assert.ok(!html.includes('id="rightsHome"'), 'a tela da Bíblia não mostra a linha de direitos do proprietário (decisão de 18/11/2026; os créditos ficam em Configurações e em Sobre)');
 });
 test('termos de uso e privacidade e licença existem e o app aponta para eles', () => {
   assert.ok(existsSync(join(root, 'assets/termos.html')) && existsSync(join(root, 'LICENSE')));
