@@ -62,6 +62,13 @@ export function validate(rootDir = root) {
   }
   const ids = new Set();
   for (const ps of m.passages || []) { if (ids.has(ps.id)) errs.push('id repetido: ' + ps.id); ids.add(ps.id); if (!seen.has(ps.path)) errs.push('passagem sem pacote: ' + ps.id); }
+  /* numeração permanente dos estudos: todo estudo tem número único, e nenhum número é reaproveitado */
+  if (existsSync(join(rootDir, 'content/numeracao-estudos.json'))) try {
+    const reg = R('content/numeracao-estudos.json'), nums = reg.numeros || {}, usados = new Map();
+    for (const [id, n] of Object.entries(nums)) { if (!Number.isInteger(n) || n < 1) errs.push('número inválido para ' + id); if (usados.has(n)) errs.push('número repetido: ' + n + ' (' + usados.get(n) + ' e ' + id + ')'); usados.set(n, id); }
+    for (const ps of m.passages || []) if (!(ps.id in nums)) errs.push('estudo sem número permanente: ' + ps.id);
+    if (!(reg.proximo > Math.max(0, ...usados.keys()))) errs.push('"proximo" da numeração precisa ser maior que o maior número usado');
+  } catch (e) { errs.push('numeração dos estudos ilegível: ' + e.message); }
   return errs;
 }
 if (process.argv[1] === fileURLToPath(import.meta.url)) {

@@ -47,7 +47,7 @@ test('nunca fala "menos" nem deixa números de referência no texto', () => {
 });
 
 test('o cabeçalho da narração diz o capítulo por extenso, sem dois-pontos nem hífen', () => {
-  const r = roteiro({ ref: 'Mateus 11:28-29', c: 11, v: 28, ate: 29, texto: 't', reflexao: 'r', oracao: 'o' });
+  const r = roteiro({ ref: 'Mateus 11:28-29', c: 11, v: 28, ate: 29, texto: 't', mensagem: 'm' });
   assert.ok(r.startsWith('Palavra do dia. Mateus capítulo onze, versículos vinte e oito ao vinte e nove. '));
   assert.ok(!/[:\-–]\d|\d[:\-–]/.test(r.slice(0, 80)));
 });

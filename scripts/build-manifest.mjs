@@ -72,10 +72,24 @@ for (const v of versMeta) {
   packages.push({ path: 'content/' + name, sha256: hash, size: bytes.length, precache: false, kind: 'busca', version: v.id });
   versions.push({ ...info, bible, busca: 'content/' + name });
 }
-const keep = new Set(packages.map(p => basename(p.path)));
+const keep = new Set([...packages.map(p => basename(p.path)), 'numeracao-estudos.json']);
 const history = [...(prev?.history || []), ...(prev ? [{ generation: prev.generation, contentVersion: prev.contentVersion, packages: prev.packages.map(p => p.path) }] : [])].slice(-3);
 for (const h of history) h.packages.forEach(p => keep.add(basename(p)));
 for (const f of readdirSync(out)) if (!keep.has(f)) rmSync(join(out, f));
+/* numeração permanente dos estudos: o número é gravado em content/numeracao-estudos.json na primeira vez que o estudo aparece e nunca mais muda
+   (título, conteúdo, categoria ou ordem de exibição não alteram o número); estudo novo recebe o próximo número livre, que nunca é reaproveitado */
+{
+  const npath = join(root, 'content', 'numeracao-estudos.json');
+  const reg = existsSync(npath) ? JSON.parse(readFileSync(npath, 'utf8')) : { proximo: 1, numeros: {} };
+  const nums = reg.numeros || {};
+  let proximo = Math.max(reg.proximo || 1, 1, ...Object.values(nums).map(n => n + 1));
+  const antes = proximo, comNum = new Set(Object.keys(nums));
+  const natural = (a, b) => String(a).localeCompare(String(b), undefined, { numeric: true });
+  const novos = passages.filter(x => !comNum.has(x.id)).sort((a, b) => ((order.get(a.book) ?? 0) - (order.get(b.book) ?? 0)) || (a.chapter - b.chapter) || natural(a.id, b.id));
+  novos.forEach(x => { nums[x.id] = proximo++; });
+  if (novos.length || reg.proximo !== proximo || !existsSync(npath)) { mkdirSync(dirname(npath), { recursive: true }); writeFileSync(npath, JSON.stringify({ proximo, numeros: nums }, null, 1) + '\n'); }
+  if (novos.length) console.log(novos.length + ' estudo(s) novo(s) numerado(s): ' + antes + ' a ' + (proximo - 1));
+}
 const manifest = { generation: Math.max((prev?.generation || 0) + 1, meta.minGeneration || 1), contentVersion: meta.contentVersion, production: meta.production, license: meta.license, versions, bible: [...books.values()], passages, ...(buscaPath ? { busca: buscaPath } : {}), packages, revoked: prev?.revoked || [], history };
 writeFileSync(mpath, JSON.stringify(manifest, null, 2) + '\n');
 console.log('manifesto geração', manifest.generation, '-', packages.length, 'pacotes');
