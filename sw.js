@@ -118,6 +118,7 @@ self.addEventListener('fetch', function (event) {
   const file = url.pathname.split('/').pop();
   if (file === 'sw.js') return; // sempre da rede, nunca interceptado
   if (file === 'content-manifest.json') { event.respondWith(networkFirst(req, CONTENT, 'content-manifest.json')); return; }
+  if (file === 'numeracao-estudos.json') { event.respondWith(networkFirst(req, CONTENT, 'numeracao-estudos.json')); return; } // números permanentes dos estudos: sempre o mais novo, com o guardado se estiver sem internet
   if (file === 'config.json') { event.respondWith(staleWhileRevalidate(event, req, SHELL, 'config.json')); return; }
   if (/\/assets\/biblia-voz\/index\.json$/.test(url.pathname)) { event.respondWith(networkFirst(req, CONTENT, 'biblia-voz-index.json')); return; }
   event.respondWith((async function () {
