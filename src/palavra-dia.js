@@ -8,126 +8,96 @@
   var DADOS = [
   { b: '19', c: 23, v: 1, ate: 3, ref: 'Salmos 23:1-3',
     texto: 'O SENHOR é meu pastor, nada me faltará. Ele me faz deitar em pastos verdes, e me leva a águas quietas. Ele restaura minha alma, e me guia pelos caminhos da justiça por seu nome.',
-    reflexao: 'Pastor não é quem manda de longe, é quem caminha junto. Hoje, se o dia parecer maior que as suas forças, lembre-se de quem conduz o seu passo: Ele conhece o caminho e sabe onde você precisa descansar.',
-    oracao: 'Senhor, sê o meu Pastor hoje. Guia os meus passos, acalma o meu coração e ensina-me a confiar em Ti no caminho.' },
+    mensagem: 'Pastor não é quem manda de longe, é quem caminha junto. Hoje, se o dia parecer maior que as suas forças, lembre-se de quem conduz o seu passo: Ele conhece o caminho e sabe onde você precisa descansar.' },
   { b: '23', c: 41, v: 10, ate: 10, ref: 'Isaías 41:10',
     texto: 'Não temas, porque eu estou contigo; não te assombres, porque eu sou teu Deus. Eu te fortaleço, te ajudo, e te sustento com a minha mão direita de justiça.',
-    reflexao: 'O medo costuma falar mais alto do que a promessa. Este versículo não nega a dificuldade; ele muda o centro da cena: Deus está com você, e é essa presença que sustenta.',
-    oracao: 'Pai, quando o medo chegar, lembra-me de que estás comigo. Fortalece-me e ampara-me com a Tua mão.' },
+    mensagem: 'O medo costuma falar mais alto do que a promessa. Este versículo não nega a dificuldade; ele muda o centro da cena: Deus está com você, e é essa presença que sustenta.' },
   { b: '50', c: 4, v: 6, ate: 7, ref: 'Filipenses 4:6-7',
     texto: 'Não estejais ansiosos por coisa alguma; mas em tudo, por meio de orações e súplicas com ações de gratidão, sejam os vossos pedidos conhecidos por Deus; e a paz de Deus, que excede todo entendimento, guardará os vossos corações e as vossas mentes em Cristo Jesus.',
-    reflexao: 'Ansiedade pede resposta, e a resposta bíblica é levar tudo a Deus em oração, com gratidão. A paz prometida não depende de ter todas as respostas, mas de entregar o que pesa.',
-    oracao: 'Senhor, entrego a Ti as minhas preocupações de hoje. Dá-me a Tua paz, que guarda o coração e os pensamentos.' },
+    mensagem: 'Ansiedade pede resposta, e a resposta bíblica é levar tudo a Deus em oração, com gratidão. A paz prometida não depende de ter todas as respostas, mas de entregar o que pesa.' },
   { b: '20', c: 3, v: 5, ate: 6, ref: 'Provérbios 3:5-6',
     texto: 'Confia no SENHOR com todo o teu coração; e não te apoies em teu próprio entendimento. Dá reconhecimento a ele em todas os teus caminhos; e ele endireitará tuas veredas.',
-    reflexao: 'Confiar de todo o coração é decidir, a cada escolha, não se apoiar só no próprio entendimento. Reconhecer Deus nos caminhos é abrir espaço para que Ele os endireite.',
-    oracao: 'Deus, quero Te reconhecer em tudo o que fizer hoje. Endireita os meus caminhos e livra-me de confiar só em mim.' },
+    mensagem: 'Confiar de todo o coração é decidir, a cada escolha, não se apoiar só no próprio entendimento. Reconhecer Deus nos caminhos é abrir espaço para que Ele os endireite.' },
   { b: '40', c: 11, v: 28, ate: 29, ref: 'Mateus 11:28-29',
     texto: 'Vinde a mim todos vós que estais cansados e sobrecarregados, e eu vos farei descansar. Tomai sobre vós o meu jugo e aprendei de mim, porque sou manso e humilde de coração; e encontrareis descanso para as vossas almas.',
-    reflexao: 'Jesus não convida os cansados a se esforçarem mais, mas a virem a Ele. O descanso que Ele oferece começa com uma aproximação simples: vir, aprender, descansar.',
-    oracao: 'Senhor Jesus, estou cansado e venho a Ti. Ensina-me a Tua mansidão e dá descanso à minha alma.' },
+    mensagem: 'Jesus não convida os cansados a se esforçarem mais, mas a virem a Ele. O descanso que Ele oferece começa com uma aproximação simples: vir, aprender, descansar.' },
   { b: '6', c: 1, v: 9, ate: 9, ref: 'Josué 1:9',
-    texto: 'Olha que te mando que te esforces e sejas valente: não temas nem desmaies, porque o SENHOR teu Deus será contigo onde quer que fores.',
-    reflexao: 'A coragem bíblica não nasce de nos sentirmos fortes, mas da certeza de que Deus nos acompanha aonde formos. Hoje, dê o passo que precisa dar sem carregar o medo sozinho.',
-    oracao: 'Senhor, torna-me forte e corajoso. Que eu caminhe hoje sabendo que o Senhor, meu Deus, está comigo.' },
+    texto: 'Olha que te mando que te esforçes e sejas valente: não temas nem desmaies, porque o SENHOR teu Deus será contigo onde quer que fores.',
+    mensagem: 'A coragem bíblica não nasce de nos sentirmos fortes, mas da certeza de que Deus nos acompanha aonde formos. Hoje, dê o passo que precisa dar sem carregar o medo sozinho.' },
   { b: '45', c: 8, v: 28, ate: 28, ref: 'Romanos 8:28',
     texto: 'E sabemos que todas as coisas juntamente contribuem para o bem daqueles que amam a Deus, dos que são chamados segundo o seu propósito.',
-    reflexao: 'A promessa não diz que tudo é bom, mas que Deus age em todas as coisas para o bem dos que O amam. Confiar nisso não apaga a dor; dá a ela um sentido e uma esperança.',
-    oracao: 'Pai, ajuda-me a confiar que o Senhor trabalha em tudo, mesmo no que não entendo. Que eu continue Te amando.' },
+    mensagem: 'A promessa não diz que tudo é bom, mas que Deus age em todas as coisas para o bem dos que O amam. Confiar nisso não apaga a dor; dá a ela um sentido e uma esperança.' },
   { b: '19', c: 46, v: 1, ate: 1, ref: 'Salmos 46:1',
     texto: 'Deus é nosso refúgio e força; socorro oportuno nas angústias.',
-    reflexao: 'Refúgio é o lugar para onde se corre quando a tempestade vem. Antes de buscar soluções, o salmista corre para Deus: Ele já está presente, e é suficiente.',
-    oracao: 'Deus, és o meu refúgio e a minha força. Neste dia, ajuda-me a correr para Ti em primeiro lugar.' },
+    mensagem: 'Refúgio é o lugar para onde se corre quando a tempestade vem. Antes de buscar soluções, o salmista corre para Deus: Ele já está presente, e é suficiente.' },
   { b: '43', c: 14, v: 27, ate: 27, ref: 'João 14:27',
     texto: 'A paz vos deixo, minha paz vos dou; vou dá- la a vós, não como o mundo a dá. Não se perturbe vosso coração, nem se atemorize.',
-    reflexao: 'A paz que o mundo dá depende das circunstâncias; a paz de Jesus permanece mesmo quando elas mudam. Por isso Ele pede que o coração não se perturbe nem tenha medo.',
-    oracao: 'Senhor Jesus, deixa-me a Tua paz. Acalma o meu coração e afasta o medo que me inquieta.' },
+    mensagem: 'A paz que o mundo dá depende das circunstâncias; a paz de Jesus permanece mesmo quando elas mudam. Por isso Ele pede que o coração não se perturbe nem tenha medo.' },
   { b: '25', c: 3, v: 22, ate: 23, ref: 'Lamentações 3:22-23',
     texto: 'É pelas bondades do SENHOR que não somos consumidos, porque suas misericórdias não têm fim. Elas são novas a cada manhã; grande é a tua fidelidade.',
-    reflexao: 'Cada manhã traz uma misericórdia nova. Mesmo depois de um dia difícil, o recomeço é possível, porque a fidelidade de Deus não depende do nosso desempenho de ontem.',
-    oracao: 'Senhor, obrigado porque as Tuas misericórdias se renovam a cada manhã. Dá-me um recomeço fiel hoje.' },
+    mensagem: 'Cada manhã traz uma misericórdia nova. Mesmo depois de um dia difícil, o recomeço é possível, porque a fidelidade de Deus não depende do nosso desempenho de ontem.' },
   { b: '40', c: 6, v: 33, ate: 34, ref: 'Mateus 6:33-34',
     texto: 'Mas buscai primeiramente o Reino de Deus e a sua justiça, e todas estas coisas vos serão acrescentadas. Não andeis, pois, ansiosos pelo dia de amanhã, porque o amanhã cuidará de si mesmo. Basta a cada dia o seu mal.',
-    reflexao: 'Buscar primeiro o Reino é uma questão de prioridade, não de ignorar as necessidades. Jesus convida a viver um dia de cada vez, confiando que o Pai cuida do que precisamos.',
-    oracao: 'Pai, quero buscar primeiro o Teu Reino. Livra-me da ansiedade com o amanhã e ensina-me a viver este dia.' },
+    mensagem: 'Buscar primeiro o Reino é uma questão de prioridade, não de ignorar as necessidades. Jesus convida a viver um dia de cada vez, confiando que o Pai cuida do que precisamos.' },
   { b: '19', c: 121, v: 1, ate: 2, ref: 'Salmos 121:1-2',
     texto: 'Levanto meus olhos aos montes. De onde virá meu socorro? Meu socorro vem do SENHOR, que fez os céus e a terra.',
-    reflexao: 'O salmista levanta os olhos para além dos montes, porque a ajuda não vem do que é grande aos nossos olhos, mas do Criador deles. Olhar para Deus reorganiza o tamanho dos problemas.',
-    oracao: 'Senhor, levanto os meus olhos a Ti. Obrigado porque o meu socorro vem do Senhor, que fez os céus e a terra.' },
+    mensagem: 'O salmista levanta os olhos para além dos montes, porque a ajuda não vem do que é grande aos nossos olhos, mas do Criador deles. Olhar para Deus reorganiza o tamanho dos problemas.' },
   { b: '60', c: 5, v: 7, ate: 7, ref: '1 Pedro 5:7',
     texto: 'lançando sobre ele toda a vossa ansiedade; porque ele tem cuidado de vós.',
-    reflexao: 'Lançar a ansiedade sobre Deus é um ato de confiança: entregar o peso a Quem pode carregá-lo. A razão é simples e profunda: Ele cuida de você.',
-    oracao: 'Pai, lanço sobre Ti a minha ansiedade, porque Tu cuidas de mim. Dá-me descanso na Tua providência.' },
+    mensagem: 'Lançar a ansiedade sobre Deus é um ato de confiança: entregar o peso a Quem pode carregá-lo. A razão é simples e profunda: Ele cuida de você.' },
   { b: '48', c: 6, v: 9, ate: 9, ref: 'Gálatas 6:9',
     texto: 'Porém não cansemos de fazer o bem, pois no tempo devido colheremos, se não desistirmos.',
-    reflexao: 'Fazer o bem cansa quando o resultado demora. A Palavra não promete que será fácil, mas que haverá colheita no tempo certo, se não desanimarmos.',
-    oracao: 'Senhor, dá-me perseverança para fazer o bem sem desanimar. Que eu confie na Tua colheita no tempo certo.' },
+    mensagem: 'Fazer o bem cansa quando o resultado demora. A Palavra não promete que será fácil, mas que haverá colheita no tempo certo, se não desanimarmos.' },
   { b: '19', c: 27, v: 1, ate: 1, ref: 'Salmos 27:1',
     texto: 'O SENHOR é minha luz e minha salvação; a quem temerei? O SENHOR é a força da minha vida; de quem terei medo?',
-    reflexao: 'A luz afasta a escuridão, e o medo costuma morar no escuro. O salmista não diz que não há perigos, mas que o Senhor é a luz, a salvação e a fortaleza da sua vida. Quando o medo chegar hoje, pergunte a quem ele pertence e a quem você pertence.',
-    oracao: 'Senhor, Tu és a minha luz e a minha salvação. Quando o medo tentar falar mais alto, lembra-me de que Tu és a fortaleza da minha vida.' },
+    mensagem: 'A luz afasta a escuridão, e o medo costuma morar no escuro. O salmista não diz que não há perigos, mas que o Senhor é a luz, a salvação e a fortaleza da sua vida. Quando o medo chegar hoje, pergunte a quem ele pertence e a quem você pertence.' },
   { b: '19', c: 37, v: 5, ate: 6, ref: 'Salmos 37:5-6',
     texto: 'Entrega o teu caminho ao SENHOR; confia nele, e ele agirá, e manifestará a tua justiça como a luz, e o teu direito como o sol do meio-dia.',
-    reflexao: 'Entregar o caminho ao Senhor é tirar o peso dos nossos ombros e colocá-lo nas mãos de quem pode carregá-lo. Confiar não é ficar parado, é caminhar sabendo em quem se apoia, e deixar que Ele aja.',
-    oracao: 'Pai, entrego a Ti o meu caminho de hoje. Confio em Ti e peço que faças o que eu não consigo fazer.' },
+    mensagem: 'Entregar o caminho ao Senhor é tirar o peso dos nossos ombros e colocá-lo nas mãos de quem pode carregá-lo. Confiar não é ficar parado, é caminhar sabendo em quem se apoia, e deixar que Ele aja.' },
   { b: '19', c: 91, v: 1, ate: 2, ref: 'Salmos 91:1-2',
     texto: 'Aquele que mora no esconderijo do Altíssimo, à sombra do Todo-Poderoso habitará. Direi ao SENHOR: Tu és meu refúgio e minha fortaleza; Deus meu, em quem confio.',
-    reflexao: 'Habitar no esconderijo do Altíssimo é fazer de Deus a nossa morada, e não apenas uma visita nos dias difíceis. Quem mora ali pode dizer, com calma, que Ele é refúgio, fortaleza e o Deus em quem confia.',
-    oracao: 'Senhor, quero morar no Teu abrigo. Sê o meu refúgio e a minha fortaleza, e que eu confie em Ti em todos os momentos.' },
+    mensagem: 'Habitar no esconderijo do Altíssimo é fazer de Deus a nossa morada, e não apenas uma visita nos dias difíceis. Quem mora ali pode dizer, com calma, que Ele é refúgio, fortaleza e o Deus em quem confia.' },
   { b: '19', c: 34, v: 8, ate: 8, ref: 'Salmos 34:8',
     texto: 'Experimentai, e vede que o SENHOR é bom; bem-aventurado é o homem que confia nele.',
-    reflexao: 'Conhecer a bondade de Deus não é só ouvir falar dela, é experimentar. O salmista convida a provar e ver, e lembra que feliz é quem confia Nele, não por ausência de problemas, mas por ter onde se apoiar.',
-    oracao: 'Senhor, ajuda-me a experimentar a Tua bondade hoje. Que eu confie em Ti e encontre alegria na Tua presença.' },
+    mensagem: 'Conhecer a bondade de Deus não é só ouvir falar dela, é experimentar. O salmista convida a provar e ver, e lembra que feliz é quem confia Nele, não por ausência de problemas, mas por ter onde se apoiar.' },
   { b: '23', c: 40, v: 31, ate: 31, ref: 'Isaías 40:31',
     texto: 'Mas os que confiam no SENHOR renovarão as forças, subirão com asas como águias; correrão, e não se cansarão; caminharão, e não se fatigarão.',
-    reflexao: 'Esperar no Senhor não é desistir, é renovar a força no lugar certo. A promessa é de asas, de corrida sem cansaço e de caminhada sem fraquejar, para quem põe a sua esperança Nele.',
-    oracao: 'Pai, renova as minhas forças. Quando eu me cansar, ensina-me a esperar em Ti e a voltar a caminhar.' },
+    mensagem: 'Esperar no Senhor não é desistir, é renovar a força no lugar certo. A promessa é de asas, de corrida sem cansaço e de caminhada sem fraquejar, para quem põe a sua esperança Nele.' },
   { b: '24', c: 29, v: 11, ate: 11, ref: 'Jeremias 29:11',
     texto: 'Porque eu sei os pensamentos que penso quanto a vós, diz o SENHOR, pensamentos de paz, e não de mal, para vos dar um futuro com esperança.',
-    reflexao: 'Essas palavras foram dirigidas a um povo exilado, longe de casa. Mesmo ali, Deus tinha pensamentos de paz e um futuro de esperança para eles. A promessa nos lembra de que o cuidado de Deus alcança também os dias difíceis.',
-    oracao: 'Senhor, confio nos Teus pensamentos de paz a meu respeito. Dá-me esperança para o futuro e paciência para o hoje.' },
+    mensagem: 'Essas palavras foram dirigidas a um povo exilado, longe de casa. Mesmo ali, Deus tinha pensamentos de paz e um futuro de esperança para eles. A promessa nos lembra de que o cuidado de Deus alcança também os dias difíceis.' },
   { b: '40', c: 7, v: 7, ate: 8, ref: 'Mateus 7:7-8',
     texto: 'Pedi, e vos será dado; buscai, e achareis; batei, e vos será aberto; Pois qualquer um que pede recebe; e quem busca acha; e ao que bate lhe é aberto.',
-    reflexao: 'Jesus convida a pedir, buscar e bater, três formas de insistir com um Pai que ouve. A oração não é um monólogo, é uma porta aberta: quem pede recebe, quem busca encontra e a quem bate se abre.',
-    oracao: 'Pai, venho pedir, buscar e bater à Tua porta. Ensina-me a orar com perseverança e a confiar na Tua resposta.' },
+    mensagem: 'Jesus convida a pedir, buscar e bater, três formas de insistir com um Pai que ouve. A oração não é um monólogo, é uma porta aberta: quem pede recebe, quem busca encontra e a quem bate se abre.' },
   { b: '43', c: 3, v: 16, ate: 16, ref: 'João 3:16',
     texto: 'Porque Deus amou ao mundo de tal maneira, que deu o seu Filho unigênito; para que todo aquele que nele crê não pereça, mas tenha a vida eterna.',
-    reflexao: 'Neste único versículo cabe o coração do evangelho: Deus amou, deu o seu Filho, e quem crê nele recebe a vida eterna. O amor de Deus não ficou na palavra, tornou-se um presente real.',
-    oracao: 'Senhor, obrigado por amares o mundo a ponto de dar o Teu Filho. Fortalece a minha fé em Jesus e a minha gratidão por esse dom.' },
+    mensagem: 'Neste único versículo cabe o coração do evangelho: Deus amou, deu o seu Filho, e quem crê nele recebe a vida eterna. O amor de Deus não ficou na palavra, tornou-se um presente real.' },
   { b: '43', c: 15, v: 5, ate: 5, ref: 'João 15:5',
     texto: 'Eu sou a videira, vós sois os ramos; quem está em mim, e eu nele, esse dá muito fruto; porque sem mim nada podeis fazer.',
-    reflexao: 'O ramo não produz fruto por esforço, mas por estar ligado à videira. Permanecer em Cristo é a fonte da vida cristã, e sem Ele, diz Jesus, nada podemos fazer.',
-    oracao: 'Senhor Jesus, quero permanecer em Ti. Faze de mim um ramo que dá fruto, não pela minha força, mas pela Tua vida em mim.' },
+    mensagem: 'O ramo não produz fruto por esforço, mas por estar ligado à videira. Permanecer em Cristo é a fonte da vida cristã, e sem Ele, diz Jesus, nada podemos fazer.' },
   { b: '45', c: 12, v: 2, ate: 2, ref: 'Romanos 12:2',
     texto: 'E não vos conformeis com a presente era; mas transformai-vos pela renovação da vossa mentalidade, para que experimenteis qual seja a boa, agradável, e perfeita vontade de Deus.',
-    reflexao: 'A transformação começa pela mente. Em vez de seguir o molde do mundo, somos chamados a ser renovados, e é nessa renovação que aprendemos a reconhecer a boa, agradável e perfeita vontade de Deus.',
-    oracao: 'Pai, renova a minha mente pela Tua Palavra. Que eu não me conforme com o que passa, mas aprenda a conhecer a Tua vontade.' },
-  { b: '47', c: 12, v: 9, ate: 9, ref: '2 Coríntios 12:9',
+    mensagem: 'A transformação começa pela mente. Em vez de seguir o molde do mundo, somos chamados a ser renovados, e é nessa renovação que aprendemos a reconhecer a boa, agradável e perfeita vontade de Deus.' },
+  { b: '47', c: 12, v: 9, ate: 9, ref: '2 Coríntíos 12:9',
     texto: 'Mas ele me disse: “Minha graça te basta, porque meu poder se aperfeiçoa na fraqueza”. Por isso, com muito prazer, eu me orgulharei nas minhas fraquezas, para que o poder de Cristo habite em mim.',
-    reflexao: 'Paulo ouviu de Deus que a graça basta, e que o poder dele se aperfeiçoa na fraqueza. Isso muda o modo de ver as nossas limitações: elas podem se tornar o lugar onde a graça de Deus aparece com mais clareza.',
-    oracao: 'Senhor, a Tua graça me basta. Nas minhas fraquezas, mostra o Teu poder e ensina-me a descansar em Ti.' },
+    mensagem: 'Paulo ouviu de Deus que a graça basta, e que o poder dele se aperfeiçoa na fraqueza. Isso muda o modo de ver as nossas limitações: elas podem se tornar o lugar onde a graça de Deus aparece com mais clareza.' },
   { b: '49', c: 2, v: 8, ate: 9, ref: 'Efésios 2:8-9',
     texto: 'Porque pela graça sois salvos, por meio da fé; e isto não vem de vós; é dom de Deus; não por obras, para que ninguém tenha orgulho de si mesmo.',
-    reflexao: 'A salvação é um presente, e não um prêmio. Somos salvos pela graça, mediante a fé, e nem isso vem de nós. Por isso não há lugar para a vaidade, apenas para a gratidão.',
-    oracao: 'Pai, obrigado pela salvação que recebi como dádiva. Livra-me do orgulho e enche o meu coração de gratidão.' },
+    mensagem: 'A salvação é um presente, e não um prêmio. Somos salvos pela graça, mediante a fé, e nem isso vem de nós. Por isso não há lugar para a vaidade, apenas para a gratidão.' },
   { b: '50', c: 4, v: 13, ate: 13, ref: 'Filipenses 4:13',
     texto: 'Posso todas as coisas em Cristo que me fortalece.',
-    reflexao: 'Paulo escreveu essas palavras da prisão, depois de aprender a viver com fartura e com escassez. A força de que fala não é para vencer qualquer desafio que desejamos, mas para suportar e cumprir o que Deus coloca diante de nós, em Cristo.',
-    oracao: 'Senhor, em Cristo posso enfrentar este dia. Dá-me a força de que preciso para fazer o que Tu me chamas a fazer.' },
+    mensagem: 'Paulo escreveu essas palavras da prisão, depois de aprender a viver com fartura e com escassez. A força de que fala não é para vencer qualquer desafio que desejamos, mas para suportar e cumprir o que Deus coloca diante de nós, em Cristo.' },
   { b: '51', c: 3, v: 23, ate: 23, ref: 'Colossenses 3:23',
     texto: 'E tudo quanto fizerdes, fazei de coração, como para o Senhor, e não para as pessoas.',
-    reflexao: 'Trabalhar de coração, como para o Senhor, muda o valor de uma tarefa comum. O serviço mais simples ganha sentido quando é feito diante de Deus e não apenas diante das pessoas.',
-    oracao: 'Pai, que eu faça o meu trabalho de hoje de todo o coração, como para Ti, e que isso Te honre.' },
+    mensagem: 'Trabalhar de coração, como para o Senhor, muda o valor de uma tarefa comum. O serviço mais simples ganha sentido quando é feito diante de Deus e não apenas diante das pessoas.' },
   { b: '58', c: 11, v: 1, ate: 1, ref: 'Hebreus 11:1',
     texto: 'Ora, a fé é a certeza das coisas que se esperam, e a prova das coisas que não se veem.',
-    reflexao: 'A fé não é um sentimento vago, é a firme certeza de algo que ainda não vemos. Ela se apoia no caráter de Deus, que cumpre o que promete, e nos permite caminhar mesmo quando o caminho ainda não está claro.',
-    oracao: 'Senhor, aumenta a minha fé. Ajuda-me a confiar em Ti também naquilo que ainda não vejo.' },
+    mensagem: 'A fé não é um sentimento vago, é a firme certeza de algo que ainda não vemos. Ela se apoia no caráter de Deus, que cumpre o que promete, e nos permite caminhar mesmo quando o caminho ainda não está claro.' },
   { b: '59', c: 1, v: 5, ate: 5, ref: 'Tiago 1:5',
     texto: 'Se algum de vós tem falta de sabedoria, peça a Deus, que concede generosamente a todos sem repreender, e lhe será dada.',
-    reflexao: 'Quem precisa de sabedoria é convidado a pedir, e a promessa é de que Deus dá a todos generosamente, sem repreender. Reconhecer que falta sabedoria é o primeiro passo para recebê-la.',
-    oracao: 'Pai, preciso de sabedoria hoje. Dá-me, generosamente, o discernimento para decidir e agir como Te agrada.' }
+    mensagem: 'Quem precisa de sabedoria é convidado a pedir, e a promessa é de que Deus dá a todos generosamente, sem repreender. Reconhecer que falta sabedoria é o primeiro passo para recebê-la.' }
   ];
-  var CREDITO = 'Texto bíblico: Bíblia Livre (BLIVRE), CC BY 4.0. Reflexão e oração escritas com apoio de inteligência artificial; não substituem a Bíblia.';
+  var CREDITO = 'Texto bíblico: Bíblia Livre (BLIVRE), CC BY 4.0. Mensagem escrita com apoio de inteligência artificial; não substitui a Bíblia.';
 
   /* um item por dia, na ordem, pela data local do aparelho */
   function indiceDoDia(data, total) {
@@ -186,8 +156,8 @@
     return { titulo: 'Sua Palavra do Dia chegou!', corpo: '“' + t + '” — ' + e.ref + String.fromCharCode(10) + 'Toque para ler a mensagem completa', url: './?pdia=' + idx };
   }
   function roteiro(e) {
-    /* o texto da tela e a narração dizem "Amém." (segmento próprio, usado também na legenda) */
-    return ['Palavra do dia.', refFalada(e) + '.', falaRefs(e.texto), 'Reflexão.', falaRefs(e.reflexao), 'Oração.', falaRefs(e.oracao), 'Amém.'].join(' ');
+    /* a Palavra do Dia é uma só mensagem devocional: versículo + mensagem (sem blocos "Reflexão" e "Oração") */
+    return ['Palavra do dia.', refFalada(e) + '.', falaRefs(e.texto), falaRefs(e.mensagem)].join(' ');
   }
 
   var IMGS = ['assets/hero-dawn.jpg', 'assets/hero-reading.jpg', 'assets/hero-bible.jpg'];
@@ -205,7 +175,7 @@
   }
   function textoParaCompartilhar(e, link) {
     var N = String.fromCharCode(10), NN = N + N;
-    return '“' + e.texto + '”' + N + e.ref + ' (Bíblia Livre, BLIVRE)' + NN + 'Reflexão: ' + e.reflexao + NN + 'Oração: ' + e.oracao + NN + 'Palavra Viva – Aprendendo as Escrituras' + (link ? N + link : '');
+    return '“' + e.texto + '”' + N + e.ref + ' (Bíblia Livre, BLIVRE)' + NN + e.mensagem + NN + 'Palavra Viva – Aprendendo as Escrituras' + (link ? N + link : '');
   }
 
   var falando = false, audioEl = null;
@@ -222,10 +192,9 @@
     fr.forEach(function (s, i) {
       s = s.trim();
       var t0 = t ? t[i][0] : dur * acc / total; acc += s.length; var t1 = t ? t[i][1] : dur * acc / total;
-      if (s === 'Reflexão.') sec = 1; if (s === 'Oração.') sec = 2;
-      var sk = i < 2 || s === 'Reflexão.' || s === 'Oração.', ws = s.slice(0, -1).split(' '), tot = 0, x = t0; ws.forEach(function (w) { tot += w.length + 2; });
+      var sk = i < 2, ws = s.slice(0, -1).split(' '), tot = 0, x = t0; ws.forEach(function (w) { tot += w.length + 2; });
       var lista = ws.map(function (w) { var d = (t1 - t0) * (w.length + 2) / tot, r = { x: w, a: x }; x += d; return r; });
-      if (!sk && s !== 'Amém.') lista.forEach(function (w) { flat.push(w); });
+      if (!sk) lista.forEach(function (w) { flat.push(w); });
       out.push({ sec: sec, skip: sk, t0: t0, w: lista });
     });
     return { L: out, flat: flat };
@@ -405,12 +374,11 @@
     }, 'pdib'); shb.innerHTML = SVG_SHARE; shb.setAttribute('aria-label', 'Compartilhar esta mensagem');
     var top = el('div', 'pdtop'); [xb, ti, sb, shb].forEach(function (n) { top.appendChild(n); });
     /* texto completo, fixo; cada palavra é um <span> para o destaque acompanhar a voz */
-    var body = el('div', 'pdbody'), bq = el('blockquote'), pr = el('p'), po = el('p'), sp = [];
+    var body = el('div', 'pdbody'), bq = el('blockquote'), pr = el('p'), sp = [];
     function envolver(n, t) { t.split(' ').forEach(function (x) { var s = el('span', null, x + ' '); n.appendChild(s); sp.push(s); }); }
-    envolver(bq, e.texto); envolver(pr, e.reflexao); envolver(po, e.oracao);
+    envolver(bq, e.texto); envolver(pr, e.mensagem);
     body.appendChild(bq); body.appendChild(el('p', 'tr', 'Tradução: Bíblia Livre (BLIVRE), CC BY 4.0'));
-    body.appendChild(el('h3', null, 'Reflexão')); body.appendChild(pr);
-    body.appendChild(el('h3', null, 'Oração')); body.appendChild(po);
+    pr.style.marginTop = '14px'; body.appendChild(pr);
     body.appendChild(el('p', 'cr', CREDITO)); body.appendChild(lk);
     /* player: ▶/❚❚ + progresso + tempo */
     var play = botao('▶', alternar, 'pdplay'); play.setAttribute('aria-label', 'Ouvir');
