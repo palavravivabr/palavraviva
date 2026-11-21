@@ -8,7 +8,7 @@ const VERSION = '__SHELL_HASH__';
 const SHELL = 'pv4-shell-' + VERSION;
 const CONTENT = 'pv4-content';
 const MEDIA = 'pv4-media';
-const SHELL_FILES = ['./', 'index.html', 'app.js', 'styles.css', 'src/core.js', 'src/books.js', 'src/palavra-dia.js', 'src/home2.js', 'src/home3.js', 'src/ui-extra.js', 'src/audio-ui.js', 'src/boot.js', 'manifest.json', 'reset.html', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/icon-maskable-192.png', 'icons/icon-maskable-512.png'];
+const SHELL_FILES = ['./', 'index.html', 'app.js', 'styles.css', 'src/core.js', 'src/books.js', 'src/palavra-dia.js', 'src/home2.js', 'src/home3.js', 'src/ui-extra.js', 'src/estudos-extra.js', 'src/audio-ui.js', 'src/boot.js', 'manifest.json', 'reset.html', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/icon-maskable-192.png', 'icons/icon-maskable-512.png'];
 /* capas fotográficas dos estudos (78 fotos leves) e o mapa estudo→foto */
 const CAPAS = ['01', '02', '03', '04', '05', '06', '07', '08', '09', '10', '11', '12', '25', '26', '27', '28', '29', '30', '31', '32', '33', '34', '35', '36', '37', '38', '39', '41', '42', '50', '51', '52', '53', '54', '55', '56', '57', '58', '59', '60', '61', '62', '63', '64', '65', '66', '67', '68', '69', '70', '71', '72', '73', '74', '75', '76', '77', '78', '79', '80', '81', '82', '83', '84', '85', '86', '87', '88', '89', '90', '91', '92', '93', '94', '95', '96', '97', '98'].map(function (n) { return 'assets/capa-' + n + '.jpg'; });
 /* opcionais: se faltarem no servidor, a instalação NÃO falha */
