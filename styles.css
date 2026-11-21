@@ -417,3 +417,17 @@ a:focus-visible,[role="button"]:focus-visible,[tabindex]:focus-visible,summary:f
 .rbar{display:block;height:5px;border-radius:3px;background:var(--line);margin-top:6px;overflow:hidden}
 .rbar[hidden]{display:none}
 .rbar i{display:block;height:100%;background:var(--accent)}
+/* numeração e acompanhamento dos estudos */
+.estprog{margin:0 0 12px;padding:12px 14px;border-radius:16px;background:var(--card);box-shadow:var(--shadow)}
+.estprog b{display:block;font-size:14px;font-weight:700}
+.estc .estn{position:absolute;left:8px;top:8px;z-index:1;min-width:28px;height:24px;padding:0 8px;border-radius:12px;background:rgba(0,0,0,.58);color:#fff;font:700 12px/24px var(--ui);font-style:normal;text-align:center}
+.estc .estok{position:absolute;right:8px;top:8px;z-index:1;width:24px;height:24px;border-radius:50%;background:var(--gold);color:var(--gold-ink);font:800 13px/24px var(--ui);font-style:normal;text-align:center}
+.estnum{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;padding:2px 0 6px}
+.estnum:empty{display:none}
+.estnum b{font-size:12px;font-weight:800;letter-spacing:.04em;padding:4px 12px;border-radius:12px;background:var(--gold-soft);color:var(--tagink)}
+.estlido{font-size:13px;font-weight:700;color:var(--accent)}
+#estFim{margin-top:6px}
+.estfim{display:flex;align-items:center;justify-content:center;gap:14px;padding:12px 0}
+.estdes{min-height:44px;padding:0 6px;font-size:13px;color:var(--soft);text-decoration:underline}
+.estmarca{width:100%;min-height:48px}
+.ensfil .chip.chipnl{border:2px solid var(--accent)}
