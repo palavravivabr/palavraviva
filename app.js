@@ -374,6 +374,7 @@
     }
     var n = l.filter(function (it) { return planoFeito(p, it); }).length, pct = Math.floor(n / l.length * 100), d = planoDia(l, p);
     body.appendChild(topo(pct, d.fim ? '✓' : String(d.dia), d.fim ? 'fim' : 'de ' + tot, d.fim ? 'Plano concluído' : 'Dia ' + d.dia + ' de ' + tot, n + ' de ' + l.length + ' capítulos · ' + pct + '%'));
+    body.appendChild(h('div', { class: 'estprog planoprog', role: 'status' }, [h('b', { text: 'Seu progresso neste plano: ' + n + ' de ' + l.length + ' capítulos · ' + pct + '%' }), h('span', { class: 'rbar', 'aria-hidden': 'true' }, [h('i', { style: 'width:' + pct + '%' })])]));
     if (d.fim) body.appendChild(h('p', { class: 'pnota', text: 'Você terminou os quatro Evangelhos. Que a Palavra continue a falar com você.' }));
     else {
       body.appendChild(h('h3', { class: 'planosec', text: 'Leitura de hoje' }));
@@ -647,14 +648,32 @@
     });
   }
 
+  /* ---------- numeração permanente e acompanhamento de leitura dos estudos ----------
+     número: content/numeracao-estudos.json (gravado uma vez por estudo; não depende de posição, título ou categoria)
+     lido: kv "estudos-lidos" = { idDoEstudo: data em ms }, só neste aparelho, entra no backup; só o usuário marca (botão no fim do estudo) */
+  function estNumerosGet() {
+    return fetch('content/numeracao-estudos.json').then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }).then(function (j) { return (j && j.numeros) || {}; });
+  }
+  function estLidosGet() { return kvGet('estudos-lidos').then(function (v) { return v && typeof v === 'object' ? v : {}; }); }
+  function estLidoSet(id, lido) {
+    return estLidosGet().then(function (l) {
+      if (lido) { if (!l[id]) l[id] = Date.now(); } else delete l[id];
+      return kvSet('estudos-lidos', l).then(function () { return l; });
+    });
+  }
+  function dataCurta(ts) { try { return new Date(ts).toLocaleDateString('pt-BR'); } catch (e) { return ''; } }
+
   /* página Estudos em grade: busca, filtro por grupo de livros e exibição progressiva (24 por vez, sem remover nenhum estudo) */
   var ENS_PASSO = 24;
-  function semAcento(t) { return String(t || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase(); }
+  function semAcento(t) { return String(t || '').normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase(); }
   function viewEnsinosGrade(body, ps, H3) {
     var order = {}; catalog().forEach(function (b, i) { order[b.id] = i; });
     var lista = ps.slice().sort(function (x, y) { return (order[x.book] - order[y.book]) || (x.chapter - y.chapter) || String(x.id).localeCompare(String(y.id), undefined, { numeric: true }); });
     var presentes = H3.GRUPOS.filter(function (g) { return lista.some(function (p) { var q = H3.grupoDe(p.book); return q && q.id === g.id; }); });
-    var filtro = 'todos', busca = '', mostrar = ENS_PASSO, mapa = null;
+    var filtro = 'todos', busca = '', mostrar = ENS_PASSO, mapa = null, lidos = {}, nums = {}, soNaoLidos = false;
+    var prog = h('div', { class: 'estprog', role: 'status' }), progTxt = h('b'), progBar = h('i');
+    prog.appendChild(progTxt); prog.appendChild(h('span', { class: 'rbar', 'aria-hidden': 'true' }, [progBar]));
+    body.appendChild(prog);
     var campo = h('input', { type: 'search', class: 'ensbusca', placeholder: 'Buscar estudo ou livro', 'aria-label': 'Buscar estudo ou livro', autocomplete: 'off' });
     var chips = h('div', { class: 'ensfil', role: 'group', 'aria-label': 'Filtrar estudos por grupo de livros' });
     var info = h('p', { class: 'ensinfo', 'aria-live': 'polite' });
@@ -664,30 +683,40 @@
     campo.addEventListener('input', function () { busca = semAcento(campo.value).trim(); mostrar = ENS_PASSO; pinta(); });
     var pinta = function () {
       clear(chips); clear(grid);
+      var nl = h('button', { class: 'chip chipnl' + (soNaoLidos ? ' on' : ''), type: 'button', 'aria-pressed': soNaoLidos ? 'true' : 'false', text: 'Não lidos', onclick: function () { soNaoLidos = !soNaoLidos; mostrar = ENS_PASSO; pinta(); } });
       [{ id: 'todos', nome: 'Todos' }].concat(presentes).forEach(function (g) {
         chips.appendChild(h('button', { class: 'chip' + (filtro === g.id ? ' on' : ''), type: 'button', 'aria-pressed': filtro === g.id ? 'true' : 'false', text: g.nome, onclick: function () { filtro = g.id; mostrar = ENS_PASSO; pinta(); } }));
       });
+      chips.insertBefore(nl, chips.children[1] || null);
       var filtrados = lista.filter(function (p) {
         if (filtro !== 'todos') { var q = H3.grupoDe(p.book); if (!q || q.id !== filtro) return false; }
+        if (soNaoLidos && lidos[p.id]) return false;
         if (!busca) return true;
         var bk = bookOf(p.book), txt = semAcento((p.titulo || '') + ' ' + (p.ref || '') + ' ' + (bk ? bk.name : ''));
         return txt.indexOf(busca) !== -1;
       });
       var visiveis = filtrados.slice(0, mostrar);
-      info.textContent = filtrados.length ? 'Mostrando ' + visiveis.length + ' de ' + filtrados.length + (filtrados.length === 1 ? ' estudo' : ' estudos') : 'Nenhum estudo encontrado. Tente outra palavra ou outro grupo.';
+      info.textContent = filtrados.length ? 'Mostrando ' + visiveis.length + ' de ' + filtrados.length + (filtrados.length === 1 ? ' estudo' : ' estudos') : (soNaoLidos && !busca && filtro === 'todos' ? 'Você já leu todos os estudos. Parabéns!' : 'Nenhum estudo encontrado. Tente outra palavra ou outro grupo.');
+      var total = lista.length, nLidos = lista.filter(function (p) { return lidos[p.id]; }).length;
+      var pct = total ? Math.floor(nLidos * 100 / total) : 0;
+      progTxt.textContent = 'Você leu ' + nLidos + ' de ' + total + (total === 1 ? ' estudo' : ' estudos') + ' · ' + (nLidos && !pct ? 'menos de 1%' : pct + '%');
+      progBar.style.width = (nLidos ? Math.max(1, nLidos * 100 / total) : 0) + '%';
       visiveis.forEach(function (p) {
-        var bk = bookOf(p.book), nome = bk ? bk.name : livroNome(p.ref);
+        var bk = bookOf(p.book), nome = bk ? bk.name : livroNome(p.ref), lido = !!lidos[p.id];
         var foto = H3.capaFoto(mapa, p.id);
         var cv = h('span', { class: 'cv' });
         cv.style.backgroundImage = (foto ? 'url("' + foto + '"),' : '') + 'url("' + H3.capaSvg(null, nome) + '")';
+        if (nums[p.id]) cv.appendChild(h('i', { class: 'estn', text: String(nums[p.id]) }));
+        if (lido) cv.appendChild(h('i', { class: 'estok', text: '✓', title: 'Já lido' }));
         cv.appendChild(h('b', { text: nome }));
-        grid.appendChild(h('button', { class: 'estc', type: 'button', 'aria-label': 'Abrir estudo: ' + (p.titulo || p.ref) + ' (' + p.ref + ')', onclick: function () { go({ v: 'study', id: p.id }); } }, [cv, h('small', { text: p.titulo || p.ref })]));
+        grid.appendChild(h('button', { class: 'estc' + (lido ? ' lido' : ''), type: 'button', 'aria-label': 'Abrir estudo ' + (nums[p.id] ? 'número ' + nums[p.id] + ': ' : ': ') + (p.titulo || p.ref) + ' (' + p.ref + ')' + (lido ? ', já lido' : ''), onclick: function () { go({ v: 'study', id: p.id }); } }, [cv, h('small', { text: p.titulo || p.ref })]));
       });
       var resta = filtrados.length - visiveis.length;
       mais.hidden = resta <= 0;
       mais.textContent = 'Carregar mais estudos (' + Math.min(ENS_PASSO, resta) + ' de ' + resta + ' restantes)';
     };
     pinta();
+    Promise.all([estLidosGet(), estNumerosGet()]).then(function (r) { lidos = r[0]; nums = r[1]; pinta(); });
     /* o mapa de fotos é opcional: sem ele, ficam as capas desenhadas */
     fetch('assets/capas-map.json').then(function (r) { return r.ok ? r.json() : null; }).catch(function () { return null; }).then(function (m) { mapa = m; pinta(); });
   }
@@ -706,6 +735,18 @@
     if (curState !== s) return;
     var refs = (p.refs || []).map(function (r) { return { text: r, to: resolveRef(r) }; }).filter(function (r) { return r.to; });
     var shown = core.visibleTabs({ verses: p.verses, entender: p.entender, ligar: p.ligar, viver: p.viver, guarde: p.guarde, ore: p.ore, quiz: p.quiz, refs: refs });
+    var estN = (await estNumerosGet())[meta.id], estLidos = await estLidosGet();
+    if (curState !== s) return;
+    var estFim = clear($('#estFim'));
+    function estPinta() {
+      var dt = estLidos[meta.id];
+      clear(estFim);
+      estFim.appendChild(dt
+        ? h('div', { class: 'estfim lido' }, [h('span', { class: 'estlido', text: '✓ Lido em ' + dataCurta(dt) }), h('button', { class: 'estdes', type: 'button', text: 'Desmarcar', onclick: function () { estLidoSet(meta.id, false).then(function (l) { estLidos = l; estPinta(); }); } })])
+        : h('button', { class: 'btn alt estmarca', type: 'button', text: 'Marcar como lido', onclick: function () { estLidoSet(meta.id, true).then(function (l) { estLidos = l; estPinta(); toast('Estudo marcado como lido'); }); } }));
+    }
+    estPinta();
+    head.appendChild(h('div', { class: 'estnum' }, estN ? [h('b', { text: 'Estudo nº ' + estN })] : []));
     if (p.titulo) { head.appendChild(h('h2', { class: 'stitle', text: p.titulo })); }
     head.appendChild(h('button', { class: 'btn alt sharebtn', type: 'button', text: 'Compartilhar este estudo', onclick: function () { shareStudy(meta.id); } }));
     var NAMES = { ler: 'Ler', entender: 'Entender', ligar: 'Ligar ao evangelho', viver: 'Viver', testar: 'Testar', aprofundar: 'Aprofundar' };
